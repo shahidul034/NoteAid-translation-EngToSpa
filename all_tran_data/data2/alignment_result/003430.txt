@@ -1,0 +1,174 @@
+l1: Therapeutic drug level are laboratory tests to look for the presence and the amount of specific drugs in the blood.
+l2: Son exámenes de laboratorio para buscar la presencia y la cantidad de drogas específicas en la sangre.
+l1: A blood sample is needed.
+l2: Se necesita una muestra de sangre.
+l1: For information on how this is done, see:Venipuncture
+l2: Para obtener información sobre la forma como se hace esto, ver el artículo: venopunción.
+l1: With most medications, you need a certain level of drug in your bloodstream to obtain the desired effect.
+l2: Con la mayoría de los medicamentos, se necesita un cierto nivel del fármaco en el torrente sanguíneo para obtener el efecto deseado.
+l1: Some medications are harmful if the level rises too high and do not work if the levels are too low.
+l2: Algunos medicamentos son dañinos si el nivel aumenta demasiado y no son efectivos si sus niveles son demasiado bajos.
+l1: Monitoring the amount of the drug found in your blood allows your health care provider to make sure the drug levels are within an effective range.
+l2: El control de la cantidad del fármaco en la sangre le permite al médico asegurarse de que sus niveles estén dentro del rango efectivo.
+l1: Drug level testing is especially important in people taking drugs such as:
+l2: La realización de pruebas de los niveles del fármaco es especialmente importante en personas que toman medicamentos como:
+l1: Procainamide or digoxin used to treat abnormal beating of the heart
+l2: Procainamida o digoxina, empleadas en el tratamiento de los latidos cardíacos anormales
+l1: Dilantin or valproic acid used to treat seizures
+l2: Dilantin o ácido valproico, utilizados en el tratamiento de convulsiones
+l1: Gentamicin or amikacin, antibiotics used to treat infections
+l2: Gentamicina o amikacina, antibióticos utilizados en el tratamiento de infecciones
+l1: Testing may also be done to determine how well your body breaks down the drug ( metabolism), or how it interacts with other necessary drugs.
+l2: Estas pruebas también se pueden hacer para determinar qué tan bien descompone el cuerpo el fármaco ( metabolismo) o cómo interactúa éste con otros fármacos necesarios.
+l1: Following are some of the drugs that are commonly checked, followed by the normal target levels:
+l2: A continuación se presentan algunos de los fármacos comúnmente analizados, seguidos de sus niveles normales esperados:
+l1: Acetaminophen: varies with use
+l2: Paracetamol: varía con el uso
+l1: Amikacin: 15 to 25 mcg/mL
+l2: Amikacina: 15 a 25 mcg/mL
+l1: Aminophylline: 10 to 20 mcg/mL
+l2: Aminofilina: 10 a 20 mcg/mL
+l1: Amitriptyline: 120 to 150 ng/mL
+l2: Amitriptilina: 120 a 150 ng/mL
+l1: Carbamazepine: 5 to 12 mcg/mL
+l2: Carbamazepina: 5 a 12 mcg/mL
+l1: Chloramphenicol: 10 to 20 mcg/mL
+l2: Cloranfenicol: 10 a 20 mcg/mL
+l1: Desipramine: 150 to 300 ng/mL
+l2: Desipramina: 150 a 300 ng/mL
+l1: Digoxin: 0.8 to 2.0 ng/mL
+l2: Digoxina: 0.8 a 2.0 ng/mL
+l1: Disopyramide: 2 to 5 mcg/mL
+l2: Disopiramida: 2 a 5 mcg/mL
+l1: Ethosuximide: 40 to 100 mcg/mL
+l2: Etosuximida: 40 a 100 mcg/mL
+l1: Flecainide: 0.2 to 1.0 mcg/mL
+l2: Flecainida: 0.2 a 1.0 mcg/mL
+l1: Gentamicin: 5 to 10 mcg/mL
+l2: Gentamicina: 5 a 10 mcg/mL
+l1: Imipramine: 150 to 300 ng/mL
+l2: Imipramina: 150 a 300 ng/mL
+l1: Kanamycin: 20 to 25 mcg/mL
+l2: Kanamicina: 20 a 25 mcg/mL
+l1: Lidocaine: 1.5 to 5.0 mcg/mL
+l2: Lidocaína: 1.5 a 5.0 mcg/mL
+l1: Lithium: 0.8 to 1.2 mEq/L
+l2: Litio: 0.8 a 1.2 mEq/L
+l1: Methotrexate: greater than 0.01 mcmol
+l2: Metotrexato: superior a 0.01 mcmol
+l1: Nortriptyline: 50 to 150 ng/mL
+l2: Nortriptilina: 50 a 150 ng/mL
+l1: Phenobarbital: 10 to 30 mcg/mL
+l2: Fenobarbital: 10 a 30 mcg/mL
+l1: Phenytoin: 10 to 20 mcg/mL
+l2: Fenitoína: 10 a 20 mcg/mL
+l1: Primidone: 5 to 12 mcg/mL
+l2: Primidona: 5 a 12 mcg/mL
+l1: Procainamide: 4 to 10 mcg/mL
+l2: Procainamida: 4 a 10 mcg/mL
+l1: Propranolol: 50 to 100 ng/mL
+l2: Propranolol: 50 a 100 ng/mL
+l1: Quinidine: 2 to 5 mcg/mL
+l2: Quinidina: 2 a 5 mcg/mL
+l1: Salicylate: 100 to 250 mcg/mL
+l2: Salicilato: 100 a 250 mcg/mL
+l1: Theophylline: 10 to 20 mcg/mL
+l2: Teofilina: 10 a 20 mcg/mL
+l1: Tobramycin: 5 to 10 mcg/mL
+l2: Tobramicina: 5 a 10 mcg/mL
+l1: Valproic acid: 50 to 100 mcg/mL
+l2: Ácido valproico: 50 a 100 mcg/mL
+l1: Note:
+l2: Nota:
+l1: mcg/mL = microgram per milliliter
+l2: mcg/mL = microgramo por mililitro
+l1: ng/mL = nanogram per milliliter
+l2: ng/mL = nanogramo por mililitro
+l1: mEq/L = milliequivalents per liter
+l2: mEq/L = miliequivalentes por litro
+l1: mcmol = micromole
+l2: mcmol = micromol
+l1: Normal value ranges may vary slightly among different laboratories.
+l2: Nota: los rangos de los valores normales pueden variar ligeramente entre diferentes laboratorios.
+l1: Talk to your doctor about the meaning of your specific test results.
+l2: Hable con el médico acerca del significado de los resultados específicos de su examen.
+l1: The examples above show the common measurements for results for these tests.
+l2: Los ejemplos anteriores muestran las mediciones comunes para los resultados de estas pruebas.
+l1: Some laboratories use different measurements or may test different specimens.
+l2: Algunos laboratorios usan diferentes medidas o podrían evaluar diferentes muestras.
+l1: Values outside the target range may be due to minor fluctuations or may be a sign that you need to adjust the dose of the medicine.
+l2: Los valores por fuera del rango esperado pueden deberse a fluctuaciones menores o pueden ser un signo de que usted necesita ajustar la dosis del medicamento.
+l1: A dose may need to be skipped if the value measured exceeds the following levels.
+l2: Puede ser necesario omitir una dosis si el valor medido excede los siguientes niveles.
+l1: Following are toxic levels for some of the drugs that are commonly checked:
+l2: A continuación se presentan los niveles tóxicos para algunos de los fármacos comúnmente analizados:
+l1: Acetaminophen: greater than 250 mcg/mL
+l2: Paracetamol: superior a 250 mcg/mL
+l1: Amikacin: greater than 25 mcg/mL
+l2: Amikacina: superior a 25 mcg/mL
+l1: Aminophylline: greater than 20 mcg/mL
+l2: Aminofilina: superior a 20 mcg/mL
+l1: Amitriptyline: greater than 500 ng/mL
+l2: Amitriptilina: superior a 500 ng/mL
+l1: Carbamazepine: greater than 12 mcg/mL
+l2: Carbamazepina: superior a 12 mcg/mL
+l1: Chloramphenicol: greater than 25 mcg/mL
+l2: Cloranfenicol: superior a 25 mcg/mL
+l1: Desipramine: greater than 500 ng/mL
+l2: Desipramina: superior a 500 ng/mL
+l1: Digoxin: greater than 2.4 ng/mL
+l2: Digoxina: superior a 2.4 ng/mL
+l1: Disopyramide: greater than 5 mcg/mL
+l2: Disopiramida: superior a 5 mcg/mL
+l1: Ethosuximide: greater than 100 mcg/mL
+l2: Etosuximida: superior a 100 mcg/mL
+l1: Flecainide: greater than 1.0 mcg/mL
+l2: Flecainida: superior a 1.0 mcg/mL
+l1: Gentamicin: greater than 12 mcg/mL
+l2: Gentamicina: superior a 12 mcg/mL
+l1: Imipramine: greater than 500 ng/mL
+l2: Imipramina: superior a 500 ng/mL
+l1: Kanamycin: greater than 35 mcg/mL
+l2: Kanamicina: superior a 35 mcg/mL
+l1: Lidocaine: greater than 5 mcg/mL
+l2: Lidocaína: superior a 5 mcg/mL
+l1: Lithium: greater than 2.0 mEq/L
+l2: Litio: superior a 2.0 mEq/L
+l1: Methotrexate: greater than 10 mcmol over 24-hours
+l2: Metotrexato: superior a 10 mcmol por 24 horas
+l1: Nortriptyline: greater than 500 ng/mL
+l2: Nortriptilina: superior a 500 ng/mL
+l1: Phenobarbital: greater than 40 mcg/mL
+l2: Fenobarbital: superior a 40 mcg/mL
+l1: Phenytoin: greater than 30 mcg/mL
+l2: Fenitoina: superior a 30 mcg/mL
+l1: Primidone: greater than 15 mcg/mL
+l2: Primidona: superior a 15 mcg/mL
+l1: Procainamide: greater than 16 mcg/mL
+l2: Procainamida: superior a 16 mcg/mL
+l1: Propranolol: greater than 150 ng/mL
+l2: Propranolol: superior a 150 ng/mL
+l1: Quinidine: greater than 10 mcg/mL
+l2: Quinidina: superior a 10 mcg/mL
+l1: Salicylate: greater than 300 mcg/mL
+l2: Salicilato: superior a 300 mcg/mL
+l1: Theophylline: greater than 20 mcg/mL
+l2: Teofilina: superior a 20 mcg/mL
+l1: Yobramycin: greater than 12 mcg/mL
+l2: Tobramicina: superior a 12 mcg/mL
+l1: Valproic acid: greater than 100 mcg/mL
+l2: Ácido valproico: superior a 100 mcg/mL
+l1: Veins and arteries vary in size from one patient to another and from one side of the body to the other.Obtaining a blood sample from some people may be more difficult than from others.
+l2: Las venas y las arterias varían en tamaño de un paciente a otro y de un lado del cuerpo a otro, razón por la cual extraer sangre de algunas personas puede ser más difícil que de otras.
+l1: Other risks associated with having blood drawn are slight but may include:
+l2: Otros riesgos asociados con la extracción de sangre son leves, pero pueden ser:
+l1: Excessive bleeding
+l2: Sangrado excesivo
+l1: Fainting or feeling light-headed
+l2: Desmayo o sensación de mareo
+l1: Hematoma (blood accumulating under the skin)
+l2: Hematoma (acumulación de sangre debajo de la piel)
+l1: Infection (a slight risk any time the skin is broken)
+l2: Infección (un riesgo leve cada vez que se presenta ruptura de la piel)
+l1: Therapeutic drug monitoring
+l2: Análisis farmacológico de sangre

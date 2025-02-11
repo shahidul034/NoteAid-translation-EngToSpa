@@ -1,0 +1,90 @@
+l1: APGAR is a quick test performed on a baby at 1 and 5 minutes after birth.
+l2: Es un examen rápido que se realiza al primer y quinto minuto después del nacimiento del bebé.
+l1: The 1-minute score determines how well the baby tolerated the birthing process.The 5-minute score tells the doctor how well the baby is doing outside the mother's womb.
+l2: El puntaje en el minuto 1 determina qué tan bien toleró el bebé el proceso de nacimiento, mientras que el puntaje al minuto 5 le indica al médico qué tan bien está evolucionando el bebé por fuera del vientre materno.
+l1: The test may rarely be done 10 minutes after birth. 
+l2: El examen en raras ocasiones se puede hacer 10 minutos después del nacimiento.
+l1: The APGAR test is done by a doctor, midwife, or nurse.
+l2: La prueba de APGAR la realiza un médico, una enfermera obstétrica (comadrona) o una enfermera.
+l1: The health care provider will examine the baby's:
+l2: El profesional de la salud examinará en el bebé:
+l1: Breathing effort
+l2: Esfuerzo respiratorio
+l1: Heart rate
+l2: Frecuencia cardíaca
+l1: Muscle tone
+l2: Tono muscular
+l1: Reflexes
+l2: Reflejos
+l1: Skin color
+l2: Color de la piel
+l1: Each category is scored with 0, 1, or 2, depending on the observed condition.
+l2: A cada una de estas categorías se le da un puntaje de 0, 1 ó 2 dependiendo del estado observado.
+l1: Breathing effort: 
+l2: Esfuerzo respiratorio: 
+l1: If the infant is not breathing, the respiratory score is 0.
+l2: Si el bebé no está respirando, el puntaje es 0.
+l1: If the respirations are slow or irregular, the infant scores 1 for respiratory effort.
+l2: Si las respiraciones son lentas o irregulares, el puntaje del bebé es 1 en esfuerzo respiratorio.
+l1: If the infant cries well, the respiratory score is 2.
+l2: Si el bebé llora bien, el puntaje respiratorio es 2.
+l1: Heart rate is evaluated by stethoscope.
+l2: La frecuencia cardíaca se evalúa con el estetoscopio.
+l1: This is the most important assessment: 
+l2: Esta es la evaluación más importante. 
+l1: If there is no heartbeat, the infant scores 0 for heart rate.
+l2: Si no hay latidos cardíacos, el puntaje del bebé es 0 en frecuencia cardíaca.
+l1: If heart rate is less than 100 beats per minute, the infant scores 1 for heart rate.
+l2: Si la frecuencia cardíaca es menor de 100 latidos por minuto, el puntaje del bebé es 1 en frecuencia cardíaca.
+l1: If heart rate is greater than 100 beats per minute, the infant scores 2 for heart rate.
+l2: Si la frecuencia cardíaca es superior a 100 latidos por minuto, el puntaje del bebé es 2 en frecuencia cardíaca.
+l1: Muscle tone: 
+l2: Tono muscular: 
+l1: If muscles are loose and floppy, the infant scores 0 for muscle tone.
+l2: Si los músculos están flojos y flácidos, el puntaje del bebé es 0 en tono muscular.
+l1: If there is some muscle tone, the infant scores 1.
+l2: Si hay algo de tono muscular, el puntaje del bebé es 1.
+l1: If there is active motion, the infant scores 2 for muscle tone.
+l2: Si hay movimiento activo, el puntaje del bebé es 2 en tono muscular.
+l1: Grimace response or reflex irritability is a term describing response to stimulation such as a mild pinch: 
+l2: Respuesta a las gesticulaciones (muecas) o reflejo de irritabilidad es un término que describe la respuesta a la estimulación, como un leve pinchazo. 
+l1: If there is no reaction, the infant scores 0 for reflex irritability.
+l2: Si no hay reacción, el puntaje del bebé es 0 en reflejo de irritabilidad.
+l1: If there is grimacing, the infant scores 1 for reflex irritability.
+l2: Si hay gesticulaciones o muecas, el puntaje del bebé es 1 en reflejo de irritabilidad.
+l1: If there is grimacing and a cough, sneeze, or vigorous cry, the infant scores 2 for reflex irritability.
+l2: Si hay gesticulaciones y una tos, estornudo o llanto vigoroso, el puntaje del bebé es 2 en reflejo de irritabilidad.
+l1: Skin color: 
+l2: Color de la piel: 
+l1: If the skin color is pale blue, the infant scores 0 for color.
+l2: Si el color de la piel es azul pálido, el puntaje del bebé es 0 en color.
+l1: If the body is pink and the extremities are blue, the infant scores 1 for color.
+l2: Si el cuerpo del bebé es rosado y las extremidades son azules, el puntaje es 1 en color.
+l1: If the entire body is pink, the infant scores 2 for color.
+l2: Si todo el cuerpo del bebé es rosado, el puntaje es 2 en color.
+l1: This test is done to determine whether a newborn needs help breathing or is having heart trouble. 
+l2: Este examen se hace para determinar si un recién nacido necesita ayuda con la respiración o está teniendo problemas cardíacos. 
+l1: The APGAR rating is based on a total score of 1 to 10. The higher the score, the better the baby is doing after birth. 
+l2: El índice de APGAR se basa en un puntaje total de 1 a 10.Cuanto más alto sea el puntaje, mejor será la evolución del bebé después de nacer.
+l1: A score of 7, 8, or 9 is normal and is a sign that the newborn is in good health.
+l2: Un puntaje de 7, 8 o 9 es normal y es una señal de que el recién nacido está bien de salud.
+l1: A score of 10 is very unusual, since almost all newborns lose 1 point for blue hands and feet, which is normal for after birth.
+l2: Un puntaje de 10 es muy inusual, ya que casi todos los recién nacidos pierden un punto por pies y manos azulados, lo cual es normal después del nacimiento.
+l1: Any score lower than 7 is a sign that the baby needs medical attention.
+l2: Cualquier puntaje inferior a 7 es una señal de que el bebé necesita atención médica.
+l1: The lower the score, the more help the baby needs to adjusting outside the mother's womb. 
+l2: Cuanto más bajo sea el puntaje, mayor ayuda necesitará el bebé para adaptarse por fuera del vientre materno.
+l1: Most of the time a low Apgar score is caused by:
+l2: Casi siempre un puntaje de APGAR bajo es causado por:
+l1: Difficult birth
+l2: Parto difícil  
+l1: C-section
+l2: Cesárea  
+l1: Fluid in the baby's airway
+l2: Líquido en la vía respiratoria del bebé  
+l1: If your child has a low Apgar score, he or she may receive:
+l2: Si su hijo tiene un puntaje de Apgar bajo, puede recibir:   
+l1: Oxygen and clearing out the airway to help the baby breathe 
+l2: Oxígeno y despeje de la vía respiratoria para ayudarle al bebé a respirar.  
+l1: Physical stimulation to get the heart beating at a healthy rate
+l2: Estimulación física para lograr que el corazón palpite a una tasa saludable.  

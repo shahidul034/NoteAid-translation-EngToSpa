@@ -1,0 +1,142 @@
+l1: Asthma
+l2: Asma
+l1: Breathing a foreign object into the lungs
+l2: Inhalación de un cuerpo extraño en los pulmones
+l1: Bronchiectasis
+l2: Bronquiectasia
+l1: Bronchiolitis
+l2: Bronquiolitis
+l1: Bronchitis
+l2: Bronquitis
+l1: Emphysema (COPD), especially when a respiratory infection is present
+l2: Enfisema (EPOC), especialmente cuando hay una infección respiratoria
+l1: Gastroesophageal reflux disease
+l2: Enfermedad de reflujo gastroesofágico
+l1: Heart failure (cardiac asthma)
+l2: Insuficiencia cardíaca (asma cardíaco)
+l1: Insect sting that causes an allergic reaction
+l2: Picaduras de insectos que provocan una reacción alérgica
+l1: Medications (particularly aspirin)
+l2: Medicamentos (particularmente ácido acetilsalicílico)
+l1: Pneumonia
+l2: Neumonía
+l1: Smoking
+l2: Tabaquismo
+l1: Viral infection, especially in infants younger than age 2
+l2: Infección viral, especialmente en bebés menores de 2 años
+l1: Always take all of your medications as directed.
+l2: Tome todos los medicamentos como se ha indicado.
+l1: Sitting in an area where there is moist, heated air may help relieve some symptoms.
+l2: Sentarse en un área donde haya aire caliente y húmedo puede ayudar a aliviar algunos síntomas.
+l1: This can be done by running a hot shower or using a vaporizer.
+l2: Esto se puede hacer tomando una ducha caliente o utilizando un vaporizador.
+l1: Call your health care provider if:
+l2: Consulte con el médico si:
+l1: Wheezing occurs for the first time
+l2: Las sibilancias se presentan por primera vez
+l1: Wheezing occurs with significant shortness of breath, bluish skin, confusion, or mental status changes
+l2: Las sibilancias ocurren con una significativa falta de respiración, piel azulada, confusión o cambios en el estado mental
+l1: Wheezing keeps occurring without explanation
+l2: Las sibilancias siguen ocurriendo sin explicación 
+l1: Wheezing is caused by an allergic reaction to a bite or medication 
+l2: Las sibilancias son causadas por una reacción alérgica a una picadura o a un medicamento
+l1: If wheezing is severe or occurs with severe shortness of breath, you may have to go directly to the nearest emergency department.
+l2: Si las sibilancias son intensas o se presentan con dificultad respiratoria grave, es posible que usted tenga que acudir directamente al servicio de urgencias más cercano.
+l1: The doctor or nurse will perform a physical examination and ask questions about your medical history and symptoms, including:
+l2: El médico o el personal de enfermería llevarán a cabo un examen físico y harán preguntas acerca de la historia clínica y los síntomas, tales como:
+l1: When did the wheezing begin?
+l2: ¿Cuándo comenzaron las sibilancias?
+l1: How long does it last?
+l2: ¿Cuánto tiempo duran?
+l1: When and how often does it occur?
+l2: ¿Cuándo y con qué frecuencia ocurren?
+l1: Is it worse at night or in the early morning?
+l2: ¿Son peores a la noche o a la mañana temprano?
+l1: What does the wheezing sound like?
+l2: ¿Cómo es el sonido de las sibilancias?
+l1: Does it make breathing difficult?
+l2: ¿Causan dificultad para respirar?
+l1: What seems to cause it? 
+l2: ¿Qué parece causarlas? 
+l1: Eating certain foods?
+l2: ¿Comer ciertos alimentos?
+l1: Taking certain medications?
+l2: ¿Tomar ciertos medicamentos? 
+l1: Do any of the following things make it worse? 
+l2: ¿Alguno de los siguientes factores las empeoran? 
+l1: Being around pollens, insects, dust, chemicals (perfumes, cosmetics)
+l2: Estar cerca de polen, insectos, polvo, químicos (perfumes, cosméticos)
+l1: Being in cold air
+l2: La exposición al aire frío
+l1: Exercise
+l2: El ejercicio
+l1: Sickness (such as a cold or the flu)
+l2: Una enfermedad (como gripe o resfriado)
+l1: Stress
+l2: El estrés 
+l1: Does it go away without treatment?
+l2: ¿Desaparecen sin tratamiento?
+l1: What helps relieve it? 
+l2: ¿Qué las alivia? 
+l1: Rest?
+l2: ¿El descanso?
+l1: Medications such as bronchodilators?
+l2: ¿Medicamentos como los broncodilatadores? 
+l1: Do you have any other symptoms, such as: 
+l2: ¿Tiene otros síntomas? Por ejemplo: 
+l1: Bluish color to lips or nails
+l2: Coloración azulada en labios y uñas
+l1: Coughing
+l2: Tos
+l1: Fever
+l2: Fiebre
+l1: Loss of consciousness
+l2: Pérdida del conocimiento
+l1: Loss of voice
+l2: Pérdida de la voz
+l1: Panic or confusion
+l2: Pánico o confusión
+l1: Puffy, red eyes
+l2: Ojos rojos e hinchados
+l1: Stuffy nose
+l2: Congestión nasal
+l1: Swelling of the lips or tongue
+l2: Inflamación de los labios y la lengua 
+l1: Did you have an episode of choking?
+l2: ¿Tuvo algún episodio de asfixia?
+l1: Did you have an insect bite?
+l2: ¿Tuvo una picadura de insecto?
+l1: Do you have a history of asthma or allergies?
+l2: ¿Tiene antecedentes de asma o alergias?
+l1: What medications do you take?
+l2: ¿Qué medicamentos toma?
+l1: Have you been around tobacco smoke?
+l2: ¿Ha estado expuesto al humo del tabaco?
+l1: Have you recently been sick?
+l2: ¿Ha estado enfermo recientemente? 
+l1: The physical examination may include listening to the lung sounds (auscultation).
+l2: El examen físico puede incluir la auscultación de los ruidos pulmonares.
+l1: If your child is the one with symptoms, the doctor will make sure he or she did not swallow a foreign object.
+l2: Si su hijo es el que presenta los síntomas, el médico se asegurará de que éste no se haya tragado un objeto extraño.
+l1: Tests that may be done include:
+l2: Los exámenes que pueden realizarse son:
+l1: Blood work, possibly including arterial blood gases
+l2: Estudios sanguíneos que pueden incluir gasometría arterial
+l1: Chest x-ray
+l2: Radiografía del tórax
+l1: Lung function tests
+l2: Pruebas de la función pulmonar 
+l1: See also: Asthma
+l2: Ver también: Asma
+l1: A hospital stay may be needed if:
+l2: Se puede requerir hospitalización si:
+l1: Breathing is particularly difficult
+l2: La respiración es particularmente difícil.
+l1: Medicines need to be given through a vein (IV)
+l2: Es necesaria la administración de medicamentos por vía intravenosa.
+l1: Supplemental oxygen is required
+l2: Se requiere oxígeno suplementario.
+l1: The person needs to be closely watched by medical personnel
+l2: Se necesita una vigilancia minuciosa de la persona por parte del personal médico.
+l1: Sibilant rhonchi
+l2: Estertores sibilantes

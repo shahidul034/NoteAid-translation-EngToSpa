@@ -1,0 +1,51 @@
+l1: [Report de-identified (Safe-harbor compliant) by De-ID v.6.22.08.0] **INSTITUTION GENERAL MEDICINE ATTENDING PHYSICIAN PROGRESS NOTE PATIENT NAME: **NAME[AAA, BBB M] ACCOUNT #: **ID-NUM **ROOM ATTENDING PHYSICIAN: **NAME[BBB M ZZZ] ADMISSION DATE: **DATE[Apr 11 2007] EVALUATION DATE: **DATE[Apr 18 07] The patient is awake and alert.
+l2: [Informe de-identificado (cumple con Puerto Seguro) por De-ID v.6.22.08.0] **INSTITUCION MEDICINA GENERAL MEDICO PRIMARIO NOTA DE PROGRESO NOMBRE DEL PACIENTE: **NOMBRE[AAA, BBB M] # CUENTA: **NUM-ID- **CUARTO MEDICO PRIMARIO: **NOMBRE[BBB M ZZZ] FECHA DE ADMISION: **FECHA[11 abr 2007] FECHA DE EVALUACION: **FECHA[18 abr 07] El pacient está despierto y alerta.
+Google: [Reporte de-identificado (Safe Harbor-compliant) por De-ID v.6.22.08.0] ** INSTITUCIÓN MEDICINA GENERAL PROGRESO MÉDICO NOMBRE DEL PACIENTE NOTA: ** NOMBRE [AAA, BBB M] CUENTA #: ** ID NUM- ** médico de la sala ASISTENTES: ** NOMBRE [BBB M ZZZ] FECHA DE ADMISIÓN: ** FECHA [11 de abril 2007] FECHA DE EVALUACIÓN: ** FECHA [18 de abril 07] El paciente está despierto y alerta.
+l1: He has no complaints of any discomfort of any sort.
+l2: No se queja de incomodidad de ningún tipo.
+Google: Él no se queja de las molestias de ningún tipo.
+l1: He states he slept well, and his appetite is good.
+l2: Declara que durmió bien, además tiene buen apetito.
+Google: Afirma que dormía bien, y su apetito es bueno.
+l1: PHYSICAL EXAMINATION: Vital signs are stable with stabilizing blood pressure.
+l2: EXAMEN FISICO: Signos vitales estables con presión sanguínea estabilizándose.
+Google: EXAMEN FÍSICO: Los signos vitales son estables con la estabilización de la presión arterial.
+l1: He is afebrile.
+l2: No padece fiebre.
+Google: Él está afebril.
+l1: The necks shows no JVD, no nodes or masses.
+l2: Cuello no presenta distensión yugular venosa, ni nudos ni masas.
+Google: Los cuellos no muestra JVD, no hay nódulos o masas.
+l1: The lungs are clear.
+l2: Los pulmones están despejados.
+Google: Los pulmones son claras.
+l1: The heart is regular.
+l2: El corazón está regular.
+Google: El corazón es regular.
+l1: The abdomen is soft and nontender.
+l2: El abdomen está suave y sin dolor.
+Google: El abdomen es blando y no doloroso.
+l1: Extremities have no cyanosis, clubbing, or edema.
+l2: Las extremidades no presentan cianosis, hipocratismo o edema.
+Google: Las extremidades no tienen cianosis, clubbing, o edema.
+l1: LABORATORY DATA: The white count has improved to 9300, differential was pending, hemoglobin and hematocrit were stable, platelets have improved to 79000.
+l2: DATOS DE LABORATORIO: La cuenta de glóbulos blancos ha mejorado a 9300, diferencial estaba pendiente, hemoglobina y hematocrito estaban estables, plaquetas han mejorado a 79000.
+Google: DATOS DE LABORATORIO: El recuento de blancos ha mejorado hasta 9300, estaba pendiente diferencial, la hemoglobina y el hematocrito se mantuvieron estables, las plaquetas han mejorado hasta 79000.
+l1: IMPRESSION: Acute renal failure with neutropenia likely medication induced.
+l2: IMPRESION: Fallo renal grave con neutropenia probablemente debido a medicamento.
+Google: IMPRESIÓN: insuficiencia renal aguda con medicamentos neutropenia inducida probable.
+l1: The patient is responding well to therapy.
+l2: El paciente está respondiendo bien a terapia.
+Google: El paciente está respondiendo bien al tratamiento.
+l1: At this point, we can likely stop Neupogen and just continue neutropenic precautions.
+l2: En este momento, probablemente podemos descontinuar Neupogen y sólo continuar precauciones neutropénicas.
+Google: En este punto, probablemente puede dejar de Neupogen y simplemente seguir las precauciones neutropénicos.
+l1: The patient continues on vancomycin for possible blood cultures, however, there is a question regarding contamination.
+l2: El paciente sigue con vancomicina para posibles hemocultivos, sin embargo, hay duda en cuanto a contaminación.
+Google: El paciente continúa el uso de vancomicina para cultivos de sangre posibles, sin embargo, hay una pregunta con respecto a la contaminación.
+l1: We are redrawing blood cultures to see if continuing vancomycin is necessary at this point.
+l2: Estamos reextrayendo hemocultivos para ver si es necesario continuar con vancomicina en este momento.
+Google: Estamos rediseñando cultivos de sangre para ver si continúa la vancomicina es necesario en este punto.
+l1: Otherwise, I agree with the plans as outlined by the resident team and discussed with them.
+l2: De otra forma estoy de acuero con los planes delineados por el equipo residente y discutido con ellos.
+Google: De lo contrario, estoy de acuerdo con los planes tal como se indica por el equipo residente y discutió con ellos.

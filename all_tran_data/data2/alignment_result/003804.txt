@@ -1,0 +1,340 @@
+l1: A chest x-ray is an x-ray of the chest, lungs, heart, large arteries, ribs, and diaphragm.
+l2: Es una radiografía del tórax, los pulmones, el corazón, las grandes arterias, las costillas y el diafragma.
+l1: The test is performed in a hospital radiology department or in the health care provider's office by an x-ray technician.
+l2: El examen lo realiza un técnico en rayos X en la sala de radiología de un hospital o en un consultorio médico.
+l1: Two views are usually taken: one in which the x-rays pass through the chest from the back (posterior-anterior view), and one in which the x-rays pass through the chest from one side to the other (lateral view).
+l2: Usualmente se hacen dos tomas: en una de ellas, los rayos X pasan desde la espalda hasta el tórax (toma postero-anterior) y en la otra, los rayos X pasan de un lado a otro del tórax (toma lateral).
+l1: You stand in front of the machine and must hold your breath when the x-ray is taken.
+l2: Uno se pone de pie frente al equipo y debe contener la respiración cuando se toma la radiografía.
+l1: Inform the health care provider if you are pregnant.
+l2: Infórmele al médico si está embarazada.
+l1: Chest x-rays are generally avoided during the first six months of pregnancy.
+l2: Las radiografías del tórax se evitan generalmente durante los primeros seis meses del embarazo.
+l1: You must wear a hospital gown and remove all jewelry.
+l2: Usted debe usar una bata hospitalaria y quitarse todas las joyas para el examen.
+l1: Your doctor may order a chest x-ray if you have any of the following symptoms:
+l2: El médico puede ordenar una radiografía de tórax si uno tiene cualquiera de los siguientes síntomas:
+l1: A persistent cough
+l2: Tos persistente
+l1: Chest injury
+l2: Lesión torácica
+l1: Chest pain
+l2: Dolor torácico
+l1: Coughing up blood
+l2: Expectoración con sangre
+l1: Difficulty breathing
+l2: Dificultad para respirar
+l1: It may also be done if you have signs of tuberculosis, lung cancer, or other chest or lung disease.
+l2: También se puede hacer si uno tiene signos de tuberculosis, cáncer pulmonar o cualquier otra enfermedad pulmonar o torácica.
+l1: A serial chest x-ray (repeated) may be used to evaluate or monitor changes found on a previous chest x-ray.
+l2: Se puede utilizar una radiografía seriada de tórax (repetida o secuencial) para evaluar o vigilar los cambios que se encontraron en una radiografía anterior.
+l1: Abnormal results may be due to may things, including the following.
+l2: Los resultados anormales pueden deberse a muchas cosas, incluyendo las siguientes:
+l1: In the lungs:
+l2: En los pulmones:
+l1: Collapsed lung
+l2: Atelectasia pulmonar
+l1: Collection of fluid around the lung
+l2: Derrame pleural
+l1: Lung cancer
+l2: Cáncer pulmonar
+l1: Lung tumor
+l2: Tumor pulmonar
+l1: Malformation of the blood vessels
+l2: Malformación de los vasos sanguíneos
+l1: Pneumonia
+l2: Neumonía
+l1: Scarring of lung tissue
+l2: Cicatrización del tejido pulmonar
+l1: In the heart:
+l2: En el corazón:
+l1: Problems with the size or shape of the heart determined
+l2: Problemas con el tamaño y la forma del corazón determinada
+l1: Problems with the position and shape of the large arteries
+l2: Problemas con la posición y forma de las arterias mayores
+l1: In the bones:
+l2: En los huesos:
+l1: Fractures of ribs and spine
+l2: Fractura de las costillas y de la columna
+l1: Other abnormalities in the ribs and spine
+l2: Otras anomalías en las costillas y en la columna
+l1: Abnormal results may also be due to:
+l2: Los resultados anormales también pueden deberse a:
+l1: Achalasia
+l2: Acalasia
+l1: Acute bronchitis
+l2: Bronquitis aguda
+l1: Acute MI
+l2: Infarto al miocardio
+l1: Acute mountain sickness
+l2: Mal de las alturas
+l1: Acute pulmonary eosinophilia (Loeffler syndrome)
+l2: Eosinofilia aguda pulmonar (síndrome de Loeffler)
+l1: Adult Still’s disease
+l2: Enfermedad de Still del adulto
+l1: Alcoholic cardiomyopathy
+l2: Miocardiopatía alcohólica
+l1: Alpha-1 antitrypsin deficiency
+l2: Deficiencia de alfa-1 antitripsina
+l1: Anthrax
+l2: Carbunco
+l1: Aortic dissection
+l2: Disección aórtica
+l1: Aortic insufficiency
+l2: Insuficiencia aórtica
+l1: Aortic stenosis
+l2: Estenosis aórtica
+l1: ARDS (adult respiratory distress syndrome)
+l2: SDRA (síndrome de dificultad respiratoria aguda)
+l1: Aspergillosis
+l2: Aspergilosis
+l1: Aspiration pneumonia
+l2: Neumonía por aspiración
+l1: Atelectasis
+l2: Atelectasia
+l1: Atrial myxoma
+l2: Mixoma auricular
+l1: Atrial septal defect
+l2: Comunicación interauricular
+l1: Atypical mycobacterial infection
+l2: Infección por micobacterias atípicas
+l1: Atypical pneumonia
+l2: Neumonía atípica
+l1: Blastomycosis
+l2: Blastomicosis
+l1: Breast cancer
+l2: Cáncer de mama
+l1: Bronchial adenoma
+l2: Adenoma bronquial
+l1: Bronchial asthma
+l2: Asma bronquial
+l1: Bronchiectasis
+l2: Bronquiectasias
+l1: Bronchiolitis
+l2: Bronquiolitis
+l1: Bronchopulmonary dysplasia
+l2: Displasia broncopulmonar
+l1: Byssinosis (cotton dust)
+l2: Bisinosis (polvo de algodón)
+l1: Caplan syndrome
+l2: Síndrome de Caplan
+l1: Cardiac tamponade
+l2: Taponamiento cardíaco
+l1: Cerebral abscess
+l2: Absceso cerebral
+l1: Chronic bronchitis
+l2: Bronquitis crónica
+l1: Chronic glomerulonephritis
+l2: Glomerulonefritis crónica
+l1: CMV pneumonitis
+l2: Neumonitis por CMV
+l1: Coal workers pneumoconiosis
+l2: Neumoconiosis de los mineros del carbón
+l1: Coarctation of the aorta
+l2: Coartación de la aorta
+l1: Coccidioidomycosis; acute (primary) pulmonary
+l2: Coccidioidomicosis pulmonar aguda (primaria)
+l1: Coccidioidomycosis; chronic pulmonary
+l2: Coccidioidomicosis pulmonar crónica
+l1: Coccidioidomycosis; disseminated
+l2: Coccidioidomicosis diseminada
+l1: Diaphragmatic hernia
+l2: Hernia diafragmática
+l1: Diffuse interstitial pulmonary fibrosis
+l2: Fibrosis pulmonar intersticial difusa
+l1: Dilated cardiomyopathy
+l2: Miocardiopatía dilatada
+l1: Disseminated tuberculosis (infectious)
+l2: Tuberculosis diseminada (infecciosa)
+l1: Drug-induced lupus erythematosus
+l2: Lupus eritematoso inducido por medicamentos
+l1: Drug-induced pulmonary disease
+l2: Enfermedad pulmonar inducida por medicamentos
+l1: Echinococcus
+l2: Equinococosis
+l1: Emphysema
+l2: Enfisema
+l1: Empyema
+l2: Empiema
+l1: Goodpasture syndrome
+l2: Síndrome de Goodpasture
+l1: Heart failure
+l2: Insuficiencia cardíaca
+l1: Histoplasmosis; acute (primary) pulmonary
+l2: Histoplasmosis pulmonar aguda (primaria)
+l1: Histoplasmosis; chronic pulmonary
+l2: Histoplasmosis pulmonar crónica
+l1: Histoplasmosis; disseminated
+l2: Histoplasmosis diseminada
+l1: Hodgkin’s lymphoma
+l2: Linfoma de Hodgkin
+l1: Hospital-acquired pneumonia
+l2: Neumonía intrahospitalaria
+l1: Hypersensitivity pneumonitis
+l2: Neumonitis por hipersensibilidad
+l1: Hypertensive heart disease
+l2: Enfermedad cardíaca hipertensiva
+l1: Hypertrophic cardiomyopathy
+l2: Miocardiopatía hipertrófica
+l1: Hypothyroidism
+l2: Hipotiroidismo
+l1: Hypothyroidism; primary
+l2: Hipotiroidismo primario
+l1: Hypothyroidism; secondary
+l2: Hipotiroidismo secundario
+l1: Idiopathic cardiomyopathy
+l2: Miocardiopatía idiopática
+l1: Idiopathic diffuse interstitial pulmonary fibrosis
+l2: Fibrosis pulmonar intersticial difusa idiopática
+l1: Industrial bronchitis
+l2: Bronquitis industrial
+l1: Infective endocarditis
+l2: Endocarditis infecciosa
+l1: Inhalation anthrax
+l2: Carbuncosis pulmonar
+l1: Ischemic cardiomyopathy
+l2: Miocardiopatía isquémica
+l1: Left-sided heart failure
+l2: Insuficiencia cardíaca izquierda
+l1: Legionnaire’s disease
+l2: Enfermedad del legionario
+l1: Lyme disease, secondary
+l2: Enfermedad de Lyme secundaria
+l1: Malignant hypertension (arteriolar nephrosclerosis)
+l2: Hipertensión maligna (nefroesclerosis arteriolar)
+l1: Mesothelioma (benign-fibrous)
+l2: Mesotelioma (benigno-fibroso)
+l1: Mesothelioma (malignant)
+l2: Mesotelioma maligno
+l1: Metastatic brain tumor
+l2: Tumor cerebral metastásico
+l1: Metastatic cancer to the lung
+l2: Cáncer metastásico del pulmón
+l1: Metastatic pleural tumor
+l2: Tumor pleural metastásico
+l1: Mitral regurgitation; acute
+l2: Regurgitación mitral aguda
+l1: Mitral regurgitation; chronic
+l2: Regurgitación mitral crónica
+l1: Mitral stenosis
+l2: Estenosis mitral
+l1: Mitral valve prolapse
+l2: Prolapso de la válvula mitral
+l1: Mycoplasma pneumonia
+l2: Neumonía por micoplasma
+l1: Myocarditis
+l2: Miocarditis
+l1: Necrotizing vasculitis
+l2: Vasculitis necrosante
+l1: Non-Hodgkin’s lymphoma
+l2: Linfoma no Hodgkin
+l1: Occupational asthma
+l2: Asma ocupacional
+l1: Patent ductus arteriosus
+l2: Conducto arterial persistente
+l1: Pericarditis; bacterial
+l2: Pericarditis bacteriana
+l1: Pericarditis; post-MI
+l2: Pericarditis posterior a infarto al miocardio
+l1: Peripartum cardiomyopathy
+l2: Miocardiopatía periparto
+l1: Pneumocystis jiroveci pneumonia
+l2: Neumonía por pneumocystis carinii
+l1: Pneumonia in immunocompromised host
+l2: Neumonía en huésped inmunocomprometido
+l1: Pneumonia with lung abscess
+l2: Neumonía con absceso pulmonar
+l1: Premature infant
+l2: Bebé prematuro
+l1: Primary alveolar hypoventilation
+l2: Hipoventilación alveolar primaria
+l1: Primary pulmonary hypertension
+l2: Hipertensión pulmonar primaria
+l1: Pulmonary actinomycosis
+l2: Actinomicosis pulmonar
+l1: Pulmonary alveolar proteinosis
+l2: Proteinosis alveolar pulmonar
+l1: Pulmonary aspergilloma (mycetoma)
+l2: Aspergiloma pulmonar (micetoma)
+l1: Pulmonary aspergillosis; allergic bronchopulmonary type
+l2: Aspergilosis pulmonar de tipo broncopulmonar alérgica
+l1: Pulmonary aspergillosis; invasive
+l2: Aspergilosis pulmonar de tipo invasivo
+l1: Pulmonary edema
+l2: Edema pulmonar
+l1: Pulmonary embolus
+l2: Embolia pulmonar
+l1: Pulmonary histiocytosis X (eosinophilic granuloma)
+l2: Histiocitosis x pulmonar (granuloma eosinofílico)
+l1: Pulmonary nocardiosis
+l2: Nocardiosis pulmonar
+l1: Pulmonary valve stenosis
+l2: Estenosis de la válvula pulmonar
+l1: Pulmonary tuberculosis
+l2: Tuberculosis pulmonar
+l1: Pulmonary veno-occlusive disease
+l2: Enfermedad pulmonar venooclusiva
+l1: Q fever (early)
+l2: Fiebre Q (temprana)
+l1: Q fever (late)
+l2: Fiebre Q (tardía)
+l1: Renal cell carcinoma
+l2: Carcinoma de células renales
+l1: Respiratory distress syndrome (infants)
+l2: Síndrome de dificultad respiratoria (bebés)
+l1: Respiratory syncytial virus (RSV)
+l2: Virus sincicial respiratorio (VSR)
+l1: Restrictive cardiomyopathy
+l2: Miocardiopatía restrictiva
+l1: Rheumatoid lung disease
+l2: Enfermedad pulmonar reumatoidea
+l1: Right-sided heart failure
+l2: Insuficiencia cardíaca derecha
+l1: Senile cardiac amyloid
+l2: Amiloidosis cardíaca senil
+l1: Silicosis (classical)
+l2: Silicosis (clásica)
+l1: Silicosis (acute)
+l2: Silicosis aguda
+l1: Skin lesion of histoplasmosis
+l2: Lesión cutánea por histoplasmosis
+l1: Solitary pulmonary nodule (benign)
+l2: Nódulo pulmonar solitario (benigno)
+l1: Spontaneous pneumothorax
+l2: Neumotórax espontáneo
+l1: SVC obstruction
+l2: Obstrucción de la VCS
+l1: Systemic lupus erythematosus
+l2: Lupus eritematoso sistémico
+l1: Systemic sclerosis (scleroderma)
+l2: Esclerosis sistémica (esclerodermia)
+l1: Tension pneumothorax
+l2: Neumotórax por tensión
+l1: Testicular cancer
+l2: Cáncer testicular
+l1: Tetralogy of Fallot
+l2: Tetralogía de Fallot
+l1: Transient ischemic attack (TIA)
+l2: Accidente isquémico transitorio (AIT)
+l1: Transposition of the great vessels
+l2: Transposición de los grandes vasos
+l1: Traumatic pneumothorax
+l2: Neumotórax traumático
+l1: Ventricular septal defect
+l2: Comunicación interventricular
+l1: Viral pneumonia
+l2: Neumonía viral
+l1: Wegener’s granulomatosis
+l2: Granulomatosis de Wegener
+l1: Wilms tumor
+l2: Tumor de Wilms
+l1: There is low radiation exposure.
+l2: Existe baja exposición a la radiación.
+l1: X-rays are monitored and regulated to provide the minimum amount of radiation exposure needed to produce the image.
+l2: Los rayos X se monitorean y regulan para brindar la cantidad mínima de exposición a la radiación necesaria para producir una imagen.
+l1: Most experts feel that the risk is very low compared with the benefits.
+l2: La mayoría de los expertos aseguran que el riesgo es bajo en comparación con los beneficios.
+l1: Pregnant women and children are more sensitive to the risks of x-rays.
+l2: Las mujeres embarazadas y los niños son los más sensibles a los riesgos de la exposición a los rayos X.
+l1: Chest radiography; Serial chest x-ray; X-ray - chest
+l2: Radiografía del pecho; Radiografía del tórax; Radiografía seriada de tórax

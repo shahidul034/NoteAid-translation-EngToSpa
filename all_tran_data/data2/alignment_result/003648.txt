@@ -1,0 +1,92 @@
+l1: Red blood cell (RBC) indices are part of the complete blood count (CBC) test.They are used to help diagnose the cause of anemia, a condition in which there are too few red blood cells.
+l2: Los índices de glóbulos rojos (GR) son parte del conteo sanguíneo completo (CSC) y se utilizan para ayudar a diagnosticar la causa de anemia, una afección en la cual hay muy pocos glóbulos rojos.
+l1: The indices include:
+l2: Los índices abarcan:
+l1: Average red blood cell size (MCV)
+l2: El tamaño promedio de los glóbulos rojos (VCM)
+l1: Hemoglobin amount per red blood cell (MCH)
+l2: La cantidad de hemoglobina por glóbulo rojo (HCM)
+l1: The amount of hemoglobin relative to the size of the cell (hemoglobin concentration) per red blood cell (MCHC)
+l2: La cantidad de hemoglobina relativa al tamaño de la célula (concentración de hemoglobina) por glóbulo rojo (CHCM)
+l1: See also: RBC count
+l2: Ver también: conteo de glóbulos rojos
+l1: A blood sample is needed.
+l2: Se necesita una muestra de sangre.
+l1: For information on how this is done, see: Venipuncture
+l2: Para obtener información sobre la forma como se hace esto, ver el artículo: Venopunción. 
+l1: The values for MCHC, and MCH are calculated from the hemoglobin (Hgb), hematocrit (Hct), and RBC count:
+l2: Los valores de CHCM y HCM se calculan a partir de la hemoglobina (Hgb), el hematocrito (Hct) y el conteo de glóbulos rojos (GR):
+l1: MCHC = Hgb/Hct
+l2: CHCM = Hgb/Hct
+l1: MCH = Hgb/RBC count
+l2: HCM = Hgb/conteo de GR 
+l1: The MCV is measured directly by a machine.
+l2: El VCM se mide directamente por medio de una máquina.
+l1: No special preparation is necessary.
+l2: No se necesita ninguna preparación especial.
+l1: When the needle is inserted to draw blood, some people feel moderate pain.Others feel only a prick or stinging sensation.
+l2: Cuando se inserta la aguja para extraer la sangre, algunas personas sienten un dolor moderado, mientras que otras sólo sienten un pinchazo o sensación de picadura.
+l1: Afterward, there may be some throbbing.
+l2: Posteriormente, puede haber algo de sensación pulsátil.
+l1: RBCs transport hemoglobin which, in turn, transports oxygen.
+l2: Los glóbulos rojos (GR) transportan la hemoglobina que, a su vez, transporta el oxígeno.
+l1: The amount of oxygen tissues receive depends on the amount and function of RBCs and hemoglobin.
+l2: La cantidad de oxígeno que reciben los tejidos depende de la cantidad y la función de los glóbulos rojos y la hemoglobina.
+l1: The MCV reflects the size of red blood cells.The MCH and MCHC reflect the hemoglobin content of red blood cells.
+l2: El VCM refleja el tamaño de los glóbulos rojos, mientras que la HCM y la CHCM reflejan su contenido de hemoglobina.
+l1: These RBC measures are used to diagnose types of anemia.
+l2: Estos índices de glóbulos rojos se utilizan para diagnosticar tipos de anemia.
+l1: Anemias are defined based on cell size (MCV) and amount of Hgb (MCH).
+l2: Las anemias se definen sobre la base del tamaño de las células (VCM) y la cantidad de Hgb (HCM).
+l1: MCV less than lower limit of normal: microcytic anemia
+l2: VCM inferiores al límite normal más bajo: anemia microcítica
+l1: MCV within normal range: normocytic anemia
+l2: VCM dentro de un rango normal: anemia normocítica
+l1: MCV greater than upper limit of normal: macrocytic anemia
+l2: VCM superiores al límite normal más alto: anemia macrocítica
+l1: MCH less than lower limit of normal: hypochromic anemia
+l2: HCM inferiores al límite normal más bajo: anemia hipocrómica
+l1: MCH within normal range: normochromic anemia
+l2: HCM dentro de un rango normal: anemia normocrómica
+l1: MCH greater than upper limit of normal: hyperchromic anemia
+l2: HCM superiores al límite normal más alto: anemia hipercrómica
+l1: MCV: 80 - 100 femtoliter
+l2: VCM: de 80 a 100 fentolitros
+l1: MCH: 27 - 31 picograms/cell
+l2: HCM: de 27 a 31 picogramos/célula
+l1: MCHC: 32 - 36 grams/deciliter
+l2: CHCM: de 32 a 36 gramos/decilitro
+l1: Note: Normal value ranges may vary slightly among different laboratories.
+l2: Nota: los rangos de los valores normales pueden variar ligeramente entre diferentes laboratorios.
+l1: Talk to your doctor about the meaning of your specific test results.
+l2: Hable con el médico acerca del significado de los resultados específicos de su examen.
+l1: The examples above show the common measurements for results for these tests.
+l2: Los ejemplos anteriores muestran las mediciones comunes correspondientes a los resultados de estas pruebas.
+l1: Some laboratories use different measurements or may test different samples.
+l2: Algunos laboratorios usan diferentes medidas o pueden analizar diferentes muestras.
+l1: This test is used to diagnose the cause of anemia.
+l2: El examen se utiliza para diagnosticar la causa de anemia.
+l1: The following are the types of anemia and their causes:
+l2: Los siguientes son tipos de anemia y sus causas:
+l1: Normocytic/normochromic (NC/NC) anemia is caused by sudden blood loss, prosthetic heart valves, sepsis, tumor, long-term disease or aplastic anemia.
+l2: La anemia normocítica/normocrómica (NC/NC) es causada por pérdida repentina de sangre, prótesis de válvulas del corazón, sepsis, tumor, enfermedad prolongada o anemia aplásica.
+l1: Microcytic/hypochromic anemia is caused by iron deficiency, lead poisoning, or thalassemia.
+l2: La anemia microcítica/hipocrómica es causada por deficiencia de hierro, intoxicación con plomo o talasemia
+l1: Microcytic/normochromic anemia results from a deficiency of the hormone erythropoietin from kidney failure.
+l2: La anemia microcítica/normocrómica resulta de una deficiencia de la hormona eritropoyetina a raíz de una insuficiencia renal
+l1: Macrocytic/normochromic anemia results from chemotherapy, folate deficiency, or vitamin B-12 deficiency.
+l2: La anemia macrocítica/normocrómica resulta de quimioterapia, deficiencia de folato o deficiencia de vitamina B12
+l1: Veins and arteries vary in size from one patient to another and from one side of the body to the other.Obtaining a blood sample from some people may be more difficult than from others.
+l2: Las venas y las arterias varían de tamaño de un paciente a otro y de un lado del cuerpo a otro, razón por la cual obtener una muestra de sangre de algunas personas puede ser más difícil que de otras.
+l1: Other risks associated with having blood drawn are slight but may include:
+l2: Otros riesgos asociados con la extracción de sangre son leves, pero pueden ser:
+l1: Excessive bleeding
+l2: Sangrado excesivo
+l1: Fainting or feeling light-headed
+l2: Desmayo o sensación de mareo
+l1: Hematoma (blood accumulating under the skin)
+l2: Hematoma (acumulación de sangre debajo de la piel)
+l1: Infection (a slight risk any time the skin is broken)
+l2: Infección (un riesgo leve cada vez que se presenta ruptura de la piel)
+l1: Erythrocyte indices; Blood indices; Mean corpuscular hemoglobin (MCH); Mean corpuscular hemoglobin concentration (MCHC); Mean corpuscular volume (MCV); Red blood cell indices
+l2: Índices de eritrocitos; Índices sanguíneos; Hemoglobina corpuscular media (HCM); Concentración de hemoglobina corpuscular media (CHCM); Volumen corpuscular medio (VCM); Índices eritrocíticos

@@ -1,0 +1,51 @@
+l1: [Report de-identified (Safe-harbor compliant) by De-ID v.6.22.08.0] **INSTITUTION GENERAL MEDICINE ATTENDING PHYSICIAN PROGRESS NOTE PATIENT NAME: **NAME[AAA, BBB M] ACCOUNT #: **ID-NUM **ROOM ATTENDING PHYSICIAN: **NAME[BBB M ZZZ] ADMISSION DATE: **DATE[Apr 11 2007] EVALUATION DATE: **DATE[Apr 18 07] The patient is awake and alert.
+l2: [Informe de-identificado (cumple con Puerto Seguro) por De-ID v.6.22.08.0] **INSTITUCION MEDICINA GENERAL MEDICO PRIMARIO NOTA DE PROGRESO NOMBRE DEL PACIENTE: **NOMBRE[AAA, BBB M] # CUENTA: **NUM-ID- **CUARTO MEDICO PRIMARIO: **NOMBRE[BBB M ZZZ] FECHA DE ADMISION: **FECHA[11 abr 2007] FECHA DE EVALUACION: **FECHA[18 abr 07] El pacient está despierto y alerta.
+moses: [Report  de-identified  (Safe-harbor  compliant)  por  De-ID  v.6.22.08.0]  **INSTITUTION  GENERAL  MEDICINE  ATTENDING  PHYSICIAN  PROGRESS  NOTE  PATIENT  NAME:  **NAME[AAA,  BBB  M]  ACCOUNT  #:  **ID-NUM  **ROOM  ATTENDING  PHYSICIAN:  **NAME[BBB  M  ZZZ]  ADMISSION  DATE:  **DATE[Apr  11  2007]  EVALUATION  DATE:  **DATE[Apr  18  07]  The  paciente estÃ¡  despierto  y  alert.  
+l1: He has no complaints of any discomfort of any sort.
+l2: No se queja de incomodidad de ningún tipo.
+moses: no tiene ningÃºn  He  dolencias  de  cualquier  molestia  de  cualquier  sort.  
+l1: He states he slept well, and his appetite is good.
+l2: Declara que durmió bien, además tiene buen apetito.
+moses: He  unidos  slept  well,  que  se  good.  y  su  apetito  
+l1: PHYSICAL EXAMINATION: Vital signs are stable with stabilizing blood pressure.
+l2: EXAMEN FISICO: Signos vitales estables con presión sanguínea estabilizándose.
+moses: PHYSICAL  EXAMINATION:  Vital  signos  se estabilice  con  estabilizadores  pressure.  de sangre  
+l1: He is afebrile.
+l2: No padece fiebre.
+moses: se  afebrile.  He  
+l1: The necks shows no JVD, no nodes or masses.
+l2: Cuello no presenta distensión yugular venosa, ni nudos ni masas.
+moses: The  necks  JVD,  ganglios  no  revela ausencia  o  masses.  
+l1: The lungs are clear.
+l2: Los pulmones están despejados.
+moses: The  pulmones estÃ¡n  clear.  
+l1: The heart is regular.
+l2: El corazón está regular.
+moses: The  corazÃ³n estÃ¡  regular.  
+l1: The abdomen is soft and nontender.
+l2: El abdomen está suave y sin dolor.
+moses: The  abdomen  es suave  y  nontender.  
+l1: Extremities have no cyanosis, clubbing, or edema.
+l2: Las extremidades no presentan cianosis, hipocratismo o edema.
+moses: no tiene ningÃºn  Extremities  cyanosis,  clubbing,  o  edema.  
+l1: LABORATORY DATA: The white count has improved to 9300, differential was pending, hemoglobin and hematocrit were stable, platelets have improved to 79000.
+l2: DATOS DE LABORATORIO: La cuenta de glóbulos blancos ha mejorado a 9300, diferencial estaba pendiente, hemoglobina y hematocrito estaban estables, plaquetas han mejorado a 79000.
+moses: LABORATORY  DATA:  The  de color blanco  conteo ha  mejorado  a  9300,  leucocitaria  fue  pending,  hemoglobina  y  hematocrito  stable,  las plaquetas  se  han mejorado  a  79000.  
+l1: IMPRESSION: Acute renal failure with neutropenia likely medication induced.
+l2: IMPRESION: Fallo renal grave con neutropenia probablemente debido a medicamento.
+moses: IMPRESSION:  Acute  insuficiencia  renal  con  la neutropenia  probable  medicamento  induced.  
+l1: The patient is responding well to therapy.
+l2: El paciente está respondiendo bien a terapia.
+moses: The  paciente estÃ¡ reaccionando favorablemente  bien al  therapy.  
+l1: At this point, we can likely stop Neupogen and just continue neutropenic precautions.
+l2: En este momento, probablemente podemos descontinuar Neupogen y sólo continuar precauciones neutropénicas.
+moses: At  este  point,  nosotros podemos  probable  deje de  Neupogen  y sÃ³lo  continuar  neutropenic  precautions.  
+l1: The patient continues on vancomycin for possible blood cultures, however, there is a question regarding contamination.
+l2: El paciente sigue con vancomicina para posibles hemocultivos, sin embargo, hay duda en cuanto a contaminación.
+moses: The  paciente  continÃºa  en  vancomycin  para posibles  sangre  cultures,  however,  hay un  con respecto a  cuestionar  contamination.  
+l1: We are redrawing blood cultures to see if continuing vancomycin is necessary at this point.
+l2: Estamos reextrayendo hemocultivos para ver si es necesario continuar con vancomicina en este momento.
+moses: We  son  redrawing  hemocultivos  para ver  si  el hecho de  no se necesita  vancomycin  en esta  point.  
+l1: Otherwise, I agree with the plans as outlined by the resident team and discussed with them.
+l2: De otra forma estoy de acuero con los planes delineados por el equipo residente y discutido con ellos.
+moses: Otherwise,  I  estÃ¡n de acuerdo  con  los  planes  como se describe  por  el  equipo de  discutir con  them.  resident  y  

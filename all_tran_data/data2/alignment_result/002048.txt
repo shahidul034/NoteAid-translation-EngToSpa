@@ -1,0 +1,210 @@
+l1: Genetics is the study of heredity, the process in which a parent passes certain genes onto their children.
+l2: La genética es el estudio de la herencia, el proceso en el cual un padre le transmite ciertos genes a sus hijos.
+l1: A person's appearance -- height, hair color, skin color, and eye color -- are determined by genes.
+l2: La apariencia de una persona --estatura, color del cabello, de piel y de los ojos-- está determinada por los genes.
+l1: Other characteristics affected by heredity:
+l2: Otras características afectadas por la herencia:
+l1: Likelihood of getting certain diseases
+l2: Probabilidad de contraer ciertas enfermedades
+l1: Mental abilities
+l2: Capacidades mentales
+l1: Natural talents
+l2: Talentos naturales 
+l1: An abnormal trait (anomaly) passed down through families (inherited) may:
+l2: Un rasgo anormal (anomalía) que se transmite de padres a hijos (heredado) puede:
+l1: Have no effect on your health or well being -- for example, it may just involve a white patch of hair or an extended earlobe
+l2: No tener ningún efecto en la salud ni en el bienestar de la persona (por ejemplo, puede simplemente involucrar un mechón de cabello blanco o el lóbulo de la oreja agrandado).
+l1: Be of minor consequence -- for example, color blindness
+l2: Tener mínima consecuencia (por ejemplo, daltonismo).
+l1: Have a dramatic effect on your quality or length of life
+l2: Tener un efecto dramático en la calidad o expectativa de vida de la persona. 
+l1: For most genetic disorders, genetic counseling is advised.Many people may also want to seek prenatal diagnosis.
+l2: Para la mayoría de los trastornos monogénico, se recomienda asesoría genética y es posible que muchas personas también quieran buscar diagnóstico prenatal.
+l1: The terms anomaly, abnormality, disorder, defect, disease, and syndrome are not used consistently, and do not have precise definitions.
+l2: Los términos anomalía, anormalidad, trastorno, defecto, enfermedad y síndrome no se utilizan en forma invariable y no tienen definiciones precisas.
+l1: Human beings have cells with 46 chromosomes -- 2 sex chromosomes and 22 pairs of nonsex (autosomal) chromosomes.
+l2: Los seres humanos tienen células con 46 cromosomas -- 2 cromosomas sexuales y 22 pares de cromosomas no sexuales (autosómicos).
+l1: Males are "46, XY" and females are "46, XX." The chromosomes are made up of strands of genetic information called DNA.
+l2: Los hombres tienen "46, XY" y la mujeres "46, XX".
+l1: Genes are sections of DNA.
+l2: Los cromosomas se componen de hebras de información genética, llamado ADN.
+l1: The location of the gene is called the locus.
+l2: Los genes son secciones de ADN y su ubicación se denomina locus.
+l1: Most genes carry information that is necessary to make a protein.
+l2: La mayoría de los genes portan información que es necesaria para producir una proteína.
+l1: The pairs of autosomal chromosomes (one from the mother and one from the father) carry basically the same information.That is, each has the same genes.
+l2: Los pares de cromosomas autosómicos (uno de la madre y otro del padre) portan básicamente la misma información, es decir, cada uno tiene los mismos genes; sin embargo, puede haber ligeras variaciones de estos genes.
+l1: However, there may be slight variations of these genes.These slight differences occur in less than 1% of the DNA sequence and produce variants of a particular gene called alleles.
+l2: Estas variaciones ligeras se presentan en menos del 1% de la secuencia de ADN y producen variantes de un gen particular, llamadas alelos.
+l1: If a gene is abnormal, it may lead to an abnormal protein or an abnormal amount of a normal protein.
+l2: Si un gen es anormal, puede llevar a una proteína anormal o a una cantidad anormal de una proteína normal.
+l1: Since the autosomal chromosomes are paired, there are two copies of each gene, one from each parent.
+l2: Debido a que los cromosomas autosómicos vienen en pares, hay 2 copias de cada gen, una de cada uno de los padres.
+l1: If one of these genes is defective, the other may make enough protein so that no disease is seen.
+l2: Si uno de estos genes es defectuoso, el otro puede producir suficiente proteína, de tal manera que no se observa ninguna enfermedad.
+l1: This is called a recessive disease, and the gene is said to be inherited in a recessive pattern.
+l2: Esto se denomina una enfermedad recesiva y se dice que el gen es heredado en un patrón recesivo.
+l1: However, if only one abnormal gene is needed to produce a disease, it's called a dominant hereditary disorder.
+l2: Sin embargo, si únicamente se necesita un gen anormal para producir la enfermedad, se denomina un trastorno hereditario dominante.
+l1: In the case of a dominant disorder, if one abnormal gene is inherited from mom or dad, the child will likely show the disease.
+l2: En este caso, si un gen anormal se hereda del padre o de la madre, el niño probablemente manifestará la enfermedad.
+l1: A person with one abnormal gene is termed heterozygous for that gene.
+l2: A una persona con un gen anormal se la denomina HETEROCIGOTO para ese gen.
+l1: If a child receives an abnormal recessive disease gene from both parents, the child will show the disease and will be homozygous for that gene.
+l2: Si un niño recibe un gen anormal para enfermedad recesiva de ambos padres, manifestará la enfermedad y será un niño HOMOCIGOTO para ese gen.
+l1: If two parents each have one copy of a recessive disease gene, then each child has a 25% (1 in 4) chance of showing the disease.
+l2: Si los dos padres tienen cada uno una copia de un gen para enfermedad recesiva, entonces cada hijo tiene una probabilidad de 25% (1 en 4) de manifestar la enfermedad.
+l1: If one parent has two copies of the disease gene and the other has one copy, then each child has a 50% (1 in 2) chance of being homozygous.
+l2: Si uno de los padres tiene dos copias del gen patológico y el otro tiene una copia, entonces el niño tiene un 50% (1 en 2) de probabilidad de ser homocigoto.
+l1: GENETIC DISORDERS
+l2: TRASTORNOS GENÉTICOS
+l1: Almost all diseases have a genetic component.However, the importance of that component varies.
+l2: Casi todas las enfermedades tienen un componente genético, pero la importancia de ese componente varía.
+l1: Disorders in which genes play an important role (genetic diseases) can be classified as:
+l2: Los trastornos en los cuales los genes juegan un papel importante (enfermedades genéticas) se pueden clasificar como:
+l1: Single-gene defects
+l2: Defectos monogenéticos
+l1: Chromosomal disorders
+l2: Trastornos cromosómicos
+l1: Multifactorial
+l2: Multifactoriales
+l1: A single gene disorder (also called Mendelian disorder) is caused by a defect in one particular gene.
+l2: Un trastorno monogenético, también llamado trastorno mendeliano, es causado por un defecto en un gen particular.
+l1: Single gene defects are rare.But since there are about 18,000 known single gene disorders, their combined impact is significant.
+l2: Los trastornos monogenéticos son poco comunes, pero dado que hay cerca de 18.000 trastornos monogenéticos conocidos, su impacto combinado es considerable.
+l1: Single-gene disorders are characterized by how they are passed down in families.
+l2: Los trastornos monogenéticos se caracterizan por la forma como se transmiten en familias.
+l1: There are six basic patterns of single gene inheritance:
+l2: Hay cinco patrones básicos de herencia monogenética:
+l1: Autosomal dominant
+l2: Autosómico dominante
+l1: Autosomal recessive
+l2: Autosómico recesivo
+l1: X-linked dominantX-linked recessive
+l2: Dominante ligado al cromosoma X
+l1: Y-linked inheritance
+l2: Recesivo ligado al cromosoma X
+l1: Maternal (mitochondrial) inheritance
+l2: Herencia materna (mitocondrial)
+l1: The observed effect of a gene (the appearance of a disorder) is called the phenotype.
+l2: El efecto observado de un gen (la apariencia de un trastorno) se denomina el fenotipo.
+l1: People with one copy of a recessive disease gene are called carriers.Carriers usually don't show the disease.
+l2: Las personas con una copia del gen para enfermedad recesiva se denominan portadores y normalmente no manifiestan la enfermedad.
+l1: However, the gene can often be found by sensitive laboratory tests.
+l2: Sin embargo, el gen a menudo puede encontrarse por medio de pruebas de laboratorio sensibles.
+l1: In autosomal dominant inheritance, the abnormality or abnormalities usually appear in every generation.
+l2: En la HERENCIA AUTOSÓMICA DOMINANTE, la anomalía o anomalías generalmente aparecen en cada generación.
+l1: Each affected child of an affected parent has a 50% chance of inheriting the disease.
+l2: Cada niño afectado de un padre afectado tiene un 50% de probabilidades de heredar la enfermedad.
+l1: In autosomal recessive inheritance, the parents of an affected individual may not show the disease.
+l2: En la HERENCIA AUTOSÓMICA RECESIVA, los padres de una persona afectada pueden no manifestar la enfermedad.
+l1: On average, the chance of an affected child's brothers or sisters having the disease are 1 in 4.
+l2: En promedio, la posibilidad de que los hermanos o hermanas de un niño afectado tengan la enfermedad es de 1 en cada 4.
+l1: Males and females are equally likely to be affected.
+l2: Los hombres y las mujeres tienen las mismas probabilidades de resultar afectados.
+l1: For a child to have symptoms of an autosomal recessive disorder, the child must receive the defective gene from both parents.
+l2: Para que un niño tenga los síntomas de un trastorno autosómico recesivo, debe recibir el gen defectuoso de AMBOS padres.
+l1: Because most recessive disorders are rare, a child is at increased risk of a recessive disease if the parents are related.
+l2: Debido a que la mayoría de los trastornos recesivos son raros, un niño tiene mayor riesgo de una enfermedad recesiva si los padres tienen lazos de consanguinidad.
+l1: Related individuals are more likely to have inherited the same rare gene from a common ancestor.
+l2: Los parientes tienen una probabilidad más alta de haber heredado el mismo gen raro de un ancestro común.
+l1: In X-linked recessive inheritance, the incidence of the disease is much higher in males than females.Since the abnormal gene is carried on the X chromosome, males do not transmit it to their sons.
+l2: En la HERENCIA RECESIVA LIGADA AL CROMOSOMA X, la incidencia de la enfermedad es mucho mayor en los hombres que en las mujeres y, debido a que el gen anormal lo porta el cromosoma X, los hombres no lo trasmiten a sus hijos sino a todas sus hijas.
+l1: However, they do transmit it to their daughters.The presence of one normal X chromosome masks the effects of the X chromosome with the abnormal gene.
+l2: La presencia de un cromosoma X normal enmascara los efectos del cromosoma X con el gen anormal.
+l1: So, almost all of the daughters of an affected man appear normal, but they are all carriers of the abnormal gene.The sons of these daughters then have a 50% chance of receiving the defective gene.
+l2: De esta manera, casi todas las hijas de un hombre afectado por la enfermedad parecen normales, pero todas son portadoras del gen anormal y sus hijos tienen por lo tanto un 50% de probabilidades de recibir el gen defectuoso.
+l1: In X-linked dominant inheritance, the presence of the defective gene appears in females even if there is also a normal X chromosome present.
+l2: En la HERENCIA DOMINANTE LIGADA AL CROMOSOMA X, la presencia de un gen defectuoso aparece en las mujeres, incluso así también haya un cromosoma X normal presente.
+l1: Since males pass the Y chromosome to their sons, affected males will not have affected sons.All of their daughters will be affected, however.
+l2: Dado que los hombres le pasan el cromosoma Y a sus hijos, los hombres afectados no tendrán hijos varones afectados, pero todas sus hijas sí resultarán afectadas.
+l1: Sons or daughters of affected females will have a 50% chance of getting the disease.
+l2: Los hijos o hijas de mujeres afectadas tendrán un 50% de probabilidades de contraer la enfermedad.
+l1: EXAMPLES OF SINGLE GENE DISORDERS
+l2: EJEMPLOS DE TRASTORNOS MONOGENÉTICOS
+l1: Autosomal recessive:
+l2: Autosómico recesivo:
+l1: ADA deficiency (sometimes called the "boy in a bubble" disease)
+l2: Deficiencia de ADA (a veces denominado "enfermedad del niño en una burbuja")
+l1: Alpha-1-antitrypsin (AAT) deficiency
+l2: Deficiencia de alfa-1-antitripsina (AAT)
+l1: Cystic fibrosis (CF)
+l2: Fibrosis quística (FQ)
+l1: Phenylketonuria (PKU)
+l2: Fenilcetonuria (FC)
+l1: Sickle cell anemia
+l2: Anemia drepanocítica
+l1: X-linked recessive:
+l2: Recesivo ligado al cromosoma X:
+l1: Duchenne muscular dystrophy
+l2: Distrofia muscular de Duchenne
+l1: Hemophilia A
+l2: Hemofilia A
+l1: Autosomal dominant:
+l2: Autosómico dominante:
+l1: Familial hypercholesterolemia
+l2: Hipercolesterolemia familiar
+l1: Huntington's disease
+l2: Enfermedad de Huntington
+l1: X-linked dominant:
+l2: Dominante ligado al cromosoma X:
+l1: Only a few, rare, disorders are X-linked dominant.
+l2: Solamente muy pocas y muy raras enfermedades se clasifican como dominantes ligadas al cromosoma X.
+l1: One of these is hypophosphatemic rickets, also called vitamin D -resistant rickets.
+l2: Una de ellas es el raquitismo hipofosfatémico, también denominado raquitismo resistente a la vitamina D.
+l1: CHROMOSOMAL DISORDERS
+l2: TRASTORNOS CROMOSÓMICOS
+l1: In chromosomal disorders, the defect is due to an excess or lack of the genes contained in a whole chromosome or chromosome segment.
+l2: En los trastornos cromosómicos, el defecto se debe a un exceso o falta de genes contenidos en todo un cromosoma o en un segmento de un cromosoma.
+l1: Chromosomal disorders include:
+l2: Los trastornos cromosómicos abarcan:
+l1: Down syndrome
+l2: Síndrome de Down
+l1: Klinefelter syndrome
+l2: Síndrome de Klinefelter
+l1: Turner syndrome
+l2: Síndrome de Turner
+l1: MULTIFACTORIAL DISORDERS
+l2: TRASTORNOS MULTIFACTORIALES
+l1: Many of the most common diseases involve interactions of several genes and the environment (for example, illnesses in the mother and medications).
+l2: Muchas de las enfermedades más comunes implican interacciones de algunos genes y el ambiente (por ejemplo, enfermedades en la madre y medicamentos).
+l1: These include:
+l2: Éstas abarcan:
+l1: Cancer
+l2: Cáncer
+l1: Coronary heart disease
+l2: Cardiopatía coronaria
+l1: Hypertension
+l2: Hipertensión
+l1: Stroke
+l2: Accidente cerebrovascular
+l1: MITOCHONDRIAL DNA-LINKED DISORDERS
+l2: TRASTORNOS MITOCONDRIALES LIGADOS AL ADN
+l1: Mitochondria are small organisms found in most of the body's cells.They are responsible for energy production inside cells.
+l2: Las mitocondrias son pequeños organismos presentes en la mayoría de las células del cuerpo y son responsables de la producción de energía dentro de éstas.
+l1: Mitochondria contain their own private DNA.
+l2: Las mitocondrias contienen su propio ADN privado.
+l1: In recent years, more than 60 hereditary disorders have been shown to result from changes (mutations) in mitochondrial DNA.
+l2: En los últimos años, se ha demostrado que más de 60 trastornos hereditarios resultan de cambios (mutaciones) en el ADN mitocondrial.
+l1: Because mitochondria come only from the female egg, most mitochondria-related disorders are passed down only from the mother.
+l2: Dado que las mitocondrias provienen sólo del óvulo, la mayoría de los trastornos relacionados con ellas se heredan únicamente de la madre.
+l1: Mitochondrial disorders can appear at any age.They have a wide variety of symptoms and signs.
+l2: Los trastornos mitocondriales pueden aparecer a cualquier edad y tienen una amplia variedad de síntomas y signos.
+l1: These disorders may cause:
+l2: Estos trastornos pueden causar:
+l1: Blindness
+l2: Ceguera
+l1: Developmental delay
+l2: Retraso en el desarrollo
+l1: Gastrointestinal problems
+l2: problemas gastrointestinales
+l1: Hearing loss
+l2: Hipoacusia
+l1: Heart rhythm problems
+l2: Problemas del ritmo cardíaco
+l1: Metabolic disturbances
+l2: Alteraciones metabólicas
+l1: Short stature
+l2: Baja estatura
+l1: Homozygous; Inheritance; Heterozygous; Inheritance patterns; Heredity and disease; Heritable; Genetic markers
+l2: Homocigoto; Herencia; Heterocigoto; Patrones de herencia; Herencia y enfermedad; Hereditario; Marcadores monogénico

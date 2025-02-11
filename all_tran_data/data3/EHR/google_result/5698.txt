@@ -1,0 +1,57 @@
+l1: [Report de-identified (Safe-harbor compliant) by De-ID v.6.22.08.0] **INSTITUTION GENERAL MEDICINE ATTENDING PHYSICIAN PROGRESS NOTE PATIENT NAME: **NAME[AAA, BBB M] ACCOUNT #: **ID-NUM **ROOM ATTENDING PHYSICIAN: **NAME[YYY M ZZZ] ADMISSION DATE: **DATE[Dec 08 2007] EVALUATION DATE: **DATE[Dec 13 07] I personally interviewed and examined the patient on **DATE[Dec 13 2007].
+l2: [Infome de-identificado (cumple con puerto seguro) por De-ID v.6.22.08.0] **INSTITUCION MEDICINA GENERAL MEDICO PRIMARIO NOTA DE PROGRESO NOMBRE DEL PACIENTE: **NOMBRE[AAA, BBB M] # CUENTA: **NUM-ID **CUARTO MEDICO PRIMARIO: **NOMBRE[YYY M ZZZ] FECHA DE ADMISION: **FECHA[08 dic 2007] FECHA DE EVALUACION: **FECHA[13 dic 07] Yo entrevisté y examiné personalmente al paciente en **FECHA[13 dic 2007].
+Google: [Reporte de-identificado (Safe Harbor-compliant) por De-ID v.6.22.08.0] ** INSTITUCIÓN MEDICINA GENERAL PROGRESO MÉDICO NOMBRE DEL PACIENTE NOTA: ** NOMBRE [AAA, BBB M] CUENTA #: ** ID NUM- ** médico de la sala ASISTENTES: ** NOMBRE [YYY ZZZ M] FECHA DE ADMISIÓN: ** FECHA [08 de diciembre 2007] EVALUACIÓN FECHA: FECHA ** [13 de diciembre 07] Yo personalmente entrevistó y examinó a la paciente sobre FECHA ** [13 de diciembre 2007].
+l1: I discussed the case with the house staff.
+l2: Discutí el caso con el personal del lugar.
+Google: Discutí el asunto con el personal de la casa.
+l1: The patient feels a little better today.
+l2: El paciente se siente un poco mejor hoy.
+Google: El paciente se siente un poco mejor hoy.
+l1: She did have a paracentesis yesterday which showed a white count of 113, red blood cells of 13800, only 1% neutrophils, 65 monocytes, and 29% mononuclear cells.
+l2: Es cierto que tuvo una paracentesis ayer que mostró un recuento leucocitario de 113, glóbulos rojos en 13800, sólo 1% de neutrófilos, 65 monocitos, y 29% células mononucleares.
+Google: Ella tenía una paracentesis ayer que mostró un recuento de glóbulos blancos de 113, los glóbulos rojos de 13800, sólo 1% de neutrófilos, monocitos 65, y 29% de células mononucleares.
+l1: Her albumin was less than 1.
+l2: Su albúmina era menos de 1.
+Google: Su albúmina fue de menos de 1.
+l1: Her total protein was less than 2; this is indicative of a transudate.
+l2: Su proteína total era menos de 2; lo que indica un trasudado.
+Google: Su proteína total fue de menos de 2, lo que es indicativo de un trasudado.
+l1: The patient has had 3 L removed since the tube was placed and feels much better from an abdominal point of view.
+l2: Se le han removido 3 L a la paciente desde se preparó el tubo y se siente mucho mejor desde el punto de vista del abdomen.
+Google: El paciente ha tenido 3 L eliminado puesto que el tubo se colocó y se siente mucho mejor desde un punto de vista abdominal.
+l1: She denies any headaches or chest pain.
+l2: Niega tener dolores de cabeza o del pecho.
+Google: Ella niega cualquier dolor de cabeza o dolor de pecho.
+l1: She does feel somewhat short of breath.
+l2: Aunque sí se siente un poco falta de aire.
+Google: Ella se siente un poco sin aliento.
+l1: She denies dysuria, urgency, or frequency.
+l2: Niega tener disuria, urgencia o frecuencia.
+Google: Ella niega disuria, urgencia o frecuencia.
+l1: PHYSICAL EXAMINATION: Today, head is normocephalic.
+l2: EXAMEN FISICO: Hoy la cabeza es normocefálica.
+Google: EXAMEN FÍSICO: Hoy en día, la cabeza es normocefálico.
+l1: Skin: Warm and dry.
+l2: Piel: Cálida y seca.
+Google: Piel: Cálido y seco.
+l1: Lungs: She has decreased breath sounds at the bases and a scattered wheeze.
+l2: Pulmones: Tiene sonidos respiratorios reducidos en las bases y resoplido esparcido.
+Google: Pulmones: Ha disminución del murmullo vesicular en la base y un sibilancias dispersas.
+l1: Heart: Regular rhythm.
+l2: Corazón: Ritmo regular.
+Google: Corazón: ritmo regular.
+l1: Abdomen: Less distended.
+l2: Abdomen: Menos distendido.
+Google: Abdomen: Menos distendido.
+l1: Her liver is more easily palpable today.
+l2: Su hígado es más fácil de palpar hoy.
+Google: Su hígado es más fácilmente palpable hoy.
+l1: Extremities: She still has 2+ edema.
+l2: Extremidades: Todavía tiene edema.
+Google: Extremidades: Todavía tiene edema 2 +.
+l1: ASSESSMENT AND PLAN: The patient was scheduled for a kidney biopsy today, but she was informed by the Renal Transplant Service that they were going to delay this since there was some improvement in her creatinine (today's creatinine is not yet available).
+l2: 2+ EVALUACION Y PLAN: Se proyectaba que la paciente tuviese una biopsia del riñón hoy, pero el Servicio de Trasplante Renal le informó que iban a retrasarla pues ha habido una mejoría en su creatinina (la creatinina de hoy todavía no está disponible).
+Google: EVALUACIÓN Y PLAN: El paciente fue programado para una biopsia de riñón hoy, pero fue informado por el Servicio de Trasplante Renal de que iban a demorar esto ya que hubo alguna mejora en la creatinina (creatinina de hoy aún no está disponible).
+l1: We will continue to drain ascitic fluid for at least another 24 hours and will continue to monitor her renal function.
+l2: Continuaremos drenando el líquido ascítico por al menos 24 horas más y continuaremos monitoreando su función renal.
+Google: Vamos a seguir para drenar el líquido ascítico por lo menos otras 24 horas y continuará vigilando la función renal.

@@ -1,0 +1,64 @@
+l1: HIV ELISA/Western blot is a set of blood tests used to diagnose chronic infection with human immunodeficiency virus (HIV).
+l2: Es una serie de pruebas sanguíneas utilizadas para diagnosticar la infección por el virus de la inmunodeficiencia humana (VIH) de tipo crónica.
+l1: A blood sample is needed.
+l2: Se necesita una muestra de sangre.
+l1: For information on how this is done, see: Venipuncture.
+l2: Para obtener información sobre la forma como se hace esto, ver el artículo: venopunción .
+l1: No preparation is necessary.
+l2: No se necesita ninguna preparación. 
+l1: When the needle is inserted to draw blood, some people feel moderate pain, while others feel only a prick or stinging sensation.
+l2: Cuando se inserta la aguja para extraer la sangre, algunas personas sienten un dolor moderado, mientras que otras sólo sienten un pinchazo o sensación de picadura.
+l1: Afterward, there may be some throbbing.
+l2: Posteriormente, puede haber algo de sensación pulsátil.
+l1: Testing for HIV infection is done for many reasons, including:
+l2: Las pruebas para la infección por VIH se realizan por muchas razones, entre ellas:
+l1: Screening people who want to be tested
+l2: Evaluar a personas que deseen hacerse la prueba.
+l1: Screening people in high-risk groups (men who have sex with men, injection drug users and their sexual partners, and commercial sex workers)
+l2: Evaluar a personas en grupos de alto riesgo (hombres homosexuales, usuarios de drogas inyectables y sus parejas sexuales, al igual que trabajadoras sexuales).
+l1: Screening people with certain conditions and infections (such as Kaposi's sarcoma or Pneumocystis jirovecii pneumonia)
+l2: Evaluar a personas con ciertas afecciones e infecciones (como el sarcoma de Kaposi, neumonía por Pneumocystis jirovecii).
+l1: Screening pregnant women to help prevent them from passing the virus to the baby
+l2: Evaluar a mujeres embarazadas para ayudar a evitar que le transmitan el virus a su bebé.
+l1: When a patient has an unusual infection
+l2: Cuando un paciente tiene una infección inusual.
+l1: A negative test result is normal.
+l2: Un resultado negativo en el examen es normal.
+l1: However, people with early HIV infection (termed acute HIV infection or primary HIV infection) often have a negative test result.
+l2: Sin embargo, las personas con infección temprana por VIH (llamada infección aguda o infección primaria por VIH) a menudo tienen un resultado negativo en el examen.
+l1: A positive result on the ELISA screening test does not necessarily mean that the person has HIV infection.
+l2: Un resultado positivo en la prueba de detección ELISA no significa necesariamente que la persona tenga la infección por VIH.
+l1: Certain conditions may lead to a false positive result, such as Lyme disease, syphilis, and lupus.
+l2: Hay ciertas afecciones que pueden llevar a que se presente un resultado falso positivo, como la enfermedad de Lyme, la sífilis y el lupus.
+l1: A positive ELISA test is always followed by a Western blot test.A positive Western blot confirms an HIV infection.
+l2: Una prueba ELISA positiva siempre va seguida de una inmunotransferencia (Western blot) que, de ser también positiva, confirma una infección por VIH.
+l1: A negative Western blot test means the ELISA test was a false positive test.
+l2: Una inmunotransferencia negativa significa que la prueba ELISA fue un examen falso positivo.
+l1: The Western blot test can also be unclear, in which case more testing is done.
+l2: La inmunotransferencia también puede ser poco clara, en cuyo caso, se hacen pruebas adicionales.
+l1: Negative tests do not rule out HIV infection.
+l2: Las pruebas negativas no descartan la infección por VIH.
+l1: There is a period of time (called the "window period") between HIV infection and the appearance of anti-HIV antibodies that can be measured.
+l2: Existe un período de tiempo, llamado "período de ventana inmunológica", entre la infección por VIH y la aparición de anticuerpos anti-VIH mensurables.
+l1: If a person might have acute or primary HIV infection, and is in the "window period," a negative HIV ELISA and Western blot will not rule out HIV infection.
+l2: Si una persona pudiera tener la infección aguda o la infección primaria por VIH y está en el "período de ventana inmunológica", un ELISA y una inmunotransferencia para VIH negativos no descartarán dicha infección.
+l1: More tests for HIV will need to be done.
+l2: Será necesario realizar más pruebas para VIH.
+l1: Veins and arteries vary in size from one patient to another and from one side of the body to the other.Obtaining a blood sample from some people may be more difficult than from others.
+l2: Las venas y las arterias varían en tamaño de un paciente a otro y de un lado del cuerpo a otro; por esta razón, puede ser más difícil obtener una muestra de sangre de algunas personas que de otras.
+l1: Other risks associated with having blood drawn are slight but may include:
+l2: Otros riesgos asociados con la extracción de sangre son leves, pero pueden ser:
+l1: Excessive bleeding
+l2: Sangrado excesivo
+l1: Fainting or feeling light-headed
+l2: Desmayo o sensación de mareo
+l1: Hematoma (blood accumulating under the skin)
+l2: Hematoma (acumulación de sangre debajo de la piel)
+l1: Infection (a slight risk any time the skin is broken)
+l2: Infección (un riesgo leve cada vez que se presenta ruptura de la piel)
+l1: People who are at high risk (men who have sex with men, injection drug users and their sexual partners, commercial sex workers) should be regularly tested for HIV.
+l2: Las personas que están en alto riesgo (hombres homosexuales, usuarios de drogas inyectables y sus parejas sexuales, trabajadoras sexuales) deben someterse a pruebas regulares para VIH.
+l1: If the health care provider suspects early acute HIV infection, other tests (such as HIV viral load) will be needed to confirm this diagnosis, because the HIV ELISA/Western blot test will often be negative during this window period.
+l2: Si el médico sospecha de infección por VIH aguda y temprana, se necesitarán otras pruebas (como carga viral para VIH) para confirmar este diagnóstico, debido a que el ELISA/inmunotransferencia para VIH a menudo serán negativos durante este período de ventana inmunológica.
+l1: HIV testing
+l2: Pruebas para VIH

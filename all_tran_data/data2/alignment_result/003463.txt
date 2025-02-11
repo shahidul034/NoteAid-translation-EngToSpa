@@ -1,0 +1,82 @@
+l1: Osmolality is a test that measures the concentration of all chemical particles found in the fluid part of blood.
+l2: Es un examen que mide la concentración de todas las partículas químicas que se encuentran en la parte líquida de la sangre.
+l1: A blood sample is needed.
+l2: Se necesita una muestra de sangre.
+l1: For information on how this is done, see: Venipuncture
+l2: Para obtener información sobre la forma como se hace esto, ver el artículo: venopunción .
+l1: Do not eat for 6 hours before the test.
+l2: No coma nada durante 6 horas antes del examen.
+l1: Your doctor may tell you to temporarily stop taking any drugs, such as Mannitol (a diuretic), that may interfere with test results.
+l2: El médico puede solicitarle que temporalmente deje de tomar cualquier medicamento, como manitol (un diurético), que puede interferir con los resultados del examen.
+l1: When the needle is inserted to draw blood, some people feel moderate pain, while others feel only a prick or stinging sensation.
+l2: Cuando se inserta la aguja para extraer la sangre, algunas personas sienten un dolor moderado, mientras que otras sólo sienten un pinchazo o sensación de picadura.
+l1: Afterward, there may be some throbbing.
+l2: Posteriormente, puede haber algo de sensación pulsátil.
+l1: This test helps evaluate your body's water balance.
+l2: Este examen ayuda a evaluar el equilibrio hídrico del cuerpo.
+l1: Your doctor may order this test if you have signs of hyponatremia, water loss, or poisoning from harmful substances such as ethanol, methanol, or ethylene glycol.
+l2: El médico puede ordenar este examen si usted tiene signos de hiponatremia, pérdida de agua o intoxicación por sustancias dañinas como etanol, metanol, etilenglicol.
+l1: It may also be done if you have problems producing urine.
+l2: También se puede hacer si usted tiene problemas para producir orina.
+l1: Osmolality increases with dehydration and decreases with overhydration.
+l2: La osmolalidad aumenta con la deshidratación y disminuye con la sobrehidratación.
+l1: In healthy people, when osmolality in the blood becomes high, the body releases antidiuretic hormone (ADH).
+l2: En las personas sanas, cuando la osmolalidad en la sangre se vuelve alta, el cuerpo libera hormona antidiurética (HAD).
+l1: This hormone causes your kidney to reabsorb water, which results in more concentrated urine.
+l2: Esta hormona hace que el riñón reabsorba agua, lo cual ocasiona orina más concentrada.
+l1: The reabsorbed water dilutes the blood, allowing the blood osmolality to fall back to normal.
+l2: El agua reabsorbida diluye la sangre, permitiendo que la osmolalidad sanguínea regrese de nuevo al nivel normal.
+l1: Low blood osmolality suppresses ADH, reducing how much water the kidney reabsorbs.
+l2: La osmolalidad sanguínea baja inhibe la HAD, reduciendo la cantidad de agua que el riñón reabsorbe.
+l1: You pass dilute urine to get rid of the excess water, and blood osmolality increases.
+l2: La persona elimina la orina diluida para deshacerse del exceso de agua y se incrementa la osmolalidad sanguínea.
+l1: Normal values range from 275 to 295 milliosmoles per kilogram.
+l2: Los valores normales van de 275 a 295 miliosmoles por kilogramo.
+l1: The examples above are common measurements for results of these tests.
+l2: Los ejemplos de arriba son mediciones comunes para los resultados de estos exámenes.
+l1: Normal value ranges may vary slightly among different laboratories.
+l2: Los rangos de los valores normales pueden variar ligeramente entre diferentes laboratorios.
+l1: Some labs use different measurements or test different samples.
+l2: Algunos laboratorios utilizan diferentes mediciones o analizan muestras diferentes.
+l1: Talk to your doctor about the meaning of your specific test results.
+l2: Hable con el médico acerca del significado de los resultados específicos de su examen.
+l1: Higher than normal levels may be due to:
+l2: Los niveles por encima de lo normal pueden deberse a:
+l1: Dehydration
+l2: Deshidratación
+l1: Diabetes insipidus
+l2: Diabetes insípida
+l1: Ethylene glycol poisoning
+l2: Intoxicación con etilenglicol
+l1: Hyperglycemia
+l2: Hiperglucemia
+l1: Hypernatremia
+l2: Hipernatremia
+l1: Methanol poisoning
+l2: Intoxicación con metanol
+l1: Stroke or head trauma resulting in deficient ADH secretion
+l2: Accidente cerebrovascular o traumatismo craneal que ocasiona secreción deficiente de HAD
+l1: Lower than normal levels may be due to:
+l2: Los niveles por debajo de lo normal pueden deberse a:
+l1: Excess fluid intake
+l2: Ingesta excesiva de líquidos
+l1: Hyponatremia
+l2: Hiponatremia
+l1: Overhydration
+l2: Sobrehidratación
+l1: Paraneoplastic syndromes associated with lung cancer
+l2: Síndromes paraneoplásicos asociados con el cáncer pulmonar
+l1: Syndrome of inappropriate ADH secretion
+l2: Síndrome de secreción inadecuada de HAD
+l1: Veins and arteries vary in size from one patient to another and from one side of the body to the other.Obtaining a blood sample from some people may be more difficult than from others.
+l2: Las venas y las arterias varían en tamaño de un paciente a otro y de un lado del cuerpo a otro, razón por la cual extraer sangre de algunas personas puede ser más difícil que de otras.
+l1: Other risks associated with having blood drawn are slight but may include:
+l2: Otros riesgos asociados con la extracción de sangre son leves, pero pueden ser:
+l1: Excessive bleeding
+l2: Sangrado excesivo
+l1: Fainting or feeling light-headed
+l2: Desmayo o sensación de mareo
+l1: Hematoma (blood accumulating under the skin)
+l2: Hematoma (acumulación de sangre debajo de la piel)
+l1: Infection (a slight risk any time the skin is broken)
+l2: Infección (un riesgo leve cada vez que se presenta ruptura de la piel)

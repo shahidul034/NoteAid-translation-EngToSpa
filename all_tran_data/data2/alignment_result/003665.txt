@@ -1,0 +1,180 @@
+l1: A blood smear is a blood test that gives information about the number and shape of blood cells.
+l2: Es un examen de sangre que brinda información acerca del número y forma de las células sanguíneas.
+l1: A blood sample is needed.
+l2: Se necesita una muestra de sangre.
+l1: For information on how this is done, see: Venipuncture
+l2: Para obtener información sobre la forma como se hace esto, ver el artículo: Venopunción. 
+l1: The blood sample is sent to a lab, where the health care professional looks at it under a microscope.Or, the blood may be examined by an automated machine.
+l2: La muestra de sangre se envía a un laboratorio, donde un profesional de la salud la examina bajo un microscopio, o también se puede analizar por medio de una máquina automática.
+l1: The smear shows the number and kinds of white blood cells (differential), abnormally shaped blood cells, and gives a rough estimate of white blood cell and platelet counts.
+l2: El frotis o extensión muestra el número y tipos de glóbulos blancos sanguíneos (fórmula leucocitaria), células sanguíneas anormalmente formadas, y arroja un cálculo aproximado de los conteos de glóbulos blancos y de plaquetas.
+l1: No special preparation is necessary.
+l2: No se necesita ninguna preparación especial.
+l1: When the needle is inserted to draw blood, some people feel moderate pain.Others feel only a prick or stinging sensation.
+l2: Cuando se inserta la aguja para extraer la sangre, algunas personas sienten un dolor moderado; otras sólo sienten un pinchazo o sensación de picadura.
+l1: Afterward, there may be some throbbing.
+l2: Posteriormente, puede haber algo de sensación pulsátil.
+l1: This test may be performed as part of a general health exam to help diagnose many illnesses.Or, your doctor may order this test if you have signs of a blood disorder.
+l2: Este examen se puede realizar como parte de una evaluación médica general para ayudar a diagnosticar muchas enfermedades o el médico lo puede ordenar si usted tiene signos de un trastorno sanguíneo.
+l1: Other conditions under which the test may be performed:
+l2: Otras afecciones bajo las cuales se puede llevar a cabo el examen:
+l1: Any known or suspected blood disorder
+l2: Cualquier trastorno sanguíneo presunto o conocido
+l1: Cancer
+l2: Cáncer
+l1: Hairy cell leukemia
+l2: Leucemia de células pilosas
+l1: Hemoglobinopathies
+l2: Hemoglobinopatías
+l1: Monitoring the side effects of chemotherapy
+l2: Monitoreo de los efectos secundarios de la quimioterapia
+l1: Red blood cells normally are the same in size and color and have a lighter-colored area in the center.
+l2: Los glóbulos rojos normalmente son iguales en tamaño y color y tienen un área de color claro en el centro.
+l1: The blood smear is considered normal if there is:
+l2: El frotis de sangre se considera normal si hay:
+l1: Normal appearance of cells
+l2: Apariencia normal de las células
+l1: Normal white blood cell differential
+l2: Fórmula leucocitaria normal 
+l1: The examples above are common measurements for results of these tests.
+l2: Los ejemplos de arriba son mediciones comunes correspondientes a los resultados de estos exámenes.
+l1: Normal value ranges may vary slightly among different laboratories.
+l2: Los rangos de los valores normales pueden variar ligeramente entre diferentes laboratorios.
+l1: Some labs use different measurements or test different samples.Talk to your doctor about the meaning of your specific test results.
+l2: Algunos laboratorios utilizan diferentes mediciones o analizan muestras diferentes.Hable con el médico acerca del significado de los resultados específicos de su examen.
+l1: Abnormal results mean there is an abnormality in the size, shape, color, or coating of the red blood cells.
+l2: Los resultados anormales significan que hay anomalías en el tamaño, la forma, el color o el recubrimiento de los glóbulos rojos.
+l1: Some abnormalities may be graded on a 4-point scale:
+l2: Algunas anomalías se pueden clasificar en una escala de 4 puntos:
+l1: 1+ means 25% of cells are affected
+l2: 1+: significa que el 25% de las células están afectadas
+l1: 2+ means half of cells are affected
+l2: 2+: significa que la mitad de células están afectadas
+l1: 3+ means 75% of cells are affected
+l2: 3+: significa que el 75% de las células están afectadas
+l1: 4+ means all of the cells are affected
+l2: 4+: significa que todas las células están afectadas
+l1: The presence of target cells may be due to:
+l2: La presencia de dianocitos puede deberse a:
+l1: Decreased osmotic fragility
+l2: Disminución de la fragilidad osmótica
+l1: Deficiency of an enzyme called lecithin cholesterol acyl transferase
+l2: Deficiencia en una enzima llamada lecitina colesterol acil transferasa
+l1: Hemoglobin abnormalities (hemoglobinopathies)
+l2: Anomalías de la hemoglobina (hemoglobinopatías)
+l1: Iron deficiency
+l2: Deficiencia de hierro
+l1: Liver disease
+l2: Enfermedad hepática
+l1: Spleen removal
+l2: Extirpación del bazo
+l1: Thalassemia
+l2: Talasemia
+l1: The presence of sphere-shaped cells (spherocytes) may be due to:
+l2: La presencia de células en forma de esfera (esferocitos) puede deberse a:
+l1: Autoimmune hemolytic anemia
+l2: Anemia hemolítica autoinmunitaria
+l1: Hereditary spherocytosis
+l2: Esferocitosis hereditaria
+l1: Increased osmotic fragility
+l2: Aumento de la fragilidad osmótica
+l1: The presence of elliptocytes may be a sign of hereditary elliptocytosis or hereditary ovalocytosis.
+l2: La presencia de eliptocitos puede ser un signo de eliptocitosis hereditaria u ovalocitosis hereditaria.
+l1: The presence of fragmented cells (schistocytes) may be due to:
+l2: La presencia de células fragmentadas (esquistocitos) puede deberse a:
+l1: Artificial heart valve
+l2: Válvula cardíaca artificial
+l1: Disseminated intravascular coagulation
+l2: Coagulación intravascular diseminada
+l1: Hemolytic uremic syndrome (HUS)
+l2: Síndrome urémico hemolítico (SUH)
+l1: Microangiopathic hemolytic anemia
+l2: Anemia hemolítica microangiopática
+l1: Thrombotic thrombocytopenic purpura (TTP)
+l2: Púrpura trombocitopénica trombótica (PTT)
+l1: The presence of a type of immature red blood cell called a normoblast may be due to:
+l2: La presencia de un tipo de glóbulos rojos inmaduros llamados normoblastos puede deberse a:
+l1: Cancer that has spread to bone marrow
+l2: Cáncer que se ha diseminado a la médula ósea
+l1: Erythroblastosis fetalis
+l2: Eritroblastosis fetal
+l1: Leukoerythroblastic anemia (myelophthisis process)
+l2: Anemia leucoeritroblástica (procesos de mieloptisis)
+l1: Miliary tuberculosis
+l2: Tuberculosis miliar
+l1: Myelofibrosis
+l2: Mielofibrosis
+l1: Removal of spleen
+l2: Extirpación del bazo
+l1: Severe hemolysis
+l2: Hemólisis severa
+l1: Thalassemia
+l2: Talasemia
+l1: The presence of burr cells (echinocytes) may indicate:
+l2: La presencia de células espinosas (equinocitos) puede indicar:
+l1: The presence of spur cells (acanthocytes) may indicate:
+l2: La presencia de células espinosas (acantocitos) puede indicar:
+l1: Severe liver disease
+l2: Enfermedad hepática severa
+l1: The presence of teardrop-shaped cells may indicate:
+l2: La presencia de células en lágrima puede indicar:
+l1: Leukoerythroblastic anemia
+l2: Anemia leucoeritroblástica
+l1: Myelofibrosis
+l2: Mielofibrosis
+l1: Severe iron deficiency
+l2: Deficiencia severa de hierro
+l1: Thalassemia major
+l2: Talasemia mayor
+l1: The presence of Howell-Jolly bodies may indicate:
+l2: La presencia de los cuerpos de Howell Jolly puede indicar:
+l1: Myelodysplasia
+l2: Mielodisplasia
+l1: Post-splenectomy
+l2: Posesplenectomía
+l1: Sickle cell anemia
+l2: Anemia drepanocítica
+l1: The presence of Heinz bodies may indicate:
+l2: La presencia de los cuerpos de Heinz puede indicar:
+l1: Alpha thalassemia
+l2: Talasemia alfa
+l1: Congenital hemolytic anemia
+l2: Anemia hemolítica congénita
+l1: G6PD deficiency
+l2: Deficiencia de G-6-PD
+l1: Unstable form of hemoglobin
+l2: Forma inestable de la hemoglobina
+l1: The presence of slightly immature red blood cells (reticulocytes) may indicate:
+l2: La presencia de glóbulos rojos ligeramente inmaduros (reticulocitos) puede indicar:
+l1: Anemia with bone marrow recovery
+l2: Anemia con recuperación de médula ósea
+l1: Hemolytic anemia
+l2: Anemia hemolítica
+l1: Hemorrhage
+l2: Hemorragia
+l1: The presence of basophilic stippling may indicate:
+l2: La presencia de punteado basófilo puede indicar:
+l1: Lead poisoning
+l2: Intoxicación con plomo
+l1: Myelofibrosis
+l2: Mielofibrosis
+l1: Myelophthisic process
+l2: Proceso mieloptísico
+l1: The presence of sickle cells may indicate sickle cell anemia.
+l2: La presencia de drepanocitos puede indicar anemia drepanocítica.
+l1: Veins and arteries vary in size from one patient to another and from one side of the body to the other.Obtaining a blood sample from some people may be more difficult than from others.
+l2: Las venas y las arterias varían de tamaño de un paciente a otro y de un lado del cuerpo a otro, razón por la cual extraer sangre de algunas personas puede ser más difícil que de otras.
+l1: Other risks associated with having blood drawn are slight but may include:
+l2: Los riesgos asociados con la extracción de sangre son leves, pero pueden ser:
+l1: Excessive bleeding
+l2: Sangrado excesivo
+l1: Fainting or feeling light-headed
+l2: Desmayo o sensación de mareo
+l1: Hematoma (blood accumulating under the skin)
+l2: Hematoma (acumulación de sangre debajo de la piel)
+l1: Infection (a slight risk any time the skin is broken)
+l2: Infección (un riesgo leve cada vez que se presenta ruptura de la piel)
+l1: The accuracy of this test depends, in part, on the experience of the person looking at the sample.
+l2: La exactitud de este examen depende, en parte, de la experiencia de la persona que examina la muestra.
+l1: Experienced cell examiners can get a lot of information from the blood smear.
+l2: Los examinadores de células experimentados pueden obtener mucha información a partir del frotis de sangre.

@@ -1,0 +1,64 @@
+l1: A complete blood count (CBC) test measures the following:
+l2: Un examen de conteo sanguíneo completo (CSC) mide lo siguiente:
+l1: The number of red blood cells (RBC count)
+l2: El número de glóbulos rojos (GR)
+l1: The number of white blood cells (WBC count)
+l2: El número de glóbulos blancos (GB)
+l1: The total amount of hemoglobin in the blood
+l2: La cantidad total de hemoglobina en la sangre
+l1: The fraction of the blood composed of red blood cells (hematocrit)
+l2: La fracción de la sangre compuesta de glóbulos rojos (hematocrito)
+l1: The CBC test also provides information about the following measurements:
+l2: El examen del conteo sanguíneo completo brinda información de las siguientes mediciones:
+l1: Average red blood cell size (MCV)
+l2: El tamaño promedio de los glóbulos rojos (VCM)
+l1: Hemoglobin amount per red blood cell (MCH)
+l2: La cantidad de hemoglobina por glóbulo rojo (HCM)
+l1: The amount of hemoglobin relative to the size of the cell (hemoglobin concentration) per red blood cell (MCHC)
+l2: La cantidad de hemoglobina relativa al tamaño de la célula (concentración de hemoglobina) por glóbulo rojo (CHCM)
+l1: A complete blood count (CBC) is used to detect or monitor many different health conditions.
+l2: El conteo de plaquetas generalmente también se incluye en el CSC.
+l1: It may be used to:
+l2: Ver también:
+l1: Diagnose infections or allergies
+l2: Conteo de glóbulos rojos (GR)
+l1: Detect blood clotting problems or blood disorders, including anemia
+l2: Conteo de glóbulos blancos (GB)
+l1: Evaluate red blood cell production or destruction
+l2: Índices de glóbulos rojos
+l1: Red blood cell indices:
+l2: Conteo de GB: 4,500 a 10,000 células/mcL
+l1: MCV: 80 to 95 femtoliter 
+l2: Hematocrito (varía con la altitud): 
+l1: MCH: 27 to 31 pg/cell
+l2: hombres: 40.7 a 50.3 %
+l1:  MCHC: 32 to 36 gm/dL
+l2: mujeres: 36.1 a 44.3 %
+l1: Note: cells/mcL = cells per microliter
+l2: Hemoglobina (varía con la altitud): 
+l1: gm/dL = grams per deciliter; 
+l2: hombres: 13.8 a 17.2 gm/dL
+l1: pg/cell = picograms per cell
+l2: mujeres: 12.1 a 15.1 gm/dL
+l1: RBCs transport hemoglobin which, in turn, carries oxygen.
+l2: Los glóbulos rojos transportan la hemoglobina, la cual, a su vez, lleva el oxígeno.
+l1: The amount of oxygen received by body tissues depends on the amount and function of RBCs and hemoglobin.
+l2: La cantidad de oxígeno que reciben los tejidos corporales depende de la cantidad y la función de los glóbulos rojos y de la hemoglobina. 
+l1: WBCs are mediators of inflammation and the immune response.There are various types of WBCs that normally appear in the blood:
+l2: Los glóbulos blancos son mediadores de la inflamación y de la respuesta inmunitaria y existen diversos tipos de ellos que aparecen normalmente en la sangre:
+l1: Neutrophils (polymorphonuclear leukocytes)
+l2: Neutrófilos (leucocitos polimorfonucleares)
+l1: Band cells (slightly immature neutrophils)
+l2: Células en banda (neutrófilos ligeramente inmaduros)
+l1: T-type lymphocytes (T cells)
+l2: Linfocitos Tipo T (células T)
+l1: B-type lymphocytes (B cells)
+l2: Linfocitos Tipo B (células B)
+l1: Monocytes
+l2: Monocitos
+l1: Eosinophils
+l2: Eosinófilos
+l1: Basophils
+l2: Basófilos
+l1: Complete blood count
+l2: Hemograma o recuento sanguíneo completo

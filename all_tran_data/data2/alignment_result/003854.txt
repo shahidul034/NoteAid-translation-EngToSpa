@@ -1,0 +1,44 @@
+l1: Lung diffusion testing measures how well the lungs exchange gases.
+l2: Es una prueba que mide qué tan bien se hace el intercambio gaseoso en los pulmones.
+l1: This is an important part of lung testing, because the major function of the lungs is to allow oxygen to "diffuse" or pass into the blood from the lungs, and to allow carbon dioxide to "diffuse" from the blood into the lungs.
+l2: Esto es una parte importante de las pruebas pulmonares, debido a que la principal función de los pulmones es dejar que el oxígeno se "difunda" o pase hacia la sangre desde los pulmones y permitir que el monóxido de carbono se "difunda" desde la sangre hacia los pulmones.
+l1: You breathe in (inhale) air containing a very small amount of a tracer gas, such as carbon monoxide.
+l2: Usted inspira (inhala) aire que contiene una cantidad muy pequeña de un gas trazador, como el monóxido de carbono.
+l1: You hold your breath for 10 seconds, then rapidly blow it out (exhale).
+l2: Contiene la respiración durante 10 segundos y luego lo expulsa (exhala) rápidamente.
+l1: The exhaled gas is tested to determine how much of the tracer gas was absorbed during the breath.
+l2: Se analiza el gas exhalado para determinar cuánta cantidad del gas trazador se absorbió durante la respiración.
+l1: Do not eat a heavy meal before the test.
+l2: No ingiera una comida pesada antes del examen.
+l1: Do not smoke for at least 4 - 6 hours before the test. 
+l2: No fume durante 4 a 6 horas antes del examen.
+l1: If you use a bronchodilator or inhaler medications, ask your health care provider whether or not you can use them before the test.
+l2: Si utiliza medicamentos broncodilatadores o inhalables, pregúntele al médico si los puede o no usar antes del examen.
+l1: Normal test results depend on a person's:
+l2: Los resultados normales del examen en la persona dependen de:
+l1: Age
+l2: La edad
+l1: Gender
+l2: El sexo
+l1: Height
+l2: La talla
+l1: Hemoglobin (the protein in red blood cells that carries oxygen) level
+l2: El nivel de hemoglobina (la proteína en los glóbulos rojos que transporta el oxígeno)
+l1: Abnormal results mean that gases do not move normally across the lung tissues into the blood vessels of the lung.
+l2: Los resultados anormales generalmente quieren decir que los gases no se mueven normalmente a través de los tejidos pulmonares hacia los vasos sanguíneos del pulmón.
+l1: This may be due to lung diseases such as:
+l2: Esto puede deberse a enfermedades pulmonares, tales como:
+l1: Emphysema
+l2: Enfisema
+l1: Interstitial fibrosisPulmonary embolism
+l2: Fibrosis intersticialEmbolia pulmonar
+l1: Pulmonary hypertension
+l2: Hipertensión pulmonar
+l1: Lung hemorrhage
+l2: Hemorragia pulmonar
+l1: There are no significant risks.
+l2: No existen riesgos significativos.
+l1: Other pulmonary function tests may be done together with this test.
+l2: Se pueden efectuar otras pruebas de la función pulmonar junto con este examen.
+l1: Diffusing capacity; DLCO test
+l2: Capacidad de difusión; Prueba DLCO

@@ -1,0 +1,74 @@
+l1: X-rays are a type of electromagnetic radiation, just like visible light. 
+l2: Son una forma de radiación electromagnética, tal como la luz visible. 
+l1: An x-ray machine sends individual x-ray particles through the body.
+l2: Una máquina de rayos X envía partículas de estos rayos a través del cuerpo.
+l1: The images are recorded on a computer or film.
+l2: Las imágenes se registran en una computadora o en una película.
+l1: Structures that are dense (such as bone) will block most of the x-ray particles, and will appear white. 
+l2: Las estructuras que son densas, como los huesos, bloquearán la mayoría de las partículas de rayos X y aparecerán de color blanco. 
+l1: Metal and contrast media (special dye used to highlight areas of the body) will also appear white. 
+l2: El metal y los medios de contraste (tintes especiales utilizados para resaltar áreas del cuerpo) también aparecerán de color blanco. 
+l1: Structures containing air will be black, and muscle, fat, and fluid will appear as shades of gray.
+l2: Las estructuras que contienen aire se verán negras, y los músculos, la grasa y los líquidos aparecerán como sombras de color gris. 
+l1: The test is done in a hospital radiology department or in the health care provider's office.
+l2: El examen se realiza en la sala de radiología de un hospital o en un consultorio médico.
+l1: How you are positioned depends on the type of x-ray being done.
+l2: La forma en que usted deba posicionarse dependerá del tipo de radiografía que se esté haciendo.
+l1: Several different x-ray views may be needed. 
+l2: Se pueden necesitar varias tomas radiográfícas.
+l1: You need to stay still when you are having an x-ray.Motion can cause blurry images.
+l2: Es necesario que usted permanezca quieto cuando se esté tomando una radiografía, ya que el movimiento puede provocar imágenes borrosas.
+l1: You may be asked to hold your breath or not move for a second or two when they image is being taken. 
+l2: Puede que le soliciten que contenga la respiración o que no se mueva durante uno o dos segundos cuando se esté tomando la imagen. 
+l1: Before the x-ray, tell your health care team if you are pregnant, may be pregnant, or if you have an IUD inserted.
+l2: Antes de la radiografía, coméntele al equipo médico si está o puede estar embarazada o si tiene un DIU.
+l1: Metal can cause unclear images.
+l2: El metal puede causar imágenes borrosas.
+l1: You will need to remove all jewelry and may need to wear a hospital gown. 
+l2: Usted necesitará quitarse todas las joyas y posiblemente deba usar una bata hospitalaria.
+l1: How the test is done depends on the specific type of x-ray. 
+l2: La forma en que se hace el examen depende del tipo específico de radiografía. 
+l1: X-rays are painless.
+l2: Las radiografías son indoloras.
+l1: However, some body positions needed during an x-ray may cause temporary discomfort. 
+l2: Sin embargo, algunas posiciones del cuerpo necesarias durante una radiografía pueden causar molestia temporal. 
+l1: X-rays are monitored and regulated so you get the minimum amount of radiation exposure needed to produce the image. 
+l2: Los rayos X se monitorean y se regulan para que uno reciba la cantidad mínima de exposición a la radiación que se necesita para producir la imagen. 
+l1:  For most conventional x-rays, the risk of cancer or defects is very low.
+l2: Para la mayoría de las radiografías convencionales, el riesgo de cáncer o de defectos es muy bajo.
+l1: Most experts feel that benefits of appropriate x-imaging greatly outweight any risks.
+l2: La mayoría de los expertos opinan que los beneficios de las imágenes radiográficas apropiadas superan enormemente cualquier riesgo. 
+l1: Young children and babies in the womb are more sensitive to the risks of x-rays.
+l2: Los niños pequeños y los fetos son más sensibles a los riesgos de los rayos X.
+l1: Tell your health care provider if you think you might be pregnant. 
+l2: Coméntele al médico si cree que podría estar embarazada.
+l1: For more information, see the specific x-ray topics:
+l2: Para obtener más información, consulte los temas de radiografías específicas: 
+l1: Abdominal x-ray
+l2: Radiografía abdominal
+l1: Barium x-ray
+l2: Radiografía con bario
+l1: Bone x-ray
+l2: Radiografía de hueso
+l1: Chest x-ray
+l2: Radiografía de tórax
+l1: Dental x-rays
+l2: Radiografía de los dientes
+l1: Hand x-ray
+l2: Radiografía de las manos
+l1: Joint x-ray
+l2: Radiografía de las articulaciones
+l1: Lumbosacral spine x-ray
+l2: Radiografía de la columna lumbosacra
+l1: Neck x-ray
+l2: Radiografía del cuello
+l1: Pelvis x-ray
+l2: Radiografía de la pelvis
+l1: Skull x-ray
+l2: Radiografía del cráneo
+l1: Thoracic spine x-ray
+l2: Radiografía de la columna torácica
+l1: X-ray of the skeleton
+l2: Radiografía del esqueleto
+l1: Radiography
+l2: Radiografía 

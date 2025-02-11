@@ -1,0 +1,124 @@
+l1: An audiometry exam tests your ability to hear sounds.
+l2: Un examen de audiometría evalúa la capacidad de uno para escuchar sonidos.
+l1: Sounds vary based on their loudness (intensity) and the speed of sound wave vibrations (tone).
+l2: Los sonidos varían de acuerdo con el volumen o fuerza (intensidad) y con la velocidad de vibración de las ondas sonoras (tono).
+l1: Hearing occurs when sound waves stimulates the nerves of the inner ear.
+l2: La audición se produce cuando las ondas sonoras estimulan los nervios del oído interno.
+l1: Eventually the sound travels along nerve pathways to the brain.
+l2: Finalmente, el sonido viaja a lo largo de las rutas nerviosas hasta el cerebro.
+l1: Sound waves can travel to the inner ear through the ear canal, eardrum, and bones of the middle ear (air conduction), or through the bones around and behind the ear (bone conduction).
+l2: Las ondas sonoras pueden viajar hasta el oído interno a través del conducto auditivo externo, el tímpano y los huesos del oído medio (conducción del aire) o a través de los huesos que se encuentran alrededor y detrás del oído (conducción ósea).
+l1: The INTENSITY of sound is measured in decibels (dB):
+l2: La INTENSIDAD del sonido se mide en decibeles (dB):
+l1: A whisper is about 20 dB
+l2: Un susurro tiene aproximadamente 20 dB.
+l1: Loud music (some concerts) is around 80 - 120 dB
+l2: La música fuerte (algunos conciertos) tienen alrededor de 80 a 120 dB.
+l1: A jet engine is about 140 - 180 dB
+l2: El motor de un jet tiene más o menos de 140 a 180 dB.
+l1: Sounds greater than 85 dB can cause hearing loss after a few hours.
+l2: Los sonidos con más de 85 dB pueden ocasionar hipoacusia después de unas pocas horas.
+l1: Louder sounds can cause immediate pain, and hearing loss can develop in a very short time.
+l2: Los sonidos más fuertes pueden ocasionar dolor inmediato y la hipoacusia se puede presentar en muy poco tiempo.
+l1: The TONE of sound is measured in cycles per second (cps) or Hertz:
+l2: El TONO del sonido se mide en ciclos por segundo (cps) o Hertz:
+l1: Low bass tones range around 50 - 60 Hz
+l2: Los tonos graves de un bajo fluctúan entre 50 a 60 Hz.
+l1: Shrill, high-pitched tones range around 10,000 Hz or higher
+l2: Los tonos agudos de máxima elevación tienen aproximadamente 10,000 Hz o más.
+l1: The normal range of human hearing is about 20 Hz - 20,000 Hz.
+l2: El rango normal de audición de los humanos es de aproximadamente 20 a 20,000 Hz.
+l1: Some animals can hear up to 50,000 Hz.
+l2: Algunos animales pueden escuchar hasta 50,000 Hz.
+l1: Human speech is usually 500 - 3,000 Hz.
+l2: El lenguaje humano está generalmente entre 500 y 3,000 Hz.
+l1: The first steps are to see whether you need an audiogram.
+l2: El primer paso es ver si hay la necesidad de un audiograma.
+l1: The specific procedures may vary, but they generally involve blocking one ear at a time and checking your ability to hear whispers, spoken words, or the sound of a ticking watch.
+l2: Los procedimientos específicos pueden variar, pero generalmente implican la oclusión de un oído a la vez con el fin de evaluar la capacidad de escuchar susurros, palabras habladas o el sonido de tictac de un reloj.
+l1: A tuning fork may be used.The tuning fork is tapped and held in the air on each side of the head to test the ability to hear by air conduction.
+l2: Se puede utilizar un diapasón, el cual se golpea levemente y se mantiene en el aire a cada lado de la cabeza para evaluar la capacidad de audición por conducción aérea.
+l1: It is tapped and placed against the mastoid bone behind each ear to test bone conduction.
+l2: Luego, se vuelve a golpear y se coloca contra el hueso mastoideo, detrás de cada oído, para evaluar la conducción ósea.
+l1: Audiometry provides a more precise measurement of hearing.
+l2: La audiometría proporciona una medición más precisa de la audición.
+l1: To test air conduction, you wear earphones attached to the audiometer.
+l2: Para evaluar la conducción aérea, se colocan unos audífonos que van conectados al audiómetro.
+l1: Pure tones of controlled intensity are delivered to one ear at a time.
+l2: Los tonos puros de intensidad controlada son transmitidos generalmente a un oído a la vez.
+l1: You are asked to raise a hand, press a button, or otherwise indicate when you hear a sound.
+l2: Se solicita levantar la mano, presionar un botón o indicar de otro modo cuando se escuche un sonido.
+l1: The minimum intensity (volume) required to hear each tone is graphed.
+l2: Luego, se grafica la intensidad (volumen) mínima requerida para escuchar cada tono.
+l1: An attachment called a bone oscillator is placed against the bone behind each ear (mastoid bone) to test bone conduction.
+l2: Se coloca un accesorio, llamado oscilador óseo, contra el hueso por detrás de cada oído (hueso mastoideo) para evaluar la conducción ósea.
+l1: No special preparation is needed.
+l2: No se necesita preparación especial para este examen.
+l1: This test can detect hearing loss at an early stage.It may also be used when you have difficulty hearing from any cause.
+l2: Con este examen, se puede detectar la hipoacusia a una edad temprana y también se puede utilizar cuando se presente una dificultad para oír por cualquier causa.
+l1: Common causes of hearing loss include:
+l2: Entre las causas comunes de la hipoacusia se encuentran:
+l1: Acoustic trauma
+l2: Trauma acústico
+l1: Chronic ear infections
+l2: Infecciones crónicas del oído
+l1: Diseases of the inner ear
+l2: Enfermedades del oído interno
+l1: Head injury
+l2: Traumatismo craneal
+l1: Inherited conditions
+l2: Trastornos hereditarios
+l1: Medications that can harm the inner ear, including certain antibiotics (such as neomycin or gentamycin), diuretics, and large doses of salicylates (such as aspirin)
+l2: Medicamentos que pueden dañar el oído interno, incluyendo ciertos antibióticos (como la neomicina o gentamicina), diuréticos y grandes dosis de salicilatos (como el ácido acetilsalicílico)
+l1: Occupational hearing loss
+l2: Hipoacusia ocupacional
+l1: Ruptured eardrum
+l2: Ruptura del tímpano
+l1: The ability to hear a whisper, normal speech, and a ticking watch is normal.
+l2: La capacidad para escuchar un susurro, el habla normal y el tictac de un reloj es normal.
+l1: The ability to hear a tuning fork through air and bone is normal.
+l2: La capacidad para escuchar un diapasón a través del aire y el hueso es normal.
+l1: In detailed audiometry, hearing is normal if you can hear tones from 250 Hz - 8,000 Hz at 25 dB or lower.
+l2: En la audiometría detallada, la audición es normal si uno puede escuchar tonos desde 250Hz a 8000 Hz a 25dB o menos.
+l1: There are many different kinds and degrees of hearing loss.
+l2: Existen muchos tipos y grados diferentes de hipoacusia.
+l1: In some types, you only lose the ability to hear high or low tones, or you lose only air or bone conduction.
+l2: En algunos tipos, sólo se pierde la capacidad para escuchar tonos altos o bajos o se pierde únicamente la conducción aérea o la conducción ósea.
+l1: The inability to hear pure tones below 25 dB indicates some hearing loss.
+l2: La incapacidad para escuchar tonos puros que están por debajo de 25 dB indica cierto grado de hipoacusia.
+l1: The amount and type of hearing loss may give clues to the cause and outlook.
+l2: La magnitud y el tipo de pérdida auditiva pueden dar indicios de la causa y el pronóstico. 
+l1: The following conditions may affect test results:
+l2: Las siguientes enfermedades pueden afectar los resultados de los exámenes:
+l1: Acoustic neuroma
+l2: Neuroma acústico
+l1: Acoustic trauma
+l2: Trauma acústico
+l1: Age-related hearing loss
+l2: Hioacusia relacionada con la edad
+l1: Alport syndrome
+l2: Síndrome de Alport
+l1: Labyrinthitis
+l2: Laberintitis
+l1: Meniere's disease
+l2: Enfermedad de Meniere
+l1: Occupational hearing loss
+l2: Hipoacusia ocupacional 
+l1: Otosclerosis
+l2: Otoesclerosis
+l1: Ruptured or perforated eardrum
+l2: Perforación o ruptura del tímpano
+l1: There is no risk.
+l2: No existe ningún riesgo.
+l1: There are many different hearing function tests.
+l2: Existen muchos exámenes diferentes de la función auditiva.
+l1: In simple screenings, the health care provider will make a loud noise and watch to see if it startles you.
+l2: En pruebas de detección simples, el médico hará un ruido fuerte y estará atento para ver si éste le causa a uno sobresalto.
+l1: Detailed screenings include brainstem auditory evoked response testing (BAER).
+l2: Los exámenes detallados incluyen una respuesta auditiva provocada del tronco encefálico (BAER, por sus siglas en inglés).
+l1: This test uses an electroencephalogram to detect brain wave activity when sounds are made.
+l2: Este examen utiliza un electroencefalograma para detectar la actividad de las ondas cerebrales cuando se producen los sonidos.
+l1: Another hearing test called otoacoustic emission testing (OAE) can be used in very young children (such as newborns) or when standard tests do not produce reliable results.
+l2: Otro examen de la audición, llamado estudio o evaluación de las emisiones otoacústicas (OAE, por sus siglas en inglés), se puede utilizar en los niños muy pequeños, como los recién nacidos, o cuando los exámenes estándares no arrojan resultados confiables.
+l1: Audiometry; Hearing test; Audiography (audiogram)
+l2: Audiometría; Prueba auditiva; Audiografía (audiograma)

@@ -1,0 +1,100 @@
+l1: Nerve conduction velocity (NCV) is a test to see how fast electrical signals move through a nerve.
+l2: La velocidad de conducción nerviosa (VCN) es una prueba de la velocidad de las señales eléctricas a través de un nervio.
+l1: Patches called surface electrodes, similar to those used for ECG, are placed on the skin over nerves at various locations.
+l2: Se colocan parches, llamados electrodos de superficie, semejantes a los usados para un ECG, sobre la piel por encima de los nervios en diversos lugares.
+l1: Each patch gives off a very mild electrical impulse, which stimulates the nerve.
+l2: Cada parche emite un impulso eléctrico muy leve que estimula el nervio.
+l1: The nerve's resulting electrical activity is recorded by the other electrodes.
+l2: La actividad eléctrica resultante del nervio es registrada por los otros electrodos.
+l1: The distance between electrodes and the time it takes for electrical impulses to travel between electrodes are used to determine the speed of the nerve signals.
+l2: La distancia entre los electrodos y el tiempo que le toma a los impulsos eléctricos viajar entre los electrodos se utiliza para determinar la velocidad de las señales nerviosas.
+l1: Electromyography (recording from needles placed into the muscles) is often done at the same time as this test.
+l2: Con frecuencia, una electromiografía (registro a partir de agujas colocadas dentro de los músculos) se realiza al mismo tiempo que este examen.
+l1: Normal body temperature must be maintained (low body temperature slows nerve conduction).
+l2: Es necesario mantener la temperatura corporal normal, dado que la temperatura baja retarda la conducción nerviosa.
+l1: Tell your doctor if you have a cardiac defibrillator or pacemaker, as precautions may need to be taken.
+l2: Coméntele al médico si usted tiene un desfibrilador cardíaco o un marcapasos, ya que puede ser necesario tomar precauciones.
+l1: The impulse may feel like an electric shock.Depending on how strong the stimulus is, you will feel it to varying degrees, and it may be uncomfortable.
+l2: El impulso puede sentirse como un electrochoque y, dependiendo de qué tan fuerte sea el estímulo, se sentirá en grados diferentes y puede resultar incómodo.
+l1: You should feel no pain once the test is finished.
+l2: Usted no debe sentir ningún tipo de dolor una vez que la prueba haya terminado.
+l1: Often, the nerve conduction test is followed by electromyography (EMG), which involves needles being placed into the muscle and you contracting that muscle.
+l2: El examen de conducción nerviosa a menudo va seguido por una electromiografía (EMG), que implica colocar agujas en el músculo y que usted contraiga dicho músculo.
+l1: This can be uncomfortable during the test, and you may have muscle soreness after the test at the site of the needles.
+l2: Esto puede ser incómodo durante el examen y usted puede experimentar dolor muscular después del procedimiento en el sitio donde se colocan las agujas.
+l1: This test is used to diagnose nerve damage or destruction.
+l2: Este examen se utiliza para diagnosticar daño o destrucción del nervio.
+l1: Occasionally, the test may be used to evaluate diseases of nerve or muscle, including myopathy, Lambert-Eaton syndrome, or myasthenia gravis.
+l2: Ocasionalmente, el examen se puede utilizar para evaluar enfermedades de nervios o músculos, incluyendo miopatía, síndrome de Lambert-Eaton o miastenia grave.
+l1: NCV is related to the diameter of the nerve and the degree of myelination (the presence of a myelin sheath on the axon) of the nerve.
+l2: La velocidad de conducción nerviosa se relaciona con el diámetro del nervio y con su grado normal de mielinización, que es la presencia de vaina de mielina en el axón.
+l1: Newborn infants have values that are approximately half that of adults, and adult values are normally reached by age 3 or 4.
+l2: Los bebés recién nacidos tienen valores que equivalen aproximadamente a la mitad del valor de los adultos, y los valores para los adultos se alcanzan normalmente a la edad de 3 a 4 años.
+l1: Note: Normal value ranges may vary slightly among different laboratories.
+l2: Nota: los rangos de los valores normales pueden variar ligeramente entre diferentes laboratorios.
+l1: Talk to your doctor about the meaning of your specific test results.
+l2: Hable con el médico acerca del significado de los resultados específicos de su examen.
+l1: Most often, abnormal results are due to some sort of nerve damage or destruction, including:
+l2: Los resultados anormales frecuentemente se deben a algún tipo de daño o destrucción del nervio, como:
+l1: Axonopathy (damage to the long portion of the nerve cell)
+l2: Axonopatía (daño a la porción larga de la neurona)
+l1: Conduction block (the impulse is blocked somewhere along the nerve pathway)
+l2: Bloqueo de la conducción (el impulso es bloqueado en algún lugar a lo largo del recorrido del nervio)
+l1: Demyelination (damage and loss of the fatty insulation surrounding the nerve cell)
+l2: Desmielinización (daño y pérdida del aislamiento graso que rodea la neurona)
+l1: The nerve damage or destruction may be due to many different conditions, including:
+l2: El daño o destrucción del nervio puede deberse a muchas afecciones diferentes, como:
+l1: Alcoholic neuropathy
+l2: Neuropatía alcohólica
+l1: Diabetic neuropathy
+l2: Neuropatía diabética
+l1: Nerve effects of uremia (from kidney failure)
+l2: Efectos neurológicos de la uremia (por insuficiencia renal)
+l1: Traumatic injury to a nerve
+l2: Lesión traumática al nervio
+l1: Guillain-Barre syndrome
+l2: Síndrome de Guillain-Barré
+l1: Diphtheria
+l2: Difteria
+l1: Carpal tunnel syndrome
+l2: Síndrome del túnel carpiano
+l1: Brachial plexopathy
+l2: Plexopatía braquial
+l1: Charcot-Marie-Tooth disease (hereditary)
+l2: Enfermedad de Charcot-Marie-Tooth (hereditaria)
+l1: Chronic inflammatory polyneuropathy
+l2: Polineuropatía inflamatoria crónica
+l1: Common peroneal nerve dysfunction
+l2: Disfunción del nervio peroneo común
+l1: Distal median nerve dysfunction
+l2: Disfunción del nervio mediano distal
+l1: Femoral nerve dysfunction
+l2: Disfunción del nervio femoral
+l1: Friedreich's ataxia
+l2: Ataxia de Friedreich
+l1: General paresis
+l2: Parálisis general
+l1: Mononeuritis multiplex
+l2: Mononeuritis múltiple
+l1: Primary amyloidosis
+l2: Amiloidosis primaria
+l1: Radial nerve dysfunction
+l2: Disfunción del nervio radial
+l1: Sciatic nerve dysfunction
+l2: Disfunción del nervio ciático
+l1: Secondary systemic amyloidosis
+l2: Amiloidosis sistémica secundaria
+l1: Sensorimotor polyneuropathy
+l2: Polineuropatía sensoriomotora
+l1: Tibial nerve dysfunction
+l2: Disfunción del nervio tibial
+l1: Ulnar nerve dysfunction
+l2: Disfunción del nervio cubital
+l1: Any peripheral neuropathy can cause abnormal results, as can damage to the spinal cord and disk herniation (herniated nucleus pulposus) with nerve root compression.
+l2: Cualquier neuropatía periférica puede producir resultados anormales, como lo puede hacer el daño de la médula espinal y la hernia discal (núcleo pulposo herniado) con la compresión de la raíz nerviosa.
+l1: There are no risks.
+l2: No hay ningún riesgo.
+l1: An NCV test shows the condition of the best surviving nerve fibers, so in some cases the results may be normal even if there is nerve damage.
+l2: Un examen de la velocidad de conducción nerviosa muestra el estado de las mejores fibras nerviosas sobrevivientes, de manera que, en algunos casos, los resultados pueden ser normales incluso si hay daño al nervio.
+l1: NCV
+l2: VCN

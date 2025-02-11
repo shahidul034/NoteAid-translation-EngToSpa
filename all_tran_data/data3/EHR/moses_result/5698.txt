@@ -1,0 +1,57 @@
+l1: [Report de-identified (Safe-harbor compliant) by De-ID v.6.22.08.0] **INSTITUTION GENERAL MEDICINE ATTENDING PHYSICIAN PROGRESS NOTE PATIENT NAME: **NAME[AAA, BBB M] ACCOUNT #: **ID-NUM **ROOM ATTENDING PHYSICIAN: **NAME[YYY M ZZZ] ADMISSION DATE: **DATE[Dec 08 2007] EVALUATION DATE: **DATE[Dec 13 07] I personally interviewed and examined the patient on **DATE[Dec 13 2007].
+l2: [Infome de-identificado (cumple con puerto seguro) por De-ID v.6.22.08.0] **INSTITUCION MEDICINA GENERAL MEDICO PRIMARIO NOTA DE PROGRESO NOMBRE DEL PACIENTE: **NOMBRE[AAA, BBB M] # CUENTA: **NUM-ID **CUARTO MEDICO PRIMARIO: **NOMBRE[YYY M ZZZ] FECHA DE ADMISION: **FECHA[08 dic 2007] FECHA DE EVALUACION: **FECHA[13 dic 07] Yo entrevisté y examiné personalmente al paciente en **FECHA[13 dic 2007].
+moses: [Report  de-identified  (Safe-harbor  compliant)  por  De-ID  v.6.22.08.0]  **INSTITUTION  GENERAL  MEDICINE  ATTENDING  PHYSICIAN  PROGRESS  NOTE  PATIENT  NAME:  **NAME[AAA,  BBB  M]  ACCOUNT  #:  **ID-NUM  **ROOM  ATTENDING  PHYSICIAN:  **NAME[YYY  M  ZZZ]  ADMISSION  DATE:  **DATE[Dec  08  2007]  EVALUATION  DATE:  **DATE[Dec  13  07]  I  personalmente  interviewed  y se examina  el paciente  sobre  **DATE[Dec  13  2007].  
+l1: I discussed the case with the house staff.
+l2: Discutí el caso con el personal del lugar.
+moses: I  aborda  el caso  con  la casa  staff.  
+l1: The patient feels a little better today.
+l2: El paciente se siente un poco mejor hoy.
+moses: The  paciente  se siente  un poco mejor  today.  
+l1: She did have a paracentesis yesterday which showed a white count of 113, red blood cells of 13800, only 1% neutrophils, 65 monocytes, and 29% mononuclear cells.
+l2: Es cierto que tuvo una paracentesis ayer que mostró un recuento leucocitario de 113, glóbulos rojos en 13800, sólo 1% de neutrófilos, 65 monocitos, y 29% células mononucleares.
+moses: She  Â¿  tiene  una  paracentesis  yesterday  lo cual  showed  un  113,  conteo  de  glÃ³bulos rojos  de  13800,  sÃ³lo  1%  neutrophils,  65 aÃ±os  monocytes,  y  29%  mononucleares  cells.  
+l1: Her albumin was less than 1.
+l2: Su albúmina era menos de 1.
+moses: albÃºmina  Her  fue menor que  1.  
+l1: Her total protein was less than 2; this is indicative of a transudate.
+l2: Su proteína total era menos de 2; lo que indica un trasudado.
+moses: proteÃ­na total  Her  fue menor que  2;  se trata  de  un  indicative  transudate.  
+l1: The patient has had 3 L removed since the tube was placed and feels much better from an abdominal point of view.
+l2: Se le han removido 3 L a la paciente desde se preparó el tubo y se siente mucho mejor desde el punto de vista del abdomen.
+moses: The  paciente haya tenido  3  L  retira  dado que  la sonda  se colocÃ³  y  se siente  mejor  de  un  punto  de  view.  abdominal  
+l1: She denies any headaches or chest pain.
+l2: Niega tener dolores de cabeza o del pecho.
+moses: She  niega el  cualquier  dolores de cabeza  o el pecho  pain.  
+l1: She does feel somewhat short of breath.
+l2: Aunque sí se siente un poco falta de aire.
+moses: She  Â¿  sentir  un poco  de  breath.  
+l1: She denies dysuria, urgency, or frequency.
+l2: Niega tener disuria, urgencia o frecuencia.
+moses: She  niega el  dysuria,  urgency,  o  frequency.  
+l1: PHYSICAL EXAMINATION: Today, head is normocephalic.
+l2: EXAMEN FISICO: Hoy la cabeza es normocefálica.
+moses: PHYSICAL  EXAMINATION:  Today,  cabeza estÃ¡  normocephalic.  
+l1: Skin: Warm and dry.
+l2: Piel: Cálida y seca.
+moses: Skin:  Warm  y  dry.  
+l1: Lungs: She has decreased breath sounds at the bases and a scattered wheeze.
+l2: Pulmones: Tiene sonidos respiratorios reducidos en las bases y resoplido esparcido.
+moses: Lungs:  She  tiene  disminuciÃ³n en los ruidos respiratorios  en  el  bases  y  un  scattered  wheeze.  
+l1: Heart: Regular rhythm.
+l2: Corazón: Ritmo regular.
+moses: Heart:  Regular  rhythm.  
+l1: Abdomen: Less distended.
+l2: Abdomen: Menos distendido.
+moses: Abdomen:  Less  distended.  
+l1: Her liver is more easily palpable today.
+l2: Su hígado es más fácil de palpar hoy.
+moses: Her  hÃ­gado estÃ¡  mÃ¡s fÃ¡cilmente  palpable  today.  
+l1: Extremities: She still has 2+ edema.
+l2: Extremidades: Todavía tiene edema.
+moses: Extremities:  She  aÃºn tiene  2+  edema.  
+l1: ASSESSMENT AND PLAN: The patient was scheduled for a kidney biopsy today, but she was informed by the Renal Transplant Service that they were going to delay this since there was some improvement in her creatinine (today's creatinine is not yet available).
+l2: 2+ EVALUACION Y PLAN: Se proyectaba que la paciente tuviese una biopsia del riñón hoy, pero el Servicio de Trasplante Renal le informó que iban a retrasarla pues ha habido una mejoría en su creatinina (la creatinina de hoy todavía no está disponible).
+moses: ASSESSMENT  AND  PLAN:  The  paciente  se  programado para  una  biopsia del riÃ±Ã³n  today,  pero  que ella estaba  informado  por  la  Renal  Transplant  Service  que  fueron  de irse a  retrasar  este  dado que  no hubo  alguna mejorÃ­a en  su  creatinina  (today's  creatinina  aÃºn no se  available).  
+l1: We will continue to drain ascitic fluid for at least another 24 hours and will continue to monitor her renal function.
+l2: Continuaremos drenando el líquido ascítico por al menos 24 horas más y continuaremos monitoreando su función renal.
+moses: We  continuarÃ¡  con el fin de drenar el  lÃ­quido  ascitic  durante al menos  otra  24  horas  y  continuarÃ¡  para vigilar  su  function.  renal  
