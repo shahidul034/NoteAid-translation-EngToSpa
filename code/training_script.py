@@ -1,8 +1,9 @@
 import os
-# os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import json
+model_name = "unsloth/Llama-3.2-3B-Instruct"
 ## json load
-with open("/home/mshahidul/project1/all_tran_data/eng_spa_all_pairs.json") as f:
+with open("/home/mshahidul/project1/all_tran_data/filtered_alignment_result.json") as f:
     data = json.load(f)
 from datasets import Dataset
 dataset = Dataset.from_list(data)
@@ -12,13 +13,13 @@ max_seq_length = 2048 # Choose any! We auto support RoPE Scaling internally!
 dtype = None # None for auto detection. Float16 for Tesla T4, V100, Bfloat16 for Ampere+
 
 model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name = "unsloth/DeepSeek-R1-Distill-Qwen-14B",
+    model_name = model_name,
     max_seq_length = max_seq_length,
     dtype = dtype,
     load_in_4bit = False,
 )
-device = torch.device("cuda:2" if torch.cuda.is_available() else "cpu")
-print(f"Using device: {device}")
+# device = torch.device("cuda:5" if torch.cuda.is_available() else "cpu")
+# print(f"Using device: {device}")
 # model.to(device)
 model = FastLanguageModel.get_peft_model(
     model,
@@ -49,7 +50,7 @@ EOS_TOKEN = tokenizer.eos_token # Must add EOS_TOKEN
 def formatting_prompts_func(examples):
     instructions = "Translate the input into English to Spanish:"
     inputs       = examples["english"]
-    outputs      = examples["spain"]
+    outputs      = examples["spanish"]
     texts = []
     for input, output in zip( inputs, outputs):
         # Must add EOS_TOKEN, otherwise your generation will go on forever!
@@ -91,5 +92,74 @@ trainer = SFTTrainer(
     ),
 )
 trainer_stats = trainer.train()
-model.save_pretrained("/home/mshahidul/project1/model/unsloth/DeepSeek-R1-Distill-Qwen-14B")  # Local saving
-tokenizer.save_pretrained("/home/mshahidul/project1/model/unsloth/DeepSeek-R1-Distill-Qwen-14B")
+# model.save_pretrained("/home/mshahidul/project1/model/unsloth/DeepSeek-R1-Distill-Qwen-14B")  # Local saving
+# tokenizer.save_pretrained("/home/mshahidul/project1/model/unsloth/DeepSeek-R1-Distill-Qwen-14B")
+
+from utils import compute_bleu_chrf
+path = "/home/mshahidul/project1/all_tran_data/Sampled_100_MedlinePlus_eng_spanish_pair.json"
+with open(path) as f:
+    data = json.load(f)
+
+alpaca_prompt = """Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+                    ### Instruction:
+                    {}
+
+                    ### Input:
+                    {}
+
+                    ### Response:
+                    {}"""
+max_seq_length=2048
+from unsloth import FastLanguageModel
+FastLanguageModel.for_inference(model) # Enable native 2x faster inference
+ans_cal=[]
+# alpaca_prompt = Copied from above
+def inference(ques):
+    inputs = tokenizer(
+    [
+        alpaca_prompt.format(
+            "Translate the input into English to Spanish:", # instruction
+            ques, # input
+            "", # output - leave this blank for generation!
+        )
+    ], return_tensors = "pt").to("cuda")
+
+    outputs = model.generate(**inputs, max_new_tokens = 64, use_cache = True)
+    ans=tokenizer.batch_decode(outputs)
+    start_marker = '### Response:\n'
+    end_marker = '<|end_of_text|>'
+
+    # Find the start and end positions
+    start_index = ans[0].find(start_marker) + len(start_marker)
+    end_index = ans[0].find(end_marker)
+    response = ans[0][start_index:end_index].strip()
+    return response 
+
+# Extract the response
+import tqdm
+for x in tqdm.tqdm(data):
+    try:
+        hyp=inference(x['english'])
+        ref=x['spanish']
+        score=compute_bleu_chrf(ref, hyp)
+        ans_cal.append({
+            "original_eng":x['english'],
+            "original_spa":x['spanish'],
+            "tran_spa":hyp,
+            "bleu_score":score['bleu_score'],
+            "chrf_score":score['chrF++']
+        })
+    except:
+        pass
+tt=model_name.split("/")[1]
+avg=0
+avg_chrf=0
+for x in ans_cal:
+    avg+=x['bleu_score']
+    avg_chrf+=x['chrf_score']
+avg/=len(ans_cal)
+avg_chrf/=len(ans_cal)
+print(f"{model_name} --> bleu score: {avg}")
+import json
+with open(f"/home/mshahidul/project1/results/finetuned_{tt}.json", 'w') as f:
+    json.dump(ans_cal, f)   
