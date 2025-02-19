@@ -1,0 +1,501 @@
+Tables in the database:
+AMBIGLUI
+AMBIGSUI
+DELETEDCUI
+DELETEDLUI
+DELETEDSUI
+MERGEDCUI
+MERGEDLUI
+MRAUI
+MRCOLS
+MRCONSO
+MRCUI
+MRDEF
+MRDOC
+MRFILES
+MRHIER
+MRHIST
+MRMAP
+MRRANK
+MRREL
+MRSAB
+MRSAT
+MRSMAP
+MRSTY
+MRXNS_ENG
+MRXNW_ENG
+MRXW_BAQ
+MRXW_CHI
+MRXW_CZE
+MRXW_DAN
+MRXW_DUT
+MRXW_ENG
+MRXW_EST
+MRXW_FIN
+MRXW_FRE
+MRXW_GER
+MRXW_GRE
+MRXW_HEB
+MRXW_HUN
+MRXW_ITA
+MRXW_JPN
+MRXW_KOR
+MRXW_LAV
+MRXW_NOR
+MRXW_POL
+MRXW_POR
+MRXW_RUS
+MRXW_SCR
+MRXW_SPA
+MRXW_SWE
+MRXW_TUR
+testdata
+
+Table structures:
+
+Structure of table 'AMBIGLUI':
+  Column: LUI, Type: varchar(10), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+
+Structure of table 'AMBIGSUI':
+  Column: SUI, Type: varchar(10), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+
+Structure of table 'DELETEDCUI':
+  Column: PCUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: PSTR, Type: text, Null: NO, Key: , Default: None
+
+Structure of table 'DELETEDLUI':
+  Column: PLUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: PSTR, Type: text, Null: NO, Key: , Default: None
+
+Structure of table 'DELETEDSUI':
+  Column: PSUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: PSTR, Type: text, Null: NO, Key: , Default: None
+
+Structure of table 'MERGEDCUI':
+  Column: PCUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+
+Structure of table 'MERGEDLUI':
+  Column: PLUI, Type: varchar(10), Null: YES, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: YES, Key: , Default: None
+
+Structure of table 'MRAUI':
+  Column: AUI1, Type: varchar(9), Null: NO, Key: , Default: None
+  Column: CUI1, Type: char(8), Null: NO, Key: , Default: None
+  Column: VER, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: REL, Type: varchar(4), Null: YES, Key: , Default: None
+  Column: RELA, Type: varchar(100), Null: YES, Key: , Default: None
+  Column: MAPREASON, Type: text, Null: NO, Key: , Default: None
+  Column: AUI2, Type: varchar(9), Null: NO, Key: , Default: None
+  Column: CUI2, Type: char(8), Null: NO, Key: MUL, Default: None
+  Column: MAPIN, Type: char(1), Null: NO, Key: , Default: None
+
+Structure of table 'MRCOLS':
+  Column: COL, Type: varchar(40), Null: YES, Key: , Default: None
+  Column: DES, Type: varchar(200), Null: YES, Key: , Default: None
+  Column: REF, Type: varchar(40), Null: YES, Key: , Default: None
+  Column: MIN, Type: int unsigned, Null: YES, Key: , Default: None
+  Column: AV, Type: decimal(5,2), Null: YES, Key: , Default: None
+  Column: MAX, Type: int unsigned, Null: YES, Key: , Default: None
+  Column: FIL, Type: varchar(50), Null: YES, Key: , Default: None
+  Column: DTY, Type: varchar(40), Null: YES, Key: , Default: None
+
+Structure of table 'MRCONSO':
+  Column: CUI, Type: char(8), Null: NO, Key: MUL, Default: None
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: TS, Type: char(1), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: MUL, Default: None
+  Column: STT, Type: varchar(3), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: MUL, Default: None
+  Column: ISPREF, Type: char(1), Null: NO, Key: , Default: None
+  Column: AUI, Type: varchar(9), Null: NO, Key: PRI, Default: None
+  Column: SAUI, Type: varchar(50), Null: YES, Key: , Default: None
+  Column: SCUI, Type: varchar(100), Null: YES, Key: MUL, Default: None
+  Column: SDUI, Type: varchar(100), Null: YES, Key: MUL, Default: None
+  Column: SAB, Type: varchar(40), Null: NO, Key: MUL, Default: None
+  Column: TTY, Type: varchar(40), Null: NO, Key: , Default: None
+  Column: CODE, Type: varchar(100), Null: NO, Key: MUL, Default: None
+  Column: STR, Type: text, Null: NO, Key: MUL, Default: None
+  Column: SRL, Type: int unsigned, Null: NO, Key: , Default: None
+  Column: SUPPRESS, Type: char(1), Null: NO, Key: , Default: None
+  Column: CVF, Type: int unsigned, Null: YES, Key: , Default: None
+
+Structure of table 'MRCUI':
+  Column: CUI1, Type: char(8), Null: NO, Key: , Default: None
+  Column: VER, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: REL, Type: varchar(4), Null: NO, Key: , Default: None
+  Column: RELA, Type: varchar(100), Null: YES, Key: , Default: None
+  Column: MAPREASON, Type: text, Null: YES, Key: , Default: None
+  Column: CUI2, Type: char(8), Null: YES, Key: MUL, Default: None
+  Column: MAPIN, Type: char(1), Null: YES, Key: , Default: None
+
+Structure of table 'MRDEF':
+  Column: CUI, Type: char(8), Null: NO, Key: MUL, Default: None
+  Column: AUI, Type: varchar(9), Null: NO, Key: MUL, Default: None
+  Column: ATUI, Type: varchar(11), Null: NO, Key: PRI, Default: None
+  Column: SATUI, Type: varchar(50), Null: YES, Key: , Default: None
+  Column: SAB, Type: varchar(40), Null: NO, Key: MUL, Default: None
+  Column: DEF, Type: text, Null: NO, Key: , Default: None
+  Column: SUPPRESS, Type: char(1), Null: NO, Key: , Default: None
+  Column: CVF, Type: int unsigned, Null: YES, Key: , Default: None
+
+Structure of table 'MRDOC':
+  Column: DOCKEY, Type: varchar(50), Null: NO, Key: , Default: None
+  Column: VALUE, Type: varchar(200), Null: YES, Key: , Default: None
+  Column: TYPE, Type: varchar(50), Null: NO, Key: , Default: None
+  Column: EXPL, Type: text, Null: YES, Key: , Default: None
+
+Structure of table 'MRFILES':
+  Column: FIL, Type: varchar(50), Null: YES, Key: , Default: None
+  Column: DES, Type: varchar(200), Null: YES, Key: , Default: None
+  Column: FMT, Type: text, Null: YES, Key: , Default: None
+  Column: CLS, Type: int unsigned, Null: YES, Key: , Default: None
+  Column: RWS, Type: int unsigned, Null: YES, Key: , Default: None
+  Column: BTS, Type: bigint, Null: YES, Key: , Default: None
+
+Structure of table 'MRHIER':
+  Column: CUI, Type: char(8), Null: NO, Key: MUL, Default: None
+  Column: AUI, Type: varchar(9), Null: NO, Key: MUL, Default: None
+  Column: CXN, Type: int unsigned, Null: NO, Key: , Default: None
+  Column: PAUI, Type: varchar(10), Null: YES, Key: MUL, Default: None
+  Column: SAB, Type: varchar(40), Null: NO, Key: MUL, Default: None
+  Column: RELA, Type: varchar(100), Null: YES, Key: , Default: None
+  Column: PTR, Type: text, Null: YES, Key: MUL, Default: None
+  Column: HCD, Type: varchar(100), Null: YES, Key: , Default: None
+  Column: CVF, Type: int unsigned, Null: YES, Key: , Default: None
+
+Structure of table 'MRHIST':
+  Column: CUI, Type: char(8), Null: YES, Key: MUL, Default: None
+  Column: SOURCEUI, Type: varchar(100), Null: YES, Key: MUL, Default: None
+  Column: SAB, Type: varchar(40), Null: YES, Key: MUL, Default: None
+  Column: SVER, Type: varchar(40), Null: YES, Key: , Default: None
+  Column: CHANGETYPE, Type: text, Null: YES, Key: , Default: None
+  Column: CHANGEKEY, Type: text, Null: YES, Key: , Default: None
+  Column: CHANGEVAL, Type: text, Null: YES, Key: , Default: None
+  Column: REASON, Type: text, Null: YES, Key: , Default: None
+  Column: CVF, Type: int unsigned, Null: YES, Key: , Default: None
+
+Structure of table 'MRMAP':
+  Column: MAPSETCUI, Type: char(8), Null: NO, Key: MUL, Default: None
+  Column: MAPSETSAB, Type: varchar(40), Null: NO, Key: , Default: None
+  Column: MAPSUBSETID, Type: varchar(10), Null: YES, Key: , Default: None
+  Column: MAPRANK, Type: int unsigned, Null: YES, Key: , Default: None
+  Column: MAPID, Type: varchar(50), Null: NO, Key: , Default: None
+  Column: MAPSID, Type: varchar(50), Null: YES, Key: , Default: None
+  Column: FROMID, Type: varchar(50), Null: NO, Key: , Default: None
+  Column: FROMSID, Type: varchar(50), Null: YES, Key: , Default: None
+  Column: FROMEXPR, Type: text, Null: NO, Key: , Default: None
+  Column: FROMTYPE, Type: varchar(50), Null: NO, Key: , Default: None
+  Column: FROMRULE, Type: text, Null: YES, Key: , Default: None
+  Column: FROMRES, Type: text, Null: YES, Key: , Default: None
+  Column: REL, Type: varchar(4), Null: NO, Key: , Default: None
+  Column: RELA, Type: varchar(100), Null: YES, Key: , Default: None
+  Column: TOID, Type: varchar(50), Null: YES, Key: , Default: None
+  Column: TOSID, Type: varchar(50), Null: YES, Key: , Default: None
+  Column: TOEXPR, Type: text, Null: YES, Key: , Default: None
+  Column: TOTYPE, Type: varchar(50), Null: YES, Key: , Default: None
+  Column: TORULE, Type: text, Null: YES, Key: , Default: None
+  Column: TORES, Type: text, Null: YES, Key: , Default: None
+  Column: MAPRULE, Type: text, Null: YES, Key: , Default: None
+  Column: MAPRES, Type: text, Null: YES, Key: , Default: None
+  Column: MAPTYPE, Type: varchar(50), Null: YES, Key: , Default: None
+  Column: MAPATN, Type: varchar(100), Null: YES, Key: , Default: None
+  Column: MAPATV, Type: text, Null: YES, Key: , Default: None
+  Column: CVF, Type: int unsigned, Null: YES, Key: , Default: None
+
+Structure of table 'MRRANK':
+  Column: MRRANK_RANK, Type: int unsigned, Null: NO, Key: , Default: None
+  Column: SAB, Type: varchar(40), Null: NO, Key: PRI, Default: None
+  Column: TTY, Type: varchar(40), Null: NO, Key: PRI, Default: None
+  Column: SUPPRESS, Type: char(1), Null: NO, Key: , Default: None
+
+Structure of table 'MRREL':
+  Column: CUI1, Type: char(8), Null: NO, Key: MUL, Default: None
+  Column: AUI1, Type: varchar(9), Null: YES, Key: MUL, Default: None
+  Column: STYPE1, Type: varchar(50), Null: NO, Key: , Default: None
+  Column: REL, Type: varchar(4), Null: NO, Key: , Default: None
+  Column: CUI2, Type: char(8), Null: NO, Key: MUL, Default: None
+  Column: AUI2, Type: varchar(9), Null: YES, Key: MUL, Default: None
+  Column: STYPE2, Type: varchar(50), Null: NO, Key: , Default: None
+  Column: RELA, Type: varchar(100), Null: YES, Key: , Default: None
+  Column: RUI, Type: varchar(10), Null: NO, Key: PRI, Default: None
+  Column: SRUI, Type: varchar(50), Null: YES, Key: , Default: None
+  Column: SAB, Type: varchar(40), Null: NO, Key: MUL, Default: None
+  Column: SL, Type: varchar(40), Null: NO, Key: , Default: None
+  Column: RG, Type: varchar(10), Null: YES, Key: , Default: None
+  Column: DIR, Type: varchar(1), Null: YES, Key: , Default: None
+  Column: SUPPRESS, Type: char(1), Null: NO, Key: , Default: None
+  Column: CVF, Type: int unsigned, Null: YES, Key: , Default: None
+
+Structure of table 'MRSAB':
+  Column: VCUI, Type: char(8), Null: YES, Key: , Default: None
+  Column: RCUI, Type: char(8), Null: YES, Key: , Default: None
+  Column: VSAB, Type: varchar(40), Null: NO, Key: PRI, Default: None
+  Column: RSAB, Type: varchar(40), Null: NO, Key: MUL, Default: None
+  Column: SON, Type: text, Null: NO, Key: , Default: None
+  Column: SF, Type: varchar(40), Null: NO, Key: , Default: None
+  Column: SVER, Type: varchar(40), Null: YES, Key: , Default: None
+  Column: VSTART, Type: char(8), Null: YES, Key: , Default: None
+  Column: VEND, Type: char(8), Null: YES, Key: , Default: None
+  Column: IMETA, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: RMETA, Type: varchar(10), Null: YES, Key: , Default: None
+  Column: SLC, Type: text, Null: YES, Key: , Default: None
+  Column: SCC, Type: text, Null: YES, Key: , Default: None
+  Column: SRL, Type: int unsigned, Null: NO, Key: , Default: None
+  Column: TFR, Type: int unsigned, Null: YES, Key: , Default: None
+  Column: CFR, Type: int unsigned, Null: YES, Key: , Default: None
+  Column: CXTY, Type: varchar(50), Null: YES, Key: , Default: None
+  Column: TTYL, Type: varchar(400), Null: YES, Key: , Default: None
+  Column: ATNL, Type: text, Null: YES, Key: , Default: None
+  Column: LAT, Type: char(3), Null: YES, Key: , Default: None
+  Column: CENC, Type: varchar(40), Null: NO, Key: , Default: None
+  Column: CURVER, Type: char(1), Null: NO, Key: , Default: None
+  Column: SABIN, Type: char(1), Null: NO, Key: , Default: None
+  Column: SSN, Type: text, Null: NO, Key: , Default: None
+  Column: SCIT, Type: text, Null: NO, Key: , Default: None
+
+Structure of table 'MRSAT':
+  Column: CUI, Type: char(8), Null: NO, Key: MUL, Default: None
+  Column: LUI, Type: varchar(10), Null: YES, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: YES, Key: , Default: None
+  Column: METAUI, Type: varchar(100), Null: YES, Key: MUL, Default: None
+  Column: STYPE, Type: varchar(50), Null: NO, Key: , Default: None
+  Column: CODE, Type: varchar(100), Null: YES, Key: , Default: None
+  Column: ATUI, Type: varchar(11), Null: NO, Key: PRI, Default: None
+  Column: SATUI, Type: varchar(50), Null: YES, Key: , Default: None
+  Column: ATN, Type: varchar(100), Null: NO, Key: MUL, Default: None
+  Column: SAB, Type: varchar(40), Null: NO, Key: MUL, Default: None
+  Column: ATV, Type: text, Null: YES, Key: , Default: None
+  Column: SUPPRESS, Type: char(1), Null: NO, Key: , Default: None
+  Column: CVF, Type: int unsigned, Null: YES, Key: , Default: None
+
+Structure of table 'MRSMAP':
+  Column: MAPSETCUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: MAPSETSAB, Type: varchar(40), Null: NO, Key: , Default: None
+  Column: MAPID, Type: varchar(50), Null: NO, Key: , Default: None
+  Column: MAPSID, Type: varchar(50), Null: YES, Key: , Default: None
+  Column: FROMEXPR, Type: text, Null: NO, Key: , Default: None
+  Column: FROMTYPE, Type: varchar(50), Null: NO, Key: , Default: None
+  Column: REL, Type: varchar(4), Null: NO, Key: , Default: None
+  Column: RELA, Type: varchar(100), Null: YES, Key: , Default: None
+  Column: TOEXPR, Type: text, Null: YES, Key: , Default: None
+  Column: TOTYPE, Type: varchar(50), Null: YES, Key: , Default: None
+  Column: CVF, Type: int unsigned, Null: YES, Key: , Default: None
+
+Structure of table 'MRSTY':
+  Column: CUI, Type: char(8), Null: NO, Key: MUL, Default: None
+  Column: TUI, Type: char(4), Null: NO, Key: , Default: None
+  Column: STN, Type: varchar(100), Null: NO, Key: , Default: None
+  Column: STY, Type: varchar(50), Null: NO, Key: MUL, Default: None
+  Column: ATUI, Type: varchar(11), Null: NO, Key: PRI, Default: None
+  Column: CVF, Type: int unsigned, Null: YES, Key: , Default: None
+
+Structure of table 'MRXNS_ENG':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: NSTR, Type: text, Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXNW_ENG':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: NWD, Type: varchar(100), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_BAQ':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_CHI':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_CZE':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_DAN':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_DUT':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_ENG':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_EST':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_FIN':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_FRE':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_GER':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_GRE':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_HEB':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_HUN':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_ITA':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_JPN':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(500), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_KOR':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(500), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_LAV':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_NOR':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_POL':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_POR':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_RUS':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_SCR':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_SPA':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_SWE':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'MRXW_TUR':
+  Column: LAT, Type: char(3), Null: NO, Key: , Default: None
+  Column: WD, Type: varchar(200), Null: NO, Key: MUL, Default: None
+  Column: CUI, Type: char(8), Null: NO, Key: , Default: None
+  Column: LUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SUI, Type: varchar(10), Null: NO, Key: , Default: None
+
+Structure of table 'testdata':
+  Column: CUI1, Type: char(8), Null: NO, Key: , Default: None
+  Column: AUI1, Type: varchar(9), Null: YES, Key: , Default: None
+  Column: STYPE1, Type: varchar(50), Null: NO, Key: , Default: None
+  Column: REL, Type: varchar(4), Null: NO, Key: , Default: None
+  Column: CUI2, Type: char(8), Null: NO, Key: , Default: None
+  Column: AUI2, Type: varchar(9), Null: YES, Key: , Default: None
+  Column: STYPE2, Type: varchar(50), Null: NO, Key: , Default: None
+  Column: RELA, Type: varchar(100), Null: YES, Key: , Default: None
+  Column: RUI, Type: varchar(10), Null: NO, Key: , Default: None
+  Column: SRUI, Type: varchar(50), Null: YES, Key: , Default: None
+  Column: SAB, Type: varchar(40), Null: NO, Key: , Default: None
+  Column: SL, Type: varchar(40), Null: NO, Key: , Default: None
+  Column: RG, Type: varchar(10), Null: YES, Key: , Default: None
+  Column: DIR, Type: varchar(1), Null: YES, Key: , Default: None
+  Column: SUPPRESS, Type: char(1), Null: NO, Key: , Default: None
+  Column: CVF, Type: int unsigned, Null: YES, Key: , Default: None
