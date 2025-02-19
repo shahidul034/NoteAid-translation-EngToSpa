@@ -11,5 +11,7 @@ default $PROMPT_FILE=claim_evaluation/prompts/general_subclaim_generation.json, 
 bash scripts/eval_general_api_claim_entailment.sh $SAVENAME $REFERENCE $PROMPT_FILE
 ```
 default prompt file is in "claim_evaluation/prompts/general_claim_entail.json". 
+
+
 Traditional evaluation matrices:
 /IFT_Metrics/IFT_Metrics/EvalTranslation.ipynb
