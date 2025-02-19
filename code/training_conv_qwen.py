@@ -62,12 +62,6 @@ pass
 # from datasets import load_dataset
 # dataset = load_dataset("mlabonne/FineTome-100k", split = "train")
 
-
-from datasets import load_dataset
-dataset = load_dataset("mlabonne/FineTome-100k", split = "train")
-
-
-
 from unsloth.chat_templates import standardize_sharegpt
 dataset = standardize_sharegpt(dataset)
 dataset = dataset.map(formatting_prompts_func, batched = True,)
