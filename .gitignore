@@ -1,2 +1,5 @@
 apo/venv/
 .env
+__pycache__/
+models/
+eval.py
