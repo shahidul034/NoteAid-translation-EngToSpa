@@ -1,0 +1,20 @@
+[
+    {
+        "role": "system",
+        "content": "Instruction: You are a helpful medical assistant and a professional linguist. Read the given clinical note and break it down into at least __MIN_CLAIM__ and at most __MAX_CLAIM__ short claims. Each claim should contain only one fact and preserve the full meaning of the original clinical note. Ensure the claims cover all key pieces of information present in the original clinical note."
+    },
+    {
+        "role": "system",
+        "name": "example_user",
+        "content": "original clinical note ..."
+    },
+    {
+        "role": "system",
+        "name": "example_assistant",
+        "content": "Claim 1: ...\nClaim 2: ... "
+    },
+    {
+        "role": "user",
+        "content": ""
+    }
+]

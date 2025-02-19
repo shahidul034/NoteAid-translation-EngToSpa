@@ -1,0 +1,502 @@
+[
+    {
+        "example_id": 0,
+        "input": "If you have a weakened immune system due to AIDS, cancer, transplantation, or corticosteroid use, call your doctor if you develop a cough, fever, or shortness of breath.",
+        "output": "Si tiene un sistema imunitario debilitado debido a la HIV, el censito, la transplantedado o la uso de anti-innoculo, recuerde que si develops a acentil, la fomento, o la dura de la otrana, llame a s"
+    },
+    {
+        "example_id": 1,
+        "input": "Do NOT place the person in this position if a head, neck, back, or leg injury is suspected or if it makes the victim uncomfortable.",
+        "output": "No es posible colocar al persona en este lugar si hay unrecurso por la inseguridad del radico, el ojo, el pelcho o el legón, si lo hace inseguro al ser inseguro.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 2,
+        "input": "Increased vision allows the infant to tell objects apart from backgrounds with very little contrast (such as a button on a blouse of the same color)",
+        "output": "El visionaje aumentado permitió que el infantil determine las objetos a los backgrounds con muy little contrast (como un botón en una blusa de la misma color)<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 3,
+        "input": "If obesity prevents you from being physically able to inspect your feet, ask a family member, neighbor, or visiting nurse to perform this important check.",
+        "output": "Si la obesidad implica que no estásablez cañón para observar las piernas, pedí un amigo, vecino o un négocio al radiologista para performe este importante check.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 4,
+        "input": "CT scan or MRI to confirm that there is a growth, and to see if the cancer has spread to lymph nodes in the neck",
+        "output": "Un scan CT o MRI para confirjar que hay una creciente y ver si la cáncer ha sido extendido a los radíos de la garganta.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 5,
+        "input": "A uniform brown color is usually seen over the cheeks, forehead, nose, or upper lip.It is most often symmetrical (matching on both sides of the face).",
+        "output": "Se ve de color azul uniforme en general en la zumbida del ojos, en la calzada, en la narra y en la calzada superior de la barba. Es más Usually symétrica (equilibrada) (seume a ambos lados de la face)"
+    },
+    {
+        "example_id": 6,
+        "input": "Your doctor may do other tests to check high blood pressure, heart disease, diabetes, high cholesterol, and other causes of, and risk factors for TIAs or stroke.",
+        "output": "Los palpantes que se realizarán por parte del dr. puede verificar si hay high blood pressure, high cholesterol, diabetes, high risk of TIA o stroke.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 7,
+        "input": "Stridor is an abnormal, high-pitched, musical breathing sound caused by a blockage in the throat or voice box (larynx).It is usually heard when taking in a breath.",
+        "output": "Es un sonido abrumado, bañado, de Voice que se extensiona de la ojos a la ojos. Se puede ver cuando se takes un toque.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 8,
+        "input": "Is there blood on the toilet paper only?",
+        "output": "¿Hay un plato de leche en el paseo de la paper?<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 9,
+        "input": "Ask your health care provider.",
+        "output": "Aspetuate la salud de la_provider de la salud.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 10,
+        "input": "Complete bed rest for several days is usually recommended.",
+        "output": "De un día o más de la bed se paletaice.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 11,
+        "input": "They still have foot problems after treatment",
+        "output": "El siento que están en el pie after treatment<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 12,
+        "input": "Disorders of the endocrine system",
+        "output": "Causas del sistema endocrine<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 13,
+        "input": "Biopsy - breast; Open breast biopsy",
+        "output": "Biopsy - en el pulso; Biopsy - mamoria; Biopsy - breast; Biopsy - breast; Biopsy - mamoria; Biopsy - breast; Biopsy - breast<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 14,
+        "input": "Are illegal drugs being used?",
+        "output": "Son fomentos que se utilizan para el uso imposible de drugs.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 15,
+        "input": "Preventive measures vary depending on the specific disorder.",
+        "output": "Se aplican medidas de prevencción diferentes, dependiendo de la disorder.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 16,
+        "input": "Some laboratories use different measurements or may test different specimens.",
+        "output": "Algunas laboratorias usan medidas diferentes o testen specimens diferentes.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 17,
+        "input": "Menopause. A drop in the hormone estrogen causes vaginal dryness.",
+        "output": "Menopause. Un incremento en el hírogen hirsuló los <|corremiento|fuerza|pase|pulsante|pulso|pulsante|pulso|pulsante|pulsante|pulsante|pulsante|pulsante"
+    },
+    {
+        "example_id": 18,
+        "input": "Depression and older age are both risk factors for suicide.",
+        "output": "El depresión y la edad son factores de riqueza para la suicide.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 19,
+        "input": "Most women have only one polyp, but some women have two or three.",
+        "output": "Muchas mujeres tienen solo un polyps, pero some women may have dos o tres.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 20,
+        "input": "This test is done to measure the level of amino acids in the blood.",
+        "output": "Este test es utilizado para medir el nivel de amino acids en el sangue.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 21,
+        "input": "The infection is spread by saliva, urine, respiratory droplets, sexual contact, and blood transfusions.",
+        "output": "El infeccio se transmet a través de la salbancia, el urílope, los dropletes de respiración, la contacto sexual, y las transfusiones de sangre.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 22,
+        "input": "You may occasionally eat lean, 3-ounce cuts of red meat.",
+        "output": "De la vegu whichever cut of red meat de 3 onso que es más sabor y de un pastel que es más suave.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 23,
+        "input": "Several conditions may cause increased pressure in the skull, including:",
+        "output": "Several conditions may cause increased pressure in the skull, including:<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 24,
+        "input": "Abnormal heart sounds",
+        "output": "Se extensiones la shakia, que es un síntoma del arrastre del pulmon, que es un síntoma de la disfeo pulmonar, que es un síntoma de la hiperlipiaemia, que es un síntoma de la hyperlipiaemia"
+    },
+    {
+        "example_id": 25,
+        "input": "Waxy, yellow surface",
+        "output": "Una plegada, o una plegada con gafas.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 26,
+        "input": "Oxygen",
+        "output": "Oxygén<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 27,
+        "input": "Recent open heart surgery",
+        "output": "Se ha recortado el pulmonártico del corazón recientemente.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 28,
+        "input": "Thyroid disease",
+        "output": "Dolor en el glandro<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 29,
+        "input": "Nausea",
+        "output": "Náusea<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 30,
+        "input": "Brussels sproutsCabbage",
+        "output": "Cebolla<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 31,
+        "input": "Oysters",
+        "output": "Los ojos<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 32,
+        "input": "CPR can be lifesaving, but it is best done by someone trained in an accredited CPR course.",
+        "output": "El CPR puede ser un medio de salud que es másvaliente que el CPR a través de una clase de CPR acordada.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 33,
+        "input": "Always let your doctor know about any cold, flu, fever, herpes breakout, or other illnesses you may have. ",
+        "output": "Always tell your doctor about any cold, flu, fever, or other illnesses you have.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 34,
+        "input": "Tretinoin (Retin-A) or creams containing alpha-hydroxy acids may be recommended, but these aren't guaranteed to help.",
+        "output": "Se pueden reccomENDER a los personajes que tengan en el cuello la disminución de la hiperfisienda, con la hopefulidad de que se reflejen las causas, sin embargo, no se aseguran que estos reflejos se denecan.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 35,
+        "input": "Fever is the classic symptom and may persist for days before any other symptoms appear.",
+        "output": "Fever es el síntoma classico y puede laster hasta un día antes que cualquier otro síntoma aparezca.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 36,
+        "input": "There is more likely to be increased amounts of pollen in the air on hot, dry, windy days.",
+        "output": "Se habrá más pollinación en el aire si hay más frío, lluviosos y leches en los días.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 37,
+        "input": "You get iron through certain foods, and your body also reuses iron from old red blood cells.",
+        "output": "El iron se obtiene de algunas frutas y también se recarga del iron de las cellas red Blood old.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 38,
+        "input": "Asthma symptoms usually occur much less often or disappear as the child gets get older.",
+        "output": "El síntomas de la asthma se sucurten rarely or disappear as the niño grows older.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 39,
+        "input": "Potatoes that are not green and have had any sprouts removed are safe to eat.",
+        "output": "El quejado de los quecos que no son de color y que las frutas de quejos que se han removido son un safely.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 40,
+        "input": "When the needle is inserted to draw blood, you may feel moderate pain, or only a prick or stinging sensation.",
+        "output": "Si el puleo se integra para extractar el sangre, la sintaxis puede resultar en una sutilada o solo una sintaxis segura o un sintaxis falso.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 41,
+        "input": "However, as a general rule, once a substance causes allergies for an individual, it can continue to affect the person long term.",
+        "output": "Sin embargo, como general rule, cuando un substance induce la allergies para un individuo, puede afectar al mismo durante un tiempo largo.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 42,
+        "input": "If you have surgery, your sperm count will likely increase but it will not improve your chances of getting a woman pregnant.",
+        "output": "Si tienes un salto, la cantidad de oíles que está en tu sana probablemente aumentar, pero no hará que tengan una probabilidad mayor de tener una bebida.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 43,
+        "input": "Screening women with pelvic ultrasound or blood tests, such as the Ca-125 has not been found to be effective and is not recommended.",
+        "output": "El test de peláctica de ultrasound o de test de sangre, como el Ca-125 no ha sido utilizado y no se shuerta.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 44,
+        "input": "Protein can also be used by the body for energy, but only after glycogen or carbohydrate stores have been used up.",
+        "output": "El protein puede ser utilizado por la mente como una fuente de energía, pero solo después de que se use las sorguras de gráptas o gráptas.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 45,
+        "input": "An extradural hemorrhage is bleeding between the inside of the skull and the outer covering of the brain (called the \"dura\").",
+        "output": "Un hemorragia extradursal está entre la delante de la cera y la delante de la delante (llamada \"dura\").<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 46,
+        "input": "Without PIG-A, important proteins cannot connect to the cell surface and protect the cell from substances in the blood called complement.",
+        "output": "Con el falta de PIG-A, los proteínas son incapaces de connectarse a la superfierva del cell y protegieren la cell de los substancia en el sangre llamados a la compleción.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 47,
+        "input": "If you can see bone in the injured site, call your local emergency number (such as 911) or local hospital for further advice.",
+        "output": "Si puedes ver el bone en el lugar que se ha destruido, llama al-number local (por ejemplo 911) o al hospital local para pedir ayuda más.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 48,
+        "input": "Bladder distention (urinary bladder over-filled with fluid) can cause a firm mass in the center of the lower abdomen above the pelvic bones.In extreme cases it can reach as far up as the navel.",
+        "output": "Unions de la radiculación y la radiculación superficial del abdomen can appear in the lower abdomen, above the bones of the pelvis. In cases of extreme severity, they can reach as far up as the navel.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 49,
+        "input": "Your kidneys help control your body's acid level by removing acid from the blood and sending it into your urine.Acidic substances in the body are counteracted by alkaline substances, primarily bicarbonate.",
+        "output": "Los pulmones ayudan a contrarrestificar el nivel de acidez de la sangre. Se elimina el acidez de la sangre y se envía a la sangre para la renina.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 50,
+        "input": "You'll likely be diagnosed with rheumatic fever if you meet two major criteria, or one major and two minor criteria, and have signs that you've had a previous strep infection.",
+        "output": "Si satisface con dos críticos principales o un crítico principal y dos críticos principales, y tiene signos de infección de strep, se pronunciará \"se diel\" o \"se diel\"<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 51,
+        "input": "A trained physician, often a cardiologist, inserts a small needle into the chest between the ribs and into the thin sac that surrounds the heart (the pericardium).A small amount of fluid is taken out.",
+        "output": "Un-trained physician, often a cardiologist, may insert a needle into the chest between the ribs and into the thin sac surrounding the heart (the pericardium).A small amount of fluid is taken out.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 52,
+        "input": "Increased calcium for a limited period of time does not normally cause side effects.However, receiving higher amounts of calcium over a long period of time raises the risk of kidney stones in some people.",
+        "output": "Se increased el cálculo para un período limitado de tiempo, no está en general por causar side effects. Sin embargo, si recibimos mayor cantidad de cálculo durante un período largo de tiempo, se ha un increased risk of kidney stones en algunos de los pacientes.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 53,
+        "input": "Children with early sexual development are more likely to have psychological and social problems.Children and adolescents generally want to be the same as their peers, and early sexual development can make them appear different.",
+        "output": "Los niños con desarrollo sexual agotado son más peligrosos en términos psychológicos y sociales. Los niños y adolescentes en general se preocupa con ser lo mismo que sus primos, y el desarrollo sexual agotado puede hacer que parezca diferente.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 54,
+        "input": "Veins and arteries vary in size from one patient to another and from one side of the body to the other.Obtaining a blood sample from some people may be more difficult than from others.",
+        "output": "El gáryn y la armada varían en tamaño cada vez a cada vez y de la parte de la cuerpo a la otra.Obtener una muestra de sangre de algunos pacientes puede ser más difícil que de otros.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 55,
+        "input": "In many cases it will prevent you from getting sick.For example, a person who has had chickenpox or has been immunized against chickenpox is immune from getting chickenpox again.Watch this video about:Immune response",
+        "output": "En muchas casas se previene el síntoma de la toxidozosis. Por ejemplo, un personaje que ha tenido polio en el pasto o que se immunice contra polio está limpio de toxidozosis. Ver este video sobre: Re.jsgo<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 56,
+        "input": "For example, a food that has 13 grams of fat with a Percent Daily Value of 20% means that 13 grams of fat is 20%, or one-fifth, of the total daily fat recommended for a person who eats 2,000 calories per day.",
+        "output": "Para ejemplo, una comida que tiene 13 gramos de fríos con un porcentaje de valor diario de 20% significa que 13 gramos de fríos es 20%, o un quinto de la cantidad total de fríos que se recomienda para un person"
+    },
+    {
+        "example_id": 57,
+        "input": "Laparoscopic repair: Your surgeon will make 3 - 5 small cuts in your belly.Your surgeon will insert a laparoscope (a thin, hollow tube with a tiny camera on the end) through one of these cuts and other tools through the other cuts.",
+        "output": "Láparóscópía: Su surgeon hará 3-5 cortes en la sartena. Su surgeon hará introducir un laparoscópico (un tube corto y vacío con un dispositivo en el fin) a través de uno de los cortes y otro"
+    },
+    {
+        "example_id": 58,
+        "input": "However, recent studies do not support this idea, and suggest that these medications can be used in children with tics who also have attention-deficit disorder (which often occurs in the same group of children).A chronic motor tic disorder also exists.",
+        "output": "Sin embargo, las estudias recientes no sueden confirmar esta idea, y sugieren que estos medications se pueden usar en los niños con ticos que también tienen disordero de concentración en la misma grupo de niños. Un disordero de motor tic que es chronico también existe.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 59,
+        "input": "These symptoms are more likely to occur if the skin has been cut or rubbed because this gives the MRSA germ a way to “get in.” Symptoms are also more likely in areas where there is more body hair due to hair follicles.",
+        "output": "Estos sygnales son más probables si el pecho ha sido contado o rubado, ya quethen this MRSA germ puede tener una manera de get in. Also, son más probables en las regiones donde hay más hambro ya por los handeres finales.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 60,
+        "input": "Some patients develop heart failure and high blood pressure in the blood vessels of their lungs.Your chances of recovering or of the disease getting worse depend on the cause and how severe the disease was when it was first diagnosed.",
+        "output": "Algunos pacientes desarrollan haemorragia y presión high en las vasos de sus pulmonares. El porcentaje de riesgo de recuperar la enfermedad o de que la enfermedad se mantiene constante depende del cause y cómo severa fue la enfermedad alInitially diag"
+    },
+    {
+        "example_id": 61,
+        "input": "If a young child refuses to put weight on an arm or leg after an accident, won't move the arm or leg, or you can clearly see a deformity, assume the child has a broken bone and get medical help.",
+        "output": "Si un niño refugia de un apoyo after an accident, no se arraíble los armadura, no se mova los armadura o se ve una deformidad claramente, assume que tiene un rayo y gete al radiologisto.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 62,
+        "input": "The amount of liquid you eat (such as soup) or drink will be limited to the amount of urine you can produce.You will be told what you may and may not eat to reduce the buildup of toxins that the kidneys would normally remove.",
+        "output": "El consumo de la cantidad de liquid (por ejemplo, la soup) o la drink se dará a lo largo de un líquido limitado a la cantidad de urina que se puede producir. Se le dará instrucciones sobre lo que puede ser leado para reducir la builds-up de to"
+    },
+    {
+        "example_id": 63,
+        "input": "The most common use of this test is to help diagnose and monitor a disorder called sarcoidosis . People with sarcoidosis may have their ACE levels tested regularly to check the severity of the disease and see how well treatment is working. ",
+        "output": "El test más común de uso es para ayudar a diagnosticar y monitorar una disorder llamado sarcoidosis. Las personas con sarcoidosis se prueban regularmente lalevel de ACE para verificar la severidad del disorder y ver cómo bien se está manejando el tratado.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 64,
+        "input": "Allergic conjunctivitis occurs when the clear layer of tissue lining the eyelids and covering the white of the eye (conjunctiva) become swollen or inflamed due to a reaction to pollen, dander, mold, or other allergy-causing substances.",
+        "output": "El conjunto de la ojos puede ser inflante si el layer de vaso que se lienta y que está encabelecado por el vaso ocular (conjuctiva) se explica por una reacción a una sutil que cause a la allergenia.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 65,
+        "input": "Advance care directives allow patients to provide instructions about their preferences regarding the care they would like to receive if they develop an illness or a life-threatening injury and are unable to express their preferences.",
+        "output": "El directive de cuidado avanzado permite a los pacientes que incluyen que les darden instrucciones sobre sus preferencias sobre la cuidado que despiernen si se developen un enfermedad o un inseguridad, cuando no pueden expresar sus preferencias.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 66,
+        "input": "People with this condition generally have a large left ventricle (the pumping chamber of the heart that supplies the body with blood), and a small right ventricle (the pumping chamber that supplies the lungs with blood).",
+        "output": "Los personajes que tienen este condición generallymente tienen una bigüed va (volumen pulmonar) grande (pulmonal) y un small right ventricle (un ventricle a salvo que sirve para la respiración).<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 67,
+        "input": "In January 2001, the FDA's Center for Food Safety and Applied Nutrition proposed that developers of bioengineered food submit scientific and safety information to the FDA at least 120 days before the food is marketed.",
+        "output": "El FDA, el gobierno de la USA, proponió que los desarrolladores de alimentos biológicos proporcione información científica y de safety a la FDA a lo menos 120 días antes de que se manzara.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 68,
+        "input": "Your health care provider will tell you if it's necessary to stop taking any drugs that may interfere with this test.Make sure that your doctor is aware of all drugs you are taking, both prescription and nonprescription.",
+        "output": "El Dr. de salud te explicará si es necesario parlar de ciertos drugs que possibly interferen con este test. Debe asegurarte que el Dr. de salud esté sabiente sobre todos los drugs que estás taking, tanto presenciales como iniciales.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 69,
+        "input": "Other foods such as broccoli, cooked greens, and canned salmon (with bones) will also provide a source of calcium in the diet; however, it is often difficult to get children to consume adequate quantities of these foods.",
+        "output": "De las algnas que incluyen el lecho, el frango o el sal, como el lecho en los frangoes o en los salados, también se puede obtener un source de la calcina en la dieta. Sin embargo, es muy difícil para los niños de obtener grandes cantidades de esto"
+    },
+    {
+        "example_id": 70,
+        "input": "Transposition of the great vessels is a heart defect that occurs from birth (congenital). The two major vessels that carry blood away from the heart -- the aorta and the pulmonary artery -- are switched (transposed).",
+        "output": "El transpuesta de los vasos grandes del pulso es un defecto的心 articulativo que ocurre en la edad infesional. El dos vasos principales que se muestran a salvo del pulso -- el aorta y el pulmonar -- se transpuestas (trans"
+    },
+    {
+        "example_id": 71,
+        "input": "Your health care provider will examine you for signs of food poisoning, such as pain in the stomach and signs your body does not have as much water and fluids as it should.This is called dehydration.",
+        "output": "Deporte la double-checkada el paciente para que se examine por signos de infusión por el cuerpo, como la pálida y la sintaxis, que se reflejan en la sangre. Esto se conoce como debajo de la sangre.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 72,
+        "input": "An implantable cardioverter defibrillator (ICD) is a device that can be implanted in the chest wall of people who are at risk for this serious rhythm disorder. The ICD can help prevent sudden cardiac death by quickly sending an electrical shock when ventricular fibrillation occurs.",
+        "output": "Un imponente defibrillator cardiodevagun es una herramienta que puede ser植入ada en el pulso del rojo de personas a whom se rinde un fracaso significativo de la rhythmometria. El defibrillator puede ayudar a evitar el muerte por arrastre card"
+    },
+    {
+        "example_id": 73,
+        "input": "Greater respect for the complexities of female sexual functioning has led them to conclude that suboptimal female genitalia may not be inherently better than suboptimal male genitalia, even if the reconstruction is \"easier.\"In addition, other factors may be more important in gender satisfaction than functioning external genitals.",
+        "output": "El male y la mujeres, por sus advances, han pensado que la genitalia suboptimada no es always menial, y que los factores más importantes en la satisferación de la sexo no están relacionados con el funcionamiento externo.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 74,
+        "input": "Regular use -- the user misses more and more school or work; worries about losing drug source; uses drugs to \"fix\" negative feelings; begins to stay away from friends and family; may change friends to those who are regular users; shows increased tolerance and ability to \"handle\" the drug.",
+        "output": "Regular use -- el uso regular -- the user misses more and more school or work; tiene que preocuparse por pierder el source de la drug -- utiliza la drug para \"corregir\" los negativos; comenzó a stay away from amigos y familiares; may change amigos a those who are regular users"
+    },
+    {
+        "example_id": 75,
+        "input": "Increased intracranial pressure can be due to a rise in cerebrospinal fluid pressure.It can also be due to increased pressure within the brain matter caused by a mass (such as a tumor), bleeding into the brain or fluid around the brain, or swelling within the brain matter itself.",
+        "output": "El pressión intracranial increased puede ocurrir por un aumento de la presión del fluido cerebrospinal o por un pressión increased within the brain tissue due to a tumor, 海水进入脑部或脑外液或脑组织本身的膨胀。<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 76,
+        "input": "Some substances that are found to be harmful to people or animals may still be allowed, but only at the level of 1/100th of the amount that is considered harmful.People with any allergies or food intolerances should always check the ingredient list (label) for their own protection.",
+        "output": "Algunos substáculosos que se verifican como hiperbaruptores, hiperfuturas, hipertráptores, etc., pueden ser permitidos, pero solo a nivel de 1/100 del amount considerado hiperbarructo, hiper"
+    },
+    {
+        "example_id": 77,
+        "input": "Not having milk in your diet can lead to a shortage of calcium, vitamin D, riboflavin, and protein.You may need to find new ways to get calcium into your diet (depending on your age and gender, you need 1,000 - 1,500 mg of calcium each day):",
+        "output": "No se está manejando el diámetro de calcite, vitamina D y riboflavin; se necesitaría buscar new ways to get calcium into your diet (depending on your age and gender, you need 1,000 - 1,500 mg of calcium eac"
+    },
+    {
+        "example_id": 78,
+        "input": "Because it is difficult to determine the amount of radiation exposure from nuclear accidents, the best signs of the severity of the exposure are: the length of time between the exposure and the onset of symptoms, the severity of symptoms, and severity of changes in white blood cells.",
+        "output": "Por lo que es difícil determinar la cantidad de radión de expulsión por un accidente nuclear, los mejor signos de la severidad son: la longitud de tiempo entre la expulsión y el crecimiento de síntomas, la severidad de los síntomas y la severidad de lo"
+    },
+    {
+        "example_id": 79,
+        "input": "Note: It is often technically easier to treat (and therefore raise) the child as female (it is easier for a surgeon to make female genitalia than it is to make male genitalia), so in some cases this is recommended even if the child is genetically male.",
+        "output": "Note: It is often technically easier to treat (and therefore raise) the child as female (it is easier for a surgeon to make female genitalia than it is to make male genitalia), so in some cases this is recommended even if the child is genetically male.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 80,
+        "input": "Deficiency happens more often in women than in men, and is more common in pregnant women and older children. Getting enough iodine in the diet may prevent a form of physical and mental retardation called cretinism.Cretinism is very rare in the U.S. because iodine deficiency is generally not a problem.",
+        "output": "El exceso de híos en el rationamiento puede causar un disordero psicoquemitico. La híos se puede controlar a través de la dieta. El cretinismo es un disordero psicoquemitico que puede ser causado por lacke de híos en l"
+    },
+    {
+        "example_id": 81,
+        "input": "People who have a sudden herniated disk caused by injury (such as a car accident or lifting a very heavy object) will get nonsteroidal anti-inflammatory medications (NSAIDs) and narcotic painkillers if they have severe pain in the back and leg.If you have back spasms, you will usually receive muscle relaxants.",
+        "output": "Los personajes que tienen una hernia diacastral que ha sido causado por un incurrir en el balcón (por ejemplo por un acidez) se recargarán de los anti-injercionales no esteroidicos y del depresor. Si la sintoma de l"
+    },
+    {
+        "example_id": 82,
+        "input": "Threre is a wide range for what is considered \"normal.\" Just because your child is in the 15th percentile for weight (meaning 85 out of 100 children weigh more), this number rarely means your child is sick, you're not feeding your child enough, or your breast milk is not enough for your baby.",
+        "output": "El número de 15% es un rango muy amplio que refleja la variación que puede ocurrir. No es que el niño se muestre sano, que no se prefiere la comida o que la mía no es suficiente para el baby.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 83,
+        "input": "Congenital heart surgery; Patent ductus arteriosus ligation; Hypoplastic left heart repair; Tetralogy of Fallot repair; Coarctation of the aorta repair; Atrial septal defect repair; Ventricular septal defect repair; Truncus arteriosus repair; Total anomalous pulmonary artery correction; Transposition of great vessels repair; Tricuspid atresia repair; VSD repair; ASD repair; PDA ligation",
+        "output": "Selexicin; pat-documentación; hibridación; lirastin; trastornos; anastésia; trastornos; shunt; trastornos; trastornos; trastornos; trastornos; trastornos; tras"
+    },
+    {
+        "example_id": 84,
+        "input": "This test is done during a hospital stay.  It tells the difference between someone who is making urine because of drinking a lot of liquid and someone who is not.  If you have central diabetes insipidus, you will still make a lot of urine even when fluids are not given. ",
+        "output": "Este test se hace durante unastay hospitalaria.  La differentiated tells the difference between someone who is making urine because of drinking a lot of liquid and someone who is not.  If you have central diabetes insipidus, you will still make a lot of urine even when fluids are not given.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 85,
+        "input": "Also, many refined foods, such as white flour, sugar, and white rice, lack B vitamins and other important nutrients unless they are marked \"enriched.\" It is healthiest to get carbohydrates, vitamins, and other nutrients in as natural a form as possible -- for example, from fruit instead of table sugar.",
+        "output": "Otra vez, hay fríos, que no se equilibra bien, o es un fomento de la hama. Debo ser más fuentas para calmarme, o elsequear.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 86,
+        "input": "The pituitary gland near the brain makes too much of the hormone ACTH (called Cushing's disease), which may happen with too much growth of the pituitary gland, a tumor of the pituitary gland, or a tumor elsewhere in the body (such as the pancreas, lung, and thyroid) that produces ACTH",
+        "output": "El glando pituitario y que está adentro del cerebro puede crecer demasiado, lo que le da un too much ACTH, llamado also known as Cushing's disease. Esto puede ocurrir por un aumento en el glando pituitario, por un tumor en el gland"
+    },
+    {
+        "example_id": 87,
+        "input": "In the past, the prevailing opinion was that it was generally best to assign a gender as quickly as possible, often based on the external genitals rather than the chromosomal gender, and to instruct the parents to have no ambiguity in their minds as to the gender of the child.",
+        "output": "El promenado generalize se ha considerado que se debe asignar una gendera como soone como sea posible, generalmente basado en la genital exterior en lugar de la genital chromocéntrica, y instructir a los padres que no tengan confusión en regard al-gender del c"
+    },
+    {
+        "example_id": 88,
+        "input": "Daily preoccupation -- the user loses any motivation; does not care about school and work; has obvious behavior changes; thinking about drug use is more important than all other interests, including relationships; the user becomes secretive; may begin dealing drugs to help support habit; use of other, harder drugs may increase; legal problems may increase.",
+        "output": "El fracaso diario, en este caso, es la muerte, la temor, la infección, la hyperhidrosis, la perique, la infección del ojos, la esfuerzo y la druggedad, que refuerza la infección del ojos"
+    },
+    {
+        "example_id": 89,
+        "input": "You have sudden, sharp chest pain with shortness of breath, especially after a long trip, a stretch of bedrest (for example, following an operation), or other lack of movement, especially if one leg is swollen or more swollen than the other (this could be a blood clot, part of which has moved to the lungs).",
+        "output": "El dolor es constante y se produce con una excesión de presión en el organ del radío y el pulso es constante y temprano.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 90,
+        "input": "The mother may fake symptoms of illness in her child by adding blood to the child's urine or stool, withholding food, falsifying fevers, secretly giving the child drugs to make the child throw up or have diarrhea, or using other tricks, such as infecting intravenous (given through a vein) lines to make the child appear or become ill.",
+        "output": "El padé puede fomentar el syndrome de la enfermedad en su hijo por incluir en la pura de su ojo un traje de sangre, refugiarse sin la comida, subconsejos de la fevers, imaginar que el hijo mantiene un traje de sangr"
+    },
+    {
+        "example_id": 91,
+        "input": "Because there is little or no flow out of the left heart, blood returning to the heart from the lungs needs to pass through the foramen ovale or an atrial septal defect (a hole connecting the collecting chambers on the left and right sides of the heart) back to the right side of the heart.",
+        "output": "El sangue se reciende por el pulmon, se transpasa por la sección del pulmon, se reciende por el pulmon, se transpasa por la sección del pulmon, se reciende por el pulmon y se reciende por el pulmon, s"
+    },
+    {
+        "example_id": 92,
+        "input": "You can take the tooth to the dentist by following one of these tips:Try to place the tooth back in the mouth where it fell out, so it is level with other teeth. Bite down gently on gauze or a wet tea bag to help keep it in place. Be careful not to swallow the tooth.",
+        "output": "Elyou puede saludar al dentista siguiendo uno de estos pasos:Desplazar el diente por el dentisco para que sea alignado con otros dientes. Carregar la diente en la garganta para que sea al mismo nivel que otros dientes. Bise"
+    },
+    {
+        "example_id": 93,
+        "input": "Another myth of adolescence is the idea that \"it will never happen to me, only the other person.\" \"It\" may represent becoming pregnant or catching a sexually-transmitted disease after having unprotected sex, causing a car crash while driving under the influence of alcohol or drugs, or any of the many other negative effects of risk-taking behaviors.",
+        "output": "Otra myth of adolescence is that \"it will never happen to me, only the other person.\" \"It\" may represent having unprotected sex, getting pregnant, getting a sexually transmitted disease, having an accident while driving under the influence of alcohol or drugs, or any of the other negative effects of risk-taking behaviors.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 94,
+        "input": "It is important to have the teeth cleaned thoroughly.This may involve use of various tools to loosen and remove plaque and tartar from the teeth. Proper flossing and brushing is always needed, even after professional tooth cleaning, to reduce your risk of gum disease. Your dentist or hygienist will show you how to brush and floss properly.",
+        "output": "Se debe hacer el cáliz de los dientes profundamente. Esto puede involucrar la uso de diferentes herramientas para desplazarse y remover el plaque y el poscoro de los dientes. Es importante que el dentist o la hygienista utilicen cuidadosamente el cá"
+    },
+    {
+        "example_id": 95,
+        "input": "How well you do depends on the amount of poison swallowed and how quickly treatment is received.",
+        "output": "¿Cómo funcionan los poques que se absorben dependen del cantidad de poqueo y la velocidad con la que se recupera.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 96,
+        "input": "Rarely, children will have problems falling asleep or staying asleep.",
+        "output": "Se rarely present, children may have problems falling asleep or staying asleep.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 97,
+        "input": "Reye syndrome can occur when aspirin is used to treat children with viral infections, such as chickenpox or the flu.",
+        "output": "Se puede causar la reye syndrome cuando se usa asparina para treatar a los niños con infecciones vidas como por el polvo de pollo o el flu.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 98,
+        "input": "Bili lights is a type of light therapy (phototherapy) that is used to treat newborn jaundice . Jaundice is a yellow coloring of the skin and eyes caused by too much of a substance called bilirubin.",
+        "output": "Bili lights are a type of light therapy (phototherapy) used to treat jaundice. Jaundice is a yellow coloring of the skin and eyes caused by too much bilirubin.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 99,
+        "input": "Surgery combined with radiation therapy is often used to treat women with stage 1 disease that has a high chance of returning, has spread to the lymph nodes, or is a grade 2 or 3.",
+        "output": "Seurreza combinada con la terapia radiation se utiliza para tratar a las mujeres de edad de un síntoma de la enfermedad con un nivel de riesgo alto, que está extendido a los radí nodos o está de un nivel de grade 2 o 3.<｜end▁of▁sentence｜"
+    }
+]

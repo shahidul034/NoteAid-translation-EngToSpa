@@ -1,0 +1,344 @@
+{
+    "full": {
+        "0": [
+            {
+                "claim": "Un sistema inmunol\u00f3gico debilitado puede ser causado por SIDA, c\u00e1ncer, trasplante o uso de corticosteroides.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that a weakened immune system can be due to AIDS, cancer, transplant, or corticosteroid use."
+            },
+            {
+                "claim": "Las personas con un sistema inmunol\u00f3gico debilitado deben llamar a su m\u00e9dico si desarrollan tos.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary advises individuals with a weakened immune system to call their doctor if they experience a cough."
+            },
+            {
+                "claim": "Las personas con un sistema inmunol\u00f3gico debilitado deben llamar a su m\u00e9dico si desarrollan fiebre.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary advises individuals with a weakened immune system to call their doctor if they experience a fever."
+            },
+            {
+                "claim": "Las personas con un sistema inmunol\u00f3gico debilitado deben llamar a su m\u00e9dico si desarrollan dificultad para respirar.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary advises individuals with a weakened immune system to call their doctor if they experience difficulty breathing."
+            }
+        ],
+        "1": [
+            {
+                "claim": "No se debe colocar a la persona en esta posici\u00f3n si se sospecha de una lesi\u00f3n en la cabeza.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states not to place the person in this position if a head injury is suspected."
+            },
+            {
+                "claim": "No se debe colocar a la persona en esta posici\u00f3n si se sospecha de una lesi\u00f3n en el cuello.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states not to place the person in this position if a neck injury is suspected."
+            },
+            {
+                "claim": "No se debe colocar a la persona en esta posici\u00f3n si se sospecha de una lesi\u00f3n en la espalda.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states not to place the person in this position if a back injury is suspected."
+            },
+            {
+                "claim": "No se debe colocar a la persona en esta posici\u00f3n si se sospecha de una lesi\u00f3n en la pierna.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states not to place the person in this position if a leg injury is suspected."
+            },
+            {
+                "claim": "No se debe colocar a la persona en esta posici\u00f3n si le causa incomodidad a la v\u00edctima.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states not to place the person in this position if it is uncomfortable for them."
+            }
+        ],
+        "10": [
+            {
+                "claim": "Se recomienda un completo reposo en cama.  ",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states 'reposo completo', which can be interpreted as complete rest, potentially including bed rest. Therefore, this claim can be fully entailed by the note."
+            },
+            {
+                "claim": "El reposo en cama debe durar varios d\u00edas.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions 'reposo completo durante algunos d\u00edas', which translates to 'complete rest for a few days'. This aligns with the claim that bed rest should last several days, so the claim can be fully entailed."
+            }
+        ],
+        "11": [
+            {
+                "claim": "A\u00fan hay problemas en los pies.  ",
+                "entailment_prediction": 0,
+                "explanation": "The translated clinical note states 'Todav\u00eda tienen problemas en el pie despu\u00e9s del tratamiento.' which indicates that there are still problems in the foot after treatment. However, the claim mentions 'pies' (plural), while the note mentions 'pie' (singular). Therefore, the claim cannot be fully entailed as it refers to both feet, not just one."
+            },
+            {
+                "claim": "Los problemas en los pies persisten despu\u00e9s del tratamiento.",
+                "entailment_prediction": 0,
+                "explanation": "The translated clinical note states 'Todav\u00eda tienen problemas en el pie despu\u00e9s del tratamiento.' which indicates that there are still problems in the foot after treatment. The claim mentions 'pies' (plural), while the note mentions 'pie' (singular). Therefore, the claim cannot be fully entailed as it refers to both feet, not just one."
+            }
+        ],
+        "12": [
+            {
+                "claim": "El paciente presenta trastornos del sistema endocrino.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note 'Trastornos del sistema endocrino' directly mentions 'endocrine system disorders', which matches the claim that the patient has endocrine system disorders. Therefore, the claim can be fully entailed by the clinical note."
+            }
+        ],
+        "13": [
+            {
+                "claim": "A biopsy of the breast was performed.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states 'Biopsia de mama', which translates to 'biopsy of the breast'. This directly supports the claim that a biopsy of the breast was performed."
+            },
+            {
+                "claim": "An open biopsy of the breast was conducted.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states 'Biopsia abierta de las mamas', which translates to 'open biopsy of the breast'. This directly supports the claim that an open biopsy of the breast was conducted."
+            }
+        ],
+        "14": [
+            {
+                "claim": "La pregunta se refiere al uso de drogas ilegales.",
+                "entailment_prediction": 0,
+                "explanation": "The translated clinical note asks if the patient has consumed psychoactive drugs. While many psychoactive drugs are illegal, the term 'psychoactive drugs' can also include legal substances such as prescription medications and certain over-the-counter drugs. Therefore, the question does not specifically refer to illegal drugs only."
+            }
+        ],
+        "15": [],
+        "16": [],
+        "17": [],
+        "18": [],
+        "19": [],
+        "2": [
+            {
+                "claim": "La visi\u00f3n aumentada permite al infante distinguir objetos de fondos con poco contraste.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that the increase in vision allows the baby to differentiate objects from backgrounds with very little contrast. This directly supports the claim that enhanced vision enables the infant to distinguish objects from low-contrast backgrounds."
+            },
+            {
+                "claim": "Un ejemplo de poco contraste es un bot\u00f3n en una blusa del mismo color.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary provides the example of a button on a blouse of the same color as an instance of very little contrast. This directly supports the claim."
+            }
+        ],
+        "20": [],
+        "21": [],
+        "22": [],
+        "23": [],
+        "24": [],
+        "25": [],
+        "26": [],
+        "27": [],
+        "28": [],
+        "29": [],
+        "3": [
+            {
+                "claim": "La obesidad puede dificultar la inspecci\u00f3n f\u00edsica de los pies.",
+                "entailment_prediction": 1,
+                "explanation": "El resumen menciona que si la obesidad impide f\u00edsicamente revisarse los pies, lo que implica que la obesidad puede dificultar esta inspecci\u00f3n."
+            },
+            {
+                "claim": "Es importante revisar los pies regularmente.",
+                "entailment_prediction": 0,
+                "explanation": "El resumen destaca la importancia de la inspecci\u00f3n de los pies, pero no menciona espec\u00edficamente la regularidad de esta acci\u00f3n."
+            },
+            {
+                "claim": "Se puede pedir ayuda a un familiar para la inspecci\u00f3n de los pies.",
+                "entailment_prediction": 1,
+                "explanation": "El resumen sugiere solicitarle a un familiar que realice la inspecci\u00f3n de los pies, lo que apoya completamente esta afirmaci\u00f3n."
+            },
+            {
+                "claim": "Un vecino puede ayudar en la revisi\u00f3n de los pies.",
+                "entailment_prediction": 1,
+                "explanation": "El resumen menciona que se puede pedir a un vecino que realice la inspecci\u00f3n de los pies, lo que apoya esta afirmaci\u00f3n."
+            },
+            {
+                "claim": "Una enfermera visitante puede realizar la inspecci\u00f3n de los pies.",
+                "entailment_prediction": 1,
+                "explanation": "El resumen sugiere que una enfermera visitadora puede realizar la inspecci\u00f3n de los pies, lo que apoya completamente esta afirmaci\u00f3n."
+            }
+        ],
+        "30": [],
+        "31": [],
+        "32": [],
+        "33": [],
+        "34": [],
+        "35": [],
+        "36": [],
+        "37": [],
+        "38": [],
+        "39": [],
+        "4": [
+            {
+                "claim": "Se realizar\u00e1 una tomograf\u00eda computarizada o resonancia magn\u00e9tica.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions the use of a CT scan or MRI to confirm the presence of a mass and to check for cancer spread, which implies that one of these imaging techniques will be performed."
+            },
+            {
+                "claim": "El objetivo es confirmar que hay un crecimiento.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that a CT scan or MRI is used to confirm if there is a mass, which can be interpreted as confirming a growth."
+            },
+            {
+                "claim": "Se evaluar\u00e1 si el c\u00e1ncer se ha diseminado a los ganglios linf\u00e1ticos en el cuello.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly mentions that the imaging will be used to see if the cancer has spread to the lymph nodes in the neck."
+            }
+        ],
+        "40": [],
+        "41": [],
+        "42": [],
+        "43": [],
+        "44": [],
+        "45": [],
+        "46": [],
+        "47": [],
+        "48": [],
+        "49": [],
+        "5": [
+            {
+                "claim": "Se observa un color marr\u00f3n uniforme en las mejillas.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that a uniform brown color is observed on the cheeks, which matches the claim."
+            },
+            {
+                "claim": "Se observa un color marr\u00f3n uniforme en la frente.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that a uniform brown color is observed on the forehead, which matches the claim."
+            },
+            {
+                "claim": "Se observa un color marr\u00f3n uniforme en la nariz.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that a uniform brown color is observed on the nose, which matches the claim."
+            },
+            {
+                "claim": "Se observa un color marr\u00f3n uniforme en el labio superior.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that a uniform brown color is observed on the upper lip, which matches the claim."
+            },
+            {
+                "claim": "El color marr\u00f3n uniforme a menudo es sim\u00e9trico.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that the uniform brown color is very often symmetrical, which matches the claim."
+            },
+            {
+                "claim": "La simetr\u00eda del color marr\u00f3n uniforme coincide en ambos lados de la cara.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that the uniform brown color is symmetrical, meaning it is the same on both sides of the face, which matches the claim."
+            }
+        ],
+        "50": [],
+        "51": [],
+        "52": [],
+        "53": [],
+        "54": [],
+        "55": [],
+        "56": [],
+        "57": [],
+        "58": [],
+        "59": [],
+        "6": [
+            {
+                "claim": "El m\u00e9dico puede realizar pruebas para verificar la hipertensi\u00f3n arterial.",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica menciona que el m\u00e9dico puede realizar ex\u00e1menes para verificar si hay hipertensi\u00f3n, lo que implica que se pueden realizar pruebas para verificar la hipertensi\u00f3n arterial."
+            },
+            {
+                "claim": "El m\u00e9dico puede realizar pruebas para verificar enfermedades del coraz\u00f3n.",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica menciona que el m\u00e9dico puede realizar ex\u00e1menes para verificar si hay cardiopat\u00eda, lo que implica que se pueden realizar pruebas para verificar enfermedades del coraz\u00f3n."
+            },
+            {
+                "claim": "El m\u00e9dico puede realizar pruebas para verificar diabetes.",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica menciona que el m\u00e9dico puede realizar ex\u00e1menes para verificar si hay diabetes, lo que implica que se pueden realizar pruebas para verificar diabetes."
+            },
+            {
+                "claim": "El m\u00e9dico puede realizar pruebas para verificar colesterol alto.",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica menciona que el m\u00e9dico puede realizar ex\u00e1menes para verificar si hay colesterol alto, lo que implica que se pueden realizar pruebas para verificar colesterol alto."
+            },
+            {
+                "claim": "El m\u00e9dico puede realizar pruebas para identificar otras causas de ataques isqu\u00e9micos transitorios (AIT).",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica menciona que el m\u00e9dico puede realizar ex\u00e1menes para verificar otras causas de AIT, lo que implica que se pueden realizar pruebas para identificar otras causas de ataques isqu\u00e9micos transitorios."
+            },
+            {
+                "claim": "El m\u00e9dico puede realizar pruebas para identificar factores de riesgo de accidentes cerebrovasculares.",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica menciona que el m\u00e9dico puede realizar ex\u00e1menes para verificar factores de riesgo para AIT o accidente cerebrovascular, lo que implica que se pueden realizar pruebas para identificar factores de riesgo de accidentes cerebrovasculares."
+            }
+        ],
+        "60": [],
+        "61": [],
+        "62": [],
+        "63": [],
+        "64": [],
+        "65": [],
+        "66": [],
+        "67": [],
+        "68": [],
+        "69": [],
+        "7": [
+            {
+                "claim": "El estridor es un sonido respiratorio anormal.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary describes the condition as an 'abnormal respiratory sound,' which directly supports the claim."
+            },
+            {
+                "claim": "El estridor es un sonido respiratorio agudo y musical.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary describes the sound as 'shrill and musical,' which matches the claim of being 'agudo y musical.'"
+            },
+            {
+                "claim": "El estridor es causado por una obstrucci\u00f3n en la garganta o en la caja de la voz (laringe).",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that the sound is caused by a 'blockage in the throat or larynx,' which is equivalent to 'obstrucci\u00f3n en la garganta o en la caja de la voz (laringe).' Therefore, the claim is fully entailed."
+            },
+            {
+                "claim": "Generalmente, el estridor se escucha al inhalar.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that the sound is 'generally heard when inhaling,' which directly supports the claim."
+            }
+        ],
+        "70": [],
+        "71": [],
+        "72": [],
+        "73": [],
+        "74": [],
+        "75": [],
+        "76": [],
+        "77": [],
+        "78": [],
+        "79": [],
+        "8": [
+            {
+                "claim": "Hay presencia de sangre en el papel higi\u00e9nico.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note asks if there is blood only on the toilet paper, which implies that there is indeed blood present on the toilet paper. Therefore, the claim that there is blood on the toilet paper can be fully entailed by the clinical note."
+            }
+        ],
+        "80": [],
+        "81": [],
+        "82": [],
+        "83": [],
+        "84": [],
+        "85": [],
+        "86": [],
+        "87": [],
+        "88": [],
+        "89": [],
+        "9": [
+            {
+                "claim": "El paciente debe preguntar a su proveedor de atenci\u00f3n m\u00e9dica.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note 'Preg\u00fantele al m\u00e9dico.' directly suggests that the patient should ask their doctor, which is equivalent to asking their healthcare provider. Therefore, the claim is fully entailed by the clinical note."
+            }
+        ],
+        "90": [],
+        "91": [],
+        "92": [],
+        "93": [],
+        "94": [],
+        "95": [],
+        "96": [],
+        "97": [],
+        "98": [],
+        "99": []
+    }
+}

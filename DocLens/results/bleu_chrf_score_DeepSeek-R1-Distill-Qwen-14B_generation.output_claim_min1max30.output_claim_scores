@@ -1,0 +1,1939 @@
+{
+    "full": {
+        "0": [
+            {
+                "claim": "Un sistema inmunol\u00f3gico d\u00e9bil puede ser causado por el VIH.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions a weakened immune system can be caused by AIDS, which is the advanced stage of HIV infection."
+            },
+            {
+                "claim": "Un sistema inmunol\u00f3gico d\u00e9bil puede ser causado por el c\u00e1ncer.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that a weakened immune system can be caused by cancer."
+            },
+            {
+                "claim": "Un sistema inmunol\u00f3gico d\u00e9bil puede ser causado por la transplantation.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that a weakened immune system can be caused by a transplant."
+            },
+            {
+                "claim": "Un sistema inmunol\u00f3gico d\u00e9bil puede ser causado por el uso de corticosteroides.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that the use of corticosteroids can lead to a weakened immune system."
+            },
+            {
+                "claim": "Se debe llamar al m\u00e9dico si se desarrolla un dolor de garganta.  ",
+                "entailment_prediction": 0,
+                "explanation": "The article summary does not mention calling a doctor if a sore throat develops."
+            },
+            {
+                "claim": "Se debe llamar al m\u00e9dico si se desarrolla tos.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary advises calling a doctor if a cough develops."
+            },
+            {
+                "claim": "Se debe llamar al m\u00e9dico si se desarrolla fiebre.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary advises calling a doctor if a fever develops."
+            },
+            {
+                "claim": "Se debe llamar al m\u00e9dico si se desarrolla disnea.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary advises calling a doctor if difficulty breathing, which is synonymous with dyspnea, develops."
+            }
+        ],
+        "1": [
+            {
+                "claim": "No se debe colocar al paciente en esta posici\u00f3n si se sospecha un traumatismo de la cabeza.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states not to place the person in this position if a head injury is suspected."
+            },
+            {
+                "claim": "No se debe colocar al paciente en esta posici\u00f3n si se sospecha un traumatismo del cuello.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states not to place the person in this position if a neck injury is suspected."
+            },
+            {
+                "claim": "No se debe colocar al paciente en esta posici\u00f3n si se sospecha un traumatismo de la espalda.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states not to place the person in this position if a back injury is suspected."
+            },
+            {
+                "claim": "No se debe colocar al paciente en esta posici\u00f3n si se sospecha un traumatismo de la pierna.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states not to place the person in this position if a leg injury is suspected."
+            },
+            {
+                "claim": "No se debe colocar al paciente en esta posici\u00f3n si el paciente se siente inc\u00f3modo.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states not to place the person in this position if it is uncomfortable for them."
+            }
+        ],
+        "10": [
+            {
+                "claim": "El reposo en cama se recomienda durante varios d\u00edas.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that complete rest is generally recommended for a few days. 'Reposo completo' can be interpreted as 'bed rest' or 'complete rest,' which aligns with the claim that bed rest is recommended. The term 'algunos d\u00edas' translates to 'a few days,' which is consistent with 'varios d\u00edas' or 'several days.' Therefore, the claim can be fully entailed by the clinical note."
+            }
+        ],
+        "11": [
+            {
+                "claim": "El paciente todav\u00eda tiene problemas en los pies.  ",
+                "entailment_prediction": 0,
+                "explanation": "The clinical note states that there are still problems in the foot after treatment. The claim mentions 'pies' (feet), which implies both feet, whereas the note specifies 'pie' (foot), indicating a single foot. Therefore, the claim cannot be fully entailed by the note."
+            },
+            {
+                "claim": "Los problemas en los pies persisten despu\u00e9s del tratamiento.",
+                "entailment_prediction": 0,
+                "explanation": "The clinical note indicates that there are still problems in the foot after treatment. However, the claim refers to 'pies' (feet), suggesting both feet, while the note specifies 'pie' (foot), indicating only one foot. Thus, the claim cannot be fully entailed by the note."
+            }
+        ],
+        "12": [
+            {
+                "claim": "The patient has endocrine system disorders.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note 'Trastornos del sistema endocrino' directly translates to 'Endocrine system disorders'. This indicates that the patient has disorders related to the endocrine system."
+            }
+        ],
+        "13": [
+            {
+                "claim": "A biopsy was performed on the breast.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions 'Biopsia de mama', which translates to 'breast biopsy'. This directly supports the claim that a biopsy was performed on the breast."
+            },
+            {
+                "claim": "An open breast biopsy was conducted.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note includes 'Biopsia abierta de las mamas', which translates to 'open breast biopsy'. This directly supports the claim that an open breast biopsy was conducted."
+            }
+        ],
+        "14": [
+            {
+                "claim": "Se pregunta si se est\u00e1n utilizando drogas ilegales.",
+                "entailment_prediction": 0,
+                "explanation": "The clinical note asks about the consumption of psychoactive drugs. While many psychoactive drugs can be illegal, the note does not specify that it is asking about illegal drugs specifically. Therefore, the claim cannot be fully entailed as it adds the specific context of legality which is not present in the original note."
+            }
+        ],
+        "15": [
+            {
+                "claim": "Las medidas preventivas var\u00edan.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that preventive measures vary depending on the specific disorder. This implies that preventive measures do indeed vary, as they are not the same for every disorder."
+            },
+            {
+                "claim": "Las medidas preventivas dependen del desorden espec\u00edfico.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states that preventive measures vary depending on the specific disorder, which directly supports the claim that preventive measures depend on the specific disorder."
+            }
+        ],
+        "16": [
+            {
+                "claim": "Algunos laboratorios usan medidas diferentes.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that some laboratories use different measures, which directly supports this claim."
+            },
+            {
+                "claim": "Algunos laboratorios pueden analizar diferentes muestras.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note mentions that some laboratories could evaluate different samples, which aligns with the claim that some laboratories can analyze different samples."
+            }
+        ],
+        "17": [
+            {
+                "claim": "Menopause is occurring.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions 'Menopausia', which directly translates to 'Menopause'. This indicates that menopause is indeed occurring."
+            },
+            {
+                "claim": "There is a decrease in estrogen hormone during menopause.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states 'la disminuci\u00f3n de los niveles de estr\u00f3genos', which translates to 'the decrease in estrogen levels'. This confirms that there is a decrease in estrogen hormone during menopause."
+            },
+            {
+                "claim": "The decrease in estrogen hormone causes vaginal dryness.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states 'provoca resequedad vaginal', which translates to 'causes vaginal dryness'. This confirms that the decrease in estrogen hormone causes vaginal dryness."
+            }
+        ],
+        "18": [
+            {
+                "claim": "La depresi\u00f3n es un factor de riesgo para el suicidio.",
+                "entailment_prediction": 0,
+                "explanation": "The clinical note states that depression is a risk factor for 'esto', which is not explicitly defined in the note. Without additional context, it cannot be confirmed that 'esto' refers to suicide."
+            },
+            {
+                "claim": "La edad mayor es un factor de riesgo para el suicidio.",
+                "entailment_prediction": 0,
+                "explanation": "The clinical note mentions that advanced age is a risk factor for 'esto', but it does not specify what 'esto' refers to. Therefore, it cannot be confirmed that 'esto' refers to suicide."
+            }
+        ],
+        "19": [
+            {
+                "claim": "La mayor\u00eda de las mujeres tienen solo un p\u00f3lipo.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that 'La mayor\u00eda de las mujeres solamente presenta un p\u00f3lipo,' which directly supports the claim that the majority of women have only one polyp."
+            },
+            {
+                "claim": "Algunas mujeres tienen dos o m\u00e1s p\u00f3lipos.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note mentions that 'algunas mujeres tienen dos o tres,' which supports the claim that some women have two or more polyps."
+            }
+        ],
+        "2": [
+            {
+                "claim": "La visi\u00f3n aumentada permite al beb\u00e9 distinguir entre objetos y fondos.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that the increase in vision allows the baby to differentiate objects from backgrounds with very little contrast. This implies that the enhanced vision helps in distinguishing between objects and backgrounds."
+            },
+            {
+                "claim": "La visi\u00f3n aumentada es \u00fatil para identificar objetos con poco contraste.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly mentions that the increase in vision allows the baby to differentiate objects from backgrounds with very little contrast, indicating that enhanced vision is useful for identifying objects with low contrast."
+            },
+            {
+                "claim": "Un ejemplo de poco contraste es un bot\u00f3n en una blusa del mismo color.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary provides the example of a button on a blouse of the same color as an instance of very little contrast, directly supporting this claim."
+            }
+        ],
+        "20": [
+            {
+                "claim": "Este examen mide el nivel de amino\u00e1cidos en la sangre.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that the test is done to measure the level of amino acids in the blood, which directly supports the claim that the test measures the level of amino acids in the blood."
+            }
+        ],
+        "21": [
+            {
+                "claim": "La infecci\u00f3n se transmite por la saliva.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that the infection spreads through saliva, which directly supports this claim."
+            },
+            {
+                "claim": "La infecci\u00f3n se transmite por la orina.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that the infection spreads through urine, which directly supports this claim."
+            },
+            {
+                "claim": "La infecci\u00f3n se transmite por las gotas respiratorias.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that the infection spreads through respiratory droplets, which directly supports this claim."
+            },
+            {
+                "claim": "La infecci\u00f3n se transmite por contacto sexual.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that the infection spreads through sexual contact, which directly supports this claim."
+            },
+            {
+                "claim": "La infecci\u00f3n se transmite por transfusiones de sangre.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that the infection spreads through blood transfusions, which directly supports this claim."
+            }
+        ],
+        "22": [
+            {
+                "claim": "El paciente puede comer ocasionalmente carnes rojas magras.  ",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that occasionally, lean cuts of red meat can be used. This implies that the patient can occasionally eat lean red meats."
+            },
+            {
+                "claim": "Las cantidades recomendadas son reducidas, espec\u00edficamente de 3 onzas.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note specifies that lean cuts of red meat can be used in portions of 3 ounces (85 grams), indicating that the recommended amounts are indeed reduced to this specific quantity."
+            }
+        ],
+        "23": [
+            {
+                "claim": "Varias enfermedades pueden causar un aumento de la presi\u00f3n intracraneal.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that 'varias afecciones pueden provocar aumento de la presi\u00f3n intracraneal,' which translates to 'various conditions can cause an increase in intracranial pressure.' The term 'afecciones' can be interpreted as 'conditions' or 'diseases,' which aligns with the claim that 'varias enfermedades' (various diseases) can cause increased intracranial pressure. Therefore, the claim is fully entailed by the clinical note."
+            }
+        ],
+        "24": [
+            {
+                "claim": "Se han detectado sonidos anormales del coraz\u00f3n.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note 'Ruidos card\u00edacos anormales' directly translates to 'Abnormal heart sounds', which fully supports the claim that abnormal heart sounds have been detected."
+            }
+        ],
+        "25": [
+            {
+                "claim": "La superficie es cerosa.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states 'Superficie amarillenta y cerosa', which directly mentions that the surface is 'cerosa'. Therefore, this claim can be fully entailed by the clinical note."
+            },
+            {
+                "claim": "La superficie es amarillenta.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states 'Superficie amarillenta y cerosa', which directly mentions that the surface is 'amarillenta'. Therefore, this claim can be fully entailed by the clinical note."
+            }
+        ],
+        "26": [
+            {
+                "claim": "The patient requires oxygen.",
+                "entailment_prediction": 0,
+                "explanation": "The translated clinical note only contains the word 'Ox\u00edgeno', which means 'Oxygen' in English. It does not provide any context or additional information to determine whether the patient requires oxygen or if oxygen is being used in a different context. Therefore, the claim cannot be fully entailed by the clinical note."
+            }
+        ],
+        "27": [
+            {
+                "claim": "El paciente ha tenido una cirug\u00eda card\u00edaca abierta reciente.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states 'Cirug\u00eda reciente a coraz\u00f3n abierto', which directly translates to 'Recent open-heart surgery'. This matches the claim that the patient has had recent open-heart surgery."
+            }
+        ],
+        "28": [
+            {
+                "claim": "The patient has a thyroid disease.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note 'Enfermedad tiroidea' directly translates to 'Thyroid disease' in English. This indicates that the patient has a thyroid disease."
+            }
+        ],
+        "29": [
+            {
+                "claim": "The patient is experiencing nausea.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note 'N\u00e1useas' directly indicates that the patient is experiencing nausea, as 'n\u00e1useas' is the Spanish word for 'nausea'."
+            }
+        ],
+        "3": [
+            {
+                "claim": "La obesidad puede impedir que una persona sea f\u00edsicamente capaz de inspeccionar sus pies.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states that if obesity physically prevents someone from checking their feet, they should seek assistance. This implies that obesity can indeed prevent a person from being physically capable of inspecting their feet."
+            },
+            {
+                "claim": "Se recomienda pedir ayuda a un miembro de la familia, un vecino o una enfermera visitante para realizar la inspecci\u00f3n de los pies.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note directly recommends asking a family member, neighbor, or visiting nurse to perform the important foot inspection if obesity prevents self-inspection."
+            },
+            {
+                "claim": "La inspecci\u00f3n de los pies es una verificaci\u00f3n importante.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note describes the foot inspection as an 'important inspection,' which aligns with the claim that it is an important check."
+            }
+        ],
+        "30": [
+            {
+                "claim": "The clinical note mentions broccoli.",
+                "entailment_prediction": 0,
+                "explanation": "The clinical note only mentions fortified foods like soy milk and does not mention broccoli."
+            }
+        ],
+        "31": [
+            {
+                "claim": "The clinical note mentions \"Langostinos.\"",
+                "entailment_prediction": 0,
+                "explanation": "The clinical note only mentions 'Ostras' and does not mention 'Langostinos.' Therefore, the claim cannot be fully entailed by the clinical note."
+            }
+        ],
+        "32": [
+            {
+                "claim": "La RCP puede salvar vidas.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states that CPR can save lives."
+            },
+            {
+                "claim": "Es mejor que la RCP sea realizada por una persona capacitada.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that CPR is best performed by someone who has received training, implying that it is better for a trained person to perform it."
+            },
+            {
+                "claim": "La capacitaci\u00f3n debe ser en un curso de RCP acreditado.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note specifies that the training should be in an accredited course, directly supporting this claim."
+            }
+        ],
+        "33": [
+            {
+                "claim": "Siempre informe a su m\u00e9dico si tiene un resfriado.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly mentions that you should inform your doctor if you have a cold ('resfriado')."
+            },
+            {
+                "claim": "Siempre informe a su m\u00e9dico si tiene gripe.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly mentions that you should inform your doctor if you have the flu ('gripe')."
+            },
+            {
+                "claim": "Siempre informe a su m\u00e9dico si tiene fiebre.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly mentions that you should inform your doctor if you have a fever ('fiebre')."
+            },
+            {
+                "claim": "Siempre informe a su m\u00e9dico si tiene un brote de herpes.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly mentions that you should inform your doctor if you have a herpes outbreak ('brote de herpes')."
+            },
+            {
+                "claim": "Siempre informe a su m\u00e9dico si tiene cualquier otro tipo de enfermedad.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly mentions that you should inform your doctor if you have any other illness ('cualquier otra enfermedad')."
+            }
+        ],
+        "34": [
+            {
+                "claim": "El tretino\u00edna (Retin-A) puede ser recomendado.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that tretino\u00edna (Retin-A) can be recommended, which directly supports this claim."
+            },
+            {
+                "claim": "Las cremas que contienen \u00e1cidos hial\u00f3genos pueden ser recomendadas.",
+                "entailment_prediction": 0,
+                "explanation": "The clinical note mentions creams containing alfa-hidroxi\u00e1cidos, not \u00e1cidos hial\u00f3genos. Therefore, this claim cannot be fully entailed by the note."
+            },
+            {
+                "claim": "No se asegura que el tretino\u00edna (Retin-A) funcione.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that there is no guarantee that tretino\u00edna (Retin-A) will work, which directly supports this claim."
+            },
+            {
+                "claim": "No se asegura que las cremas que contienen \u00e1cidos hial\u00f3genos funcionen.",
+                "entailment_prediction": 0,
+                "explanation": "The clinical note states there is no guarantee for creams containing alfa-hidroxi\u00e1cidos, not \u00e1cidos hial\u00f3genos. Therefore, this claim cannot be fully entailed by the note."
+            }
+        ],
+        "35": [
+            {
+                "claim": "La fiebre es un s\u00edntoma cl\u00e1sico.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note explicitly states that fever is a classic symptom."
+            },
+            {
+                "claim": "La fiebre puede durar d\u00edas.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note mentions that fever can persist for days, which implies that it can last for several days."
+            },
+            {
+                "claim": "Otros s\u00edntomas pueden aparecer despu\u00e9s de la fiebre.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that fever can persist for days before any other symptoms appear, indicating that other symptoms can appear after the fever."
+            }
+        ],
+        "36": [
+            {
+                "claim": "Es m\u00e1s probable que existan mayores cantidades de polen en el aire.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that there is a higher probability of greater amounts of pollen in the air on certain days, which supports the claim that there is a likelihood of higher pollen levels."
+            },
+            {
+                "claim": "Las condiciones que favorecen la presencia de polen son d\u00edas calurosos.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly mentions that hot days are one of the conditions that increase the likelihood of higher pollen levels in the air."
+            },
+            {
+                "claim": "Las condiciones que favorecen la presencia de polen son d\u00edas secos.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly mentions that dry days are one of the conditions that increase the likelihood of higher pollen levels in the air."
+            },
+            {
+                "claim": "Las condiciones que favorecen la presencia de polen son d\u00edas ventosos.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly mentions that windy days are one of the conditions that increase the likelihood of higher pollen levels in the air."
+            }
+        ],
+        "37": [
+            {
+                "claim": "El hierro se obtiene a trav\u00e9s de ciertos alimentos.  ",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note explicitly states that iron is obtained through certain foods, which directly supports this claim."
+            },
+            {
+                "claim": "El cuerpo recicla hierro de viejas c\u00e9lulas rojas sangu\u00edneas.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note mentions that the body recycles iron from old red blood cells, which directly supports this claim."
+            }
+        ],
+        "38": [
+            {
+                "claim": "Los s\u00edntomas del asma generalmente ocurren con mucha menos frecuencia a medida que el ni\u00f1o crece.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that asthma symptoms usually occur with much less frequency or disappear as the child grows. This directly supports the claim that symptoms generally occur with much less frequency as the child grows."
+            },
+            {
+                "claim": "Los s\u00edntomas del asma pueden desaparecer a medida que el ni\u00f1o crece.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that asthma symptoms disappear as the child grows, which directly supports the claim that symptoms can disappear as the child grows."
+            }
+        ],
+        "39": [
+            {
+                "claim": "Las papas que no son verdes son seguras para comer.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that potatoes that are not green can be eaten without problem, which directly supports the claim that non-green potatoes are safe to eat."
+            },
+            {
+                "claim": "Las papas que han tenido eliminados cualquier brote son seguras para comer.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that potatoes with sprouts removed can be eaten without problem, which directly supports the claim that potatoes with removed sprouts are safe to eat."
+            }
+        ],
+        "4": [
+            {
+                "claim": "Se realizar\u00e1 un esc\u00e1ner CT o RM.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions 'Tomograf\u00eda computarizada o una resonancia magn\u00e9tica', which translates to 'CT scan or MRI'. This confirms that a CT or MRI scan will be performed."
+            },
+            {
+                "claim": "El prop\u00f3sito del esc\u00e1ner es confirmar que hay un crecimiento.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that the scan is to confirm if there is a 'masa', which translates to 'mass'. This supports the claim that the purpose of the scan is to confirm a growth."
+            },
+            {
+                "claim": "Se evaluar\u00e1 si el c\u00e1ncer se ha extendido a los ganglios linf\u00e1ticos del cuello.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly mentions that the scan is to see if the cancer has spread to the 'ganglios linf\u00e1ticos en el cuello', which translates to 'lymph nodes in the neck'. This directly supports the claim."
+            }
+        ],
+        "40": [
+            {
+                "claim": "La inserci\u00f3n de la aguja para extraer sangre puede causar un dolor moderado.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states that when the needle is inserted to draw blood, one may feel moderate pain."
+            },
+            {
+                "claim": "La inserci\u00f3n de la aguja puede causar solo un pinchazo.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that the insertion of the needle can result in a sensation of a prick or sting, which can be interpreted as a 'pinchazo'."
+            },
+            {
+                "claim": "La inserci\u00f3n de la aguja puede causar una sensaci\u00f3n de picor.",
+                "entailment_prediction": 0,
+                "explanation": "The clinical note mentions a sensation of a prick or sting, but does not mention an itching sensation ('picor')."
+            }
+        ],
+        "41": [
+            {
+                "claim": "Una sustancia que provoca alergias en un individuo puede seguir afect\u00e1ndolo a largo plazo.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that once a substance causes an allergy in an individual, it can continue to affect them for a long time. This directly supports the claim that a substance causing allergies can have long-term effects on an individual."
+            }
+        ],
+        "42": [
+            {
+                "claim": "Si se realiza una operaci\u00f3n, es probable que el conteo de espermatozoides aumente.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that if surgery is performed, the sperm count will probably increase. This directly supports the claim."
+            },
+            {
+                "claim": "La operaci\u00f3n no mejorar\u00e1 las probabilidades de que una mujer quede embarazada.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly mentions that the increase in sperm count will not improve the chances of impregnating a woman, which directly supports the claim."
+            }
+        ],
+        "43": [
+            {
+                "claim": "La screening de mujeres con ultrasonido p\u00e9lvico no se ha encontrado efectivo.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that examining women with pelvic ultrasounds has not been proven effective, which directly supports this claim."
+            },
+            {
+                "claim": "La screening de mujeres con an\u00e1lisis de sangre, como la Ca-125, no se ha encontrado efectivo.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that examining women with blood tests like CA-125 has not been proven effective, which directly supports this claim."
+            },
+            {
+                "claim": "No se recomienda la screening de mujeres con ultrasonido p\u00e9lvico o an\u00e1lisis de sangre, como la Ca-125.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that screening women with pelvic ultrasounds or blood tests like CA-125 is not recommended, which directly supports this claim."
+            }
+        ],
+        "44": [
+            {
+                "claim": "El az\u00facar se puede usar por el cuerpo para la energ\u00eda.",
+                "entailment_prediction": 0,
+                "explanation": "El resumen del art\u00edculo no menciona espec\u00edficamente el uso de az\u00facar para energ\u00eda, sino que se refiere al uso de prote\u00ednas para energ\u00eda despu\u00e9s de que se agoten las reservas de gluc\u00f3geno o carbohidratos. No se puede inferir directamente del texto que el az\u00facar se utiliza para energ\u00eda."
+            },
+            {
+                "claim": "El uso de az\u00facar para energ\u00eda ocurre solo despu\u00e9s de que se hayan utilizado las reservas de gluc\u00f3geno.",
+                "entailment_prediction": 0,
+                "explanation": "El resumen del art\u00edculo menciona que las prote\u00ednas se utilizan para energ\u00eda despu\u00e9s de que se agoten las reservas de gluc\u00f3geno o carbohidratos, pero no menciona espec\u00edficamente el uso de az\u00facar para energ\u00eda ni el orden en que se utilizan las reservas de gluc\u00f3geno. Por lo tanto, esta afirmaci\u00f3n no puede ser inferida del texto."
+            },
+            {
+                "claim": "El uso de az\u00facar para energ\u00eda tambi\u00e9n ocurre despu\u00e9s de que se hayan utilizado las reservas de carbohidratos.",
+                "entailment_prediction": 0,
+                "explanation": "El resumen del art\u00edculo no menciona el uso de az\u00facar para energ\u00eda. Se refiere al uso de prote\u00ednas para energ\u00eda despu\u00e9s de que se agoten las reservas de gluc\u00f3geno o carbohidratos, pero no menciona espec\u00edficamente el uso de az\u00facar. Por lo tanto, esta afirmaci\u00f3n no puede ser inferida del texto."
+            }
+        ],
+        "45": [
+            {
+                "claim": "Una hemorragia extradural es un tipo de sangrado.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note describes a 'sangrado' (bleeding) between the inside of the skull and the outer covering of the brain, which is consistent with the definition of an extradural hemorrhage. Therefore, the claim is fully entailed."
+            },
+            {
+                "claim": "La hemorragia extradural ocurre entre el interior del cr\u00e1neo y la cubierta exterior del cerebro.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states that the bleeding occurs between the inside of the skull and the outer covering of the brain, which matches the description of an extradural hemorrhage. Thus, the claim is fully entailed."
+            },
+            {
+                "claim": "La cubierta exterior del cerebro se llama \"dura\".",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note refers to the outer covering of the brain as 'duramadre,' which is the full term for 'dura mater.' The claim uses the term 'dura,' which is a common shorthand for 'dura mater.' Therefore, the claim is fully entailed."
+            }
+        ],
+        "46": [
+            {
+                "claim": "Sin PIG-A, las prote\u00ednas importantes no pueden unirse a la superficie celular.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that without PIG-A, important proteins cannot connect to the cell surface."
+            },
+            {
+                "claim": "Las prote\u00ednas importantes son necesarias para proteger la superficie celular.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary indicates that important proteins protect the cell from substances in the blood, implying their necessity for protection."
+            },
+            {
+                "claim": "Las sustancias del torrente sangu\u00edneo que afectan la superficie celular se llaman complementos.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that substances in the blood called complement affect the cell surface, confirming this claim."
+            }
+        ],
+        "47": [
+            {
+                "claim": "Si se puede ver hueso en el sitio lesionado, se debe llamar al n\u00famero de emergencia local.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states that if bone is visible at the injury site, one should call the local emergency number."
+            },
+            {
+                "claim": "El n\u00famero de emergencia local puede ser el 911.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that the local emergency number can be 911 in the United States, indicating that 911 is an example of a local emergency number."
+            },
+            {
+                "claim": "Tambi\u00e9n se puede llamar al hospital local para obtener m\u00e1s instrucciones.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that one can call the local hospital for further recommendations, which aligns with the claim."
+            }
+        ],
+        "48": [
+            {
+                "claim": "La distensi\u00f3n de la vejiga se refiere a la hinchaz\u00f3n de la vejiga con fluidos.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary describes 'distensi\u00f3n vesical' as 'vejiga urinaria sobrecargada de l\u00edquido', which translates to 'bladder distension' as 'urinary bladder overloaded with fluid'. This matches the claim that bladder distension refers to swelling of the bladder with fluids."
+            },
+            {
+                "claim": "La distensi\u00f3n de la vejiga puede causar una masa firme en el abdomen inferior.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that bladder distension can cause a firm mass in the lower abdomen, which directly supports the claim."
+            },
+            {
+                "claim": "La masa firme se localiza en el centro del abdomen, por encima de las caderas.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that the firm mass is located in the center of the lower abdomen above the pelvic bones. While it does not explicitly mention 'above the hips', the location described is consistent with being above the hips."
+            },
+            {
+                "claim": "En casos extremos de distensi\u00f3n de la vejiga, la masa puede llegar hasta el ombligo.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that in extreme cases, the firm mass can extend to the navel (ombligo), which directly supports the claim."
+            }
+        ],
+        "49": [
+            {
+                "claim": "Los ri\u00f1ones ayudan a controlar el nivel de \u00e1cido en el cuerpo.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that the kidneys help control the acid level in the body."
+            },
+            {
+                "claim": "Los ri\u00f1ones eliminan el \u00e1cido de la sangre.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that the kidneys remove acid from the blood."
+            },
+            {
+                "claim": "El \u00e1cido eliminado por los ri\u00f1ones se env\u00eda a la orina.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that the acid removed by the kidneys is eliminated in the urine."
+            },
+            {
+                "claim": "Los cuerpos \u00e1cidos en el cuerpo son contrarrestados por los cuerpos alcalinos.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that acidic substances in the body are neutralized by alkaline substances, which implies that acidic bodies are counteracted by alkaline bodies."
+            },
+            {
+                "claim": "El principal cuerpo alcalino que contrarresta los \u00e1cidos es el bicarbonato.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that bicarbonate is the main alkaline substance that neutralizes acids."
+            }
+        ],
+        "5": [
+            {
+                "claim": "Un color marr\u00f3n uniforme se observa en las mejillas.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that a uniform brown color is usually observed on the cheeks, which matches the claim."
+            },
+            {
+                "claim": "Un color marr\u00f3n uniforme se observa en la frente.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that a uniform brown color is usually observed on the forehead, which matches the claim."
+            },
+            {
+                "claim": "Un color marr\u00f3n uniforme se observa en la nariz.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that a uniform brown color is usually observed on the nose, which matches the claim."
+            },
+            {
+                "claim": "Un color marr\u00f3n uniforme se observa en el labio superior.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that a uniform brown color is usually observed on the upper lip, which matches the claim."
+            }
+        ],
+        "50": [
+            {
+                "claim": "El diagn\u00f3stico de la enfermedad reum\u00e1tica se basa en criterios espec\u00edficos.",
+                "entailment_prediction": 1,
+                "explanation": "El resumen del art\u00edculo menciona que el diagn\u00f3stico de fiebre reum\u00e1tica se da si uno satisface ciertos criterios principales y secundarios, lo que implica que se basa en criterios espec\u00edficos."
+            },
+            {
+                "claim": "Se requieren dos criterios mayores para el diagn\u00f3stico de la enfermedad reum\u00e1tica.",
+                "entailment_prediction": 1,
+                "explanation": "El resumen del art\u00edculo indica que el diagn\u00f3stico se puede hacer si se satisfacen dos criterios principales, lo que significa que esta afirmaci\u00f3n es correcta."
+            },
+            {
+                "claim": "Alternativamente, se necesita uno de los criterios mayores y dos criterios menores para el diagn\u00f3stico.",
+                "entailment_prediction": 1,
+                "explanation": "El resumen del art\u00edculo menciona que el diagn\u00f3stico se puede hacer con uno principal y dos secundarios, lo que coincide con esta afirmaci\u00f3n."
+            },
+            {
+                "claim": "Es necesario tener s\u00edntomas de una infecci\u00f3n previa por streptococcus para el diagn\u00f3stico.",
+                "entailment_prediction": 1,
+                "explanation": "El resumen del art\u00edculo menciona que se debe mostrar signos de una infecci\u00f3n previa por estreptococos para el diagn\u00f3stico, lo que respalda esta afirmaci\u00f3n."
+            }
+        ],
+        "51": [
+            {
+                "claim": "Un m\u00e9dico entrenado, generalmente un cardi\u00f3logo, realiza el procedimiento.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that a trained doctor, often a cardiologist, performs the procedure. This matches the claim."
+            },
+            {
+                "claim": "Se introduce una aguja peque\u00f1a en el pecho entre las costillas.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that a small needle is inserted into the chest between the ribs. This directly supports the claim."
+            },
+            {
+                "claim": "La aguja se introduce en la delgada bolsa que rodea el coraz\u00f3n, conocida como pericardio.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note specifies that the needle is inserted into the thin sac surrounding the heart, which is the pericardium. This is consistent with the claim."
+            },
+            {
+                "claim": "Se extrae una peque\u00f1a cantidad de l\u00edquido del pericardio.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that a small amount of fluid is extracted from the pericardium, which aligns with the claim."
+            }
+        ],
+        "52": [
+            {
+                "claim": "El aumento del calcio por un tiempo limitado no suele causar efectos secundarios.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that normally, an increase in calcium consumption over a limited period does not cause side effects. This directly supports the claim."
+            },
+            {
+                "claim": "Recibir una cantidad mayor de calcio durante un per\u00edodo prolongado aumenta el riesgo de desarrollar piedras en el ri\u00f1\u00f3n en algunas personas.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that receiving a large amount of calcium over a prolonged period increases the risk of kidney stones in some people. This directly supports the claim."
+            }
+        ],
+        "53": [
+            {
+                "claim": "Los ni\u00f1os con un desarrollo sexual precoz tienen m\u00e1s probabilidades de tener problemas psicol\u00f3gicos.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions 'problemas psicosociales', which includes both psychological and social problems. Therefore, the claim about psychological problems is entailed."
+            },
+            {
+                "claim": "Los ni\u00f1os con un desarrollo sexual precoz tienen m\u00e1s probabilidades de tener problemas sociales.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly mentions 'problemas psicosociales', which includes social problems. Therefore, the claim about social problems is entailed."
+            },
+            {
+                "claim": "Los ni\u00f1os y adolescentes suelen querer ser iguales a sus compa\u00f1eros de edad.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that 'los ni\u00f1os y adolescentes generalmente quieren ser iguales a sus compa\u00f1eros', which directly supports the claim."
+            },
+            {
+                "claim": "El desarrollo sexual precoz puede hacer que los ni\u00f1os y adolescentes parezcan diferentes.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that 'el desarrollo sexual prematuro puede hacerlos aparecer \"diferentes\"', which directly supports the claim."
+            }
+        ],
+        "54": [
+            {
+                "claim": "Las venas y arterias var\u00edan en tama\u00f1o de un paciente a otro.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that veins and arteries vary in size from one patient to another."
+            },
+            {
+                "claim": "Las venas y arterias var\u00edan en tama\u00f1o de un lado del cuerpo al otro.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that veins and arteries vary in size from one side of the body to the other."
+            },
+            {
+                "claim": "Obtener una muestra de sangre de algunos pacientes puede ser m\u00e1s dif\u00edcil que en otros.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that extracting blood from some people can be more difficult than from others due to the variation in size of veins and arteries."
+            }
+        ],
+        "55": [
+            {
+                "claim": "En muchos casos, esto evitar\u00e1 que usted se enferme.",
+                "entailment_prediction": 0,
+                "explanation": "The article summary discusses immunity related to varicella (chickenpox) but does not mention general immunity or prevention of illness in many cases. Therefore, this claim cannot be fully entailed by the article summary."
+            },
+            {
+                "claim": "Una persona que ha tenido el sarampi\u00f3n est\u00e1 inmune a contraerlo de nuevo.",
+                "entailment_prediction": 0,
+                "explanation": "The article summary specifically mentions immunity related to varicella (chickenpox) but does not mention measles (sarampi\u00f3n). Therefore, this claim cannot be fully entailed by the article summary."
+            },
+            {
+                "claim": "Una persona que se ha inmunizado contra el sarampi\u00f3n est\u00e1 inmune a contraerlo de nuevo.",
+                "entailment_prediction": 0,
+                "explanation": "The article summary discusses immunity related to vaccination against varicella (chickenpox) but does not mention measles (sarampi\u00f3n). Therefore, this claim cannot be fully entailed by the article summary."
+            }
+        ],
+        "56": [
+            {
+                "claim": "Un alimento contiene 13 gramos de grasa.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that a food item has 13 grams of fat, which directly supports this claim."
+            },
+            {
+                "claim": "13 gramos de grasa representa el 20% del valor diario recomendado.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly mentions that 13 grams of fat is 20% of the daily recommended value, confirming this claim."
+            },
+            {
+                "claim": "El 20% equivale a un quinto de la cantidad total de grasa recomendada.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that 20% is equivalent to one-fifth of the total daily recommended fat, which directly supports this claim."
+            },
+            {
+                "claim": "La cantidad total de grasa recomendada es para una persona que consume una dieta est\u00e1ndar.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note specifies that the daily recommended fat amount is for a person consuming 2,000 calories per day, which is considered a standard diet."
+            }
+        ],
+        "57": [
+            {
+                "claim": "La reparaci\u00f3n laparosc\u00f3pica implica hacer 3 a 5 peque\u00f1as incisiones en el abdomen.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note explicitly states that the surgeon will make 3 to 5 small incisions in the abdomen during the laparoscopic repair."
+            },
+            {
+                "claim": "El cirujano utilizar\u00e1 un laparoscopio durante el procedimiento.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that a laparoscope will be introduced through one of the incisions, indicating that the surgeon will use a laparoscope during the procedure."
+            },
+            {
+                "claim": "El laparoscopio es un tubo delgado y hueco.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note describes the laparoscope as a 'tubo delgado y hueco,' confirming that it is a thin and hollow tube."
+            },
+            {
+                "claim": "El laparoscopio est\u00e1 equipado con una c\u00e1mara min\u00fascula.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that the laparoscope has a 'c\u00e1mara diminuta en el extremo,' which means it is equipped with a tiny camera."
+            }
+        ],
+        "58": [
+            {
+                "claim": "Estudios recientes no respaldan la idea de que ciertos medicamentos son ineficaces en ni\u00f1os con tic.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that recent studies do not support the idea that these medications are ineffective in children with tics, suggesting that the claim is fully entailed."
+            },
+            {
+                "claim": "Los estudios sugieren que estos medicamentos pueden usarse en ni\u00f1os con tic.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that studies suggest these medications can be used in children with tics, which directly supports the claim."
+            },
+            {
+                "claim": "Los ni\u00f1os con tic a menudo tambi\u00e9n sufren trastorno por d\u00e9ficit de atenci\u00f3n.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary indicates that attention deficit disorder often occurs in the same group of children with tics, implying that children with tics often also have attention deficit disorder."
+            },
+            {
+                "claim": "El trastorno por d\u00e9ficit de atenci\u00f3n ocurre con frecuencia en el mismo grupo de ni\u00f1os que tienen tic.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that attention deficit disorder often occurs in the same group of children with tics, directly supporting the claim."
+            }
+        ],
+        "59": [
+            {
+                "claim": "Los s\u00edntomas son m\u00e1s probables si la piel se ha cortado o roto.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that symptoms are more likely to occur if the skin has been cut or rubbed, which aligns with the claim that symptoms are more probable if the skin is cut or broken."
+            },
+            {
+                "claim": "Las cortaduras o rupturas en la piel permiten que el germen del MRSA entre en el cuerpo.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that cuts or abrasions in the skin provide a route for the MRSA bacteria to 'enter', which supports the claim that cuts or breaks in the skin allow the MRSA germ to enter the body."
+            },
+            {
+                "claim": "Los s\u00edntomas son m\u00e1s probables en \u00e1reas con m\u00e1s pelo corporal.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states that symptoms are more likely in areas where there is more body hair, which directly supports the claim."
+            },
+            {
+                "claim": "Los fol\u00edculos pilosos en \u00e1reas con m\u00e1s pelo corporal pueden contribuir a la probabilidad de s\u00edntomas.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note indicates that symptoms are more likely in areas with more body hair due to hair follicles, which supports the claim that hair follicles in such areas can contribute to the likelihood of symptoms."
+            }
+        ],
+        "6": [
+            {
+                "claim": "El m\u00e9dico puede realizar otros ex\u00e1menes para verificar la hipertensi\u00f3n arterial.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly mentions that the doctor can perform other exams to check for hypertension."
+            },
+            {
+                "claim": "El m\u00e9dico puede realizar otros ex\u00e1menes para verificar la enfermedad cardiovascular.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions 'cardiopat\u00eda', which can be translated to 'heart disease' or 'cardiovascular disease', indicating that the doctor can perform exams for this condition."
+            },
+            {
+                "claim": "El m\u00e9dico puede realizar otros ex\u00e1menes para verificar la diabetes.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states that the doctor can perform exams to check for diabetes."
+            },
+            {
+                "claim": "El m\u00e9dico puede realizar otros ex\u00e1menes para verificar el colesterol alto.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly mentions that the doctor can perform exams to check for high cholesterol."
+            },
+            {
+                "claim": "El m\u00e9dico puede realizar otros ex\u00e1menes para verificar otros factores de riesgo y causas de TIA o accidente cerebrovascular.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that the doctor can perform exams for other causes and risk factors for TIA or stroke, which matches the claim."
+            }
+        ],
+        "60": [
+            {
+                "claim": "Algunos pacientes desarrollan insuficiencia card\u00edaca.",
+                "entailment_prediction": 0,
+                "explanation": "The article summary does not mention anything about patients developing heart failure. It only discusses stress relief through support groups."
+            },
+            {
+                "claim": "Algunos pacientes desarrollan presi\u00f3n alta en los vasos sangu\u00edneos de los pulmones.",
+                "entailment_prediction": 0,
+                "explanation": "The article summary does not mention anything about patients developing high blood pressure in the pulmonary vessels. It only discusses stress relief through support groups."
+            },
+            {
+                "claim": "Las posibilidades de recuperaci\u00f3n de los pacientes dependen de la causa de la enfermedad.",
+                "entailment_prediction": 0,
+                "explanation": "The article summary does not provide any information about the recovery chances of patients or how they depend on the cause of the disease. It only discusses stress relief through support groups."
+            },
+            {
+                "claim": "Las posibilidades de empeoramiento de los pacientes dependen de cu\u00e1n grave fue la enfermedad al diagnosticarse.",
+                "entailment_prediction": 0,
+                "explanation": "The article summary does not provide any information about the worsening of patients' conditions or how it depends on the severity at diagnosis. It only discusses stress relief through support groups."
+            }
+        ],
+        "61": [
+            {
+                "claim": "Un ni\u00f1o peque\u00f1o que rechaza el peso en un brazo o pierna despu\u00e9s de un accidente debe ser evaluado.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that if a child refuses to bear weight on an arm or leg after an accident, it should be assumed that the child has a bone fracture and medical help should be sought. This implies that the child should be evaluated."
+            },
+            {
+                "claim": "Si el ni\u00f1o no se mueve el brazo o pierna, se debe considerar la posibilidad de una fractura.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that if a child does not move the arm or leg after an accident, it should be assumed that the child has a bone fracture. This directly supports the claim."
+            },
+            {
+                "claim": "La presencia de una deformidad visible en el brazo o pierna indica una posible fractura.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that if a deformity can be clearly seen, it should be assumed that the child has a bone fracture. This indicates that a visible deformity suggests a possible fracture."
+            },
+            {
+                "claim": "Se debe pedir ayuda m\u00e9dica si se sospecha que el ni\u00f1o tiene una fractura.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary advises to get medical help if a bone fracture is assumed, which aligns with the claim that medical help should be sought if a fracture is suspected."
+            }
+        ],
+        "62": [
+            {
+                "claim": "La cantidad de l\u00edquido que consume se limitar\u00e1 a la cantidad de orina que pueda producir.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states that the amount of liquid intake, including soups, will be limited to the amount of urine the patient can produce."
+            },
+            {
+                "claim": "Se le indicar\u00e1 qu\u00e9 puede y no puede comer.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that the patient will be told what they can or cannot eat."
+            },
+            {
+                "claim": "La dieta se ajustar\u00e1 para reducir la acumulaci\u00f3n de toxinas.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note implies that dietary instructions will be given to reduce toxin accumulation, which suggests that the diet will be adjusted for this purpose."
+            },
+            {
+                "claim": "Las toxinas que se acumulan son aquellas que los ri\u00f1ones eliminar\u00edan normalmente.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states that the dietary restrictions aim to reduce the accumulation of toxins that the kidneys would normally eliminate."
+            }
+        ],
+        "63": [
+            {
+                "claim": "La prueba se utiliza com\u00fanmente para ayudar a diagnosticar sarcoidosis.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that the most common use of the test is to help diagnose sarcoidosis."
+            },
+            {
+                "claim": "La prueba de ACE se utiliza para monitorear sarcoidosis.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that the test is used to monitor sarcoidosis by checking ACE levels periodically."
+            },
+            {
+                "claim": "Las personas con sarcoidosis pueden someterse a la prueba de ACE regularmente.",
+                "entailment_prediction": 1,
+                "explanation": "The note states that people with sarcoidosis may have their ACE levels checked periodically, which implies regular testing."
+            },
+            {
+                "claim": "La prueba de ACE ayuda a evaluar la gravedad de la sarcoidosis.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states that ACE levels are used to evaluate the severity of the disease."
+            },
+            {
+                "claim": "La prueba de ACE se utiliza para ver c\u00f3mo est\u00e1 funcionando la enfermedad en personas con sarcoidosis.",
+                "entailment_prediction": 0,
+                "explanation": "The note indicates that the test is used to see how well the treatment is working, not how the disease itself is functioning."
+            }
+        ],
+        "64": [
+            {
+                "claim": "La conjuntivitis al\u00e9rgica ocurre cuando la conjuntiva se inflama o hincha.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that the conjunctiva swells or becomes inflamed due to an allergic reaction, which aligns with the definition of allergic conjunctivitis."
+            },
+            {
+                "claim": "La conjuntiva es la capa transparente de tejido que recubre las pesta\u00f1as y la parte blanca del ojo.",
+                "entailment_prediction": 0,
+                "explanation": "The article summary describes the conjunctiva as the transparent layer of tissue covering the eyelids and the white part of the eye, but it does not mention the eyelashes."
+            },
+            {
+                "claim": "La inflamaci\u00f3n de la conjuntiva es causada por una reacci\u00f3n al polen.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that the conjunctiva swells or becomes inflamed due to a reaction to pollen, among other allergens."
+            },
+            {
+                "claim": "La inflamaci\u00f3n de la conjuntiva tambi\u00e9n puede ser causada por el pelo de los animales dom\u00e9sticos.",
+                "entailment_prediction": 0,
+                "explanation": "The article summary lists pollen, dander, mold, and other substances as causes of conjunctival inflammation, but it does not specifically mention pet hair."
+            }
+        ],
+        "65": [
+            {
+                "claim": "Las instrucciones de atenci\u00f3n m\u00e9dica avanzada permiten a los pacientes expresar sus preferencias sobre el cuidado que desean recibir.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that the declaration of advance directives allows patients to give instructions about their care preferences. This directly supports the claim that advance medical instructions allow patients to express their care preferences."
+            },
+            {
+                "claim": "Estas instrucciones son relevantes en caso de que los pacientes desarrollen una enfermedad o un traumatismo que ponga en peligro su vida.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that the advance directives are for situations where patients have a potentially life-threatening illness or injury. This directly supports the claim that these instructions are relevant in such cases."
+            },
+            {
+                "claim": "Los pacientes pueden utilizar estas instrucciones si no pueden expresar sus preferencias en ese momento.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note specifies that the advance directives are for situations where patients cannot express their preferences. This directly supports the claim that patients can use these instructions if they are unable to express their preferences at the time."
+            }
+        ],
+        "66": [
+            {
+                "claim": "Las personas con esta afecci\u00f3n tienen un ventr\u00edculo izquierdo grande.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that people with this condition generally have a large left ventricle."
+            },
+            {
+                "claim": "El ventr\u00edculo izquierdo es la c\u00e1mara que bombea sangre hacia el cuerpo.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that the left ventricle is the chamber of the heart that supplies blood to the body."
+            },
+            {
+                "claim": "Las personas con esta afecci\u00f3n tienen un ventr\u00edculo derecho peque\u00f1o.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that people with this condition generally have a small right ventricle."
+            },
+            {
+                "claim": "El ventr\u00edculo derecho es la c\u00e1mara que bombea sangre hacia los pulmones.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that the right ventricle is the chamber that supplies blood to the lungs."
+            }
+        ],
+        "67": [
+            {
+                "claim": "En enero de 2001, la FDA propuso que los desarrolladores de alimentos gen\u00e9ticamente modificados sometan informaci\u00f3n cient\u00edfica y de seguridad.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that in January 2001, the FDA's Center for Food Safety and Applied Nutrition proposed that developers of genetically processed foods submit scientific and safety information to the FDA. This directly supports the claim."
+            },
+            {
+                "claim": "La informaci\u00f3n cient\u00edfica y de seguridad debe ser sometida a la FDA al menos 120 d\u00edas antes de que el alimento se ponga en venta.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note specifies that the scientific and safety information should be submitted to the FDA at least 120 days before the product is released to the market. This matches the claim exactly."
+            }
+        ],
+        "68": [
+            {
+                "claim": "El m\u00e9dico informar\u00e1 si es necesario dejar de tomar alg\u00fan medicamento antes de la prueba.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that the doctor will inform the patient if it is necessary to stop taking any medication that might interfere with the exam. This directly supports the claim that the doctor will inform the patient about stopping medications before the test."
+            },
+            {
+                "claim": "Es importante que el m\u00e9dico conozca todos los medicamentos que el paciente est\u00e1 tomando.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note advises the patient to inform the doctor about all medications they are taking, both prescribed and over-the-counter. This implies the importance of the doctor knowing all medications the patient is taking."
+            },
+            {
+                "claim": "Los medicamentos pueden ser tanto de receta como de venta libre.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly mentions that the patient should inform the doctor about all medications, including both prescribed and over-the-counter ones. This directly supports the claim."
+            }
+        ],
+        "69": [
+            {
+                "claim": "El br\u00f3coli proporciona una fuente de calcio en la dieta.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly mentions that broccoli provides a source of calcium in the diet."
+            },
+            {
+                "claim": "Las hojas verdes cocidas son una fuente de calcio en la dieta.",
+                "entailment_prediction": 0,
+                "explanation": "The article summary mentions 'verduras cocidas' which can be interpreted as cooked vegetables, but it does not specifically mention 'hojas verdes cocidas' as a source of calcium."
+            },
+            {
+                "claim": "El salm\u00f3n enlatado (con los huesos) ofrece calcio en la dieta.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that canned salmon with bones provides a source of calcium in the diet."
+            },
+            {
+                "claim": "Es dif\u00edcil que los ni\u00f1os consuman cantidades suficientes de br\u00f3coli.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that it is often difficult for children to consume adequate amounts of broccoli."
+            },
+            {
+                "claim": "Es dif\u00edcil que los ni\u00f1os consuman cantidades suficientes de hojas verdes cocidas.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions 'verduras cocidas' and states it is often difficult for children to consume adequate amounts, which can be interpreted to include cooked green leaves."
+            },
+            {
+                "claim": "Es dif\u00edcil que los ni\u00f1os consuman cantidades suficientes de salm\u00f3n enlatado.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that it is often difficult for children to consume adequate amounts of canned salmon with bones."
+            }
+        ],
+        "7": [
+            {
+                "claim": "El sibilante es un sonido anormal.  ",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica describe el sonido como 'un sonido respiratorio anormal', lo que coincide con la afirmaci\u00f3n de que el sibilante es un sonido anormal."
+            },
+            {
+                "claim": "El sibilante es un sonido agudo.  ",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica describe el sonido como 'chill\u00f3n', lo cual puede interpretarse como agudo, por lo tanto, la afirmaci\u00f3n puede ser considerada como entera."
+            },
+            {
+                "claim": "El sibilante es un sonido musical.  ",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica describe el sonido como 'musical', lo que coincide con la afirmaci\u00f3n de que el sibilante es un sonido musical."
+            },
+            {
+                "claim": "El sibilante se produce por un bloqueo en la garganta.  ",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica menciona que el sonido es causado por un bloqueo en la garganta o la laringe, lo que coincide con la afirmaci\u00f3n de que se produce por un bloqueo en la garganta."
+            },
+            {
+                "claim": "El sibilante se produce por un bloqueo en la laringe.  ",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica menciona que el sonido es causado por un bloqueo en la garganta o la laringe, lo que coincide con la afirmaci\u00f3n de que se produce por un bloqueo en la laringe."
+            },
+            {
+                "claim": "El sibilante se oye usualmente al respirar profundamente.",
+                "entailment_prediction": 0,
+                "explanation": "La nota cl\u00ednica indica que el sonido generalmente se escucha al inhalar, pero no especifica que sea al respirar profundamente. Por lo tanto, la afirmaci\u00f3n no puede ser completamente entera."
+            }
+        ],
+        "70": [
+            {
+                "claim": "La transposici\u00f3n de las grandes arterias es una enfermedad del coraz\u00f3n.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary describes a defect involving the heart, specifically mentioning the aorta and pulmonary artery, which are major heart vessels. Therefore, it can be inferred that the condition is related to the heart."
+            },
+            {
+                "claim": "La transposici\u00f3n de las grandes arterias es una condici\u00f3n cong\u00e9nita.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that the defect is congenital, meaning it occurs from birth."
+            },
+            {
+                "claim": "En la transposici\u00f3n de las grandes arterias, la aorta y la arteria pulmonar se intercambian.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary clearly states that in this condition, the aorta and pulmonary artery are transposed, meaning they are exchanged."
+            },
+            {
+                "claim": "La aorta transporta sangre hacia afuera del coraz\u00f3n.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that the aorta is one of the main vessels that carry blood away from the heart, confirming this claim."
+            },
+            {
+                "claim": "La arteria pulmonar tambi\u00e9n transporta sangre hacia afuera del coraz\u00f3n.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that the pulmonary artery is one of the main vessels that carry blood away from the heart, supporting this claim."
+            }
+        ],
+        "71": [
+            {
+                "claim": "El m\u00e9dico realizar\u00e1 un examen para buscar s\u00edntomas de intoxicaci\u00f3n por comida.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that the doctor will examine for signs of food poisoning, which implies that an examination will be conducted to look for symptoms."
+            },
+            {
+                "claim": "Se buscar\u00e1n s\u00edntomas como dolor en el est\u00f3mago.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly mentions that the doctor will look for signs of food poisoning, including stomach pain."
+            },
+            {
+                "claim": "Tambi\u00e9n se evaluar\u00e1n s\u00edntomas de deshidrataci\u00f3n.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that the doctor will look for signs of dehydration, which means symptoms of dehydration will be evaluated."
+            },
+            {
+                "claim": "La deshidrataci\u00f3n se define como la falta de agua y l\u00edquidos en el cuerpo.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary provides a definition of dehydration as the body not having as much water and fluids as it should, which matches the claim."
+            }
+        ],
+        "72": [
+            {
+                "claim": "Un dispositivo implantable de cardioversi\u00f3n-defibrilaci\u00f3n (ICD) se puede colocar en el muro del pecho.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that an implantable cardioverter-defibrillator (ICD) can be implanted in the chest wall, which is synonymous with 'muro del pecho'. Therefore, this claim is fully entailed by the note."
+            },
+            {
+                "claim": "El ICD es para personas con un riesgo elevado de desarrollar un trastorno del ritmo card\u00edaco grave.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that the ICD is for people at risk of a serious cardiac rhythm disorder, which implies an elevated risk. Thus, this claim is fully entailed by the note."
+            },
+            {
+                "claim": "El dispositivo puede ayudar a prevenir el trastorno del ritmo card\u00edaco grave.",
+                "entailment_prediction": 0,
+                "explanation": "The clinical note specifies that the ICD helps prevent sudden cardiac death by delivering an electric shock during ventricular fibrillation, which is a serious cardiac rhythm disorder. However, it does not explicitly state that it prevents the disorder itself, only its fatal consequence. Therefore, this claim is not fully entailed by the note."
+            }
+        ],
+        "73": [
+            {
+                "claim": "Una mayor comprensi\u00f3n de las complejidades de la funci\u00f3n sexual femenina ha sido alcanzada.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions 'un mayor respeto por las complejidades del funcionamiento sexual femenino', which implies an increased understanding of these complexities."
+            },
+            {
+                "claim": "Se ha concluido que una genitalidad femenina deficiente no es inherentemente mejor que una genitalidad masculina deficiente.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that 'los genitales femeninos insuficientes pueden no ser intr\u00ednsecamente mejores que los genitales masculinos insuficientes', which directly supports this claim."
+            },
+            {
+                "claim": "La reconstrucci\u00f3n de la genitalidad femenina es considerada \"m\u00e1s f\u00e1cil.\"",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that even if the reconstruction is 'm\u00e1s f\u00e1cil', it does not imply that it is considered easier overall, only that it might be perceived as such in comparison."
+            },
+            {
+                "claim": "Existen otros factores que pueden influir en la funci\u00f3n sexual femenina.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that 'otros factores pueden ser m\u00e1s importantes en la satisfacci\u00f3n del sexo que los genitales externos funcionales', which implies that other factors can influence sexual function."
+            }
+        ],
+        "74": [
+            {
+                "claim": "El usuario se ausenta m\u00e1s de la escuela o el trabajo.",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica menciona que el consumidor falta cada vez m\u00e1s al colegio o al trabajo, lo cual coincide directamente con el contenido del reclamo."
+            },
+            {
+                "claim": "El usuario se preocupa por perder la fuente de drogas.",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica indica que al consumidor le preocupa perder la fuente de droga, lo cual coincide directamente con el reclamo."
+            },
+            {
+                "claim": "El usuario utiliza las drogas para \"arreglar\" sentimientos negativos.",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica menciona que el consumidor utiliza las drogas para \"remediar\" sentimientos negativos, lo cual es sin\u00f3nimo de \"arreglar\" en este contexto."
+            },
+            {
+                "claim": "El usuario comienza a alejarse de amigos y familiares.",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica indica que el consumidor empieza a apartarse de los amigos y la familia, lo cual coincide directamente con el reclamo."
+            },
+            {
+                "claim": "El usuario quiz\u00e1s ha cambiado.",
+                "entailment_prediction": 0,
+                "explanation": "La nota cl\u00ednica no proporciona informaci\u00f3n espec\u00edfica sobre un cambio general en el usuario, solo sobre comportamientos relacionados con el consumo de drogas."
+            }
+        ],
+        "75": [
+            {
+                "claim": "La presi\u00f3n intracranial puede aumentar debido a un aumento en la presi\u00f3n del l\u00edquido cefalorraqu\u00eddeo.",
+                "entailment_prediction": 1,
+                "explanation": "El art\u00edculo menciona que el aumento en la presi\u00f3n intracraneal puede deberse a un aumento en la presi\u00f3n del l\u00edquido cefalorraqu\u00eddeo."
+            },
+            {
+                "claim": "La presi\u00f3n intracranial puede aumentar por un aumento de la presi\u00f3n dentro del tejido cerebral.",
+                "entailment_prediction": 1,
+                "explanation": "El art\u00edculo menciona que el aumento en la presi\u00f3n intracraneal puede deberse a un aumento en la presi\u00f3n dentro de la materia cerebral."
+            },
+            {
+                "claim": "Un aumento de la presi\u00f3n dentro del tejido cerebral puede ser causado por una masa, como un tumor.",
+                "entailment_prediction": 1,
+                "explanation": "El art\u00edculo menciona que un aumento en la presi\u00f3n dentro de la materia cerebral puede ser causado por una masa, como un tumor."
+            },
+            {
+                "claim": "El sangrado en el cerebro puede causar un aumento de la presi\u00f3n intracranial.",
+                "entailment_prediction": 1,
+                "explanation": "El art\u00edculo menciona que el aumento en la presi\u00f3n intracraneal puede ser causado por sangrado dentro del cerebro."
+            },
+            {
+                "claim": "El fluido alrededor del cerebro puede contribuir al aumento de la presi\u00f3n intracranial.",
+                "entailment_prediction": 1,
+                "explanation": "El art\u00edculo menciona que el aumento en la presi\u00f3n intracraneal puede ser causado por l\u00edquido alrededor del cerebro."
+            }
+        ],
+        "76": [
+            {
+                "claim": "Algunas sustancias nocivas para personas o animales pueden permitirse en cantidades reducidas.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that some substances considered harmful may be allowed at a reduced level, specifically at one hundredth of the dangerous amount. This supports the claim that harmful substances can be permitted in reduced quantities."
+            },
+            {
+                "claim": "La cantidad permitida de sustancias nocivas es 1/100 parte de la cantidad considerada nociva.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly mentions that harmful substances may be admitted only at the level of one hundredth of the amount considered dangerous. This directly supports the claim."
+            },
+            {
+                "claim": "Las personas con alergias o intolerancias alimentarias deben verificar siempre la lista de ingredientes.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary advises people with allergies or food intolerances to always check the ingredient list for their own protection. This directly supports the claim."
+            }
+        ],
+        "77": [
+            {
+                "claim": "No consumir leche en la dieta puede causar una deficiencia de calcio.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that not obtaining milk in the diet can lead to a calcium deficiency."
+            },
+            {
+                "claim": "No consumir leche en la dieta puede causar una deficiencia de vitamina D.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that not obtaining milk in the diet can lead to a vitamin D deficiency."
+            },
+            {
+                "claim": "No consumir leche en la dieta puede causar una deficiencia de riboflavina.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that not obtaining milk in the diet can lead to a riboflavin deficiency."
+            },
+            {
+                "claim": "No consumir leche en la dieta puede causar una deficiencia de prote\u00edna.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that not obtaining milk in the diet can lead to a protein deficiency."
+            },
+            {
+                "claim": "Es posible que necesite encontrar nuevas formas de obtener calcio en su dieta.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary suggests that one may need to find new ways to obtain calcium in their diet."
+            },
+            {
+                "claim": "La necesidad de calcio en la dieta depende de la edad y el sexo.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that the need for calcium depends on age and sex."
+            },
+            {
+                "claim": "Se necesita 1,0 (cantidad no especificada) de calcio dependiendo de la edad y el sexo.",
+                "entailment_prediction": 0,
+                "explanation": "The article summary specifies that 1,000 to 1,500 mg of calcium is needed depending on age and sex, but the claim is vague and does not specify the amount clearly."
+            }
+        ],
+        "78": [
+            {
+                "claim": "Es dif\u00edcil determinar la cantidad de exposici\u00f3n a la radiaci\u00f3n en los accidentes nucleares.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that it is difficult to determine the amount of radiation exposure due to nuclear accidents."
+            },
+            {
+                "claim": "Los mejores signos de la gravedad de la exposici\u00f3n a la radiaci\u00f3n son el tiempo entre la exposici\u00f3n y la aparici\u00f3n de s\u00edntomas.",
+                "entailment_prediction": 0,
+                "explanation": "The article summary mentions that one of the best indicators of the severity of radiation exposure is the time elapsed between exposure and the onset of symptoms, but it does not state that this is the only or the best sign. Therefore, the claim is partially entailed but not fully."
+            },
+            {
+                "claim": "La gravedad de los s\u00edntomas es un signo de la gravedad de la exposici\u00f3n a la radiaci\u00f3n.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that the severity of symptoms is one of the best indicators of the severity of radiation exposure."
+            }
+        ],
+        "79": [
+            {
+                "claim": "Es m\u00e1s f\u00e1cil para un cirujano crear genitales femeninos que masculinos.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states that it is technically easier for a surgeon to create female genitalia than male genitalia."
+            },
+            {
+                "claim": "A menudo se recomienda tratar al ni\u00f1o como femenino en algunos casos.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that in some cases, it is recommended to treat the child as female, even if the child is genetically male."
+            },
+            {
+                "claim": "La decisi\u00f3n de tratar al ni\u00f1o como femenino puede basarse en la facilidad t\u00e9cnica del procedimiento.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note suggests that the decision to treat the child as female is often based on the technical ease of creating female genitalia."
+            },
+            {
+                "claim": "El ni\u00f1o en cuesti\u00f3n es mencionado en el contexto de un tratamiento m\u00e9dico.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note discusses the treatment of a child in the context of surgical decisions, implying a medical treatment context."
+            }
+        ],
+        "8": [
+            {
+                "claim": "Hay sangre en el papel higi\u00e9nico.  ",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note asks if there is blood only on the toilet paper, which implies that there is indeed blood on the toilet paper. Therefore, this claim can be fully entailed by the clinical note."
+            },
+            {
+                "claim": "La sangre se encuentra solamente en el papel higi\u00e9nico.",
+                "entailment_prediction": 0,
+                "explanation": "The clinical note asks if the blood is only on the toilet paper, which suggests that the presence of blood elsewhere is being considered. However, it does not confirm that the blood is exclusively on the toilet paper. Therefore, this claim cannot be fully entailed by the clinical note."
+            }
+        ],
+        "80": [
+            {
+                "claim": "La deficiencia de yodo es m\u00e1s com\u00fan en mujeres que en hombres.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that iodine deficiency affects women more frequently than men, which directly supports this claim."
+            },
+            {
+                "claim": "La deficiencia de yodo es m\u00e1s frecuente en mujeres embarazadas.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that iodine deficiency is more common in pregnant women, which directly supports this claim."
+            },
+            {
+                "claim": "La deficiencia de yodo es m\u00e1s frecuente en ni\u00f1os mayores.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that iodine deficiency is more common in older children, which directly supports this claim."
+            },
+            {
+                "claim": "Obtener suficiente yodo en la dieta puede prevenir el cretinismo.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that sufficient iodine intake in the diet can prevent a form of mental and physical retardation called cretinism, which directly supports this claim."
+            },
+            {
+                "claim": "El cretinismo es un tipo de retraso f\u00edsico y mental.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary describes cretinism as a form of mental and physical retardation, which directly supports this claim."
+            },
+            {
+                "claim": "El cretinismo es muy raro.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that cretinism is a very rare condition in the United States, which directly supports this claim."
+            }
+        ],
+        "81": [
+            {
+                "claim": "Las personas pueden sufrir una hernia de disco de manera s\u00fabita.",
+                "entailment_prediction": 1,
+                "explanation": "El resumen menciona 'una hernia de disco repentina', lo que implica que puede ocurrir de manera s\u00fabita."
+            },
+            {
+                "claim": "La hernia de disco s\u00fabita puede ser causada por un accidente.",
+                "entailment_prediction": 1,
+                "explanation": "El resumen menciona que una hernia de disco repentina puede ser causada por una lesi\u00f3n, como un accidente automovil\u00edstico."
+            },
+            {
+                "claim": "Un accidente de veh\u00edculo a motor puede causar una hernia de disco s\u00fabita.",
+                "entailment_prediction": 1,
+                "explanation": "El resumen menciona espec\u00edficamente que un accidente automovil\u00edstico puede causar una hernia de disco repentina."
+            },
+            {
+                "claim": "El levantamiento de un objeto muy pesado puede causar una hernia de disco s\u00fabita.",
+                "entailment_prediction": 1,
+                "explanation": "El resumen menciona que levantar un objeto muy pesado puede causar una hernia de disco repentina."
+            },
+            {
+                "claim": "Las personas con hernia de disco s\u00fabita recibir\u00e1n medicamentos antiinflamatorios no esteroideos (AINE).",
+                "entailment_prediction": 1,
+                "explanation": "El resumen indica que a las personas con una hernia de disco repentina se les administrar\u00e1n AINE si tienen dolor intenso en la espalda y la pierna."
+            },
+            {
+                "claim": "Las personas con hernia de disco s\u00fabita recibir\u00e1n analg\u00e9sicos.",
+                "entailment_prediction": 1,
+                "explanation": "El resumen menciona que a las personas con una hernia de disco repentina se les administrar\u00e1n analg\u00e9sicos narc\u00f3ticos si tienen dolor intenso."
+            }
+        ],
+        "82": [
+            {
+                "claim": "Existe un amplio rango para lo que se considera \"normal\" en el peso de los ni\u00f1os.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that there is a wide range for what is considered 'normal', which directly supports the claim."
+            },
+            {
+                "claim": "Su hijo se encuentra en el percentil 15 de peso.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions 'porque su hijo est\u00e9 en el percentil 15 para peso', which directly supports the claim."
+            },
+            {
+                "claim": "Estar en el percentil 15 significa que 85 de cada 100 ni\u00f1os pesan m\u00e1s que su hijo.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explains that being in the 15th percentile means that 85 out of 100 children weigh more, which directly supports the claim."
+            },
+            {
+                "claim": "Estar en el percentil 15 casi nunca significa que el ni\u00f1o est\u00e1 enfermo.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that being in the 15th percentile rarely means the child is sick, which directly supports the claim."
+            }
+        ],
+        "83": [
+            {
+                "claim": "The patient underwent congenital heart surgery.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary lists various congenital heart surgeries, indicating that the patient underwent congenital heart surgery."
+            },
+            {
+                "claim": "The patient had a patent ductus arteriosus ligation.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly mentions 'Ligadura del conducto arterial persistente', which translates to 'patent ductus arteriosus ligation'."
+            },
+            {
+                "claim": "The patient had a hypoplastic left heart repair.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary includes 'Reparaci\u00f3n de la hipoplasia del coraz\u00f3n izquierdo', which translates to 'hypoplastic left heart repair'."
+            },
+            {
+                "claim": "The patient had a repair of Tetralogy of Fallot.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions 'Reparaci\u00f3n de la tetralog\u00eda de Fallot', which translates to 'repair of Tetralogy of Fallot'."
+            },
+            {
+                "claim": "The patient had a repair of aortic coarctation.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary includes 'Reparaci\u00f3n de la coartaci\u00f3n de la aorta', which translates to 'repair of aortic coarctation'."
+            },
+            {
+                "claim": "The patient had additional repairs performed.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary lists multiple types of repairs, suggesting that the patient had additional repairs beyond those explicitly mentioned in the claims."
+            }
+        ],
+        "84": [
+            {
+                "claim": "El examen se realiza durante una hospitalizaci\u00f3n.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that the test is conducted during a hospital stay, which is synonymous with hospitalization."
+            },
+            {
+                "claim": "El examen determina la diferencia entre una persona que produce mucha orina debido a una ingesta excesiva de l\u00edquidos y una persona que no lo hace.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly mentions that the test establishes the difference between someone producing urine due to drinking a lot of liquid and someone who is not, which matches the claim."
+            },
+            {
+                "claim": "Si una persona tiene diabetes ins\u00edpida central, seguir\u00e1 produciendo una gran cantidad de orina.",
+                "entailment_prediction": 0,
+                "explanation": "The clinical note does not mention diabetes insipidus central or any specific conditions related to urine production. Therefore, this claim cannot be fully entailed by the note."
+            }
+        ],
+        "85": [
+            {
+                "claim": "Muchos alimentos refinados carecen de vitaminas del complejo B.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that many refined foods, such as white flour, sugar, and white rice, lack B-complex vitamins unless labeled as 'enriched'."
+            },
+            {
+                "claim": "Muchos alimentos refinados carecen de otros nutrientes esenciales.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that refined foods lack B-complex vitamins and other important nutrients unless labeled as 'enriched'."
+            },
+            {
+                "claim": "Los alimentos refinados incluyen la harina blanca, el az\u00facar y el arroz blanco.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary specifically lists white flour, sugar, and white rice as examples of refined foods."
+            },
+            {
+                "claim": "Los alimentos refinados deben estar marcados como \"enriquecidos\" para contener nutrientes esenciales.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that refined foods lack essential nutrients unless they are labeled as 'enriched'."
+            },
+            {
+                "claim": "Es m\u00e1s saludable obtener carbohidratos de fuentes no refinadas.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary suggests that it is healthier to obtain carbohydrates, vitamins, and other nutrients in their most natural form, such as from fruits instead of table sugar."
+            }
+        ],
+        "86": [
+            {
+                "claim": "La gl\u00e1ndula pituitaria est\u00e1 cerca del cerebro.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that the pituitary gland (hip\u00f3fisis) is near the brain, which directly supports this claim."
+            },
+            {
+                "claim": "La gl\u00e1ndula pituitaria produce demasiado de la hormona ACTH.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that the pituitary gland produces too much corticotropin hormone, which is another name for ACTH (adrenocorticotropic hormone)."
+            },
+            {
+                "claim": "La producci\u00f3n excesiva de ACTH se llama enfermedad de Cushing.",
+                "entailment_prediction": 1,
+                "explanation": "The note states that the excessive production of corticotropin hormone (ACTH) is called Cushing's disease."
+            },
+            {
+                "claim": "La enfermedad de Cushing puede ocurrir debido a un crecimiento excesivo de la gl\u00e1ndula pituitaria.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly mentions that Cushing's disease can occur with excessive growth of the pituitary gland."
+            },
+            {
+                "claim": "La enfermedad de Cushing puede ser causada por un tumor en la gl\u00e1ndula pituitaria.",
+                "entailment_prediction": 1,
+                "explanation": "The note states that Cushing's disease can occur due to a tumor in the pituitary gland."
+            },
+            {
+                "claim": "La enfermedad de Cushing puede ser causada por un tumor.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note indicates that Cushing's disease can be caused by a tumor in the pituitary gland or elsewhere in the body, such as the pancreas, lung, or thyroid."
+            }
+        ],
+        "87": [
+            {
+                "claim": "En el pasado, se asignaba un g\u00e9nero lo m\u00e1s pronto posible.",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica traducida menciona que la opini\u00f3n prevaleciente era asignar un sexo lo m\u00e1s r\u00e1pido posible, lo que respalda esta afirmaci\u00f3n."
+            },
+            {
+                "claim": "La asignaci\u00f3n de g\u00e9nero se basaba frecuentemente en los genitales externos.",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica traducida indica que la asignaci\u00f3n de sexo a menudo se basaba en los genitales externos, lo que respalda esta afirmaci\u00f3n."
+            },
+            {
+                "claim": "El g\u00e9nero cromos\u00f3mico no era el principal criterio para la asignaci\u00f3n de g\u00e9nero.",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica traducida menciona que la asignaci\u00f3n de sexo se realizaba a menudo sobre la base de los genitales externos en lugar del sexo de los cromosomas, lo que implica que el g\u00e9nero cromos\u00f3mico no era el principal criterio."
+            },
+            {
+                "claim": "Se aconsejaba a los padres que no tuvieran dudas sobre el g\u00e9nero de sus hijos.",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica traducida indica que se instru\u00eda a los padres para no tener ambig\u00fcedad en sus mentes en cuanto al sexo del ni\u00f1o, lo que respalda esta afirmaci\u00f3n."
+            }
+        ],
+        "88": [
+            {
+                "claim": "El usuario experimenta preocupaci\u00f3n diaria.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions 'preocupaci\u00f3n diaria' which directly matches the claim."
+            },
+            {
+                "claim": "El usuario pierde cualquier motivaci\u00f3n.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that the consumer loses any motivation, which fully supports the claim."
+            },
+            {
+                "claim": "Al usuario no le importa la escuela.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that the consumer does not care about school, which directly supports the claim."
+            },
+            {
+                "claim": "Al usuario no le importa el trabajo.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that the consumer does not care about work, which fully supports the claim."
+            },
+            {
+                "claim": "El usuario presenta cambios obvios en el comportamiento.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions 'cambios de comportamiento obvios', which directly supports the claim."
+            },
+            {
+                "claim": "Pensar en el consumo de drogas es m\u00e1s importante para el usuario que cualquier otro inter\u00e9s.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that thinking about drug use is more important than all other interests, which fully supports the claim."
+            },
+            {
+                "claim": "Las relaciones son menos importantes para el usuario que el consumo de drogas.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that thinking about drug use is more important than interpersonal relationships, which supports the claim."
+            },
+            {
+                "claim": "El usuario se convierte en una persona diferente debido a estos cambios.",
+                "entailment_prediction": 0,
+                "explanation": "The clinical note does not explicitly state that the user becomes a different person due to these changes. It mentions changes in behavior but not a transformation into a different person."
+            }
+        ],
+        "89": [
+            {
+                "claim": "El paciente presenta dolor repentino y agudo en el pecho.",
+                "entailment_prediction": 1,
+                "explanation": "El art\u00edculo menciona que el paciente tiene un dolor de pecho repentino y agudo."
+            },
+            {
+                "claim": "El paciente experimenta falta de aliento.",
+                "entailment_prediction": 1,
+                "explanation": "El art\u00edculo menciona dificultad respiratoria, lo cual es sin\u00f3nimo de falta de aliento."
+            },
+            {
+                "claim": "Los s\u00edntomas ocurren especialmente despu\u00e9s de un viaje prolongado.",
+                "entailment_prediction": 1,
+                "explanation": "El art\u00edculo menciona que los s\u00edntomas ocurren especialmente despu\u00e9s de un viaje largo."
+            },
+            {
+                "claim": "Los s\u00edntomas tambi\u00e9n se presentan tras una larga estancia en cama, como despu\u00e9s de una operaci\u00f3n.",
+                "entailment_prediction": 1,
+                "explanation": "El art\u00edculo menciona que los s\u00edntomas ocurren despu\u00e9s de un per\u00edodo de reposo en cama, por ejemplo, despu\u00e9s de una operaci\u00f3n."
+            },
+            {
+                "claim": "La falta de movimiento prolongada puede desencadenar los s\u00edntomas.",
+                "entailment_prediction": 1,
+                "explanation": "El art\u00edculo menciona que la falta de movimiento, especialmente despu\u00e9s de un viaje largo o un per\u00edodo de reposo en cama, puede estar relacionada con los s\u00edntomas."
+            },
+            {
+                "claim": "La hinchaz\u00f3n en una pierna puede estar relacionada con los s\u00edntomas.",
+                "entailment_prediction": 1,
+                "explanation": "El art\u00edculo menciona que una pierna hinchada o m\u00e1s hinchada que la otra podr\u00eda estar relacionada con un co\u00e1gulo sangu\u00edneo, parte del cual se ha desplazado a los pulmones, lo que est\u00e1 relacionado con los s\u00edntomas."
+            }
+        ],
+        "9": [
+            {
+                "claim": "The patient is advised to consult with their healthcare provider.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note 'Preg\u00fantele al m\u00e9dico' means 'Ask the doctor' in English. This implies that the patient is advised to consult with their healthcare provider."
+            }
+        ],
+        "90": [
+            {
+                "claim": "La madre puede fingir s\u00edntomas de enfermedad en su hijo.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that the mother can simulate symptoms of illness in her child using various methods, which directly supports the claim."
+            },
+            {
+                "claim": "La madre puede sumar sangre a la orina del ni\u00f1o.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly mentions that the mother can add blood to the child's urine, which directly supports the claim."
+            },
+            {
+                "claim": "La madre puede sumar sangre al esti\u00e9rcol del ni\u00f1o.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that the mother can add blood to the child's feces, which directly supports the claim."
+            },
+            {
+                "claim": "La madre puede retener la comida del ni\u00f1o.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that the mother can stop feeding the child, which directly supports the claim."
+            },
+            {
+                "claim": "La madre puede simular febrilidad en el ni\u00f1o.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that the mother can falsify fevers, which directly supports the claim."
+            },
+            {
+                "claim": "La madre puede administrar secretamente medicamentos al ni\u00f1o.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that the mother can secretly administer drugs to the child, which directly supports the claim."
+            },
+            {
+                "claim": "La administraci\u00f3n de medicamentos puede hacer que el ni\u00f1o vomite.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that administering drugs can cause the child to vomit, which directly supports the claim."
+            },
+            {
+                "claim": "La administraci\u00f3n de medicamentos puede hacer que el ni\u00f1o tenga diarrea.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that administering drugs can cause the child to have diarrhea, which directly supports the claim."
+            }
+        ],
+        "91": [
+            {
+                "claim": "El flujo hacia la izquierda es poco o no existe.",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica menciona que hay poca o ninguna circulaci\u00f3n del lado izquierdo del coraz\u00f3n, lo cual implica que el flujo hacia la izquierda es poco o no existe."
+            },
+            {
+                "claim": "La sangre que retorna al coraz\u00f3n de los pulmones necesita pasar a trav\u00e9s del foramen ovale.",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica indica que la sangre que retorna al coraz\u00f3n desde los pulmones necesita pasar a trav\u00e9s del agujero oval, que es otra forma de referirse al foramen ovale."
+            },
+            {
+                "claim": "El foramen ovale es un defecto del septo auricular.",
+                "entailment_prediction": 0,
+                "explanation": "La nota cl\u00ednica no menciona que el foramen ovale sea un defecto del septo auricular. Solo describe su funci\u00f3n en el contexto de la circulaci\u00f3n sangu\u00ednea."
+            },
+            {
+                "claim": "El foramen ovale es un agujero que une las cavidades que recogen sangre.",
+                "entailment_prediction": 1,
+                "explanation": "La nota cl\u00ednica describe que el agujero oval conecta las c\u00e1maras colectoras en los lados izquierdo y derecho del coraz\u00f3n, lo cual implica que une las cavidades que recogen sangre."
+            }
+        ],
+        "92": [
+            {
+                "claim": "Se puede llevar el diente al dentista siguiendo ciertas instrucciones.",
+                "entailment_prediction": 0,
+                "explanation": "The article summary provides instructions on how to handle a dislodged tooth, but it does not mention taking the tooth to the dentist. Therefore, the claim cannot be fully entailed by the summary."
+            },
+            {
+                "claim": "Una de las instrucciones es colocar el diente en la boca donde se cay\u00f3.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states to try to place the tooth back in the mouth where it came out, which matches the claim."
+            },
+            {
+                "claim": "El diente debe quedar nivel con los dem\u00e1s dientes.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary specifically mentions that the tooth should be placed so that it is level with the other teeth, which directly supports the claim."
+            },
+            {
+                "claim": "Se debe morder con cuidado sobre una gasa o un pa\u00f1uelo.",
+                "entailment_prediction": 0,
+                "explanation": "The article summary advises to bite gently on a gauze or a moist tea bag, but it does not mention a handkerchief. Therefore, the claim cannot be fully entailed by the summary."
+            }
+        ],
+        "93": [
+            {
+                "claim": "Una falsa creencia com\u00fan en la adolescencia es que \"nunca me pasar\u00e1, solo al otro\".  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly mentions the myth among adolescents that \"eso nunca me suceder\u00e1, s\u00f3lo a los dem\u00e1s,\" which translates to \"that will never happen to me, only to others.\" This directly supports the claim."
+            },
+            {
+                "claim": "Esta creencia puede referirse a quedar embarazada.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that \"eso\" can represent becoming pregnant, which directly supports the claim that this belief can refer to becoming pregnant."
+            },
+            {
+                "claim": "Esta creencia tambi\u00e9n puede referirse a contraer una enfermedad de transmisi\u00f3n sexual.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that \"eso\" can represent contracting a sexually transmitted disease, which directly supports the claim."
+            },
+            {
+                "claim": "La creencia se relaciona con tener relaciones sexuales sin protecci\u00f3n.  ",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that \"eso\" can happen after having unprotected sex, which directly relates the belief to having unprotected sex."
+            },
+            {
+                "claim": "La creencia puede incluir la posibilidad de causar un accidente.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that \"eso\" can include causing a car accident while driving under the influence of alcohol or drugs, which supports the claim that the belief can include the possibility of causing an accident."
+            }
+        ],
+        "94": [
+            {
+                "claim": "Es importante limpiar los dientes a fondo.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that it is important to have a complete dental cleaning, which implies cleaning the teeth thoroughly."
+            },
+            {
+                "claim": "La limpieza de los dientes puede requerir el uso de varios instrumentos.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that a complete dental cleaning can involve the use of various instruments or devices."
+            },
+            {
+                "claim": "Los instrumentos se utilizan para desprender y eliminar el sarro de las superficies de los dientes.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that instruments or devices are used to loosen and remove plaque and tartar from the teeth."
+            },
+            {
+                "claim": "La limpieza adecuada de las enc\u00edas es necesaria.",
+                "entailment_prediction": 0,
+                "explanation": "The article summary does not mention the cleaning of gums specifically, only the cleaning of teeth and the removal of plaque and tartar."
+            },
+            {
+                "claim": "El cepillado es siempre necesario, incluso despu\u00e9s de una limpieza.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that brushing and proper flossing are always needed, even after a professional dental cleaning."
+            }
+        ],
+        "95": [
+            {
+                "claim": "El pron\u00f3stico depende de la cantidad de veneno absorbido.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that the prognosis depends on the amount of 't\u00f3xico' (toxic substance) ingested. 'Veneno' (venom or poison) is a type of toxic substance, so the claim can be considered as entailed by the note."
+            },
+            {
+                "claim": "El pron\u00f3stico depende de cu\u00e1n r\u00e1pido se recibi\u00f3 el tratamiento.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly mentions that the prognosis depends on the promptness with which treatment was received. Therefore, this claim is directly supported by the note."
+            }
+        ],
+        "96": [
+            {
+                "claim": "En raras ocasiones, los ni\u00f1os pueden tener problemas para dormirse.  ",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that children rarely have problems falling asleep or staying asleep. This directly supports the claim that children can rarely have problems falling asleep."
+            },
+            {
+                "claim": "En raras ocasiones, los ni\u00f1os pueden tener problemas para permanecer dormidos.",
+                "entailment_prediction": 1,
+                "explanation": "The translated clinical note states that children rarely have problems falling asleep or staying asleep. This directly supports the claim that children can rarely have problems staying asleep."
+            }
+        ],
+        "97": [
+            {
+                "claim": "El s\u00edndrome de Reye puede ocurrir en ni\u00f1os.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note states that Reye's syndrome can occur when aspirin is used to treat children with viral infections, indicating that the syndrome can occur in children."
+            },
+            {
+                "claim": "El s\u00edndrome de Reye puede ser provocado por la administraci\u00f3n de aspirina.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note mentions that Reye's syndrome can present when acetylsalicylic acid (aspirin) is used, suggesting that aspirin administration can provoke the syndrome."
+            },
+            {
+                "claim": "El s\u00edndrome de Reye puede ocurrir en ni\u00f1os con infecciones virales.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note explicitly states that Reye's syndrome can occur when aspirin is used to treat children with viral infections, confirming that it can occur in children with viral infections."
+            },
+            {
+                "claim": "Las infecciones virales que pueden estar asociadas con el s\u00edndrome de Reye incluyen el sarampi\u00f3n.",
+                "entailment_prediction": 0,
+                "explanation": "The clinical note does not mention measles as a viral infection associated with Reye's syndrome, so this claim cannot be fully entailed."
+            },
+            {
+                "claim": "Las infecciones virales que pueden estar asociadas con el s\u00edndrome de Reye incluyen la gripe.",
+                "entailment_prediction": 1,
+                "explanation": "The clinical note specifically mentions influenza (the flu) as a viral infection that can be associated with Reye's syndrome."
+            }
+        ],
+        "98": [
+            {
+                "claim": "Las luces de bilirrubina son un tipo de terapia con luces.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that 'Las bililuces o luces azules especiales se refieren a un tipo de terapia con luz (fototerapia)', which confirms that bililights are a type of light therapy."
+            },
+            {
+                "claim": "La terapia con luces se utiliza para tratar la ictericia en los reci\u00e9n nacidos.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that this type of light therapy is used to treat 'la ictericia del reci\u00e9n nacido', confirming that light therapy is used for treating jaundice in newborns."
+            },
+            {
+                "claim": "La ictericia se manifiesta como un color amarillento de la piel y de los ojos.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary describes jaundice as 'una coloraci\u00f3n amarillenta de la piel y de los ojos', which directly supports this claim."
+            },
+            {
+                "claim": "La ictericia es causada por un aumento de bilirrubina en el cuerpo.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that jaundice is caused by 'la presencia de demasiada cantidad de una sustancia llamada bilirrubina', which confirms that jaundice is caused by an increase in bilirubin."
+            }
+        ],
+        "99": [
+            {
+                "claim": "La cirug\u00eda se utiliza frecuentemente para tratar a mujeres con enfermedad de etapa 1.",
+                "entailment_prediction": 0,
+                "explanation": "The article summary states that surgery combined with radiotherapy is used for stage 1 disease with a high chance of recurrence, but it does not specify that surgery alone is frequently used for stage 1 disease."
+            },
+            {
+                "claim": "La radiaci\u00f3n se combina a menudo con la cirug\u00eda en el tratamiento.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary explicitly states that surgery combined with radiotherapy is often used, which directly supports the claim."
+            },
+            {
+                "claim": "La combinaci\u00f3n de cirug\u00eda y radiaci\u00f3n se utiliza para mujeres con alta probabilidad de reaparecer.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that the combination is used for stage 1 disease with a high chance of recurrence, which aligns with the claim."
+            },
+            {
+                "claim": "La combinaci\u00f3n de cirug\u00eda y radiaci\u00f3n se utiliza cuando la enfermedad se ha extendido a los ganglios linf\u00e1ticos.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary states that the combination is used when the disease has spread to the lymph nodes, which directly supports the claim."
+            },
+            {
+                "claim": "La combinaci\u00f3n de cirug\u00eda y radiaci\u00f3n se utiliza para enfermedad de grado 2.",
+                "entailment_prediction": 1,
+                "explanation": "The article summary mentions that the combination is used for grade 2 or 3 disease, which supports the claim."
+            }
+        ]
+    }
+}

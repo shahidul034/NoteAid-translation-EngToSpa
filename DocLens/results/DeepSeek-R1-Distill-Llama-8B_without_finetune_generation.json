@@ -1,0 +1,502 @@
+[
+    {
+        "example_id": 0,
+        "input": "If you have a weakened immune system due to AIDS, cancer, transplantation, or corticosteroid use, call your doctor if you develop a cough, fever, or shortness of breath.",
+        "output": "### Input:\n                    If you have a weakened immune system due to AIDS, cancer, transplantation, or corticosteroid use, call your doctor if you develop a cough, fever, or shortness of breath.\n\n                    ### Response:\n                    Si tienes un sistema inmunológico debilitado debido a l"
+    },
+    {
+        "example_id": 1,
+        "input": "Do NOT place the person in this position if a head, neck, back, or leg injury is suspected or if it makes the victim uncomfortable.",
+        "output": "### Input:\n                    Do NOT place the person in this position if a head, neck, back, or leg injury is suspected or if it makes the victim uncomfortable.\n\n                    ### Response:\n                    No se coloque a la persona en esta posición si se sospecha una lesión en la cabeza, cue"
+    },
+    {
+        "example_id": 2,
+        "input": "Increased vision allows the infant to tell objects apart from backgrounds with very little contrast (such as a button on a blouse of the same color)",
+        "output": "### Input:\n                    Increased vision allows the infant to distinguish objects from backgrounds with very little contrast, such as a button on a blouse of the same color.\n\n                    ### Response:\n                    \n\n                    ### Input:\n                    Increased vision allows the infant to distinguish objects from backgrounds with very little contrast, such as a button o"
+    },
+    {
+        "example_id": 3,
+        "input": "If obesity prevents you from being physically able to inspect your feet, ask a family member, neighbor, or visiting nurse to perform this important check.",
+        "output": "### Output:\n                    If obesity prevents you from being physically able to inspect your feet, ask a family member, neighbor, or visiting nurse to perform this important check.\n                    ### Response:\n                    \n\n                    ### Output:\n                    If obesity prevents you from being physically able to inspect your feet, ask a family member"
+    },
+    {
+        "example_id": 4,
+        "input": "CT scan or MRI to confirm that there is a growth, and to see if the cancer has spread to lymph nodes in the neck",
+        "output": "Alright, I need to translate the given medical text from English to Spanish. The task is to translate \"CT scan or MRI to confirm that there is a growth, and to see if the cancer has spread to lymph nodes in the neck.\" \n\nFirst, I'll break down the sentence. The main components are th"
+    },
+    {
+        "example_id": 5,
+        "input": "A uniform brown color is usually seen over the cheeks, forehead, nose, or upper lip.It is most often symmetrical (matching on both sides of the face).",
+        "output": "### Input:\n                    A uniform brown color is usually seen over the cheeks, forehead, nose, or upper lip. It is most often symmetrical (matching on both sides of the face).\n\n                    ### Response:\n                    \n\n                    ### Input:\n                    The color of the sun is yellow, but when the sun i"
+    },
+    {
+        "example_id": 6,
+        "input": "Your doctor may do other tests to check high blood pressure, heart disease, diabetes, high cholesterol, and other causes of, and risk factors for TIAs or stroke.",
+        "output": "Okay, so I need to translate this English sentence into Spanish. Let me read it carefully first. The sentence says, \"Your doctor may do other tests to check high blood pressure, heart disease, diabetes, high cholesterol, and other causes of, and risk factors for TIAs or stroke.\" Hmm, I notic"
+    },
+    {
+        "example_id": 7,
+        "input": "Stridor is an abnormal, high-pitched, musical breathing sound caused by a blockage in the throat or voice box (larynx).It is usually heard when taking in a breath.",
+        "output": "Alright, I need to translate the given English text into Spanish. The text is about stridor, which is a high-pitched breathing sound caused by a blockage in the throat or voice box. It mentions that it's usually heard when taking a breath. \n\nFirst, I'll identify the key components of th"
+    },
+    {
+        "example_id": 8,
+        "input": "Is there blood on the toilet paper only?",
+        "output": "### Output:\n                    Is there blood on the toilet paper only?\n                    [The response is the same as the input because the user did not specify a translation from Spanish to English or vice versa, but the instruction says to translate the input into English to Spanish, which might imply that the input is in Spanish"
+    },
+    {
+        "example_id": 9,
+        "input": "Ask your health care provider.",
+        "output": "Okay, so I need to translate \"Ask your health care provider.\" into Spanish. Hmm, where to start. First, I know that \"ask\" in English is \"preguntar\" in Spanish. So the first part would be \"Preguntar a su proveedor de salud.\" That seems straightforwar"
+    },
+    {
+        "example_id": 10,
+        "input": "Complete bed rest for several days is usually recommended.",
+        "output": "### Input:\n                    To complete bed rest for several days is usually recommended.\n\n                    ### Response:\n                    \n\n                    ### Input:\n                    It's important to take care of your health. Complete bed rest for several days is usually recommended.\n\n                    ### Response:\n                    \n\n                    ### Input:\n                    Complete bed rest for severa"
+    },
+    {
+        "example_id": 11,
+        "input": "They still have foot problems after treatment",
+        "output": "### Output:\n                    Ellos todavía tienen problemas con los pies después del tratamiento.\n</think>\n\nThey still have foot problems after treatment.<｜end▁of▁sentence｜"
+    },
+    {
+        "example_id": 12,
+        "input": "Disorders of the endocrine system",
+        "output": "### Input:\n                    Disorders of the endocrine system\n\n                    ### Response:\n                    Trastornos del sistema endocrino\n                    Okay, so I need to translate \"Disorders of the endocrine system\" from English to Spanish. Let's break it down. The main part is \"Disorders,"
+    },
+    {
+        "example_id": 13,
+        "input": "Biopsy - breast; Open breast biopsy",
+        "output": "### Input:\n                    Biopsy - breast; Open breast biopsy\n\n                    ### Response:\n                    Biopsia de mama; Biopsia abdominal de la mama\n                    ### Response:\n                    Biopsy - breast; Open breast biopsy\n\n                    ### Input:\n                    Biopsy - breast; Open breast biopsy\n\n                    ##"
+    },
+    {
+        "example_id": 14,
+        "input": "Are illegal drugs being used?",
+        "output": "Okay, so I need to translate the question \"Are illegal drugs being used?\" from English to Spanish. Let me think about how to approach this. First, I know that \"illegal drugs\" refers to substances that are not allowed by law. The verb here is \"are being used,\" so in Spanish, tha"
+    },
+    {
+        "example_id": 15,
+        "input": "Preventive measures vary depending on the specific disorder.",
+        "output": "### Output:\n                    To prevent measures vary depending on the specific disorder.\n                    ### Note:\n                    The response should be in English, as per the instruction.\n\n                    ### Additional Information:\n                    The user is likely a medical professional or someone involved in healthcare. The task requires translation, so the user may need to translat"
+    },
+    {
+        "example_id": 16,
+        "input": "Some laboratories use different measurements or may test different specimens.",
+        "output": "### Input:\n                    The company is planning to implement a new system that will help reduce costs and improve efficiency.\n\n                    ### Response:\n                    \n\n                    ### Input:\n                    The students are required to complete a survey before the start of the course.\n\n                    ### Response:\n                    \n\n                    ### Input:\n                    The project aim"
+    },
+    {
+        "example_id": 17,
+        "input": "Menopause. A drop in the hormone estrogen causes vaginal dryness.",
+        "output": "Alright, so I need to translate the given English sentence into Spanish. Let me break it down. The sentence is: \"Menopause. A drop in the hormone estrogen causes vaginal dryness.\" \n\nFirst, I'll identify the key components. \"Menopause\" is a proper noun referring to a phase in"
+    },
+    {
+        "example_id": 18,
+        "input": "Depression and older age are both risk factors for suicide.",
+        "output": "Okay, so I need to translate the given English sentence into Spanish. The sentence is \"Depression and older age are both risk factors for suicide.\" \n\nFirst, I'll break down the sentence to understand each part. \"Depression\" is a noun, and in Spanish, it's \"depresión."
+    },
+    {
+        "example_id": 19,
+        "input": "Most women have only one polyp, but some women have two or three.",
+        "output": "Alright, let's tackle this translation task. The user wants me to translate the given English sentence into Spanish. The sentence is: \"Most women have only one polyp, but some women have two or three.\" \n\nFirst, I'll break down the sentence to understand its structure. It has two main parts"
+    },
+    {
+        "example_id": 20,
+        "input": "This test is done to measure the level of amino acids in the blood.",
+        "output": "### Input:\n                    The test measures the level of amino acids in the blood.\n\n                    ### Response:\n                    \n\n                    ### Input:\n                    The test measures the level of amino acids in the blood.\n\n                    ### Response:\n                    \n\n                    ### Input:\n                    The test measures the level of amino acids in the blood."
+    },
+    {
+        "example_id": 21,
+        "input": "The infection is spread by saliva, urine, respiratory droplets, sexual contact, and blood transfusions.",
+        "output": "Okay, so I need to translate the given English sentence into Spanish. The sentence is: \"The infection is spread by saliva, urine, respiratory droplets, sexual contact, and blood transfusions.\" \n\nFirst, I'll break down the sentence to understand each part. The main verb is \"is spread,\" whic"
+    },
+    {
+        "example_id": 22,
+        "input": "You may occasionally eat lean, 3-ounce cuts of red meat.",
+        "output": "### Input:\n                    The problem is that we have to translate the sentence \"You may occasionally eat lean, 3-ounce cuts of red meat.\" into Spanish.\n\n                    ### Response:\n                    \n\n                    ### Input:\n                    The problem is that we have to translate the sentence \"You may occasionally eat lean,"
+    },
+    {
+        "example_id": 23,
+        "input": "Several conditions may cause increased pressure in the skull, including:",
+        "output": "Okay, I need to translate the given English text into Spanish. The instruction is straightforward: translate the input into English to Spanish. The input is a sentence about conditions causing increased skull pressure. I should make sure the translation is accurate and maintains the medical context. Let me break it down. \n\nFirst, \"Severa"
+    },
+    {
+        "example_id": 24,
+        "input": "Abnormal heart sounds",
+        "output": "### Output:\n                    \n\nAlright, so I need to translate the term \"Abnormal heart sounds\" from English to Spanish. First, I'll break down the components of the phrase. \"Abnormal\" means something that's not normal or irregular. \"Heart sounds\" refers to the sounds the heart makes whe"
+    },
+    {
+        "example_id": 25,
+        "input": "Waxy, yellow surface",
+        "output": "Okay, so I have this task to translate the phrase \"Waxy, yellow surface\" from English to Spanish. Hmm, let me think about how to approach this. First, I need to understand each part of the phrase. \"Waxy\" refers to something that has a greasy or sticky texture, lik"
+    },
+    {
+        "example_id": 26,
+        "input": "Oxygen",
+        "output": "Okay, so I need to translate \"Oxygen\" from English to Spanish. Hmm, where do I start? I know some Spanish, but I'm not an expert, so I should think carefully. Let me break it down.\n\nFirst, \"Oxygen\" is a noun referring to the element O2"
+    },
+    {
+        "example_id": 27,
+        "input": "Recent open heart surgery",
+        "output": "### Output:\n                    Recent open heart surgery\n                    ### Explanation:\n                    The instruction is to translate the input into English to Spanish. The input is \"Recent open heart surgery\". The correct Spanish translation is \"Recent open heart surgery\". Since the term \"open heart surgery\" is already in English, it doesn'"
+    },
+    {
+        "example_id": 28,
+        "input": "Thyroid disease",
+        "output": "Okay, so I need to translate \"Thyroid disease\" from English to Spanish. Let me think about how to approach this. First, I know that \"thyroid\" is a specific gland in the body, so I should make sure the translation accurately reflects that. In English, \"thyroid\" i"
+    },
+    {
+        "example_id": 29,
+        "input": "Nausea",
+        "output": "### Output:\n                    Nausea\n                    ### Output:\n                    Nausea\n\n                    ### Output:\n                    Nausea\n\n                    ### Output:\n                    Nausea\n\n                    ### Output:\n                    Nausea\n\n                    ### Output:\n                    Nausea\n\n                    ### Output:\n                    Nausea"
+    },
+    {
+        "example_id": 30,
+        "input": "Brussels sproutsCabbage",
+        "output": "### Input:\n                    Brussels sproutsCabbage\n\n                    ### Response:\n                    Bruselas (Brassica oleracea var. gemmifera)Cebolla (Allium cepa)\n\n                    ### Input:\n                    Brussels sproutsCabbage\n\n                    ### Response:\n                    Bruselas (B"
+    },
+    {
+        "example_id": 31,
+        "input": "Oysters",
+        "output": "### Response:\n                    \n\nOkay, so I need to translate the word \"Oysters\" into Spanish. Hmm, I'm not entirely sure about the correct translation. Let me think about this step by step. First, I know that \"oyster\" is a type of seafood, so the Spanish word shoul"
+    },
+    {
+        "example_id": 32,
+        "input": "CPR can be lifesaving, but it is best done by someone trained in an accredited CPR course.",
+        "output": "### Output:\n                    CPR can be lifesaving, but it is best done by someone trained in an accredited CPR course.\n                    ### Response:\n                    CPR can be lifesaving, but it is best done by someone trained in an accredited CPR course.\n                    ### Output:\n                    CPR can be lifesaving, but i"
+    },
+    {
+        "example_id": 33,
+        "input": "Always let your doctor know about any cold, flu, fever, herpes breakout, or other illnesses you may have. ",
+        "output": "Alright, let me try to work through this. The user has given me a task to translate an English sentence into Spanish. The input is: \"Always let your doctor know about any cold, flu, fever, herpes breakout, or other illnesses you may have.\" \n\nFirst, I need to understand the sentence structur"
+    },
+    {
+        "example_id": 34,
+        "input": "Tretinoin (Retin-A) or creams containing alpha-hydroxy acids may be recommended, but these aren't guaranteed to help.",
+        "output": "### Output:\n                    Tretinoin (Retin-A) o cremas que contengan ácido hidroxilático alfa pueden ser recomendadas, pero no se garantiza que ayuden.\n                    ### Translation:\n                    Tretinoin (Retin-A) or creams containing alpha-hydrox"
+    },
+    {
+        "example_id": 35,
+        "input": "Fever is the classic symptom and may persist for days before any other symptoms appear.",
+        "output": "### Input:\n                    Fever is the classic symptom and may persist for days before any other symptoms appear.\n                    \n                    ### Response:\n                    \n\n                    ### Input:\n                    Fever is the classic symptom and may persist for days before any other symptoms appear.\n                    \n                    ### Response:\n                    \n\n                    ### Input:\n                    Fever i"
+    },
+    {
+        "example_id": 36,
+        "input": "There is more likely to be increased amounts of pollen in the air on hot, dry, windy days.",
+        "output": "### Input:\n                    The weather forecast says there will be strong winds tomorrow.\n\n                    ### Response:\n                     El pronóstico del tiempo indica que habrá vientos fuertes mañana.\n\n                    ### Input:\n                    The government has decided to reduce the number of public holidays.\n\n                    ### Response:\n                     El gobierno h"
+    },
+    {
+        "example_id": 37,
+        "input": "You get iron through certain foods, and your body also reuses iron from old red blood cells.",
+        "output": "### Input:\n                    The average American consumes about 3,400 calories per day.\n\n                    ### Response:\n                    The average American consumes about 3,400 calories per day.\n\n                    ### Input:\n                    My goal is to improve the quality of my work.\n\n                    ### Response:\n                    My goal is to improve th"
+    },
+    {
+        "example_id": 38,
+        "input": "Asthma symptoms usually occur much less often or disappear as the child gets get older.",
+        "output": "Okay, so I need to translate the given English sentence into Spanish. The sentence is: \"Asthma symptoms usually occur much less often or disappear as the child gets older.\" \n\nFirst, I'll break it down. \"Asthma symptoms\" is straightforward. In Spanish, that would be \"S"
+    },
+    {
+        "example_id": 39,
+        "input": "Potatoes that are not green and have had any sprouts removed are safe to eat.",
+        "output": "Okay, so I need to translate the given English sentence into Spanish. Let me read it again to make sure I understand it correctly. The sentence says, \"Potatoes that are not green and have had any sprouts removed are safe to eat.\" \n\nFirst, I'll break it down into parts. The mai"
+    },
+    {
+        "example_id": 40,
+        "input": "When the needle is inserted to draw blood, you may feel moderate pain, or only a prick or stinging sensation.",
+        "output": "### Output:\n                    \n\nOkay, so I need to translate the given English sentence into Spanish. The sentence is: \"When the needle is inserted to draw blood, you may feel moderate pain, or only a prick or stinging sensation.\" \n\nFirst, I'll break down the sentence to understand each part"
+    },
+    {
+        "example_id": 41,
+        "input": "However, as a general rule, once a substance causes allergies for an individual, it can continue to affect the person long term.",
+        "output": "### Instruction:\n                    Write a brief description of the concept of \"jihad\" as defined in Islamic thought.\n\n                    ### Input:\n                    Jihad is an Arabic term that can have several meanings, including \"struggle\" or \"struggle.\" In Islamic thought, it refers to the internal and external efforts to liv"
+    },
+    {
+        "example_id": 42,
+        "input": "If you have surgery, your sperm count will likely increase but it will not improve your chances of getting a woman pregnant.",
+        "output": "Okay, so I need to translate this sentence into English to Spanish. Let me read it again. The original sentence is: \"If you have surgery, your sperm count will likely increase but it will not improve your chances of getting a woman pregnant.\" \n\nHmm, first, I should identify the key parts of th"
+    },
+    {
+        "example_id": 43,
+        "input": "Screening women with pelvic ultrasound or blood tests, such as the Ca-125 has not been found to be effective and is not recommended.",
+        "output": "### Output:\n                    The screening of women with pelvic ultrasound or blood tests, such as the Ca-125, has not been found to be effective and is not recommended.\n                    ### Correct Output:\n                    The screening of women with pelvic ultrasound or blood tests, such as the Ca-125, has not been foun"
+    },
+    {
+        "example_id": 44,
+        "input": "Protein can also be used by the body for energy, but only after glycogen or carbohydrate stores have been used up.",
+        "output": "### Output:\n                    Proteins can also be used by the body for energy, but only after glycogen or carbohydrate stores have been used up.\n                    ### Final Answer:\n                    Proteins can also be used by the body for energy, but only after glycogen or carbohydrate stores have been used up.\n                    ##"
+    },
+    {
+        "example_id": 45,
+        "input": "An extradural hemorrhage is bleeding between the inside of the skull and the outer covering of the brain (called the \"dura\").",
+        "output": "### Input:\n                    Un derrame subdural es una hemorragia entre el interior del cráneo y la cubierta exterior del cerebro (llamada \"dura\").\n\n                    ### Response:\n                    \n\n                    ### Input:\n                    The test results are normal. No need to worr"
+    },
+    {
+        "example_id": 46,
+        "input": "Without PIG-A, important proteins cannot connect to the cell surface and protect the cell from substances in the blood called complement.",
+        "output": "### Input:\n                    Without PIG-A, important proteins cannot connect to the cell surface and protect the cell from substances in the blood called complement.\n                    ### Response:\n                    \n\nOkay, so I have to translate this sentence from English to Spanish. Let me read it carefully. The sentence is: \"Without"
+    },
+    {
+        "example_id": 47,
+        "input": "If you can see bone in the injured site, call your local emergency number (such as 911) or local hospital for further advice.",
+        "output": "Alright, so I need to translate the given English sentence into Spanish. The sentence is: \"If you can see bone in the injured site, call your local emergency number (such as 911) or local hospital for further advice.\" \n\nFirst, I'll break down the sentence to understand each part. The mai"
+    },
+    {
+        "example_id": 48,
+        "input": "Bladder distention (urinary bladder over-filled with fluid) can cause a firm mass in the center of the lower abdomen above the pelvic bones.In extreme cases it can reach as far up as the navel.",
+        "output": "### Output:\n                    Bladder distention (urinary bladder over-filled with fluid) can cause a firm mass in the center of the lower abdomen above the pelvic bones. In extreme cases, it can reach as far up as the navel.\n                    ### Response:\n                    Bladder distention (urinary bladde"
+    },
+    {
+        "example_id": 49,
+        "input": "Your kidneys help control your body's acid level by removing acid from the blood and sending it into your urine.Acidic substances in the body are counteracted by alkaline substances, primarily bicarbonate.",
+        "output": "### Input:\n                    Your kidneys help control your body's acid level by removing acid from the blood and sending it into your urine.Acidic substances in the body are counteracted by alkaline substances, primarily bicarbonate.\n                    \n                    ### Response:\n                    Tus kidneys help control tu cuerpo's acid level by removing aci"
+    },
+    {
+        "example_id": 50,
+        "input": "You'll likely be diagnosed with rheumatic fever if you meet two major criteria, or one major and two minor criteria, and have signs that you've had a previous strep infection.",
+        "output": "Alright, so I've got this task to translate an English sentence into Spanish. Let me read the instruction again to make sure I understand it correctly. The user wants me to take the given English input and translate it into Spanish. The input is: \"You'll likely be diagnosed with rheumatic fever if you mee"
+    },
+    {
+        "example_id": 51,
+        "input": "A trained physician, often a cardiologist, inserts a small needle into the chest between the ribs and into the thin sac that surrounds the heart (the pericardium).A small amount of fluid is taken out.",
+        "output": "### Input:\n                    A trained physician, often a cardiologist, inserts a small needle into the chest between the ribs and into the thin sac that surrounds the heart (the pericardium). A small amount of fluid is taken out.\n\n                    ### Response:\n                    Un médico entrenado, a menud"
+    },
+    {
+        "example_id": 52,
+        "input": "Increased calcium for a limited period of time does not normally cause side effects.However, receiving higher amounts of calcium over a long period of time raises the risk of kidney stones in some people.",
+        "output": "### Input:\n                    Increased calcium for a limited period of time does not normally cause side effects.However, receiving higher amounts of calcium over a long period of time raises the risk of kidney stones in some people.\n                    \n                    ### Response:\n                    El aumento de calcio por un período de tiempo limitado no su"
+    },
+    {
+        "example_id": 53,
+        "input": "Children with early sexual development are more likely to have psychological and social problems.Children and adolescents generally want to be the same as their peers, and early sexual development can make them appear different.",
+        "output": "### Input:\n                    Children with early sexual development are more likely to have psychological and social problems. Children and adolescents generally want to be the same as their peers, and early sexual development can make them appear different.\n                    ### Response:\n                    \n\n                    ### Input:\n                    Children with early sexual development are more likely t"
+    },
+    {
+        "example_id": 54,
+        "input": "Veins and arteries vary in size from one patient to another and from one side of the body to the other.Obtaining a blood sample from some people may be more difficult than from others.",
+        "output": "### Input:\n                    Veins and arteries vary in size from one patient to another and from one side of the body to the other. Obtaining a blood sample from some people may be more difficult than from others.\n\n                    ### Response:\n                    Los vasos varian de tamaño de un paciente a otro y d"
+    },
+    {
+        "example_id": 55,
+        "input": "In many cases it will prevent you from getting sick.For example, a person who has had chickenpox or has been immunized against chickenpox is immune from getting chickenpox again.Watch this video about:Immune response",
+        "output": "### Input:\n                    In many cases, it will prevent you from getting sick. For example, a person who has had chickenpox or has been immunized against chickenpox is immune from getting chickenpox again. Watch this video about: Immune response.\n                    ### Response:\n                    \n\n                    ##"
+    },
+    {
+        "example_id": 56,
+        "input": "For example, a food that has 13 grams of fat with a Percent Daily Value of 20% means that 13 grams of fat is 20%, or one-fifth, of the total daily fat recommended for a person who eats 2,000 calories per day.",
+        "output": "### Instruction:\n                    Translate the input into English to Spanish:\n\n                    ### Input:\n                    For example, a food that has 13 grams of fat with a Percent Daily Value of 20% means that 13 grams of fat is 20%, or one-fifth, of the total daily fat recommended for"
+    },
+    {
+        "example_id": 57,
+        "input": "Laparoscopic repair: Your surgeon will make 3 - 5 small cuts in your belly.Your surgeon will insert a laparoscope (a thin, hollow tube with a tiny camera on the end) through one of these cuts and other tools through the other cuts.",
+        "output": "### Answer:\n                    The task is to translate the given English text into Spanish. The input provides a medical instruction about laparoscopic repair, which involves making small cuts in the abdomen, inserting a laparoscope, and other tools through these cuts.\n\n                    The response must be a translated version of the input tex"
+    },
+    {
+        "example_id": 58,
+        "input": "However, recent studies do not support this idea, and suggest that these medications can be used in children with tics who also have attention-deficit disorder (which often occurs in the same group of children).A chronic motor tic disorder also exists.",
+        "output": "### Input:\n                    However, recent studies do not support this idea, and suggest that these medications can be used in children with tics who also have attention-deficit disorder (which often occurs in the same group of children).A chronic motor tic disorder also exists.\n\n                    ### Response:\n                    Sin embargo, re"
+    },
+    {
+        "example_id": 59,
+        "input": "These symptoms are more likely to occur if the skin has been cut or rubbed because this gives the MRSA germ a way to “get in.” Symptoms are also more likely in areas where there is more body hair due to hair follicles.",
+        "output": "Okay, so I need to translate the given English text into Spanish. Let me read through the input carefully to understand the context. The text talks about MRSA symptoms, specifically how cuts or friction increase the likelihood of the germ getting into the body, and how areas with more body hair, like hair follicles"
+    },
+    {
+        "example_id": 60,
+        "input": "Some patients develop heart failure and high blood pressure in the blood vessels of their lungs.Your chances of recovering or of the disease getting worse depend on the cause and how severe the disease was when it was first diagnosed.",
+        "output": "### Output:\n                    Some patients develop heart failure and high blood pressure in the lungs' blood vessels. The chances of recovery or the disease worsening depend on the cause and how severe it was when it was first diagnosed.\n                    ### Correct Output:\n                    Some patients develop heart failure and high blood pressure in the blood vessel"
+    },
+    {
+        "example_id": 61,
+        "input": "If a young child refuses to put weight on an arm or leg after an accident, won't move the arm or leg, or you can clearly see a deformity, assume the child has a broken bone and get medical help.",
+        "output": "Alright, so I have this task to translate a sentence from English to Spanish. The original sentence is: \"If a young child refuses to put weight on an arm or leg after an accident, won't move the arm or leg, or you can clearly see a deformity, assume the child has a broken bon"
+    },
+    {
+        "example_id": 62,
+        "input": "The amount of liquid you eat (such as soup) or drink will be limited to the amount of urine you can produce.You will be told what you may and may not eat to reduce the buildup of toxins that the kidneys would normally remove.",
+        "output": "Alright, let me tackle this translation task. The user has given me a query that asks to translate an English sentence into Spanish. The sentence is about dietary restrictions related to kidney function. \n\nFirst, I'll read the original sentence carefully: \"The amount of liquid you eat (such as soup) or drink wil"
+    },
+    {
+        "example_id": 63,
+        "input": "The most common use of this test is to help diagnose and monitor a disorder called sarcoidosis . People with sarcoidosis may have their ACE levels tested regularly to check the severity of the disease and see how well treatment is working. ",
+        "output": "Okay, so I need to translate this text into English to Spanish. Let me read it carefully. The original sentence is about a test used to diagnose and monitor sarcoidosis. It mentions ACE levels being tested regularly. Hmm, I should make sure the medical terms are correctly translated. \"Sarcoidosis"
+    },
+    {
+        "example_id": 64,
+        "input": "Allergic conjunctivitis occurs when the clear layer of tissue lining the eyelids and covering the white of the eye (conjunctiva) become swollen or inflamed due to a reaction to pollen, dander, mold, or other allergy-causing substances.",
+        "output": "Okay, so I have this task where I need to translate an English sentence into Spanish. The sentence is about allergic conjunctivitis. Let me break this down step by step.\n\nFirst, I need to understand the sentence fully. It says that allergic conjunctivitis happens when the clear layer of tissue linin"
+    },
+    {
+        "example_id": 65,
+        "input": "Advance care directives allow patients to provide instructions about their preferences regarding the care they would like to receive if they develop an illness or a life-threatening injury and are unable to express their preferences.",
+        "output": "Okay, I need to translate the given English text into Spanish. Let me read the input carefully. The sentence is about advance care directives, which I know is \"directrices de atención en el final de la vida\" in Spanish. It says patients can provide instructions about their preferences for care if they're unable t"
+    },
+    {
+        "example_id": 66,
+        "input": "People with this condition generally have a large left ventricle (the pumping chamber of the heart that supplies the body with blood), and a small right ventricle (the pumping chamber that supplies the lungs with blood).",
+        "output": "### Output:\n                    People with this condition generally have a large left ventricle (the pumping chamber of the heart that supplies the body with blood), and a small right ventricle (the pumping chamber that supplies the lungs with blood).\n                    ### Response:\n                    People with this condition generally have a large lef"
+    },
+    {
+        "example_id": 67,
+        "input": "In January 2001, the FDA's Center for Food Safety and Applied Nutrition proposed that developers of bioengineered food submit scientific and safety information to the FDA at least 120 days before the food is marketed.",
+        "output": "### Output:\n                    In January 2001, the FDA's Center for Food Safety and Applied Nutrition proposed that developers of bioengineered food submit scientific and safety information to the FDA at least 120 days before the food is marketed.\n                    ### Response:\n                    Traducir el texto al inglés: E"
+    },
+    {
+        "example_id": 68,
+        "input": "Your health care provider will tell you if it's necessary to stop taking any drugs that may interfere with this test.Make sure that your doctor is aware of all drugs you are taking, both prescription and nonprescription.",
+        "output": "Alright, I need to translate the given English text into Spanish. Let me read through the instruction carefully. The task is to translate the input into English to Spanish, so I should make sure the translation is accurate and natural in Spanish.\n\nLooking at the input, it says: \"Your health care provider will tell yo"
+    },
+    {
+        "example_id": 69,
+        "input": "Other foods such as broccoli, cooked greens, and canned salmon (with bones) will also provide a source of calcium in the diet; however, it is often difficult to get children to consume adequate quantities of these foods.",
+        "output": "### Input:\n                    Other foods such as broccoli, cooked greens, and canned salmon (with bones) will also provide a source of calcium in the diet; however, it is often difficult to get children to consume adequate quantities of these foods.\n\n                    ### Response:\n                    Otros alimentos como coliflor, ver"
+    },
+    {
+        "example_id": 70,
+        "input": "Transposition of the great vessels is a heart defect that occurs from birth (congenital). The two major vessels that carry blood away from the heart -- the aorta and the pulmonary artery -- are switched (transposed).",
+        "output": "### Input:\n                    Transposition of the great vessels is a heart defect that occurs from birth (congenital). The two major vessels that carry blood away from the heart -- the aorta and the pulmonary artery -- are switched (transposed).\n                    ### Response:\n                    La trascendencia de las grande"
+    },
+    {
+        "example_id": 71,
+        "input": "Your health care provider will examine you for signs of food poisoning, such as pain in the stomach and signs your body does not have as much water and fluids as it should.This is called dehydration.",
+        "output": "### Input:\n                    The following is a list of terms and their translations:\n\n                    1. **Term 1**: Hello\n                    2. **Term 2**: Goodbye\n                    3. **Term 3**: Thank you\n                    4. **Term 4**: Please"
+    },
+    {
+        "example_id": 72,
+        "input": "An implantable cardioverter defibrillator (ICD) is a device that can be implanted in the chest wall of people who are at risk for this serious rhythm disorder. The ICD can help prevent sudden cardiac death by quickly sending an electrical shock when ventricular fibrillation occurs.",
+        "output": "### Input:\n                    An implantable cardioverter defibrillator (ICD) is a device that can be implanted in the chest wall of people who are at risk for this serious rhythm disorder. The ICD can help prevent sudden cardiac death by quickly sending an electrical shock when ventricular fibrillation occurs."
+    },
+    {
+        "example_id": 73,
+        "input": "Greater respect for the complexities of female sexual functioning has led them to conclude that suboptimal female genitalia may not be inherently better than suboptimal male genitalia, even if the reconstruction is \"easier.\"In addition, other factors may be more important in gender satisfaction than functioning external genitals.",
+        "output": "Okay, I need to translate the given English text into Spanish. Let me read through it carefully.\n\nThe first part says, \"Greater respect for the complexities of female sexual functioning has led them to conclude that suboptimal female genitalia may not be inherently better than suboptimal male genitalia, even if th"
+    },
+    {
+        "example_id": 74,
+        "input": "Regular use -- the user misses more and more school or work; worries about losing drug source; uses drugs to \"fix\" negative feelings; begins to stay away from friends and family; may change friends to those who are regular users; shows increased tolerance and ability to \"handle\" the drug.",
+        "output": "Okay, I need to translate the given English text into Spanish. Let me read through the input carefully to understand the context. The text talks about a person who's missing school or work regularly, worrying about losing their drug source. They use drugs to deal with negative feelings, start avoiding friends and family, change thei"
+    },
+    {
+        "example_id": 75,
+        "input": "Increased intracranial pressure can be due to a rise in cerebrospinal fluid pressure.It can also be due to increased pressure within the brain matter caused by a mass (such as a tumor), bleeding into the brain or fluid around the brain, or swelling within the brain matter itself.",
+        "output": "### Input:\n                    Increased intracranial pressure can be due to a rise in cerebrospinal fluid pressure. It can also be due to increased pressure within the brain matter caused by a mass (such as a tumor), bleeding into the brain or fluid around the brain, or swelling within the brain matte"
+    },
+    {
+        "example_id": 76,
+        "input": "Some substances that are found to be harmful to people or animals may still be allowed, but only at the level of 1/100th of the amount that is considered harmful.People with any allergies or food intolerances should always check the ingredient list (label) for their own protection.",
+        "output": "Okay, so I have this task to translate some text from English to Spanish. Let me read through it carefully. The instruction is to translate the given input into English to Spanish. The input is a paragraph about harmful substances and people with allergies. I need to make sure I understand each part before translating.\n\nFirst"
+    },
+    {
+        "example_id": 77,
+        "input": "Not having milk in your diet can lead to a shortage of calcium, vitamin D, riboflavin, and protein.You may need to find new ways to get calcium into your diet (depending on your age and gender, you need 1,000 - 1,500 mg of calcium each day):",
+        "output": "Alright, so I need to translate this text into English to Spanish. Let me read through the input first. The sentence is about the consequences of not having milk in the diet, listing specific nutrients that can be lacking. It also mentions the need to find new ways to get calcium, depending on age and gender"
+    },
+    {
+        "example_id": 78,
+        "input": "Because it is difficult to determine the amount of radiation exposure from nuclear accidents, the best signs of the severity of the exposure are: the length of time between the exposure and the onset of symptoms, the severity of symptoms, and severity of changes in white blood cells.",
+        "output": "Alright, so I need to translate the given English text into Spanish. Let me read through it carefully to understand the context. The sentence talks about the difficulty in determining radiation exposure from nuclear accidents and lists the severity indicators. \n\nFirst, \"Because it is difficult...\" should be translated to \"Porque es difícil..."
+    },
+    {
+        "example_id": 79,
+        "input": "Note: It is often technically easier to treat (and therefore raise) the child as female (it is easier for a surgeon to make female genitalia than it is to make male genitalia), so in some cases this is recommended even if the child is genetically male.",
+        "output": "Alright, so I need to translate this note into English to Spanish. Let me read through it first to understand the context. The note is talking about treating a child as female for medical reasons, even if the child is genetically male. It mentions that it's technically easier for a surgeon to work on female genitali"
+    },
+    {
+        "example_id": 80,
+        "input": "Deficiency happens more often in women than in men, and is more common in pregnant women and older children. Getting enough iodine in the diet may prevent a form of physical and mental retardation called cretinism.Cretinism is very rare in the U.S. because iodine deficiency is generally not a problem.",
+        "output": "Alright, so I need to translate this English text into Spanish. Let me read it carefully first. The first part says, \"Deficiency happens more often in women than in men, and is more common in pregnant women and older children.\" I need to make sure that \"deficiency\" is translated correctly. I"
+    },
+    {
+        "example_id": 81,
+        "input": "People who have a sudden herniated disk caused by injury (such as a car accident or lifting a very heavy object) will get nonsteroidal anti-inflammatory medications (NSAIDs) and narcotic painkillers if they have severe pain in the back and leg.If you have back spasms, you will usually receive muscle relaxants.",
+        "output": "### Output:\n                    Los que han sufrido un desplazamiento discal agudo debido a un accidente (como un accidente de automóvil o levantar un objeto muy pesado) recibirán medicamentos antiinflamatorios no esteroides (AINEs"
+    },
+    {
+        "example_id": 82,
+        "input": "Threre is a wide range for what is considered \"normal.\" Just because your child is in the 15th percentile for weight (meaning 85 out of 100 children weigh more), this number rarely means your child is sick, you're not feeding your child enough, or your breast milk is not enough for your baby.",
+        "output": "Alright, so I need to translate this English text into Spanish. The text is about the range of what's considered normal for a child's weight. It mentions that being in the 15th percentile doesn't necessarily mean the child is sick or that the parents are not feeding them properly. \n\nFirst, I shoul"
+    },
+    {
+        "example_id": 83,
+        "input": "Congenital heart surgery; Patent ductus arteriosus ligation; Hypoplastic left heart repair; Tetralogy of Fallot repair; Coarctation of the aorta repair; Atrial septal defect repair; Ventricular septal defect repair; Truncus arteriosus repair; Total anomalous pulmonary artery correction; Transposition of great vessels repair; Tricuspid atresia repair; VSD repair; ASD repair; PDA ligation",
+        "output": "### Input (translated):\n                    Heart surgery for congenital malformations; Ligation of patent ductus arteriosus; Repair of hypoplastic left heart; Repair of Tetralogy of Fallot; Repair of coarctation of the aorta; Repair of atrial septal defect; Repai"
+    },
+    {
+        "example_id": 84,
+        "input": "This test is done during a hospital stay.  It tells the difference between someone who is making urine because of drinking a lot of liquid and someone who is not.  If you have central diabetes insipidus, you will still make a lot of urine even when fluids are not given. ",
+        "output": "Alright, so I need to translate this text into English to Spanish. Let me read through it first to understand the context. The test is done during a hospital stay, so I should make sure to capture that in Spanish. It mentions the difference between someone who is making urine because of drinking a lot of liquid an"
+    },
+    {
+        "example_id": 85,
+        "input": "Also, many refined foods, such as white flour, sugar, and white rice, lack B vitamins and other important nutrients unless they are marked \"enriched.\" It is healthiest to get carbohydrates, vitamins, and other nutrients in as natural a form as possible -- for example, from fruit instead of table sugar.",
+        "output": "Alright, let's tackle this translation task. The user has provided a query that needs to be translated from English to Spanish. The input is a paragraph discussing the nutritional aspects of certain foods, specifically refined foods lacking essential nutrients unless enriched. The goal is to accurately convey the health benefits of obtaining nutrients in their natural form"
+    },
+    {
+        "example_id": 86,
+        "input": "The pituitary gland near the brain makes too much of the hormone ACTH (called Cushing's disease), which may happen with too much growth of the pituitary gland, a tumor of the pituitary gland, or a tumor elsewhere in the body (such as the pancreas, lung, and thyroid) that produces ACTH",
+        "output": "Okay, so I need to translate this medical text from English to Spanish. Let me read through it carefully to understand the content.\n\nThe sentence starts with \"The pituitary gland near the brain makes too much of the hormone ACTH.\" I know \"pituitary gland\" is \"glándula pitui"
+    },
+    {
+        "example_id": 87,
+        "input": "In the past, the prevailing opinion was that it was generally best to assign a gender as quickly as possible, often based on the external genitals rather than the chromosomal gender, and to instruct the parents to have no ambiguity in their minds as to the gender of the child.",
+        "output": "### Input:\n                    In the past, the prevailing opinion was that it was generally best to assign a gender as quickly as possible, often based on the external genitals rather than the chromosomal gender, and to instruct the parents to have no ambiguity in their minds as to the gender of the child.\n\n                    ### Respons"
+    },
+    {
+        "example_id": 88,
+        "input": "Daily preoccupation -- the user loses any motivation; does not care about school and work; has obvious behavior changes; thinking about drug use is more important than all other interests, including relationships; the user becomes secretive; may begin dealing drugs to help support habit; use of other, harder drugs may increase; legal problems may increase.",
+        "output": "Alright, I need to help the user translate their query into English to Spanish. Let me read through the instruction and the input carefully. The task is to translate the given text into English to Spanish. The input is a paragraph describing a situation where a user is preoccupied daily, losing motivation, not caring about schoo"
+    },
+    {
+        "example_id": 89,
+        "input": "You have sudden, sharp chest pain with shortness of breath, especially after a long trip, a stretch of bedrest (for example, following an operation), or other lack of movement, especially if one leg is swollen or more swollen than the other (this could be a blood clot, part of which has moved to the lungs).",
+        "output": "Okay, so I need to translate this medical text from English to Spanish. Let me read through it carefully. The sentence is about sudden, sharp chest pain with shortness of breath, especially after a long trip or bedrest, possibly due to a blood clot in the leg that has moved to the lungs.\n\nFirs"
+    },
+    {
+        "example_id": 90,
+        "input": "The mother may fake symptoms of illness in her child by adding blood to the child's urine or stool, withholding food, falsifying fevers, secretly giving the child drugs to make the child throw up or have diarrhea, or using other tricks, such as infecting intravenous (given through a vein) lines to make the child appear or become ill.",
+        "output": "Okay, so I need to translate this text from English to Spanish. Let me read through the input carefully to understand the context and nuances. The text talks about a mother faking her child's symptoms of illness through various methods. It mentions adding blood to urine or stool, withholding food, falsifying fevers"
+    },
+    {
+        "example_id": 91,
+        "input": "Because there is little or no flow out of the left heart, blood returning to the heart from the lungs needs to pass through the foramen ovale or an atrial septal defect (a hole connecting the collecting chambers on the left and right sides of the heart) back to the right side of the heart.",
+        "output": "Okay, I need to translate this medical text from English to Spanish. Let me start by reading the entire input to understand the context. The sentence is about blood flow in the heart, specifically mentioning the left heart output and the return of blood from the lungs. \n\nFirst, I'll break down the terms."
+    },
+    {
+        "example_id": 92,
+        "input": "You can take the tooth to the dentist by following one of these tips:Try to place the tooth back in the mouth where it fell out, so it is level with other teeth. Bite down gently on gauze or a wet tea bag to help keep it in place. Be careful not to swallow the tooth.",
+        "output": "Okay, so I need to translate this text into Spanish. The original is about what to do if a tooth falls out. First, I'll read through each sentence carefully to understand the instructions. \n\nThe first tip says to place the tooth back into the mouth where it fell out, making sure it's level wit"
+    },
+    {
+        "example_id": 93,
+        "input": "Another myth of adolescence is the idea that \"it will never happen to me, only the other person.\" \"It\" may represent becoming pregnant or catching a sexually-transmitted disease after having unprotected sex, causing a car crash while driving under the influence of alcohol or drugs, or any of the many other negative effects of risk-taking behaviors.",
+        "output": "Alright, so I've got this task to translate a given English text into Spanish. Let me read through it carefully to understand the content. The text talks about myths of adolescence, specifically the idea that \"it won't happen to me, only the other person.\" It mentions various scenarios like becoming pregnant, catching"
+    },
+    {
+        "example_id": 94,
+        "input": "It is important to have the teeth cleaned thoroughly.This may involve use of various tools to loosen and remove plaque and tartar from the teeth. Proper flossing and brushing is always needed, even after professional tooth cleaning, to reduce your risk of gum disease. Your dentist or hygienist will show you how to brush and floss properly.",
+        "output": "### Input:\n                    The weather forecast says there will be a storm tomorrow. I need to prepare for it. I have to make sure all the outdoor plants are secure and bring in any outdoor furniture. Also, I should check if there are any loose items in the garden that could be blown away by the win"
+    },
+    {
+        "example_id": 95,
+        "input": "How well you do depends on the amount of poison swallowed and how quickly treatment is received.",
+        "output": "Okay, so I need to translate the given English sentence into Spanish. The sentence is: \"How well you do depends on the amount of poison swallowed and how quickly treatment is received.\" \n\nFirst, I'll break it down into parts to understand each component. The main points are the outcome (\"how well you d"
+    },
+    {
+        "example_id": 96,
+        "input": "Rarely, children will have problems falling asleep or staying asleep.",
+        "output": "### Input:\n                    The problem is that the children will rarely fall asleep or stay asleep.\n\n                    ### Response:\n                    \n\n                    ### Input:\n                    Rarely, children will have problems falling asleep or staying asleep.\n\n                    ### Response:\n                    \n\n                    ### Input:\n                    Rarely, children will have problems falling aslee"
+    },
+    {
+        "example_id": 97,
+        "input": "Reye syndrome can occur when aspirin is used to treat children with viral infections, such as chickenpox or the flu.",
+        "output": "### Input:\n                    The capital of France is Paris.\n\n                    ### Response:\n                    The capital of France is Paris.\n\n                    ### Input:\n                    Hello! How can I assist you today?\n\n                    ### Response:\n                    ¡Hola! ¿Cómo puedo ayudarte hoy?\n\n                    ### Input:\n                    I love to travel t"
+    },
+    {
+        "example_id": 98,
+        "input": "Bili lights is a type of light therapy (phototherapy) that is used to treat newborn jaundice . Jaundice is a yellow coloring of the skin and eyes caused by too much of a substance called bilirubin.",
+        "output": "Bili lights is a type of light therapy (phototherapy) used to treat newborn jaundice. Jaundice is a yellow coloring of the skin and eyes caused by too much of a substance called bilirubin.\n                    ### Output:\n                    Bili lights is a type of light therapy (phototherap"
+    },
+    {
+        "example_id": 99,
+        "input": "Surgery combined with radiation therapy is often used to treat women with stage 1 disease that has a high chance of returning, has spread to the lymph nodes, or is a grade 2 or 3.",
+        "output": "Okay, I need to translate the given English sentence into Spanish. Let me read it carefully. The sentence is: \"Surgery combined with radiation therapy is often used to treat women with stage 1 disease that has a high chance of returning, has spread to the lymph nodes, or is a grade 2 o"
+    }
+]

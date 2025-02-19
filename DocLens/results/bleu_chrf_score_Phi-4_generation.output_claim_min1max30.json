@@ -1,0 +1,1041 @@
+[
+    {
+        "example_id": 0,
+        "input": "If you have a weakened immune system due to AIDS, cancer, transplantation, or corticosteroid use, call your doctor if you develop a cough, fever, or shortness of breath.",
+        "output": "Si tiene un sistema inmunitario debilitado debido al SIDA, el c\u00e1ncer, la trasplantaci\u00f3n o el uso de corticosteroides, llame a su m\u00e9dico si desarrolla tos, fiebre o dificultad para respirar.<|im_end|",
+        "subclaims_output": [
+            "Un sistema inmunitario debilitado puede ser causado por el SIDA.  ",
+            "Un sistema inmunitario debilitado puede ser causado por el c\u00e1ncer.  ",
+            "Un sistema inmunitario debilitado puede ser causado por la trasplantaci\u00f3n.  ",
+            "Un sistema inmunitario debilitado puede ser causado por el uso de corticosteroides.  ",
+            "Si tiene un sistema inmunitario debilitado, debe llamar a su m\u00e9dico si desarrolla tos.  ",
+            "Si tiene un sistema inmunitario debilitado, debe llamar a su m\u00e9dico si desarrolla fiebre.  ",
+            "Si tiene un sistema inmunitario debilitado, debe llamar a su m\u00e9dico si desarrolla dificultad para respirar."
+        ]
+    },
+    {
+        "example_id": 1,
+        "input": "Do NOT place the person in this position if a head, neck, back, or leg injury is suspected or if it makes the victim uncomfortable.",
+        "output": "No coloque a la persona en esta posici\u00f3n si se sospecha de una lesi\u00f3n en la cabeza, cuello, espalda o pierna o si le causa incomodidad al paciente.<|im_end|",
+        "subclaims_output": [
+            "No se debe colocar a la persona en esta posici\u00f3n si se sospecha de una lesi\u00f3n en la cabeza.  ",
+            "No se debe colocar a la persona en esta posici\u00f3n si se sospecha de una lesi\u00f3n en el cuello.  ",
+            "No se debe colocar a la persona en esta posici\u00f3n si se sospecha de una lesi\u00f3n en la espalda.  ",
+            "No se debe colocar a la persona en esta posici\u00f3n si se sospecha de una lesi\u00f3n en la pierna.  ",
+            "No se debe colocar a la persona en esta posici\u00f3n si le causa incomodidad al paciente."
+        ]
+    },
+    {
+        "example_id": 2,
+        "input": "Increased vision allows the infant to tell objects apart from backgrounds with very little contrast (such as a button on a blouse of the same color)",
+        "output": "La visi\u00f3n mejorada permite al beb\u00e9 distinguir los objetos del fondo con muy poco contraste (como un bot\u00f3n en una blusa del mismo color).<|im_end|",
+        "subclaims_output": [
+            "La visi\u00f3n mejorada permite al beb\u00e9 distinguir objetos del fondo.  ",
+            "El beb\u00e9 puede distinguir objetos con muy poco contraste.  ",
+            "Un ejemplo de poco contraste es un bot\u00f3n en una blusa del mismo color."
+        ]
+    },
+    {
+        "example_id": 3,
+        "input": "If obesity prevents you from being physically able to inspect your feet, ask a family member, neighbor, or visiting nurse to perform this important check.",
+        "output": "Si la obesidad le impide ser f\u00edsicamente capaz de inspeccionar sus pies, pida a un familiar, vecino o enfermera visitante que realice este importante chequeo.<|im_end|",
+        "subclaims_output": [
+            "La obesidad puede impedir la capacidad f\u00edsica de inspeccionar los pies.  ",
+            "Se recomienda pedir ayuda a un familiar, vecino o enfermera visitante para realizar el chequeo de los pies.  ",
+            "Inspeccionar los pies es un chequeo importante."
+        ]
+    },
+    {
+        "example_id": 4,
+        "input": "CT scan or MRI to confirm that there is a growth, and to see if the cancer has spread to lymph nodes in the neck",
+        "output": "Tomograf\u00eda computarizada o resonancia magn\u00e9tica para confirmar que hay un crecimiento y para ver si el c\u00e1ncer se ha extendido a los ganglios linf\u00e1ticos del cuello.<|im_end|",
+        "subclaims_output": [
+            "Se realizar\u00e1 una tomograf\u00eda computarizada o resonancia magn\u00e9tica.  ",
+            "El prop\u00f3sito de la tomograf\u00eda computarizada o resonancia magn\u00e9tica es confirmar que hay un crecimiento.  ",
+            "Tambi\u00e9n se evaluar\u00e1 si el c\u00e1ncer se ha extendido a los ganglios linf\u00e1ticos del cuello."
+        ]
+    },
+    {
+        "example_id": 5,
+        "input": "A uniform brown color is usually seen over the cheeks, forehead, nose, or upper lip.It is most often symmetrical (matching on both sides of the face).",
+        "output": "Se observa un color marr\u00f3n uniforme, generalmente, en las mejillas, frente, nariz o labio superior. Suele ser sim\u00e9trico (igual en ambos lados de la cara).<|im_end|",
+        "subclaims_output": [
+            "Se observa un color marr\u00f3n uniforme en las mejillas.  ",
+            "Se observa un color marr\u00f3n uniforme en la frente.  ",
+            "Se observa un color marr\u00f3n uniforme en la nariz.  ",
+            "Se observa un color marr\u00f3n uniforme en el labio superior.  ",
+            "El color marr\u00f3n suele ser sim\u00e9trico en ambos lados de la cara."
+        ]
+    },
+    {
+        "example_id": 6,
+        "input": "Your doctor may do other tests to check high blood pressure, heart disease, diabetes, high cholesterol, and other causes of, and risk factors for TIAs or stroke.",
+        "output": "El m\u00e9dico puede hacer otras pruebas para verificar la presi\u00f3n arterial alta, la enfermedad card\u00edaca, la diabetes, el colesterol alto y otras causas y factores de riesgo de los accidentes cerebrovasculares transitorios (ACV) o los accidentes cerebrovascu",
+        "subclaims_output": [
+            "El m\u00e9dico puede hacer pruebas para verificar la presi\u00f3n arterial alta.  ",
+            "El m\u00e9dico puede hacer pruebas para verificar la enfermedad card\u00edaca.  ",
+            "El m\u00e9dico puede hacer pruebas para verificar la diabetes.  ",
+            "El m\u00e9dico puede hacer pruebas para verificar el colesterol alto.  ",
+            "El m\u00e9dico puede investigar otras causas y factores de riesgo de los accidentes cerebrovasculares transitorios (ACV).  ",
+            "El m\u00e9dico puede investigar factores de riesgo de los accidentes cerebrovasculares."
+        ]
+    },
+    {
+        "example_id": 7,
+        "input": "Stridor is an abnormal, high-pitched, musical breathing sound caused by a blockage in the throat or voice box (larynx).It is usually heard when taking in a breath.",
+        "output": "La estridor es un sonido respiratorio anormal, agudo, musical, causado por un bloqueo en la garganta o en la laringe. Se escucha generalmente al inhalar.<|im_end|",
+        "subclaims_output": [
+            "El estridor es un sonido respiratorio anormal.  ",
+            "El estridor tiene un tono agudo y musical.  ",
+            "El estridor es causado por un bloqueo en la garganta o en la laringe.  ",
+            "El estridor se escucha generalmente al inhalar."
+        ]
+    },
+    {
+        "example_id": 8,
+        "input": "Is there blood on the toilet paper only?",
+        "output": "\u00bfHay sangre solo en el papel higi\u00e9nico?<|im_end|",
+        "subclaims_output": [
+            "Hay presencia de sangre en el papel higi\u00e9nico."
+        ]
+    },
+    {
+        "example_id": 9,
+        "input": "Ask your health care provider.",
+        "output": "Preg\u00fantele a su proveedor de atenci\u00f3n m\u00e9dica.<|im_end|",
+        "subclaims_output": [
+            "El paciente debe consultar a su proveedor de atenci\u00f3n m\u00e9dica."
+        ]
+    },
+    {
+        "example_id": 10,
+        "input": "Complete bed rest for several days is usually recommended.",
+        "output": "Se recomienda el reposo en cama completo durante varios d\u00edas.<|im_end|",
+        "subclaims_output": [
+            "Se recomienda el reposo en cama completo.  ",
+            "El reposo en cama completo debe durar varios d\u00edas."
+        ]
+    },
+    {
+        "example_id": 11,
+        "input": "They still have foot problems after treatment",
+        "output": "Todav\u00eda tienen problemas en los pies despu\u00e9s del tratamiento.<|im_end|",
+        "subclaims_output": [
+            "Los pacientes todav\u00eda tienen problemas en los pies.  ",
+            "Los problemas en los pies persisten despu\u00e9s del tratamiento."
+        ]
+    },
+    {
+        "example_id": 12,
+        "input": "Disorders of the endocrine system",
+        "output": "Trastornos del sistema endocrino<|im_end|",
+        "subclaims_output": [
+            "El paciente presenta trastornos del sistema endocrino."
+        ]
+    },
+    {
+        "example_id": 13,
+        "input": "Biopsy - breast; Open breast biopsy",
+        "output": "Biopsia - mama; Biopsia abierta de mama<|im_end|",
+        "subclaims_output": [
+            "A biopsy was performed on the breast.  ",
+            "The type of biopsy conducted was an open breast biopsy."
+        ]
+    },
+    {
+        "example_id": 14,
+        "input": "Are illegal drugs being used?",
+        "output": "\u00bfSe est\u00e1n usando drogas ilegales?<|im_end|",
+        "subclaims_output": [
+            "Se est\u00e1 preguntando si se est\u00e1n usando drogas ilegales."
+        ]
+    },
+    {
+        "example_id": 15,
+        "input": "Preventive measures vary depending on the specific disorder.",
+        "output": "Las medidas preventivas var\u00edan dependiendo del trastorno espec\u00edfico.<|im_end|",
+        "subclaims_output": [
+            "Las medidas preventivas son diferentes para cada trastorno espec\u00edfico."
+        ]
+    },
+    {
+        "example_id": 16,
+        "input": "Some laboratories use different measurements or may test different specimens.",
+        "output": "Algunos laboratorios utilizan diferentes mediciones o pueden analizar diferentes muestras.<|im_end|",
+        "subclaims_output": [
+            "Algunos laboratorios utilizan diferentes mediciones.  ",
+            "Algunos laboratorios pueden analizar diferentes muestras."
+        ]
+    },
+    {
+        "example_id": 17,
+        "input": "Menopause. A drop in the hormone estrogen causes vaginal dryness.",
+        "output": "La menopausia. La disminuci\u00f3n del nivel de la hormona estr\u00f3geno causa sequedad vaginal.<|im_end|",
+        "subclaims_output": [
+            "La menopausia se caracteriza por una disminuci\u00f3n del nivel de la hormona estr\u00f3geno.  ",
+            "La disminuci\u00f3n del nivel de estr\u00f3geno causa sequedad vaginal."
+        ]
+    },
+    {
+        "example_id": 18,
+        "input": "Depression and older age are both risk factors for suicide.",
+        "output": "La depresi\u00f3n y la edad avanzada son factores de riesgo para el suicidio.<|im_end|",
+        "subclaims_output": [
+            "La depresi\u00f3n es un factor de riesgo para el suicidio.  ",
+            "La edad avanzada es un factor de riesgo para el suicidio."
+        ]
+    },
+    {
+        "example_id": 19,
+        "input": "Most women have only one polyp, but some women have two or three.",
+        "output": "La mayor\u00eda de las mujeres tiene un solo p\u00f3lipo, pero algunas mujeres tienen dos o tres.<|im_end|",
+        "subclaims_output": [
+            "La mayor\u00eda de las mujeres tiene un solo p\u00f3lipo.  ",
+            "Algunas mujeres tienen dos o tres p\u00f3lipos."
+        ]
+    },
+    {
+        "example_id": 20,
+        "input": "This test is done to measure the level of amino acids in the blood.",
+        "output": "Se realiza este examen para medir el nivel de amino\u00e1cidos en la sangre.<|im_end|",
+        "subclaims_output": [
+            "Se realiza un examen para medir el nivel de amino\u00e1cidos en la sangre."
+        ]
+    },
+    {
+        "example_id": 21,
+        "input": "The infection is spread by saliva, urine, respiratory droplets, sexual contact, and blood transfusions.",
+        "output": "La infecci\u00f3n se propaga por la saliva, la orina, las gotitas respiratorias, el contacto sexual y las transfusiones de sangre.<|im_end|",
+        "subclaims_output": [
+            "La infecci\u00f3n se propaga por la saliva.  ",
+            "La infecci\u00f3n se propaga por la orina.  ",
+            "La infecci\u00f3n se propaga por las gotitas respiratorias.  ",
+            "La infecci\u00f3n se propaga por contacto sexual.  ",
+            "La infecci\u00f3n se propaga por transfusiones de sangre."
+        ]
+    },
+    {
+        "example_id": 22,
+        "input": "You may occasionally eat lean, 3-ounce cuts of red meat.",
+        "output": "Puede comer ocasionalmente cortes magros de carne roja de 3 onzas.<|im_end|",
+        "subclaims_output": [
+            "El paciente puede comer ocasionalmente carne roja.  ",
+            "Los cortes de carne roja permitidos deben ser magros.  ",
+            "La porci\u00f3n recomendada de carne roja es de 3 onzas."
+        ]
+    },
+    {
+        "example_id": 23,
+        "input": "Several conditions may cause increased pressure in the skull, including:",
+        "output": "Algunas condiciones pueden causar un aumento de la presi\u00f3n en el cr\u00e1neo, incluyendo:<|im_end|",
+        "subclaims_output": [
+            "Algunas condiciones pueden causar un aumento de la presi\u00f3n en el cr\u00e1neo."
+        ]
+    },
+    {
+        "example_id": 24,
+        "input": "Abnormal heart sounds",
+        "output": "Sonidos card\u00edacos anormales<|im_end|",
+        "subclaims_output": [
+            "Se han detectado sonidos card\u00edacos anormales."
+        ]
+    },
+    {
+        "example_id": 25,
+        "input": "Waxy, yellow surface",
+        "output": "Superficie amarilla y cerosa<|im_end|",
+        "subclaims_output": [
+            "La superficie es amarilla.  ",
+            "La superficie es cerosa."
+        ]
+    },
+    {
+        "example_id": 26,
+        "input": "Oxygen",
+        "output": "Ox\u00edgeno<|im_end|",
+        "subclaims_output": [
+            "The clinical note mentions \"Ox\u00edgeno.\""
+        ]
+    },
+    {
+        "example_id": 27,
+        "input": "Recent open heart surgery",
+        "output": "Cirug\u00eda card\u00edaca reciente<|im_end|",
+        "subclaims_output": [
+            "El paciente ha tenido una cirug\u00eda card\u00edaca reciente."
+        ]
+    },
+    {
+        "example_id": 28,
+        "input": "Thyroid disease",
+        "output": "Enfermedad de la gl\u00e1ndula tiroides<|im_end|",
+        "subclaims_output": [
+            "La paciente presenta una enfermedad de la gl\u00e1ndula tiroides."
+        ]
+    },
+    {
+        "example_id": 29,
+        "input": "Nausea",
+        "output": "N\u00e1useas<|im_end|",
+        "subclaims_output": [
+            "The patient is experiencing nausea."
+        ]
+    },
+    {
+        "example_id": 30,
+        "input": "Brussels sproutsCabbage",
+        "output": "RepolloBr\u00f3coli<|im_end|",
+        "subclaims_output": [
+            "The clinical note mentions \"Repollo\" and \"Br\u00f3coli.\""
+        ]
+    },
+    {
+        "example_id": 31,
+        "input": "Oysters",
+        "output": "Ostiones<|im_end|",
+        "subclaims_output": []
+    },
+    {
+        "example_id": 32,
+        "input": "CPR can be lifesaving, but it is best done by someone trained in an accredited CPR course.",
+        "output": "La RCP puede salvar vidas, pero es mejor que la realice una persona capacitada en un curso de RCP acreditado.<|im_end|",
+        "subclaims_output": [
+            "La RCP puede salvar vidas.  ",
+            "Es mejor que la RCP sea realizada por una persona capacitada.  ",
+            "La capacitaci\u00f3n debe ser en un curso de RCP acreditado."
+        ]
+    },
+    {
+        "example_id": 33,
+        "input": "Always let your doctor know about any cold, flu, fever, herpes breakout, or other illnesses you may have. ",
+        "output": "Siempre informe a su m\u00e9dico sobre cualquier resfriado, gripe, fiebre, brote de herpes u otras enfermedades que pueda tener.<|im_end|",
+        "subclaims_output": [
+            "Es importante informar al m\u00e9dico sobre cualquier resfriado.  ",
+            "Es importante informar al m\u00e9dico sobre cualquier gripe.  ",
+            "Es importante informar al m\u00e9dico sobre cualquier fiebre.  ",
+            "Es importante informar al m\u00e9dico sobre cualquier brote de herpes.  ",
+            "Es importante informar al m\u00e9dico sobre otras enfermedades que pueda tener.  "
+        ]
+    },
+    {
+        "example_id": 34,
+        "input": "Tretinoin (Retin-A) or creams containing alpha-hydroxy acids may be recommended, but these aren't guaranteed to help.",
+        "output": "Tretinoin (Retin-A) o cremas que contienen \u00e1cidos alfa-hidroxi pueden ser recomendados, pero no est\u00e1n garantizados para ayudar.<|im_end|",
+        "subclaims_output": [
+            "Tretinoin (Retin-A) puede ser recomendado.  ",
+            "Cremas que contienen \u00e1cidos alfa-hidroxi pueden ser recomendadas.  ",
+            "No hay garant\u00eda de que Tretinoin o las cremas con \u00e1cidos alfa-hidroxi ayuden."
+        ]
+    },
+    {
+        "example_id": 35,
+        "input": "Fever is the classic symptom and may persist for days before any other symptoms appear.",
+        "output": "La fiebre es el s\u00edntoma cl\u00e1sico y puede persistir durante d\u00edas antes de que aparezcan otros s\u00edntomas.<|im_end|",
+        "subclaims_output": [
+            "La fiebre es el s\u00edntoma cl\u00e1sico.  ",
+            "La fiebre puede persistir durante d\u00edas.  ",
+            "Otros s\u00edntomas pueden aparecer despu\u00e9s de la fiebre."
+        ]
+    },
+    {
+        "example_id": 36,
+        "input": "There is more likely to be increased amounts of pollen in the air on hot, dry, windy days.",
+        "output": "Es m\u00e1s probable que haya m\u00e1s cantidad de polen en el aire en los d\u00edas calurosos, secos y ventosos.<|im_end|",
+        "subclaims_output": [
+            "Hay m\u00e1s cantidad de polen en el aire en los d\u00edas calurosos.  ",
+            "Hay m\u00e1s cantidad de polen en el aire en los d\u00edas secos.  ",
+            "Hay m\u00e1s cantidad de polen en el aire en los d\u00edas ventosos.  ",
+            "La probabilidad de encontrar polen en el aire aumenta en condiciones clim\u00e1ticas espec\u00edficas."
+        ]
+    },
+    {
+        "example_id": 37,
+        "input": "You get iron through certain foods, and your body also reuses iron from old red blood cells.",
+        "output": "Se obtiene hierro a trav\u00e9s de ciertos alimentos y el cuerpo tambi\u00e9n reutiliza el hierro de los gl\u00f3bulos rojos viejos.<|im_end|",
+        "subclaims_output": [
+            "El hierro se obtiene a trav\u00e9s de ciertos alimentos.  ",
+            "El cuerpo reutiliza el hierro de los gl\u00f3bulos rojos viejos."
+        ]
+    },
+    {
+        "example_id": 38,
+        "input": "Asthma symptoms usually occur much less often or disappear as the child gets get older.",
+        "output": "Los s\u00edntomas del asma suelen ocurrir mucho menos a menudo o desaparecer a medida que el ni\u00f1o va creciendo.<|im_end|",
+        "subclaims_output": [
+            "Los s\u00edntomas del asma suelen ocurrir mucho menos a menudo a medida que el ni\u00f1o va creciendo.  ",
+            "Los s\u00edntomas del asma pueden desaparecer a medida que el ni\u00f1o va creciendo."
+        ]
+    },
+    {
+        "example_id": 39,
+        "input": "Potatoes that are not green and have had any sprouts removed are safe to eat.",
+        "output": "Las papas que no est\u00e9n verdes y de las que se hayan retirado los brotes son seguras para comer.<|im_end|",
+        "subclaims_output": [
+            "Las papas que no est\u00e9n verdes son seguras para comer.  ",
+            "Las papas de las que se hayan retirado los brotes son seguras para comer.  ",
+            "Las papas que est\u00e1n verdes no son seguras para comer.  ",
+            "Las papas con brotes deben ser retirados antes de consumirlas."
+        ]
+    },
+    {
+        "example_id": 40,
+        "input": "When the needle is inserted to draw blood, you may feel moderate pain, or only a prick or stinging sensation.",
+        "output": "Cuando se inserta la aguja para extraer sangre, puede sentir un dolor moderado o solo una sensaci\u00f3n de pinchazo o punzada.<|im_end|",
+        "subclaims_output": [
+            "La inserci\u00f3n de la aguja para extraer sangre puede causar un dolor moderado.  ",
+            "La inserci\u00f3n de la aguja para extraer sangre puede causar solo una sensaci\u00f3n de pinchazo o punzada."
+        ]
+    },
+    {
+        "example_id": 41,
+        "input": "However, as a general rule, once a substance causes allergies for an individual, it can continue to affect the person long term.",
+        "output": "Sin embargo, como regla general, una vez que una sustancia causa alergias en un individuo, puede afectarlo a largo plazo.<|im_end|",
+        "subclaims_output": [
+            "Una sustancia que causa alergias en un individuo puede tener efectos a largo plazo."
+        ]
+    },
+    {
+        "example_id": 42,
+        "input": "If you have surgery, your sperm count will likely increase but it will not improve your chances of getting a woman pregnant.",
+        "output": "Si se somete a una cirug\u00eda, su conteo de espermatozoides probablemente aumentar\u00e1, pero no mejorar\u00e1 sus posibilidades de embarazar a una mujer.<|im_end|",
+        "subclaims_output": [
+            "Si se somete a una cirug\u00eda, su conteo de espermatozoides probablemente aumentar\u00e1.  ",
+            "La cirug\u00eda no mejorar\u00e1 sus posibilidades de embarazar a una mujer."
+        ]
+    },
+    {
+        "example_id": 43,
+        "input": "Screening women with pelvic ultrasound or blood tests, such as the Ca-125 has not been found to be effective and is not recommended.",
+        "output": "La detecci\u00f3n de mujeres con ultrasonido p\u00e9lvico o pruebas de sangre, como el Ca-125, no se ha encontrado que sea efectiva y no se recomienda.<|im_end|",
+        "subclaims_output": [
+            "La detecci\u00f3n de mujeres con ultrasonido p\u00e9lvico no se ha encontrado efectiva.  ",
+            "La detecci\u00f3n de mujeres con pruebas de sangre, como el Ca-125, no se ha encontrado efectiva.  ",
+            "No se recomienda la detecci\u00f3n de mujeres con ultrasonido p\u00e9lvico.  ",
+            "No se recomienda la detecci\u00f3n de mujeres con pruebas de sangre, como el Ca-125."
+        ]
+    },
+    {
+        "example_id": 44,
+        "input": "Protein can also be used by the body for energy, but only after glycogen or carbohydrate stores have been used up.",
+        "output": "La prote\u00edna tambi\u00e9n puede ser utilizada por el cuerpo para obtener energ\u00eda, pero solo despu\u00e9s de que se hayan agotado las reservas de gluc\u00f3geno o de carbohidratos.<|im_end|",
+        "subclaims_output": [
+            "La prote\u00edna puede ser utilizada por el cuerpo para obtener energ\u00eda.  ",
+            "La utilizaci\u00f3n de prote\u00edna para obtener energ\u00eda ocurre solo despu\u00e9s de agotar las reservas de gluc\u00f3geno.  ",
+            "La utilizaci\u00f3n de prote\u00edna para obtener energ\u00eda tambi\u00e9n ocurre despu\u00e9s de agotar las reservas de carbohidratos."
+        ]
+    },
+    {
+        "example_id": 45,
+        "input": "An extradural hemorrhage is bleeding between the inside of the skull and the outer covering of the brain (called the \"dura\").",
+        "output": "Un hematoma extradural es un sangrado entre el interior del cr\u00e1neo y la cubierta externa del cerebro (llamada \"dura\").<|im_end|",
+        "subclaims_output": [
+            "Un hematoma extradural es un tipo de sangrado.  ",
+            "El hematoma extradural ocurre entre el interior del cr\u00e1neo y la cubierta externa del cerebro.  ",
+            "La cubierta externa del cerebro se llama \"dura\"."
+        ]
+    },
+    {
+        "example_id": 46,
+        "input": "Without PIG-A, important proteins cannot connect to the cell surface and protect the cell from substances in the blood called complement.",
+        "output": "Sin PIG-A, las prote\u00ednas importantes no pueden conectarse a la superficie celular y protegerla de las sustancias en la sangre llamadas complemento.<|im_end|",
+        "subclaims_output": [
+            "Sin PIG-A, las prote\u00ednas importantes no pueden conectarse a la superficie celular.  ",
+            "Las prote\u00ednas importantes son necesarias para proteger la superficie celular.  ",
+            "Las sustancias en la sangre que afectan la superficie celular se llaman complemento."
+        ]
+    },
+    {
+        "example_id": 47,
+        "input": "If you can see bone in the injured site, call your local emergency number (such as 911) or local hospital for further advice.",
+        "output": "Si puede ver hueso en el sitio de la lesi\u00f3n, llame al n\u00famero de emergencia local (como 911) o al hospital local para obtener m\u00e1s consejos.<|im_end|",
+        "subclaims_output": [
+            "Se puede ver hueso en el sitio de la lesi\u00f3n.  ",
+            "Se debe llamar al n\u00famero de emergencia local si se observa hueso.  ",
+            "El n\u00famero de emergencia local puede ser 911.  ",
+            "Tambi\u00e9n se puede llamar al hospital local para obtener m\u00e1s consejos."
+        ]
+    },
+    {
+        "example_id": 48,
+        "input": "Bladder distention (urinary bladder over-filled with fluid) can cause a firm mass in the center of the lower abdomen above the pelvic bones.In extreme cases it can reach as far up as the navel.",
+        "output": "La distensi\u00f3n de la vejiga (vejiga urinaria llena de l\u00edquido) puede causar una masa firme en el centro del abdomen inferior, por encima de los huesos p\u00e9lvicos. En casos extremos, puede llegar hasta el ombligo.<|im_end|",
+        "subclaims_output": [
+            "La distensi\u00f3n de la vejiga puede causar una masa firme en el abdomen inferior.  ",
+            "La masa firme se localiza por encima de los huesos p\u00e9lvicos.  ",
+            "En casos extremos, la masa puede llegar hasta el ombligo.  ",
+            "La vejiga urinaria se llena de l\u00edquido durante la distensi\u00f3n."
+        ]
+    },
+    {
+        "example_id": 49,
+        "input": "Your kidneys help control your body's acid level by removing acid from the blood and sending it into your urine.Acidic substances in the body are counteracted by alkaline substances, primarily bicarbonate.",
+        "output": "Los ri\u00f1ones ayudan a controlar el nivel de \u00e1cido en el cuerpo al eliminar el \u00e1cido de la sangre y enviarlo a la orina. Los \u00e1cidos en el cuerpo son contrarrestados por sustancias alcalinas, principalmente bicarbonato.<|im_end|",
+        "subclaims_output": [
+            "Los ri\u00f1ones ayudan a controlar el nivel de \u00e1cido en el cuerpo.  ",
+            "Los ri\u00f1ones eliminan el \u00e1cido de la sangre.  ",
+            "El \u00e1cido eliminado por los ri\u00f1ones se env\u00eda a la orina.  ",
+            "Los \u00e1cidos en el cuerpo son contrarrestados por sustancias alcalinas.  ",
+            "El principal alcalino que contrarresta los \u00e1cidos en el cuerpo es el bicarbonato."
+        ]
+    },
+    {
+        "example_id": 50,
+        "input": "You'll likely be diagnosed with rheumatic fever if you meet two major criteria, or one major and two minor criteria, and have signs that you've had a previous strep infection.",
+        "output": "Probablemente se le diagnosticar\u00e1 fiebre reum\u00e1tica si cumple con dos criterios mayores, o uno mayor y dos menores, y tiene signos de que ha tenido una infecci\u00f3n previa por estreptococos.<|im_end|",
+        "subclaims_output": [
+            "El diagn\u00f3stico de fiebre reum\u00e1tica se basa en criterios cl\u00ednicos.  ",
+            "Se requieren dos criterios mayores para el diagn\u00f3stico de fiebre reum\u00e1tica.  ",
+            "Alternativamente, se puede diagnosticar fiebre reum\u00e1tica con uno de los criterios mayores y dos menores.  ",
+            "Es necesario que el paciente presente signos de una infecci\u00f3n previa por estreptococos para el diagn\u00f3stico de fiebre reum\u00e1tica."
+        ]
+    },
+    {
+        "example_id": 51,
+        "input": "A trained physician, often a cardiologist, inserts a small needle into the chest between the ribs and into the thin sac that surrounds the heart (the pericardium).A small amount of fluid is taken out.",
+        "output": "Un m\u00e9dico capacitado, a menudo un cardi\u00f3logo, inserta una aguja peque\u00f1a en el pecho entre las costillas y en el delgado saco que rodea el coraz\u00f3n (el pericardio). Se extrae una peque\u00f1a cantidad de l\u00edquido.<|im_end|",
+        "subclaims_output": [
+            "Un m\u00e9dico capacitado, a menudo un cardi\u00f3logo, realiza el procedimiento.  ",
+            "Se inserta una aguja peque\u00f1a en el pecho entre las costillas.  ",
+            "La aguja se inserta en el delgado saco que rodea el coraz\u00f3n, conocido como pericardio.  ",
+            "Se extrae una peque\u00f1a cantidad de l\u00edquido del pericardio."
+        ]
+    },
+    {
+        "example_id": 52,
+        "input": "Increased calcium for a limited period of time does not normally cause side effects.However, receiving higher amounts of calcium over a long period of time raises the risk of kidney stones in some people.",
+        "output": "El aumento de calcio por un periodo de tiempo limitado no causa normalmente efectos secundarios. Sin embargo, recibir cantidades m\u00e1s altas de calcio durante un periodo de tiempo prolongado aumenta el riesgo de c\u00e1lculos renales en algunas personas.<|im_end|",
+        "subclaims_output": [
+            "El aumento de calcio por un periodo de tiempo limitado no causa normalmente efectos secundarios.  ",
+            "Recibir cantidades m\u00e1s altas de calcio durante un periodo de tiempo prolongado aumenta el riesgo de c\u00e1lculos renales en algunas personas."
+        ]
+    },
+    {
+        "example_id": 53,
+        "input": "Children with early sexual development are more likely to have psychological and social problems.Children and adolescents generally want to be the same as their peers, and early sexual development can make them appear different.",
+        "output": "Los ni\u00f1os con desarrollo sexual precoz tienen m\u00e1s probabilidades de tener problemas psicol\u00f3gicos y sociales. Los ni\u00f1os y adolescentes generalmente quieren ser como sus compa\u00f1eros, y el desarrollo sexual precoz puede hacer que se vean diferentes.<|im_end|",
+        "subclaims_output": [
+            "Los ni\u00f1os con desarrollo sexual precoz tienen m\u00e1s probabilidades de tener problemas psicol\u00f3gicos.  ",
+            "Los ni\u00f1os con desarrollo sexual precoz tienen m\u00e1s probabilidades de tener problemas sociales.  ",
+            "Los ni\u00f1os y adolescentes generalmente quieren ser como sus compa\u00f1eros.  ",
+            "El desarrollo sexual precoz puede hacer que los ni\u00f1os y adolescentes se vean diferentes de sus compa\u00f1eros."
+        ]
+    },
+    {
+        "example_id": 54,
+        "input": "Veins and arteries vary in size from one patient to another and from one side of the body to the other.Obtaining a blood sample from some people may be more difficult than from others.",
+        "output": "Las venas y las arterias var\u00edan en tama\u00f1o de un paciente a otro y de un lado del cuerpo al otro.Obtener una muestra de sangre de algunas personas puede ser m\u00e1s dif\u00edcil que de otras.<|im_end|",
+        "subclaims_output": [
+            "Las venas y las arterias var\u00edan en tama\u00f1o de un paciente a otro.  ",
+            "Las venas y las arterias var\u00edan en tama\u00f1o de un lado del cuerpo al otro.  ",
+            "Obtener una muestra de sangre puede ser m\u00e1s dif\u00edcil en algunas personas que en otras."
+        ]
+    },
+    {
+        "example_id": 55,
+        "input": "In many cases it will prevent you from getting sick.For example, a person who has had chickenpox or has been immunized against chickenpox is immune from getting chickenpox again.Watch this video about:Immune response",
+        "output": "En muchos casos, evitar\u00e1 que se enferme. Por ejemplo, una persona que ha tenido varicela o que ha sido vacunada contra la varicela es inmune a contraer varicela nuevamente. Mire este video sobre: Respuesta inmune.<|im_end|",
+        "subclaims_output": [
+            "Evitar\u00e1 que se enferme en muchos casos.  ",
+            "Una persona que ha tenido varicela es inmune a contraer varicela nuevamente.  ",
+            "Una persona que ha sido vacunada contra la varicela es inmune a contraer varicela nuevamente.  ",
+            "Se sugiere mirar un video sobre la respuesta inmune."
+        ]
+    },
+    {
+        "example_id": 56,
+        "input": "For example, a food that has 13 grams of fat with a Percent Daily Value of 20% means that 13 grams of fat is 20%, or one-fifth, of the total daily fat recommended for a person who eats 2,000 calories per day.",
+        "output": "Por ejemplo, un alimento que tiene 13 gramos de grasa con un valor diario del 20% significa que 13 gramos de grasa es el 20%, o una quinta parte, de la cantidad total de grasa diaria recomendada para una persona que consume 2.00",
+        "subclaims_output": [
+            "Un alimento contiene 13 gramos de grasa.  ",
+            "13 gramos de grasa representan el 20% del valor diario recomendado.  ",
+            "El 20% equivale a una quinta parte de la cantidad total de grasa diaria recomendada.  ",
+            "La cantidad total de grasa diaria recomendada es para una persona que consume 2,000 calor\u00edas."
+        ]
+    },
+    {
+        "example_id": 57,
+        "input": "Laparoscopic repair: Your surgeon will make 3\u00a0- 5 small cuts in your belly.Your surgeon will insert a laparoscope (a thin, hollow tube with a tiny camera on the end) through one of these cuts and other tools through the other cuts.",
+        "output": "Reparaci\u00f3n laparosc\u00f3pica: El cirujano har\u00e1 3 a 5 cortes peque\u00f1os en el abdomen. El cirujano insertar\u00e1 un laparoscopio (un tubo delgado y hueco con una c\u00e1mara diminuta en el extremo) a trav\u00e9s d",
+        "subclaims_output": [
+            "Se realizar\u00e1 una reparaci\u00f3n laparosc\u00f3pica.  ",
+            "El cirujano har\u00e1 de 3 a 5 cortes peque\u00f1os en el abdomen.  ",
+            "Se insertar\u00e1 un laparoscopio a trav\u00e9s de los cortes.  ",
+            "El laparoscopio es un tubo delgado y hueco.  ",
+            "El laparoscopio tiene una c\u00e1mara diminuta en el extremo."
+        ]
+    },
+    {
+        "example_id": 58,
+        "input": "However, recent studies do not support this idea, and suggest that these medications can be used in children with tics who also have attention-deficit disorder (which often occurs in the same group of children).A chronic motor tic disorder also exists.",
+        "output": "Sin embargo, estudios recientes no apoyan esta idea y sugieren que estos medicamentos pueden ser utilizados en ni\u00f1os con tics que tambi\u00e9n tienen trastorno por d\u00e9ficit de atenci\u00f3n (que a menudo ocurre en el mismo grupo de ni\u00f1os). Tambi\u00e9n existe un trastorno de tics mot",
+        "subclaims_output": [
+            "Estudios recientes no apoyan la idea de que ciertos medicamentos no se pueden utilizar en ni\u00f1os con tics.  ",
+            "Los medicamentos pueden ser utilizados en ni\u00f1os con tics que tambi\u00e9n tienen trastorno por d\u00e9ficit de atenci\u00f3n.  ",
+            "El trastorno por d\u00e9ficit de atenci\u00f3n a menudo ocurre en el mismo grupo de ni\u00f1os que tienen tics.  ",
+            "Existe un trastorno de tics motrices."
+        ]
+    },
+    {
+        "example_id": 59,
+        "input": "These symptoms are more likely to occur if the skin has been cut or rubbed because this gives the MRSA germ a way to \u201cget in.\u201d Symptoms are also more likely in areas where there is more body hair due to hair follicles.",
+        "output": "Estos s\u00edntomas son m\u00e1s probables si la piel ha sido cortada o frotada, ya que esto da al germen de la SARM una forma de \u201centrar\u201d. Los s\u00edntomas tambi\u00e9n son m\u00e1s probables en \u00e1reas donde hay m\u00e1s vello corporal debido a los fol\u00edculos pi",
+        "subclaims_output": [
+            "Los s\u00edntomas son m\u00e1s probables si la piel ha sido cortada.  ",
+            "Los s\u00edntomas son m\u00e1s probables si la piel ha sido frotada.  ",
+            "Las cortaduras y fricciones permiten que el germen de la SARM entre en el cuerpo.  ",
+            "Los s\u00edntomas son m\u00e1s probables en \u00e1reas con m\u00e1s vello corporal.  ",
+            "La presencia de vello corporal est\u00e1 relacionada con los fol\u00edculos pilosos."
+        ]
+    },
+    {
+        "example_id": 60,
+        "input": "Some patients develop heart failure and high blood pressure in the blood vessels of their lungs.Your chances of recovering or of the disease getting worse depend on the cause and how severe the disease was when it was first diagnosed.",
+        "output": "<|im_end|",
+        "subclaims_output": []
+    },
+    {
+        "example_id": 61,
+        "input": "If a young child refuses to put weight on an arm or leg after an accident, won't move the arm or leg, or you can clearly see a deformity, assume the child has a broken bone and get medical help.",
+        "output": "Si un ni\u00f1o peque\u00f1o se niega a poner peso en un brazo o pierna despu\u00e9s de un accidente, no mueve el brazo o la pierna, o si usted puede ver claramente una deformidad, asuma que el ni\u00f1o tiene un hueso roto y obtenga ayud",
+        "subclaims_output": [
+            "Un ni\u00f1o peque\u00f1o que se niega a poner peso en un brazo o pierna despu\u00e9s de un accidente puede tener un hueso roto.  ",
+            "Si un ni\u00f1o peque\u00f1o no mueve el brazo o la pierna despu\u00e9s de un accidente, esto puede indicar una fractura.  ",
+            "La presencia de una deformidad visible en un brazo o pierna de un ni\u00f1o peque\u00f1o sugiere que puede tener un hueso roto.  ",
+            "Se debe buscar ayuda m\u00e9dica si se sospecha que un ni\u00f1o peque\u00f1o tiene un hueso roto."
+        ]
+    },
+    {
+        "example_id": 62,
+        "input": "The amount of liquid you eat (such as soup) or drink will be limited to the amount of urine you can produce.You will be told what you may and may not eat to reduce the buildup of toxins that the kidneys would normally remove.",
+        "output": "La cantidad de l\u00edquido que usted beba (como sopa) o ingiera estar\u00e1 limitada a la cantidad de orina que pueda producir. Se le informar\u00e1 qu\u00e9 puede y qu\u00e9 no puede comer para reducir la acumulaci\u00f3n de toxinas que los ri\u00f1ones normalmente eliminar\u00edan",
+        "subclaims_output": [
+            "La cantidad de l\u00edquido que se debe beber est\u00e1 limitada a la cantidad de orina que se puede producir.  ",
+            "Se informar\u00e1 al paciente sobre qu\u00e9 alimentos puede y no puede comer.  ",
+            "La restricci\u00f3n alimentaria tiene como objetivo reducir la acumulaci\u00f3n de toxinas.  ",
+            "Los ri\u00f1ones normalmente son responsables de eliminar las toxinas del cuerpo."
+        ]
+    },
+    {
+        "example_id": 63,
+        "input": "The most common use of this test is to help diagnose and monitor a disorder called\u00a0sarcoidosis . People with sarcoidosis may have their ACE levels tested regularly to check the severity of the disease and see how well treatment is working. ",
+        "output": "La prueba se usa con m\u00e1s frecuencia para ayudar a diagnosticar y controlar una afecci\u00f3n llamada sarcoidosis. Las personas con sarcoidosis pueden someterse a pruebas de los niveles de ACE con regularidad para determinar la gravedad de la enfermedad y ver c\u00f3mo re",
+        "subclaims_output": [
+            "La prueba se utiliza con frecuencia para ayudar a diagnosticar sarcoidosis.  ",
+            "La prueba tambi\u00e9n se utiliza para controlar la afecci\u00f3n sarcoidosis.  ",
+            "Las personas con sarcoidosis pueden someterse a pruebas de los niveles de ACE regularmente.  ",
+            "Las pruebas de los niveles de ACE ayudan a determinar la gravedad de la enfermedad.  ",
+            "Las pruebas de los niveles de ACE permiten ver c\u00f3mo progresa la sarcoidosis."
+        ]
+    },
+    {
+        "example_id": 64,
+        "input": "Allergic conjunctivitis occurs when the clear layer of tissue lining the eyelids and covering the white of the eye (conjunctiva) become swollen or inflamed due to a reaction to pollen, dander, mold, or other\u00a0allergy-causing substances.",
+        "output": "La conjuntivitis al\u00e9rgica ocurre cuando la capa clara de tejido que recubre las pesta\u00f1as y la parte blanca del ojo (conjuntiva) se hincha o inflama debido a una reacci\u00f3n a la polen, el pelo de los animales, e",
+        "subclaims_output": [
+            "La conjuntivitis al\u00e9rgica ocurre cuando la conjuntiva se hincha o inflama.  ",
+            "La inflamaci\u00f3n de la conjuntiva es causada por una reacci\u00f3n al\u00e9rgica.  ",
+            "Los al\u00e9rgenos que pueden causar conjuntivitis al\u00e9rgica incluyen el polen.  ",
+            "El pelo de los animales es otro posible desencadenante de la conjuntivitis al\u00e9rgica."
+        ]
+    },
+    {
+        "example_id": 65,
+        "input": "Advance care directives allow patients to provide instructions about their preferences regarding the care they would like to receive if they develop an illness or a life-threatening injury and are unable to express their preferences.",
+        "output": "Los documentos de instrucciones anticipadas permiten a los pacientes proporcionar instrucciones sobre sus preferencias respecto al cuidado que desean recibir si desarrollan una enfermedad o una lesi\u00f3n que amenaza la vida y no pueden expresar sus preferencias.<|im_end|",
+        "subclaims_output": [
+            "Los documentos de instrucciones anticipadas permiten a los pacientes proporcionar instrucciones sobre sus preferencias de cuidado.  ",
+            "Los pacientes pueden expresar sus preferencias respecto al cuidado que desean recibir en caso de una enfermedad o lesi\u00f3n que amenaza la vida.  ",
+            "Los documentos son \u00fatiles cuando los pacientes no pueden expresar sus preferencias."
+        ]
+    },
+    {
+        "example_id": 66,
+        "input": "People with this condition generally have a large left ventricle (the pumping chamber of the heart that supplies the body with blood), and a small right ventricle (the pumping chamber that supplies the lungs with blood).",
+        "output": "Las personas con esta condici\u00f3n generalmente tienen un ventr\u00edculo izquierdo grande (la c\u00e1mara del coraz\u00f3n que bombea sangre al cuerpo) y un ventr\u00edculo derecho peque\u00f1o (la c\u00e1mara del coraz\u00f3n que bombea sangre a los pulmones).<|im_end|",
+        "subclaims_output": [
+            "Las personas con esta condici\u00f3n generalmente tienen un ventr\u00edculo izquierdo grande.  ",
+            "El ventr\u00edculo izquierdo es la c\u00e1mara del coraz\u00f3n que bombea sangre al cuerpo.  ",
+            "Las personas con esta condici\u00f3n generalmente tienen un ventr\u00edculo derecho peque\u00f1o.  ",
+            "El ventr\u00edculo derecho es la c\u00e1mara del coraz\u00f3n que bombea sangre a los pulmones."
+        ]
+    },
+    {
+        "example_id": 67,
+        "input": "In January 2001, the FDA's Center for Food Safety and Applied Nutrition proposed that developers of bioengineered food submit scientific and safety information to the FDA at least 120 days before the food is marketed.",
+        "output": "En enero de 2001, la FDA propuso que los desarrolladores de alimentos bioingenierizados presentaran informaci\u00f3n cient\u00edfica y de seguridad a la FDA al menos 120 d\u00edas antes de que el alimento se comercializara.<|im_end|",
+        "subclaims_output": [
+            "En enero de 2001, la FDA propuso que los desarrolladores de alimentos bioingenierizados presentaran informaci\u00f3n cient\u00edfica y de seguridad.  ",
+            "La informaci\u00f3n cient\u00edfica y de seguridad debe ser presentada a la FDA al menos 120 d\u00edas antes de que el alimento se comercialice."
+        ]
+    },
+    {
+        "example_id": 68,
+        "input": "Your health care provider will tell you if it's necessary to stop taking any drugs that may interfere with this test.Make sure that your doctor is aware of all drugs you are taking, both prescription and nonprescription.",
+        "output": "Su proveedor de atenci\u00f3n m\u00e9dica le dir\u00e1 si es necesario dejar de tomar alg\u00fan medicamento que pueda interferir con este examen. Aseg\u00farese de que su m\u00e9dico sepa todos los medicamentos que est\u00e1 tomando, tanto los de prescripci\u00f3n como los de venta libre.<|im_end|",
+        "subclaims_output": [
+            "Su proveedor de atenci\u00f3n m\u00e9dica le informar\u00e1 si debe dejar de tomar alg\u00fan medicamento antes del examen.  ",
+            "Es importante que su m\u00e9dico conozca todos los medicamentos que est\u00e1 tomando.  ",
+            "Debe informar a su m\u00e9dico sobre los medicamentos de prescripci\u00f3n que est\u00e1 utilizando.  ",
+            "Tambi\u00e9n debe informar a su m\u00e9dico sobre los medicamentos de venta libre que est\u00e1 tomando."
+        ]
+    },
+    {
+        "example_id": 69,
+        "input": "Other foods such as broccoli, cooked greens, and canned salmon (with bones) will also provide a source of calcium in the diet; however, it is often difficult to get children to consume adequate quantities of these foods.",
+        "output": "Otros alimentos como el br\u00f3coli, las verduras cocidas y el salm\u00f3n enlatado (con huesos) tambi\u00e9n proporcionar\u00e1n una fuente de calcio en la dieta; sin embargo, a menudo es dif\u00edcil que los ni\u00f1os consuman cantidades adecuadas de estos alimentos",
+        "subclaims_output": [
+            "El br\u00f3coli proporciona una fuente de calcio en la dieta.  ",
+            "Las verduras cocidas proporcionan una fuente de calcio en la dieta.  ",
+            "El salm\u00f3n enlatado (con huesos) proporciona una fuente de calcio en la dieta.  ",
+            "Es dif\u00edcil que los ni\u00f1os consuman cantidades adecuadas de br\u00f3coli.  ",
+            "Es dif\u00edcil que los ni\u00f1os consuman cantidades adecuadas de verduras cocidas.  ",
+            "Es dif\u00edcil que los ni\u00f1os consuman cantidades adecuadas de salm\u00f3n enlatado (con huesos)."
+        ]
+    },
+    {
+        "example_id": 70,
+        "input": "Transposition of the great vessels is a heart defect that occurs from birth (congenital).\u00a0The two major vessels that carry blood away from the heart -- the aorta and the pulmonary artery -- are switched (transposed).",
+        "output": "La transposici\u00f3n de las grandes arterias es un defecto card\u00edaco que ocurre desde el nacimiento (cong\u00e9nito). Las dos grandes arterias que llevan la sangre lejos del coraz\u00f3n -- la aorta y la arteria pulmonar -- est\u00e1n intercambiadas",
+        "subclaims_output": [
+            "La transposici\u00f3n de las grandes arterias es un defecto card\u00edaco cong\u00e9nito.  ",
+            "La transposici\u00f3n de las grandes arterias ocurre desde el nacimiento.  ",
+            "En la transposici\u00f3n de las grandes arterias, la aorta y la arteria pulmonar est\u00e1n intercambiadas.  ",
+            "La aorta lleva la sangre lejos del coraz\u00f3n.  ",
+            "La arteria pulmonar lleva la sangre lejos del coraz\u00f3n."
+        ]
+    },
+    {
+        "example_id": 71,
+        "input": "Your health care provider will examine you for signs of food poisoning, such as pain in the stomach and signs your body does not have as much water and fluids as it should.This is called dehydration.",
+        "output": "El proveedor de atenci\u00f3n m\u00e9dica le examinar\u00e1 para detectar signos de intoxicaci\u00f3n alimentaria, como dolor en el est\u00f3mago y signos de que el cuerpo no tiene tanta agua y l\u00edquidos como deber\u00eda. Esto se llama deshidrataci\u00f3n.<|im_end|",
+        "subclaims_output": [
+            "El proveedor de atenci\u00f3n m\u00e9dica examinar\u00e1 al paciente para detectar signos de intoxicaci\u00f3n alimentaria.  ",
+            "Los signos de intoxicaci\u00f3n alimentaria incluyen dolor en el est\u00f3mago.  ",
+            "El proveedor de atenci\u00f3n m\u00e9dica tambi\u00e9n buscar\u00e1 signos de deshidrataci\u00f3n.  ",
+            "La deshidrataci\u00f3n se define como la falta de agua y l\u00edquidos en el cuerpo."
+        ]
+    },
+    {
+        "example_id": 72,
+        "input": "An implantable cardioverter defibrillator (ICD) is a device that can be implanted in the chest wall of people who are at risk for this serious rhythm disorder.\u00a0The ICD can help prevent sudden cardiac death by quickly sending an electrical shock when ventricular fibrillation occurs.",
+        "output": "Un desfibrilador cardioversor implantable (DCI) es un dispositivo que se puede implantar en la pared tor\u00e1cica de las personas que est\u00e1n en riesgo de padecer este grave trastorno del ritmo. El DCI puede ayudar a prevenir la muerte s\u00fabi",
+        "subclaims_output": [
+            "Un desfibrilador cardioversor implantable (DCI) es un dispositivo m\u00e9dico.  ",
+            "El DCI se puede implantar en la pared tor\u00e1cica de las personas.  ",
+            "El DCI est\u00e1 destinado a personas que est\u00e1n en riesgo de padecer trastornos graves del ritmo card\u00edaco.  ",
+            "El DCI puede ayudar a prevenir la muerte s\u00fabita."
+        ]
+    },
+    {
+        "example_id": 73,
+        "input": "Greater respect for the complexities of female sexual functioning has led them to conclude that suboptimal female genitalia may not be inherently better than suboptimal male genitalia, even if the reconstruction is \"easier.\"In addition, other factors may be more important in gender satisfaction than functioning external genitals.",
+        "output": "El mayor respeto por la complejidad de la funci\u00f3n sexual femenina les ha llevado a concluir que los genitales femeninos sub\u00f3ptimos no son inherentemente mejores que los genitales masculinos sub\u00f3ptimos, incluso si la reconstrucci\u00f3n es \"m\u00e1s f\u00e1ci",
+        "subclaims_output": [
+            "Se ha llegado a una conclusi\u00f3n sobre el respeto por la complejidad de la funci\u00f3n sexual femenina.  ",
+            "Los genitales femeninos sub\u00f3ptimos no son inherentemente mejores que los genitales masculinos sub\u00f3ptimos.  ",
+            "La reconstrucci\u00f3n de genitales puede ser considerada \"m\u00e1s f\u00e1cil\"."
+        ]
+    },
+    {
+        "example_id": 74,
+        "input": "Regular use -- the user misses more and more school or work; worries about losing drug source; uses drugs to \"fix\" negative feelings; begins to stay away from friends and family; may change friends to those who are regular users; shows increased tolerance and ability to \"handle\" the drug.",
+        "output": "Uso regular -- el usuario faltaba cada vez m\u00e1s a la escuela o al trabajo; se preocupaba por perder la fuente de drogas; usaba drogas para \"arreglar\" los sentimientos negativos; comenzaba a alejarse de los amigos y la familia; pod\u00eda cambia",
+        "subclaims_output": [
+            "El usuario ten\u00eda un uso regular de drogas.  ",
+            "El usuario faltaba cada vez m\u00e1s a la escuela o al trabajo.  ",
+            "El usuario se preocupaba por perder la fuente de drogas.  ",
+            "El usuario usaba drogas para \"arreglar\" los sentimientos negativos.  ",
+            "El usuario comenzaba a alejarse de los amigos y la familia.  ",
+            "El usuario pod\u00eda cambiar."
+        ]
+    },
+    {
+        "example_id": 75,
+        "input": "Increased intracranial pressure can be due to a rise in cerebrospinal fluid pressure.It can also be due to increased pressure within the brain matter caused by a mass (such as a tumor), bleeding into the brain or fluid around the brain, or swelling within the brain matter itself.",
+        "output": "El aumento de la presi\u00f3n intracraneal puede deberse a un aumento de la presi\u00f3n del l\u00edquido cefalorraqu\u00eddeo. Tambi\u00e9n puede deberse a un aumento de la presi\u00f3n dentro del tejido cerebral causado por una masa (como un tumor), sangrado en el cerebr",
+        "subclaims_output": [
+            "El aumento de la presi\u00f3n intracraneal puede deberse a un aumento de la presi\u00f3n del l\u00edquido cefalorraqu\u00eddeo.  ",
+            "El aumento de la presi\u00f3n intracraneal puede deberse a un aumento de la presi\u00f3n dentro del tejido cerebral.  ",
+            "Una masa, como un tumor, puede causar un aumento de la presi\u00f3n intracraneal.  ",
+            "El sangrado en el cerebro puede causar un aumento de la presi\u00f3n intracraneal."
+        ]
+    },
+    {
+        "example_id": 76,
+        "input": "Some substances that are found to be harmful to people or animals may still be allowed, but only at the level of 1/100th of the amount that is considered harmful.People with any allergies or food intolerances should always check the ingredient list (label) for their own protection.",
+        "output": "Algunas sustancias que se han encontrado que son perjudiciales para las personas o los animales pueden seguir permiti\u00e9ndose, pero solo en la cantidad de 1/100 de la cantidad que se considera perjudicial.Las personas con alergias o intolerancias alimentarias siempre debe",
+        "subclaims_output": [
+            "Algunas sustancias perjudiciales pueden seguir permiti\u00e9ndose.  ",
+            "La cantidad permitida de estas sustancias es 1/100 de la cantidad considerada perjudicial.  ",
+            "Las personas con alergias alimentarias deben tener precauciones.  ",
+            "Las personas con intolerancias alimentarias deben tener precauciones."
+        ]
+    },
+    {
+        "example_id": 77,
+        "input": "Not having milk in\u00a0your diet can lead to a shortage of calcium, vitamin D, riboflavin, and protein.You may need to find new ways to get calcium into your diet (depending on your age and gender, you need 1,000 - 1,500 mg of calcium each day):",
+        "output": "No tener leche en su dieta puede provocar una deficiencia de calcio, vitamina D, riboflavina y prote\u00ednas. Usted puede necesitar encontrar nuevas formas de obtener calcio en su dieta (dependiendo de su edad y sexo, usted necesita de 1,000 a",
+        "subclaims_output": [
+            "No tener leche en la dieta puede provocar una deficiencia de calcio.  ",
+            "No tener leche en la dieta puede provocar una deficiencia de vitamina D.  ",
+            "No tener leche en la dieta puede provocar una deficiencia de riboflavina.  ",
+            "No tener leche en la dieta puede provocar una deficiencia de prote\u00ednas.  ",
+            "Es necesario encontrar nuevas formas de obtener calcio en la dieta.  ",
+            "La cantidad de calcio necesaria en la dieta depende de la edad y el sexo.  ",
+            "Se necesita entre 1,000 mg de calcio en la dieta, dependiendo de la edad y el sexo."
+        ]
+    },
+    {
+        "example_id": 78,
+        "input": "Because it is difficult to determine the amount of radiation exposure from nuclear accidents, the best signs of the severity of the exposure are: the length of time between the exposure and the onset of symptoms, the severity of symptoms, and severity of changes in white blood cells.",
+        "output": "Como es dif\u00edcil determinar la cantidad de exposici\u00f3n a la radiaci\u00f3n de los accidentes nucleares, los mejores signos de la gravedad de la exposici\u00f3n son: la duraci\u00f3n del tiempo entre la exposici\u00f3n y el inicio de los s\u00edntomas, la gravedad de los s\u00edntoma",
+        "subclaims_output": [
+            "Es dif\u00edcil determinar la cantidad de exposici\u00f3n a la radiaci\u00f3n de los accidentes nucleares.  ",
+            "Los mejores signos de la gravedad de la exposici\u00f3n a la radiaci\u00f3n son la duraci\u00f3n del tiempo entre la exposici\u00f3n y el inicio de los s\u00edntomas.  ",
+            "La gravedad de los s\u00edntomas tambi\u00e9n es un indicador de la gravedad de la exposici\u00f3n a la radiaci\u00f3n."
+        ]
+    },
+    {
+        "example_id": 79,
+        "input": "Note: It is often technically easier to treat (and therefore raise) the child as female (it is easier for a surgeon to make female genitalia than it is to make male genitalia), so in some cases this is recommended even if the child is genetically male.",
+        "output": "Nota: a menudo es m\u00e1s f\u00e1cil desde el punto de vista t\u00e9cnico tratar (y por lo tanto, elevar) al ni\u00f1o como si fuera una ni\u00f1a (es m\u00e1s f\u00e1cil para un cirujano hacer los genitales femeninos que los masculinos), por lo que en algunos caso",
+        "subclaims_output": [
+            "Es m\u00e1s f\u00e1cil desde el punto de vista t\u00e9cnico tratar a un ni\u00f1o como si fuera una ni\u00f1a.  ",
+            "Elevar a un ni\u00f1o como si fuera una ni\u00f1a es m\u00e1s sencillo para un cirujano.  ",
+            "Los genitales femeninos son m\u00e1s f\u00e1ciles de operar que los masculinos.  ",
+            "Esta t\u00e9cnica se aplica en algunos casos."
+        ]
+    },
+    {
+        "example_id": 80,
+        "input": "Deficiency happens more often in women than in men, and is more common in pregnant women and older children.\u00a0Getting enough iodine in the diet may prevent a form of physical and mental retardation called cretinism.Cretinism is very rare in the U.S. because iodine deficiency is generally not a problem.",
+        "output": "La deficiencia ocurre con m\u00e1s frecuencia en las mujeres que en los hombres, y es m\u00e1s com\u00fan en las mujeres embarazadas y los ni\u00f1os mayores.\u00a0La ingesta suficiente de yodo en la dieta puede prevenir una forma de retraso f\u00edsico y mental llamada cretinism",
+        "subclaims_output": [
+            "La deficiencia de yodo ocurre con m\u00e1s frecuencia en las mujeres que en los hombres.  ",
+            "La deficiencia de yodo es m\u00e1s com\u00fan en las mujeres embarazadas.  ",
+            "La deficiencia de yodo es m\u00e1s com\u00fan en los ni\u00f1os mayores.  ",
+            "La ingesta suficiente de yodo en la dieta puede prevenir el cretinismo.  ",
+            "El cretinismo es una forma de retraso f\u00edsico y mental."
+        ]
+    },
+    {
+        "example_id": 81,
+        "input": "People who have a sudden herniated disk caused by injury (such as a car accident or lifting a very heavy object) will get nonsteroidal anti-inflammatory medications (NSAIDs) and narcotic painkillers if they have severe pain in the back and leg.If you have back spasms, you will usually receive muscle relaxants.",
+        "output": "Se le dar\u00e1n medicamentos antiinflamatorios no esteroides (AINE) y analg\u00e9sicos narc\u00f3ticos si tiene un disco herniado repentino causado por una lesi\u00f3n (como un accidente automovil\u00edstico o levantar un objeto muy pesado)",
+        "subclaims_output": [
+            "Se le dar\u00e1n medicamentos antiinflamatorios no esteroides (AINE) si tiene un disco herniado.  ",
+            "Se le dar\u00e1n analg\u00e9sicos narc\u00f3ticos si tiene un disco herniado.  ",
+            "Un disco herniado puede ser causado por una lesi\u00f3n.  ",
+            "Un accidente automovil\u00edstico puede causar un disco herniado.  ",
+            "Levantar un objeto muy pesado puede causar un disco herniado.  ",
+            "La condici\u00f3n mencionada es un disco herniado repentino."
+        ]
+    },
+    {
+        "example_id": 82,
+        "input": "Threre is a wide range for what is considered \"normal.\" Just because your child is in the 15th percentile for weight (meaning 85 out of 100 children weigh more), this number rarely means your child is sick, you're not feeding your child enough, or your breast milk is not enough for your baby.",
+        "output": "Hay un amplio rango de lo que se considera \"normal\". El hecho de que su hijo est\u00e9 en el percentil 15 para el peso (lo que significa que 85 de cada 100 ni\u00f1os pesan m\u00e1s) rara vez significa que su hijo est\u00e1 enfermo, que no le est\u00e1 dand",
+        "subclaims_output": [
+            "Hay un amplio rango de lo que se considera \"normal\" en el crecimiento infantil.  ",
+            "El hijo del paciente est\u00e1 en el percentil 15 para el peso.  ",
+            "Estar en el percentil 15 significa que 85 de cada 100 ni\u00f1os pesan m\u00e1s que su hijo.  ",
+            "Estar en el percentil 15 rara vez indica que el hijo del paciente est\u00e9 enfermo.  ",
+            "Estar en el percentil 15 no implica que el paciente no le est\u00e9 dando suficiente alimento a su hijo."
+        ]
+    },
+    {
+        "example_id": 83,
+        "input": "Congenital heart surgery; Patent ductus arteriosus ligation; Hypoplastic left heart repair; Tetralogy of Fallot repair; Coarctation of the aorta repair; Atrial septal defect repair; Ventricular septal defect repair; Truncus arteriosus repair; Total anomalous pulmonary artery correction; Transposition of great vessels repair; Tricuspid atresia repair; VSD repair; ASD repair; PDA ligation",
+        "output": "Cirug\u00eda card\u00edaca cong\u00e9nita; Ligadura de ductus arterioso persistente; Reparaci\u00f3n de coraz\u00f3n izquierdo hipopl\u00e1sico; Reparaci\u00f3n de tetralog\u00eda de Fallot; Reparaci\u00f3n de coartaci\u00f3n de la aorta; Reparaci\u00f3n de defec",
+        "subclaims_output": [
+            "El paciente tiene una cirug\u00eda card\u00edaca cong\u00e9nita.  ",
+            "Se realiz\u00f3 una ligadura de ductus arterioso persistente.  ",
+            "Se llev\u00f3 a cabo una reparaci\u00f3n de coraz\u00f3n izquierdo hipopl\u00e1sico.  ",
+            "Se realiz\u00f3 una reparaci\u00f3n de tetralog\u00eda de Fallot.  ",
+            "Se efectu\u00f3 una reparaci\u00f3n de coartaci\u00f3n de la aorta.  ",
+            "Se realiz\u00f3 una reparaci\u00f3n de defectos card\u00edacos.  "
+        ]
+    },
+    {
+        "example_id": 84,
+        "input": "This test is done during a hospital stay.\u00a0 It tells the difference between someone who is making urine because of drinking a lot of liquid and someone who is not.\u00a0 If you have central diabetes insipidus, you will still make a lot of urine even when fluids are not given. ",
+        "output": "Se realiza durante una estancia en el hospital.\u00a0 Diferencia entre una persona que orina mucho por beber mucha cantidad de l\u00edquidos y una persona que no lo hace.\u00a0 Si tiene diabetes ins\u00edpida central, seguir\u00e1 orinando mucho aunque no se le den l\u00edquidos",
+        "subclaims_output": [
+            "La observaci\u00f3n se realiza durante una estancia en el hospital.  ",
+            "Hay una diferencia entre una persona que orina mucho por beber mucha cantidad de l\u00edquidos y una persona que no lo hace.  ",
+            "Si una persona tiene diabetes ins\u00edpida central, seguir\u00e1 orinando mucho aunque no se le den l\u00edquidos."
+        ]
+    },
+    {
+        "example_id": 85,
+        "input": "Also, many refined foods, such as white flour, sugar, and white rice, lack B vitamins and other important nutrients unless they are marked \"enriched.\" It is healthiest to get carbohydrates, vitamins, and other nutrients in as natural a form as possible -- for example, from fruit instead of table sugar.",
+        "output": "Adem\u00e1s, muchos alimentos refinados, como la harina blanca, el az\u00facar y el arroz blanco, carecen de vitaminas del grupo B y otros nutrientes importantes, a menos que est\u00e9n marcados como \"enriquecidos\". Es m\u00e1s saludable obtener carbohidratos, vitami",
+        "subclaims_output": [
+            "Muchos alimentos refinados, como la harina blanca, el az\u00facar y el arroz blanco, carecen de vitaminas del grupo B.  ",
+            "Los alimentos refinados carecen de otros nutrientes importantes a menos que est\u00e9n marcados como \"enriquecidos\".  ",
+            "Es m\u00e1s saludable obtener carbohidratos de fuentes no refinadas."
+        ]
+    },
+    {
+        "example_id": 86,
+        "input": "The pituitary gland near the brain makes too much of the hormone ACTH (called\u00a0Cushing's disease), which may happen with too much growth of the pituitary gland, a tumor of the pituitary gland, or a tumor elsewhere in the body (such as the pancreas, lung, and thyroid) that produces ACTH",
+        "output": "La gl\u00e1ndula pituitaria, cerca del cerebro, produce demasiada cantidad de la hormona ACTH (llamada\u00a0enfermedad de Cushing), lo cual puede ocurrir con un crecimiento excesivo de la gl\u00e1ndula pituitaria, un tumor de la gl\u00e1n",
+        "subclaims_output": [
+            "La gl\u00e1ndula pituitaria est\u00e1 ubicada cerca del cerebro.  ",
+            "La gl\u00e1ndula pituitaria produce una cantidad excesiva de la hormona ACTH.  ",
+            "La producci\u00f3n excesiva de ACTH se conoce como enfermedad de Cushing.  ",
+            "La enfermedad de Cushing puede ocurrir debido a un crecimiento excesivo de la gl\u00e1ndula pituitaria.  ",
+            "La enfermedad de Cushing tambi\u00e9n puede ser causada por un tumor en la gl\u00e1ndula pituitaria."
+        ]
+    },
+    {
+        "example_id": 87,
+        "input": "In the past, the prevailing opinion was that it was generally best to assign a gender as quickly as possible, often based on the external genitals rather than the chromosomal gender, and to instruct the parents to have no ambiguity in their minds as to the gender of the child.",
+        "output": "En el pasado, la opini\u00f3n predominante era que era mejor asignar un g\u00e9nero lo m\u00e1s pronto posible, a menudo basado en los genitales externos en lugar del g\u00e9nero cromos\u00f3mico, y aconsejar a los padres que no hubiera ambig\u00fceda",
+        "subclaims_output": [
+            "En el pasado, la opini\u00f3n predominante era asignar un g\u00e9nero lo m\u00e1s pronto posible.  ",
+            "La asignaci\u00f3n de g\u00e9nero a menudo se basaba en los genitales externos.  ",
+            "La asignaci\u00f3n de g\u00e9nero no se basaba en el g\u00e9nero cromos\u00f3mico.  ",
+            "Se aconsejaba a los padres que no hubiera ambig\u00fcedad en la asignaci\u00f3n de g\u00e9nero."
+        ]
+    },
+    {
+        "example_id": 88,
+        "input": "Daily preoccupation -- the user loses any motivation; does not care about school and work; has obvious behavior changes; thinking about drug use is more important than all other interests, including relationships; the user becomes secretive; may begin dealing drugs to help support habit; use of other, harder drugs may increase; legal problems may increase.",
+        "output": "Preocupaci\u00f3n diaria -- el usuario pierde cualquier motivaci\u00f3n; no le importa la escuela y el trabajo; tiene cambios de comportamiento obvios; pensar en el uso de drogas es m\u00e1s importante que todos los dem\u00e1s intereses, incluyendo las relaciones; el usuario se vuelve secr",
+        "subclaims_output": [
+            "El usuario presenta preocupaci\u00f3n diaria.  ",
+            "El usuario pierde cualquier motivaci\u00f3n.  ",
+            "Al usuario no le importa la escuela.  ",
+            "Al usuario no le importa el trabajo.  ",
+            "El usuario muestra cambios de comportamiento obvios.  ",
+            "Pensar en el uso de drogas es m\u00e1s importante para el usuario que todos los dem\u00e1s intereses.  ",
+            "Las relaciones son menos importantes que el uso de drogas para el usuario.  ",
+            "El usuario se vuelve secreto."
+        ]
+    },
+    {
+        "example_id": 89,
+        "input": "You have sudden, sharp chest pain with shortness of breath, especially after a long trip, a stretch of bedrest (for example, following an operation), or other lack of movement, especially if one leg is swollen or more swollen than the other (this could be a blood clot, part of which has moved to the lungs).",
+        "output": "Usted tiene un dolor de pecho repentino y agudo con dificultad para respirar, especialmente despu\u00e9s de un viaje largo, un per\u00edodo de reposo en cama (por ejemplo, despu\u00e9s de una operaci\u00f3n) o falta de movimiento, especialmente si una pierna est\u00e1 hinchada o m\u00e1s",
+        "subclaims_output": [
+            "El paciente experimenta un dolor de pecho repentino y agudo.  ",
+            "El paciente tiene dificultad para respirar.  ",
+            "Los s\u00edntomas se presentan especialmente despu\u00e9s de un viaje largo.  ",
+            "Los s\u00edntomas tambi\u00e9n ocurren despu\u00e9s de un per\u00edodo de reposo en cama, como despu\u00e9s de una operaci\u00f3n.  ",
+            "La falta de movimiento puede desencadenar los s\u00edntomas.  ",
+            "La hinchaz\u00f3n de una pierna puede estar relacionada con los s\u00edntomas."
+        ]
+    },
+    {
+        "example_id": 90,
+        "input": "The mother may fake symptoms of illness in her child by adding blood to the child's urine or stool, withholding food, falsifying fevers, secretly giving the child drugs to make the child throw up or have diarrhea, or using other tricks, such as infecting intravenous (given through a vein) lines to make the child appear or become ill.",
+        "output": "La madre puede fingir s\u00edntomas de enfermedad en el ni\u00f1o al agregar sangre a la orina o las heces del ni\u00f1o, al rehusar darle al ni\u00f1o alimentos, al fingir fiebre, al darle al ni\u00f1o drogas en secreto para que el ni\u00f1",
+        "subclaims_output": [
+            "La madre puede fingir s\u00edntomas de enfermedad en el ni\u00f1o.  ",
+            "La madre puede agregar sangre a la orina del ni\u00f1o.  ",
+            "La madre puede agregar sangre a las heces del ni\u00f1o.  ",
+            "La madre puede rehusar darle alimentos al ni\u00f1o.  ",
+            "La madre puede fingir que el ni\u00f1o tiene fiebre.  ",
+            "La madre puede darle drogas en secreto al ni\u00f1o."
+        ]
+    },
+    {
+        "example_id": 91,
+        "input": "Because there is little or no flow out of the left heart, blood returning to the heart from the lungs needs to pass through the foramen ovale or an atrial septal defect (a hole connecting the collecting chambers on the left and right sides of the heart) back to the right side of the heart.",
+        "output": "Debido a que el flujo fuera del lado izquierdo del coraz\u00f3n es m\u00ednimo o nulo, la sangre que regresa al coraz\u00f3n desde los pulmones debe pasar a trav\u00e9s del foramen oval o un defecto del tabique interauricular (un orificio que conecta las c\u00e1ma",
+        "subclaims_output": [
+            "El flujo del lado izquierdo del coraz\u00f3n es m\u00ednimo o nulo.  ",
+            "La sangre que regresa al coraz\u00f3n desde los pulmones debe pasar a trav\u00e9s del foramen oval.  ",
+            "La sangre tambi\u00e9n puede pasar a trav\u00e9s de un defecto del tabique interauricular.  ",
+            "Un defecto del tabique interauricular es un orificio que conecta las c\u00e1maras del coraz\u00f3n."
+        ]
+    },
+    {
+        "example_id": 92,
+        "input": "You can take the tooth to the dentist by following one of these tips:Try to place the tooth back in the mouth where it fell out, so it is level with other teeth.\u00a0Bite down gently on gauze or a wet tea bag to help keep it in place.\u00a0Be careful\u00a0not to swallow the tooth.",
+        "output": "Puede llevar el diente al dentista siguiendo una de estas sugerencias: intente colocar el diente de nuevo en la boca donde se cay\u00f3, de modo que quede al nivel de los otros dientes.\u00a0Muerda suavemente un gasa o una bolsita d",
+        "subclaims_output": [
+            "Se sugiere llevar el diente al dentista.  ",
+            "Una opci\u00f3n es intentar colocar el diente de nuevo en la boca.  ",
+            "El diente debe quedar al nivel de los otros dientes.  ",
+            "Se recomienda morder suavemente una gasa o una bolsita."
+        ]
+    },
+    {
+        "example_id": 93,
+        "input": "Another myth of adolescence is the idea that \"it will never happen to me, only the other person.\" \"It\" may represent becoming pregnant or catching a sexually-transmitted disease after having unprotected sex, causing a car crash while driving under the influence of alcohol or drugs, or any of the many other negative effects of risk-taking behaviors.",
+        "output": "Otro mito de la adolescencia es la idea de que \"eso nunca me va a pasar, solo a la otra persona\". \"Eso\" puede representar el quedar embarazada o contraer una enfermedad de transmisi\u00f3n sexual despu\u00e9s de tener relaciones sexuales sin protecci\u00f3n, causar u",
+        "subclaims_output": [
+            "Existe un mito en la adolescencia que sugiere que \"eso nunca me va a pasar, solo a la otra persona\".  ",
+            "\"Eso\" puede referirse a quedar embarazada.  ",
+            "\"Eso\" tambi\u00e9n puede referirse a contraer una enfermedad de transmisi\u00f3n sexual.  ",
+            "El riesgo de quedar embarazada o contraer una enfermedad de transmisi\u00f3n sexual aumenta al tener relaciones sexuales sin protecci\u00f3n."
+        ]
+    },
+    {
+        "example_id": 94,
+        "input": "It is important to have the teeth cleaned thoroughly.This may involve use of various tools to loosen and remove plaque and tartar from the teeth.\u00a0Proper flossing and brushing is always needed, even after professional tooth cleaning, to reduce your risk of gum disease.\u00a0Your dentist or hygienist will show you how to brush and floss properly.",
+        "output": "Es importante que los dientes se limpien a fondo. Esto puede implicar el uso de varios instrumentos para aflojar y eliminar la placa y el sarro de los dientes. Siempre se necesita un cepillado y un hilo dental adecuados, incluso despu\u00e9s de una li",
+        "subclaims_output": [
+            "Es importante que los dientes se limpien a fondo.  ",
+            "La limpieza dental puede implicar el uso de varios instrumentos.  ",
+            "Los instrumentos se utilizan para aflojar y eliminar la placa y el sarro de los dientes.  ",
+            "Siempre se necesita un cepillado adecuado de los dientes.  ",
+            "Siempre se necesita el uso de hilo dental adecuado.  ",
+            "El cepillado y el uso de hilo dental son necesarios incluso despu\u00e9s de una limpieza dental."
+        ]
+    },
+    {
+        "example_id": 95,
+        "input": "How well you do depends on the amount of poison swallowed and how quickly treatment is received.",
+        "output": "El pron\u00f3stico depende de la cantidad de veneno ingerido y de la rapidez con que se reciba el tratamiento.<|im_end|",
+        "subclaims_output": [
+            "El pron\u00f3stico depende de la cantidad de veneno ingerido.  ",
+            "El pron\u00f3stico depende de la rapidez con que se reciba el tratamiento."
+        ]
+    },
+    {
+        "example_id": 96,
+        "input": "Rarely, children will have problems falling asleep or staying asleep.",
+        "output": "Raramente, los ni\u00f1os tendr\u00e1n problemas para conciliar el sue\u00f1o o permanecer dormidos.<|im_end|",
+        "subclaims_output": [
+            "Raramente, los ni\u00f1os tendr\u00e1n problemas para conciliar el sue\u00f1o.  ",
+            "Raramente, los ni\u00f1os tendr\u00e1n problemas para permanecer dormidos."
+        ]
+    },
+    {
+        "example_id": 97,
+        "input": "Reye syndrome can occur when aspirin is used to treat children with viral infections, such as chickenpox or the flu.",
+        "output": "La s\u00edndrome de Reye puede ocurrir cuando se usa \u00e1cido acetilsalic\u00edlico para tratar a los ni\u00f1os con infecciones virales, como el sarampi\u00f3n o la gripe.<|im_end|",
+        "subclaims_output": [
+            "La s\u00edndrome de Reye puede ocurrir en ni\u00f1os.  ",
+            "La s\u00edndrome de Reye puede ser provocada por el uso de \u00e1cido acetilsalic\u00edlico.  ",
+            "El \u00e1cido acetilsalic\u00edlico se utiliza para tratar infecciones virales.  ",
+            "Las infecciones virales que pueden estar asociadas con la s\u00edndrome de Reye incluyen el sarampi\u00f3n.  ",
+            "Las infecciones virales que pueden estar asociadas con la s\u00edndrome de Reye incluyen la gripe."
+        ]
+    },
+    {
+        "example_id": 98,
+        "input": "Bili lights is a type of light therapy (phototherapy)\u00a0that is used to treat newborn jaundice . Jaundice is a yellow coloring of the skin and eyes caused by too much of a substance called bilirubin.",
+        "output": "La fototerapia (luz bili) es un tipo de tratamiento con luz que se utiliza para tratar la ictericia del reci\u00e9n nacido. La ictericia es un color amarillento de la piel y los ojos causado por un exceso de una sustancia llamad",
+        "subclaims_output": [
+            "La fototerapia es un tipo de tratamiento con luz.  ",
+            "La fototerapia se utiliza para tratar la ictericia del reci\u00e9n nacido.  ",
+            "La ictericia se caracteriza por un color amarillento de la piel y los ojos.  ",
+            "La ictericia es causada por un exceso de una sustancia llamada bilirrubina."
+        ]
+    },
+    {
+        "example_id": 99,
+        "input": "Surgery combined with radiation therapy is often used to treat women with stage 1 disease that has a high chance of returning, has spread to the lymph nodes, or is a grade 2 or 3.",
+        "output": "La cirug\u00eda combinada con radioterapia se utiliza a menudo para tratar a las mujeres con enfermedad en estadio 1 que tiene un alto riesgo de recurrencia, se ha extendido a los ganglios linf\u00e1ticos o es de grado 2 o 3.<|im_end|",
+        "subclaims_output": [
+            "La cirug\u00eda combinada con radioterapia se utiliza a menudo para tratar a las mujeres con enfermedad en estadio 1.  ",
+            "La cirug\u00eda combinada con radioterapia se utiliza para mujeres con alto riesgo de recurrencia.  ",
+            "La cirug\u00eda combinada con radioterapia se utiliza para mujeres cuya enfermedad se ha extendido a los ganglios linf\u00e1ticos.  ",
+            "La cirug\u00eda combinada con radioterapia se utiliza para mujeres con enfermedad de grado 2 o 3."
+        ]
+    }
+]
