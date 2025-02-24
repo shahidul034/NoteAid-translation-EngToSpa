@@ -1,0 +1,1190 @@
+[
+    {
+        "Original_English_sentence": "[Report de-identified (Safe-harbor compliant) by De-ID v.6.22.08.0] **INSTITUTION GENERAL MEDICINE ATTENDING PHYSICIAN PROGRESS NOTE PATIENT NAME: **NAME[AAA, BBB M] ACCOUNT #: **ID-NUM **ROOM ATTENDING PHYSICIAN: **NAME[BBB M ZZZ] ADMISSION DATE: **DATE[Apr 11 2007] EVALUATION DATE: **DATE[Apr 18 07] The patient is awake and alert.",
+        "Original_Spanish_sentence": "[Informe de-identificado (cumple con Puerto Seguro) por De-ID v.6.22.08.0] **INSTITUCION MEDICINA GENERAL MEDICO PRIMARIO NOTA DE PROGRESO NOMBRE DEL PACIENTE: **NOMBRE[AAA, BBB M] # CUENTA: **NUM-ID- **CUARTO MEDICO PRIMARIO: **NOMBRE[BBB M ZZZ] FECHA DE ADMISION: **FECHA[11 abr 2007] FECHA DE EVALUACION: **FECHA[18 abr 07] El pacient está despierto y alerta.",
+        "COD_prompt": "Chain of dictionary: 'INSTITUTION' means 'El Consejo de Ministros' means 'Adolescent placé en institution' means 'Jugendliche im Heim' means 'Adolescente Institucionalizado'. 'ACCOUNT #' means 'Cuenta #' means 'Numéro de dossier:Identifiant:Ponctuel:Patient:Résultat nominal' means 'Número da conta:#N/A:Pt:^Paciente:Nom'. 'patient' means 'paciente' means 'Isolateurs pour malades' means 'Patientenisolatoren' means 'Isoladores de Pacientes'.\n\nSynonyms: 'INSTITUTION' synonyms are [INSTITUTION]. 'GENERAL MEDICINE' synonyms are [GENERAL, MEDICINE]. 'ATTENDING PHYSICIAN' synonyms are [ATTENDING, PHYSICIAN]. 'PROGRESS NOTE' synonyms are [PROGRESS, NOTE]. 'PATIENT NAME' synonyms are [PATIENT, NAME]. 'ACCOUNT #' synonyms are [ACCOUNT, #]. 'ROOM' synonyms are [ROOM]. 'ADMISSION DATE' synonyms are [ADMISSION, DATE]. 'EVALUATION DATE' synonyms are [EVALUATION, DATE]. 'patient' synonyms are [patient]. 'awake' synonyms are [awake]. 'alert' synonyms are [alert].",
+        "spanish_translation_prompt": "[Informe desidentificado (cumple con Safe-harbor) por De-ID v.6.22.08.0] **INSTITUCIÓN MEDICINA GENERAL MÉDICO ASISTENTE NOTA DE PROGRESO NOMBRE DEL PACIENTE: **NOMBRE[AAA, BBB M] CUENTA #: **ID-NUM **SALÓN MÉDICO ASISTENTE: **NOMBRE[BBB M ZZZ] FECHA DE ADMISIÓN: **FECHA[11 de abr 2007] FECHA DE EVALUACIÓN: **FECHA[18 de abr 07] El paciente está despierto y alerta.",
+        "back_translation_prompt": "**UNIDENTIFIED REPORT (complies with Safe Harbor) by De-ID v.6.22.08.0**  \n**GENERAL MEDICINE INSTITUTION**  \n**ASSISTANT PHYSICIAN PROGRESS NOTE**  \n**PATIENT NAME:** **NAME[AAA, BBB M]**  \n**ACCOUNT #:** **ID-NUM**  \n**ASSISTANT PHYSICIAN ROOM:** **NAME[BBB M ZZZ]**  \n**ADMISSION DATE:** **DATE[April 11, 2007]**  \n**EVALUATION DATE:** **DATE[April 18, 2007]**  \nThe patient is awake and alert.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 39.355858429665815,
+            "chrF++": 0.4291845493562232
+        }
+    },
+    {
+        "Original_English_sentence": "He has no complaints of any discomfort of any sort.",
+        "Original_Spanish_sentence": "No se queja de incomodidad de ningún tipo.",
+        "COD_prompt": "Synonyms: 'complaints' synonyms are [complaints]. 'discomfort' synonyms are [discomfort].",
+        "spanish_translation_prompt": "Él no tiene quejas de ningún tipo de malestar.",
+        "back_translation_prompt": "He has no complaints of any kind of discomfort.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 51.7679965241078,
+            "chrF++": 2.9585798816568047
+        }
+    },
+    {
+        "Original_English_sentence": "He states he slept well, and his appetite is good.",
+        "Original_Spanish_sentence": "Declara que durmió bien, además tiene buen apetito.",
+        "COD_prompt": "Chain of dictionary: 'appetite' means 'el apetito' means 'Appétit diminué' means 'Appetit vermindert' means 'DIMINUICAO DO APETITE'.\n\nSynonyms: 'slept well' synonyms are [slept, well]. 'appetite' synonyms are [appetite].",
+        "spanish_translation_prompt": "Él afirma que durmió bien y su apetito es bueno.",
+        "back_translation_prompt": "He claims that he slept well and his appetite is good.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 54.52469119630866,
+            "chrF++": 3.0303030303030303
+        }
+    },
+    {
+        "Original_English_sentence": "PHYSICAL EXAMINATION: Vital signs are stable with stabilizing blood pressure.",
+        "Original_Spanish_sentence": "EXAMEN FISICO: Signos vitales estables con presión sanguínea estabilizándose.",
+        "COD_prompt": "Chain of dictionary: 'physical examination' means 'examen físico' means 'Examen physique' means 'Körperliche Untersuchung' means 'Exame Físico'. 'stable' means 'estable' means 'Angor instable' means 'Angina pectoris, instabile' means 'Angina Instável'. 'blood pressure' means 'presión arterial' means 'Pression artérielle anormale' means 'Blutdruck anomal' means 'Tensão arterial anormal'.\n\nSynonyms: 'physical examination' synonyms are [physical, examination]. 'vital signs' synonyms are [vital, signs]. 'stable' synonyms are [stable]. 'blood pressure' synonyms are [blood, pressure].",
+        "spanish_translation_prompt": "EXAMEN FÍSICO: Los signos vitales son estables con presión arterial estabilizada.",
+        "back_translation_prompt": "PHYSICAL EXAMINATION: The vital signs are stable with stabilized blood pressure.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 35.74046404361828,
+            "chrF++": 1.8315018315018317
+        }
+    },
+    {
+        "Original_English_sentence": "He is afebrile.",
+        "Original_Spanish_sentence": "No padece fiebre.",
+        "COD_prompt": "Synonyms: 'afebrile' synonyms are [afebrile].",
+        "spanish_translation_prompt": "Él es afebril.",
+        "back_translation_prompt": "He is afebrile.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 9.433962264150944
+        }
+    },
+    {
+        "Original_English_sentence": "The necks shows no JVD, no nodes or masses.",
+        "Original_Spanish_sentence": "Cuello no presenta distensión yugular venosa, ni nudos ni masas.",
+        "COD_prompt": "Chain of dictionary: 'nodes' means 'los nodos' means 'Noeud atrioventriculaire' means 'Atrioventrikularknoten' means 'Nó Atrioventricular'. 'masses' means 'Las masas' means 'Masse' means 'Raumforderungen' means 'Massa'.\n\nSynonyms: 'JVD' synonyms are [JVD]. 'nodes' synonyms are [nodes]. 'masses' synonyms are [masses].",
+        "spanish_translation_prompt": "El cuello no presenta JVD, ni nódulos ni masas.",
+        "back_translation_prompt": "The neck does not show JVD, nodules, or masses.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 16.59038701421971,
+            "chrF++": 3.546099290780141
+        }
+    },
+    {
+        "Original_English_sentence": "The lungs are clear.",
+        "Original_Spanish_sentence": "Los pulmones están despejados.",
+        "COD_prompt": "Chain of dictionary: 'lungs' means 'pulmones y' means 'Poumon' means 'Lunge' means 'Pulmão'. 'clear' means 'claro' means 'Paralysie supranucléaire progressive' means 'Supranukleäre Paralyse, progressive' means 'Paralisia Supranuclear Progressiva'.\n\nSynonyms: 'lungs' synonyms are [lungs]. 'clear' synonyms are [clear].",
+        "spanish_translation_prompt": "Los pulmones están claros.",
+        "back_translation_prompt": "The lungs are clear.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 7.246376811594203
+        }
+    },
+    {
+        "Original_English_sentence": "The heart is regular.",
+        "Original_Spanish_sentence": "El corazón está regular.",
+        "COD_prompt": "Chain of dictionary: 'heart' means 'el corazón' means 'Cardiopathies' means 'Herzkrankheiten' means 'Cardiopatias'. 'regular' means 'regulares' means 'Bâtonnets non sporulés irréguliers à Gram positif' means 'Grampositive asporogene Stäbchen, irreguläre' means 'Bacilos Gram-Positivos Asporogênicos Irregulares'.\n\nSynonyms: 'heart' synonyms are [heart]. 'regular' synonyms are [regular].",
+        "spanish_translation_prompt": "El corazón es regular.",
+        "back_translation_prompt": "The heart is regular.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 6.849315068493151
+        }
+    },
+    {
+        "Original_English_sentence": "The abdomen is soft and nontender.",
+        "Original_Spanish_sentence": "El abdomen está suave y sin dolor.",
+        "COD_prompt": "Chain of dictionary: 'soft' means 'suave' means 'Tumeur maligne du voile du palais' means 'Boesartige Neubildung des weichen Gaumens' means 'Neoplasia maligna do palato mole'.\n\nSynonyms: 'abdomen' synonyms are [abdomen]. 'soft' synonyms are [soft]. 'nontender' synonyms are [nontender].",
+        "spanish_translation_prompt": "El abdomen es blando y no doloroso.",
+        "back_translation_prompt": "The abdomen is soft and not painful.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 54.10822690539397,
+            "chrF++": 4.273504273504274
+        }
+    },
+    {
+        "Original_English_sentence": "Extremities have no cyanosis, clubbing, or edema.",
+        "Original_Spanish_sentence": "Las extremidades no presentan cianosis, hipocratismo o edema.",
+        "COD_prompt": "Chain of dictionary: 'extremities' means 'extremidades' means 'Membre supérieur' means 'Obere Extremität' means 'Extremidade Superior'. 'cyanosis' means 'Cianosis' means 'Syndrome de Raynaud' means 'Raynaud Syndrom' means 'Fenómeno de Raynaud'. 'clubbing' means 'el juego de pelota' means 'Hippocratisme' means 'Uhrglasnaegel' means 'Baqueteamento'. 'edema' means 'edema en el' means 'Angioedème héréditaire' means 'Angiooedem hereditaer' means 'Angioedema hereditário'.\n\nSynonyms: 'extremities' synonyms are [extremities]. 'cyanosis' synonyms are [cyanosis]. 'clubbing' synonyms are [clubbing]. 'edema' synonyms are [edema].",
+        "spanish_translation_prompt": "Las extremidades no presentan cianosis, baqueteamiento ni edema.",
+        "back_translation_prompt": "The extremities do not show cyanosis, clubbing, or edema.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 51.56626918239821,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "LABORATORY DATA: The white count has improved to 9300, differential was pending, hemoglobin and hematocrit were stable, platelets have improved to 79000.",
+        "Original_Spanish_sentence": "DATOS DE LABORATORIO: La cuenta de glóbulos blancos ha mejorado a 9300, diferencial estaba pendiente, hemoglobina y hematocrito estaban estables, plaquetas han mejorado a 79000.",
+        "COD_prompt": "Chain of dictionary: 'differential' means 'diferencial' means 'Analyse thermique différentielle' means 'Differentialthermische Analyse' means 'Análise Diferencial Térmica'. 'hemoglobin' means 'de la hemoglobina' means 'Hémoglobinopathies' means 'Hämoglobinopathien' means 'Hemoglobinopatias'. 'hematocrit' means 'el hematocrito' means 'Hématocrite' means 'Hämatokrit' means 'Hematócrito'. 'platelets' means 'plaquetas' means 'Plaquettes' means 'Thrombozyten' means 'Plaquetas'.\n\nSynonyms: 'laboratory data' synonyms are [laboratory, data]. 'white count' synonyms are [white, count]. 'differential' synonyms are [differential]. 'hemoglobin' synonyms are [hemoglobin]. 'hematocrit' synonyms are [hematocrit]. 'platelets' synonyms are [platelets].",
+        "spanish_translation_prompt": "DATOS DE LABORATORIO: El conteo de glóbulos blancos ha mejorado a 9300, el diferencial estaba pendiente, la hemoglobina y el hematocrito estaban estables, las plaquetas han mejorado a 79000.",
+        "back_translation_prompt": "LABORATORY DATA: The white blood cell count has improved to 9300, the differential was pending, hemoglobin and hematocrit were stable, and platelets have improved to 79000.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 69.57838925817522,
+            "chrF++": 0.945179584120983
+        }
+    },
+    {
+        "Original_English_sentence": "IMPRESSION: Acute renal failure with neutropenia likely medication induced.",
+        "Original_Spanish_sentence": "IMPRESION: Fallo renal grave con neutropenia probablemente debido a medicamento.",
+        "COD_prompt": "Chain of dictionary: 'acute renal failure' means 'insuficiencia renal aguda' means 'Défaillance rénale aiguë' means 'Akutes Nierenversagen, nicht spezifiziert' means 'Insuficiência renal aguda, não especificada'. 'neutropenia' means 'Neutropenia y' means 'Neutropénie' means 'Neutropenie' means 'Neutropenia'. 'medication induced' means 'inducido por medicamentos' means 'Dyskinésie induite par le traitement' means 'Medikamenteninduzierte Dyskinesie' means 'Discinesia Medicamentosa'.\n\nSynonyms: 'acute renal failure' synonyms are [acute, renal, failure]. 'neutropenia' synonyms are [neutropenia]. 'medication induced' synonyms are [medication, induced].",
+        "spanish_translation_prompt": "IMPRESIÓN: Insuficiencia renal aguda con neutropenia probablemente inducida por medicamentos.",
+        "back_translation_prompt": "PRINT: Acute renal failure with neutropenia likely induced by medications.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 54.91004867761124,
+            "chrF++": 1.8587360594795537
+        }
+    },
+    {
+        "Original_English_sentence": "The patient is responding well to therapy.",
+        "Original_Spanish_sentence": "El paciente está respondiendo bien a terapia.",
+        "COD_prompt": "Chain of dictionary: 'patient' means 'paciente' means 'Isolateurs pour malades' means 'Patientenisolatoren' means 'Isoladores de Pacientes'. 'therapy' means 'tratamiento' means 'Hypnothérapie' means 'Hypnotherapie' means 'Hipnoterapia'.\n\nSynonyms: 'patient' synonyms are [patient]. 'therapy' synonyms are [therapy].",
+        "spanish_translation_prompt": "El paciente está respondiendo bien al tratamiento.",
+        "back_translation_prompt": "The patient is responding well to the treatment.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 61.04735835807847,
+            "chrF++": 3.4482758620689653
+        }
+    },
+    {
+        "Original_English_sentence": "At this point, we can likely stop Neupogen and just continue neutropenic precautions.",
+        "Original_Spanish_sentence": "En este momento, probablemente podemos descontinuar Neupogen y sólo continuar precauciones neutropénicas.",
+        "COD_prompt": "Chain of dictionary: 'Neupogen' means 'Neupógeno' means 'Neupogen' means 'Neupogen'.\n\nSynonyms: 'Neupogen' synonyms are [Neupogen]. 'neutropenic precautions' synonyms are [neutropenic, precautions].",
+        "spanish_translation_prompt": "En este momento, probablemente podemos detener Neupogen y simplemente continuar con las precauciones neutropénicas.",
+        "back_translation_prompt": "At this moment, we can probably stop Neupogen and simply continue with the neutropenic precautions.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 21.67183006379161,
+            "chrF++": 1.7064846416382253
+        }
+    },
+    {
+        "Original_English_sentence": "The patient continues on vancomycin for possible blood cultures, however, there is a question regarding contamination.",
+        "Original_Spanish_sentence": "El paciente sigue con vancomicina para posibles hemocultivos, sin embargo, hay duda en cuanto a contaminación.",
+        "COD_prompt": "Chain of dictionary: 'patient' means 'paciente' means 'Isolateurs pour malades' means 'Patientenisolatoren' means 'Isoladores de Pacientes'. 'contamination' means 'contaminación' means 'Contamination de médicament' means 'Arzneimittelkontamination' means 'Contaminação de Medicamentos'.\n\nSynonyms: 'patient' synonyms are [patient]. 'vancomycin' synonyms are [vancomycin]. 'blood cultures' synonyms are [blood, cultures]. 'contamination' synonyms are [contamination].",
+        "spanish_translation_prompt": "El paciente continúa con vancomicina para posibles cultivos de sangre; sin embargo, hay una pregunta sobre la contaminación.",
+        "back_translation_prompt": "The patient continues on vancomycin for possible blood cultures; however, there is a question about contamination.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 70.9421400618421,
+            "chrF++": 1.210653753026634
+        }
+    },
+    {
+        "Original_English_sentence": "We are redrawing blood cultures to see if continuing vancomycin is necessary at this point.",
+        "Original_Spanish_sentence": "Estamos reextrayendo hemocultivos para ver si es necesario continuar con vancomicina en este momento.",
+        "COD_prompt": "Synonyms: 'blood cultures' synonyms are [blood, cultures]. 'vancomycin' synonyms are [vancomycin].",
+        "spanish_translation_prompt": "Estamos volviendo a realizar cultivos de sangre para ver si es necesario continuar con la vancomicina en este momento.",
+        "back_translation_prompt": "We are repeating blood cultures to see if it is necessary to continue with vancomycin at this time.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 27.678937062327712,
+            "chrF++": 1.6181229773462786
+        }
+    },
+    {
+        "Original_English_sentence": "Otherwise, I agree with the plans as outlined by the resident team and discussed with them.",
+        "Original_Spanish_sentence": "De otra forma estoy de acuero con los planes delineados por el equipo residente y discutido con ellos.",
+        "COD_prompt": "Synonyms: ",
+        "spanish_translation_prompt": "De lo contrario, estoy de acuerdo con los planes tal como los ha expuesto el equipo residente y discutido con ellos.",
+        "back_translation_prompt": "Otherwise, I agree with the plans as presented by the resident team and discussed with them.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 83.94327083733333,
+            "chrF++": 1.6393442622950818
+        }
+    },
+    {
+        "Original_English_sentence": "[Report de-identified (Safe-harbor compliant) by De-ID v.6.22.08.0] Progress **INSTITUTION, Narrative - Impression and Plan **INSTITUTION Patient: **NAME[AAA, BBB] M MRN - **ID-NUM - MPACCOMMMRN Age: **AGE[in 60s] years Sex: Female DOB: **DATE[Jul 31 1940] Author: **NAME[XXX, WWW] Results Review General results New results : ResultsNew (never reviewed) **DATE[Oct 12 2007] 6:50 AM Na 137 mEq/L K 6.0 mEq/L Critical High Cl 92 mEq/L Low BUN 28 mg/dL High Cr 0.9 mg/dL Glucose 191 mg/dL High Ca 9.3 mg/dL WBC 12.0 X10E+09/L High RBC 4.49 X10E+12/L Hgb 15.1 gm/dL Hct 47.9 % High MCV 106.6 fL High MCH 33.7 pg High MCHC 31.6 gm/dL Low RDW 17.8 % High MPV 12.7 fL High Platelets 114 X10E+09/L Low **DATE[Oct 12 2007] 4:00 AM Temperature Conversion 35.7 DegC Temperature 96.2 DegF Temperature Site Oral Pulse 54 BPM Respiratory Rate 18 Systolic BP 188 mmHg Diastolic BP 88 mmHg BP Site Right Arm Subjective Pleasant **AGE[in 60s]yo female who presented to the ED complaining of \"shaking\", and was found to be hypoxic and suffering from a COPD/CHF exacerbation.",
+        "Original_Spanish_sentence": "[Informe de-identificado (cumple con Puerto Seguro) por De-ID v.6.22.08.0] Progreso **INSTITUCION, Narrativa - Impresión y Plan **INSTITUCION Paciente: **NOMBRE[AAA, BBB] M MRN - **NUM-ID - MPACCOMMMRN Edad: **EDAD[en los 60s] años Sexo: Mujer Fecha de Nacimiento: **FECHA[31 jul 1940] Autor: **NOMBRE[XXX, WWW] Resultados Revisión General resultados Nuevos resultados : ResultadosNuevos (nunca revisado) **FECHA[12 oct 2007] 6:50 AM Na 137 mEq/L K 6.0 mEq/L Crítico Alto Cl 92 mEq/L Bajo BUN 28 mg/dL Alto Cr 0.9 mg/dL Glucosa 191 mg/dL Alto Ca 9.3 mg/dL WBC 12.0 X10E+09/L Alto RBC 4.49 X10E+12/L Hgb 15.1 gm/dL Hct 47.9 % Alto MCV 106.6 fL Alto MCH 33.7 pg Alto MCHC 31.6 gm/dL Alto RDW 17.8 % Alto MPV 12.7 fL Plaquetas Altas 114 X10E+09/L Bajo **FECHA[12 oct 2007] 4:00 AM Conversión de Temperatura 35.7 GradC Temperatura 96.2 GradF Sitio de Temperatura Oral Pulso 54 PPM Frecuencia Respiratoria 18 PA Sistólica 188 mmHg PA Diastólica 88 mmHg BP Sitio Brazo Derecho Subjectivo Placentero **EDAD[en los 60s]años mujer que se presentó a emergencia quejándose de “temblores”, se descubrió que estaba hipóxica y sufría de exacerbación de enfermedad pulmonar obstructiva crónica/insuficiencia cardiaca congestiva.",
+        "COD_prompt": "Chain of dictionary: 'MRN' means 'Número de registro' means 'ARN messager' means 'RNA, Messenger-' means 'RNA Mensageiro'. 'Na' means 'No' means 'Trouble de l'acquisition de la coordination' means 'Koordinationsentwicklungsstoerung' means 'Distúrbio do desenvolvimento da coordenação SOE'. 'K' means 'El' means 'Fièvre récurrente, transmise par tique' means 'Von Zecken uebertragenes Rueckfallfieber' means 'Febre recorrente, transmitida por carrapatos'. 'Cl' means 'Cloruro de hidrógeno' means 'Langage désordonné' means 'Poltern' means 'Linguagem precipitada'. 'Cr' means 'Cr' means 'Entérite nécrosante' means 'Darmbrand' means 'Enterite necrótica'. 'Ca' means 'Ca' means 'Trouble de tic moteur ou vocal chronique' means 'Chronische motorische oder vokale Tics' means 'Transtorno de tique crônico'. 'WBC' means 'Cáncer de las células' means 'Leucocyte' means 'Leukozyten' means 'Leucócitos'. 'Hct' means 'Hcd' means 'Hématocrite' means 'Hämatokrit' means 'Hematócrito'. 'MCHC' means 'MCHC' means 'Concentration corpusculaire moyenne en hémoglobine' means 'Mittlere korpuskulaere Haemoglobinkonzentration' means 'Concentração de hemoglobina globular média'. 'Platelets' means 'Plaquetas' means 'Plaquettes' means 'Thrombozyten' means 'Plaquetas'. 'Temperature' means 'Temperatura de las' means 'Fièvre' means 'Fieber' means 'Febre'. 'Pulse' means 'Pulso' means 'Troubles du contrôle des impulsions' means 'Impulskontrollstörungen' means 'Perturbações do controlo dos impulsos'. 'COPD' means 'Enfermedad crónica obstructiva de la sangre' means 'Broncho-pneumopathie chronique obstructive' means 'Lungenkrankheiten, chronisch obstruktive' means 'Doença Pulmonar Obstrutiva Crônica'. 'CHF' means 'Frías' means 'Salmonella paratyphi C' means 'Salmonella paratyphi C' means 'Salmonella paratyphi C'. 'exacerbation' means 'agravamiento' means 'Autres types de schizophrénie précisés, état subchronique avec exacerbation aiguë' means 'sonstige spezifische Formen der Schizophrenie, subchronischer Zustand mit akuter Exazerbation' means 'Outros tipos especificados de esquizofrenia, estado subcrônico com exacerbação aguda'. 'ED' means 'El' means 'Retard mental non précisée' means 'Nicht spezifizierte geistige Behinderung' means 'Retardo mental não especificado'.\n\nSynonyms: 'MRN' synonyms are [MRN]. 'Na' synonyms are [Na]. 'K' synonyms are [K]. 'Cl' synonyms are [Cl]. 'BUN' synonyms are [BUN]. 'Cr' synonyms are [Cr]. 'Glucose' synonyms are [Glucose]. 'Ca' synonyms are [Ca]. 'WBC' synonyms are [WBC]. 'RBC' synonyms are [RBC]. 'Hgb' synonyms are [Hgb]. 'Hct' synonyms are [Hct]. 'MCV' synonyms are [MCV]. 'MCH' synonyms are [MCH]. 'MCHC' synonyms are [MCHC]. 'RDW' synonyms are [RDW]. 'MPV' synonyms are [MPV]. 'Platelets' synonyms are [Platelets]. 'Temperature' synonyms are [Temperature]. 'Pulse' synonyms are [Pulse]. 'Respiratory Rate' synonyms are [Respiratory, Rate]. 'Systolic BP' synonyms are [Systolic, BP]. 'Diastolic BP' synonyms are [Diastolic, BP]. 'COPD' synonyms are [COPD]. 'CHF' synonyms are [CHF]. 'hypoxic' synonyms are [hypoxic]. 'exacerbation' synonyms are [exacerbation]. 'ED' synonyms are [ED].",
+        "spanish_translation_prompt": "[Informe desidentificado (cumple con el refugio seguro) por De-ID v.6.22.08.0] Progreso **INSTITUCIÓN, Narrativa - Impresión y Plan **INSTITUCIÓN Paciente: **NOMBRE[AAA, BBB] M MRN - **ID-NUM - MPACCOMMMRN Edad: **EDAD[en 60s] años Sexo: Femenino Fecha de nacimiento: **FECHA[31 de julio de 1940] Autor: **NOMBRE[XXX, WWW] Revisión de resultados Resultados generales Nuevos resultados: ResultadosNuevos (nunca revisados) **FECHA[12 de octubre de 2007] 6:50 AM Na 137 mEq/L K 6.0 mEq/L Crítico Alto Cl 92 mEq/L Bajo BUN 28 mg/dL Alto Cr 0.9 mg/dL Glucosa 191 mg/dL Alta Ca 9.3 mg/dL WBC 12.0 X10E+09/L Alto RBC 4.49 X10E+12/L Hgb 15.1 gm/dL Hct 47.9 % Alto MCV 106.6 fL Alto MCH 33.7 pg Alto MCHC 31.6 gm/dL Bajo RDW 17.8 % Alto MPV 12.7 fL Alto Plaquetas 114 X10E+09/L Bajo **FECHA[12 de octubre de 2007] 4:00 AM Conversión de temperatura 35.7 °C Temperatura 96.2 °F Sitio de temperatura Oral Pulso 54 BPM Frecuencia respiratoria 18 Presión arterial sistólica 188 mmHg Presión arterial diastólica 88 mmHg Sitio de presión arterial Brazo derecho Subjetivo Femenina **EDAD[en 60s] años que se presentó en el ED quejándose de \"temblores\", y se encontró que estaba hipoxémica y sufriendo una exacerbación de EPOC/CHF.",
+        "back_translation_prompt": "[De-identified report (complies with safe harbor) by De-ID v.6.22.08.0] Progress **INSTITUTION, Narrative - Print and Plan **INSTITUTION Patient: **NAME[AAA, BBB] M MRN - **ID-NUM - MPACCOMMMRN Age: **AGE[in 60s] years Sex: Female Date of Birth: **DATE[July 31, 1940] Author: **NAME[XXX, WWW] Review of Results General Results New Results: NewResults (never reviewed) **DATE[October 12, 2007] 6:50 AM Na 137 mEq/L K 6.0 mEq/L Critical High Cl 92 mEq/L Low BUN 28 mg/dL High Cr 0.9 mg/dL Glucose 191 mg/dL High Ca 9.3 mg/dL WBC 12.0 X10E+09/L High RBC 4.49 X10E+12/L Hgb 15.1 gm/dL Hct 47.9 % High MCV 106.6 fL High MCH 33.7 pg High MCHC 31.6 gm/dL Low RDW 17.8 % High MPV 12.7 fL High Platelets 114 X10E+09/L Low **DATE[October 12, 2007] 4:00 AM Temperature Conversion 35.7 °C Temperature 96.2 °F Temperature Site Oral Pulse 54 BPM Respiratory Rate 18 Systolic Blood Pressure 188 mmHg Diastolic Blood Pressure 88 mmHg Blood Pressure Site Right Arm Subjective Female **AGE[in 60s] years who presented to the ED complaining of \"tremors,\" and was found to be hypoxemic and suffering an exacerbation of COPD/CHF.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 75.41090850364593,
+            "chrF++": 0.14136273678258413
+        }
+    },
+    {
+        "Original_English_sentence": "Since admission she has gotten somewhat symptomatically better.",
+        "Original_Spanish_sentence": "Después de ser admitida sus síntomas han mejorado en alguna medida.",
+        "COD_prompt": "Chain of dictionary: 'admission' means 'admisión' means 'Réadmissions à l'hôpital' means 'Stationäre Wiederaufnahme' means 'Readmissões Hospitalares não Planejadas'. 'better' means 'mejor' means 'Meilleur oeil : déficience visuelle totale ; moins bon oeil : déficience visuelle totale' means 'besseres Auge: vollstaendige Sehbehinderung; schlechteres Auge: vollstaendige Sehbehinderung' means 'Olho melhor: comprometimento total da visão; olho pior: comprometimento total da visão'.\n\nSynonyms: 'admission' synonyms are [admission]. 'better' synonyms are [better].",
+        "spanish_translation_prompt": "Desde la admisión, ha mejorado algo en cuanto a los síntomas.",
+        "back_translation_prompt": "Since the admission, there has been some improvement in terms of symptoms.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 4.016138436407654,
+            "chrF++": 2.2222222222222214
+        }
+    },
+    {
+        "Original_English_sentence": "Today she says her tremors have improved.",
+        "Original_Spanish_sentence": "Hoy indica que sus temblores han mejorado.",
+        "COD_prompt": "Chain of dictionary: 'tremors' means 'temblores' means 'Tremblement' means 'Tremor' means 'Tremor'.\n\nSynonyms: 'tremors' synonyms are [tremors]. 'improved' synonyms are [improved].",
+        "spanish_translation_prompt": "Hoy dice que sus temblores han mejorado.",
+        "back_translation_prompt": "Today he/she says that his/her tremors have improved.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 34.38931217657843,
+            "chrF++": 3.546099290780141
+        }
+    },
+    {
+        "Original_English_sentence": "She states that her breathing is the same, she denies any cp, n/v ha/fever chills.",
+        "Original_Spanish_sentence": "Declara que su respiración sigue igual, niega tener dolor de pecho, náusea/vómito, dolor de cabeza, fiebre o escalofríos.",
+        "COD_prompt": "Chain of dictionary: 'breathing' means 'respiración' means 'Entraînement respiratoire' means 'Atemübungen' means 'Exercícios Respiratórios'. 'cp' means 'cp' means 'Phencyclidine' means 'Phencyclidin' means 'Fenciclidina'. 'ha' means 'No lo sé.' means 'Délire hallucinatoire du sevrage alcoolique' means 'Halluzinose bedingt durch Alkoholentzug' means 'Alucinose por descontinuação de álcool'. 'fever' means 'fiebre' means 'Fièvre paratyphoïde A' means 'Paratyphusfieber A' means 'Febre paratifoide A'. 'chills' means 'escalofríos' means 'Sensation de froid' means 'Schüttelfrost' means 'Calafrios'.\n\nSynonyms: 'breathing' synonyms are [breathing]. 'cp' synonyms are [cp]. 'n/v' synonyms are [n/v]. 'ha' synonyms are [ha]. 'fever' synonyms are [fever]. 'chills' synonyms are [chills].",
+        "spanish_translation_prompt": "Ella afirma que su respiración es la misma, niega cualquier cp, n/v ha/fiebre escalofríos.",
+        "back_translation_prompt": "She claims that her breathing is the same, denies any chest pain, nausea/vomiting, fever, or chills.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 32.59889346257788,
+            "chrF++": 1.8315018315018317
+        }
+    },
+    {
+        "Original_English_sentence": "ros otherwise negative.",
+        "Original_Spanish_sentence": "Por otra parte revisión de sistemas negativa.",
+        "COD_prompt": "Chain of dictionary: 'ros' means 'el' means 'Trouble dépressif' means 'Depressive Störung' means 'Transtorno Depressivo'.\n\nSynonyms: 'ros' synonyms are [ros].",
+        "spanish_translation_prompt": "The translation of \"ros otherwise negative\" into Spanish is \"ros de otra manera negativo.\"",
+        "back_translation_prompt": "The translation of \"ros otherwise negative\" into Spanish is \"ros de otra manera negativo.\"",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 8.097785064266205,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Physical Examination General Exam Vital signs: BP: . somewhat hypertensive at times.",
+        "Original_Spanish_sentence": "Examinación Física Prueba General Signos Vitales: PA: . a veces con tendencia hipertensa.",
+        "COD_prompt": "Chain of dictionary: 'Physical Examination' means 'Examen físico' means 'Examen physique' means 'Körperliche Untersuchung' means 'Exame Físico'. 'hypertensive' means 'hipertensos' means 'Crise aiguë d'hypertension' means 'Hypertensiver Notfall' means 'Crise hipertensiva'.\n\nSynonyms: 'Physical Examination' synonyms are [Physical, Examination]. 'General Exam' synonyms are [General, Exam]. 'Vital signs' synonyms are [Vital, signs]. 'BP' synonyms are [BP]. 'hypertensive' synonyms are [hypertensive].",
+        "spanish_translation_prompt": "Examen físico Examen general Signos vitales: PA: . algo hipertenso a veces.",
+        "back_translation_prompt": "Physical examination General examination Vital signs: BP: somewhat hypertensive at times.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 51.81294220614274,
+            "chrF++": 1.7064846416382253
+        }
+    },
+    {
+        "Original_English_sentence": "Eye: bilateral: external eye exophthalmos, periorbital area: normal, sclera.",
+        "Original_Spanish_sentence": "Ojo: exolftamia bilateral, ojo externo, área periorbital: normal, esclera.",
+        "COD_prompt": "Chain of dictionary: 'eye' means 'ojo' means 'Syndrome de Reye' means 'Reye-Syndrom' means 'Síndrome de Reye'. 'bilateral' means 'de acuerdo bilateral' means 'Dystonie musculaire déformante' means 'Dystonia musculorum deformans' means 'Distonia Muscular Deformante'. 'external eye' means 'ojo externo' means 'Corps étranger dans la partie externe de l'oeil' means 'Fremdkoerper an einer nicht spezifizierten Stelle des aeusseren Auges' means 'Corpo estranho no olho externo'. 'exophthalmos' means 'Enfermedades de las muestras' means 'Exophtalmie' means 'Exophthalmus' means 'Exoftalmia'.\n\nSynonyms: 'eye' synonyms are [eye]. 'bilateral' synonyms are [bilateral]. 'external eye' synonyms are [external, eye]. 'exophthalmos' synonyms are [exophthalmos]. 'periorbital area' synonyms are [periorbital, area]. 'normal' synonyms are [normal]. 'sclera' synonyms are [sclera].",
+        "spanish_translation_prompt": "Ojo: bilateral: ojo externo exoftalmia, área periorbital: normal, esclerótica.",
+        "back_translation_prompt": "Eye: bilateral: external eye exophthalmos, periorbital area: normal, sclera.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 1.8315018315018317
+        }
+    },
+    {
+        "Original_English_sentence": "Thyroid: . thyroid without palpable lesion to my exam, + scar from prior tracheostomy Heart: rhythm: regular, heart sounds: distant, S1: normal, S2: normal.",
+        "Original_Spanish_sentence": "Tiroides: . tiroides sin lesión palpable ante mi prueba, cicatriz + de previa traqueostomía  Corazón: ritmo: regular, sonidos de corazón: distantes, S1: normal, S2: normal.",
+        "COD_prompt": "Chain of dictionary: 'Thyroid' means 'Tiroides' means 'Hypothyroïdie congénitale' means 'Kongenitale Hypothyreose' means 'Hipotireoidismo Congênito'. 'tracheostomy' means 'traqueotomía' means 'Trachéostomie' means 'Tracheostomie' means 'Traqueostomia'. 'Heart' means 'El corazón' means 'Cardiopathies' means 'Herzkrankheiten' means 'Cardiopatias'. 'heart sounds' means 'Sonidos del corazón' means 'Bruit cardiaque' means 'Herztöne' means 'Ruídos Cardíacos'. 'S1' means 'S1 y S2' means 'Myosine S-1' means 'MYOSIN S 01' means 'Miosina S-1'.\n\nSynonyms: 'Thyroid' synonyms are [Thyroid]. 'palpable lesion' synonyms are [palpable, lesion]. 'tracheostomy' synonyms are [tracheostomy]. 'Heart' synonyms are [Heart]. 'rhythm' synonyms are [rhythm]. 'heart sounds' synonyms are [heart, sounds]. 'S1' synonyms are [S1]. 'S2' synonyms are [S2].",
+        "spanish_translation_prompt": "Tiroides: tiroides sin lesión palpable en mi examen, + cicatriz de traqueotomía previa. Corazón: ritmo: regular, sonidos del corazón: distantes, S1: normal, S2: normal.",
+        "back_translation_prompt": "Thyroid: thyroid without palpable lesions in my examination, + scar from previous tracheostomy. Heart: rhythm: regular, heart sounds: distant, S1: normal, S2: normal.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 66.98232887747766,
+            "chrF++": 0.9380863039399624
+        }
+    },
+    {
+        "Original_English_sentence": "Lungs: bilateral: reduced breath sounds, expiratory wheezes present (in the upper lobe, in the lower lobe), , at or near baseline? , no rhonchi present, . Skin: lesion, . b/l venous stasis changes on distal anterior tibias trace tibial edema Neuro: Deep Tendon Reflex/Babinski: left (biceps 2+, brachioradialis 2+, triceps 2+, quadriceps 2+, Achilles 2+, no hyperreflexia), right (biceps 2+, brachioradialis 2+, triceps 2+, quadriceps 2+, Achilles 2+, Babinski, ), pt with no focal deficits to my exam.",
+        "Original_Spanish_sentence": "Pulmones: bilateral: sonidos respiratorios reducidos, presencia de resoplido espiratorio (en el lóbulo superior, en el lóbulo inferior), ¿en o cerca de la línea de base? , no hay presencia de estertor roncus, . Piel: lesión, . cambios bilaterales de estasis venosa en tibias anteriores distales indicio edema tribial Neuro: Reflejo Tendinoso Profundo/Babinski: izquierda (biceps 2+, músculo braquiorradial 2+, triceps 2+, cuádriceps 2+, Aquiles 2+, no hay hiperreflexia), derecha (biceps 2+, músculo braquiorradial 2+, triceps 2+, cuádriceps 2+, Aquiles 2+, Babinski, ), paciente no presentó déficits focales ante mi prueba.",
+        "COD_prompt": "Chain of dictionary: 'lungs' means 'pulmones y' means 'Poumon' means 'Lunge' means 'Pulmão'. 'expiratory wheezes' means 'sibilancias respiratorias' means 'Sifflement expiratoire' means 'Pfeifende Atemgeraeusche beim Ausatmen' means 'Sibilo expiratório'. 'upper lobe' means 'el lóbulo superior' means 'Tumeur maligne du lobe supérieur, d'une bronche ou du poumon' means 'Boesartige Neubildung: Oberlappen (-Bronchus)' means 'Neoplasia maligna do lobo superior, brônquio ou pulmão'. 'lower lobe' means 'el lóbulo inferior' means 'Tumeur maligne du lobe inférieur, d'une bronche ou du poumon' means 'Boesartige Neubildung: Unterlappen (-Bronchus)' means 'Neoplasia maligna do lobo inferior, brônquio ou pulmão'. 'rhonchi' means 'el ronchi' means 'Ronchi' means 'Rasselgeraeusche Lunge' means 'Roncos'. 'skin' means 'piel y' means 'Dermatoses vésiculobulleuses' means 'Hautkrankheiten, vesikulobullöse' means 'Dermatopatias Vesiculobolhosas'. 'lesion' means 'lesiones' means 'Injection intralésionnelle' means 'Injektionen, intraläsionale' means 'Injeções Intralesionais'. 'deep tendon reflex' means 'reflejo tendino profundo' means 'Abolition du réflexe tendineux profond'. 'Babinski' means 'El mismo.' means 'Signe de Babinski' means 'Reflex, Babinski-' means 'Reflexo de Babinski'. 'biceps' means 'bicipitas' means 'Rupture non traumatique de tendons du biceps (tête longue)' means 'nicht-traumatischer Riss der Bizepssehnen (langer Kopf)' means 'Ruptura não traumática de tendões do bíceps (porção longa)'. 'quadriceps' means 'Cuadriceps y sus miembros' means 'Rupture non traumatique du tendon du quadriceps' means 'Nicht-traumatischer Riss der Quadrizepssehne' means 'Ruptura não traumática do tendão do quadríceps'. 'Achilles' means 'Aquiles' means 'Tendon calcanéen' means 'Achillessehne' means 'Tendão do Calcâneo'. 'hyperreflexia' means 'hiperreflexión' means 'Dysréflexie autonome' means 'Autonome Dysreflexie' means 'Disreflexia Autonômica'.\n\nSynonyms: 'lungs' synonyms are [lungs]. 'reduced breath sounds' synonyms are [reduced, breath, sounds]. 'expiratory wheezes' synonyms are [expiratory, wheezes]. 'upper lobe' synonyms are [upper, lobe]. 'lower lobe' synonyms are [lower, lobe]. 'rhonchi' synonyms are [rhonchi]. 'skin' synonyms are [skin]. 'lesion' synonyms are [lesion]. 'venous stasis changes' synonyms are [venous, stasis, changes]. 'distal anterior tibias' synonyms are [distal, anterior, tibias]. 'tibial edema' synonyms are [tibial, edema]. 'deep tendon reflex' synonyms are [deep, tendon, reflex]. 'Babinski' synonyms are [Babinski]. 'biceps' synonyms are [biceps]. 'brachioradialis' synonyms are [brachioradialis]. 'triceps' synonyms are [triceps]. 'quadriceps' synonyms are [quadriceps]. 'Achilles' synonyms are [Achilles]. 'hyperreflexia' synonyms are [hyperreflexia]. 'focal deficits' synonyms are [focal, deficits].",
+        "spanish_translation_prompt": "Pulmones: bilaterales: sonidos respiratorios reducidos, sibilancias expiratorias presentes (en el lóbulo superior, en el lóbulo inferior), ¿en o cerca de la línea base?, no hay ronchi presentes. Piel: lesión. Cambios de estasis venosa b/l en las tibias anteriores distales trazan edema tibial. Neurológico: Reflejo Tendinoso Profundo/Babinski: izquierdo (bíceps 2+, braquiorradial 2+, tríceps 2+, cuadríceps 2+, Aquiles 2+, sin hiperreflexia), derecho (bíceps 2+, braquiorradial 2+, tríceps 2+, cuadríceps 2+, Aquiles 2+, Babinski), paciente sin déficits focales en mi examen.",
+        "back_translation_prompt": "Lungs: bilateral: reduced breath sounds, expiratory wheezing present (in the upper lobe, in the lower lobe), at or near baseline?, no rhonchi present. Skin: lesion. Changes of bilateral venous stasis in the distal anterior tibias trace tibial edema. Neurological: Deep Tendon Reflex/Babinski: left (biceps 2+, brachioradialis 2+, triceps 2+, quadriceps 2+, Achilles 2+, no hyperreflexia), right (biceps 2+, brachioradialis 2+, triceps 2+, quadriceps 2+, Achilles 2+, Babinski), patient without focal deficits on my examination.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 75.88329557037099,
+            "chrF++": 0.29394473838918284
+        }
+    },
+    {
+        "Original_English_sentence": "visible resting tremor of extremities and jaw at times though improved + intention tremor as well . + action tremor improved + cogwheeling decreased symtomatically improved Constitutional: normal Arterial Pulses: normal Abdomen: normal Lymph Nodes: normal Impression and Plan **AGE[in 60s]yo female with h/o paroxysmal A.",
+        "Original_Spanish_sentence": "A veces temblor en reposo de las extremidades y mandíbula es visible aunque ha mejorado + en adición temblor intencional.",
+        "COD_prompt": "Chain of dictionary: 'resting tremor' means 'temblor en reposo' means 'Tremblement de repos' means 'Ruhetremor' means 'Tremor em repouso'. 'extremities' means 'extremidades' means 'Membre supérieur' means 'Obere Extremität' means 'Extremidade Superior'. 'jaw' means 'el maxilar' means 'Actinomycose cervicofaciale' means 'Aktinomykose, zervikofaziale' means 'Actinomicose Cervicofacial'. 'intention tremor' means 'temblor intencional' means 'Tremblement intentionnel' means 'Intentionstremor' means 'Tremor intencional'. 'action tremor' means 'temblor de acción' means 'Tremblement intentionnel' means 'Intentionstremor' means 'Tremor intencional'. 'cogwheeling' means 'de ruedas dentadas' means 'Signe de la roue dentée' means 'Negro-Zeichen' means 'Rigidez em roda dentada'. 'Constitutional' means 'Constitucional' means 'Anémie congénitale aplasique' means 'Kongenitale aplastische Anaemie' means 'Anemia aplástica congénita'. 'Lymph Nodes' means 'Los ganglios linfáticos' means 'Noeud lymphatique' means 'Lymphknoten' means 'Linfonodos'. 'AGE' means 'Edad' means 'Trouble de l'expression orale' means 'Expressive Sprachentwicklungsstoerung' means 'Transtorno de linguagem expressiva'. 'female' means 'mujer' means 'Trouble de l'excitation sexuelle chez la femme' means 'Stoerung der sexuellen Erregung bei der Frau' means 'Afecção da activação sexual da mulher'.\n\nSynonyms: 'resting tremor' synonyms are [resting, tremor]. 'extremities' synonyms are [extremities]. 'jaw' synonyms are [jaw]. 'intention tremor' synonyms are [intention, tremor]. 'action tremor' synonyms are [action, tremor]. 'cogwheeling' synonyms are [cogwheeling]. 'Constitutional' synonyms are [Constitutional]. 'Arterial Pulses' synonyms are [Arterial, Pulses]. 'Abdomen' synonyms are [Abdomen]. 'Lymph Nodes' synonyms are [Lymph, Nodes]. 'AGE' synonyms are [AGE]. 'female' synonyms are [female]. 'h/o paroxysmal A' synonyms are [h/o, paroxysmal, A].",
+        "spanish_translation_prompt": "temblor en reposo visible de extremidades y maxilar en ocasiones, aunque mejorado + temblor intencional también. + temblor de acción mejorado + rigidez en rueda dentada disminuida sintomáticamente mejorada. Constitucional: normal Pulsos Arteriales: normales Abdomen: normal Ganglios Linfáticos: normales Impresión y Plan **Edad [en los 60] mujer con antecedentes de A paroxística.",
+        "back_translation_prompt": "Here is the translation of the text from Spanish to English:\n\n\"Visible resting tremor of the extremities and jaw on occasions, although improved + intentional tremor also. + action tremor improved + cogwheel rigidity symptomatically improved. Constitutional: normal. Arterial Pulses: normal. Abdomen: normal. Lymph Nodes: normal. Impression and Plan **Age [in the 60s] woman with a history of paroxysmal A.\"",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 24.728890103472683,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Fib, severe COPD, CAD, mild CHF, OSA, obesity and idiopathic thrombocytopenia, presented with shaking tremors, and a COPD/CHF exacerbation.",
+        "Original_Spanish_sentence": "+ temblor de acción mejorado + rigidez en rueda dentada disminuida síntomas mejorados General: normal Pulsos Arteriales: normal Abdomen: normal Nódulos Linfáticos: normal Impresión y Plan **EDAD[en los 60s]años mujer con historial de FA paroxística, caso severo de enfermedad pulmonar obstructiva crónica, arteriopatía coronaria, caso leve de insuficiencia cardiaca congestiva, apnea obstructiva del sueño, obesidad y trombocitopenia idiopática, presentado junto a temblores con sacudidas, y exacerbación de enfermedad pulmonar obstructiva crónica/insuficiencia cardiaca congestiva.",
+        "COD_prompt": "Chain of dictionary: 'COPD' means 'Enfermedad crónica obstructiva de la sangre' means 'Broncho-pneumopathie chronique obstructive' means 'Lungenkrankheiten, chronisch obstruktive' means 'Doença Pulmonar Obstrutiva Crônica'. 'CHF' means 'Frías' means 'Salmonella paratyphi C' means 'Salmonella paratyphi C' means 'Salmonella paratyphi C'. 'OSA' means 'OSA (en inglés)' means 'Boulimie nerveuse' means 'Bulimia nervosa' means 'Bulimia Nervosa'. 'obesity' means 'Obesidad' means 'Dystrophie adiposo-génitale' means 'Adiposogenitale Dystrophie' means 'Distrofia adiposogenital'. 'idiopathic thrombocytopenia' means 'Trombocitopenia idiopática' means 'Thrombocytopénie idiopathique' means 'Idiopathische Thrombozytopenie' means 'Trombocitopénica idiopática'. 'exacerbation' means 'agravamiento' means 'Autres types de schizophrénie précisés, état subchronique avec exacerbation aiguë' means 'sonstige spezifische Formen der Schizophrenie, subchronischer Zustand mit akuter Exazerbation' means 'Outros tipos especificados de esquizofrenia, estado subcrônico com exacerbação aguda'.\n\nSynonyms: 'Fib' synonyms are [Fib]. 'COPD' synonyms are [COPD]. 'CAD' synonyms are [CAD]. 'CHF' synonyms are [CHF]. 'OSA' synonyms are [OSA]. 'obesity' synonyms are [obesity]. 'idiopathic thrombocytopenia' synonyms are [idiopathic, thrombocytopenia]. 'shaking tremors' synonyms are [shaking, tremors]. 'exacerbation' synonyms are [exacerbation].",
+        "spanish_translation_prompt": "Fib, EPOC severa, CAD, CHF leve, OSA, obesidad y trombocitopenia idiopática, se presentaron con temblores y una exacerbación de EPOC/CHF.",
+        "back_translation_prompt": "Fib, severe COPD, CAD, mild CHF, OSA, obesity, and idiopathic thrombocytopenia presented with tremors and an exacerbation of COPD/CHF.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 57.2371493708226,
+            "chrF++": 1.0309278350515465
+        }
+    },
+    {
+        "Original_English_sentence": "Neuro: Pt with action tremor that is improving symptomatically and on exam.",
+        "Original_Spanish_sentence": "Neuro: paciente con temblor de acción mejorando sintomáticamente y en la prueba.",
+        "COD_prompt": "Chain of dictionary: 'Neuro' means 'Neurociencias' means 'Trouble dépressif' means 'Depressive Störung' means 'Transtorno Depressivo'. 'Pt' means 'Pt' means 'Trouble du langage de type réceptif' means 'Rezeptive Sprachstoerung' means 'Transtorno de linguagem receptiva'. 'action tremor' means 'temblor de acción' means 'Tremblement intentionnel' means 'Intentionstremor' means 'Tremor intencional'. 'exam' means 'examen de la' means 'Autopsie' means 'Obduktion' means 'Autopsia'.\n\nSynonyms: 'Neuro' synonyms are [Neuro]. 'Pt' synonyms are [Pt]. 'action tremor' synonyms are [action, tremor]. 'improving' synonyms are [improving]. 'exam' synonyms are [exam].",
+        "spanish_translation_prompt": "Neuro: Paciente con temblor de acción que está mejorando sintomáticamente y en el examen.",
+        "back_translation_prompt": "Neuro: Patient with action tremor who is improving symptomatically and on examination.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 40.01601601922502,
+            "chrF++": 1.9455252918287937
+        }
+    },
+    {
+        "Original_English_sentence": "followed by neurology Neurology: intention/action tremor, and cogwheeling continue Mysoline, may need titrated up.",
+        "Original_Spanish_sentence": "seguido por neurología Neurología: temblor de intención/acción, y rigidez de rueda dentada continúan Misolina, quizás ser aumentada.",
+        "COD_prompt": "Chain of dictionary: 'neurology' means 'Neurología' means 'Allumage (neurologie)' means 'Kindling (Neurologie)' means 'Excitação Neurológica'. 'cogwheeling' means 'de ruedas dentadas' means 'Signe de la roue dentée' means 'Negro-Zeichen' means 'Rigidez em roda dentada'. 'Mysoline' means 'Misolina y sus derivados' means 'Mysoline'.\n\nSynonyms: 'neurology' synonyms are [neurology]. 'intention/action tremor' synonyms are [tremor]. 'cogwheeling' synonyms are [cogwheeling]. 'Mysoline' synonyms are [Mysoline]. 'titrated up' synonyms are [titrated, up].",
+        "spanish_translation_prompt": "seguido de neurología Neurología: temblor de intención/acción, y rigidez en rueda dentada continúa Mysoline, puede necesitar ser titulado hacia arriba.",
+        "back_translation_prompt": "Here is the translation of the text from Spanish to English:\n\n\"Followed by neurology Neurology: intention/action tremor, and cogwheel rigidity continues. Mysoline may need to be titrated upwards.\"",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 26.980936818922867,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "EEG: with some slowing, no siezure activity ddx: action tremor/ essential tremor/ phychological component? CV: h/o Paroxysmal A Fib, CAD, CHF, HTN: currently stable, sinus rhythm mild crackles may be from pulmonary fibrosis? BP increased, off ARB due to hyperkalemia, will consider trial of other antihypertensive? Troponins negative Echo: shows no change since last echo ARB off due to hyperkalemia, no BB due to pulm status Pulm: COPD exacerbation with mild URI?, +OSA Continued IV Steroid taper change iv to po soon? duonebs changed to xopenex to decrease tremor, advair, spiriva, bipap QHS and prn.",
+        "Original_Spanish_sentence": "EEG: con una actividad no convulsiva disminuyendo diagnóstico diferencial: temblor de acción/ temblor esencial/ ¿elemento psicológico? CV: historial de FA paroxística, arteriopatía coronaria, insuficiencia cardiaca congestiva, Hipertensión: actualmente estable, ¿crepitaciones leves en ritmo sinusal quizás debido a fibrosis pulmonar? Aumento en presión sanguinea, BRA descontinuado a causa de hiperpotasiemia, ¿considerar tratar con otro antihipertensivo? Troponinas negativo Eco: no muestra cambios desde el último eco BRA descontinuado a causa de hiperpotasiemia, no BB debido al estado pulmonar Pulm: exacerbación de enfermedad pulmonar obstructiva crónica ¿con leve infección de vías respiratorias altas mild URI?, + apnea obstructiva del sueño Rebaja continua de esteroide intravenoso ¿cambiar intravenoso a per os pronto? duoneb cambiado a xopenex para reducir temblor, advair, spiriva, bipap cada noche y al necesitarse.",
+        "COD_prompt": "Chain of dictionary: 'slowing' means 'disminución' means 'Ralentissement du jet urinaire' means 'Langsamer Harnstrahl' means 'Lentação do jato urinário'. 'action tremor' means 'temblor de acción' means 'Tremblement intentionnel' means 'Intentionstremor' means 'Tremor intencional'. 'essential tremor' means 'temblor esencial' means 'Tremblement essentiel' means 'Essentieller Tremor' means 'Tremor Essencial'. 'CV' means 'C.V. y' means 'Accident vasculaire cérébral' means 'Zerebrovaskulärer Insult' means 'Acidente cerebrovascular'. 'CHF' means 'Frías' means 'Salmonella paratyphi C' means 'Salmonella paratyphi C' means 'Salmonella paratyphi C'. 'HTN' means 'Las demás' means 'Traumatismes dus à la foudre' means 'Blitzverletzungen' means 'Lesões Provocadas por Raio'. 'pulmonary fibrosis' means 'Fibrosis pulmonar y otras enfermedades' means 'Fibrose pulmonaire' means 'Pulmonale Fibrose' means 'Fibrose Pulmonar'. 'ARB' means 'El proyecto de ley' means 'Infections à arbovirus' means 'Arbovirusinfektionen' means 'Infecções por Arbovirus'. 'hyperkalemia' means 'hipercalemia' means 'Hyperkaliémie' means 'Hyperkaliämie' means 'Hiperpotassemia'. 'antihypertensive' means 'antihipertensivo' means 'Antihypertenseurs' means 'Antihypertonika' means 'Anti-Hipertensivos'. 'Troponins' means 'Las troponinas' means 'Troponine' means 'Troponin' means 'Troponina'. 'Echo' means 'El eco' means 'Infections à échovirus' means 'ECHO-Virusinfektionen' means 'Infecções por Echovirus'. 'URI' means 'URI (en inglés)' means 'Frotteurisme' means 'Frotteurismus' means 'Frotteurismo'. 'OSA' means 'OSA (en inglés)' means 'Boulimie nerveuse' means 'Bulimia nervosa' means 'Bulimia Nervosa'. 'xopenex' means 'de la especie Capsicum' means 'Xopenex' means 'Xopenex'. 'advair' means 'advair y' means 'Advair HFA' means 'Advair HFA'. 'spiriva' means 'espírivo' means 'Spiriva' means 'Spiriva'.\n\nSynonyms: 'EEG' synonyms are [EEG]. 'slowing' synonyms are [slowing]. 'siezure activity' synonyms are [activity]. 'action tremor' synonyms are [action, tremor]. 'essential tremor' synonyms are [essential, tremor]. 'psychological component' synonyms are [psychological, component]. 'CV' synonyms are [CV]. 'Paroxysmal A Fib' synonyms are [Paroxysmal, A, Fib]. 'CAD' synonyms are [CAD]. 'CHF' synonyms are [CHF]. 'HTN' synonyms are [HTN]. 'sinus rhythm' synonyms are [sinus, rhythm]. 'mild crackles' synonyms are [mild, crackles]. 'pulmonary fibrosis' synonyms are [pulmonary, fibrosis]. 'BP' synonyms are [BP]. 'ARB' synonyms are [ARB]. 'hyperkalemia' synonyms are [hyperkalemia]. 'antihypertensive' synonyms are [antihypertensive]. 'Troponins' synonyms are [Troponins]. 'Echo' synonyms are [Echo]. 'pulm' synonyms are [pulm]. 'COPD exacerbation' synonyms are [COPD, exacerbation]. 'URI' synonyms are [URI]. 'OSA' synonyms are [OSA]. 'IV Steroid taper' synonyms are [IV, Steroid, taper]. 'xopenex' synonyms are [xopenex]. 'tremor' synonyms are [tremor]. 'advair' synonyms are [advair]. 'spiriva' synonyms are [spiriva]. 'bipap' synonyms are [bipap].",
+        "spanish_translation_prompt": "EEG: con algo de disminución, sin actividad de convulsión ddx: temblor de acción / temblor esencial / componente psicológico? CV: antecedentes de fibrilación auricular paroxística, enfermedad arterial coronaria, insuficiencia cardíaca congestiva, hipertensión: actualmente estable, ritmo sinusal, crepitaciones leves pueden ser por fibrosis pulmonar? Presión arterial aumentada, fuera de ARB debido a hipercalemia, se considerará un ensayo de otro antihipertensivo? Troponinas negativas. Eco: no muestra cambios desde el último eco. ARB fuera debido a hipercalemia, sin BB debido al estado pulmonar. Pulm: exacerbación de EPOC con leve URI?, +OSA. Continuar disminución de esteroides IV, cambiar de IV a PO pronto? Duonebs cambiado a xopenex para disminuir el temblor, advair, spiriva, bipap QHS y según necesidad.",
+        "back_translation_prompt": "EEG: with some decrease, no seizure activity. Ddx: action tremor / essential tremor / psychological component? CV: history of paroxysmal atrial fibrillation, coronary artery disease, congestive heart failure, hypertension: currently stable, sinus rhythm, mild crackles may be due to pulmonary fibrosis? Blood pressure increased, off ARB due to hyperkalemia, will consider a trial of another antihypertensive? Negative troponins. Echo: no changes since the last echo. ARB off due to hyperkalemia, no BB due to pulmonary status. Pulm: exacerbation of COPD with mild URI?, +OSA. Continue tapering IV steroids, switch from IV to PO soon? Duonebs changed to Xopenex to reduce tremor, Advair, Spiriva, BiPAP QHS and as needed.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 34.70549795667748,
+            "chrF++": 0.24594195769798324
+        }
+    },
+    {
+        "Original_English_sentence": "Increased WBC likely steroid effect, will monitor for signs of infection.",
+        "Original_Spanish_sentence": "Aumento en glóbulos blancos probablemente efecto de esteroide, se monitoreará para señales de infección.",
+        "COD_prompt": "Chain of dictionary: 'WBC' means 'Cáncer de las células' means 'Leucocyte' means 'Leukozyten' means 'Leucócitos'. 'steroid' means 'esteroides' means '3-Hydroxysteroid dehydrogenases' means '3-Hydroxysteroid-Dehydrogenasen' means '3-beta-Hidroxiesteroide Desidrogenase'. 'infection' means 'infección' means 'Infections à Erysipelothrix' means 'Erysipelothrixinfektionen' means 'Infecções por Erysipelothrix'.\n\nSynonyms: 'WBC' synonyms are [WBC]. 'steroid' synonyms are [steroid]. 'infection' synonyms are [infection].",
+        "spanish_translation_prompt": "Aumento de WBC probablemente efecto de esteroides, se monitoreará en busca de signos de infección.",
+        "back_translation_prompt": "Increase in WBC likely due to steroids, will be monitored for signs of infection.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 29.347127246884344,
+            "chrF++": 1.9762845849802373
+        }
+    },
+    {
+        "Original_English_sentence": "Sats 89-92% on 5 liters, slight increase from baseline.",
+        "Original_Spanish_sentence": "Sats 89-92% en 5 litros, pequeño incremento de la línea de base.",
+        "COD_prompt": "Synonyms: 'Sats' synonyms are [Sats]. '5 liters' synonyms are [5, liters]. 'baseline' synonyms are [baseline].",
+        "spanish_translation_prompt": "Sats 89-92% en 5 litros, ligero aumento desde la línea base.",
+        "back_translation_prompt": "Sats 89-92% in 5 liters, slight increase from the baseline.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 61.04735835807847,
+            "chrF++": 2.6455026455026456
+        }
+    },
+    {
+        "Original_English_sentence": "GI: No acute issues, Heart health low sodium diet, low potassium diet, ADA mild bump in LFT's, stopped lipitor, changed to zetia Abd.",
+        "Original_Spanish_sentence": "Gatrointestinal: Nada grave, Salud corazón dieta bajo en sodio, dieta bajo en potasio, Adenosina desaminasa leve aumento en pruebas de función hepática, lipitor descontinuado, cambio a zetia Abd.",
+        "COD_prompt": "Chain of dictionary: 'GI' means 'Indicación geográfica' means 'Vaginisme' means 'Vaginismus' means 'Vaginismo'. 'low sodium diet' means 'dieta baja en sodio' means 'Régime alimentaire pauvre en sel' means 'Diät, natriumarme' means 'Dieta Hipossódica'. 'ADA' means 'ADA (Asociación de la ciudad)' means 'PDF (Produits de Dégradation du Fibrinogène)' means 'Fibrin-Fibrinogen-Abbauprodukte' means 'Produtos de Degradação da Fibrina e do Fibrinogênio'. 'LFT's' means 'Las LFT' means 'Test hépatique' means 'Leberfunktionstests' means 'Testes de Função Hepática'. 'lipitor' means 'el lipitor' means 'Lipitor' means 'Lipitor'. 'zetia' means 'Zeta y sus derivados' means 'Zetia' means 'Zetia'. 'Abd' means 'Abreviado' means 'Infections à Rhabdoviridae' means 'Rhabdoviridaeinfektionen' means 'Infecções por Rhabdoviridae'.\n\nSynonyms: 'GI' synonyms are [GI]. 'acute issues' synonyms are [acute, issues]. 'Heart health' synonyms are [Heart, health]. 'low sodium diet' synonyms are [low, sodium, diet]. 'low potassium diet' synonyms are [low, potassium, diet]. 'ADA' synonyms are [ADA]. 'LFT's' synonyms are [LFT's]. 'lipitor' synonyms are [lipitor]. 'zetia' synonyms are [zetia]. 'Abd' synonyms are [Abd].",
+        "spanish_translation_prompt": "GI: No hay problemas agudos, salud del corazón, dieta baja en sodio, dieta baja en potasio, ADA leve aumento en las pruebas de función hepática, se detuvo el lipitor, se cambió a zetia Abd.",
+        "back_translation_prompt": "GI: No acute problems, heart health, low sodium diet, low potassium diet, mild increase in liver function tests, Lipitor was stopped, switched to Zetia Abd.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 32.97823695345619,
+            "chrF++": 1.1235955056179774
+        }
+    },
+    {
+        "Original_English_sentence": "US : pending Renal/ Lytes: Hyperkalemia, rechecking labs, stopped arb, posssily due to leukocytosis? will follow Endo: DM due to steroids, on prandin and ssi tsh low, new t3 low, free t4 normal, t4, thyroid antibodies normal, + exopthalmos on exam Endocrine consult: dec. tsh most likely due to steroids, must check off steroids, check I-123 scan NM Thyroid uptake scan Pending in two weeks Heme: h/o idiopathic thrombocytopenia with splenectomy Danazol q day will follow plts (stable) hep sub Q dvt prophylaxis HM: PT/OT/Social Work continuing evaluations and treatments.",
+        "Original_Spanish_sentence": "Ecografía : pendiente Renal/ Electrolitos: Hiperpotasiemia, reexaminando labs, bra descontinuado, ¿posiblemente debido a leucocitosis? se dará seguimiento Endo: diabetes mellitus debido a esteroide, tomando prandin y escala dosis variable insulina tirotropina baja, nueva t3 baja, t4 libre normal, t4, anticuerpos de tiroides normal, + exoftalmos en la pruba Consulta endocrino: tirotropina disminuyendo probablemente a causa de esteroides, necesidad cotejar esteroides, verificar gammagrafía I-123 NM Captación gammagrafía Tiroides A ocurrir en dos semanas Hemo: historial de trombocitopenia idiopática con esplenectomía Danazol cada día a dar seguimientos plaquetas (estable) heparina subcutánea para profilaxis de TVP MH: FT/TO/Trabajo Social evaluaciones y tratamientos continuos.",
+        "COD_prompt": "Chain of dictionary: 'Renal' means 'En el caso de los' means 'Infections à Dioctophyma renale' means 'Dioctophyma-renale-Infektionen' means 'Infecção Renal por Verme Gigante'. 'Hyperkalemia' means 'Hipercaliemia' means 'Hyperkaliémie' means 'Hyperkaliämie' means 'Hiperpotassemia'. 'labs' means 'laboratorios' means 'Syndromes de malabsorption' means 'Malabsorptionssyndrome' means 'Síndromes de Malabsorção'. 'arb' means 'el árbol' means 'Infections à arbovirus' means 'Arbovirusinfektionen' means 'Infecções por Arbovirus'. 'leukocytosis' means 'Leucositosis' means 'Hémagglutinine LPF'. 'Endo' means 'El Endo' means 'Néoplasie endocrinienne multiple de type 1' means 'Multiple endokrine Neoplasie Typ 1' means 'Neoplasia Endócrina Múltipla Tipo 1'. 'steroids' means 'Esteroides' means '11-Hydroxycorticostéroïdes' means '11-Hydroxycorticosteroide' means '11-Hidroxicorticoesteroides'. 'ssi' means 'Cierre de la' means 'Trouble de l'expression écrite' means 'Schriftliche Ausdrucksstoerung' means 'Distúrbio da expressão escrita'. 'tsh' means 'el' means 'Thyrotrophine' means 'Thyreotropin' means 'TSH'. 't3' means 'T3 y' means 'Fixation de tri-iodothyronine' means 'Trijodthyronin-Aufnahme' means 'Captação de tri-iodotironina'. 'free t4' means 'T4 libre' means 'Thyroxine libre' means 'Thyroxin frei' means 'Tiroxina livre'. 'Heme' means 'El hemo' means 'Hémoprotéines' means 'Hämoproteine' means 'Hemeproteínas'. 'idiopathic thrombocytopenia' means 'Trombocitopenia idiopática' means 'Thrombocytopénie idiopathique' means 'Idiopathische Thrombozytopenie' means 'Trombocitopénica idiopática'. 'splenectomy' means 'Esplenectomía' means 'Splénectomie' means 'Splenektomie' means 'Esplenectomia'. 'Danazol' means 'Acetilcolina' means 'Danazol' means 'Danazol' means 'Danazol'. 'hep' means 'hepática' means 'Hépatites virales' means 'Virusinfektionen der Leber' means 'Infecções hepáticas a vírus'. 'sub Q' means 'sub Q' means 'Cocaïne:Présence/Seuil:Ponctuel:Substance inconnue:Qualitatif' means 'Cocaine Usub Ql'. 'dvt prophylaxis' means 'Profilaxis de la enfermedad de la' means 'Prophylaxie de thrombose veineuse profonde' means 'Prophylaxe von tiefer Venenthrombose' means 'Profilaxia de TVP'. 'PT' means 'PT y' means 'Trouble du langage de type réceptif' means 'Rezeptive Sprachstoerung' means 'Transtorno de linguagem receptiva'. 'OT' means 'Otras actividades' means 'Trouble de tic moteur ou vocal chronique' means 'Chronische motorische oder vokale Tics' means 'Transtorno de tique crônico'. 'Social Work' means 'Trabajo social' means 'Travail social psychiatrique' means 'Sozialarbeit, psychiatrische' means 'Serviço Social em Psiquiatria'.\n\nSynonyms: 'Renal' synonyms are [Renal]. 'Hyperkalemia' synonyms are [Hyperkalemia]. 'labs' synonyms are [labs]. 'arb' synonyms are [arb]. 'leukocytosis' synonyms are [leukocytosis]. 'Endo' synonyms are [Endo]. 'DM' synonyms are [DM]. 'steroids' synonyms are [steroids]. 'prandin' synonyms are [prandin]. 'ssi' synonyms are [ssi]. 'tsh' synonyms are [tsh]. 't3' synonyms are [t3]. 'free t4' synonyms are [free, t4]. 't4' synonyms are [t4]. 'thyroid antibodies' synonyms are [thyroid, antibodies]. 'Endocrine consult' synonyms are [Endocrine, consult]. 'I-123 scan' synonyms are [I-123, scan]. 'NM Thyroid uptake scan' synonyms are [NM, Thyroid, uptake, scan]. 'Heme' synonyms are [Heme]. 'idiopathic thrombocytopenia' synonyms are [idiopathic, thrombocytopenia]. 'splenectomy' synonyms are [splenectomy]. 'Danazol' synonyms are [Danazol]. 'plts' synonyms are [plts]. 'hep' synonyms are [hep]. 'sub Q' synonyms are [sub, Q]. 'dvt prophylaxis' synonyms are [dvt, prophylaxis]. 'PT' synonyms are [PT]. 'OT' synonyms are [OT]. 'Social Work' synonyms are [Social, Work].",
+        "spanish_translation_prompt": "US: pendiente Renal / Electrolitos: Hipercaliemia, rechecando laboratorios, se detuvo arb, posiblemente debido a leucocitosis? seguirá Endo: DM debido a esteroides, en prandin y ssi tsh bajo, nuevo t3 bajo, free t4 normal, t4, anticuerpos tiroideos normales, + exoftalmos en el examen Consulta endocrina: tsh disminuida probablemente debido a esteroides, debe verificar los esteroides, verificar escáner I-123 escáner de captación de tiroides NM Pendiente en dos semanas Heme: antecedentes de trombocitopenia idiopática con esplenectomía Danazol q día seguirá plts (estables) hep sub Q profilaxis de TVP HM: PT/OT/Trabajo Social continuando evaluaciones y tratamientos.",
+        "back_translation_prompt": "US: Renal pending / Electrolytes: Hyperkalemia, rechecking labs, arb was stopped, possibly due to leukocytosis? Endo will continue: DM due to steroids, on prandin and ssi low TSH, new low T3, normal free T4, normal T4, normal thyroid antibodies, + exophthalmos on exam. Endocrine consultation: decreased TSH probably due to steroids, must verify the steroids, check I-123 thyroid uptake scan. Pending in two weeks. Heme: history of idiopathic thrombocytopenia with splenectomy. Danazol q day will continue plts (stable) hep sub Q DVT prophylaxis. HM: PT/OT/Social Work continuing evaluations and treatments.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 43.413546794909635,
+            "chrF++": 0.2586652871184687
+        }
+    },
+    {
+        "Original_English_sentence": "[Report de-identified (Safe-harbor compliant) by De-ID v.6.22.08.0] **INSTITUTION GENERAL MEDICINE ATTENDING PHYSICIAN PROGRESS NOTE PATIENT NAME: **NAME[AAA, BBB M] ACCOUNT #: **ID-NUM **ROOM ATTENDING PHYSICIAN: **NAME[YYY M ZZZ] ADMISSION DATE: **DATE[Dec 08 2007] EVALUATION DATE: **DATE[Dec 13 07] I personally interviewed and examined the patient on **DATE[Dec 13 2007].",
+        "Original_Spanish_sentence": "[Infome de-identificado (cumple con puerto seguro) por De-ID v.6.22.08.0] **INSTITUCION MEDICINA GENERAL MEDICO PRIMARIO NOTA DE PROGRESO NOMBRE DEL PACIENTE: **NOMBRE[AAA, BBB M] # CUENTA: **NUM-ID **CUARTO MEDICO PRIMARIO: **NOMBRE[YYY M ZZZ] FECHA DE ADMISION: **FECHA[08 dic 2007] FECHA DE EVALUACION: **FECHA[13 dic 07] Yo entrevisté y examiné personalmente al paciente en **FECHA[13 dic 2007].",
+        "COD_prompt": "Chain of dictionary: 'ACCOUNT #' means 'Cuenta #' means 'Numéro de dossier:Identifiant:Ponctuel:Patient:Résultat nominal' means 'Número da conta:#N/A:Pt:^Paciente:Nom'.\n\nSynonyms: 'GENERAL MEDICINE' synonyms are [GENERAL, MEDICINE]. 'ATTENDING PHYSICIAN' synonyms are [ATTENDING, PHYSICIAN]. 'PROGRESS NOTE' synonyms are [PROGRESS, NOTE]. 'PATIENT NAME' synonyms are [PATIENT, NAME]. 'ACCOUNT #' synonyms are [ACCOUNT, #]. 'ROOM' synonyms are [ROOM]. 'ADMISSION DATE' synonyms are [ADMISSION, DATE]. 'EVALUATION DATE' synonyms are [EVALUATION, DATE]. 'interviewed' synonyms are [interviewed]. 'examined' synonyms are [examined].",
+        "spanish_translation_prompt": "[Informe desidentificado (cumple con Safe-harbor) por De-ID v.6.22.08.0] **INSTITUCIÓN MEDICINA GENERAL MÉDICO RESPONSABLE NOTA DE PROGRESO NOMBRE DEL PACIENTE: **NOMBRE[AAA, BBB M] NÚMERO DE CUENTA: **ID-NUM **SALÓN MÉDICO RESPONSABLE: **NOMBRE[YYY M ZZZ] FECHA DE ADMISIÓN: **FECHA[08 de diciembre de 2007] FECHA DE EVALUACIÓN: **FECHA[13 de diciembre de 07] Yo personalmente entrevisté y examiné al paciente el **FECHA[13 de diciembre de 2007].",
+        "back_translation_prompt": "[De-identified report (complies with Safe Harbor) by De-ID v.6.22.08.0] **INSTITUTION GENERAL MEDICINE RESPONSIBLE PHYSICIAN PROGRESS NOTE PATIENT NAME: **NAME[AAA, BBB M] ACCOUNT NUMBER: **ID-NUM **RESPONSIBLE PHYSICIAN'S OFFICE: **NAME[YYY M ZZZ] ADMISSION DATE: **DATE[December 8, 2007] EVALUATION DATE: **DATE[December 13, 07] I personally interviewed and examined the patient on **DATE[December 13, 2007].",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 68.26140172230576,
+            "chrF++": 0.38080731150038083
+        }
+    },
+    {
+        "Original_English_sentence": "I discussed the case with the house staff.",
+        "Original_Spanish_sentence": "Discutí el caso con el personal del lugar.",
+        "COD_prompt": "Chain of dictionary: 'case' means 'caso' means 'Acide folique' means 'Folsäure' means 'Ácido Fólico'.\n\nSynonyms: 'case' synonyms are [case]. 'house staff' synonyms are [house, staff].",
+        "spanish_translation_prompt": "Hablé sobre el caso con el personal de la casa.",
+        "back_translation_prompt": "I spoke about the case with the staff of the house.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 27.09198854675628,
+            "chrF++": 3.546099290780141
+        }
+    },
+    {
+        "Original_English_sentence": "The patient feels a little better today.",
+        "Original_Spanish_sentence": "El paciente se siente un poco mejor hoy.",
+        "COD_prompt": "Chain of dictionary: 'patient' means 'paciente' means 'Isolateurs pour malades' means 'Patientenisolatoren' means 'Isoladores de Pacientes'.\n\nSynonyms: 'patient' synonyms are [patient].",
+        "spanish_translation_prompt": "El paciente se siente un poco mejor hoy.",
+        "back_translation_prompt": "The patient feels a little better today.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 3.649635036496351
+        }
+    },
+    {
+        "Original_English_sentence": "She did have a paracentesis yesterday which showed a white count of 113, red blood cells of 13800, only 1% neutrophils, 65 monocytes, and 29% mononuclear cells.",
+        "Original_Spanish_sentence": "Es cierto que tuvo una paracentesis ayer que mostró un recuento leucocitario de 113, glóbulos rojos en 13800, sólo 1% de neutrófilos, 65 monocitos, y 29% células mononucleares.",
+        "COD_prompt": "Chain of dictionary: 'paracentesis' means 'paracentesis' means 'Paracentèse' means 'Parazentese' means 'Paracentese'. 'red blood cells' means 'glóbulos rojos' means 'Hématies anormales' means 'Erythrozytenanomalie' means 'Anomalia eritrocítica'. 'neutrophils' means 'Neutrófilos' means 'Polynucléaires neutrophiles' means 'Neutrophile' means 'Neutrófilos'. 'monocytes' means 'monocitos' means 'Monocyte' means 'Monozyten' means 'Monócitos'.\n\nSynonyms: 'paracentesis' synonyms are [paracentesis]. 'white count' synonyms are [white, count]. 'red blood cells' synonyms are [red, blood, cells]. 'neutrophils' synonyms are [neutrophils]. 'monocytes' synonyms are [monocytes]. 'mononuclear cells' synonyms are [mononuclear, cells].",
+        "spanish_translation_prompt": "Ella se sometió a una paracentesis ayer, la cual mostró un recuento de glóbulos blancos de 113, glóbulos rojos de 13800, solo 1% de neutrófilos, 65 monocitos y 29% de células mononucleares.",
+        "back_translation_prompt": "She underwent a paracentesis yesterday, which showed a white blood cell count of 113, red blood cells of 13,800, only 1% neutrophils, 65 monocytes, and 29% mononuclear cells.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 68.93133767019762,
+            "chrF++": 0.9310986964618249
+        }
+    },
+    {
+        "Original_English_sentence": "Her albumin was less than 1.",
+        "Original_Spanish_sentence": "Su albúmina era menos de 1.",
+        "COD_prompt": "Chain of dictionary: 'albumin' means 'de la proteína' means 'Albumines' means 'Albumine' means 'Albuminas'.\n\nSynonyms: 'albumin' synonyms are [albumin].",
+        "spanish_translation_prompt": "Su albúmina era menor de 1.",
+        "back_translation_prompt": "Her albumin was less than 1.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 5.376344086021505
+        }
+    },
+    {
+        "Original_English_sentence": "Her total protein was less than 2; this is indicative of a transudate.",
+        "Original_Spanish_sentence": "Su proteína total era menos de 2; lo que indica un trasudado.",
+        "COD_prompt": "Chain of dictionary: 'transudate' means 'transudado' means 'Transsudat' means 'Transsudate' means 'Transudatos'.\n\nSynonyms: 'total protein' synonyms are [total, protein]. 'transudate' synonyms are [transudate].",
+        "spanish_translation_prompt": "Su proteína total era inferior a 2; esto es indicativo de un transudado.",
+        "back_translation_prompt": "Her total protein was less than 2; this is indicative of a transudate.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 2.1459227467811157
+        }
+    },
+    {
+        "Original_English_sentence": "The patient has had 3 L removed since the tube was placed and feels much better from an abdominal point of view.",
+        "Original_Spanish_sentence": "Se le han removido 3 L a la paciente desde se preparó el tubo y se siente mucho mejor desde el punto de vista del abdomen.",
+        "COD_prompt": "Chain of dictionary: 'patient' means 'paciente' means 'Isolateurs pour malades' means 'Patientenisolatoren' means 'Isoladores de Pacientes'. 'L' means 'El' means 'Faible d'esprit' means 'Leichte intellektuelle Behinderung' means 'Mente inapta'. 'tube' means 'tubo de agua' means 'Tuberculose vertébrale' means 'Tuberkulose, spinale' means 'Tuberculose da Coluna Vertebral'. 'abdominal' means 'abdominal' means 'Réflexe cutané abdominal' means 'Reflex, Bauchdecken-' means 'Reflexo Abdominal'.\n\nSynonyms: 'patient' synonyms are [patient]. 'L' synonyms are [L]. 'tube' synonyms are [tube]. 'abdominal' synonyms are [abdominal].",
+        "spanish_translation_prompt": "El paciente ha tenido 3 L removidos desde que se colocó el tubo y se siente mucho mejor desde el punto de vista abdominal.",
+        "back_translation_prompt": "The patient has had 3 liters removed since the tube was placed and feels much better from an abdominal standpoint.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 70.20458686590516,
+            "chrF++": 1.3698630136986303
+        }
+    },
+    {
+        "Original_English_sentence": "She denies any headaches or chest pain.",
+        "Original_Spanish_sentence": "Niega tener dolores de cabeza o del pecho.",
+        "COD_prompt": "Chain of dictionary: 'headaches' means 'dolores de cabeza' means 'Céphalée' means 'Kopfschmerz' means 'Cefaleias'. 'chest pain' means 'dolor en el pecho' means 'Douleur pleurale' means 'Pleuraschmerz' means 'Dor pleurítica'.\n\nSynonyms: 'headaches' synonyms are [headaches]. 'chest pain' synonyms are [chest, pain].",
+        "spanish_translation_prompt": "Ella niega tener dolores de cabeza o dolor en el pecho.",
+        "back_translation_prompt": "She denies having headaches or chest pain.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 59.4603557501361,
+            "chrF++": 3.7593984962406015
+        }
+    },
+    {
+        "Original_English_sentence": "She does feel somewhat short of breath.",
+        "Original_Spanish_sentence": "Aunque sí se siente un poco falta de aire.",
+        "COD_prompt": "Chain of dictionary: 'short of breath' means 'dificultad para respirar' means 'Dyspnée nocturne' means 'Naechtliche Dyspnoe' means 'Dispneia nocturna'.\n\nSynonyms: 'short of breath' synonyms are [short, of, breath].",
+        "spanish_translation_prompt": "Ella se siente algo corta de aliento.",
+        "back_translation_prompt": "She feels somewhat short of breath.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 55.780028607687655,
+            "chrF++": 3.7593984962406015
+        }
+    },
+    {
+        "Original_English_sentence": "She denies dysuria, urgency, or frequency.",
+        "Original_Spanish_sentence": "Niega tener disuria, urgencia o frecuencia.",
+        "COD_prompt": "Chain of dictionary: 'dysuria' means 'disuria' means 'Dysurie' means 'Dysurie' means 'Disúria'. 'urgency' means 'urgencia' means 'Impériosité mictionnelle' means 'Harndrang' means 'Urgência urinária'. 'frequency' means 'frecuencia de las' means 'Pollakiurie' means 'Pollakisurie' means 'Polaquiúria'.\n\nSynonyms: 'dysuria' synonyms are [dysuria]. 'urgency' synonyms are [urgency]. 'frequency' synonyms are [frequency].",
+        "spanish_translation_prompt": "Ella niega disuria, urgencia o frecuencia.",
+        "back_translation_prompt": "She denies dysuria, urgency, or frequency.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 3.3557046979865772
+        }
+    },
+    {
+        "Original_English_sentence": "PHYSICAL EXAMINATION: Today, head is normocephalic.",
+        "Original_Spanish_sentence": "EXAMEN FISICO: Hoy la cabeza es normocefálica.",
+        "COD_prompt": "Chain of dictionary: 'PHYSICAL EXAMINATION' means 'Examen físico' means 'Examen physique' means 'Körperliche Untersuchung' means 'Exame Físico'. 'head' means 'cabeza' means 'Céphalée de tension' means 'Spannungskopfschmerz' means 'Cefaleias de tensão'.\n\nSynonyms: 'PHYSICAL EXAMINATION' synonyms are [PHYSICAL, EXAMINATION]. 'head' synonyms are [head].",
+        "spanish_translation_prompt": "EXAMEN FÍSICO: Hoy, la cabeza es normocéfala.",
+        "back_translation_prompt": "PHYSICAL EXAMINATION: Today, the head is normocephalic.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 65.80370064762461,
+            "chrF++": 2.7027027027027026
+        }
+    },
+    {
+        "Original_English_sentence": "Skin: Warm and dry.",
+        "Original_Spanish_sentence": "Piel: Cálida y seca.",
+        "COD_prompt": "Chain of dictionary: 'Skin' means 'Cuero' means 'Dermatoses vésiculobulleuses' means 'Hautkrankheiten, vesikulobullöse' means 'Dermatopatias Vesiculobolhosas'. 'Warm' means 'Es cálido.' means 'Tumeur EHS' means 'EHS-Tumor' means 'Tumor EHS'. 'Dry' means 'Seco' means 'Xérostomie' means 'Xerostomie' means 'Xerostomia'.\n\nSynonyms: 'Skin' synonyms are [Skin]. 'Warm' synonyms are [Warm]. 'Dry' synonyms are [Dry].",
+        "spanish_translation_prompt": "Piel: Cálida y seca.",
+        "back_translation_prompt": "Skin: Warm and dry.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 7.6923076923076925
+        }
+    },
+    {
+        "Original_English_sentence": "Lungs: She has decreased breath sounds at the bases and a scattered wheeze.",
+        "Original_Spanish_sentence": "Pulmones: Tiene sonidos respiratorios reducidos en las bases y resoplido esparcido.",
+        "COD_prompt": "Chain of dictionary: 'Lungs' means 'Pulmones y otras enfermedades' means 'Poumon' means 'Lunge' means 'Pulmão'. 'decreased breath sounds' means 'disminución de los sonidos respiratorios' means 'Bruits pulmonaires diminués' means 'Verminderte Lungengeraeusche' means 'Sons respiratórios diminuídos'. 'bases' means 'Las bases' means 'Bases de dentier' means 'Zahnprothesenbasis' means 'Bases de Dentadura'.\n\nSynonyms: 'Lungs' synonyms are [Lungs]. 'decreased breath sounds' synonyms are [decreased, breath, sounds]. 'bases' synonyms are [bases]. 'scattered wheeze' synonyms are [scattered, wheeze].",
+        "spanish_translation_prompt": "Pulmones: Ella tiene disminución de los sonidos respiratorios en las bases y un sibilante disperso.",
+        "back_translation_prompt": "Lungs: She has decreased breath sounds at the bases and a scattered wheeze.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 1.9762845849802373
+        }
+    },
+    {
+        "Original_English_sentence": "Heart: Regular rhythm.",
+        "Original_Spanish_sentence": "Corazón: Ritmo regular.",
+        "COD_prompt": "Chain of dictionary: 'Heart' means 'El corazón' means 'Cardiopathies' means 'Herzkrankheiten' means 'Cardiopatias'. 'Regular' means 'Regulares' means 'Bâtonnets non sporulés irréguliers à Gram positif' means 'Grampositive asporogene Stäbchen, irreguläre' means 'Bacilos Gram-Positivos Asporogênicos Irregulares'.\n\nSynonyms: 'Heart' synonyms are [Heart]. 'Regular' synonyms are [Regular]. 'rhythm' synonyms are [rhythm].",
+        "spanish_translation_prompt": "Corazón: Ritmo regular.",
+        "back_translation_prompt": "Heart: Regular rhythm.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 6.17283950617284
+        }
+    },
+    {
+        "Original_English_sentence": "Abdomen: Less distended.",
+        "Original_Spanish_sentence": "Abdomen: Menos distendido.",
+        "COD_prompt": "Chain of dictionary: 'distended' means 'dilatado' means 'Turgescence veineuse' means 'Venenerweiterung' means 'Veia distendida'.\n\nSynonyms: 'Abdomen' synonyms are [Abdomen]. 'distended' synonyms are [distended].",
+        "spanish_translation_prompt": "Abdomen: Menos distendido.",
+        "back_translation_prompt": "Abdomen: Less distended.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 5.617977528089887
+        }
+    },
+    {
+        "Original_English_sentence": "Her liver is more easily palpable today.",
+        "Original_Spanish_sentence": "Su hígado es más fácil de palpar hoy.",
+        "COD_prompt": "Chain of dictionary: 'liver' means 'hígado' means 'Maladies du foie' means 'Leberkrankheiten' means 'Hepatopatias'. 'palpable' means 'palpable' means 'Purpura palpable' means 'Palpable Purpura' means 'Púrpura palpável'.\n\nSynonyms: 'liver' synonyms are [liver]. 'palpable' synonyms are [palpable].",
+        "spanish_translation_prompt": "Su hígado es más fácilmente palpable hoy.",
+        "back_translation_prompt": "\"His liver is more easily palpable today.\"",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 63.894310424627285,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Extremities: She still has 2+ edema.",
+        "Original_Spanish_sentence": "Extremidades: Todavía tiene edema.",
+        "COD_prompt": "Chain of dictionary: 'extremities' means 'extremidades' means 'Membre supérieur' means 'Obere Extremität' means 'Extremidade Superior'. 'edema' means 'edema en el' means 'Angioedème héréditaire' means 'Angiooedem hereditaer' means 'Angioedema hereditário'.\n\nSynonyms: 'extremities' synonyms are [extremities]. 'edema' synonyms are [edema].",
+        "spanish_translation_prompt": "Extremidades: Ella todavía tiene edema 2+.",
+        "back_translation_prompt": "Extremities: She still has 2+ edema.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 4.0
+        }
+    },
+    {
+        "Original_English_sentence": "ASSESSMENT AND PLAN: The patient was scheduled for a kidney biopsy today, but she was informed by the Renal Transplant Service that they were going to delay this since there was some improvement in her creatinine (today's creatinine is not yet available).",
+        "Original_Spanish_sentence": "2+ EVALUACION Y PLAN: Se proyectaba que la paciente tuviese una biopsia del riñón hoy, pero el Servicio de Trasplante Renal le informó que iban a retrasarla pues ha habido una mejoría en su creatinina (la creatinina de hoy todavía no está disponible).",
+        "COD_prompt": "Chain of dictionary: 'kidney biopsy' means 'biopsia de riñón' means 'Biopsie rénale' means 'Nierenbiopsie' means 'Biopsia renal'. 'creatinine' means 'de creatinina' means 'Créatinine sérique' means 'Kreatinin im Serum' means 'Creatinina sérica'.\n\nSynonyms: 'kidney biopsy' synonyms are [kidney, biopsy]. 'Renal Transplant Service' synonyms are [Renal, Transplant, Service]. 'creatinine' synonyms are [creatinine].",
+        "spanish_translation_prompt": "EVALUACIÓN Y PLAN: La paciente tenía programada una biopsia de riñón para hoy, pero fue informada por el Servicio de Trasplante Renal que iban a retrasar esto ya que hubo alguna mejoría en su creatinina (la creatinina de hoy aún no está disponible).",
+        "back_translation_prompt": "EVALUATION AND PLAN: The patient had a kidney biopsy scheduled for today, but was informed by the Kidney Transplant Service that they would delay this because there was some improvement in her creatinine levels (today's creatinine results are not yet available).",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 46.01394610717729,
+            "chrF++": 0.5834305717619603
+        }
+    },
+    {
+        "Original_English_sentence": "We will continue to drain ascitic fluid for at least another 24 hours and will continue to monitor her renal function.",
+        "Original_Spanish_sentence": "Continuaremos drenando el líquido ascítico por al menos 24 horas más y continuaremos monitoreando su función renal.",
+        "COD_prompt": "Chain of dictionary: 'ascitic fluid' means 'fluido ascítico' means 'Liquide péritonéal' means 'Aszitesflüssigkeit' means 'Líquido Ascítico'. 'renal function' means 'función renal' means 'Exploration fonctionnelle de l'axe hypophysosurrénalien' means 'Hypophysen-Nebennierenfunktionstests' means 'Testes de Função Adreno-Hipofisária'.\n\nSynonyms: 'ascitic fluid' synonyms are [ascitic, fluid]. 'monitor' synonyms are [monitor]. 'renal function' synonyms are [renal, function].",
+        "spanish_translation_prompt": "Continuaremos drenando líquido ascítico durante al menos 24 horas más y continuaremos monitoreando su función renal.",
+        "back_translation_prompt": "We will continue draining ascitic fluid for at least 24 more hours and will keep monitoring your kidney function.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 29.193551542671063,
+            "chrF++": 1.2722646310432568
+        }
+    },
+    {
+        "Original_English_sentence": "[Report de-identified (Safe-harbor compliant) by De-ID v.6.22.08.0] **INSTITUTION GENERAL MEDICINE ATTENDING PHYSICIAN PROGRESS NOTE PATIENT NAME: **NAME[AAA, BBB M] ACCOUNT #: **ID-NUM **ROOM ATTENDING PHYSICIAN: **NAME[BBB M ZZZ] ADMISSION DATE: **DATE[Apr 11 2007] EVALUATION DATE: **DATE[Apr 18 07] The patient is awake and alert.",
+        "Original_Spanish_sentence": "[Informe de-identificado (cumple con Puerto Seguro) por De-ID v.6.22.08.0] **INSTITUCION MEDICINA GENERAL MEDICO PRIMARIO NOTA DE PROGRESO NOMBRE DEL PACIENTE: **NOMBRE[AAA, BBB M] # CUENTA: **NUM-ID- **CUARTO MEDICO PRIMARIO: **NOMBRE[BBB M ZZZ] FECHA DE ADMISION: **FECHA[11 abr 2007] FECHA DE EVALUACION: **FECHA[18 abr 07] El pacient está despierto y alerta.",
+        "COD_prompt": "Chain of dictionary: 'Patient' means 'En el caso de los pacientes' means 'Isolateurs pour malades' means 'Patientenisolatoren' means 'Isoladores de Pacientes'.\n\nSynonyms: 'General Medicine' synonyms are [General, Medicine]. 'Attending Physician' synonyms are [Attending, Physician]. 'Progress Note' synonyms are [Progress, Note]. 'Patient Name' synonyms are [Patient, Name]. 'Account Number' synonyms are [Account, Number]. 'Room' synonyms are [Room]. 'Admission Date' synonyms are [Admission, Date]. 'Evaluation Date' synonyms are [Evaluation, Date]. 'Patient' synonyms are [Patient]. 'Awake' synonyms are [Awake]. 'Alert' synonyms are [Alert].",
+        "spanish_translation_prompt": "[Reporte desidentificado (cumple con Safe-harbor) por De-ID v.6.22.08.0] **INSTITUCIÓN MEDICINA GENERAL MÉDICO ASISTENTE NOTA DE PROGRESO NOMBRE DEL PACIENTE: **NOMBRE[AAA, BBB M] NÚMERO DE CUENTA: **ID-NUM **SALÓN MÉDICO ASISTENTE: **NOMBRE[BBB M ZZZ] FECHA DE ADMISIÓN: **FECHA[11 de abril de 2007] FECHA DE EVALUACIÓN: **FECHA[18 de abril de 07] El paciente está despierto y alerta.",
+        "back_translation_prompt": "[De-identified report (complies with Safe Harbor) by De-ID v.6.22.08.0] **INSTITUTION GENERAL MEDICINE ASSISTANT PHYSICIAN PROGRESS NOTE PATIENT NAME: **NAME[AAA, BBB M] ACCOUNT NUMBER: **ID-NUM **ASSISTANT PHYSICIAN ROOM: **NAME[BBB M ZZZ] ADMISSION DATE: **DATE[April 11, 2007] EVALUATION DATE: **DATE[April 18, 2007] The patient is awake and alert.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 68.84523508525248,
+            "chrF++": 0.4291845493562232
+        }
+    },
+    {
+        "Original_English_sentence": "He has no complaints of any discomfort of any sort.",
+        "Original_Spanish_sentence": "No se queja de incomodidad de ningún tipo.",
+        "COD_prompt": "Synonyms: 'complaints' synonyms are [complaints]. 'discomfort' synonyms are [discomfort].",
+        "spanish_translation_prompt": "Él no tiene quejas de ningún tipo de malestar.",
+        "back_translation_prompt": "He has no complaints of any kind of discomfort.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 51.7679965241078,
+            "chrF++": 2.9585798816568047
+        }
+    },
+    {
+        "Original_English_sentence": "He states he slept well, and his appetite is good.",
+        "Original_Spanish_sentence": "Declara que durmió bien, además tiene buen apetito.",
+        "COD_prompt": "Chain of dictionary: 'appetite' means 'el apetito' means 'Appétit diminué' means 'Appetit vermindert' means 'DIMINUICAO DO APETITE'.\n\nSynonyms: 'slept well' synonyms are [slept, well]. 'appetite' synonyms are [appetite].",
+        "spanish_translation_prompt": "Él afirma que durmió bien y su apetito es bueno.",
+        "back_translation_prompt": "He claims that he slept well and his appetite is good.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 54.52469119630866,
+            "chrF++": 3.0303030303030303
+        }
+    },
+    {
+        "Original_English_sentence": "PHYSICAL EXAMINATION: Vital signs are stable with stabilizing blood pressure.",
+        "Original_Spanish_sentence": "EXAMEN FISICO: Signos vitales estables con presión sanguínea estabilizándose.",
+        "COD_prompt": "Chain of dictionary: 'physical examination' means 'examen físico' means 'Examen physique' means 'Körperliche Untersuchung' means 'Exame Físico'. 'stable' means 'estable' means 'Angor instable' means 'Angina pectoris, instabile' means 'Angina Instável'. 'blood pressure' means 'presión arterial' means 'Pression artérielle anormale' means 'Blutdruck anomal' means 'Tensão arterial anormal'.\n\nSynonyms: 'physical examination' synonyms are [physical, examination]. 'vital signs' synonyms are [vital, signs]. 'stable' synonyms are [stable]. 'blood pressure' synonyms are [blood, pressure].",
+        "spanish_translation_prompt": "EXAMEN FÍSICO: Los signos vitales son estables con presión arterial estabilizada.",
+        "back_translation_prompt": "PHYSICAL EXAMINATION: The vital signs are stable with stabilized blood pressure.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 35.74046404361828,
+            "chrF++": 1.8315018315018317
+        }
+    },
+    {
+        "Original_English_sentence": "He is afebrile.",
+        "Original_Spanish_sentence": "No padece fiebre.",
+        "COD_prompt": "Synonyms: 'afebrile' synonyms are [afebrile].",
+        "spanish_translation_prompt": "Él está afebril.",
+        "back_translation_prompt": "He is afebrile.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 9.433962264150944
+        }
+    },
+    {
+        "Original_English_sentence": "The necks shows no JVD, no nodes or masses.",
+        "Original_Spanish_sentence": "Cuello no presenta distensión yugular venosa, ni nudos ni masas.",
+        "COD_prompt": "Chain of dictionary: 'nodes' means 'los nodos' means 'Noeud atrioventriculaire' means 'Atrioventrikularknoten' means 'Nó Atrioventricular'. 'masses' means 'Las masas' means 'Masse' means 'Raumforderungen' means 'Massa'. 'necks' means 'cuellos' means 'Cou' means 'Hals' means 'Pescoço'.\n\nSynonyms: 'JVD' synonyms are [JVD]. 'nodes' synonyms are [nodes]. 'masses' synonyms are [masses]. 'necks' synonyms are [necks].",
+        "spanish_translation_prompt": "El cuello no muestra JVD, ni nódulos ni masas.",
+        "back_translation_prompt": "The neck shows no JVD, nodules, or masses.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 35.08439695638686,
+            "chrF++": 3.546099290780141
+        }
+    },
+    {
+        "Original_English_sentence": "The lungs are clear.",
+        "Original_Spanish_sentence": "Los pulmones están despejados.",
+        "COD_prompt": "Chain of dictionary: 'lungs' means 'pulmones y' means 'Poumon' means 'Lunge' means 'Pulmão'. 'clear' means 'claro' means 'Paralysie supranucléaire progressive' means 'Supranukleäre Paralyse, progressive' means 'Paralisia Supranuclear Progressiva'.\n\nSynonyms: 'lungs' synonyms are [lungs]. 'clear' synonyms are [clear].",
+        "spanish_translation_prompt": "Los pulmones están claros.",
+        "back_translation_prompt": "The lungs are clear.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 7.246376811594203
+        }
+    },
+    {
+        "Original_English_sentence": "The heart is regular.",
+        "Original_Spanish_sentence": "El corazón está regular.",
+        "COD_prompt": "Chain of dictionary: 'heart' means 'el corazón' means 'Cardiopathies' means 'Herzkrankheiten' means 'Cardiopatias'. 'regular' means 'regulares' means 'Bâtonnets non sporulés irréguliers à Gram positif' means 'Grampositive asporogene Stäbchen, irreguläre' means 'Bacilos Gram-Positivos Asporogênicos Irregulares'.\n\nSynonyms: 'heart' synonyms are [heart]. 'regular' synonyms are [regular].",
+        "spanish_translation_prompt": "El corazón es regular.",
+        "back_translation_prompt": "The heart is regular.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 6.849315068493151
+        }
+    },
+    {
+        "Original_English_sentence": "The abdomen is soft and nontender.",
+        "Original_Spanish_sentence": "El abdomen está suave y sin dolor.",
+        "COD_prompt": "Chain of dictionary: 'soft' means 'suave' means 'Tumeur maligne du voile du palais' means 'Boesartige Neubildung des weichen Gaumens' means 'Neoplasia maligna do palato mole'.\n\nSynonyms: 'abdomen' synonyms are [abdomen]. 'soft' synonyms are [soft]. 'nontender' synonyms are [nontender].",
+        "spanish_translation_prompt": "El abdomen es blando y no sensible.",
+        "back_translation_prompt": "The abdomen is soft and not tender.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 54.10822690539397,
+            "chrF++": 4.273504273504274
+        }
+    },
+    {
+        "Original_English_sentence": "Extremities have no cyanosis, clubbing, or edema.",
+        "Original_Spanish_sentence": "Las extremidades no presentan cianosis, hipocratismo o edema.",
+        "COD_prompt": "Chain of dictionary: 'extremities' means 'extremidades' means 'Membre supérieur' means 'Obere Extremität' means 'Extremidade Superior'. 'cyanosis' means 'Cianosis' means 'Syndrome de Raynaud' means 'Raynaud Syndrom' means 'Fenómeno de Raynaud'. 'clubbing' means 'el juego de pelota' means 'Hippocratisme' means 'Uhrglasnaegel' means 'Baqueteamento'. 'edema' means 'edema en el' means 'Angioedème héréditaire' means 'Angiooedem hereditaer' means 'Angioedema hereditário'.\n\nSynonyms: 'extremities' synonyms are [extremities]. 'cyanosis' synonyms are [cyanosis]. 'clubbing' synonyms are [clubbing]. 'edema' synonyms are [edema].",
+        "spanish_translation_prompt": "Las extremidades no presentan cianosis, baqueteamiento ni edema.",
+        "back_translation_prompt": "The extremities show no cyanosis, clubbing, or edema.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 67.86502681586727,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "LABORATORY DATA: The white count has improved to 9300, differential was pending, hemoglobin and hematocrit were stable, platelets have improved to 79000.",
+        "Original_Spanish_sentence": "DATOS DE LABORATORIO: La cuenta de glóbulos blancos ha mejorado a 9300, diferencial estaba pendiente, hemoglobina y hematocrito estaban estables, plaquetas han mejorado a 79000.",
+        "COD_prompt": "Chain of dictionary: 'differential' means 'diferencial' means 'Analyse thermique différentielle' means 'Differentialthermische Analyse' means 'Análise Diferencial Térmica'. 'hemoglobin' means 'de la hemoglobina' means 'Hémoglobinopathies' means 'Hämoglobinopathien' means 'Hemoglobinopatias'. 'hematocrit' means 'el hematocrito' means 'Hématocrite' means 'Hämatokrit' means 'Hematócrito'. 'platelets' means 'plaquetas' means 'Plaquettes' means 'Thrombozyten' means 'Plaquetas'.\n\nSynonyms: 'white count' synonyms are [white, count]. 'differential' synonyms are [differential]. 'hemoglobin' synonyms are [hemoglobin]. 'hematocrit' synonyms are [hematocrit]. 'platelets' synonyms are [platelets].",
+        "spanish_translation_prompt": "DATOS DE LABORATORIO: El recuento de glóbulos blancos ha mejorado a 9300, el diferencial estaba pendiente, la hemoglobina y el hematocrito estaban estables, las plaquetas han mejorado a 79000.",
+        "back_translation_prompt": "LABORATORY DATA: The white blood cell count has improved to 9300, the differential was pending, hemoglobin and hematocrit were stable, and platelets have improved to 79000.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 69.57838925817522,
+            "chrF++": 0.945179584120983
+        }
+    },
+    {
+        "Original_English_sentence": "IMPRESSION: Acute renal failure with neutropenia likely medication induced.",
+        "Original_Spanish_sentence": "IMPRESION: Fallo renal grave con neutropenia probablemente debido a medicamento.",
+        "COD_prompt": "Chain of dictionary: 'acute renal failure' means 'insuficiencia renal aguda' means 'Défaillance rénale aiguë' means 'Akutes Nierenversagen, nicht spezifiziert' means 'Insuficiência renal aguda, não especificada'. 'neutropenia' means 'Neutropenia y' means 'Neutropénie' means 'Neutropenie' means 'Neutropenia'. 'medication induced' means 'inducido por medicamentos' means 'Dyskinésie induite par le traitement' means 'Medikamenteninduzierte Dyskinesie' means 'Discinesia Medicamentosa'.\n\nSynonyms: 'acute renal failure' synonyms are [acute, renal, failure]. 'neutropenia' synonyms are [neutropenia]. 'medication induced' synonyms are [medication, induced].",
+        "spanish_translation_prompt": "IMPRESIÓN: Insuficiencia renal aguda con neutropenia probablemente inducida por medicamentos.",
+        "back_translation_prompt": "PRINT: Acute renal failure with neutropenia likely induced by medication.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 56.375603152592916,
+            "chrF++": 1.8587360594795537
+        }
+    },
+    {
+        "Original_English_sentence": "The patient is responding well to therapy.",
+        "Original_Spanish_sentence": "El paciente está respondiendo bien a terapia.",
+        "COD_prompt": "Chain of dictionary: 'patient' means 'paciente' means 'Isolateurs pour malades' means 'Patientenisolatoren' means 'Isoladores de Pacientes'. 'therapy' means 'tratamiento' means 'Hypnothérapie' means 'Hypnotherapie' means 'Hipnoterapia'.\n\nSynonyms: 'patient' synonyms are [patient]. 'therapy' synonyms are [therapy].",
+        "spanish_translation_prompt": "El paciente está respondiendo bien al tratamiento.",
+        "back_translation_prompt": "The patient is responding well to the treatment.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 61.04735835807847,
+            "chrF++": 3.4482758620689653
+        }
+    },
+    {
+        "Original_English_sentence": "At this point, we can likely stop Neupogen and just continue neutropenic precautions.",
+        "Original_Spanish_sentence": "En este momento, probablemente podemos descontinuar Neupogen y sólo continuar precauciones neutropénicas.",
+        "COD_prompt": "Chain of dictionary: 'Neupogen' means 'Neupógeno' means 'Neupogen' means 'Neupogen'.\n\nSynonyms: 'Neupogen' synonyms are [Neupogen]. 'neutropenic precautions' synonyms are [neutropenic, precautions].",
+        "spanish_translation_prompt": "En este momento, probablemente podamos detener Neupogen y continuar solo con las precauciones neutropénicas.",
+        "back_translation_prompt": "At this moment, we can probably stop Neupogen and continue only with the neutropenic precautions.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 21.67183006379161,
+            "chrF++": 1.7064846416382253
+        }
+    },
+    {
+        "Original_English_sentence": "The patient continues on vancomycin for possible blood cultures, however, there is a question regarding contamination.",
+        "Original_Spanish_sentence": "El paciente sigue con vancomicina para posibles hemocultivos, sin embargo, hay duda en cuanto a contaminación.",
+        "COD_prompt": "Chain of dictionary: 'patient' means 'paciente' means 'Isolateurs pour malades' means 'Patientenisolatoren' means 'Isoladores de Pacientes'. 'contamination' means 'contaminación' means 'Contamination de médicament' means 'Arzneimittelkontamination' means 'Contaminação de Medicamentos'.\n\nSynonyms: 'patient' synonyms are [patient]. 'vancomycin' synonyms are [vancomycin]. 'blood cultures' synonyms are [blood, cultures]. 'contamination' synonyms are [contamination].",
+        "spanish_translation_prompt": "El paciente continúa con vancomicina para posibles cultivos de sangre; sin embargo, hay una pregunta sobre la contaminación.",
+        "back_translation_prompt": "The patient continues with vancomycin for possible blood cultures; however, there is a question about contamination.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 53.60330312711555,
+            "chrF++": 1.210653753026634
+        }
+    },
+    {
+        "Original_English_sentence": "We are redrawing blood cultures to see if continuing vancomycin is necessary at this point.",
+        "Original_Spanish_sentence": "Estamos reextrayendo hemocultivos para ver si es necesario continuar con vancomicina en este momento.",
+        "COD_prompt": "Synonyms: 'blood cultures' synonyms are [blood, cultures]. 'vancomycin' synonyms are [vancomycin].",
+        "spanish_translation_prompt": "Estamos volviendo a realizar cultivos de sangre para ver si es necesario continuar con la vancomicina en este momento.",
+        "back_translation_prompt": "We are redoing blood cultures to see if it is necessary to continue with vancomycin at this time.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 27.678937062327712,
+            "chrF++": 1.6181229773462786
+        }
+    },
+    {
+        "Original_English_sentence": "Otherwise, I agree with the plans as outlined by the resident team and discussed with them.",
+        "Original_Spanish_sentence": "De otra forma estoy de acuero con los planes delineados por el equipo residente y discutido con ellos.",
+        "COD_prompt": "Synonyms: ",
+        "spanish_translation_prompt": "De lo contrario, estoy de acuerdo con los planes tal como los ha expuesto el equipo residente y discutido con ellos.",
+        "back_translation_prompt": "Otherwise, I agree with the plans as presented by the resident team and discussed with them.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 83.94327083733333,
+            "chrF++": 1.6393442622950818
+        }
+    },
+    {
+        "Original_English_sentence": "[Report de-identified (Safe-harbor compliant) by De-ID v.6.22.08.0] Progress **INSTITUTION, Narrative - Impression and Plan **INSTITUTION Patient: **NAME[AAA, BBB] M MRN - **ID-NUM - MPACCOMMMRN Age: **AGE[in 60s] years Sex: Female DOB: **DATE[Jul 31 1940] Author: **NAME[XXX, WWW] Results Review General results New results : ResultsNew (never reviewed) **DATE[Oct 12 2007] 6:50 AM Na 137 mEq/L K 6.0 mEq/L Critical High Cl 92 mEq/L Low BUN 28 mg/dL High Cr 0.9 mg/dL Glucose 191 mg/dL High Ca 9.3 mg/dL WBC 12.0 X10E+09/L High RBC 4.49 X10E+12/L Hgb 15.1 gm/dL Hct 47.9 % High MCV 106.6 fL High MCH 33.7 pg High MCHC 31.6 gm/dL Low RDW 17.8 % High MPV 12.7 fL High Platelets 114 X10E+09/L Low **DATE[Oct 12 2007] 4:00 AM Temperature Conversion 35.7 DegC Temperature 96.2 DegF Temperature Site Oral Pulse 54 BPM Respiratory Rate 18 Systolic BP 188 mmHg Diastolic BP 88 mmHg BP Site Right Arm Subjective Pleasant **AGE[in 60s]yo female who presented to the ED complaining of \"shaking\", and was found to be hypoxic and suffering from a COPD/CHF exacerbation.",
+        "Original_Spanish_sentence": "[Informe de-identificado (cumple con Puerto Seguro) por De-ID v.6.22.08.0] Progreso **INSTITUCION, Narrativa - Impresión y Plan **INSTITUCION Paciente: **NOMBRE[AAA, BBB] M MRN - **NUM-ID - MPACCOMMMRN Edad: **EDAD[en los 60s] años Sexo: Mujer Fecha de Nacimiento: **FECHA[31 jul 1940] Autor: **NOMBRE[XXX, WWW] Resultados Revisión General resultados Nuevos resultados : ResultadosNuevos (nunca revisado) **FECHA[12 oct 2007] 6:50 AM Na 137 mEq/L K 6.0 mEq/L Crítico Alto Cl 92 mEq/L Bajo BUN 28 mg/dL Alto Cr 0.9 mg/dL Glucosa 191 mg/dL Alto Ca 9.3 mg/dL WBC 12.0 X10E+09/L Alto RBC 4.49 X10E+12/L Hgb 15.1 gm/dL Hct 47.9 % Alto MCV 106.6 fL Alto MCH 33.7 pg Alto MCHC 31.6 gm/dL Alto RDW 17.8 % Alto MPV 12.7 fL Plaquetas Altas 114 X10E+09/L Bajo **FECHA[12 oct 2007] 4:00 AM Conversión de Temperatura 35.7 GradC Temperatura 96.2 GradF Sitio de Temperatura Oral Pulso 54 PPM Frecuencia Respiratoria 18 PA Sistólica 188 mmHg PA Diastólica 88 mmHg BP Sitio Brazo Derecho Subjectivo Placentero **EDAD[en los 60s]años mujer que se presentó a emergencia quejándose de “temblores”, se descubrió que estaba hipóxica y sufría de exacerbación de enfermedad pulmonar obstructiva crónica/insuficiencia cardiaca congestiva.",
+        "COD_prompt": "Chain of dictionary: 'Na' means 'No' means 'Trouble de l'acquisition de la coordination' means 'Koordinationsentwicklungsstoerung' means 'Distúrbio do desenvolvimento da coordenação SOE'. 'K' means 'El' means 'Fièvre récurrente, transmise par tique' means 'Von Zecken uebertragenes Rueckfallfieber' means 'Febre recorrente, transmitida por carrapatos'. 'Cl' means 'Cloruro de hidrógeno' means 'Langage désordonné' means 'Poltern' means 'Linguagem precipitada'. 'Cr' means 'Cr' means 'Entérite nécrosante' means 'Darmbrand' means 'Enterite necrótica'. 'Ca' means 'Ca' means 'Trouble de tic moteur ou vocal chronique' means 'Chronische motorische oder vokale Tics' means 'Transtorno de tique crônico'. 'WBC' means 'Cáncer de las células' means 'Leucocyte' means 'Leukozyten' means 'Leucócitos'. 'Hct' means 'Hcd' means 'Hématocrite' means 'Hämatokrit' means 'Hematócrito'. 'MCHC' means 'MCHC' means 'Concentration corpusculaire moyenne en hémoglobine' means 'Mittlere korpuskulaere Haemoglobinkonzentration' means 'Concentração de hemoglobina globular média'. 'Platelets' means 'Plaquetas' means 'Plaquettes' means 'Thrombozyten' means 'Plaquetas'. 'Temperature' means 'Temperatura de las' means 'Fièvre' means 'Fieber' means 'Febre'. 'Pulse' means 'Pulso' means 'Troubles du contrôle des impulsions' means 'Impulskontrollstörungen' means 'Perturbações do controlo dos impulsos'. 'COPD' means 'Enfermedad crónica obstructiva de la sangre' means 'Broncho-pneumopathie chronique obstructive' means 'Lungenkrankheiten, chronisch obstruktive' means 'Doença Pulmonar Obstrutiva Crônica'. 'CHF' means 'Frías' means 'Salmonella paratyphi C' means 'Salmonella paratyphi C' means 'Salmonella paratyphi C'.\n\nSynonyms: 'Na' synonyms are [Na]. 'K' synonyms are [K]. 'Cl' synonyms are [Cl]. 'BUN' synonyms are [BUN]. 'Cr' synonyms are [Cr]. 'Glucose' synonyms are [Glucose]. 'Ca' synonyms are [Ca]. 'WBC' synonyms are [WBC]. 'RBC' synonyms are [RBC]. 'Hgb' synonyms are [Hgb]. 'Hct' synonyms are [Hct]. 'MCV' synonyms are [MCV]. 'MCH' synonyms are [MCH]. 'MCHC' synonyms are [MCHC]. 'RDW' synonyms are [RDW]. 'MPV' synonyms are [MPV]. 'Platelets' synonyms are [Platelets]. 'Temperature' synonyms are [Temperature]. 'Pulse' synonyms are [Pulse]. 'Respiratory Rate' synonyms are [Respiratory, Rate]. 'Systolic BP' synonyms are [Systolic, BP]. 'Diastolic BP' synonyms are [Diastolic, BP]. 'COPD' synonyms are [COPD]. 'CHF' synonyms are [CHF]. 'hypoxic' synonyms are [hypoxic].",
+        "spanish_translation_prompt": "[Informe desidentificado (cumple con Safe-harbor) por De-ID v.6.22.08.0] Progreso **INSTITUCIÓN, Narrativa - Impresión y Plan **INSTITUCIÓN Paciente: **NOMBRE[AAA, BBB] M MRN - **ID-NUM - MPACCOMMMRN Edad: **EDAD[en 60s] años Sexo: Femenino Fecha de Nac.: **FECHA[31 de julio de 1940] Autor: **NOMBRE[XXX, WWW] Revisión de Resultados Resultados generales Nuevos resultados: ResultadosNuevos (nunca revisados) **FECHA[12 de octubre de 2007] 6:50 AM Na 137 mEq/L K 6.0 mEq/L Crítico Alto Cl 92 mEq/L Bajo BUN 28 mg/dL Alto Cr 0.9 mg/dL Glucosa 191 mg/dL Alta Ca 9.3 mg/dL WBC 12.0 X10E+09/L Alto RBC 4.49 X10E+12/L Hgb 15.1 gm/dL Hct 47.9 % Alto MCV 106.6 fL Alto MCH 33.7 pg Alto MCHC 31.6 gm/dL Bajo RDW 17.8 % Alto MPV 12.7 fL Alto Plaquetas 114 X10E+09/L Bajo **FECHA[12 de octubre de 2007] 4:00 AM Conversión de Temperatura 35.7 DegC Temperatura 96.2 DegF Sitio de Temperatura Oral Pulso 54 BPM Frecuencia Respiratoria 18 Presión Arterial Sistólica 188 mmHg Presión Arterial Diastólica 88 mmHg Sitio de PA Brazo Derecho Subjetivo Mujer **EDAD[en 60s] años que se presentó en la sala de emergencias quejándose de \"temblores\", y se encontró que estaba hipoxémica y sufriendo una exacerbación de EPOC/CHF.",
+        "back_translation_prompt": "[De-identified report (complies with Safe Harbor) by De-ID v.6.22.08.0] Progress **INSTITUTION, Narrative - Print and Plan **INSTITUTION Patient: **NAME[AAA, BBB] M MRN - **ID-NUM - MPACCOMMMRN Age: **AGE[in 60s] years Sex: Female Date of Birth: **DATE[July 31, 1940] Author: **NAME[XXX, WWW] Results Review Overall Results New results: NewResults (never reviewed) **DATE[October 12, 2007] 6:50 AM Na 137 mEq/L K 6.0 mEq/L Critical High Cl 92 mEq/L Low BUN 28 mg/dL High Cr 0.9 mg/dL Glucose 191 mg/dL High Ca 9.3 mg/dL WBC 12.0 X10E+09/L High RBC 4.49 X10E+12/L Hgb 15.1 gm/dL Hct 47.9 % High MCV 106.6 fL High MCH 33.7 pg High MCHC 31.6 gm/dL Low RDW 17.8 % High MPV 12.7 fL High Platelets 114 X10E+09/L Low **DATE[October 12, 2007] 4:00 AM Temperature Conversion 35.7 DegC Temperature 96.2 DegF Temperature Site Oral Pulse 54 BPM Respiratory Rate 18 Systolic Blood Pressure 188 mmHg Diastolic Blood Pressure 88 mmHg BP Site Right Arm Subjective Female **AGE[in 60s] years presented in the emergency room complaining of \"tremors,\" and was found to be hypoxemic and suffering an exacerbation of COPD/CHF.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 77.76091774220454,
+            "chrF++": 0.14136273678258413
+        }
+    },
+    {
+        "Original_English_sentence": "Since admission she has gotten somewhat symptomatically better.",
+        "Original_Spanish_sentence": "Después de ser admitida sus síntomas han mejorado en alguna medida.",
+        "COD_prompt": "Chain of dictionary: 'admission' means 'admisión' means 'Réadmissions à l'hôpital' means 'Stationäre Wiederaufnahme' means 'Readmissões Hospitalares não Planejadas'. 'better' means 'mejor' means 'Meilleur oeil : déficience visuelle totale ; moins bon oeil : déficience visuelle totale' means 'besseres Auge: vollstaendige Sehbehinderung; schlechteres Auge: vollstaendige Sehbehinderung' means 'Olho melhor: comprometimento total da visão; olho pior: comprometimento total da visão'.\n\nSynonyms: 'admission' synonyms are [admission]. 'better' synonyms are [better].",
+        "spanish_translation_prompt": "Desde la admisión, ha mejorado algo en cuanto a los síntomas.",
+        "back_translation_prompt": "Since the admission, there has been some improvement regarding the symptoms.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 4.368583925857938,
+            "chrF++": 2.2222222222222214
+        }
+    },
+    {
+        "Original_English_sentence": "Today she says her tremors have improved.",
+        "Original_Spanish_sentence": "Hoy indica que sus temblores han mejorado.",
+        "COD_prompt": "Chain of dictionary: 'tremors' means 'temblores' means 'Tremblement' means 'Tremor' means 'Tremor'.\n\nSynonyms: 'tremors' synonyms are [tremors]. 'improved' synonyms are [improved].",
+        "spanish_translation_prompt": "Hoy dice que sus temblores han mejorado.",
+        "back_translation_prompt": "Today he/she says that his/her tremors have improved.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 34.38931217657843,
+            "chrF++": 3.546099290780141
+        }
+    },
+    {
+        "Original_English_sentence": "She states that her breathing is the same, she denies any cp, n/v ha/fever chills.",
+        "Original_Spanish_sentence": "Declara que su respiración sigue igual, niega tener dolor de pecho, náusea/vómito, dolor de cabeza, fiebre o escalofríos.",
+        "COD_prompt": "Chain of dictionary: 'breathing' means 'respiración' means 'Entraînement respiratoire' means 'Atemübungen' means 'Exercícios Respiratórios'. 'cp' means 'cp' means 'Phencyclidine' means 'Phencyclidin' means 'Fenciclidina'. 'ha' means 'No lo sé.' means 'Délire hallucinatoire du sevrage alcoolique' means 'Halluzinose bedingt durch Alkoholentzug' means 'Alucinose por descontinuação de álcool'. 'fever' means 'fiebre' means 'Fièvre paratyphoïde A' means 'Paratyphusfieber A' means 'Febre paratifoide A'. 'chills' means 'escalofríos' means 'Sensation de froid' means 'Schüttelfrost' means 'Calafrios'.\n\nSynonyms: 'breathing' synonyms are [breathing]. 'cp' synonyms are [cp]. 'n/v' synonyms are [n/v]. 'ha' synonyms are [ha]. 'fever' synonyms are [fever]. 'chills' synonyms are [chills].",
+        "spanish_translation_prompt": "Ella afirma que su respiración es la misma, niega cualquier cp, n/v ha/fiebre escalofríos.",
+        "back_translation_prompt": "She states that her breathing is the same, denies any CP, N/V, fever, or chills.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 44.23193362467972,
+            "chrF++": 1.8315018315018317
+        }
+    },
+    {
+        "Original_English_sentence": "ros otherwise negative.",
+        "Original_Spanish_sentence": "Por otra parte revisión de sistemas negativa.",
+        "COD_prompt": "Chain of dictionary: 'ros' means 'el' means 'Trouble dépressif' means 'Depressive Störung' means 'Transtorno Depressivo'.\n\nSynonyms: 'ros' synonyms are [ros].",
+        "spanish_translation_prompt": "The translation of \"ros otherwise negative\" into Spanish is \"ros de lo contrario negativo.\"",
+        "back_translation_prompt": "The translation of \"ros otherwise negative\" into Spanish is \"ros de lo contrario negativo.\"",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 8.097785064266205,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Physical Examination General Exam Vital signs: BP: . somewhat hypertensive at times.",
+        "Original_Spanish_sentence": "Examinación Física Prueba General Signos Vitales: PA: . a veces con tendencia hipertensa.",
+        "COD_prompt": "Chain of dictionary: 'Physical Examination' means 'Examen físico' means 'Examen physique' means 'Körperliche Untersuchung' means 'Exame Físico'. 'hypertensive' means 'hipertensos' means 'Crise aiguë d'hypertension' means 'Hypertensiver Notfall' means 'Crise hipertensiva'.\n\nSynonyms: 'Physical Examination' synonyms are [Physical, Examination]. 'General Exam' synonyms are [General, Exam]. 'Vital signs' synonyms are [Vital, signs]. 'BP' synonyms are [BP]. 'hypertensive' synonyms are [hypertensive].",
+        "spanish_translation_prompt": "Examen físico Examen general Signos vitales: PA: . algo hipertenso a veces.",
+        "back_translation_prompt": "Physical examination General examination Vital signs: BP: somewhat hypertensive at times.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 51.81294220614274,
+            "chrF++": 1.7064846416382253
+        }
+    },
+    {
+        "Original_English_sentence": "Eye: bilateral: external eye exophthalmos, periorbital area: normal, sclera.",
+        "Original_Spanish_sentence": "Ojo: exolftamia bilateral, ojo externo, área periorbital: normal, esclera.",
+        "COD_prompt": "Chain of dictionary: 'eye' means 'ojo' means 'Syndrome de Reye' means 'Reye-Syndrom' means 'Síndrome de Reye'. 'bilateral' means 'de acuerdo bilateral' means 'Dystonie musculaire déformante' means 'Dystonia musculorum deformans' means 'Distonia Muscular Deformante'. 'external eye' means 'ojo externo' means 'Corps étranger dans la partie externe de l'oeil' means 'Fremdkoerper an einer nicht spezifizierten Stelle des aeusseren Auges' means 'Corpo estranho no olho externo'. 'exophthalmos' means 'Enfermedades de las muestras' means 'Exophtalmie' means 'Exophthalmus' means 'Exoftalmia'.\n\nSynonyms: 'eye' synonyms are [eye]. 'bilateral' synonyms are [bilateral]. 'external eye' synonyms are [external, eye]. 'exophthalmos' synonyms are [exophthalmos]. 'periorbital area' synonyms are [periorbital, area]. 'normal' synonyms are [normal]. 'sclera' synonyms are [sclera].",
+        "spanish_translation_prompt": "Ojo: bilateral: ojo externo exoftalmia, área periorbital: normal, esclerótica.",
+        "back_translation_prompt": "Eye: bilateral: external eye exophthalmos, periorbital area: normal, sclera.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 1.8315018315018317
+        }
+    },
+    {
+        "Original_English_sentence": "Thyroid: . thyroid without palpable lesion to my exam, + scar from prior tracheostomy Heart: rhythm: regular, heart sounds: distant, S1: normal, S2: normal.",
+        "Original_Spanish_sentence": "Tiroides: . tiroides sin lesión palpable ante mi prueba, cicatriz + de previa traqueostomía  Corazón: ritmo: regular, sonidos de corazón: distantes, S1: normal, S2: normal.",
+        "COD_prompt": "Chain of dictionary: 'Thyroid' means 'Tiroides' means 'Hypothyroïdie congénitale' means 'Kongenitale Hypothyreose' means 'Hipotireoidismo Congênito'. 'tracheostomy' means 'traqueotomía' means 'Trachéostomie' means 'Tracheostomie' means 'Traqueostomia'. 'Heart' means 'El corazón' means 'Cardiopathies' means 'Herzkrankheiten' means 'Cardiopatias'. 'heart sounds' means 'Sonidos del corazón' means 'Bruit cardiaque' means 'Herztöne' means 'Ruídos Cardíacos'. 'S1' means 'S1 y S2' means 'Myosine S-1' means 'MYOSIN S 01' means 'Miosina S-1'.\n\nSynonyms: 'Thyroid' synonyms are [Thyroid]. 'palpable lesion' synonyms are [palpable, lesion]. 'tracheostomy' synonyms are [tracheostomy]. 'Heart' synonyms are [Heart]. 'rhythm' synonyms are [rhythm]. 'heart sounds' synonyms are [heart, sounds]. 'S1' synonyms are [S1]. 'S2' synonyms are [S2].",
+        "spanish_translation_prompt": "Tiroides: tiroides sin lesión palpable en mi examen, + cicatriz de traqueotomía previa. Corazón: ritmo: regular, sonidos del corazón: distantes, S1: normal, S2: normal.",
+        "back_translation_prompt": "Thyroid: thyroid without palpable lesion in my examination, + scar from previous tracheostomy. Heart: rhythm: regular, heart sounds: distant, S1: normal, S2: normal.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 70.03944996398788,
+            "chrF++": 0.9380863039399624
+        }
+    },
+    {
+        "Original_English_sentence": "Lungs: bilateral: reduced breath sounds, expiratory wheezes present (in the upper lobe, in the lower lobe), , at or near baseline? , no rhonchi present, . Skin: lesion, . b/l venous stasis changes on distal anterior tibias trace tibial edema Neuro: Deep Tendon Reflex/Babinski: left (biceps 2+, brachioradialis 2+, triceps 2+, quadriceps 2+, Achilles 2+, no hyperreflexia), right (biceps 2+, brachioradialis 2+, triceps 2+, quadriceps 2+, Achilles 2+, Babinski, ), pt with no focal deficits to my exam.",
+        "Original_Spanish_sentence": "Pulmones: bilateral: sonidos respiratorios reducidos, presencia de resoplido espiratorio (en el lóbulo superior, en el lóbulo inferior), ¿en o cerca de la línea de base? , no hay presencia de estertor roncus, . Piel: lesión, . cambios bilaterales de estasis venosa en tibias anteriores distales indicio edema tribial Neuro: Reflejo Tendinoso Profundo/Babinski: izquierda (biceps 2+, músculo braquiorradial 2+, triceps 2+, cuádriceps 2+, Aquiles 2+, no hay hiperreflexia), derecha (biceps 2+, músculo braquiorradial 2+, triceps 2+, cuádriceps 2+, Aquiles 2+, Babinski, ), paciente no presentó déficits focales ante mi prueba.",
+        "COD_prompt": "Chain of dictionary: 'lungs' means 'pulmones y' means 'Poumon' means 'Lunge' means 'Pulmão'. 'bilateral' means 'de acuerdo bilateral' means 'Dystonie musculaire déformante' means 'Dystonia musculorum deformans' means 'Distonia Muscular Deformante'. 'expiratory wheezes' means 'sibilancias respiratorias' means 'Sifflement expiratoire' means 'Pfeifende Atemgeraeusche beim Ausatmen' means 'Sibilo expiratório'. 'upper lobe' means 'el lóbulo superior' means 'Tumeur maligne du lobe supérieur, d'une bronche ou du poumon' means 'Boesartige Neubildung: Oberlappen (-Bronchus)' means 'Neoplasia maligna do lobo superior, brônquio ou pulmão'. 'lower lobe' means 'el lóbulo inferior' means 'Tumeur maligne du lobe inférieur, d'une bronche ou du poumon' means 'Boesartige Neubildung: Unterlappen (-Bronchus)' means 'Neoplasia maligna do lobo inferior, brônquio ou pulmão'. 'skin' means 'piel y' means 'Dermatoses vésiculobulleuses' means 'Hautkrankheiten, vesikulobullöse' means 'Dermatopatias Vesiculobolhosas'. 'lesion' means 'lesiones' means 'Injection intralésionnelle' means 'Injektionen, intraläsionale' means 'Injeções Intralesionais'. 'neuro' means 'neurología' means 'Trouble dépressif' means 'Depressive Störung' means 'Transtorno Depressivo'. 'deep tendon reflex' means 'reflejo tendino profundo' means 'Abolition du réflexe tendineux profond'. 'Babinski' means 'El mismo.' means 'Signe de Babinski' means 'Reflex, Babinski-' means 'Reflexo de Babinski'. 'left' means 'izquierda' means 'Bloc de branche gauche' means 'Linksschenkelblock' means 'Bloqueio de ramo esquerdo'. 'biceps' means 'bicipitas' means 'Rupture non traumatique de tendons du biceps (tête longue)' means 'nicht-traumatischer Riss der Bizepssehnen (langer Kopf)' means 'Ruptura não traumática de tendões do bíceps (porção longa)'. 'quadriceps' means 'Cuadriceps y sus miembros' means 'Rupture non traumatique du tendon du quadriceps' means 'Nicht-traumatischer Riss der Quadrizepssehne' means 'Ruptura não traumática do tendão do quadríceps'. 'Achilles' means 'Aquiles' means 'Tendon calcanéen' means 'Achillessehne' means 'Tendão do Calcâneo'. 'right' means 'Es cierto.' means 'Bloc de branche droit' means 'Rechtsschenkelblock' means 'Bloqueio de ramo direito'.\n\nSynonyms: 'lungs' synonyms are [lungs]. 'bilateral' synonyms are [bilateral]. 'reduced breath sounds' synonyms are [reduced, breath, sounds]. 'expiratory wheezes' synonyms are [expiratory, wheezes]. 'upper lobe' synonyms are [upper, lobe]. 'lower lobe' synonyms are [lower, lobe]. 'baseline' synonyms are [baseline]. 'no rhonchi' synonyms are [no, rhonchi]. 'skin' synonyms are [skin]. 'lesion' synonyms are [lesion]. 'b/l venous stasis changes' synonyms are [b/l, venous, stasis, changes]. 'distal anterior tibias' synonyms are [distal, anterior, tibias]. 'trace tibial edema' synonyms are [trace, tibial, edema]. 'neuro' synonyms are [neuro]. 'deep tendon reflex' synonyms are [deep, tendon, reflex]. 'Babinski' synonyms are [Babinski]. 'left' synonyms are [left]. 'biceps' synonyms are [biceps]. 'brachioradialis' synonyms are [brachioradialis]. 'triceps' synonyms are [triceps]. 'quadriceps' synonyms are [quadriceps]. 'Achilles' synonyms are [Achilles]. 'no hyperreflexia' synonyms are [no, hyperreflexia]. 'right' synonyms are [right]. 'no focal deficits' synonyms are [no, focal, deficits].",
+        "spanish_translation_prompt": "Pulmones: bilateral: sonidos respiratorios reducidos, sibilancias respiratorias presentes (en el lóbulo superior, en el lóbulo inferior), ¿en o cerca de la línea base?, no hay ronquidos presentes. Piel: lesión. Cambios de estasis venosa b/l en las tibias anteriores distales, edema tibial leve. Neuro: Reflejo Tendinoso Profundo/Babinski: izquierdo (bíceps 2+, braquiorradial 2+, tríceps 2+, cuadríceps 2+, Aquiles 2+, sin hiperreflexia), derecho (bíceps 2+, braquiorradial 2+, tríceps 2+, cuadríceps 2+, Aquiles 2+, Babinski). Paciente sin déficits focales en mi examen.",
+        "back_translation_prompt": "Lungs: bilateral: reduced breath sounds, respiratory wheezing present (in the upper lobe, in the lower lobe), at or near baseline?, no rales present. Skin: lesion. Changes of venous stasis bilaterally in the distal anterior tibias, mild tibial edema. Neuro: Deep Tendon Reflex/Babinski: left (biceps 2+, brachioradialis 2+, triceps 2+, quadriceps 2+, Achilles 2+, no hyperreflexia), right (biceps 2+, brachioradialis 2+, triceps 2+, quadriceps 2+, Achilles 2+, Babinski). Patient without focal deficits on my examination.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 72.23999668776383,
+            "chrF++": 0.29394473838918284
+        }
+    },
+    {
+        "Original_English_sentence": "visible resting tremor of extremities and jaw at times though improved + intention tremor as well . + action tremor improved + cogwheeling decreased symtomatically improved Constitutional: normal Arterial Pulses: normal Abdomen: normal Lymph Nodes: normal Impression and Plan **AGE[in 60s]yo female with h/o paroxysmal A.",
+        "Original_Spanish_sentence": "A veces temblor en reposo de las extremidades y mandíbula es visible aunque ha mejorado + en adición temblor intencional.",
+        "COD_prompt": "Chain of dictionary: 'resting tremor' means 'temblor en reposo' means 'Tremblement de repos' means 'Ruhetremor' means 'Tremor em repouso'. 'extremities' means 'extremidades' means 'Membre supérieur' means 'Obere Extremität' means 'Extremidade Superior'. 'jaw' means 'el maxilar' means 'Actinomycose cervicofaciale' means 'Aktinomykose, zervikofaziale' means 'Actinomicose Cervicofacial'. 'intention tremor' means 'temblor intencional' means 'Tremblement intentionnel' means 'Intentionstremor' means 'Tremor intencional'. 'action tremor' means 'temblor de acción' means 'Tremblement intentionnel' means 'Intentionstremor' means 'Tremor intencional'. 'cogwheeling' means 'de ruedas dentadas' means 'Signe de la roue dentée' means 'Negro-Zeichen' means 'Rigidez em roda dentada'. 'Constitutional' means 'Constitucional' means 'Anémie congénitale aplasique' means 'Kongenitale aplastische Anaemie' means 'Anemia aplástica congénita'. 'Lymph Nodes' means 'Los ganglios linfáticos' means 'Noeud lymphatique' means 'Lymphknoten' means 'Linfonodos'. 'Impression' means 'Impresión' means 'Platybasie' means 'Platybasie' means 'Platibasia'. 'Plan' means 'Plan de trabajo' means 'Virus des plantes' means 'Pflanzenviren' means 'Vírus de Plantas'. 'AGE' means 'Edad' means 'Trouble de l'expression orale' means 'Expressive Sprachentwicklungsstoerung' means 'Transtorno de linguagem expressiva'. 'female' means 'mujer' means 'Trouble de l'excitation sexuelle chez la femme' means 'Stoerung der sexuellen Erregung bei der Frau' means 'Afecção da activação sexual da mulher'.\n\nSynonyms: 'resting tremor' synonyms are [resting, tremor]. 'extremities' synonyms are [extremities]. 'jaw' synonyms are [jaw]. 'intention tremor' synonyms are [intention, tremor]. 'action tremor' synonyms are [action, tremor]. 'cogwheeling' synonyms are [cogwheeling]. 'Constitutional' synonyms are [Constitutional]. 'normal' synonyms are [normal]. 'Arterial Pulses' synonyms are [Arterial, Pulses]. 'Abdomen' synonyms are [Abdomen]. 'Lymph Nodes' synonyms are [Lymph, Nodes]. 'Impression' synonyms are [Impression]. 'Plan' synonyms are [Plan]. 'AGE' synonyms are [AGE]. 'female' synonyms are [female]. 'h/o paroxysmal A' synonyms are [h/o, paroxysmal, A].",
+        "spanish_translation_prompt": "temblor en reposo visible de extremidades y maxilar en ocasiones, aunque mejorado + temblor intencional también. + temblor de acción mejorado + rigidez en rueda dentada disminuida, sintomáticamente mejorada. Constitucional: normal. Pulsos Arteriales: normales. Abdomen: normal. Ganglios Linfáticos: normales. Impresión y Plan: **Edad [en 60s] mujer con antecedentes de A paroxística.",
+        "back_translation_prompt": "Here is the translation of the provided text from Spanish to English:\n\n\"Visible resting tremor of the limbs and jaw on occasion, although improved + intentional tremor as well. + Action tremor improved + cogwheel rigidity decreased, symptomatically improved. Constitutional: normal. Arterial pulses: normal. Abdomen: normal. Lymph nodes: normal. Impression and Plan: **Age [in 60s] woman with a history of paroxysmal A.\"",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 16.572074627125374,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Fib, severe COPD, CAD, mild CHF, OSA, obesity and idiopathic thrombocytopenia, presented with shaking tremors, and a COPD/CHF exacerbation.",
+        "Original_Spanish_sentence": "+ temblor de acción mejorado + rigidez en rueda dentada disminuida síntomas mejorados General: normal Pulsos Arteriales: normal Abdomen: normal Nódulos Linfáticos: normal Impresión y Plan **EDAD[en los 60s]años mujer con historial de FA paroxística, caso severo de enfermedad pulmonar obstructiva crónica, arteriopatía coronaria, caso leve de insuficiencia cardiaca congestiva, apnea obstructiva del sueño, obesidad y trombocitopenia idiopática, presentado junto a temblores con sacudidas, y exacerbación de enfermedad pulmonar obstructiva crónica/insuficiencia cardiaca congestiva.",
+        "COD_prompt": "Chain of dictionary: 'OSA' means 'OSA (en inglés)' means 'Boulimie nerveuse' means 'Bulimia nervosa' means 'Bulimia Nervosa'. 'obesity' means 'Obesidad' means 'Dystrophie adiposo-génitale' means 'Adiposogenitale Dystrophie' means 'Distrofia adiposogenital'. 'idiopathic thrombocytopenia' means 'Trombocitopenia idiopática' means 'Thrombocytopénie idiopathique' means 'Idiopathische Thrombozytopenie' means 'Trombocitopénica idiopática'.\n\nSynonyms: 'Fib' synonyms are [Fib]. 'severe COPD' synonyms are [severe, COPD]. 'CAD' synonyms are [CAD]. 'mild CHF' synonyms are [mild, CHF]. 'OSA' synonyms are [OSA]. 'obesity' synonyms are [obesity]. 'idiopathic thrombocytopenia' synonyms are [idiopathic, thrombocytopenia]. 'shaking tremors' synonyms are [shaking, tremors]. 'COPD exacerbation' synonyms are [COPD, exacerbation]. 'CHF exacerbation' synonyms are [CHF, exacerbation].",
+        "spanish_translation_prompt": "Fibra, EPOC severa, enfermedad arterial coronaria (EAC), insuficiencia cardíaca leve (IC), apnea del sueño (ASA), obesidad e trombocitopenia idiopática, presentaron temblores y una exacerbación de EPOC/IC.",
+        "back_translation_prompt": "Fiber, severe COPD, coronary artery disease (CAD), mild heart failure (HF), sleep apnea (OSA), obesity, and idiopathic thrombocytopenia presented with tremors and an exacerbation of COPD/HF.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 12.98043538819138,
+            "chrF++": 1.0309278350515465
+        }
+    },
+    {
+        "Original_English_sentence": "Neuro: Pt with action tremor that is improving symptomatically and on exam.",
+        "Original_Spanish_sentence": "Neuro: paciente con temblor de acción mejorando sintomáticamente y en la prueba.",
+        "COD_prompt": "Chain of dictionary: 'Neuro' means 'Neurociencias' means 'Trouble dépressif' means 'Depressive Störung' means 'Transtorno Depressivo'. 'Pt' means 'Pt' means 'Trouble du langage de type réceptif' means 'Rezeptive Sprachstoerung' means 'Transtorno de linguagem receptiva'. 'action tremor' means 'temblor de acción' means 'Tremblement intentionnel' means 'Intentionstremor' means 'Tremor intencional'. 'exam' means 'examen de la' means 'Autopsie' means 'Obduktion' means 'Autopsia'.\n\nSynonyms: 'Neuro' synonyms are [Neuro]. 'Pt' synonyms are [Pt]. 'action tremor' synonyms are [action, tremor]. 'improving' synonyms are [improving]. 'exam' synonyms are [exam].",
+        "spanish_translation_prompt": "Neuro: Paciente con temblor de acción que está mejorando sintomáticamente y en el examen.",
+        "back_translation_prompt": "Neuro: Patient with action tremor who is improving symptomatically and on examination.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 40.01601601922502,
+            "chrF++": 1.9455252918287937
+        }
+    },
+    {
+        "Original_English_sentence": "followed by neurology Neurology: intention/action tremor, and cogwheeling continue Mysoline, may need titrated up.",
+        "Original_Spanish_sentence": "seguido por neurología Neurología: temblor de intención/acción, y rigidez de rueda dentada continúan Misolina, quizás ser aumentada.",
+        "COD_prompt": "Chain of dictionary: 'neurology' means 'Neurología' means 'Allumage (neurologie)' means 'Kindling (Neurologie)' means 'Excitação Neurológica'. 'cogwheeling' means 'de ruedas dentadas' means 'Signe de la roue dentée' means 'Negro-Zeichen' means 'Rigidez em roda dentada'. 'Mysoline' means 'Misolina y sus derivados' means 'Mysoline'.\n\nSynonyms: 'neurology' synonyms are [neurology]. 'intention/action tremor' synonyms are [tremor]. 'cogwheeling' synonyms are [cogwheeling]. 'Mysoline' synonyms are [Mysoline]. 'titrated up' synonyms are [titrated, up].",
+        "spanish_translation_prompt": "seguido de neurología Neurología: temblor de intención/acción, y rigidez en rueda dentada continúa Mysoline, puede necesitar ser titulado hacia arriba.",
+        "back_translation_prompt": "Followed by neurology: Neurology: intention/action tremor, and cogwheel rigidity continues. Mysoline may need to be titrated upwards.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 35.499193988471845,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "EEG: with some slowing, no siezure activity ddx: action tremor/ essential tremor/ phychological component? CV: h/o Paroxysmal A Fib, CAD, CHF, HTN: currently stable, sinus rhythm mild crackles may be from pulmonary fibrosis? BP increased, off ARB due to hyperkalemia, will consider trial of other antihypertensive? Troponins negative Echo: shows no change since last echo ARB off due to hyperkalemia, no BB due to pulm status Pulm: COPD exacerbation with mild URI?, +OSA Continued IV Steroid taper change iv to po soon? duonebs changed to xopenex to decrease tremor, advair, spiriva, bipap QHS and prn.",
+        "Original_Spanish_sentence": "EEG: con una actividad no convulsiva disminuyendo diagnóstico diferencial: temblor de acción/ temblor esencial/ ¿elemento psicológico? CV: historial de FA paroxística, arteriopatía coronaria, insuficiencia cardiaca congestiva, Hipertensión: actualmente estable, ¿crepitaciones leves en ritmo sinusal quizás debido a fibrosis pulmonar? Aumento en presión sanguinea, BRA descontinuado a causa de hiperpotasiemia, ¿considerar tratar con otro antihipertensivo? Troponinas negativo Eco: no muestra cambios desde el último eco BRA descontinuado a causa de hiperpotasiemia, no BB debido al estado pulmonar Pulm: exacerbación de enfermedad pulmonar obstructiva crónica ¿con leve infección de vías respiratorias altas mild URI?, + apnea obstructiva del sueño Rebaja continua de esteroide intravenoso ¿cambiar intravenoso a per os pronto? duoneb cambiado a xopenex para reducir temblor, advair, spiriva, bipap cada noche y al necesitarse.",
+        "COD_prompt": "Chain of dictionary: 'slowing' means 'disminución' means 'Ralentissement du jet urinaire' means 'Langsamer Harnstrahl' means 'Lentação do jato urinário'. 'action tremor' means 'temblor de acción' means 'Tremblement intentionnel' means 'Intentionstremor' means 'Tremor intencional'. 'essential tremor' means 'temblor esencial' means 'Tremblement essentiel' means 'Essentieller Tremor' means 'Tremor Essencial'. 'CV' means 'C.V. y' means 'Accident vasculaire cérébral' means 'Zerebrovaskulärer Insult' means 'Acidente cerebrovascular'. 'CHF' means 'Frías' means 'Salmonella paratyphi C' means 'Salmonella paratyphi C' means 'Salmonella paratyphi C'. 'HTN' means 'Las demás' means 'Traumatismes dus à la foudre' means 'Blitzverletzungen' means 'Lesões Provocadas por Raio'. 'pulmonary fibrosis' means 'Fibrosis pulmonar y otras enfermedades' means 'Fibrose pulmonaire' means 'Pulmonale Fibrose' means 'Fibrose Pulmonar'. 'ARB' means 'El proyecto de ley' means 'Infections à arbovirus' means 'Arbovirusinfektionen' means 'Infecções por Arbovirus'. 'hyperkalemia' means 'hipercalemia' means 'Hyperkaliémie' means 'Hyperkaliämie' means 'Hiperpotassemia'. 'antihypertensive' means 'antihipertensivo' means 'Antihypertenseurs' means 'Antihypertonika' means 'Anti-Hipertensivos'. 'Troponins' means 'Las troponinas' means 'Troponine' means 'Troponin' means 'Troponina'. 'Echo' means 'El eco' means 'Infections à échovirus' means 'ECHO-Virusinfektionen' means 'Infecções por Echovirus'. 'URI' means 'URI (en inglés)' means 'Frotteurisme' means 'Frotteurismus' means 'Frotteurismo'. 'OSA' means 'OSA (en inglés)' means 'Boulimie nerveuse' means 'Bulimia nervosa' means 'Bulimia Nervosa'. 'xopenex' means 'de la especie Capsicum' means 'Xopenex' means 'Xopenex'. 'advair' means 'advair y' means 'Advair HFA' means 'Advair HFA'. 'spiriva' means 'espírivo' means 'Spiriva' means 'Spiriva'.\n\nSynonyms: 'EEG' synonyms are [EEG]. 'slowing' synonyms are [slowing]. 'siezure activity' synonyms are [activity]. 'action tremor' synonyms are [action, tremor]. 'essential tremor' synonyms are [essential, tremor]. 'psychological component' synonyms are [psychological, component]. 'CV' synonyms are [CV]. 'Paroxysmal A Fib' synonyms are [Paroxysmal, A, Fib]. 'CAD' synonyms are [CAD]. 'CHF' synonyms are [CHF]. 'HTN' synonyms are [HTN]. 'sinus rhythm' synonyms are [sinus, rhythm]. 'mild crackles' synonyms are [mild, crackles]. 'pulmonary fibrosis' synonyms are [pulmonary, fibrosis]. 'BP' synonyms are [BP]. 'ARB' synonyms are [ARB]. 'hyperkalemia' synonyms are [hyperkalemia]. 'antihypertensive' synonyms are [antihypertensive]. 'Troponins' synonyms are [Troponins]. 'Echo' synonyms are [Echo]. 'pulm status' synonyms are [pulm, status]. 'COPD exacerbation' synonyms are [COPD, exacerbation]. 'URI' synonyms are [URI]. 'OSA' synonyms are [OSA]. 'IV Steroid' synonyms are [IV, Steroid]. 'xopenex' synonyms are [xopenex]. 'tremor' synonyms are [tremor]. 'advair' synonyms are [advair]. 'spiriva' synonyms are [spiriva]. 'bipap' synonyms are [bipap].",
+        "spanish_translation_prompt": "EEG: con algo de disminución, sin actividad convulsiva ddx: temblor de acción/ temblor esencial/ componente psicológico? CV: antecedentes de Fibrilación Auricular Paroxística, Enfermedad Arterial Coronaria, Insuficiencia Cardíaca Congestiva, Hipertensión: actualmente estable, ritmo sinusal, crepitaciones leves pueden ser por fibrosis pulmonar? Presión arterial aumentada, fuera de ARB debido a hipercalemia, se considerará un ensayo de otro antihipertensivo? Troponinas negativas Eco: no muestra cambios desde la última ecografía ARB fuera debido a hipercalemia, sin BB debido al estado pulmonar Pulm: exacerbación de EPOC con leve URI?, +OSA Continuar disminución de esteroides IV, cambiar de IV a PO pronto? duonebs cambiado a xopenex para disminuir el temblor, advair, spiriva, bipap QHS y prn.",
+        "back_translation_prompt": "EEG: with some decrease, no convulsive activity. Ddx: action tremor/essential tremor/psychological component? CV: history of Paroxysmal Atrial Fibrillation, Coronary Artery Disease, Congestive Heart Failure, Hypertension: currently stable, sinus rhythm, slight crackles may be due to pulmonary fibrosis? Blood pressure increased, off ARB due to hyperkalemia, will another antihypertensive trial be considered? Negative troponins. Echo: no changes since the last ultrasound. ARB off due to hyperkalemia, no BB due to pulmonary status. Pulm: COPD exacerbation with mild URI?, +OSA. Continue decreasing IV steroids, switch from IV to PO soon? Duonebs changed to Xopenex to reduce tremor, Advair, Spiriva, BiPAP QHS and prn.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 37.23224569664547,
+            "chrF++": 0.24594195769798324
+        }
+    },
+    {
+        "Original_English_sentence": "Increased WBC likely steroid effect, will monitor for signs of infection.",
+        "Original_Spanish_sentence": "Aumento en glóbulos blancos probablemente efecto de esteroide, se monitoreará para señales de infección.",
+        "COD_prompt": "Chain of dictionary: 'WBC' means 'Cáncer de las células' means 'Leucocyte' means 'Leukozyten' means 'Leucócitos'. 'steroid' means 'esteroides' means '3-Hydroxysteroid dehydrogenases' means '3-Hydroxysteroid-Dehydrogenasen' means '3-beta-Hidroxiesteroide Desidrogenase'. 'infection' means 'infección' means 'Infections à Erysipelothrix' means 'Erysipelothrixinfektionen' means 'Infecções por Erysipelothrix'.\n\nSynonyms: 'WBC' synonyms are [WBC]. 'steroid' synonyms are [steroid]. 'infection' synonyms are [infection].",
+        "spanish_translation_prompt": "Aumento de WBC probablemente efecto de esteroides, se monitoreará en busca de signos de infección.",
+        "back_translation_prompt": "Increase in WBC likely due to steroids, will be monitored for signs of infection.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 29.347127246884344,
+            "chrF++": 1.9762845849802373
+        }
+    },
+    {
+        "Original_English_sentence": "Sats 89-92% on 5 liters, slight increase from baseline.",
+        "Original_Spanish_sentence": "Sats 89-92% en 5 litros, pequeño incremento de la línea de base.",
+        "COD_prompt": "Synonyms: 'Sats' synonyms are [Sats]. '5 liters' synonyms are [5, liters]. 'baseline' synonyms are [baseline].",
+        "spanish_translation_prompt": "Sats 89-92% en 5 litros, ligero aumento desde la línea base.",
+        "back_translation_prompt": "Sats 89-92% in 5 liters, slight increase from the baseline.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 61.04735835807847,
+            "chrF++": 2.6455026455026456
+        }
+    },
+    {
+        "Original_English_sentence": "GI: No acute issues, Heart health low sodium diet, low potassium diet, ADA mild bump in LFT's, stopped lipitor, changed to zetia Abd.",
+        "Original_Spanish_sentence": "Gatrointestinal: Nada grave, Salud corazón dieta bajo en sodio, dieta bajo en potasio, Adenosina desaminasa leve aumento en pruebas de función hepática, lipitor descontinuado, cambio a zetia Abd.",
+        "COD_prompt": "Chain of dictionary: 'GI' means 'Indicación geográfica' means 'Vaginisme' means 'Vaginismus' means 'Vaginismo'. 'low sodium diet' means 'dieta baja en sodio' means 'Régime alimentaire pauvre en sel' means 'Diät, natriumarme' means 'Dieta Hipossódica'. 'ADA' means 'ADA (Asociación de la ciudad)' means 'PDF (Produits de Dégradation du Fibrinogène)' means 'Fibrin-Fibrinogen-Abbauprodukte' means 'Produtos de Degradação da Fibrina e do Fibrinogênio'. 'LFT's' means 'Las LFT' means 'Test hépatique' means 'Leberfunktionstests' means 'Testes de Função Hepática'. 'lipitor' means 'el lipitor' means 'Lipitor' means 'Lipitor'. 'zetia' means 'Zeta y sus derivados' means 'Zetia' means 'Zetia'. 'Abd' means 'Abreviado' means 'Infections à Rhabdoviridae' means 'Rhabdoviridaeinfektionen' means 'Infecções por Rhabdoviridae'.\n\nSynonyms: 'GI' synonyms are [GI]. 'acute issues' synonyms are [acute, issues]. 'Heart health' synonyms are [Heart, health]. 'low sodium diet' synonyms are [low, sodium, diet]. 'low potassium diet' synonyms are [low, potassium, diet]. 'ADA' synonyms are [ADA]. 'LFT's' synonyms are [LFT's]. 'lipitor' synonyms are [lipitor]. 'zetia' synonyms are [zetia]. 'Abd' synonyms are [Abd].",
+        "spanish_translation_prompt": "GI: Sin problemas agudos, salud del corazón, dieta baja en sodio, dieta baja en potasio, ADA leve aumento en las LFT, se detuvo el lipitor, se cambió a zetia Abd.",
+        "back_translation_prompt": "GI: No acute problems, heart health, low sodium diet, low potassium diet, mild increase in LFTs, Lipitor was stopped, switched to Zetia.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 35.18478252285136,
+            "chrF++": 1.1235955056179774
+        }
+    },
+    {
+        "Original_English_sentence": "US : pending Renal/ Lytes: Hyperkalemia, rechecking labs, stopped arb, posssily due to leukocytosis? will follow Endo: DM due to steroids, on prandin and ssi tsh low, new t3 low, free t4 normal, t4, thyroid antibodies normal, + exopthalmos on exam Endocrine consult: dec. tsh most likely due to steroids, must check off steroids, check I-123 scan NM Thyroid uptake scan Pending in two weeks Heme: h/o idiopathic thrombocytopenia with splenectomy Danazol q day will follow plts (stable) hep sub Q dvt prophylaxis HM: PT/OT/Social Work continuing evaluations and treatments.",
+        "Original_Spanish_sentence": "Ecografía : pendiente Renal/ Electrolitos: Hiperpotasiemia, reexaminando labs, bra descontinuado, ¿posiblemente debido a leucocitosis? se dará seguimiento Endo: diabetes mellitus debido a esteroide, tomando prandin y escala dosis variable insulina tirotropina baja, nueva t3 baja, t4 libre normal, t4, anticuerpos de tiroides normal, + exoftalmos en la pruba Consulta endocrino: tirotropina disminuyendo probablemente a causa de esteroides, necesidad cotejar esteroides, verificar gammagrafía I-123 NM Captación gammagrafía Tiroides A ocurrir en dos semanas Hemo: historial de trombocitopenia idiopática con esplenectomía Danazol cada día a dar seguimientos plaquetas (estable) heparina subcutánea para profilaxis de TVP MH: FT/TO/Trabajo Social evaluaciones y tratamientos continuos.",
+        "COD_prompt": "Chain of dictionary: 'Renal' means 'En el caso de los' means 'Infections à Dioctophyma renale' means 'Dioctophyma-renale-Infektionen' means 'Infecção Renal por Verme Gigante'. 'Lytes' means 'Las luces' means 'Ampholytes porteurs' means 'Ampholytgemische' means 'Misturas Anfolíticas'. 'Hyperkalemia' means 'Hipercaliemia' means 'Hyperkaliémie' means 'Hyperkaliämie' means 'Hiperpotassemia'. 'labs' means 'laboratorios' means 'Syndromes de malabsorption' means 'Malabsorptionssyndrome' means 'Síndromes de Malabsorção'. 'arb' means 'el árbol' means 'Infections à arbovirus' means 'Arbovirusinfektionen' means 'Infecções por Arbovirus'. 'leukocytosis' means 'Leucositosis' means 'Hémagglutinine LPF'. 'Endo' means 'El Endo' means 'Néoplasie endocrinienne multiple de type 1' means 'Multiple endokrine Neoplasie Typ 1' means 'Neoplasia Endócrina Múltipla Tipo 1'. 'steroids' means 'Esteroides' means '11-Hydroxycorticostéroïdes' means '11-Hydroxycorticosteroide' means '11-Hidroxicorticoesteroides'. 'ssi' means 'Cierre de la' means 'Trouble de l'expression écrite' means 'Schriftliche Ausdrucksstoerung' means 'Distúrbio da expressão escrita'. 'tsh' means 'el' means 'Thyrotrophine' means 'Thyreotropin' means 'TSH'. 't3' means 'T3 y' means 'Fixation de tri-iodothyronine' means 'Trijodthyronin-Aufnahme' means 'Captação de tri-iodotironina'. 'free t4' means 'T4 libre' means 'Thyroxine libre' means 'Thyroxin frei' means 'Tiroxina livre'. 'Heme' means 'El hemo' means 'Hémoprotéines' means 'Hämoproteine' means 'Hemeproteínas'. 'idiopathic thrombocytopenia' means 'Trombocitopenia idiopática' means 'Thrombocytopénie idiopathique' means 'Idiopathische Thrombozytopenie' means 'Trombocitopénica idiopática'. 'splenectomy' means 'Esplenectomía' means 'Splénectomie' means 'Splenektomie' means 'Esplenectomia'. 'Danazol' means 'Acetilcolina' means 'Danazol' means 'Danazol' means 'Danazol'. 'hep' means 'hepática' means 'Hépatites virales' means 'Virusinfektionen der Leber' means 'Infecções hepáticas a vírus'. 'sub Q' means 'sub Q' means 'Cocaïne:Présence/Seuil:Ponctuel:Substance inconnue:Qualitatif' means 'Cocaine Usub Ql'. 'dvt prophylaxis' means 'Profilaxis de la enfermedad de la' means 'Prophylaxie de thrombose veineuse profonde' means 'Prophylaxe von tiefer Venenthrombose' means 'Profilaxia de TVP'. 'HM' means 'HM' means 'Dyscalculie' means 'Dyskalkulie' means 'Discalculia'. 'PT' means 'PT y' means 'Trouble du langage de type réceptif' means 'Rezeptive Sprachstoerung' means 'Transtorno de linguagem receptiva'. 'OT' means 'Otras actividades' means 'Trouble de tic moteur ou vocal chronique' means 'Chronische motorische oder vokale Tics' means 'Transtorno de tique crônico'. 'Social Work' means 'Trabajo social' means 'Travail social psychiatrique' means 'Sozialarbeit, psychiatrische' means 'Serviço Social em Psiquiatria'. 'evaluations' means 'las evaluaciones' means 'Appréciation de la capacité de travail' means 'Arbeitskapazitätsbeurteilung' means 'Avaliação da Capacidade de Trabalho'. 'treatments' means 'Tratamientos' means 'Acharnement thérapeutique' means 'Extreme Behandlungsmaßnahmen' means 'Tratamento Extraordinário'.\n\nSynonyms: 'Renal' synonyms are [Renal]. 'Lytes' synonyms are [Lytes]. 'Hyperkalemia' synonyms are [Hyperkalemia]. 'labs' synonyms are [labs]. 'arb' synonyms are [arb]. 'leukocytosis' synonyms are [leukocytosis]. 'Endo' synonyms are [Endo]. 'DM' synonyms are [DM]. 'steroids' synonyms are [steroids]. 'prandin' synonyms are [prandin]. 'ssi' synonyms are [ssi]. 'tsh' synonyms are [tsh]. 't3' synonyms are [t3]. 'free t4' synonyms are [free, t4]. 't4' synonyms are [t4]. 'thyroid antibodies' synonyms are [thyroid, antibodies]. 'Endocrine consult' synonyms are [Endocrine, consult]. 'I-123 scan' synonyms are [I-123, scan]. 'NM' synonyms are [NM]. 'Thyroid uptake scan' synonyms are [Thyroid, uptake, scan]. 'Heme' synonyms are [Heme]. 'idiopathic thrombocytopenia' synonyms are [idiopathic, thrombocytopenia]. 'splenectomy' synonyms are [splenectomy]. 'Danazol' synonyms are [Danazol]. 'plts' synonyms are [plts]. 'hep' synonyms are [hep]. 'sub Q' synonyms are [sub, Q]. 'dvt prophylaxis' synonyms are [dvt, prophylaxis]. 'HM' synonyms are [HM]. 'PT' synonyms are [PT]. 'OT' synonyms are [OT]. 'Social Work' synonyms are [Social, Work]. 'evaluations' synonyms are [evaluations]. 'treatments' synonyms are [treatments].",
+        "spanish_translation_prompt": "US: pendiente Renal / Lytes: Hipercaliemia, rechecando laboratorios, se detuvo arb, posiblemente debido a leucositosis? seguirá Endo: DM debido a esteroides, en prandin y ssi tsh bajo, nuevo t3 bajo, free t4 normal, t4, anticuerpos tiroideos normales, + exoftalmos en el examen Consulta Endocrina: disminución de tsh probablemente debido a esteroides, debe revisar los esteroides, revisar escaneo I-123 NM escaneo de captación tiroidea Pendiente en dos semanas Heme: antecedentes de trombocitopenia idiopática con esplenectomía Danazol q día seguirá plts (estables) hep sub Q profilaxis de dvt HM: PT/OT/Trabajo Social continuando evaluaciones y tratamientos.",
+        "back_translation_prompt": "US: Renal pending / Lytes: Hyperkalemia, rechecking labs, arb was stopped, possibly due to leukocytosis? Endo will continue: DM due to steroids, on prandin and ssi low TSH, new low T3, normal free T4, normal T4, normal thyroid antibodies, + exophthalmos on exam. Endocrine Consultation: decreased TSH likely due to steroids, should review the steroids, check I-123 NM thyroid uptake scan pending in two weeks. Heme: history of idiopathic thrombocytopenia with splenectomy. Danazol daily will continue plts (stable) hep sub Q DVT prophylaxis. HM: PT/OT/Social Work continuing evaluations and treatments.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 43.01958202742128,
+            "chrF++": 0.2586652871184687
+        }
+    },
+    {
+        "Original_English_sentence": "[Report de-identified (Safe-harbor compliant) by De-ID v.6.22.08.0] **INSTITUTION GENERAL MEDICINE ATTENDING PHYSICIAN PROGRESS NOTE PATIENT NAME: **NAME[AAA, BBB M] ACCOUNT #: **ID-NUM **ROOM ATTENDING PHYSICIAN: **NAME[YYY M ZZZ] ADMISSION DATE: **DATE[Dec 08 2007] EVALUATION DATE: **DATE[Dec 13 07] I personally interviewed and examined the patient on **DATE[Dec 13 2007].",
+        "Original_Spanish_sentence": "[Infome de-identificado (cumple con puerto seguro) por De-ID v.6.22.08.0] **INSTITUCION MEDICINA GENERAL MEDICO PRIMARIO NOTA DE PROGRESO NOMBRE DEL PACIENTE: **NOMBRE[AAA, BBB M] # CUENTA: **NUM-ID **CUARTO MEDICO PRIMARIO: **NOMBRE[YYY M ZZZ] FECHA DE ADMISION: **FECHA[08 dic 2007] FECHA DE EVALUACION: **FECHA[13 dic 07] Yo entrevisté y examiné personalmente al paciente en **FECHA[13 dic 2007].",
+        "COD_prompt": "Chain of dictionary: 'patient' means 'paciente' means 'Isolateurs pour malades' means 'Patientenisolatoren' means 'Isoladores de Pacientes'.\n\nSynonyms: 'GENERAL MEDICINE' synonyms are [GENERAL, MEDICINE]. 'ATTENDING PHYSICIAN' synonyms are [ATTENDING, PHYSICIAN]. 'PROGRESS NOTE' synonyms are [PROGRESS, NOTE]. 'PATIENT NAME' synonyms are [PATIENT, NAME]. 'ACCOUNT' synonyms are [ACCOUNT]. 'ROOM' synonyms are [ROOM]. 'ADMISSION DATE' synonyms are [ADMISSION, DATE]. 'EVALUATION DATE' synonyms are [EVALUATION, DATE]. 'interviewed' synonyms are [interviewed]. 'examined' synonyms are [examined]. 'patient' synonyms are [patient].",
+        "spanish_translation_prompt": "[Informe desidentificado (cumple con Safe-harbor) por De-ID v.6.22.08.0] **INSTITUCIÓN MEDICINA GENERAL MÉDICO ASISTENTE NOTA DE PROGRESO NOMBRE DEL PACIENTE: **NOMBRE[AAA, BBB M] NÚMERO DE CUENTA: **ID-NUM **SALÓN MÉDICO ASISTENTE: **NOMBRE[YYY M ZZZ] FECHA DE ADMISIÓN: **FECHA[08 de diciembre de 2007] FECHA DE EVALUACIÓN: **FECHA[13 de diciembre de 07] Yo entrevisté y examiné personalmente al paciente el **FECHA[13 de diciembre de 2007].",
+        "back_translation_prompt": "**UNIDENTIFIED REPORT (complies with Safe Harbor) by De-ID v.6.22.08.0**  \n**INSTITUTION GENERAL MEDICINE ASSISTANT PHYSICIAN PROGRESS NOTE**  \nPATIENT NAME: **NAME[AAA, BBB M]**  \nACCOUNT NUMBER: **ID-NUM**  \nASSISTANT PHYSICIAN ROOM: **NAME[YYY M ZZZ]**  \nADMISSION DATE: **DATE[December 8, 2007]**  \nEVALUATION DATE: **DATE[December 13, 2007]**  \nI personally interviewed and examined the patient on **DATE[December 13, 2007].**",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 50.88293931496693,
+            "chrF++": 0.38080731150038083
+        }
+    },
+    {
+        "Original_English_sentence": "I discussed the case with the house staff.",
+        "Original_Spanish_sentence": "Discutí el caso con el personal del lugar.",
+        "COD_prompt": "Chain of dictionary: 'case' means 'caso' means 'Acide folique' means 'Folsäure' means 'Ácido Fólico'.\n\nSynonyms: 'case' synonyms are [case]. 'house staff' synonyms are [house, staff].",
+        "spanish_translation_prompt": "Hablé sobre el caso con el personal de la casa.",
+        "back_translation_prompt": "I spoke about the case with the staff of the house.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 27.09198854675628,
+            "chrF++": 3.546099290780141
+        }
+    },
+    {
+        "Original_English_sentence": "The patient feels a little better today.",
+        "Original_Spanish_sentence": "El paciente se siente un poco mejor hoy.",
+        "COD_prompt": "Chain of dictionary: 'patient' means 'paciente' means 'Isolateurs pour malades' means 'Patientenisolatoren' means 'Isoladores de Pacientes'.\n\nSynonyms: 'patient' synonyms are [patient].",
+        "spanish_translation_prompt": "El paciente se siente un poco mejor hoy.",
+        "back_translation_prompt": "The patient feels a little better today.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 3.649635036496351
+        }
+    },
+    {
+        "Original_English_sentence": "She did have a paracentesis yesterday which showed a white count of 113, red blood cells of 13800, only 1% neutrophils, 65 monocytes, and 29% mononuclear cells.",
+        "Original_Spanish_sentence": "Es cierto que tuvo una paracentesis ayer que mostró un recuento leucocitario de 113, glóbulos rojos en 13800, sólo 1% de neutrófilos, 65 monocitos, y 29% células mononucleares.",
+        "COD_prompt": "Chain of dictionary: 'paracentesis' means 'paracentesis' means 'Paracentèse' means 'Parazentese' means 'Paracentese'. 'red blood cells' means 'glóbulos rojos' means 'Hématies anormales' means 'Erythrozytenanomalie' means 'Anomalia eritrocítica'. 'neutrophils' means 'Neutrófilos' means 'Polynucléaires neutrophiles' means 'Neutrophile' means 'Neutrófilos'. 'monocytes' means 'monocitos' means 'Monocyte' means 'Monozyten' means 'Monócitos'.\n\nSynonyms: 'paracentesis' synonyms are [paracentesis]. 'white count' synonyms are [white, count]. 'red blood cells' synonyms are [red, blood, cells]. 'neutrophils' synonyms are [neutrophils]. 'monocytes' synonyms are [monocytes]. 'mononuclear cells' synonyms are [mononuclear, cells].",
+        "spanish_translation_prompt": "Ella se sometió a una paracentesis ayer, que mostró un recuento de glóbulos blancos de 113, glóbulos rojos de 13800, solo 1% de neutrófilos, 65 monocitos y 29% de células mononucleares.",
+        "back_translation_prompt": "She underwent a paracentesis yesterday, which showed a white blood cell count of 113, red blood cells of 13,800, only 1% neutrophils, 65 monocytes, and 29% mononuclear cells.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 68.93133767019762,
+            "chrF++": 0.9310986964618249
+        }
+    },
+    {
+        "Original_English_sentence": "Her albumin was less than 1.",
+        "Original_Spanish_sentence": "Su albúmina era menos de 1.",
+        "COD_prompt": "Chain of dictionary: 'albumin' means 'de la proteína' means 'Albumines' means 'Albumine' means 'Albuminas'.\n\nSynonyms: 'albumin' synonyms are [albumin].",
+        "spanish_translation_prompt": "Su albúmina era menor de 1.",
+        "back_translation_prompt": "\"His albumin was less than 1.\"",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 58.73949094699213,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Her total protein was less than 2; this is indicative of a transudate.",
+        "Original_Spanish_sentence": "Su proteína total era menos de 2; lo que indica un trasudado.",
+        "COD_prompt": "Chain of dictionary: 'transudate' means 'transudado' means 'Transsudat' means 'Transsudate' means 'Transudatos'.\n\nSynonyms: 'total protein' synonyms are [total, protein]. 'transudate' synonyms are [transudate].",
+        "spanish_translation_prompt": "Su proteína total era inferior a 2; esto es indicativo de un transudado.",
+        "back_translation_prompt": "\"His total protein was less than 2; this is indicative of a transudate.\"",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 80.53122030796273,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "The patient has had 3 L removed since the tube was placed and feels much better from an abdominal point of view.",
+        "Original_Spanish_sentence": "Se le han removido 3 L a la paciente desde se preparó el tubo y se siente mucho mejor desde el punto de vista del abdomen.",
+        "COD_prompt": "Chain of dictionary: 'patient' means 'paciente' means 'Isolateurs pour malades' means 'Patientenisolatoren' means 'Isoladores de Pacientes'. 'L' means 'El' means 'Faible d'esprit' means 'Leichte intellektuelle Behinderung' means 'Mente inapta'. 'tube' means 'tubo de agua' means 'Tuberculose vertébrale' means 'Tuberkulose, spinale' means 'Tuberculose da Coluna Vertebral'. 'abdominal' means 'abdominal' means 'Réflexe cutané abdominal' means 'Reflex, Bauchdecken-' means 'Reflexo Abdominal'.\n\nSynonyms: 'patient' synonyms are [patient]. 'L' synonyms are [L]. 'tube' synonyms are [tube]. 'abdominal' synonyms are [abdominal].",
+        "spanish_translation_prompt": "El paciente ha tenido 3 Mente inapta removidas desde que se colocó el tubo de agua y se siente mucho mejor desde el punto de vista abdominal.",
+        "back_translation_prompt": "The patient has had 3 unsuitable minds removed since the water tube was placed and feels much better from an abdominal standpoint.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 61.69034543248988,
+            "chrF++": 1.3698630136986303
+        }
+    },
+    {
+        "Original_English_sentence": "She denies any headaches or chest pain.",
+        "Original_Spanish_sentence": "Niega tener dolores de cabeza o del pecho.",
+        "COD_prompt": "Chain of dictionary: 'headaches' means 'dolores de cabeza' means 'Céphalée' means 'Kopfschmerz' means 'Cefaleias'. 'chest pain' means 'dolor en el pecho' means 'Douleur pleurale' means 'Pleuraschmerz' means 'Dor pleurítica'.\n\nSynonyms: 'headaches' synonyms are [headaches]. 'chest pain' synonyms are [chest, pain].",
+        "spanish_translation_prompt": "Ella niega tener dolores de cabeza o dolor en el pecho.",
+        "back_translation_prompt": "She denies having headaches or chest pain.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 59.4603557501361,
+            "chrF++": 3.7593984962406015
+        }
+    },
+    {
+        "Original_English_sentence": "She does feel somewhat short of breath.",
+        "Original_Spanish_sentence": "Aunque sí se siente un poco falta de aire.",
+        "COD_prompt": "Chain of dictionary: 'short of breath' means 'dificultad para respirar' means 'Dyspnée nocturne' means 'Naechtliche Dyspnoe' means 'Dispneia nocturna'.\n\nSynonyms: 'short of breath' synonyms are [short, of, breath].",
+        "spanish_translation_prompt": "Ella se siente algo dificultada para respirar.",
+        "back_translation_prompt": "She feels somewhat hindered in her breathing.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 7.267884212102741,
+            "chrF++": 3.7593984962406015
+        }
+    },
+    {
+        "Original_English_sentence": "She denies dysuria, urgency, or frequency.",
+        "Original_Spanish_sentence": "Niega tener disuria, urgencia o frecuencia.",
+        "COD_prompt": "Chain of dictionary: 'dysuria' means 'disuria' means 'Dysurie' means 'Dysurie' means 'Disúria'. 'urgency' means 'urgencia' means 'Impériosité mictionnelle' means 'Harndrang' means 'Urgência urinária'. 'frequency' means 'frecuencia de las' means 'Pollakiurie' means 'Pollakisurie' means 'Polaquiúria'.\n\nSynonyms: 'dysuria' synonyms are [dysuria]. 'urgency' synonyms are [urgency]. 'frequency' synonyms are [frequency].",
+        "spanish_translation_prompt": "Ella niega disuria, urgencia o frecuencia.",
+        "back_translation_prompt": "She denies dysuria, urgency, or frequency.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 3.3557046979865772
+        }
+    },
+    {
+        "Original_English_sentence": "PHYSICAL EXAMINATION: Today, head is normocephalic.",
+        "Original_Spanish_sentence": "EXAMEN FISICO: Hoy la cabeza es normocefálica.",
+        "COD_prompt": "Chain of dictionary: 'PHYSICAL EXAMINATION' means 'Examen físico' means 'Examen physique' means 'Körperliche Untersuchung' means 'Exame Físico'. 'head' means 'cabeza' means 'Céphalée de tension' means 'Spannungskopfschmerz' means 'Cefaleias de tensão'.\n\nSynonyms: 'PHYSICAL EXAMINATION' synonyms are [PHYSICAL, EXAMINATION]. 'head' synonyms are [head].",
+        "spanish_translation_prompt": "EXAMEN FÍSICO: Hoy, la cabeza es normocefálica.",
+        "back_translation_prompt": "PHYSICAL EXAMINATION: Today, the head is normocephalic.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 65.80370064762461,
+            "chrF++": 2.7027027027027026
+        }
+    },
+    {
+        "Original_English_sentence": "Skin: Warm and dry.",
+        "Original_Spanish_sentence": "Piel: Cálida y seca.",
+        "COD_prompt": "Chain of dictionary: 'Skin' means 'Cuero' means 'Dermatoses vésiculobulleuses' means 'Hautkrankheiten, vesikulobullöse' means 'Dermatopatias Vesiculobolhosas'. 'Warm' means 'Es cálido.' means 'Tumeur EHS' means 'EHS-Tumor' means 'Tumor EHS'. 'Dry' means 'Seco' means 'Xérostomie' means 'Xerostomie' means 'Xerostomia'.\n\nSynonyms: 'Skin' synonyms are [Skin]. 'Warm' synonyms are [Warm]. 'Dry' synonyms are [Dry].",
+        "spanish_translation_prompt": "Piel: Cálida y seca.",
+        "back_translation_prompt": "Skin: Warm and dry.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 7.6923076923076925
+        }
+    },
+    {
+        "Original_English_sentence": "Lungs: She has decreased breath sounds at the bases and a scattered wheeze.",
+        "Original_Spanish_sentence": "Pulmones: Tiene sonidos respiratorios reducidos en las bases y resoplido esparcido.",
+        "COD_prompt": "Chain of dictionary: 'lungs' means 'pulmones y' means 'Poumon' means 'Lunge' means 'Pulmão'. 'decreased breath sounds' means 'disminución de los sonidos respiratorios' means 'Bruits pulmonaires diminués' means 'Verminderte Lungengeraeusche' means 'Sons respiratórios diminuídos'. 'bases' means 'Las bases' means 'Bases de dentier' means 'Zahnprothesenbasis' means 'Bases de Dentadura'.\n\nSynonyms: 'lungs' synonyms are [lungs]. 'decreased breath sounds' synonyms are [decreased, breath, sounds]. 'bases' synonyms are [bases]. 'scattered wheeze' synonyms are [scattered, wheeze].",
+        "spanish_translation_prompt": "Pulmones: Ella tiene disminución de los sonidos respiratorios en las bases y un sibilante disperso.",
+        "back_translation_prompt": "Lungs: She has decreased breath sounds at the bases and scattered wheezing.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 73.55913234840416,
+            "chrF++": 1.9762845849802373
+        }
+    },
+    {
+        "Original_English_sentence": "Heart: Regular rhythm.",
+        "Original_Spanish_sentence": "Corazón: Ritmo regular.",
+        "COD_prompt": "Chain of dictionary: 'Heart' means 'El corazón' means 'Cardiopathies' means 'Herzkrankheiten' means 'Cardiopatias'.\n\nSynonyms: 'Heart' synonyms are [Heart]. 'Regular rhythm' synonyms are [Regular, rhythm].",
+        "spanish_translation_prompt": "Corazón: Ritmo regular.",
+        "back_translation_prompt": "Heart: Regular rhythm.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 6.17283950617284
+        }
+    },
+    {
+        "Original_English_sentence": "Abdomen: Less distended.",
+        "Original_Spanish_sentence": "Abdomen: Menos distendido.",
+        "COD_prompt": "Chain of dictionary: 'distended' means 'dilatado' means 'Turgescence veineuse' means 'Venenerweiterung' means 'Veia distendida'.\n\nSynonyms: 'Abdomen' synonyms are [Abdomen]. 'distended' synonyms are [distended].",
+        "spanish_translation_prompt": "Abdomen: Menos distendido.",
+        "back_translation_prompt": "Abdomen: Less distended.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 5.617977528089887
+        }
+    },
+    {
+        "Original_English_sentence": "Her liver is more easily palpable today.",
+        "Original_Spanish_sentence": "Su hígado es más fácil de palpar hoy.",
+        "COD_prompt": "Chain of dictionary: 'liver' means 'hígado' means 'Maladies du foie' means 'Leberkrankheiten' means 'Hepatopatias'. 'palpable' means 'palpable' means 'Purpura palpable' means 'Palpable Purpura' means 'Púrpura palpável'.\n\nSynonyms: 'liver' synonyms are [liver]. 'palpable' synonyms are [palpable].",
+        "spanish_translation_prompt": "Su hígado es más fácilmente palpable hoy.",
+        "back_translation_prompt": "\"His liver is more easily palpable today.\"",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 63.894310424627285,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Extremities: She still has 2+ edema.",
+        "Original_Spanish_sentence": "Extremidades: Todavía tiene edema.",
+        "COD_prompt": "Chain of dictionary: 'edema' means 'edema en el' means 'Angioedème héréditaire' means 'Angiooedem hereditaer' means 'Angioedema hereditário'.\n\nSynonyms: 'edema' synonyms are [edema].",
+        "spanish_translation_prompt": "Extremidades: Ella todavía tiene edema de 2+.",
+        "back_translation_prompt": "Extremities: She still has 2+ edema.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 100.00000000000004,
+            "chrF++": 4.0
+        }
+    },
+    {
+        "Original_English_sentence": "ASSESSMENT AND PLAN: The patient was scheduled for a kidney biopsy today, but she was informed by the Renal Transplant Service that they were going to delay this since there was some improvement in her creatinine (today's creatinine is not yet available).",
+        "Original_Spanish_sentence": "2+ EVALUACION Y PLAN: Se proyectaba que la paciente tuviese una biopsia del riñón hoy, pero el Servicio de Trasplante Renal le informó que iban a retrasarla pues ha habido una mejoría en su creatinina (la creatinina de hoy todavía no está disponible).",
+        "COD_prompt": "Chain of dictionary: 'kidney biopsy' means 'biopsia de riñón' means 'Biopsie rénale' means 'Nierenbiopsie' means 'Biopsia renal'. 'creatinine' means 'de creatinina' means 'Créatinine sérique' means 'Kreatinin im Serum' means 'Creatinina sérica'.\n\nSynonyms: 'kidney biopsy' synonyms are [kidney, biopsy]. 'Renal Transplant Service' synonyms are [Renal, Transplant, Service]. 'creatinine' synonyms are [creatinine].",
+        "spanish_translation_prompt": "EVALUACIÓN Y PLAN: La paciente estaba programada para una biopsia de riñón hoy, pero fue informada por el Servicio de Trasplante Renal que iban a retrasarlo ya que hubo alguna mejoría en su creatinina (la creatinina de hoy aún no está disponible).",
+        "back_translation_prompt": "EVALUATION AND PLAN: The patient was scheduled for a kidney biopsy today, but was informed by the Kidney Transplant Service that they were going to delay it since there was some improvement in her creatinine levels (today's creatinine results are not yet available).",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 69.48542396524387,
+            "chrF++": 0.5834305717619603
+        }
+    },
+    {
+        "Original_English_sentence": "We will continue to drain ascitic fluid for at least another 24 hours and will continue to monitor her renal function.",
+        "Original_Spanish_sentence": "Continuaremos drenando el líquido ascítico por al menos 24 horas más y continuaremos monitoreando su función renal.",
+        "COD_prompt": "Chain of dictionary: 'ascitic fluid' means 'fluido ascítico' means 'Liquide péritonéal' means 'Aszitesflüssigkeit' means 'Líquido Ascítico'. 'drain' means 'el drenaje' means 'Paracentèse' means 'Parazentese' means 'Paracentese'. 'renal function' means 'función renal' means 'Exploration fonctionnelle de l'axe hypophysosurrénalien' means 'Hypophysen-Nebennierenfunktionstests' means 'Testes de Função Adreno-Hipofisária'.\n\nSynonyms: 'ascitic fluid' synonyms are [ascitic, fluid]. 'drain' synonyms are [drain]. 'monitor' synonyms are [monitor]. 'renal function' synonyms are [renal, function].",
+        "spanish_translation_prompt": "Continuaremos drenando líquido ascítico durante al menos otras 24 horas y seguiremos monitoreando su función renal.",
+        "back_translation_prompt": "We will continue draining ascitic fluid for at least another 24 hours and will keep monitoring your renal function.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 53.825074521147904,
+            "chrF++": 1.2722646310432568
+        }
+    }
+]

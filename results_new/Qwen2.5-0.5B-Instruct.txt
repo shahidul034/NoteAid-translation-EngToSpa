@@ -1,0 +1,5 @@
+Qwen2.5-0.5B-Instruct without finetune(Medline) --> Average BLEU Score: 14.7819
+Qwen2.5-0.5B-Instruct without finetune (EHR data) --> Average BLEU Score: 12.6227
+Qwen2.5-0.5B-Instruct with finetune(Medline) --> Average BLEU Score: 16.4407
+Qwen2.5-0.5B-Instruct with finetune (EHR data) --> Average BLEU Score: 16.6048
+

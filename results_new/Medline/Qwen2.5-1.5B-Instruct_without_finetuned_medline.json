@@ -1,0 +1,902 @@
+[
+    {
+        "original_english": "If you have a weakened immune system due to AIDS, cancer, transplantation, or corticosteroid use, call your doctor if you develop a cough, fever, or shortness of breath.",
+        "original_spanish": "Si usted tiene un sistema inmunitario debilitado a causa del SIDA, cáncer, trasplante o uso de corticosteroides, llame al médico si presenta fiebre, tos o dificultad para respirar.",
+        "translated_spanish": "Si tienes un sistema inmunológico debilitado debido a Aids, cáncer, trasplante o uso de corticosteroides, llama al médico si desarrollas una tos, fiebre o dificultad para respirar.",
+        "bleu_score": {
+            "bleu_score": 42.85969253723971,
+            "chrF++": 20.749665327978583
+        }
+    },
+    {
+        "original_english": "Do NOT place the person in this position if a head, neck, back, or leg injury is suspected or if it makes the victim uncomfortable.",
+        "original_spanish": "NO coloque a la persona en esta posición si se sospecha una lesión en la cabeza, el cuello, la espalda o las piernas o si la posición le resulta incómoda.",
+        "translated_spanish": "No deplace al individuo en esta posición si se sospecha de una lesión de cabeza, cuello, espalda o pierna, o si esto hace que el sujeto sea incómodo.",
+        "bleu_score": {
+            "bleu_score": 21.678738365920054,
+            "chrF++": 32.31292517006803
+        }
+    },
+    {
+        "original_english": "Increased vision allows the infant to tell objects apart from backgrounds with very little contrast (such as a button on a blouse of the same color)",
+        "original_spanish": "El incremento en la visión le permite al bebé diferenciar objetos a partir de fondos con muy poco contraste (como un botón en una blusa del mismo color).",
+        "translated_spanish": "Increased vision allows the infant to distinguish between objects and their backgrounds with minimal contrast (for example, a button on a blouse of the same color).",
+        "bleu_score": {
+            "bleu_score": 5.078737381792448,
+            "chrF++": 11.419249592169656
+        }
+    },
+    {
+        "original_english": "If obesity prevents you from being physically able to inspect your feet, ask a family member, neighbor, or visiting nurse to perform this important check.",
+        "original_spanish": "Si la obesidad le impide físicamente poder revisarse los pies, solicítele a un familiar, un vecino o una enfermera visitadora que le realice esta importante inspección.",
+        "translated_spanish": "Si la obesidad te impide ser físicamente capaz de inspeccionar tus pies, pregunta a un familiar, vecino o visitante médico para que haga este importante chequeo.",
+        "bleu_score": {
+            "bleu_score": 15.581581442301571,
+            "chrF++": 17.39788199697428
+        }
+    },
+    {
+        "original_english": "CT scan or MRI to confirm that there is a growth, and to see if the cancer has spread to lymph nodes in the neck",
+        "original_spanish": "Tomografía computarizada o una resonancia magnética para confirmar si hay una masa y para ver si el cáncer se ha diseminado a los ganglios linfáticos en el cuello",
+        "translated_spanish": "CT scan o MRI para confirmar que hay un crecimiento, y ver si el cáncer ha llegado a los ganglios linfáticos en la nuca",
+        "bleu_score": {
+            "bleu_score": 24.61089154859809,
+            "chrF++": 5.274261603375527
+        }
+    },
+    {
+        "original_english": "A uniform brown color is usually seen over the cheeks, forehead, nose, or upper lip.It is most often symmetrical (matching on both sides of the face).",
+        "original_spanish": "Usualmente, se observa un color café uniforme en las mejillas, en la frente, en la nariz y en el labio superior y, con mucha frecuencia, es simétrico (igual en ambos lados de la cara).",
+        "translated_spanish": "\"Un color marrón uniforme suele verse en las mejillas, frente, nariz o labio superior. Es generalmente simétrico (parecido en ambos lados de la cara).\"",
+        "bleu_score": {
+            "bleu_score": 25.681844633842662,
+            "chrF++": 4.975124378109452
+        }
+    },
+    {
+        "original_english": "Your doctor may do other tests to check high blood pressure, heart disease, diabetes, high cholesterol, and other causes of, and risk factors for TIAs or stroke.",
+        "original_spanish": "El médico puede realizar otros exámenes para verificar si hay hipertensión, cardiopatía, diabetes, colesterol alto y otras causas y factores de riesgo para AIT o accidente cerebrovascular.",
+        "translated_spanish": "Spanish: Tu médico puede hacer otros test para verificar la presión arterial alta, el corazón, la diabetes, el colesterol alto y otras",
+        "bleu_score": {
+            "bleu_score": 11.913788099416024,
+            "chrF++": 3.597122302158273
+        }
+    },
+    {
+        "original_english": "Stridor is an abnormal, high-pitched, musical breathing sound caused by a blockage in the throat or voice box (larynx).It is usually heard when taking in a breath.",
+        "original_spanish": "Es un sonido respiratorio anormal, chillón y musical causado por un bloqueo en la garganta o la laringe y generalmente se escucha al inhalar.",
+        "translated_spanish": "Stridor es un sonido respiratorio no normal, de tono agudo y melódico, causado por una obstrucción en el trago o la voz (laringe). Se suele escuchar cuando se intenta tomar aire.",
+        "bleu_score": {
+            "bleu_score": 6.364005413961754,
+            "chrF++": 4.393673110720562
+        }
+    },
+    {
+        "original_english": "Is there blood on the toilet paper only?",
+        "original_spanish": "¿Hay sangre sólo en el papel higiénico?",
+        "translated_spanish": "¿Hay sangre en la papelera de la bañera solo?",
+        "bleu_score": {
+            "bleu_score": 9.980099403873663,
+            "chrF++": 31.25
+        }
+    },
+    {
+        "original_english": "Ask your health care provider.",
+        "original_spanish": "Pregúntele al médico.",
+        "translated_spanish": "Pregunta al tu médico.",
+        "bleu_score": {
+            "bleu_score": 23.643540225079384,
+            "chrF++": 32.60869565217391
+        }
+    },
+    {
+        "original_english": "Complete bed rest for several days is usually recommended.",
+        "original_spanish": "Generalmente se recomienda guardar reposo completo durante algunos días.",
+        "translated_spanish": "Un reposo completo de cama durante varios días es usualmente recomendado.",
+        "bleu_score": {
+            "bleu_score": 8.516593018819643,
+            "chrF++": 9.584664536741215
+        }
+    },
+    {
+        "original_english": "They still have foot problems after treatment",
+        "original_spanish": "Todavía tienen problemas en el pie después del tratamiento.",
+        "translated_spanish": "Translation: \"Tienen problemas de pies después del tratamiento.\"",
+        "bleu_score": {
+            "bleu_score": 22.416933501922287,
+            "chrF++": 10.0
+        }
+    },
+    {
+        "original_english": "Disorders of the endocrine system",
+        "original_spanish": "Trastornos del sistema endocrino",
+        "translated_spanish": "Disorders of the Endocrine System",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 3.546099290780142
+        }
+    },
+    {
+        "original_english": "Biopsy - breast; Open breast biopsy",
+        "original_spanish": "Biopsia de mama; Biopsia abierta de las mamas",
+        "translated_spanish": "Biopsía de mama; Biopsía de mama abierta",
+        "bleu_score": {
+            "bleu_score": 20.612390921238426,
+            "chrF++": 60.97560975609757
+        }
+    },
+    {
+        "original_english": "Are illegal drugs being used?",
+        "original_spanish": "¿Ha consumido drogas psicoactivas?",
+        "translated_spanish": "¿Están siendo utilizadas drogas ilegales?",
+        "bleu_score": {
+            "bleu_score": 9.652434877402245,
+            "chrF++": 13.157894736842104
+        }
+    },
+    {
+        "original_english": "Preventive measures vary depending on the specific disorder.",
+        "original_spanish": "Las medidas preventivas varían dependiendo del trastorno específico.",
+        "translated_spanish": "Preventivos varían según el trastorno específico.",
+        "bleu_score": {
+            "bleu_score": 19.740631366145518,
+            "chrF++": 11.848341232227488
+        }
+    },
+    {
+        "original_english": "Some laboratories use different measurements or may test different specimens.",
+        "original_spanish": "Algunos laboratorios usan diferentes medidas o podrían evaluar diferentes muestras.",
+        "translated_spanish": "Algunas laboratorios utilizan diferentes medidas o pueden analizar diferentes muestras.",
+        "bleu_score": {
+            "bleu_score": 24.384183193426086,
+            "chrF++": 31.68044077134986
+        }
+    },
+    {
+        "original_english": "Menopause. A drop in the hormone estrogen causes vaginal dryness.",
+        "original_spanish": "Menopausia: la disminución de los niveles de estrógenos provoca resequedad vaginal.",
+        "translated_spanish": "Menopausa. Un descenso en la hormona estrogénica causa seca vaginal.",
+        "bleu_score": {
+            "bleu_score": 6.8962421077164695,
+            "chrF++": 17.482517482517483
+        }
+    },
+    {
+        "original_english": "Depression and older age are both risk factors for suicide.",
+        "original_spanish": "La depresión y la edad avanzada son factores de riesgo para esto.",
+        "translated_spanish": "Depresión y edad avanzada son ambos factores de riesgo para el suicidio.",
+        "bleu_score": {
+            "bleu_score": 29.782017963590448,
+            "chrF++": 45.45454545454545
+        }
+    },
+    {
+        "original_english": "Most women have only one polyp, but some women have two or three.",
+        "original_spanish": "La mayoría de las mujeres solamente presenta un pólipo, pero algunas mujeres tienen dos o tres.",
+        "translated_spanish": "La mayoría de las mujeres tienen solo un polipio, pero algunas mujeres tienen dos o tres.",
+        "bleu_score": {
+            "bleu_score": 66.54377827941899,
+            "chrF++": 31.4207650273224
+        }
+    },
+    {
+        "original_english": "This test is done to measure the level of amino acids in the blood.",
+        "original_spanish": "Este examen se hace para medir el nivel de aminoácidos en la sangre.",
+        "translated_spanish": "\"Este test se realiza para medir el nivel de ácidos amino en la sangre.\"",
+        "bleu_score": {
+            "bleu_score": 37.709297891717654,
+            "chrF++": 5.5762081784386615
+        }
+    },
+    {
+        "original_english": "The infection is spread by saliva, urine, respiratory droplets, sexual contact, and blood transfusions.",
+        "original_spanish": "La infección se propaga por medio de la saliva, la orina, las gotitas respiratorias, el contacto sexual y las transfusiones sanguíneas.",
+        "translated_spanish": "La infección se propaga por el salivazo, la orina, los gotitas respiratorias, el contacto sexual y las transfusiones de sangre",
+        "bleu_score": {
+            "bleu_score": 56.552585434271506,
+            "chrF++": 23.166023166023166
+        }
+    },
+    {
+        "original_english": "You may occasionally eat lean, 3-ounce cuts of red meat.",
+        "original_spanish": "Ocasionalmente, se pueden utilizar cortes magros de carne roja de 3 onzas (85 gramos).",
+        "translated_spanish": "Puede comer ocasionalmente cortes de carne roja delgada de 3 onzas.",
+        "bleu_score": {
+            "bleu_score": 13.817712220931,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "Several conditions may cause increased pressure in the skull, including:",
+        "original_spanish": "Varias afecciones pueden provocar aumento de la presión intracraneal, entre ellas:",
+        "translated_spanish": "Cualquier condición puede causar una presión aumentada en la cabeza, incluyendo:",
+        "bleu_score": {
+            "bleu_score": 4.368583925857938,
+            "chrF++": 5.865102639296187
+        }
+    },
+    {
+        "original_english": "Abnormal heart sounds",
+        "original_spanish": "Ruidos cardíacos anormales",
+        "translated_spanish": "This translation accurately conveys the meaning of \"abnormal heart sounds\" from English to Spanish.",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 21.008403361344538
+        }
+    },
+    {
+        "original_english": "Waxy, yellow surface",
+        "original_spanish": "Superficie amarillenta y cerosa",
+        "translated_spanish": "Oscuro y seco, superficie amarilla.",
+        "bleu_score": {
+            "bleu_score": 6.567274736060395,
+            "chrF++": 7.352941176470587
+        }
+    },
+    {
+        "original_english": "Oxygen",
+        "original_spanish": "Oxígeno",
+        "translated_spanish": "Oxygen: Oxígeno",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 71.42857142857143
+        }
+    },
+    {
+        "original_english": "Recent open heart surgery",
+        "original_spanish": "Cirugía reciente a corazón abierto",
+        "translated_spanish": "Recent open heart surgery in English translates to \"Última cirugía de corazón abierta\" in Spanish.",
+        "bleu_score": {
+            "bleu_score": 2.1476912089159055,
+            "chrF++": 3.4482758620689653
+        }
+    },
+    {
+        "original_english": "Thyroid disease",
+        "original_spanish": "Enfermedad tiroidea",
+        "translated_spanish": "Enfermedad de la tiroides",
+        "bleu_score": {
+            "bleu_score": 15.97357760615681,
+            "chrF++": 56.81818181818182
+        }
+    },
+    {
+        "original_english": "Nausea",
+        "original_spanish": "Náuseas",
+        "translated_spanish": "Vómito",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "Brussels sproutsCabbage",
+        "original_spanish": "Alimentos fortificados como la leche de soya (soja).",
+        "translated_spanish": "Brussels sprouts - Brocoli",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "Oysters",
+        "original_spanish": "Ostras",
+        "translated_spanish": "Oysters in Spanish is \"Ostras\".",
+        "bleu_score": {
+            "bleu_score": 5.522397783539471,
+            "chrF++": 16.666666666666664
+        }
+    },
+    {
+        "original_english": "CPR can be lifesaving, but it is best done by someone trained in an accredited CPR course.",
+        "original_spanish": "La RCP puede salvar vidas, pero la realiza mejor alguien que haya recibido entrenamiento para tal fin en un curso acreditado.",
+        "translated_spanish": "CPR puede salvar vidas, pero es mejor hacerlo por alguien que haya sido entrenado en un curso de CPR reconocido.",
+        "bleu_score": {
+            "bleu_score": 26.510094967365244,
+            "chrF++": 2.232142857142857
+        }
+    },
+    {
+        "original_english": "Always let your doctor know about any cold, flu, fever, herpes breakout, or other illnesses you may have. ",
+        "original_spanish": "Siempre hágale saber al médico si tiene un resfriado, gripe, fiebre, brote de herpes o cualquier otra enfermedad que usted pueda tener.",
+        "translated_spanish": "Siempre informa a tu médico sobre cualquier resfriado, gripe, fiebre, brote de herpes o cualquier otra enfermedad que tengas.",
+        "bleu_score": {
+            "bleu_score": 53.42499535517705,
+            "chrF++": 8.823529411764705
+        }
+    },
+    {
+        "original_english": "Tretinoin (Retin-A) or creams containing alpha-hydroxy acids may be recommended, but these aren't guaranteed to help.",
+        "original_spanish": "Se puede recomendar la tretinoína (Retin-A) o cremas que contengan alfa-hidroxiácidos, pero no hay garantía de que sirvan.",
+        "translated_spanish": "Tretinoin (Retin-A) o cremas que contienen ácidos hialurónicos pueden ser recomendadas, pero estas no están garantizadas para ayudar.",
+        "bleu_score": {
+            "bleu_score": 25.306188056493337,
+            "chrF++": 4.882812499999999
+        }
+    },
+    {
+        "original_english": "Fever is the classic symptom and may persist for days before any other symptoms appear.",
+        "original_spanish": "La fiebre es el síntoma clásico y puede persistir por días antes de que cualquier otro síntoma aparezca.",
+        "translated_spanish": "Fever es el síntoma clásico y puede persistir días antes de que aparezcan otros síntomas.",
+        "bleu_score": {
+            "bleu_score": 44.96473903155595,
+            "chrF++": 4.2735042735042725
+        }
+    },
+    {
+        "original_english": "There is more likely to be increased amounts of pollen in the air on hot, dry, windy days.",
+        "original_spanish": "Hay más probabilidad de que haya mayores cantidades de polen en el aire en los días calurosos, secos y ventosos.",
+        "translated_spanish": "There is more likely to be increased amounts of pollen in the air on hot, dry, windy days. (Translation)",
+        "bleu_score": {
+            "bleu_score": 1.8709718017288024,
+            "chrF++": 1.2165450121654504
+        }
+    },
+    {
+        "original_english": "You get iron through certain foods, and your body also reuses iron from old red blood cells.",
+        "original_spanish": "Uno obtiene hierro a través de ciertos alimentos y el cuerpo también recicla hierro proveniente de glóbulos rojos viejos.",
+        "translated_spanish": "Obtienes hierro a través de ciertas comidas, y tu cuerpo también recicla el hierro de las células rojas viejas.",
+        "bleu_score": {
+            "bleu_score": 18.81478574691709,
+            "chrF++": 2.207505518763797
+        }
+    },
+    {
+        "original_english": "Asthma symptoms usually occur much less often or disappear as the child gets get older.",
+        "original_spanish": "Los síntomas de asma por lo regular ocurren con mucho menos frecuencia o desaparecen a medida que el niño crece.",
+        "translated_spanish": "Asthma síntomas suele ocurrir menos frecuentemente o desaparecer cuando el niño se convierte en mayor.",
+        "bleu_score": {
+            "bleu_score": 4.7095307059916625,
+            "chrF++": 7.352941176470587
+        }
+    },
+    {
+        "original_english": "Potatoes that are not green and have had any sprouts removed are safe to eat.",
+        "original_spanish": "Las papas (patatas) que no estén verdes y a las que se les hayan quitado brotes o retoños se pueden comer sin problema.",
+        "translated_spanish": "Potatoes que no están verdes y que tienen todos los brotes eliminados son seguros para comer.",
+        "bleu_score": {
+            "bleu_score": 4.530434346684447,
+            "chrF++": 8.333333333333332
+        }
+    },
+    {
+        "original_english": "When the needle is inserted to draw blood, you may feel moderate pain, or only a prick or stinging sensation.",
+        "original_spanish": "Cuando se inserta la aguja para extraer la sangre, se puede sentir un dolor moderado o experimentar sólo una sensación de pinchazo o picadura.",
+        "translated_spanish": "When the needle is inserted to draw blood, you may feel moderate pain, or only a prick or stinging sensation.",
+        "bleu_score": {
+            "bleu_score": 1.7187608283404379,
+            "chrF++": 5.760368663594469
+        }
+    },
+    {
+        "original_english": "However, as a general rule, once a substance causes allergies for an individual, it can continue to affect the person long term.",
+        "original_spanish": "Sin embargo, como regla general, una vez que una sustancia causa alergia a un individuo, puede continuar afectándolo durante largo tiempo.",
+        "translated_spanish": "Sin embargo, como regla general, una vez que un sustancia causa alergias para una persona, puede continuar afectando al individuo de manera prolongada.",
+        "bleu_score": {
+            "bleu_score": 42.97310736875147,
+            "chrF++": 37.93103448275862
+        }
+    },
+    {
+        "original_english": "If you have surgery, your sperm count will likely increase but it will not improve your chances of getting a woman pregnant.",
+        "original_spanish": "Si le practican una cirugía, el conteo de espermatozoides probablemente se incrementará pero no mejorará las posibilidades de embarazar a una mujer.",
+        "translated_spanish": "Si tienes cirugía, tu número de espermatozoides probablemente aumentará pero no mejorará tus posibilidades de que una mujer te pase graciosamente.",
+        "bleu_score": {
+            "bleu_score": 14.030533929253453,
+            "chrF++": 9.836065573770492
+        }
+    },
+    {
+        "original_english": "Screening women with pelvic ultrasound or blood tests, such as the Ca-125 has not been found to be effective and is not recommended.",
+        "original_spanish": "El hecho de examinar a las mujeres con ecografías de la pelvis o exámenes de sangre, como el CA-125, no se ha comprobado que sea eficaz y tampoco se recomienda.",
+        "translated_spanish": "\"La escrutinización de las mujeres con ultrasonido pelvico o pruebas como la Ca-125 no ha resultado efectiva y no se recomienda.\"",
+        "bleu_score": {
+            "bleu_score": 8.684056594735067,
+            "chrF++": 18.73767258382643
+        }
+    },
+    {
+        "original_english": "Protein can also be used by the body for energy, but only after glycogen or carbohydrate stores have been used up.",
+        "original_spanish": "La proteína también la puede usar el cuerpo para obtener energía, pero sólo después de que las reservas de glucógeno o carbohidratos se agoten.",
+        "translated_spanish": "Proteínas también pueden usarse por el cuerpo para energía, pero solo después de que los depósitos de glucosa o carbohidratos hayan sido utilizados.",
+        "bleu_score": {
+            "bleu_score": 14.252206709845948,
+            "chrF++": 3.460207612456747
+        }
+    },
+    {
+        "original_english": "An extradural hemorrhage is bleeding between the inside of the skull and the outer covering of the brain (called the \"dura\").",
+        "original_spanish": "Es un sangrado entre la parte interior del cráneo y la cubierta externa del cerebro, denominada \"duramadre\".",
+        "translated_spanish": "An extradural hemorrhage is bleeding between the inside of the skull and the outer covering of the brain (called the \"dura\").",
+        "bleu_score": {
+            "bleu_score": 1.9011755113058346,
+            "chrF++": 9.029345372460497
+        }
+    },
+    {
+        "original_english": "Without PIG-A, important proteins cannot connect to the cell surface and protect the cell from substances in the blood called complement.",
+        "original_spanish": "Sin el PIG-A, importantes proteínas no pueden conectarse a la superficie de la célula y protegerla de sustancias en la sangre llamadas complemento.",
+        "translated_spanish": "Without PIG-A, important proteins cannot connect to the cell surface and protect the cell from substances in the blood called complement.",
+        "bleu_score": {
+            "bleu_score": 3.341128104682225,
+            "chrF++": 7.1556350626118075
+        }
+    },
+    {
+        "original_english": "If you can see bone in the injured site, call your local emergency number (such as 911) or local hospital for further advice.",
+        "original_spanish": "Si usted puede ver hueso en el sitio lesionado, llame al número local de emergencias (como el 911 en los Estados Unidos) o al hospital local para mayores recomendaciones.",
+        "translated_spanish": "Si puedes ver hueso en el sitio dañado, llama al número de emergencia local (como 911) o al hospital local para recibir más consejos.",
+        "bleu_score": {
+            "bleu_score": 29.957711353233528,
+            "chrF++": 11.428571428571429
+        }
+    },
+    {
+        "original_english": "Bladder distention (urinary bladder over-filled with fluid) can cause a firm mass in the center of the lower abdomen above the pelvic bones.In extreme cases it can reach as far up as the navel.",
+        "original_spanish": "La distensión vesical (vejiga urinaria sobrecargada de líquido) puede causar una masa firme en el centro del abdomen inferior por encima de los huesos pélvicos, que en casos extremos puede extenderse hasta el ombligo.",
+        "translated_spanish": "Bladder distension (urinary bladder over-filled with fluid) puede causar un masa firme en el centro del abdomen inferior, encima de los huesos pélvicos. En casos extremos, puede llegar hasta la nalga.",
+        "bleu_score": {
+            "bleu_score": 33.611507604345704,
+            "chrF++": 5.514705882352941
+        }
+    },
+    {
+        "original_english": "Your kidneys help control your body's acid level by removing acid from the blood and sending it into your urine.Acidic substances in the body are counteracted by alkaline substances, primarily bicarbonate.",
+        "original_spanish": "Los riñones ayudan a controlar el nivel de ácido en el cuerpo, removiendo el ácido de la sangre y eliminándolo en la orina. Las sustancias ácidas en el cuerpo se neutralizan por medio de sustancias alcalinas, principalmente bicarbonato.",
+        "translated_spanish": "Acidic substances in",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 12.048192771084338
+        }
+    },
+    {
+        "original_english": "You'll likely be diagnosed with rheumatic fever if you meet two major criteria, or one major and two minor criteria, and have signs that you've had a previous strep infection.",
+        "original_spanish": "El diagnóstico de fiebre reumática se da si uno satisface dos criterios principales, o uno principal y dos secundarios, al igual que si muestra signos de que ha tenido una infección previa por estreptococos.",
+        "translated_spanish": "This translation accurately conveys the meaning of the original English text in Spanish",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 5.633802816901409
+        }
+    },
+    {
+        "original_english": "A trained physician, often a cardiologist, inserts a small needle into the chest between the ribs and into the thin sac that surrounds the heart (the pericardium).A small amount of fluid is taken out.",
+        "original_spanish": "Un médico entrenado, con frecuencia un cardiólogo, introducirá una aguja pequeña en el tórax, entre las costillas, hasta el saco delgado que rodea el corazón (el pericardio) y extraerá una cantidad pequeña de líquido.",
+        "translated_spanish": "Spanish: Un médico entrenado, a menudo un cardiólogo, inserta una ag",
+        "bleu_score": {
+            "bleu_score": 3.864257445049335,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "Increased calcium for a limited period of time does not normally cause side effects.However, receiving higher amounts of calcium over a long period of time raises the risk of kidney stones in some people.",
+        "original_spanish": "Normalmente, el incremento del consumo de calcio durante un período de tiempo limitado no ocasiona efectos secundarios; sin embargo, el hecho de recibir una gran cantidad de calcio durante un período de tiempo prolongado eleva el riesgo de cálculos renales en algunas personas.",
+        "translated_spanish": "Increased calcium intake for a short period does not usually cause side effects. However, consuming large amounts of calcium over an extended period increases the likelihood of developing kidney stones in certain individuals.",
+        "bleu_score": {
+            "bleu_score": 0.8982982698511979,
+            "chrF++": 4.3057050592034445
+        }
+    },
+    {
+        "original_english": "Children with early sexual development are more likely to have psychological and social problems.Children and adolescents generally want to be the same as their peers, and early sexual development can make them appear different.",
+        "original_spanish": "Los niños con desarrollo sexual precoz tienen mayor probabilidad de tener problemas psicosociales, ya que los niños y adolescentes generalmente quieren ser iguales a sus compañeros y el desarrollo sexual prematuro puede hacerlos aparecer \"diferentes\".",
+        "translated_spanish": "Children with early sexual development are more likely to have psychological and social problems. Children and adolescents generally want to be the same as their peers, and early sexual development can make them appear different.",
+        "bleu_score": {
+            "bleu_score": 1.3349107662733946,
+            "chrF++": 7.360672975814932
+        }
+    },
+    {
+        "original_english": "Veins and arteries vary in size from one patient to another and from one side of the body to the other.Obtaining a blood sample from some people may be more difficult than from others.",
+        "original_spanish": "Las venas y las arterias varían en tamaño de un paciente a otro y de un lado del cuerpo a otro, razón por la cual extraer sangre de algunas personas puede ser más difícil que de otras.",
+        "translated_spanish": "Veins y arterias varían en tamaño de uno paciente a otro y de una parte del cuerpo a otra. Obtener un muestra de sangre de algunas personas puede ser más difícil que de otras.",
+        "bleu_score": {
+            "bleu_score": 50.20093150786516,
+            "chrF++": 8.172362555720653
+        }
+    },
+    {
+        "original_english": "In many cases it will prevent you from getting sick.For example, a person who has had chickenpox or has been immunized against chickenpox is immune from getting chickenpox again.Watch this video about:Immune response",
+        "original_spanish": "Por ejemplo, un individuo que haya padecido o que haya sido vacunado contra la varicela es inmune a contraer esta enfermedad de nuevo.Mire éste video sobre:Respuesta inmunológica",
+        "translated_spanish": "In many cases, it prevents you from getting sick. For example, a person who has had chickenpox or has been vaccinated against chickenpox is immune to getting chickenpox again. Watch this video about: Immune response",
+        "bleu_score": {
+            "bleu_score": 1.3737889784665156,
+            "chrF++": 2.717391304347826
+        }
+    },
+    {
+        "original_english": "For example, a food that has 13 grams of fat with a Percent Daily Value of 20% means that 13 grams of fat is 20%, or one-fifth, of the total daily fat recommended for a person who eats 2,000 calories per day.",
+        "original_spanish": "Por ejemplo, un alimento que tiene 13 gramos de grasa con un valor porcentual diario del 20% significa que 13 gramos de grasa es el 20%, o una quinta parte, de la grasa diaria total recomendada para una persona que consume 2,000 calorías por día.",
+        "translated_spanish": "Por ejemplo, un alimento que tiene 13 gramos de grasa con un porcentaje diario del 20% significa que 13 gramos de grasa son el 20%, o uno quinto, del total de la grasa recomendada para una persona que come 2,",
+        "bleu_score": {
+            "bleu_score": 57.1025748782619,
+            "chrF++": 32.08232445520581
+        }
+    },
+    {
+        "original_english": "Laparoscopic repair: Your surgeon will make 3 - 5 small cuts in your belly.Your surgeon will insert a laparoscope (a thin, hollow tube with a tiny camera on the end) through one of these cuts and other tools through the other cuts.",
+        "original_spanish": "Reparación laparoscópica: el cirujano hará de 3 a 5 incisiones pequeñas en el abdomen e introducirá un laparoscopio (un tubo delgado y hueco con una cámara diminuta en el extremo) a través de una de estas incisiones y otras herramientas a través de las otras incisiones.",
+        "translated_spanish": "Laparoscópica de reparación: Tu cirujano hará 3 - 5 cortes pequeños en tu estómago. Tu cirujano insertará un laparoscopio (una tubería fina y ancha con una cámara pequeña al final) a través de uno",
+        "bleu_score": {
+            "bleu_score": 10.053340710890568,
+            "chrF++": 9.554140127388534
+        }
+    },
+    {
+        "original_english": "However, recent studies do not support this idea, and suggest that these medications can be used in children with tics who also have attention-deficit disorder (which often occurs in the same group of children).A chronic motor tic disorder also exists.",
+        "original_spanish": "Sin embargo, estudios recientes no respaldan esta idea y sugieren que estos medicamentos se pueden utilizar en niños con tics que también tienen trastorno por déficit de atención (que a menudo se presenta en el mismo grupo de niños).",
+        "translated_spanish": "Spanish: Sin embargo, las recientes investigaciones no apoyan esta idea y sugieren que estos",
+        "bleu_score": {
+            "bleu_score": 7.459382896329303,
+            "chrF++": 5.2631578947368425
+        }
+    },
+    {
+        "original_english": "These symptoms are more likely to occur if the skin has been cut or rubbed because this gives the MRSA germ a way to “get in.” Symptoms are also more likely in areas where there is more body hair due to hair follicles.",
+        "original_spanish": "Estos síntomas tienen mayor probabilidad de presentarse si la piel se ha cortado o frotado porque esto le brinda a la bacteria del SARM una ruta para \"entrar\".Los síntomas también son más probables en áreas donde hay más vello corporal debido a los folículos pilosos.",
+        "translated_spanish": "These symptoms are more likely to occur if the skin has been cut or rubbed because this gives the MRSA germ a way to \"get in.\" Symptoms are also more likely in areas where there is more body hair due to hair follicles.",
+        "bleu_score": {
+            "bleu_score": 1.090426414333676,
+            "chrF++": 6.857142857142858
+        }
+    },
+    {
+        "original_english": "Some patients develop heart failure and high blood pressure in the blood vessels of their lungs.Your chances of recovering or of the disease getting worse depend on the cause and how severe the disease was when it was first diagnosed.",
+        "original_spanish": "El estrés causado por la enfermedad se puede aliviar a menudo al participar en un grupo de apoyo, en el que los integrantes comparten experiencias y problemas en común.",
+        "translated_spanish": "Some patients develop heart failure and high blood pressure in the blood vessels of their lungs. Your chances of recovering or of the disease worsening depend on the cause and how severe the disease was when it was first diagnosed.",
+        "bleu_score": {
+            "bleu_score": 0.8733042428534794,
+            "chrF++": 5.89101620029455
+        }
+    },
+    {
+        "original_english": "If a young child refuses to put weight on an arm or leg after an accident, won't move the arm or leg, or you can clearly see a deformity, assume the child has a broken bone and get medical help.",
+        "original_spanish": "Si un niño pequeño se niega a soportar peso sobre un brazo o una pierna después de un accidente, no mueve el brazo o la pierna, o la deformidad se puede ver claramente, suponga que el niño presenta una fractura ósea y consiga ayuda médica.",
+        "translated_spanish": "Si un niño pequeño rechaza cargar con una pierna o brazo después de un accidente, no se mueve la pierna o el brazo, o puedes ver claramente una deformidad, asuma que el niño tiene una fractura y solicite ayuda médica.",
+        "bleu_score": {
+            "bleu_score": 25.211055622532044,
+            "chrF++": 19.953051643192488
+        }
+    },
+    {
+        "original_english": "The amount of liquid you eat (such as soup) or drink will be limited to the amount of urine you can produce.You will be told what you may and may not eat to reduce the buildup of toxins that the kidneys would normally remove.",
+        "original_spanish": "La cantidad de líquido que usted tome (como las sopas) o bebe se limitará a la cantidad de orina que pueda producir. Le dirán lo que puede o no comer con el fin de reducir la acumulación de toxinas que los riñones normalmente eliminarían.",
+        "translated_spanish": "The amount of liquid you consume (like soup) or drink will be limited to the amount of urine you can produce. You will be informed about what foods and drinks you may and may not eat to help reduce the buildup of toxins that the kidneys would normally filter out.",
+        "bleu_score": {
+            "bleu_score": 0.952597016640547,
+            "chrF++": 7.4706510138740665
+        }
+    },
+    {
+        "original_english": "The most common use of this test is to help diagnose and monitor a disorder called sarcoidosis . People with sarcoidosis may have their ACE levels tested regularly to check the severity of the disease and see how well treatment is working. ",
+        "original_spanish": "El uso más común de este examen es ayudar a diagnosticar y vigilar un trastorno llamado sarcoidosis. Las personas con sarcoidosis pueden hacerse examinar periódicamente sus niveles de ECA para evaluar la gravedad de la enfermedad y ver qué tan bien está funcionando el tratamiento. ",
+        "translated_spanish": "The most common use of this test is to help diagnose and monitor a disorder called sarcoidosis. People with sarcoidosis may have their ACE levels tested regularly to check the severity of the disease and see how well treatment is working.",
+        "bleu_score": {
+            "bleu_score": 1.9529005113812088,
+            "chrF++": 9.307135470527403
+        }
+    },
+    {
+        "original_english": "Allergic conjunctivitis occurs when the clear layer of tissue lining the eyelids and covering the white of the eye (conjunctiva) become swollen or inflamed due to a reaction to pollen, dander, mold, or other allergy-causing substances.",
+        "original_spanish": "Se produce cuando la capa transparente de tejido que recubre los párpados y cubre la parte blanca del ojo (conjuntiva) se hincha o se inflama debido a una reacción al polen, la caspa, el moho u otras sustancias que causan alergias. ",
+        "translated_spanish": "Allergic conjunctivitis ocurre cuando la capa de tejido transparente que cubre los párpados y el blanco del ojo (conjuntiva) se hincha o se inflama debido a una reacción alérgica a polen, desecho, hongos u otros",
+        "bleu_score": {
+            "bleu_score": 38.3760698011189,
+            "chrF++": 5.402160864345738
+        }
+    },
+    {
+        "original_english": "Advance care directives allow patients to provide instructions about their preferences regarding the care they would like to receive if they develop an illness or a life-threatening injury and are unable to express their preferences.",
+        "original_spanish": "La declaración de voluntades anticipadas permite a los pacientes dar instrucciones acerca de sus preferencias con respecto a los cuidados que les gustaría recibir si padecen una enfermedad o una lesión potencialmente mortal y no pueden expresar dichas preferencias.",
+        "translated_spanish": "Directrices de cuidados avanzados permiten a los pacientes proporcionar instrucciones sobre sus preferencias en cuanto al cuidado que desean recibir si desarrollan una enfermedad o un accidente mortal y estén incapaces de expresar sus preferencias.",
+        "bleu_score": {
+            "bleu_score": 9.229628118457203,
+            "chrF++": 2.9325513196480935
+        }
+    },
+    {
+        "original_english": "People with this condition generally have a large left ventricle (the pumping chamber of the heart that supplies the body with blood), and a small right ventricle (the pumping chamber that supplies the lungs with blood).",
+        "original_spanish": "Las personas con esta afección generalmente tienen un ventrículo izquierdo grande (la cámara de bombeo del corazón que suministra sangre al cuerpo) y un ventrículo derecho pequeño (la cámara de bombeo que suministra sangre a los pulmones).",
+        "translated_spanish": "People with this condition generally have a large left ventricle (the pumping chamber of the heart that supplies the body with blood ), and a small right ventricle ( the pumping chamber that supplies the lungs with blood ).",
+        "bleu_score": {
+            "bleu_score": 2.298666038841233,
+            "chrF++": 3.820960698689956
+        }
+    },
+    {
+        "original_english": "In January 2001, the FDA's Center for Food Safety and Applied Nutrition proposed that developers of bioengineered food submit scientific and safety information to the FDA at least 120 days before the food is marketed.",
+        "original_spanish": "En enero de 2001, el Centro para la Nutrición Aplicada y la Seguridad en los Alimentos de la FDA (FDA´sCenter for Food Safety and Applied Nutrition ) propuso que quienes desarrollen alimentos procesados genéticamente envíen información científica y de seguridad a la FDA al menos 120 días antes de que el producto salga al mercado.",
+        "translated_spanish": "January de 2001, la CAFSA (Centro para la Salud y Aplicaciones de los Alimentos) del FDA propuso que los desarrolladores de alimentos biotecnológicos presenten información científica y de seguridad al FDA al menos 120 días antes de su comercial",
+        "bleu_score": {
+            "bleu_score": 21.984326667496763,
+            "chrF++": 4.477611940298507
+        }
+    },
+    {
+        "original_english": "Your health care provider will tell you if it's necessary to stop taking any drugs that may interfere with this test.Make sure that your doctor is aware of all drugs you are taking, both prescription and nonprescription.",
+        "original_spanish": "El médico le dirá igualmente si es necesario dejar de tomar cualquier medicamento que pueda interferir con este examen. Asegúrese de hacerle saber al médico acerca de todos los medicamentos que está tomando, tanto recetados como de venta libre.",
+        "translated_spanish": "English: Your healthcare provider will let you know if it's important to stop taking any medicines that might affect this test. Make sure your doctor knows about all the medicines you're taking, including those you buy without a prescription.",
+        "bleu_score": {
+            "bleu_score": 1.121617874316939,
+            "chrF++": 3.546099290780142
+        }
+    },
+    {
+        "original_english": "Other foods such as broccoli, cooked greens, and canned salmon (with bones) will also provide a source of calcium in the diet; however, it is often difficult to get children to consume adequate quantities of these foods.",
+        "original_spanish": "Otros alimentos como el brócoli, las verduras cocidas y el salmón enlatado (con huesos) también brindan una fuente de calcio en la dieta; sin embargo, a menudo es difícil lograr que los niños consuman cantidades adecuadas de estos alimentos.",
+        "translated_spanish": "Other foods like broccoli, cooked greens, and canned salmon with bones will also be a source of calcium in your diet; however, it can be challenging for children to consume enough of these foods.",
+        "bleu_score": {
+            "bleu_score": 1.209330106336455,
+            "chrF++": 8.301404853128991
+        }
+    },
+    {
+        "original_english": "Transposition of the great vessels is a heart defect that occurs from birth (congenital). The two major vessels that carry blood away from the heart -- the aorta and the pulmonary artery -- are switched (transposed).",
+        "original_spanish": "Es un defecto cardíaco que ocurre desde el nacimiento (congénito), en el cual los dos vasos principales que llevan sangre lejos del corazón, la aorta y la arteria pulmonar, están intercambiados (transpuestos).",
+        "translated_spanish": "Transposición de los grandes vasos es un defecto cardíaco que ocurre desde el nacimiento (congenital). Los dos principales vasos que llevan sangre hacia afuera del corazón -- el aorta y el arco pulmonar -- se intercambian (transpuestos",
+        "bleu_score": {
+            "bleu_score": 29.11807379397328,
+            "chrF++": 9.324009324009324
+        }
+    },
+    {
+        "original_english": "Your health care provider will examine you for signs of food poisoning, such as pain in the stomach and signs your body does not have as much water and fluids as it should.This is called dehydration.",
+        "original_spanish": "Su médico lo examinará en busca de signos de intoxicación con alimentos, como dolor en el estómago y signos de que su cuerpo no tiene tanta agua y líquidos como debería, lo cual se denomina deshidratación.",
+        "translated_spanish": "Spanish: El profesional de la salud te examinará por signos de intoxicación alimentaria, como dolor",
+        "bleu_score": {
+            "bleu_score": 4.217569926467555,
+            "chrF++": 6.313131313131313
+        }
+    },
+    {
+        "original_english": "An implantable cardioverter defibrillator (ICD) is a device that can be implanted in the chest wall of people who are at risk for this serious rhythm disorder. The ICD can help prevent sudden cardiac death by quickly sending an electrical shock when ventricular fibrillation occurs.",
+        "original_spanish": "Un desfibrilador cardioversor implantable (DCI) es un dispositivo que se puede implantar en la pared torácica de personas que estén en riesgo de este serio trastorno del ritmo cardíaco.El DCI puede ayudar a prevenir la muerte cardíaca súbita al enviar rápidamente un choque eléctrico cuando se presenta fibrilación ventricular.",
+        "translated_spanish": "An implantable cardioverter defibrillator (ICD) es un dispositivo que puede ser implantado en el pecho de las personas que están en riesgo de esta disrrección grave del ritmo cardíaco. El ICD puede ayudar a prevenir la muerte cardíaca súbit",
+        "bleu_score": {
+            "bleu_score": 26.893504911469762,
+            "chrF++": 35.642570281124506
+        }
+    },
+    {
+        "original_english": "Greater respect for the complexities of female sexual functioning has led them to conclude that suboptimal female genitalia may not be inherently better than suboptimal male genitalia, even if the reconstruction is \"easier.\"In addition, other factors may be more important in gender satisfaction than functioning external genitals.",
+        "original_spanish": "Un mayor respeto por las complejidades del funcionamiento sexual femenino los ha llevado a concluir que los genitales femeninos insuficientes pueden no ser intrínsecamente mejores que los genitales masculinos insuficientes, incluso si la reconstrucción es “más fácil”.  Además, otros factores pueden ser más importantes en la satisfacción del sexo que los genitales externos funcionales.",
+        "translated_spanish": "Además, otros factores pueden ser más importantes en la satisfacción de género que las funciones externas",
+        "bleu_score": {
+            "bleu_score": 5.704345331230757,
+            "chrF++": 8.13953488372093
+        }
+    },
+    {
+        "original_english": "Regular use -- the user misses more and more school or work; worries about losing drug source; uses drugs to \"fix\" negative feelings; begins to stay away from friends and family; may change friends to those who are regular users; shows increased tolerance and ability to \"handle\" the drug.",
+        "original_spanish": "Consumo regular: el consumidor falta cada vez más al colegio o al trabajo; le preocupa perder la fuente de droga; utiliza las drogas para \"remediar\" sentimientos negativos; empieza a apartarse de los amigos y la familia; puede cambiar los amigos por aquéllos que son consumidores regulares; muestra aumento de la tolerancia y capacidad para \"manejar\" la droga.",
+        "translated_spanish": "Regular uso - el usuario pierde más y más tiempo en la escuela o trabajo; se preocupa por perder su fuente de drogas; usa las drogas para \"arreglar\" sus sentimientos negativos; comienza a evitar a amigos y familiares; puede cambiar a amigos que son usuarios",
+        "bleu_score": {
+            "bleu_score": 8.727387937525387,
+            "chrF++": 13.371537726838584
+        }
+    },
+    {
+        "original_english": "Increased intracranial pressure can be due to a rise in cerebrospinal fluid pressure.It can also be due to increased pressure within the brain matter caused by a mass (such as a tumor), bleeding into the brain or fluid around the brain, or swelling within the brain matter itself.",
+        "original_spanish": "El aumento en la presión intracraneal puede deberse a un aumento en la presión del líquido cefalorraquídeo o también a un aumento en la presión dentro de la materia cerebral, causado por una masa (como un tumor), sangrado dentro del cerebro o líquido alrededor de éste, o inflamación dentro de la materia cerebral en sí.",
+        "translated_spanish": "Increased intracranial pressure can be due to an increase in cerebrospinal fluid pressure. It can also be due to increased pressure within the brain tissue caused by a mass (such as a tumor), bleeding into the brain, or fluid around the brain, or swelling within the brain tissue itself.",
+        "bleu_score": {
+            "bleu_score": 2.907229038292592,
+            "chrF++": 4.786771105308965
+        }
+    },
+    {
+        "original_english": "Some substances that are found to be harmful to people or animals may still be allowed, but only at the level of 1/100th of the amount that is considered harmful.People with any allergies or food intolerances should always check the ingredient list (label) for their own protection.",
+        "original_spanish": "Es posible que algunas sustancias que se consideran dañinas para las personas y los animales sean admitidas sólo a nivel de una centésima parte de la cantidad que se considera peligrosa. Para su propia protección, las personas con alergia o intolerancia a algún tipo de alimento deben revisar siempre la lista de ingredientes (etiqueta).",
+        "translated_spanish": "Some substances that are found to be harmful to people or animals may still be allowed, but only at the level of 1/100th of the amount that is considered harmful. People with any allergies or food intolerances should always check the ingredient list (label) for their own protection.",
+        "bleu_score": {
+            "bleu_score": 0.9190804722413354,
+            "chrF++": 6.108202443280978
+        }
+    },
+    {
+        "original_english": "Not having milk in your diet can lead to a shortage of calcium, vitamin D, riboflavin, and protein.You may need to find new ways to get calcium into your diet (depending on your age and gender, you need 1,000 - 1,500 mg of calcium each day):",
+        "original_spanish": "No obtener leche en la alimentación puede llevar a una carencia de calcio, vitamina D, riboflavina y proteína. Es posible que usted necesite encontrar nuevas maneras de obtener calcio en su dieta (dependiendo de su edad y sexo, se necesitan de 1,000 a 1,500 mg de calcio cada día):",
+        "translated_spanish": "No tener leche en tu dieta puede llevar a una falta de calcio, vitamina D, riboflavina y proteínas. Puedes necesitar encontrar nuevas maneras para que el calcio llegue a tu dieta (dependiendo de tu edad y género, necesitas entre 1,0",
+        "bleu_score": {
+            "bleu_score": 25.137831088258036,
+            "chrF++": 6.974248927038626
+        }
+    },
+    {
+        "original_english": "Because it is difficult to determine the amount of radiation exposure from nuclear accidents, the best signs of the severity of the exposure are: the length of time between the exposure and the onset of symptoms, the severity of symptoms, and severity of changes in white blood cells.",
+        "original_spanish": "Debido a que es difícil determinar la cantidad de exposición a radiación a causa de accidentes nucleares, las mejores señales de la gravedad de la exposición son: el tiempo transcurrido entre la exposición y la aparición de los síntomas, la gravedad de dichos síntomas y de los cambios en los glóbulos blancos.",
+        "translated_spanish": "\"Porque es difícil determinar la cantidad de exposición radiactiva por accidentes nucleares, los mejores signos de la gravedad de la exposición son: el tiempo entre la exposición y el inicio de los síntomas, la severidad de los sí",
+        "bleu_score": {
+            "bleu_score": 38.30713150874606,
+            "chrF++": 10.752688172043012
+        }
+    },
+    {
+        "original_english": "Note: It is often technically easier to treat (and therefore raise) the child as female (it is easier for a surgeon to make female genitalia than it is to make male genitalia), so in some cases this is recommended even if the child is genetically male.",
+        "original_spanish": "Nota: con frecuencia es técnicamente más fácil tratar (y por lo tanto criar) al niño como mujer (para un cirujano es más fácil hacer genitales femeninos que masculinos), de tal manera que en algunos casos se recomienda esto incluso si el niño es genéticamente masculino.",
+        "translated_spanish": "Nota: Es técnicamente más fácil tratar y elevar al niño como mujer (ya que es más sencillo para un cirujano hacer genitales femeninos que masculinos), por lo que en algunos casos esto se recomienda incluso si el niño está genéticamente masculino.",
+        "bleu_score": {
+            "bleu_score": 39.18109653890318,
+            "chrF++": 6.109979633401221
+        }
+    },
+    {
+        "original_english": "Deficiency happens more often in women than in men, and is more common in pregnant women and older children. Getting enough iodine in the diet may prevent a form of physical and mental retardation called cretinism.Cretinism is very rare in the U.S. because iodine deficiency is generally not a problem.",
+        "original_spanish": "Esta deficiencia afecta con más frecuencia a las mujeres que a los hombres y es más común en mujeres embarazadas y niños mayores. La ingesta de yodo suficiente en la dieta puede prevenir una forma de retardo mental y físico llamada cretinismo, una afección muy rara en los Estados Unidos, dado que la deficiencia de yodo, en general, no representa un problema.",
+        "translated_spanish": "Deficiencia ocurre más en las mujeres que en los hombres, y es más común en madres embarazadas y niños mayores. Obtener suficiente iodo en la dieta puede prevenir una forma de retardo físico y mental conocida como crenismo. El crenismo es muy raro en",
+        "bleu_score": {
+            "bleu_score": 24.702024406993626,
+            "chrF++": 8.49150849150849
+        }
+    },
+    {
+        "original_english": "People who have a sudden herniated disk caused by injury (such as a car accident or lifting a very heavy object) will get nonsteroidal anti-inflammatory medications (NSAIDs) and narcotic painkillers if they have severe pain in the back and leg.If you have back spasms, you will usually receive muscle relaxants.",
+        "original_spanish": "A las personas con una hernia de disco repentina, causada por lesión (como un accidente automovilístico o por levantar un objeto muy pesado), se les administrarán analgésicos narcóticos y antinflamatorios no esteroides (AINES) si tienen dolor intenso en la espalda y la pierna.",
+        "translated_spanish": "People who suddenly develop a herniated disk due to an injury (like from a car accident or lifting a very heavy object) may be prescribed non-steroidal anti-inflammatory drugs (NSAIDs) and opioid pain relievers for severe back and leg pain. If you experience back spasms, muscle relaxants are typically",
+        "bleu_score": {
+            "bleu_score": 1.0542218950765596,
+            "chrF++": 7.475813544415128
+        }
+    },
+    {
+        "original_english": "Threre is a wide range for what is considered \"normal.\" Just because your child is in the 15th percentile for weight (meaning 85 out of 100 children weigh more), this number rarely means your child is sick, you're not feeding your child enough, or your breast milk is not enough for your baby.",
+        "original_spanish": "Hay una amplia gama para lo que se considera \"normal\".Simplemente porque su hijo esté en el percentil 15 para peso (lo que significa que 85 de 100 niños pesan más), este número rara vez significa que su hijo esté enfermo, que usted no lo está alimentando lo suficiente o que su leche materna no sea suficiente para su bebé.",
+        "translated_spanish": "or your breast milk is not",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "Congenital heart surgery; Patent ductus arteriosus ligation; Hypoplastic left heart repair; Tetralogy of Fallot repair; Coarctation of the aorta repair; Atrial septal defect repair; Ventricular septal defect repair; Truncus arteriosus repair; Total anomalous pulmonary artery correction; Transposition of great vessels repair; Tricuspid atresia repair; VSD repair; ASD repair; PDA ligation",
+        "original_spanish": "Cirugía cardíaca congénita; Ligadura del conducto arterial persistente; Reparación de la hipoplasia del corazón izquierdo; Reparación de la tetralogía de Fallot; Reparación de la coartación de la aorta; Reparación de la comunicación interauricular; Reparación de la comunicación interventricular; Reparación del tronco arterial; Corrección de la arteria pulmonar anómala total; Reparación de la transposición de los grandes vasos; Reparación de la atresia tricuspídea; Reparación de CIV; Reparación de CIA; Ligadura del CAP",
+        "translated_spanish": "4. Revisión de la tetrapléjica de Fallot",
+        "bleu_score": {
+            "bleu_score": 0.0011691631036887453,
+            "chrF++": 2.873563218390805
+        }
+    },
+    {
+        "original_english": "This test is done during a hospital stay.  It tells the difference between someone who is making urine because of drinking a lot of liquid and someone who is not.  If you have central diabetes insipidus, you will still make a lot of urine even when fluids are not given. ",
+        "original_spanish": "Esta prueba se efectúa durante una estadía en el hospital.Ésta establece la diferencia entre alguien que está produciendo orina por beber mucho líquido y alguien que no lo está haciendo.",
+        "translated_spanish": "This test is done during a hospital stay. It tells the difference between someone who is making urine because of drinking a lot of liquid and someone who is not. If you have central diabetes insipidus, you will still make a lot of urine even when fluids are not given.",
+        "bleu_score": {
+            "bleu_score": 0.8864914124518566,
+            "chrF++": 7.905138339920949
+        }
+    },
+    {
+        "original_english": "Also, many refined foods, such as white flour, sugar, and white rice, lack B vitamins and other important nutrients unless they are marked \"enriched.\" It is healthiest to get carbohydrates, vitamins, and other nutrients in as natural a form as possible -- for example, from fruit instead of table sugar.",
+        "original_spanish": "Igualmente, muchos alimentos refinados, como la harina blanca, el azúcar y el arroz blanco, carecen de vitaminas del complejo B y otros importantes nutrientes, a menos que aparezcan etiquetados como \"enriquecidos\".Lo más sano es obtener carbohidratos, vitaminas y otros nutrientes en la forma más natural posible, por ejemplo, de frutas en lugar del azúcar de mesa.",
+        "translated_spanish": "Also, many refined foods, such as white flour, sugar, and white rice, lack B vitamins and other important nutrients unless they are marked \"enriched.\" It is healthiest to get carbohydrates, vitamins, and other nutrients in their most natural form — for example, from fruits rather than table sugar.",
+        "bleu_score": {
+            "bleu_score": 1.0063900059549238,
+            "chrF++": 3.249390739236393
+        }
+    },
+    {
+        "original_english": "The pituitary gland near the brain makes too much of the hormone ACTH (called Cushing's disease), which may happen with too much growth of the pituitary gland, a tumor of the pituitary gland, or a tumor elsewhere in the body (such as the pancreas, lung, and thyroid) that produces ACTH",
+        "original_spanish": "La hipófisis cerca del cerebro produce demasiada hormona corticotropina (llamado enfermedad de Cushing), que puede suceder con el crecimiento excesivo de dicha glándula o a un tumor en ella o en alguna otra parte en el cuerpo (como el páncreas, el pulmón y la tiroides) que produce dicha hormona.  ",
+        "translated_spanish": "The pituitary gland near the brain makes too much of the hormone ACTH (called Cushing's disease), which may happen with too much growth of the pituitary gland, a tumor of the pituitary gland, or a tumor elsewhere in the body (such as the pancreas, lung, and thyroid",
+        "bleu_score": {
+            "bleu_score": 1.7756069420588254,
+            "chrF++": 7.015902712815715
+        }
+    },
+    {
+        "original_english": "In the past, the prevailing opinion was that it was generally best to assign a gender as quickly as possible, often based on the external genitals rather than the chromosomal gender, and to instruct the parents to have no ambiguity in their minds as to the gender of the child.",
+        "original_spanish": "En el pasado, la opinión que prevalecía era que generalmente era mejor asignar un sexo lo más rápido posible, a menudo sobre la base de los genitales externos, en vez del sexo de los cromosomas, e instruir a los padres para no tener ambigüedad en sus mentes en cuanto al sexo del niño.",
+        "translated_spanish": "In the past, the prevailing opinion was that it was generally best to assign a gender as quickly as possible, often based on the external genitals rather than the chromosomal gender, and to instruct the parents to have no ambiguity in their minds about the gender of the child.",
+        "bleu_score": {
+            "bleu_score": 0.9779503200251758,
+            "chrF++": 10.511882998171847
+        }
+    },
+    {
+        "original_english": "Daily preoccupation -- the user loses any motivation; does not care about school and work; has obvious behavior changes; thinking about drug use is more important than all other interests, including relationships; the user becomes secretive; may begin dealing drugs to help support habit; use of other, harder drugs may increase; legal problems may increase.",
+        "original_spanish": "Preocupación diaria: el consumidor pierde cualquier motivación; no le importa el colegio ni el trabajo; tiene cambios de comportamiento obvios; pensar acerca del consumo de drogas es más importante que todo los otros intereses, incluyendo las relaciones interpersonales; el consumidor se torna reservado; puede comenzar a vender drogas para ayudarse a sostener el hábito; el consumo de otras drogas más fuertes puede aumentar; se pueden incrementar los problemas legales.",
+        "translated_spanish": "Daily preoccupation - el usuario pierde cualquier motivación; no se preocupa por la escuela y el trabajo; tiene cambios de comportamiento evidentes; piensa más en la utilización del drogón que en todos los demás intereses, incluyendo las relaciones; el usuario se hace secreto",
+        "bleu_score": {
+            "bleu_score": 15.49441595939603,
+            "chrF++": 5.671902268760907
+        }
+    },
+    {
+        "original_english": "You have sudden, sharp chest pain with shortness of breath, especially after a long trip, a stretch of bedrest (for example, following an operation), or other lack of movement, especially if one leg is swollen or more swollen than the other (this could be a blood clot, part of which has moved to the lungs).",
+        "original_spanish": "Tiene un dolor de pecho repentino y agudo con dificultad respiratoria, especialmente después de un viaje largo, un período de reposo en cama (por ejemplo, después de una operación) u otra falta de movimiento, especialmente si una pierna está hinchada o más hinchada que la otra (esto podría ser un coágulo sanguíneo, parte del cual se ha desplazado a los pulmones). ",
+        "translated_spanish": "Tienes dolor de pecho agudo y brusco con dificultad para respirar, especialmente después de un largo viaje, una larga estancia en reposo (por ejemplo, después de una cirugía), o cualquier falta de movimiento, especialmente si una pierna está",
+        "bleu_score": {
+            "bleu_score": 25.18745695809687,
+            "chrF++": 31.344792719919113
+        }
+    },
+    {
+        "original_english": "The mother may fake symptoms of illness in her child by adding blood to the child's urine or stool, withholding food, falsifying fevers, secretly giving the child drugs to make the child throw up or have diarrhea, or using other tricks, such as infecting intravenous (given through a vein) lines to make the child appear or become ill.",
+        "original_spanish": "La madre puede simular síntomas de enfermedad en su hijo añadiendo sangre a su orina o heces, dejando de alimentarlo, falsificando fiebres, administrándole secretamente fármacos que le produzcan vómito o diarrea o empleando otros trucos como infectar las vías intravenosas (a través de una vena) para que el niño aparente o en realidad resulte enfermo.",
+        "translated_spanish": "La madre puede fingir los síntomas de la enfermedad en su hijo añadiendo sangre al urinario o fecal del niño, rechazando el alimento, falsificando fiebres, ocultarle medicamentos para que el niño vomite o tenga diarrea,",
+        "bleu_score": {
+            "bleu_score": 16.65107812321416,
+            "chrF++": 12.114537444933921
+        }
+    },
+    {
+        "original_english": "Because there is little or no flow out of the left heart, blood returning to the heart from the lungs needs to pass through the foramen ovale or an atrial septal defect (a hole connecting the collecting chambers on the left and right sides of the heart) back to the right side of the heart.",
+        "original_spanish": "Debido a que hay poca o ninguna circulación del lado izquierdo del corazón, la sangre que retorna a éste desde los pulmones necesita pasar a través del agujero oval o de una comunicación interauricular (un agujero que conecta las cámaras colectoras en los lados izquierdo y derecho del corazón) de nuevo hacia el lado derecho del corazón.",
+        "translated_spanish": "Because there is little or no flow out of the left heart, blood returning to the heart from the lungs needs to pass through the foramen ovale or an atrial septal defect (a hole connecting the collecting chambers on the left and right sides of the heart) back to the right side of the heart.",
+        "bleu_score": {
+            "bleu_score": 0.8889758003134,
+            "chrF++": 8.598452278589853
+        }
+    },
+    {
+        "original_english": "You can take the tooth to the dentist by following one of these tips:Try to place the tooth back in the mouth where it fell out, so it is level with other teeth. Bite down gently on gauze or a wet tea bag to help keep it in place. Be careful not to swallow the tooth.",
+        "original_spanish": "Trate de colocar de nuevo el diente en la boca de donde se desprendió, de manera que quede a nivel con los otros dientes. Muerda suavemente una gasa o una bolsita de té húmeda para ayudarlo a mantenerse en su sitio. Tenga cuidado de no tragarse el diente.",
+        "translated_spanish": "\"Podrías llevar el diente al dentista siguiendo uno de estos consejos: Intenta colocar el diente en la boca donde cayó para que esté nivel con los demás dientes. Aplica suavemente un pañuelo o una",
+        "bleu_score": {
+            "bleu_score": 11.574773357369114,
+            "chrF++": 5.859375000000001
+        }
+    },
+    {
+        "original_english": "Another myth of adolescence is the idea that \"it will never happen to me, only the other person.\" \"It\" may represent becoming pregnant or catching a sexually-transmitted disease after having unprotected sex, causing a car crash while driving under the influence of alcohol or drugs, or any of the many other negative effects of risk-taking behaviors.",
+        "original_spanish": "Otro mito de la adolescencia es la idea de que \"eso nunca me sucederá, sólo a los demás\".\"Eso\" puede representar resultar embarazada o contraer una enfermedad de transmisión sexual luego de tener sexo sin protección; causar un accidente automovilístico mientras se conduce bajo la influencia del alcohol o las drogas, o cualquiera de los otros numerosos efectos negativos de los comportamientos peligrosos.",
+        "translated_spanish": "Another myth of adolescence is the idea that \"it will never happen to me, only the other person.\" \"It\" may represent becoming pregnant or catching a sexually-transmitted disease after having unprotected sex, causing a car crash while driving under the influence of alcohol or drugs, or any of the many other negative effects of risky",
+        "bleu_score": {
+            "bleu_score": 1.5266176339658268,
+            "chrF++": 10.301692420897718
+        }
+    },
+    {
+        "original_english": "It is important to have the teeth cleaned thoroughly.This may involve use of various tools to loosen and remove plaque and tartar from the teeth. Proper flossing and brushing is always needed, even after professional tooth cleaning, to reduce your risk of gum disease. Your dentist or hygienist will show you how to brush and floss properly.",
+        "original_spanish": "Es importante hacerse una limpieza dental completa que puede involucrar el uso de diversos instrumentos o aparatos para aflojar y remover la placa y el sarro de los dientes. Siempre se necesita el cepillado y uso de seda dental apropiados, incluso después de realizarse una limpieza dental profesional, para reducir el riesgo de enfermedad periodontal.",
+        "translated_spanish": "It is important to have the teeth cleaned thoroughly. This may involve the use of various tools to loosen and remove plaque and tartar from the teeth. Proper flossing and brushing is always needed, even after professional tooth cleaning, to reduce your risk of gum disease. Your dentist or hygienist will show you how",
+        "bleu_score": {
+            "bleu_score": 0.869729662980301,
+            "chrF++": 8.494208494208493
+        }
+    },
+    {
+        "original_english": "How well you do depends on the amount of poison swallowed and how quickly treatment is received.",
+        "original_spanish": "Su pronóstico depende de la cantidad de tóxico ingerido y de la prontitud con que se haya recibido el tratamiento.",
+        "translated_spanish": "This translation maintains the meaning and structure of the original English sentence in Spanish.",
+        "bleu_score": {
+            "bleu_score": 1.7615754147008857,
+            "chrF++": 1.2886597938144333
+        }
+    },
+    {
+        "original_english": "Rarely, children will have problems falling asleep or staying asleep.",
+        "original_spanish": "Rara vez, los niños tendrán problemas para conciliar el sueño o permanecer dormidos. ",
+        "translated_spanish": "Rarely, los niños tienen problemas para dormir o mantenerse dormidos.",
+        "bleu_score": {
+            "bleu_score": 14.919431164109403,
+            "chrF++": 10.676156583629894
+        }
+    },
+    {
+        "original_english": "Reye syndrome can occur when aspirin is used to treat children with viral infections, such as chickenpox or the flu.",
+        "original_spanish": "El síndrome de Reye puede presentarse cuando se usa el ácido acetilsalicílico para tratar niños con infecciones virales, como la varicela o la gripe.",
+        "translated_spanish": "Reye syndrome puede ocurrir cuando se usa el aspirina para tratar niños con infecciones virales, como la varicela o el resfriado común.",
+        "bleu_score": {
+            "bleu_score": 50.50987489739914,
+            "chrF++": 7.168458781362006
+        }
+    },
+    {
+        "original_english": "Bili lights is a type of light therapy (phototherapy) that is used to treat newborn jaundice . Jaundice is a yellow coloring of the skin and eyes caused by too much of a substance called bilirubin.",
+        "original_spanish": "Las bililuces o luces azules especiales se refieren a un tipo de terapia con luz (fototerapia) que se utiliza para tratar la ictericia del recién nacido, una coloración amarillenta de la piel y de los ojos causada por la presencia de demasiada cantidad de una sustancia llamada bilirrubina.",
+        "translated_spanish": "Bili lights are a type of light therapy (phototherapy) that is used to treat newborn jaundice. Jaundice is a yellowing of the skin and eyes caused by too much of a substance called bilirubin.",
+        "bleu_score": {
+            "bleu_score": 0.9481516555787265,
+            "chrF++": 3.225806451612903
+        }
+    },
+    {
+        "original_english": "Surgery combined with radiation therapy is often used to treat women with stage 1 disease that has a high chance of returning, has spread to the lymph nodes, or is a grade 2 or 3.",
+        "original_spanish": "La cirugía combinada con radioterapia a menudo se utiliza para tratar a mujeres con la enfermedad en estadio 1 que tiene una alta posibilidad de retornar, que se ha diseminado a los ganglios linfáticos o es grado 2 o 3.",
+        "translated_spanish": "\"La cirugía combinada con la terapia radiación es comúnmente utilizada para tratar mujeres con un diagnóstico de enfermedad en estado 1 que tiene una alta probabilidad de regresar, se ha extendido a los ganglios linfáticos",
+        "bleu_score": {
+            "bleu_score": 24.92275709369039,
+            "chrF++": 2.873563218390805
+        }
+    }
+]

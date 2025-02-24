@@ -1,0 +1,18 @@
+[
+    {
+        "text": "Qwen2.5-1.5B-Instruct without finetune(Medline) --> Average BLEU Score: 14.8256",
+        "timestamp": "2025-02-23T01:58:43.083867"
+    },
+    {
+        "text": "Qwen2.5-1.5B-Instruct without finetune (EHR data) --> Average BLEU Score: 15.0393",
+        "timestamp": "2025-02-23T02:01:21.470627"
+    },
+    {
+        "text": "Qwen2.5-1.5B-Instruct with finetune(Medline) --> Average BLEU Score: 25.3130",
+        "timestamp": "2025-02-23T02:09:35.267630"
+    },
+    {
+        "text": "Qwen2.5-1.5B-Instruct with finetune (EHR data) --> Average BLEU Score: 22.4164",
+        "timestamp": "2025-02-23T02:12:16.054412"
+    }
+]
