@@ -182,7 +182,7 @@ if __name__ == "__main__":
             text_key = 'output'
             subclaim_key = 'reference'
             
-        text_name = TEXT_NAME[dataset_name] if dataset_name in TEXT_NAME else "article_summary"
+        text_name = TEXT_NAME[dataset_name] if dataset_name in TEXT_NAME else "article_translation"
         
         for item,itemr in zip(output_data,ref_data):
             eid_str = str(item['example_id'])
