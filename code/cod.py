@@ -5,7 +5,6 @@ from transformers import pipeline, AutoTokenizer, AutoModelForSeq2SeqLM
 from openai import OpenAI  # Assuming OpenAI API is set up
 from utils import get_synonyms, back_translate, compute_bleu_chrf
 from openai import OpenAI 
-client = OpenAI(api_key="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")
 import json
 def translate_using_prompt(prompt,sentence):
     response = client.chat.completions.create(

@@ -2,9 +2,9 @@ from utils import compute_bleu_chrf
 import json
 import tqdm
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "5"
 from unsloth import FastLanguageModel
-file_path = "/home/mshahidul/project1/all_tran_data/Sampled_100_MedlinePlus_eng_spanish_pair.json"
+file_path = "/home/mshahidul/project1/all_tran_data/dataset/Sampled_100_MedlinePlus_eng_spanish_pair.json"
 with open(file_path, 'r', encoding='utf-8') as json_file:
     original_file = json.load(json_file)
 
@@ -19,13 +19,13 @@ alpaca_prompt = """Below is an instruction that describes a task, paired with an
                     ### Response:
                     {}"""
 max_seq_length=2048
-model_name = "unsloth/Qwen2.5-1.5B-Instruct"
+model_name = "unsloth/llama-3-8b-Instruct"
 
 model, tokenizer = FastLanguageModel.from_pretrained(
         model_name = model_name, # YOUR MODEL YOU USED FOR TRAINING
         max_seq_length = max_seq_length,
         dtype = None,
-        load_in_4bit = True,
+        load_in_4bit = False,
     )
 FastLanguageModel.for_inference(model) # Enable native 2x faster inference
 
@@ -71,5 +71,5 @@ avg_bleu_score = sum([x['bleu_score']['bleu_score'] for x in total_score]) / len
 
 print(f"{tt} without finetune --> Average BLEU Score: {avg_bleu_score:.4f}")
 
-with open(f"/home/mshahidul/project1/results/{tt}_without_finetune.json", 'w', encoding='utf-8') as json_file:
-    json.dump(total_score, json_file, ensure_ascii=False, indent=4)
+# with open(f"/home/mshahidul/project1/results/{tt}_without_finetune.json", 'w', encoding='utf-8') as json_file:
+#     json.dump(total_score, json_file, ensure_ascii=False, indent=4)
