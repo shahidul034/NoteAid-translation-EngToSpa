@@ -1,0 +1,1402 @@
+[
+    {
+        "Original_English_sentence": "If you have a weakened immune system due to AIDS, cancer, transplantation, or corticosteroid use, call your doctor if you develop a cough, fever, or shortness of breath.",
+        "Original_Spanish_sentence": "Si usted tiene un sistema inmunitario debilitado a causa del SIDA, cáncer, trasplante o uso de corticosteroides, llame al médico si presenta fiebre, tos o dificultad para respirar.",
+        "spanish_translation_prompt": "Si tienes un sistema inmunológico debilitado debido al el SIDA, el cáncer, una trasplante o el uso de corticoides, llama a tu médico si desarrollas una tos, una fiebre o dificultad para respirar. ",
+        "spanish_translation_direct": "Note: There was a smal",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 17.058225385170655,
+            "chrF++": 0.8156606851549756
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.09016836872728051,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Do NOT place the person in this position if a head, neck, back, or leg injury is suspected or if it makes the victim uncomfortable.",
+        "Original_Spanish_sentence": "NO coloque a la persona en esta posición si se sospecha una lesión en la cabeza, el cuello, la espalda o las piernas o si la posición le resulta incómoda.",
+        "spanish_translation_prompt": "No coloque a la persona en esta posición si se sospecha una lesión en la cabeza, en el cuello, en la espalda o en la pierna, o si hace que la víctima se sienta incómoda. ",
+        "spanish_translation_direct": "This translation accurately conveys the meaning of the original English sentence in Spanish. I",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 49.439434135584094,
+            "chrF++": 0.998003992015968
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.7915268563019138,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Increased vision allows the infant to tell objects apart from backgrounds with very little contrast (such as a button on a blouse of the same color)",
+        "Original_Spanish_sentence": "El incremento en la visión le permite al bebé diferenciar objetos a partir de fondos con muy poco contraste (como un botón en una blusa del mismo color).",
+        "spanish_translation_prompt": "La visión aumentada permite al bebé distinguir objetos de los fondos con muy poca contraste (como un botón en una blusa del mismo color). ",
+        "spanish_translation_direct": "This translation accurately conveys the meaning of the original English sentence in Spanish. The key terms and concepts are correctly translated, including \"incr",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 49.50618838022389,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.191855838589709,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "If obesity prevents you from being physically able to inspect your feet, ask a family member, neighbor, or visiting nurse to perform this important check.",
+        "Original_Spanish_sentence": "Si la obesidad le impide físicamente poder revisarse los pies, solicítele a un familiar, un vecino o una enfermera visitadora que le realice esta importante inspección.",
+        "spanish_translation_prompt": "Si la obesidad te impide ser físicamente capaz de inspeccionar tus pies, pide a un miembro de la familia, un vecino o una enfermera visitante que realice esta importante revisión.\nTo ensure the translation is accurate and flows naturally in Spanish, here is th",
+        "spanish_translation_direct": "(Note: \"revisión\" is used instead of \"check\" as it's mor",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 17.06461271374554,
+            "chrF++": 0.8726003490401398
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "CT scan or MRI to confirm that there is a growth, and to see if the cancer has spread to lymph nodes in the neck",
+        "Original_Spanish_sentence": "Tomografía computarizada o una resonancia magnética para confirmar si hay una masa y para ver si el cáncer se ha diseminado a los ganglios linfáticos en el cuello",
+        "spanish_translation_prompt": "Un CT o una resonancia magnética para confirmar que hay un crecimiento, y para ver si el cáncer se ha propagado a los ganglios linfáticos en el cuello. ",
+        "spanish_translation_direct": "This translation accurately co",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 57.37618401341797,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.9242144177449169
+        }
+    },
+    {
+        "Original_English_sentence": "A uniform brown color is usually seen over the cheeks, forehead, nose, or upper lip.It is most often symmetrical (matching on both sides of the face).",
+        "Original_Spanish_sentence": "Usualmente, se observa un color café uniforme en las mejillas, en la frente, en la nariz y en el labio superior y, con mucha frecuencia, es simétrico (igual en ambos lados de la cara).",
+        "spanish_translation_prompt": "Se observa generalmente un tono marrón uniforme en las mejillas, la frente, la nariz o el labio superior. Suele ser simétrico, es decir, que coincida en ambos lados del rostro.                    \n                     \nThis translation maintains the meaning of the original sentence while usin",
+        "spanish_translation_direct": "This translation accurately conveys the meaning of the original English sentence in Spanish. It maintains the ke",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 16.677938270294014,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.566125256226538,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Your doctor may do other tests to check high blood pressure, heart disease, diabetes, high cholesterol, and other causes of, and risk factors for TIAs or stroke.",
+        "Original_Spanish_sentence": "El médico puede realizar otros exámenes para verificar si hay hipertensión, cardiopatía, diabetes, colesterol alto y otras causas y factores de riesgo para AIT o accidente cerebrovascular.",
+        "spanish_translation_prompt": "Su médico puede realizar otros testeos para verificar la presión arterial alta, la enfermedad cardíaca, la diabetes, el colesterol alto, y otras causas y factores de riesgo para las AITs o accidentes cerebrovasculares. ",
+        "spanish_translation_direct": "Su médico puede realizar otros pruebas para verificar la hipertensión arterial, la enfermedad cardíaca, el diabetes, los niveles altos de colesterol y otras causas y factores de riesgo asociados con los accidentes isquémicos transitórios (AIT) o un ic",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 29.669679240499136,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 22.85754626901331,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Stridor is an abnormal, high-pitched, musical breathing sound caused by a blockage in the throat or voice box (larynx).It is usually heard when taking in a breath.",
+        "Original_Spanish_sentence": "Es un sonido respiratorio anormal, chillón y musical causado por un bloqueo en la garganta o la laringe y generalmente se escucha al inhalar.",
+        "spanish_translation_prompt": "El estridoro es un sonido de respiración anormal, agudo y musical causado por una obstrucción en la garganta o la laringe. Se suele escuchar cuando se inhala. (Note: \"Cuello y garganta\" is directly translated as \"neck and throa",
+        "spanish_translation_direct": "(Note: The provided response is already in Spanish and accurately translates the given input. However, fo",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 17.965618425306737,
+            "chrF++": 1.0570824524312894
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.686739071741649,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Is there blood on the toilet paper only?",
+        "Original_Spanish_sentence": "¿Hay sangre sólo en el papel higiénico?",
+        "spanish_translation_prompt": "¿Hay sangre en el papel higiénico solo? ",
+        "spanish_translation_direct": "¿Hay sangre solo en el papel higiénico?<|endoftext|",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 42.7287006396234,
+            "chrF++": 3.7593984962406015
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 36.462858619364674,
+            "chrF++": 3.7593984962406015
+        }
+    },
+    {
+        "Original_English_sentence": "Ask your health care provider.",
+        "Original_Spanish_sentence": "Pregúntele al médico.",
+        "spanish_translation_prompt": "Pregúntale a tu proveedor de atención médica. To complete the task accurately, we'll translate the given input \"Ask your health care provider\" into Spanish using the provided chain of dictionary equivalences to ensure the translation is consistent across different languages. The phrase \"health care provider\" translates to \"proveedo",
+        "spanish_translation_direct": "Pregunte a su proveedor de atención médica.<|endoftext|",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 0.6488583831481832,
+            "chrF++": 6.493506493506494
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 3.3864985683445354,
+            "chrF++": 6.493506493506494
+        }
+    },
+    {
+        "Original_English_sentence": "Complete bed rest for several days is usually recommended.",
+        "Original_Spanish_sentence": "Generalmente se recomienda guardar reposo completo durante algunos días.",
+        "spanish_translation_prompt": "Un completo reposo en cama durante varios días es generalmente recomendado. ",
+        "spanish_translation_direct": "(Note: The translation provided in the instruction is correct and does not require any changes.)<|endoftext|",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 5.063996506781411,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.6466642419110007,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "They still have foot problems after treatment",
+        "Original_Spanish_sentence": "Todavía tienen problemas en el pie después del tratamiento.",
+        "spanish_translation_prompt": "Todavía tienen problemas en los pies después del tratamiento. To complete the task as requested, we need to translate the given sentence into Spanish while also incorporating the provided chain of translations to ensure consistency in medical terminology. Here's the appropriate translation:",
+        "spanish_translation_direct": "Todavía tienen problemas en los pies después del tratamiento. \nThe sentence \"They still have foot problems after treatment\" has been translated to Spanish as \"Todavía tienen problemas en los pies después del tratamiento.\" This translation accurately conveys the meaning of the original English sentence in Spanish.<|endoftext|",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 9.950844432597743,
+            "chrF++": 2.4390243902439024
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 7.977705003428323,
+            "chrF++": 2.4390243902439024
+        }
+    },
+    {
+        "Original_English_sentence": "Disorders of the endocrine system",
+        "Original_Spanish_sentence": "Trastornos del sistema endocrino",
+        "spanish_translation_prompt": "Trastornos del sistema endocrino\nTo complete the task as requested, I will use the provided chain of translations to convert \"Disorders of the endocrine system\" from English to Spanish.",
+        "spanish_translation_direct": "Trastornos del sistema endocrino\n                  \n                  Note: The translation provided is already correct and does not require any additional information or changes. However, if you need more context or examples in Spanish related to endocrine disorders, I can provide those as well. Let me know if you'd like any additional assistanc",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 7.030983742621925,
+            "chrF++": 4.273504273504274
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 4.2168875803062384,
+            "chrF++": 4.273504273504274
+        }
+    },
+    {
+        "Original_English_sentence": "Biopsy - breast; Open breast biopsy",
+        "Original_Spanish_sentence": "Biopsia de mama; Biopsia abierta de las mamas",
+        "spanish_translation_prompt": "Biopsia - el pecho; Biopsia aberta del pecho",
+        "spanish_translation_direct": "### Response:\nBiopsia - mama; Biopsia abierta de mama",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 10.552670315936318,
+            "chrF++": 3.2679738562091507
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 32.00286101270288,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Are illegal drugs being used?",
+        "Original_Spanish_sentence": "¿Ha consumido drogas psicoactivas?",
+        "spanish_translation_prompt": "¿Están siendo utilizados las drogas ilegales? ",
+        "spanish_translation_direct": "¿Se están utilizando drogas ilegales?<|endoftext|",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 7.809849842300637,
+            "chrF++": 4.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 4.990049701936832,
+            "chrF++": 4.0
+        }
+    },
+    {
+        "Original_English_sentence": "Preventive measures vary depending on the specific disorder.",
+        "Original_Spanish_sentence": "Las medidas preventivas varían dependiendo del trastorno específico.",
+        "spanish_translation_prompt": "Las medidas preventivas varían según el trastorno específico. ",
+        "spanish_translation_direct": "This translation accurately conveys the meaning of the original English sentence in Spanish. It maintains the key elements of the statement: \"preventive measures\" as \"medidas preventivas,\" \"vary\" as \"varían,\" and \"depending on the specifi",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 43.167001068522545,
+            "chrF++": 2.0408163265306123
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.8486822913873464,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Some laboratories use different measurements or may test different specimens.",
+        "Original_Spanish_sentence": "Algunos laboratorios usan diferentes medidas o podrían evaluar diferentes muestras.",
+        "spanish_translation_prompt": "Algunos laboratorios utilizan diferentes mediciones o pueden probar diferentes muestras. To complete the request as instructed, we should translate the given sentence from English to Spanish while using the chain of dictionary provided. However, the chain of dictionary does not affect the translation process directly, as it's more about understandin",
+        "spanish_translation_direct": "Algunos laboratorios utilizan diferentes mediciones o pueden probar diferentes muestras.<|endoftext|",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 3.3654133187186077,
+            "chrF++": 1.6835016835016838
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 13.380161378318954,
+            "chrF++": 1.6835016835016838
+        }
+    },
+    {
+        "Original_English_sentence": "Menopause. A drop in the hormone estrogen causes vaginal dryness.",
+        "Original_Spanish_sentence": "Menopausia: la disminución de los niveles de estrógenos provoca resequedad vaginal.",
+        "spanish_translation_prompt": "La menopausia. Una disminución en la hormona estrógeno causa sequedad vaginal. ",
+        "spanish_translation_direct": "Note: The correct spelling of \"estrogen\" in Spanish is \"estrogeno.\" The rest of the translation is accurate and maintains the meaning of the original sentence. Here's the corrected version:",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 7.347053125977879,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.184949136625139,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Depression and older age are both risk factors for suicide.",
+        "Original_Spanish_sentence": "La depresión y la edad avanzada son factores de riesgo para esto.",
+        "spanish_translation_prompt": "La depresión y la edad avanzada son ambos factores de riesgo para el suicidio. ",
+        "spanish_translation_direct": "This sentence accurately translates the given English statement into Spanish while maintaining its meaning and structure. The translation is clear and appropriate for the context provided. If you need any additional assistance or have more sentences to translate",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 58.282339541526554,
+            "chrF++": 2.3041474654377883
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.918708060432945,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Most women have only one polyp, but some women have two or three.",
+        "Original_Spanish_sentence": "La mayoría de las mujeres solamente presenta un pólipo, pero algunas mujeres tienen dos o tres.",
+        "spanish_translation_prompt": "La mayoría de las mujeres tienen solo un polipo, pero algunas mujeres tienen dos o tres. ",
+        "spanish_translation_direct": "La mayoría de las mujeres tienen solo un polipo, pero algunas mujeres tienen dos o tres.<|endoftext|",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 66.54377827941899,
+            "chrF++": 1.557632398753894
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 53.51607207631774,
+            "chrF++": 1.557632398753894
+        }
+    },
+    {
+        "Original_English_sentence": "This test is done to measure the level of amino acids in the blood.",
+        "Original_Spanish_sentence": "Este examen se hace para medir el nivel de aminoácidos en la sangre.",
+        "spanish_translation_prompt": "Este test se realiza para medir el nivel de aminoácidos en la sangre. Sure, here's the translation you requested:",
+        "spanish_translation_direct": "Please note that \"amino acids\" translates to \"aminoácidos\" and \"blood\" translates to \"sangre\" in Spanish. The sentence structure remains the same in both languages. Here's the translation:",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 43.082069062073096,
+            "chrF++": 2.2222222222222214
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.2753998269755913,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "The infection is spread by saliva, urine, respiratory droplets, sexual contact, and blood transfusions.",
+        "Original_Spanish_sentence": "La infección se propaga por medio de la saliva, la orina, las gotitas respiratorias, el contacto sexual y las transfusiones sanguíneas.",
+        "spanish_translation_prompt": "La infección se transmite mediante la saliva, la orina, las gotas respiratorias, el contacto sexual y las transfusiones de sangre. ",
+        "spanish_translation_direct": "La infección se transmite mediante la saliva, la orina, gotas respiratorias, contacto sexual y transfusiones de sangre.<|endoftext|",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 57.26580707438228,
+            "chrF++": 1.0845986984815617
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 31.685087793658365,
+            "chrF++": 1.0845986984815617
+        }
+    },
+    {
+        "Original_English_sentence": "You may occasionally eat lean, 3-ounce cuts of red meat.",
+        "Original_Spanish_sentence": "Ocasionalmente, se pueden utilizar cortes magros de carne roja de 3 onzas (85 gramos).",
+        "spanish_translation_prompt": "Puedes comer occasionalmente cortes de carne roja magra de 3 onzas.",
+        "spanish_translation_direct": "(Note: \"ounce\" in this context is typically translated as \"onzaa\" in Spain and \"onza\" in Latin America. Both are correct, but for consistency with the original text, I used",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 13.817712220931,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.2090878038257866,
+            "chrF++": 1.7064846416382253
+        }
+    },
+    {
+        "Original_English_sentence": "Several conditions may cause increased pressure in the skull, including:",
+        "Original_Spanish_sentence": "Varias afecciones pueden provocar aumento de la presión intracraneal, entre ellas:",
+        "spanish_translation_prompt": "Varias condiciones pueden causar una mayor presión en el cráneo, incluyendo: Several conditions may cause increased pressure in the skull, including:",
+        "spanish_translation_direct": "Se pueden producir varias condiciones que causen una presión aumentada en la cabeza, incluyendo: \n                   \nThis translation accurately conveys the meaning of the original English text into Spanish. The sentence structure and terminology are appropriate for medical or health-related contexts. If you need any further adjustments or additional information, fee",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 2.252278368576829,
+            "chrF++": 1.7301038062283736
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.0072487110349273,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Abnormal heart sounds",
+        "Original_Spanish_sentence": "Ruidos cardíacos anormales",
+        "spanish_translation_prompt": "Abnormal heart sounds in English to Spanish would be \"Sonidos cardíacos anormales\". ",
+        "spanish_translation_direct": "Ruidos cardíacos anormales",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 5.255923420816887,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 5.154639175257731
+        }
+    },
+    {
+        "Original_English_sentence": "Waxy, yellow surface",
+        "Original_Spanish_sentence": "Superficie amarillenta y cerosa",
+        "spanish_translation_prompt": "Esquirlado, superficie amarilla\nTo complete the task accurately, we should use the provided translations for \"yellow\" and \"surface\" from the chain of dictionaries. Here's the correct translation:",
+        "spanish_translation_direct": "Especie blanca y brillante de superficie\n                     \n                     *Note: The translation provided does not accurately reflect the original English phrase. A more accurate translation would be:*\n                    \n                     Superficie ceraña e黄色的表面应翻译为 \"Superficie amarilla y ceraños",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.184949136625139,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Oxygen",
+        "Original_Spanish_sentence": "Oxígeno",
+        "spanish_translation_prompt": "Oxígeno\n                     Isótopos radioactivos de oxígeno\n                     Sauerstoffradioisotope se traduce a Radioisótopos de Oxígenio en español. Por lo tanto, la traducción completa sería: Oxígeno, Isótopos radioacti",
+        "spanish_translation_direct": "(Note: The input and translation provided are already correct, so no further elaboration is needed.)<|endoftext|",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 1.3353534059549443,
+            "chrF++": 17.241379310344822
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Recent open heart surgery",
+        "Original_Spanish_sentence": "Cirugía reciente a corazón abierto",
+        "spanish_translation_prompt": "Reciente cirugía a corazón abierto\nTo complete the task accurately, I will translate the given input \"Recent open heart surgery\" into Spanish using the provided context.",
+        "spanish_translation_direct": "                    Reciente cirugía cardíaca abiert",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 4.621362667122021,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Thyroid disease",
+        "Original_Spanish_sentence": "Enfermedad tiroidea",
+        "spanish_translation_prompt": "Enfermedad de tiroides\nTo provide the translation from the given chain of dictionaries, we follow the path from \"Thyroid\" to \"disease\" and back to Spanish:",
+        "spanish_translation_direct": "Enfermedad de tiroides\nThe translation of \"Thyroid disease\" into Spanish is \"Enfermedad de tiroides.\"<|endoftext|",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 1.199348129252962,
+            "chrF++": 6.849315068493151
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.6466642419110007,
+            "chrF++": 6.849315068493151
+        }
+    },
+    {
+        "Original_English_sentence": "Nausea",
+        "Original_Spanish_sentence": "Náuseas",
+        "spanish_translation_prompt": "Náusea\nTo complete the request, we need to follow the chain of translations provided in the instruction and then translate \"Nausea\" into Spanish.",
+        "spanish_translation_direct": "If you need more context or additional translations, feel free to ask! \n(Note: In Spanish, \"náusea\" is pronounced as \"nah-oo-se-ah\".",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 17.241379310344822
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Brussels sproutsCabbage",
+        "Original_Spanish_sentence": "Alimentos fortificados como la leche de soya (soja).",
+        "spanish_translation_prompt": "Brussels sprouts: Brécolines\nCabbage: Col\nNote: \"Brussels sprouts\" is often translated as \"brécolines\" in Spanish, while \"cabbage\" is typically translated as \"col.\" However, in some regions, you might also hear \"brécol\" for Brussel",
+        "spanish_translation_direct": "### Response:\nBrussels sprouts - Brécolas\nCabbage - Coliflor",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 0.7291698644541256,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Oysters",
+        "Original_Spanish_sentence": "Ostras",
+        "spanish_translation_prompt": "Las ostras\nTo complete the task as requested, I will translate \"Oysters\" into Spanish using the provided chain of dictionary equivalences:",
+        "spanish_translation_direct": "**Ostras** ",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 10.682175159905848,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "CPR can be lifesaving, but it is best done by someone trained in an accredited CPR course.",
+        "Original_Spanish_sentence": "La RCP puede salvar vidas, pero la realiza mejor alguien que haya recibido entrenamiento para tal fin en un curso acreditado.",
+        "spanish_translation_prompt": "La RCP puede ser salvadora de vidas, pero es mejor que sea realizada por alguien capacitado en un curso de RCP acreditado. ",
+        "spanish_translation_direct": "Note: CPR stands for Cardiopulmonary Resuscitation in both English and Spanish. The term remains the same in translation. In Spanish, CPR is also referred t",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 15.494732048883325,
+            "chrF++": 1.1876484560570073
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.5301683686839007,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Always let your doctor know about any cold, flu, fever, herpes breakout, or other illnesses you may have. ",
+        "Original_Spanish_sentence": "Siempre hágale saber al médico si tiene un resfriado, gripe, fiebre, brote de herpes o cualquier otra enfermedad que usted pueda tener.",
+        "spanish_translation_prompt": "Siempre informa a tu médico sobre cualquier resfrío, gripe, fiebre, brote de herpes o otras enfermedades que puedas tener. ",
+        "spanish_translation_direct": "This translation accurately conveys the original message in Spanish. Here's a breakdown of the key elements translated:",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 35.473064337175934,
+            "chrF++": 1.0940919037199122
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.4005642087373082,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Tretinoin (Retin-A) or creams containing alpha-hydroxy acids may be recommended, but these aren't guaranteed to help.",
+        "Original_Spanish_sentence": "Se puede recomendar la tretinoína (Retin-A) o cremas que contengan alfa-hidroxiácidos, pero no hay garantía de que sirvan.",
+        "spanish_translation_prompt": "Se pueden recomendar la tretinoina (Retin-A) o cremas que contienen ácidos hialurónicos, pero estos no están garantizados para ayudar. ",
+        "spanish_translation_direct": "Se recomiendan tretinoina (Retin-A) o cremas que contienen ácidos hidroxílicos alfa, pero estos no están garantizados para ayudar.<|endoftext|",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 26.773534472711976,
+            "chrF++": 1.1876484560570073
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 21.675453206953186,
+            "chrF++": 1.1876484560570073
+        }
+    },
+    {
+        "Original_English_sentence": "Fever is the classic symptom and may persist for days before any other symptoms appear.",
+        "Original_Spanish_sentence": "La fiebre es el síntoma clásico y puede persistir por días antes de que cualquier otro síntoma aparezca.",
+        "spanish_translation_prompt": "La fiebre es el síntoma clásico y puede persistir durante varios días antes de que aparezcan cualquier otro síntoma. ",
+        "spanish_translation_direct": "This translation accurately conveys the meaning of the original English sentence in Spanish. It maintains the key elements: \"fiebre\" (fever), \"sín",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 60.39435155169266,
+            "chrF++": 1.4326647564469914
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.5301683686839007,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "There is more likely to be increased amounts of pollen in the air on hot, dry, windy days.",
+        "Original_Spanish_sentence": "Hay más probabilidad de que haya mayores cantidades de polen en el aire en los días calurosos, secos y ventosos.",
+        "spanish_translation_prompt": "Se espera que haya mayores cantidades de polen en el aire en días calurosos, secos y con viento.                   ",
+        "spanish_translation_direct": "This translation accurately conveys the meaning of the original English sentence into Spanish. It maintains the key elements such as \"hot, dry, windy days\" and \"incr",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 58.69740862506178,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.3794462224541233,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "You get iron through certain foods, and your body also reuses iron from old red blood cells.",
+        "Original_Spanish_sentence": "Uno obtiene hierro a través de ciertos alimentos y el cuerpo también recicla hierro proveniente de glóbulos rojos viejos.",
+        "spanish_translation_prompt": "Obtienes hierro a través de ciertos alimentos, y tu cuerpo también recicla hierro de las células sanguíneas rojas viejas. ",
+        "spanish_translation_direct": "This translation accurately conveys the meaning of the original English sentence in Spanish. It maintains the structure and intent while using appropriate vocabulary and grammar fo",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 36.30716142599353,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.387819277861591,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Asthma symptoms usually occur much less often or disappear as the child gets get older.",
+        "Original_Spanish_sentence": "Los síntomas de asma por lo regular ocurren con mucho menos frecuencia o desaparecen a medida que el niño crece.",
+        "spanish_translation_prompt": "Los síntomas del asma suelen ocurrir mucho menos frecuentemente o desaparecer a medida que el niño se hace más viejo. ",
+        "spanish_translation_direct": "(Note: The response has been translated from English to Spanish as requested.) \nThe translation accurately conveys the meaning of the original sentence in Spanish. Here'",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 23.41812326184748,
+            "chrF++": 1.3404825737265418
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.2414943415352928,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Potatoes that are not green and have had any sprouts removed are safe to eat.",
+        "Original_Spanish_sentence": "Las papas (patatas) que no estén verdes y a las que se les hayan quitado brotes o retoños se pueden comer sin problema.",
+        "spanish_translation_prompt": "Las patatas que no están verdes y que no tengan brotes son seguras para comer. ",
+        "spanish_translation_direct": "This translation accurately conveys the original message in Spanish. The sentence structure and meaning are preserved while using appropriate vocabulary related to potatoes and safety for consumption. No further adjustments are needed.<|endoftext|",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 4.655649676756583,
+            "chrF++": 1.2853470437017993
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.9432284668356838,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "When the needle is inserted to draw blood, you may feel moderate pain, or only a prick or stinging sensation.",
+        "Original_Spanish_sentence": "Cuando se inserta la aguja para extraer la sangre, se puede sentir un dolor moderado o experimentar sólo una sensación de pinchazo o picadura.",
+        "spanish_translation_prompt": "Cuando se inserta la aguja para extraer sangre, puede sentir dolor moderado, o solo un pinchazo o sensación de picadura. ",
+        "spanish_translation_direct": "(Note: The provided response is already in Spanish and accurately translates the given English sentence. If the task was to translate from Spanish to English, it would b",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 34.443761705886814,
+            "chrF++": 1.0482180293501047
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.3794462224541233,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "However, as a general rule, once a substance causes allergies for an individual, it can continue to affect the person long term.",
+        "Original_Spanish_sentence": "Sin embargo, como regla general, una vez que una sustancia causa alergia a un individuo, puede continuar afectándolo durante largo tiempo.",
+        "spanish_translation_prompt": "Sin embargo, como regla general, una vez que una sustancia causa alergias a una persona, puede seguir afectándola a largo plazo.<|endoftext|",
+        "spanish_translation_direct": "This translation accurately conveys the meaning of the original English sentence in Spanish. It maintains the structure and key elements such as \"general rule,\" \"cause",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 46.09765680697782,
+            "chrF++": 1.0570824524312894
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.633898440122165,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "If you have surgery, your sperm count will likely increase but it will not improve your chances of getting a woman pregnant.",
+        "Original_Spanish_sentence": "Si le practican una cirugía, el conteo de espermatozoides probablemente se incrementará pero no mejorará las posibilidades de embarazar a una mujer.",
+        "spanish_translation_prompt": "Si tienes una cirugía, tu recuento de espermatozoides probablemente aumentará, pero esto no mejorará tus posibilidades de hacer que una mujer quede embarazada. ",
+        "spanish_translation_direct": "Si tienes una cirugía, tu conteo de espermatozoides probablemente aumentará, pero esto no mejorará tus posibilidades de hacer que una mujer quede embarazada.<|endoftext|",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 13.07929141289792,
+            "chrF++": 0.9823182711198428
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 15.54434920148101,
+            "chrF++": 0.9823182711198428
+        }
+    },
+    {
+        "Original_English_sentence": "Screening women with pelvic ultrasound or blood tests, such as the Ca-125 has not been found to be effective and is not recommended.",
+        "Original_Spanish_sentence": "El hecho de examinar a las mujeres con ecografías de la pelvis o exámenes de sangre, como el CA-125, no se ha comprobado que sea eficaz y tampoco se recomienda.",
+        "spanish_translation_prompt": "La screening de mujeres con ultrasonido pélvico o pruebas de sangre, como el Ca-125, no ha sido encontrada efectiva y no se recomienda. To complete the task accurately, I'll follow the chain of translations provided in the instruction and ensure the sentence is correctly translate",
+        "spanish_translation_direct": "To improve readability and ensure proper grammar in Spanish, the correct translation would be:",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 12.268454823008192,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.8451746492685832,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Protein can also be used by the body for energy, but only after glycogen or carbohydrate stores have been used up.",
+        "Original_Spanish_sentence": "La proteína también la puede usar el cuerpo para obtener energía, pero sólo después de que las reservas de glucógeno o carbohidratos se agoten.",
+        "spanish_translation_prompt": "La proteína también puede utilizarse por el cuerpo como energía, pero solo después de que se hayan utilizado las reservas de glucógeno o de carbohidratos. ",
+        "spanish_translation_direct": "(Note: The translation provided is accurate and conveys the meaning of the original English sentence in Spanish.)",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 28.13707129974866,
+            "chrF++": 1.0395010395010393
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.431306716763,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "An extradural hemorrhage is bleeding between the inside of the skull and the outer covering of the brain (called the \"dura\").",
+        "Original_Spanish_sentence": "Es un sangrado entre la parte interior del cráneo y la cubierta externa del cerebro, denominada \"duramadre\".",
+        "spanish_translation_prompt": "Una hemorragia extradural es sangrado entre el interior de la cabeza y la cubierta exterior del cerebro (llamada \"dura\"). Response in English to Spanish translation:",
+        "spanish_translation_direct": "Note: The term \"dura\" in this context should be translated as \"dura mater,\" which is the medical term for the outermost me",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 7.508325052934221,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.7574239156849023,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Without PIG-A, important proteins cannot connect to the cell surface and protect the cell from substances in the blood called complement.",
+        "Original_Spanish_sentence": "Sin el PIG-A, importantes proteínas no pueden conectarse a la superficie de la célula y protegerla de sustancias en la sangre llamadas complemento.",
+        "spanish_translation_prompt": "Sin PIG-A, importantes proteínas no pueden conectarse a la superficie de la célula y proteger la célula de sustancias en la sangre llamadas complemento. Sure! Here is the translation:",
+        "spanish_translation_direct": "(Note: The original text uses \"PIG-A\" which appears to be an acronym or specific term. It's typically left untranslate",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 60.60394050459131,
+            "chrF++": 0.998003992015968
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.7946164267667561,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "If you can see bone in the injured site, call your local emergency number (such as 911) or local hospital for further advice.",
+        "Original_Spanish_sentence": "Si usted puede ver hueso en el sitio lesionado, llame al número local de emergencias (como el 911 en los Estados Unidos) o al hospital local para mayores recomendaciones.",
+        "spanish_translation_prompt": "Si puede ver huesos en el sitio lesionado, llame al número de emergencia local (como 911) o al hospital local para obtener más consejos. ",
+        "spanish_translation_direct": "This translation accurately conveys the meaning of the original English sentence in Spanish. It maintains the imperative tone and provides clear instructions for seeking medical assistanc",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 40.02442399721135,
+            "chrF++": 0.8787346221441126
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.1112788042727701,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Bladder distention (urinary bladder over-filled with fluid) can cause a firm mass in the center of the lower abdomen above the pelvic bones.In extreme cases it can reach as far up as the navel.",
+        "Original_Spanish_sentence": "La distensión vesical (vejiga urinaria sobrecargada de líquido) puede causar una masa firme en el centro del abdomen inferior por encima de los huesos pélvicos, que en casos extremos puede extenderse hasta el ombligo.",
+        "spanish_translation_prompt": "La distensión de la vejiga (vesícula urinaria sobrecargada con líquido) puede causar un maso firme en el centro del abdomen inferior, sobre los huesos pélvicos. En casos extremos, puede extenderse hasta el ombligo.",
+        "spanish_translation_direct": "La distensión de la vejiga (vejiga urinaria sobrecargada con líquido) puede causar un masa firme en el centro del abdomen inferior, por encima de las caderas. En casos extremos, puede extenderse hasta el ombligo.<|endoftext|",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 40.80359375751398,
+            "chrF++": 0.6784260515603799
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 42.0949830160819,
+            "chrF++": 0.6784260515603799
+        }
+    },
+    {
+        "Original_English_sentence": "Your kidneys help control your body's acid level by removing acid from the blood and sending it into your urine.Acidic substances in the body are counteracted by alkaline substances, primarily bicarbonate.",
+        "Original_Spanish_sentence": "Los riñones ayudan a controlar el nivel de ácido en el cuerpo, removiendo el ácido de la sangre y eliminándolo en la orina. Las sustancias ácidas en el cuerpo se neutralizan por medio de sustancias alcalinas, principalmente bicarbonato.",
+        "spanish_translation_prompt": "Sus riñones ayudan a controlar el nivel de ácido en su cuerpo al eliminar ácido del sangre y enviarlo a su orina. Los sustancias ácidas en el cuerpo se contrarrestan con sustancias alcalinas, principalmente bicarbonato. ",
+        "spanish_translation_direct": "Sus riñones ayudan a controlar el nivel de ácidos en tu cuerpo al eliminar ácidos del torrente sanguíneo y enviándolos a tu orina. Las sustancias ácidas en el cuerpo se contrarrestan con sustancias alcalinas, principalmente bicarbo",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 43.96033142156904,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 38.647392201672496,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "You'll likely be diagnosed with rheumatic fever if you meet two major criteria, or one major and two minor criteria, and have signs that you've had a previous strep infection.",
+        "Original_Spanish_sentence": "El diagnóstico de fiebre reumática se da si uno satisface dos criterios principales, o uno principal y dos secundarios, al igual que si muestra signos de que ha tenido una infección previa por estreptococos.",
+        "spanish_translation_prompt": "Se diagnosticará probablemente de fiebre reumática si se cumplen dos criterios principales, o un criterio principal y dos criterios secundarios, y se presentan señales de haber tenido una infección por estreptococos previa.                   ",
+        "spanish_translation_direct": "                    ",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 21.399470850898627,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "A trained physician, often a cardiologist, inserts a small needle into the chest between the ribs and into the thin sac that surrounds the heart (the pericardium).A small amount of fluid is taken out.",
+        "Original_Spanish_sentence": "Un médico entrenado, con frecuencia un cardiólogo, introducirá una aguja pequeña en el tórax, entre las costillas, hasta el saco delgado que rodea el corazón (el pericardio) y extraerá una cantidad pequeña de líquido.",
+        "spanish_translation_prompt": "Un médico capacitado, a menudo un cardiólogo, inserta una aguja pequeña en el pecho entre las costillas y en el finísimo saco que rodea al corazón (el pericardio). Se extrae una pequeña cantidad de fluido. ",
+        "spanish_translation_direct": "Note: I've correcte",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 27.039333979070644,
+            "chrF++": 0.6784260515603799
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Increased calcium for a limited period of time does not normally cause side effects.However, receiving higher amounts of calcium over a long period of time raises the risk of kidney stones in some people.",
+        "Original_Spanish_sentence": "Normalmente, el incremento del consumo de calcio durante un período de tiempo limitado no ocasiona efectos secundarios; sin embargo, el hecho de recibir una gran cantidad de calcio durante un período de tiempo prolongado eleva el riesgo de cálculos renales en algunas personas.",
+        "spanish_translation_prompt": "El aumento del calcio durante un período limitado no suele causar efectos secundarios. Sin embargo, recibir cantidades más altas de calcio durante un periodo prolongado aumenta el riesgo de formación de cálculos renales en algunas personas. ",
+        "spanish_translation_direct": "This translation accurately conveys th",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 27.994120603814697,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Children with early sexual development are more likely to have psychological and social problems.Children and adolescents generally want to be the same as their peers, and early sexual development can make them appear different.",
+        "Original_Spanish_sentence": "Los niños con desarrollo sexual precoz tienen mayor probabilidad de tener problemas psicosociales, ya que los niños y adolescentes generalmente quieren ser iguales a sus compañeros y el desarrollo sexual prematuro puede hacerlos aparecer \"diferentes\".",
+        "spanish_translation_prompt": "La sexualidad temprana en los niños los hace más propensos a tener problemas psicológicos y sociales. Los niños y los adolescentes generalmente quieren ser iguales a sus pares, y la sexualidad temprana puede hacerlos parecer diferentes. ",
+        "spanish_translation_direct": "(Note: The provided instruction was alread",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 21.72826563401337,
+            "chrF++": 0.5753739930955121
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Veins and arteries vary in size from one patient to another and from one side of the body to the other.Obtaining a blood sample from some people may be more difficult than from others.",
+        "Original_Spanish_sentence": "Las venas y las arterias varían en tamaño de un paciente a otro y de un lado del cuerpo a otro, razón por la cual extraer sangre de algunas personas puede ser más difícil que de otras.",
+        "spanish_translation_prompt": "Las venas y las arterias varían en tamaño desde un paciente a otro y de un lado del cuerpo a otro. Obtener una muestra de sangre de algunas personas puede ser más difícil que de otras. ",
+        "spanish_translation_direct": "(Note: The original text had a small typo in \"Veins and arteries\" which has been corrected t",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 73.43202620564438,
+            "chrF++": 0.8431703204047217
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.7706971346340552,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "In many cases it will prevent you from getting sick.For example, a person who has had chickenpox or has been immunized against chickenpox is immune from getting chickenpox again.Watch this video about:Immune response",
+        "Original_Spanish_sentence": "Por ejemplo, un individuo que haya padecido o que haya sido vacunado contra la varicela es inmune a contraer esta enfermedad de nuevo.Mire éste video sobre:Respuesta inmunológica",
+        "spanish_translation_prompt": "En muchos casos, esto te prevendrá de enfermar. Por ejemplo, una persona que ha tenido varicela o ha sido inmunizada contra la varicela está inmunizada para no enfermarse de varicela nuevamente. Observa este video sobre: Respuesta inmun",
+        "spanish_translation_direct": "En muchos casos, esto te impedirá enfermarte. Por ejemplo, una persona que haya tenido varicela o que esté inmunizada contra la varicela estará inmunizada para no enfermarse de varicela nuevamente. Observa este video sobre: Respuesta inmun",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 11.182087498320197,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 12.40745211972404,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "For example, a food that has 13 grams of fat with a Percent Daily Value of 20% means that 13 grams of fat is 20%, or one-fifth, of the total daily fat recommended for a person who eats 2,000 calories per day.",
+        "Original_Spanish_sentence": "Por ejemplo, un alimento que tiene 13 gramos de grasa con un valor porcentual diario del 20% significa que 13 gramos de grasa es el 20%, o una quinta parte, de la grasa diaria total recomendada para una persona que consume 2,000 calorías por día.",
+        "spanish_translation_prompt": "Por ejemplo, una comida que tenga 13 gramos de grasa con un Porcentaje Diario de Valor de 2intenta por ciento significa que 13 gramos de grasa es el 20%, o una quinta parte, del graso total recomendado para una persona que consum",
+        "spanish_translation_direct": "Por ejemplo, un alimento que contiene 13 gramos de grasa con un Porcentaje de Valor Diario del 2 por ciento significa que los 13 gramos de grasa equivalen al 20%, o una quinta parte, de la cantidad diaria recomendada de gras",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 47.32525842203801,
+            "chrF++": 0.6180469715698393
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 41.76552296750499,
+            "chrF++": 0.6180469715698393
+        }
+    },
+    {
+        "Original_English_sentence": "Laparoscopic repair: Your surgeon will make 3 - 5 small cuts in your belly.Your surgeon will insert a laparoscope (a thin, hollow tube with a tiny camera on the end) through one of these cuts and other tools through the other cuts.",
+        "Original_Spanish_sentence": "Reparación laparoscópica: el cirujano hará de 3 a 5 incisiones pequeñas en el abdomen e introducirá un laparoscopio (un tubo delgado y hueco con una cámara diminuta en el extremo) a través de una de estas incisiones y otras herramientas a través de las otras incisiones.",
+        "spanish_translation_prompt": "La reparación laparoscópica: Tu cirujano hará 3 a 5 cortes pequeños en tu vientre. Tu cirujano insertará un laparoscopio (un tubo delgado y hueco con una pequeña cámara en la parte final) a través de un",
+        "spanish_translation_direct": "La reparación laparoscópica: Tu cirujano hará 3 a 5 cortes pequeños en tu abdomen. Tu cirujano insertará un laparoscopio (un tubo delgado y hueco con una pequeña cámara en la parte inferior) a través de uno d",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 27.719447238479578,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 28.127948142695224,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "However, recent studies do not support this idea, and suggest that these medications can be used in children with tics who also have attention-deficit disorder (which often occurs in the same group of children).A chronic motor tic disorder also exists.",
+        "Original_Spanish_sentence": "Sin embargo, estudios recientes no respaldan esta idea y sugieren que estos medicamentos se pueden utilizar en niños con tics que también tienen trastorno por déficit de atención (que a menudo se presenta en el mismo grupo de niños).",
+        "spanish_translation_prompt": "Sin embargo, los estudios recientes no apoyan esta idea y sugieren que estos medicamentos pueden utilizarse en niños con tics que también presentan trastorno por déficit de atención (que a menudo ocurre en el mismo grupo de niños). También existe un trastorno crónico de",
+        "spanish_translation_direct": "Sin embargo, los estudios recientes no respaldan esta idea, y sugieren que estos medicamentos pueden utilizarse en niños con tic que también presentan trastorno por déficit de atención (que a menudo ocurre en el mismo grupo de niños). También existe un trastorno motriz c",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 56.60754509592054,
+            "chrF++": 0.6402048655569782
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 52.20502939136056,
+            "chrF++": 0.6402048655569782
+        }
+    },
+    {
+        "Original_English_sentence": "These symptoms are more likely to occur if the skin has been cut or rubbed because this gives the MRSA germ a way to “get in.” Symptoms are also more likely in areas where there is more body hair due to hair follicles.",
+        "Original_Spanish_sentence": "Estos síntomas tienen mayor probabilidad de presentarse si la piel se ha cortado o frotado porque esto le brinda a la bacteria del SARM una ruta para \"entrar\".Los síntomas también son más probables en áreas donde hay más vello corporal debido a los folículos pilosos.",
+        "spanish_translation_prompt": "Estos síntomas son más probables de ocurren si la piel ha sido cortada o frotada, ya que esto da al MRSA una forma de \"ingresar\". Los síntomas también son más probables en áreas donde hay más vello corporal debido a los folículos piloso",
+        "spanish_translation_direct": "Estos síntomas son más probables de ocurrir si la piel ha sido cortada o frotada, ya que esto da al germen MRSA una forma de \"entrar\". Los síntomas también son más probables en áreas donde hay más vello corporal debido a los folículo",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 42.56788914747158,
+            "chrF++": 0.5599104143337065
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 44.31854257866296,
+            "chrF++": 0.5599104143337065
+        }
+    },
+    {
+        "Original_English_sentence": "Some patients develop heart failure and high blood pressure in the blood vessels of their lungs.Your chances of recovering or of the disease getting worse depend on the cause and how severe the disease was when it was first diagnosed.",
+        "Original_Spanish_sentence": "El estrés causado por la enfermedad se puede aliviar a menudo al participar en un grupo de apoyo, en el que los integrantes comparten experiencias y problemas en común.",
+        "spanish_translation_prompt": "Algunos pacientes desarrollan insuficiencia cardíaca y presión arterial alta en los vasos sanguíneos de sus pulmones. Sus posibilidades de recuperación o de que la enfermedad empeore dependen de la causa y de cuán severa era la enfermeda",
+        "spanish_translation_direct": "Algunos pacientes desarrollan insuficiencia cardíaca y hipertensión en los vasos sanguíneos de sus pulmones. Sus posibilidades de recuperación o de que la enfermedad empeore dependen de la causa y de cuán severa era la enfermeda",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 2.7410126102418366,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 2.9000744656730446,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "If a young child refuses to put weight on an arm or leg after an accident, won't move the arm or leg, or you can clearly see a deformity, assume the child has a broken bone and get medical help.",
+        "Original_Spanish_sentence": "Si un niño pequeño se niega a soportar peso sobre un brazo o una pierna después de un accidente, no mueve el brazo o la pierna, o la deformidad se puede ver claramente, suponga que el niño presenta una fractura ósea y consiga ayuda médica.",
+        "spanish_translation_prompt": "Si un niño pequeño se niega a poner peso en un brazo o una pierna después de un accidente, no mueve el brazo o la pierna, o puedes ver claramente una deformidad, asume que el niño tiene un hueso roto y obtén ayuda médica. ",
+        "spanish_translation_direct": "                     (Translation",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 57.187458819535756,
+            "chrF++": 0.6402048655569782
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "The amount of liquid you eat (such as soup) or drink will be limited to the amount of urine you can produce.You will be told what you may and may not eat to reduce the buildup of toxins that the kidneys would normally remove.",
+        "Original_Spanish_sentence": "La cantidad de líquido que usted tome (como las sopas) o bebe se limitará a la cantidad de orina que pueda producir. Le dirán lo que puede o no comer con el fin de reducir la acumulación de toxinas que los riñones normalmente eliminarían.",
+        "spanish_translation_prompt": "La cantidad de líquido que comes (como sopa) o bebes se limitará a la cantidad de orina que puedes producir. Se te indicará lo que puedes y no puedes comer para reducir la acumulación de toxinas que los riñones normalmente quitan. ",
+        "spanish_translation_direct": "La cantidad de líquido que coma (como sopa) o beba estará limitada al volumen de orina que pueda producirse. Se le informará sobre lo que puede y no puede comer para reducir la acumulación de toxinas que los riñones normalmente quitan.",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 42.882251362730166,
+            "chrF++": 0.6402048655569782
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 34.27959368716026,
+            "chrF++": 0.6402048655569782
+        }
+    },
+    {
+        "Original_English_sentence": "The most common use of this test is to help diagnose and monitor a disorder called sarcoidosis . People with sarcoidosis may have their ACE levels tested regularly to check the severity of the disease and see how well treatment is working. ",
+        "Original_Spanish_sentence": "El uso más común de este examen es ayudar a diagnosticar y vigilar un trastorno llamado sarcoidosis. Las personas con sarcoidosis pueden hacerse examinar periódicamente sus niveles de ECA para evaluar la gravedad de la enfermedad y ver qué tan bien está funcionando el tratamiento. ",
+        "spanish_translation_prompt": "El uso más común de este test es para ayudar en el diagnóstico y monitoreo de un trastorno llamado sarcoidosis. Las personas con sarcoidosis pueden someterse a pruebas regulares de los niveles de ACE para verificar la severidad de la enfermedad y ver cóm",
+        "spanish_translation_direct": "La utilización más común de este test es para ayudar en el diagnóstico y la vigilancia de una enfermedad llamada sarcoideosis. Las personas con sarcoideosis pueden someterse a pruebas frecuentes de sus niveles de ACE para verificar la gravedad de la enfermeda",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 39.367617206849026,
+            "chrF++": 0.5268703898840885
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 18.75189095168917,
+            "chrF++": 0.5268703898840885
+        }
+    },
+    {
+        "Original_English_sentence": "Allergic conjunctivitis occurs when the clear layer of tissue lining the eyelids and covering the white of the eye (conjunctiva) become swollen or inflamed due to a reaction to pollen, dander, mold, or other allergy-causing substances.",
+        "Original_Spanish_sentence": "Se produce cuando la capa transparente de tejido que recubre los párpados y cubre la parte blanca del ojo (conjuntiva) se hincha o se inflama debido a una reacción al polen, la caspa, el moho u otras sustancias que causan alergias. ",
+        "spanish_translation_prompt": "La conjuntivita alérgica ocurre cuando la capa clara de tejido que recubre las pestañas y la parte blanca del ojo (conjuntiva) se hincha o se inflama debido a una reacción a polen, pelusa, hongos o otro",
+        "spanish_translation_direct": "La conjuntivitis alérgica ocurre cuando la capa clara de tejido que recubre las pestañas y el blanco del ojo (la conjuntiva) se hinchada o inflamada debido a una reacción a polen, pelusa, musgo, o otro",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 45.1662950285458,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 18.182307796429747,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Advance care directives allow patients to provide instructions about their preferences regarding the care they would like to receive if they develop an illness or a life-threatening injury and are unable to express their preferences.",
+        "Original_Spanish_sentence": "La declaración de voluntades anticipadas permite a los pacientes dar instrucciones acerca de sus preferencias con respecto a los cuidados que les gustaría recibir si padecen una enfermedad o una lesión potencialmente mortal y no pueden expresar dichas preferencias.",
+        "spanish_translation_prompt": "Las directrices de atención anticipada permiten a los pacientes proporcionar instrucciones sobre sus preferencias respecto al cuidado que desean recibir si desarrollan una enfermedad o una lesión grave y no pueden expresar sus preferencias. ",
+        "spanish_translation_direct": "This translation accuratel",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 21.49682491376659,
+            "chrF++": 0.5500550055005501
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "People with this condition generally have a large left ventricle (the pumping chamber of the heart that supplies the body with blood), and a small right ventricle (the pumping chamber that supplies the lungs with blood).",
+        "Original_Spanish_sentence": "Las personas con esta afección generalmente tienen un ventrículo izquierdo grande (la cámara de bombeo del corazón que suministra sangre al cuerpo) y un ventrículo derecho pequeño (la cámara de bombeo que suministra sangre a los pulmones).",
+        "spanish_translation_prompt": "Las personas con esta condición generalmente tienen un ventrículo izquierdo grande (la cámara bombadora del corazón que suministra sangre al cuerpo), y un ventrículo derecho pequeño (la cámara bombadora que suministra sangre a los pulmones). ",
+        "spanish_translation_direct": "                    In thi",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 71.57625566086973,
+            "chrF++": 0.6150061500615006
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "In January 2001, the FDA's Center for Food Safety and Applied Nutrition proposed that developers of bioengineered food submit scientific and safety information to the FDA at least 120 days before the food is marketed.",
+        "Original_Spanish_sentence": "En enero de 2001, el Centro para la Nutrición Aplicada y la Seguridad en los Alimentos de la FDA (FDA´sCenter for Food Safety and Applied Nutrition ) propuso que quienes desarrollen alimentos procesados genéticamente envíen información científica y de seguridad a la FDA al menos 120 días antes de que el producto salga al mercado.",
+        "spanish_translation_prompt": "En enero de 22001, el Centro para la Seguridad de los Alimentos y la Nutrición Aplicada de la FDA propuso que los desarrolladores de alimentos bioingenierizados presenten información científica y de seguridad al FDA con al menos 120 días de an",
+        "spanish_translation_direct": "En enero de 22001, el Centro para la Seguridad de los Alimentos y la Nutrición Aplicada de la FDA propuso que los desarrolladores de alimentos bioingenierizados presenten información científica y de seguridad al FDA con al menos 120 días de an",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 23.579740850722224,
+            "chrF++": 0.4508566275924256
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 23.579740850722224,
+            "chrF++": 0.4508566275924256
+        }
+    },
+    {
+        "Original_English_sentence": "Your health care provider will tell you if it's necessary to stop taking any drugs that may interfere with this test.Make sure that your doctor is aware of all drugs you are taking, both prescription and nonprescription.",
+        "Original_Spanish_sentence": "El médico le dirá igualmente si es necesario dejar de tomar cualquier medicamento que pueda interferir con este examen. Asegúrese de hacerle saber al médico acerca de todos los medicamentos que está tomando, tanto recetados como de venta libre.",
+        "spanish_translation_prompt": "Su proveedor de atención médica le indicará si es necesario dejar de tomar cualquier medicamento que pueda interferir con este examen. Asegúrese de que su médico esté al tanto de todos los medicamentos que está tomando, tanto recetados como no recetados. ",
+        "spanish_translation_direct": "Su proveedor de atención médica le informará si es necesario detener la administración de cualquier medicamento que pueda interferir con este examen. Asegúrese de que su médico esté al tanto de todos los medicamentos que esté tomando, tanto recetados como no recetados.<|endoftext|",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 61.06491160931435,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 38.7962606115838,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Other foods such as broccoli, cooked greens, and canned salmon (with bones) will also provide a source of calcium in the diet; however, it is often difficult to get children to consume adequate quantities of these foods.",
+        "Original_Spanish_sentence": "Otros alimentos como el brócoli, las verduras cocidas y el salmón enlatado (con huesos) también brindan una fuente de calcio en la dieta; sin embargo, a menudo es difícil lograr que los niños consuman cantidades adecuadas de estos alimentos.",
+        "spanish_translation_prompt": "Otros alimentos como brócoli, verduras cocidas y salmón enlatado (con huesos) también proporcionarán una fuente de calcio en la dieta; sin embargo, a menudo es difícil que los niños consuman cantidades adecuadas de estos alimentos.<|endoftext|",
+        "spanish_translation_direct": "This translatio",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 70.34941006284552,
+            "chrF++": 0.6150061500615006
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Transposition of the great vessels is a heart defect that occurs from birth (congenital). The two major vessels that carry blood away from the heart -- the aorta and the pulmonary artery -- are switched (transposed).",
+        "Original_Spanish_sentence": "Es un defecto cardíaco que ocurre desde el nacimiento (congénito), en el cual los dos vasos principales que llevan sangre lejos del corazón, la aorta y la arteria pulmonar, están intercambiados (transpuestos).",
+        "spanish_translation_prompt": "La transposición de las grandes arterias es una anomalía cardíaca que ocurre desde el nacimiento (congénita). Las dos principales arterias que llevan la sangre lejos del corazón -- la aorta y la arteria pulmonar -- están intercambiadas (transpuesta",
+        "spanish_translation_direct": "La transposición de las grandes arterias es una defecto cardíaco que ocurre desde el nacimiento (congenital). Las dos principales arterias que llevan sangre lejos del corazón -- la aorta y la arteria pulmonar -- están intercambiadas (transpuestas).",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 31.121512740909218,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 39.870239917432755,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Your health care provider will examine you for signs of food poisoning, such as pain in the stomach and signs your body does not have as much water and fluids as it should.This is called dehydration.",
+        "Original_Spanish_sentence": "Su médico lo examinará en busca de signos de intoxicación con alimentos, como dolor en el estómago y signos de que su cuerpo no tiene tanta agua y líquidos como debería, lo cual se denomina deshidratación.",
+        "spanish_translation_prompt": "Su proveedor de atención médica examinará signos de intoxicación alimentaria, como dolor en el estómago y señales de que su cuerpo no tiene tanto agua y fluidos como debería. Esto se llama deshidratación.                   ",
+        "spanish_translation_direct": "This translation accurately conveys the original message fro",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 34.85505603946132,
+            "chrF++": 0.7342143906020557
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "An implantable cardioverter defibrillator (ICD) is a device that can be implanted in the chest wall of people who are at risk for this serious rhythm disorder. The ICD can help prevent sudden cardiac death by quickly sending an electrical shock when ventricular fibrillation occurs.",
+        "Original_Spanish_sentence": "Un desfibrilador cardioversor implantable (DCI) es un dispositivo que se puede implantar en la pared torácica de personas que estén en riesgo de este serio trastorno del ritmo cardíaco.El DCI puede ayudar a prevenir la muerte cardíaca súbita al enviar rápidamente un choque eléctrico cuando se presenta fibrilación ventricular.",
+        "spanish_translation_prompt": "Un desfibrilador cardioverter implantable (DCI) es un dispositivo que se puede implantar en el pared del pecho de personas que tienen riesgo de sufrir este trastorno del ritmo cardíaco serio. El DCI puede ayudar a prevenir la muerte",
+        "spanish_translation_direct": "Un implante cardiovertedor de défibrilador (ICD, por sus siglas en inglés) es un dispositivo que se puede implantar en el pecho de las personas que están en riesgo de sufrir este trastorno rítmico serio. El ICD puede ayudar",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 42.84712646266731,
+            "chrF++": 0.4476275738585497
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 20.534086340899165,
+            "chrF++": 0.4476275738585497
+        }
+    },
+    {
+        "Original_English_sentence": "Greater respect for the complexities of female sexual functioning has led them to conclude that suboptimal female genitalia may not be inherently better than suboptimal male genitalia, even if the reconstruction is \"easier.\"In addition, other factors may be more important in gender satisfaction than functioning external genitals.",
+        "Original_Spanish_sentence": "Un mayor respeto por las complejidades del funcionamiento sexual femenino los ha llevado a concluir que los genitales femeninos insuficientes pueden no ser intrínsecamente mejores que los genitales masculinos insuficientes, incluso si la reconstrucción es “más fácil”.  Además, otros factores pueden ser más importantes en la satisfacción del sexo que los genitales externos funcionales.",
+        "spanish_translation_prompt": "El mayor respeto por la complejidad de la función sexual femenina los ha llevado a concluir que los genitales femeninos subóptimos pueden no ser mejor que los genitales masculinos subóptimos, incluso si la reconstrucción es \"más sen",
+        "spanish_translation_direct": "La mayor respeto por la complejidad de la función sexual femenina les ha llevado a concluir que una genitalidad femenina subóptima no es necesariamente mejor que una genitalidad masculina subóptima, incluso si la reconstrucción es \"más sen",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 27.903093310506765,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 15.672349183054717,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Regular use -- the user misses more and more school or work; worries about losing drug source; uses drugs to \"fix\" negative feelings; begins to stay away from friends and family; may change friends to those who are regular users; shows increased tolerance and ability to \"handle\" the drug.",
+        "Original_Spanish_sentence": "Consumo regular: el consumidor falta cada vez más al colegio o al trabajo; le preocupa perder la fuente de droga; utiliza las drogas para \"remediar\" sentimientos negativos; empieza a apartarse de los amigos y la familia; puede cambiar los amigos por aquéllos que son consumidores regulares; muestra aumento de la tolerancia y capacidad para \"manejar\" la droga.",
+        "spanish_translation_prompt": "Uso regular -- el usuario asiste menos y menos a la escuela o al trabajo; se preocupa por perder su fuente de drogas; usa las drogas para \"arreglar\" sentimientos negativos; comienza a alejarse de amigos y familia; puede cambiar sus amigos por aque",
+        "spanish_translation_direct": "Uso regular -- el usuario se ausenta cada vez más de escuela o trabajo; se preocupa por perder su fuente de drogas; utiliza las drogas para \"corregir\" sentimientos negativos; comienza a alejarse de amigos y familiares; puede cambiar sus amigos por aque",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 15.782564755414453,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 16.04433016732334,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Increased intracranial pressure can be due to a rise in cerebrospinal fluid pressure.It can also be due to increased pressure within the brain matter caused by a mass (such as a tumor), bleeding into the brain or fluid around the brain, or swelling within the brain matter itself.",
+        "Original_Spanish_sentence": "El aumento en la presión intracraneal puede deberse a un aumento en la presión del líquido cefalorraquídeo o también a un aumento en la presión dentro de la materia cerebral, causado por una masa (como un tumor), sangrado dentro del cerebro o líquido alrededor de éste, o inflamación dentro de la materia cerebral en sí.",
+        "spanish_translation_prompt": "La presión intracraneial aumentada puede deberse a una elevación en la presión del líquido cefalorraquídeo. También puede deberse a una mayor presión dentro del tejido cerebral causada por una masa (como un tumor), sangrado en el cerebro o líq",
+        "spanish_translation_direct": "La presión intracraneiana aumentada puede ser debida a un aumento de la presión del líquido cefalorraquídeo. También puede ser debido a una mayor presión dentro del tejido cerebral causada por una masa (como un tumor), sangrado en el cerebro o alre",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 25.946910224473203,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 25.384177910059954,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Some substances that are found to be harmful to people or animals may still be allowed, but only at the level of 1/100th of the amount that is considered harmful.People with any allergies or food intolerances should always check the ingredient list (label) for their own protection.",
+        "Original_Spanish_sentence": "Es posible que algunas sustancias que se consideran dañinas para las personas y los animales sean admitidas sólo a nivel de una centésima parte de la cantidad que se considera peligrosa. Para su propia protección, las personas con alergia o intolerancia a algún tipo de alimento deben revisar siempre la lista de ingredientes (etiqueta).",
+        "spanish_translation_prompt": "Algunas sustancias que se han encontrado perjudiciales para personas o animales aún pueden ser permitidas, pero solo en la cantidad de 1/100ª de la considerada perjudicial. Las personas con cualquier alergia o intolerancia a los alimentos deben siempre verificar la lista d",
+        "spanish_translation_direct": "Algunas sustancias que se han determinado como perjudiciales para las personas o los animales aún pueden ser permitidas, pero solo en la cantidad de 1/100 de la dosis considerada perjudicial. Las personas con alergias u intolerancia a alimentos deben verificar siempr",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 8.458914467504318,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 6.246775210210334,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Not having milk in your diet can lead to a shortage of calcium, vitamin D, riboflavin, and protein.You may need to find new ways to get calcium into your diet (depending on your age and gender, you need 1,000 - 1,500 mg of calcium each day):",
+        "Original_Spanish_sentence": "No obtener leche en la alimentación puede llevar a una carencia de calcio, vitamina D, riboflavina y proteína. Es posible que usted necesite encontrar nuevas maneras de obtener calcio en su dieta (dependiendo de su edad y sexo, se necesitan de 1,000 a 1,500 mg de calcio cada día):",
+        "spanish_translation_prompt": "No tener leche en tu dieta puede llevar a una escasez de calcio, vitamina D, riboflavina y proteínas. Puedes necesitar encontrar nuevas formas de incorporar calcio a tu dieta (dependiendo de tu edad y género, necesitas entre 1,0",
+        "spanish_translation_direct": "No tener leche en tu dieta puede llevar a una escasez de calcio, vitamina D, riboflavina y proteínas. Puedes necesitar encontrar nuevas formas de incorporar calcio a tu dieta (dependiendo de tu edad y género, necesitas 1,00",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 23.70856581202767,
+            "chrF++": 0.5359056806002144
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 23.552648452401602,
+            "chrF++": 0.5359056806002144
+        }
+    },
+    {
+        "Original_English_sentence": "Because it is difficult to determine the amount of radiation exposure from nuclear accidents, the best signs of the severity of the exposure are: the length of time between the exposure and the onset of symptoms, the severity of symptoms, and severity of changes in white blood cells.",
+        "Original_Spanish_sentence": "Debido a que es difícil determinar la cantidad de exposición a radiación a causa de accidentes nucleares, las mejores señales de la gravedad de la exposición son: el tiempo transcurrido entre la exposición y la aparición de los síntomas, la gravedad de dichos síntomas y de los cambios en los glóbulos blancos.",
+        "spanish_translation_prompt": "Debido a que es difícil determinar la cantidad de exposición a la radiación proveniente de accidentes nucleares, los mejores signos de la gravedad de la exposición son: el tiempo que pasa entre la exposición y el inicio de los síntomas, la severidad de los sín",
+        "spanish_translation_direct": "Porque es difícil determinar la cantidad de exposición a radiación durante accidentes nucleares, los mejores signos del grado de exposición son: el tiempo que transcurre entre la exposición y el inicio de los síntomas, la severidad de estos síntomas, y la severidad de lo",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 49.52525819134091,
+            "chrF++": 0.4821600771456124
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 34.93743959864308,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Note: It is often technically easier to treat (and therefore raise) the child as female (it is easier for a surgeon to make female genitalia than it is to make male genitalia), so in some cases this is recommended even if the child is genetically male.",
+        "Original_Spanish_sentence": "Nota: con frecuencia es técnicamente más fácil tratar (y por lo tanto criar) al niño como mujer (para un cirujano es más fácil hacer genitales femeninos que masculinos), de tal manera que en algunos casos se recomienda esto incluso si el niño es genéticamente masculino.",
+        "spanish_translation_prompt": "Nota: A menudo es técnicamente más sencillo tratar (y por lo tanto criar) al niño como mujer (es más fácil para un cirujano crear genitales femeninos que crear genitales masculinos), por lo que en algunos casos se recomienda hacerlo incluso s",
+        "spanish_translation_direct": "Nota: A menudo es técnicamente más sencillo tratar (y por lo tanto criar) al niño como femenino (es más fácil para un cirujano crear genitalia femenina que crear genitalia masculina), por lo que en algunos casos se recomienda incluso si el niñ",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 45.02995523741093,
+            "chrF++": 0.5524861878453038
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 39.805570059365394,
+            "chrF++": 0.5524861878453038
+        }
+    },
+    {
+        "Original_English_sentence": "Deficiency happens more often in women than in men, and is more common in pregnant women and older children. Getting enough iodine in the diet may prevent a form of physical and mental retardation called cretinism.Cretinism is very rare in the U.S. because iodine deficiency is generally not a problem.",
+        "Original_Spanish_sentence": "Esta deficiencia afecta con más frecuencia a las mujeres que a los hombres y es más común en mujeres embarazadas y niños mayores. La ingesta de yodo suficiente en la dieta puede prevenir una forma de retardo mental y físico llamada cretinismo, una afección muy rara en los Estados Unidos, dado que la deficiencia de yodo, en general, no representa un problema.",
+        "spanish_translation_prompt": "La deficiencia sucede con mayor frecuencia en mujeres que en hombres, y es más común en mujeres embarazadas y niños mayores. Obtener suficiente yodo en la dieta puede prevenir una forma de retraso físico y mental llamada cretinismo. El cretinismo es muy rar",
+        "spanish_translation_direct": "La deficiencia de iodina ocurre con mayor frecuencia en mujeres que en hombres, y es más común en mujeres embarazadas y niños mayores. Obtener suficiente iodina en la dieta puede prevenir una forma de retraso físico y mental llamado cretinismo. El creti",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 26.990692431645126,
+            "chrF++": 0.4177109440267335
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 26.360534319264133,
+            "chrF++": 0.4177109440267335
+        }
+    },
+    {
+        "Original_English_sentence": "People who have a sudden herniated disk caused by injury (such as a car accident or lifting a very heavy object) will get nonsteroidal anti-inflammatory medications (NSAIDs) and narcotic painkillers if they have severe pain in the back and leg.If you have back spasms, you will usually receive muscle relaxants.",
+        "Original_Spanish_sentence": "A las personas con una hernia de disco repentina, causada por lesión (como un accidente automovilístico o por levantar un objeto muy pesado), se les administrarán analgésicos narcóticos y antinflamatorios no esteroides (AINES) si tienen dolor intenso en la espalda y la pierna.",
+        "spanish_translation_prompt": "Las personas que sufren una hernia disquea repentina causada por lesiones (como un accidente de coche o levantar un objeto muy pesado) recibirán medicamentos no esteroidales antiinflamatorios (NAEI) y analgésicos narcóticos si tiene",
+        "spanish_translation_direct": "Las personas que sufren una hernia discaática repentina causada por una lesión (como un accidente de coche o al levantar un objeto muy pesado) recibirán medicamentos no esteroide antinflamatorios (NAEI) y analgésicos narcóticos s",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 17.876530500832775,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 20.432479284345142,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Threre is a wide range for what is considered \"normal.\" Just because your child is in the 15th percentile for weight (meaning 85 out of 100 children weigh more), this number rarely means your child is sick, you're not feeding your child enough, or your breast milk is not enough for your baby.",
+        "Original_Spanish_sentence": "Hay una amplia gama para lo que se considera \"normal\".Simplemente porque su hijo esté en el percentil 15 para peso (lo que significa que 85 de 100 niños pesan más), este número rara vez significa que su hijo esté enfermo, que usted no lo está alimentando lo suficiente o que su leche materna no sea suficiente para su bebé.",
+        "spanish_translation_prompt": "Existe una amplia gama de lo que se considera \"normal\". Solo porque su hijo esté en el decil 15 de peso (lo que significa que 85 de cada 100 niños pesan más), este número rara vez significa que su hijo está enfermo, n",
+        "spanish_translation_direct": "Existe una amplia gama de lo que se considera \"normal.\" Solo porque tu hijo esté en el decil 15 por peso (lo que significa que 85 de cada 100 niños pesan más), este número rara vez indica que tu hijo está enfermo, n",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 46.03245385561915,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 35.31575130312951,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Congenital heart surgery; Patent ductus arteriosus ligation; Hypoplastic left heart repair; Tetralogy of Fallot repair; Coarctation of the aorta repair; Atrial septal defect repair; Ventricular septal defect repair; Truncus arteriosus repair; Total anomalous pulmonary artery correction; Transposition of great vessels repair; Tricuspid atresia repair; VSD repair; ASD repair; PDA ligation",
+        "Original_Spanish_sentence": "Cirugía cardíaca congénita; Ligadura del conducto arterial persistente; Reparación de la hipoplasia del corazón izquierdo; Reparación de la tetralogía de Fallot; Reparación de la coartación de la aorta; Reparación de la comunicación interauricular; Reparación de la comunicación interventricular; Reparación del tronco arterial; Corrección de la arteria pulmonar anómala total; Reparación de la transposición de los grandes vasos; Reparación de la atresia tricuspídea; Reparación de CIV; Reparación de CIA; Ligadura del CAP",
+        "spanish_translation_prompt": "Cirugía cardíaca congénita; Ligateción del ducto arterioso patentado; Reparo de corazón izquierdo hipooplásico; Reparo de tétralogía de Fallot; Reparo de coartación de la aorta; Reparo de defecto septal at",
+        "spanish_translation_direct": "Cirugía cardíaca congénita; ligadura de ducto arterioso persistente; reparación del corazón izquierdo hipoelástico; reparación de la tetralogía de Fallot; reparación de la coartación de la aorta; reparación de la defic",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 5.547259236407014,
+            "chrF++": 0.27578599007170435
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 10.72294990229865,
+            "chrF++": 0.27578599007170435
+        }
+    },
+    {
+        "Original_English_sentence": "This test is done during a hospital stay.  It tells the difference between someone who is making urine because of drinking a lot of liquid and someone who is not.  If you have central diabetes insipidus, you will still make a lot of urine even when fluids are not given. ",
+        "Original_Spanish_sentence": "Esta prueba se efectúa durante una estadía en el hospital.Ésta establece la diferencia entre alguien que está produciendo orina por beber mucho líquido y alguien que no lo está haciendo.",
+        "spanish_translation_prompt": "Este test se realiza durante una estancia en el hospital. Indica la diferencia entre alguien que está produciendo orina debido a la ingesta de grandes cantidades de líquidos y alguien que no lo está. Si tienes diabetes insipida central, aún producirás mucha orina incluso cuando n",
+        "spanish_translation_direct": "Este test se realiza durante una estancia en el hospital. Indica la diferencia entre alguien que produce orina debido a beber mucha líquido y alguien que no lo hace. Si tienes diabetes insipidus central, aún producirás mucha orina incluso cuando no se te den fluidos",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 29.404808337432986,
+            "chrF++": 0.7949125596184419
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 23.703459826005297,
+            "chrF++": 0.7949125596184419
+        }
+    },
+    {
+        "Original_English_sentence": "Also, many refined foods, such as white flour, sugar, and white rice, lack B vitamins and other important nutrients unless they are marked \"enriched.\" It is healthiest to get carbohydrates, vitamins, and other nutrients in as natural a form as possible -- for example, from fruit instead of table sugar.",
+        "Original_Spanish_sentence": "Igualmente, muchos alimentos refinados, como la harina blanca, el azúcar y el arroz blanco, carecen de vitaminas del complejo B y otros importantes nutrientes, a menos que aparezcan etiquetados como \"enriquecidos\".Lo más sano es obtener carbohidratos, vitaminas y otros nutrientes en la forma más natural posible, por ejemplo, de frutas en lugar del azúcar de mesa.",
+        "spanish_translation_prompt": "Además, muchos alimentos refinados, como el harina blanca, el azúcar y el arroz blanco, carecen de vitaminas B y otros nutrientes importantes a menos que estén marcados como \"enriquecidos.\" Es más saludable obtener carbohidratos, vitaminas y otro",
+        "spanish_translation_direct": "Además, muchos alimentos refinados, como la harina blanca, el azúcar y el arroz blanco, carecen de vitaminas B y otros nutrientes importantes a menos que estén marcados como \"riqueza en vitaminas\". Es más saludable obtener carbohidratos, vitaminas",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 32.83934106362622,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 35.06113945553784,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "The pituitary gland near the brain makes too much of the hormone ACTH (called Cushing's disease), which may happen with too much growth of the pituitary gland, a tumor of the pituitary gland, or a tumor elsewhere in the body (such as the pancreas, lung, and thyroid) that produces ACTH",
+        "Original_Spanish_sentence": "La hipófisis cerca del cerebro produce demasiada hormona corticotropina (llamado enfermedad de Cushing), que puede suceder con el crecimiento excesivo de dicha glándula o a un tumor en ella o en alguna otra parte en el cuerpo (como el páncreas, el pulmón y la tiroides) que produce dicha hormona.  ",
+        "spanish_translation_prompt": "La glándula pituitaria, cerca del cerebro, produce demasiada hormona ACTH (llamada enfermedad de Cushing), lo cual puede ocurrir con un crecimiento excesivo de la glándula pituitaria, un tumor de la glándula pituitaria,",
+        "spanish_translation_direct": "La glándula pituitaria, cercana al cerebro, produce demasiado de la hormona ACTH (llamada enfermedad de Cushing), lo cual puede ocurrir con un crecimiento excesivo de la glándula pituitaria, un tumor de la glándula pitui",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 12.806471389645095,
+            "chrF++": 0.5035246727089627
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 10.076488953959547,
+            "chrF++": 0.5035246727089627
+        }
+    },
+    {
+        "Original_English_sentence": "In the past, the prevailing opinion was that it was generally best to assign a gender as quickly as possible, often based on the external genitals rather than the chromosomal gender, and to instruct the parents to have no ambiguity in their minds as to the gender of the child.",
+        "Original_Spanish_sentence": "En el pasado, la opinión que prevalecía era que generalmente era mejor asignar un sexo lo más rápido posible, a menudo sobre la base de los genitales externos, en vez del sexo de los cromosomas, e instruir a los padres para no tener ambigüedad en sus mentes en cuanto al sexo del niño.",
+        "spanish_translation_prompt": "En el pasado, la opinión predominante era que era generalmente mejor asignar un género lo antes posible, a menudo basándose en los genitales externos en lugar del género cromosómico, y dirigir a los padres para que no hubiera ambigüedad en sus mente",
+        "spanish_translation_direct": "En el pasado, la opinión predominante era que generalmente era mejor asignar un género lo antes posible, a menudo basándose en los genitales externos en lugar del género cromosómico, y instruir a los padres para que no haya ambigüedad en sus mentes a",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 23.3329657484435,
+            "chrF++": 0.5359056806002144
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 34.35191114785712,
+            "chrF++": 0.5359056806002144
+        }
+    },
+    {
+        "Original_English_sentence": "Daily preoccupation -- the user loses any motivation; does not care about school and work; has obvious behavior changes; thinking about drug use is more important than all other interests, including relationships; the user becomes secretive; may begin dealing drugs to help support habit; use of other, harder drugs may increase; legal problems may increase.",
+        "Original_Spanish_sentence": "Preocupación diaria: el consumidor pierde cualquier motivación; no le importa el colegio ni el trabajo; tiene cambios de comportamiento obvios; pensar acerca del consumo de drogas es más importante que todo los otros intereses, incluyendo las relaciones interpersonales; el consumidor se torna reservado; puede comenzar a vender drogas para ayudarse a sostener el hábito; el consumo de otras drogas más fuertes puede aumentar; se pueden incrementar los problemas legales.",
+        "spanish_translation_prompt": "La preocupación diaria -- el usuario pierde toda motivación; no se preocupa por la escuela y el trabajo; presenta cambios de comportamiento evidentes; pensar en el consumo de drogas es más importante que todos los otros intereses, incluidas las relaciones; el usuario se vuelve reser",
+        "spanish_translation_direct": "La preocupación diaria -- el usuario pierde cualquier motivación; no se preocupa por la escuela y el trabajo; presenta cambios de comportamiento evidentes; el pensar en el uso de drogas es más importante que todos los demás intereses, incluso las relaciones; el usuario se vuelve reservad",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 15.615269095824905,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 14.597291904387399,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "You have sudden, sharp chest pain with shortness of breath, especially after a long trip, a stretch of bedrest (for example, following an operation), or other lack of movement, especially if one leg is swollen or more swollen than the other (this could be a blood clot, part of which has moved to the lungs).",
+        "Original_Spanish_sentence": "Tiene un dolor de pecho repentino y agudo con dificultad respiratoria, especialmente después de un viaje largo, un período de reposo en cama (por ejemplo, después de una operación) u otra falta de movimiento, especialmente si una pierna está hinchada o más hinchada que la otra (esto podría ser un coágulo sanguíneo, parte del cual se ha desplazado a los pulmones). ",
+        "spanish_translation_prompt": "Tienes dolor repentino e intenso en el pecho con dificultad para respirar, especialmente después de un viaje largo, una serie de períodos de reposo de cama (por ejemplo, después de una operación), o otras carencias de movimiento, especialmente si una pierna está hinch",
+        "spanish_translation_direct": "Tienes dolor torácico repentino e intenso con falta de aliento, especialmente después de un viaje largo, una estancia prolongada en cama (por ejemplo, después de una operación), o otras situaciones de inmovilidad, especialmente si una pierna está hinchada o má",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 32.09040403514794,
+            "chrF++": 0.4095004095004095
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 31.41087730514979,
+            "chrF++": 0.4095004095004095
+        }
+    },
+    {
+        "Original_English_sentence": "The mother may fake symptoms of illness in her child by adding blood to the child's urine or stool, withholding food, falsifying fevers, secretly giving the child drugs to make the child throw up or have diarrhea, or using other tricks, such as infecting intravenous (given through a vein) lines to make the child appear or become ill.",
+        "Original_Spanish_sentence": "La madre puede simular síntomas de enfermedad en su hijo añadiendo sangre a su orina o heces, dejando de alimentarlo, falsificando fiebres, administrándole secretamente fármacos que le produzcan vómito o diarrea o empleando otros trucos como infectar las vías intravenosas (a través de una vena) para que el niño aparente o en realidad resulte enfermo.",
+        "spanish_translation_prompt": "La madre podría fingir los síntomas de una enfermedad en su hijo añadiendo sangre a la orina o heces del niño, reteniendo alimentos, falsificando fiebres, dando secretamente al niño medicamentos para que éste vomite o tenga diarrea, o usand",
+        "spanish_translation_direct": "La madre puede simular los síntomas de una enfermedad en su hijo añadiendo sangre a la orina o al estools, restringiendo la alimentación, falsificando fiebres, dando secretamente al niño medicamentos para que vomite o tenga diarrea, o usando otra",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 17.893309131476727,
+            "chrF++": 0.4191114836546521
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 19.78016248697362,
+            "chrF++": 0.4191114836546521
+        }
+    },
+    {
+        "Original_English_sentence": "Because there is little or no flow out of the left heart, blood returning to the heart from the lungs needs to pass through the foramen ovale or an atrial septal defect (a hole connecting the collecting chambers on the left and right sides of the heart) back to the right side of the heart.",
+        "Original_Spanish_sentence": "Debido a que hay poca o ninguna circulación del lado izquierdo del corazón, la sangre que retorna a éste desde los pulmones necesita pasar a través del agujero oval o de una comunicación interauricular (un agujero que conecta las cámaras colectoras en los lados izquierdo y derecho del corazón) de nuevo hacia el lado derecho del corazón.",
+        "spanish_translation_prompt": "Debido a que hay poco o ningún flujo hacia el corazón izquierdo, el sangre que regresa al corazón desde los pulmones necesita pasar a través del el foramen oval o un defecto del tabique auricular (un agujero que conecta las cámaras recolectoras e",
+        "spanish_translation_direct": "Debido a que hay poco o ningún flujo hacia el lado izquierdo del corazón, el sangre que retorna al corazón desde los pulmones debe pasar a través del forámen ovárico o una deficiencia en el septo atrioventricular (un agujero que conecta la",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 26.80730230696476,
+            "chrF++": 0.44286979627989365
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 23.907517320842913,
+            "chrF++": 0.44286979627989365
+        }
+    },
+    {
+        "Original_English_sentence": "You can take the tooth to the dentist by following one of these tips:Try to place the tooth back in the mouth where it fell out, so it is level with other teeth. Bite down gently on gauze or a wet tea bag to help keep it in place. Be careful not to swallow the tooth.",
+        "Original_Spanish_sentence": "Trate de colocar de nuevo el diente en la boca de donde se desprendió, de manera que quede a nivel con los otros dientes. Muerda suavemente una gasa o una bolsita de té húmeda para ayudarlo a mantenerse en su sitio. Tenga cuidado de no tragarse el diente.",
+        "spanish_translation_prompt": "Puedes llevar el diente al dentista siguiendo uno de estos consejos: Intenta colocar el diente nuevamente en la boca donde salió, asegurándote de que esté alineado con los demás dientes. Muerde suavemente un vendaje o un",
+        "spanish_translation_direct": "Puedes llevar el diente al dentista siguiendo uno de estos consejos: Intenta colocar el diente nuevamente en la boca donde salió, para que esté al mismo nivel que los demás dientes. Muerde suavemente un paño de gasa o una bol",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 5.252496594475946,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 6.887965079208863,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Another myth of adolescence is the idea that \"it will never happen to me, only the other person.\" \"It\" may represent becoming pregnant or catching a sexually-transmitted disease after having unprotected sex, causing a car crash while driving under the influence of alcohol or drugs, or any of the many other negative effects of risk-taking behaviors.",
+        "Original_Spanish_sentence": "Otro mito de la adolescencia es la idea de que \"eso nunca me sucederá, sólo a los demás\".\"Eso\" puede representar resultar embarazada o contraer una enfermedad de transmisión sexual luego de tener sexo sin protección; causar un accidente automovilístico mientras se conduce bajo la influencia del alcohol o las drogas, o cualquiera de los otros numerosos efectos negativos de los comportamientos peligrosos.",
+        "spanish_translation_prompt": "Otra mito de la adolescencia es la idea de que \"no me pasará a mí, solo a la otra persona.\" \"Eso\" puede representar quedarse embarazada o contraer una enfermedad sexual después de tener relaciones sexuales sin protección, conducir bajo la influencia del alcohol",
+        "spanish_translation_direct": "Otra mitología de la adolescencia es la idea de que \"nunca me pasará a mí, solo al otro\". \"Eso\" puede representar quedarse embarazada o contraer una enfermedad sexual después de tener relaciones sin protección, causar un accidente de automóvil mientra",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 27.7658285154021,
+            "chrF++": 0.36205648081100655
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 25.608630517519806,
+            "chrF++": 0.36205648081100655
+        }
+    },
+    {
+        "Original_English_sentence": "It is important to have the teeth cleaned thoroughly.This may involve use of various tools to loosen and remove plaque and tartar from the teeth. Proper flossing and brushing is always needed, even after professional tooth cleaning, to reduce your risk of gum disease. Your dentist or hygienist will show you how to brush and floss properly.",
+        "Original_Spanish_sentence": "Es importante hacerse una limpieza dental completa que puede involucrar el uso de diversos instrumentos o aparatos para aflojar y remover la placa y el sarro de los dientes. Siempre se necesita el cepillado y uso de seda dental apropiados, incluso después de realizarse una limpieza dental profesional, para reducir el riesgo de enfermedad periodontal.",
+        "spanish_translation_prompt": "Es importante limpiar los dientes de manera exhaustiva. Esto puede implicar el uso de diversas herramientas para suelte y retire la placa y el tártaro de los dientes. El cepillado y el hilo dental adecuados siempre son necesarios, incluso después de una limpi",
+        "spanish_translation_direct": "Es importante limpiar los dientes de manera exhaustiva. Esto puede implicar el uso de diversos utensilios para despegar y eliminar la placa y el sarro de los dientes. Siempre es necesario cepillarse y hilo dentalizar correctamente, incluso después de una limpieza profesional denta",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 15.700856212031592,
+            "chrF++": 0.4191114836546521
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 25.740050952170773,
+            "chrF++": 0.4191114836546521
+        }
+    },
+    {
+        "Original_English_sentence": "How well you do depends on the amount of poison swallowed and how quickly treatment is received.",
+        "Original_Spanish_sentence": "Su pronóstico depende de la cantidad de tóxico ingerido y de la prontitud con que se haya recibido el tratamiento.",
+        "spanish_translation_prompt": "Lo bien que lo haces depende de la cantidad de veneno tragado y cuánto rápidamente se recibe el tratamiento. ",
+        "spanish_translation_direct": "(Note: The translation provided above is not accurate as \"poison\" is often translated as \"veneno\" in Spanish, but the phrase \"to do wel",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 24.692638635104643,
+            "chrF++": 0.0
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Rarely, children will have problems falling asleep or staying asleep.",
+        "Original_Spanish_sentence": "Rara vez, los niños tendrán problemas para conciliar el sueño o permanecer dormidos. ",
+        "spanish_translation_prompt": "Raramente, los niños tendrán problemas para quedarse dormidos o quedarse durmiendo durante la noche. ",
+        "spanish_translation_direct": "Note: The original translation had a minor error (\"mantenerse despiertos\" should be \"quedarse despiertos\"). Here is the corrected version. \nCorrected Response:\nRarament",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 33.34477432809603,
+            "chrF++": 1.7301038062283736
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 1.1599713834969503,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "Original_English_sentence": "Reye syndrome can occur when aspirin is used to treat children with viral infections, such as chickenpox or the flu.",
+        "Original_Spanish_sentence": "El síndrome de Reye puede presentarse cuando se usa el ácido acetilsalicílico para tratar niños con infecciones virales, como la varicela o la gripe.",
+        "spanish_translation_prompt": "El síndrome de Reye puede ocurrir cuando el ácido acíloico se utiliza para tratar a los niños con infecciones virales, como la varicela o la gripe. ",
+        "spanish_translation_direct": "El síndrome de Reye puede ocurrir cuando se utiliza aspirina para tratar a niños con infecciones virales, como la varicela o el resfriado común.<|endoftext|",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 58.07903752163901,
+            "chrF++": 0.9900990099009901
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 42.95876054847125,
+            "chrF++": 0.9900990099009901
+        }
+    },
+    {
+        "Original_English_sentence": "Bili lights is a type of light therapy (phototherapy) that is used to treat newborn jaundice . Jaundice is a yellow coloring of the skin and eyes caused by too much of a substance called bilirubin.",
+        "Original_Spanish_sentence": "Las bililuces o luces azules especiales se refieren a un tipo de terapia con luz (fototerapia) que se utiliza para tratar la ictericia del recién nacido, una coloración amarillenta de la piel y de los ojos causada por la presencia de demasiada cantidad de una sustancia llamada bilirrubina.",
+        "spanish_translation_prompt": "Las luces bilirrubinemia es un tipo de terapia con luz (fototerapia) que se utiliza para tratar la ictericia en recién nacidos. La ictericia es un color amarillo en la piel y los ojos causado por una cantidad excesiv",
+        "spanish_translation_direct": "Las luces de bilíaco es un tipo de terapia de luz (fototerapia) que se utiliza para tratar la ictericia neonatal. La ictericia es un color amarillo en la piel y los ojos causado por una cantidad excesiva de una sustancia lla",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 34.290612478932985,
+            "chrF++": 0.5138746145940392
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 31.36922666412751,
+            "chrF++": 0.5138746145940392
+        }
+    },
+    {
+        "Original_English_sentence": "Surgery combined with radiation therapy is often used to treat women with stage 1 disease that has a high chance of returning, has spread to the lymph nodes, or is a grade 2 or 3.",
+        "Original_Spanish_sentence": "La cirugía combinada con radioterapia a menudo se utiliza para tratar a mujeres con la enfermedad en estadio 1 que tiene una alta posibilidad de retornar, que se ha diseminado a los ganglios linfáticos o es grado 2 o 3.",
+        "spanish_translation_prompt": "La cirugía combinada con la terapia con radiación a menudo se utiliza para tratar a las mujeres con enfermedad de estadio 1 que tiene un alto riesgo de regresar, se ha extendido a los ganglios linfáticos, o es de grado 2 o",
+        "spanish_translation_direct": "La cirugía combinada con la terapia radiológica a menudo se utiliza para tratar a las mujeres con enfermedad de estadio 1 que tiene un alto riesgo de regresar, se ha extendido a los ganglios linfáticos, o es de grado 2 o",
+        "scores_cod_prompt(bleu and chrf)": {
+            "bleu_score": 36.280525589732555,
+            "chrF++": 0.6934812760055479
+        },
+        "scores_direct(bleu and chrf)": {
+            "bleu_score": 37.15538290362363,
+            "chrF++": 0.6934812760055479
+        }
+    }
+]

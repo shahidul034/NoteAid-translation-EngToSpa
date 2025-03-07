@@ -1,0 +1,18 @@
+[
+    {
+        "text": "Llama-3.2-1B-Instruct without finetune(Medline) --> Average BLEU Score: 8.5098",
+        "timestamp": "2025-02-25T00:35:11.868635"
+    },
+    {
+        "text": "Llama-3.2-1B-Instruct without finetune (EHR data) --> Average BLEU Score: 3.0737",
+        "timestamp": "2025-02-25T00:38:24.333406"
+    },
+    {
+        "text": "Llama-3.2-1B-Instruct with finetune(Medline) --> Average BLEU Score: 10.9280",
+        "timestamp": "2025-02-25T00:45:39.423477"
+    },
+    {
+        "text": "Llama-3.2-1B-Instruct with finetune (EHR data) --> Average BLEU Score: 4.3087",
+        "timestamp": "2025-02-25T00:49:50.568773"
+    }
+]
