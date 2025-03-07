@@ -1,0 +1,875 @@
+[
+    {
+        "original_english": "[Report de-identified (Safe-harbor compliant) by De-ID v.6.22.08.0] **INSTITUTION GENERAL MEDICINE ATTENDING PHYSICIAN PROGRESS NOTE PATIENT NAME: **NAME[AAA, BBB M] ACCOUNT #: **ID-NUM **ROOM ATTENDING PHYSICIAN: **NAME[BBB M ZZZ] ADMISSION DATE: **DATE[Apr 11 2007] EVALUATION DATE: **DATE[Apr 18 07] The patient is awake and alert.",
+        "original_spanish": "[Informe de-identificado (cumple con Puerto Seguro) por De-ID v.6.22.08.0] **INSTITUCION MEDICINA GENERAL MEDICO PRIMARIO NOTA DE PROGRESO NOMBRE DEL PACIENTE: **NOMBRE[AAA, BBB M] # CUENTA: **NUM-ID- **CUARTO MEDICO PRIMARIO: **NOMBRE[BBB M ZZZ] FECHA DE ADMISION: **FECHA[11 abr 2007] FECHA DE EVALUACION: **FECHA[18 abr 07] El pacient está despierto y alerta.",
+        "translated_spanish": "**INSTITUCION GENERAL MEDICINA ATTENDENTE PROGRES NOTE PATIENTO NOMBRE: **NOMBRE[AAA, BBB M] NUMERO DE ACCESO: **ID-NUM **CAMPO DE ATENCIÓN: **NOMBRE[BBB M ZZZ] FECHA DE A",
+        "bleu_score": {
+            "bleu_score": 18.5879019893851,
+            "chrF++": 2.0491803278688527
+        }
+    },
+    {
+        "original_english": "He has no complaints of any discomfort of any sort.",
+        "original_spanish": "No se queja de incomodidad de ningún tipo.",
+        "translated_spanish": "<|im_start|>Asistente de ayuda.<",
+        "bleu_score": {
+            "bleu_score": 4.02724819242185,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "He states he slept well, and his appetite is good.",
+        "original_spanish": "Declara que durmió bien, además tiene buen apetito.",
+        "translated_spanish": "<|im_start|>El médico le ha dado una buena notificación.<|",
+        "bleu_score": {
+            "bleu_score": 2.1476912089159055,
+            "chrF++": 2.325581395348837
+        }
+    },
+    {
+        "original_english": "PHYSICAL EXAMINATION: Vital signs are stable with stabilizing blood pressure.",
+        "original_spanish": "EXAMEN FISICO: Signos vitales estables con presión sanguínea estabilizándose.",
+        "translated_spanish": "<|im_start|>Vital signs are stable with stabilizing blood pressure",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 5.30035335689046
+        }
+    },
+    {
+        "original_english": "He is afebrile.",
+        "original_spanish": "No padece fiebre.",
+        "translated_spanish": "<|im_start|>",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "The lungs are clear.",
+        "original_spanish": "Los pulmones están despejados.",
+        "translated_spanish": "<|im_start|>La presión arterial es normal.<|im_end",
+        "bleu_score": {
+            "bleu_score": 2.1476912089159055,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "The heart is regular.",
+        "original_spanish": "El corazón está regular.",
+        "translated_spanish": "<|im_start|",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "The abdomen is soft and nontender.",
+        "original_spanish": "El abdomen está suave y sin dolor.",
+        "translated_spanish": "<|im_start|>La piel es",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 5.681818181818182
+        }
+    },
+    {
+        "original_english": "Extremities have no cyanosis, clubbing, or edema.",
+        "original_spanish": "Las extremidades no presentan cianosis, hipocratismo o edema.",
+        "translated_spanish": "<|im_start|>El médico debe realizar un examen físico y realizar un análisis de sangre para confirmar la presencia de estos signos.<|im_end|",
+        "bleu_score": {
+            "bleu_score": 1.0885011049519644,
+            "chrF++": 5.681818181818182
+        }
+    },
+    {
+        "original_english": "LABORATORY DATA: The white count has improved to 9300, differential was pending, hemoglobin and hematocrit were stable, platelets have improved to 79000.",
+        "original_spanish": "DATOS DE LABORATORIO: La cuenta de glóbulos blancos ha mejorado a 9300, diferencial estaba pendiente, hemoglobina y hematocrito estaban estables, plaquetas han mejorado a 79000.",
+        "translated_spanish": "<",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "IMPRESSION: Acute renal failure with neutropenia likely medication induced.",
+        "original_spanish": "IMPRESION: Fallo renal grave con neutropenia probablemente debido a medicamento.",
+        "translated_spanish": "<|im_start|>IMPRESSION: Insuficiencia renal aguda",
+        "bleu_score": {
+            "bleu_score": 4.02724819242185,
+            "chrF++": 2.3584905660377355
+        }
+    },
+    {
+        "original_english": "At this point, we can likely stop Neupogen and just continue neutropenic precautions.",
+        "original_spanish": "En este momento, probablemente podemos descontinuar Neupogen y sólo continuar precauciones neutropénicas.",
+        "translated_spanish": "En este momento, es probable que podamos detener la Neupogen y continuar con las precauciones neutropénicas",
+        "bleu_score": {
+            "bleu_score": 19.923405658137927,
+            "chrF++": 26.030368763557483
+        }
+    },
+    {
+        "original_english": "The patient continues on vancomycin for possible blood cultures, however, there is a question regarding contamination.",
+        "original_spanish": "El paciente sigue con vancomicina para posibles hemocultivos, sin embargo, hay duda en cuanto a contaminación.",
+        "translated_spanish": "La inyección de vancomicina se continúa para posibles cult",
+        "bleu_score": {
+            "bleu_score": 3.4738650706548713,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "We are redrawing blood cultures to see if continuing vancomycin is necessary at this point.",
+        "original_spanish": "Estamos reextrayendo hemocultivos para ver si es necesario continuar con vancomicina en este momento.",
+        "translated_spanish": "Estamos reescribiendo las culturas sanguí",
+        "bleu_score": {
+            "bleu_score": 1.4456752008489664,
+            "chrF++": 30.21978021978022
+        }
+    },
+    {
+        "original_english": "Otherwise, I agree with the plans as outlined by the resident team and discussed with them.",
+        "original_spanish": "De otra forma estoy de acuero con los planes delineados por el equipo residente y discutido con ellos.",
+        "translated_spanish": "Otra opción es que se le proporcione información sobre los planes y se le permita discutirlos con los residentes.<|",
+        "bleu_score": {
+            "bleu_score": 5.165604006110218,
+            "chrF++": 14.705882352941178
+        }
+    },
+    {
+        "original_english": "[Report de-identified (Safe-harbor compliant) by De-ID v.6.22.08.0] Progress **INSTITUTION, Narrative - Impression and Plan **INSTITUTION Patient: **NAME[AAA, BBB] M MRN - **ID-NUM - MPACCOMMMRN Age: **AGE[in 60s] years Sex: Female DOB: **DATE[Jul 31 1940] Author: **NAME[XXX, WWW] Results Review General results New results : ResultsNew (never reviewed) **DATE[Oct 12 2007] 6:50 AM Na 137 mEq/L K 6.0 mEq/L Critical High Cl 92 mEq/L Low BUN 28 mg/dL High Cr 0.9 mg/dL Glucose 191 mg/dL High Ca 9.3 mg/dL WBC 12.0 X10E+09/L High RBC 4.49 X10E+12/L Hgb 15.1 gm/dL Hct 47.9 % High MCV 106.6 fL High MCH 33.7 pg High MCHC 31.6 gm/dL Low RDW 17.8 % High MPV 12.7 fL High Platelets 114 X10E+09/L Low **DATE[Oct 12 2007] 4:00 AM Temperature Conversion 35.7 DegC Temperature 96.2 DegF Temperature Site Oral Pulse 54 BPM Respiratory Rate 18 Systolic BP 188 mmHg Diastolic BP 88 mmHg BP Site Right Arm Subjective Pleasant **AGE[in 60s]yo female who presented to the ED complaining of \"shaking\", and was found to be hypoxic and suffering from a COPD/CHF exacerbation.",
+        "original_spanish": "[Informe de-identificado (cumple con Puerto Seguro) por De-ID v.6.22.08.0] Progreso **INSTITUCION, Narrativa - Impresión y Plan **INSTITUCION Paciente: **NOMBRE[AAA, BBB] M MRN - **NUM-ID - MPACCOMMMRN Edad: **EDAD[en los 60s] años Sexo: Mujer Fecha de Nacimiento: **FECHA[31 jul 1940] Autor: **NOMBRE[XXX, WWW] Resultados Revisión General resultados Nuevos resultados : ResultadosNuevos (nunca revisado) **FECHA[12 oct 2007] 6:50 AM Na 137 mEq/L K 6.0 mEq/L Crítico Alto Cl 92 mEq/L Bajo BUN 28 mg/dL Alto Cr 0.9 mg/dL Glucosa 191 mg/dL Alto Ca 9.3 mg/dL WBC 12.0 X10E+09/L Alto RBC 4.49 X10E+12/L Hgb 15.1 gm/dL Hct 47.9 % Alto MCV 106.6 fL Alto MCH 33.7 pg Alto MCHC 31.6 gm/dL Alto RDW 17.8 % Alto MPV 12.7 fL Plaquetas Altas 114 X10E+09/L Bajo **FECHA[12 oct 2007] 4:00 AM Conversión de Temperatura 35.7 GradC Temperatura 96.2 GradF Sitio de Temperatura Oral Pulso 54 PPM Frecuencia Respiratoria 18 PA Sistólica 188 mmHg PA Diastólica 88 mmHg BP Sitio Brazo Derecho Subjectivo Placentero **EDAD[en los 60s]años mujer que se presentó a emergencia quejándose de “temblores”, se descubrió que estaba hipóxica y sufría de exacerbación de enfermedad pulmonar obstructiva crónica/insuficiencia cardiaca congestiva.",
+        "translated_spanish": "[Report de-identificado (compliant con la ley de la privacidad de la De-ID v.6.22.08.0] Progreso **INSTITUCION, Narrativa - Impresión y Plan **INSTITUCION Paciente: **NOMBRE[AAA, BBB] MMR",
+        "bleu_score": {
+            "bleu_score": 0.2285153542220733,
+            "chrF++": 3.128911138923655
+        }
+    },
+    {
+        "original_english": "Today she says her tremors have improved.",
+        "original_spanish": "Hoy indica que sus temblores han mejorado.",
+        "translated_spanish": "<|im_start|>El médico le dijo que la terapia de terapia de terapia de terapia de terapia de terapia de terapia de terapia de terapia de terapia de terapia de ter",
+        "bleu_score": {
+            "bleu_score": 1.0253311603116817,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "She states that her breathing is the same, she denies any cp, n/v ha/fever chills.",
+        "original_spanish": "Declara que su respiración sigue igual, niega tener dolor de pecho, náusea/vómito, dolor de cabeza, fiebre o escalofríos.",
+        "translated_spanish": "<|im_start|>El médico le dijo que no había ningún problema, y le dijo que no había ningún problema, y",
+        "bleu_score": {
+            "bleu_score": 1.826472886268134,
+            "chrF++": 7.211538461538461
+        }
+    },
+    {
+        "original_english": "ros otherwise negative.",
+        "original_spanish": "Por otra parte revisión de sistemas negativa.",
+        "translated_spanish": "<|im_start|>Si el valor es cero, se",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 3.378378378378378
+        }
+    },
+    {
+        "original_english": "Physical Examination General Exam Vital signs: BP: . somewhat hypertensive at times.",
+        "original_spanish": "Examinación Física Prueba General Signos Vitales: PA: . a veces con tendencia hipertensa.",
+        "translated_spanish": "Examen físico General Examen Síntomas vitales: BP:. hipertensión leve en ocasiones",
+        "bleu_score": {
+            "bleu_score": 5.855164519178106,
+            "chrF++": 10.294117647058826
+        }
+    },
+    {
+        "original_english": "Eye: bilateral: external eye exophthalmos, periorbital area: normal, sclera.",
+        "original_spanish": "Ojo: exolftamia bilateral, ojo externo, área periorbital: normal, esclera.",
+        "translated_spanish": "<|im_start|>",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "Thyroid: . thyroid without palpable lesion to my exam, + scar from prior tracheostomy Heart: rhythm: regular, heart sounds: distant, S1: normal, S2: normal.",
+        "original_spanish": "Tiroides: . tiroides sin lesión palpable ante mi prueba, cicatriz + de previa traqueostomía  Corazón: ritmo: regular, sonidos de corazón: distantes, S1: normal, S2: normal.",
+        "translated_spanish": "<|im_start",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "Lungs: bilateral: reduced breath sounds, expiratory wheezes present (in the upper lobe, in the lower lobe), , at or near baseline? , no rhonchi present, . Skin: lesion, . b/l venous stasis changes on distal anterior tibias trace tibial edema Neuro: Deep Tendon Reflex/Babinski: left (biceps 2+, brachioradialis 2+, triceps 2+, quadriceps 2+, Achilles 2+, no hyperreflexia), right (biceps 2+, brachioradialis 2+, triceps 2+, quadriceps 2+, Achilles 2+, Babinski, ), pt with no focal deficits to my exam.",
+        "original_spanish": "Pulmones: bilateral: sonidos respiratorios reducidos, presencia de resoplido espiratorio (en el lóbulo superior, en el lóbulo inferior), ¿en o cerca de la línea de base? , no hay presencia de estertor roncus, . Piel: lesión, . cambios bilaterales de estasis venosa en tibias anteriores distales indicio edema tribial Neuro: Reflejo Tendinoso Profundo/Babinski: izquierda (biceps 2+, músculo braquiorradial 2+, triceps 2+, cuádriceps 2+, Aquiles 2+, no hay hiperreflexia), derecha (biceps 2+, músculo braquiorradial 2+, triceps 2+, cuádriceps 2+, Aquiles 2+, Babinski, ), paciente no presentó déficits focales ante mi prueba.",
+        "translated_spanish": "Pulmones: bilateral: sonidos respiratorios reducidos, esfuerzos respiratorios presentes (en la parte superior, en la parte inferior), en o cerca de la línea de referencia?, no ronquidos,. piel: lesión,. b/l veno s",
+        "bleu_score": {
+            "bleu_score": 6.5853336488446415,
+            "chrF++": 31.92702394526796
+        }
+    },
+    {
+        "original_english": "visible resting tremor of extremities and jaw at times though improved + intention tremor as well . + action tremor improved + cogwheeling decreased symtomatically improved Constitutional: normal Arterial Pulses: normal Abdomen: normal Lymph Nodes: normal Impression and Plan **AGE[in 60s]yo female with h/o paroxysmal A.",
+        "original_spanish": "A veces temblor en reposo de las extremidades y mandíbula es visible aunque ha mejorado + en adición temblor intencional.",
+        "translated_spanish": "Tremor visible de las extremidades y la mandíbula en ocasiones, aunque mejorado + tremor intencional en ocasiones. + tremor de acción mejorado + cogwheeling disminuido simptomáticamente mejorado: constitucional: normal: arterial: normal: abdomen:",
+        "bleu_score": {
+            "bleu_score": 8.298141861407633,
+            "chrF++": 9.127789046653145
+        }
+    },
+    {
+        "original_english": "Fib, severe COPD, CAD, mild CHF, OSA, obesity and idiopathic thrombocytopenia, presented with shaking tremors, and a COPD/CHF exacerbation.",
+        "original_spanish": "+ temblor de acción mejorado + rigidez en rueda dentada disminuida síntomas mejorados General: normal Pulsos Arteriales: normal Abdomen: normal Nódulos Linfáticos: normal Impresión y Plan **EDAD[en los 60s]años mujer con historial de FA paroxística, caso severo de enfermedad pulmonar obstructiva crónica, arteriopatía coronaria, caso leve de insuficiencia cardiaca congestiva, apnea obstructiva del sueño, obesidad y trombocitopenia idiopática, presentado junto a temblores con sacudidas, y exacerbación de enfermedad pulmonar obstructiva crónica/insuficiencia cardiaca congestiva.",
+        "translated_spanish": "<|im",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "Neuro: Pt with action tremor that is improving symptomatically and on exam.",
+        "original_spanish": "Neuro: paciente con temblor de acción mejorando sintomáticamente y en la prueba.",
+        "translated_spanish": "Neuro: El paciente tiene un trastorno de tremor que está mejorando de manera significativa y en el",
+        "bleu_score": {
+            "bleu_score": 6.986768364373987,
+            "chrF++": 17.75147928994083
+        }
+    },
+    {
+        "original_english": "followed by neurology Neurology: intention/action tremor, and cogwheeling continue Mysoline, may need titrated up.",
+        "original_spanish": "seguido por neurología Neurología: temblor de intención/acción, y rigidez de rueda dentada continúan Misolina, quizás ser aumentada.",
+        "translated_spanish": "Seguido de la neurología, el tremor intenc",
+        "bleu_score": {
+            "bleu_score": 1.114566142379795,
+            "chrF++": 18.918918918918916
+        }
+    },
+    {
+        "original_english": "EEG: with some slowing, no siezure activity ddx: action tremor/ essential tremor/ phychological component? CV: h/o Paroxysmal A Fib, CAD, CHF, HTN: currently stable, sinus rhythm mild crackles may be from pulmonary fibrosis? BP increased, off ARB due to hyperkalemia, will consider trial of other antihypertensive? Troponins negative Echo: shows no change since last echo ARB off due to hyperkalemia, no BB due to pulm status Pulm: COPD exacerbation with mild URI?, +OSA Continued IV Steroid taper change iv to po soon? duonebs changed to xopenex to decrease tremor, advair, spiriva, bipap QHS and prn.",
+        "original_spanish": "EEG: con una actividad no convulsiva disminuyendo diagnóstico diferencial: temblor de acción/ temblor esencial/ ¿elemento psicológico? CV: historial de FA paroxística, arteriopatía coronaria, insuficiencia cardiaca congestiva, Hipertensión: actualmente estable, ¿crepitaciones leves en ritmo sinusal quizás debido a fibrosis pulmonar? Aumento en presión sanguinea, BRA descontinuado a causa de hiperpotasiemia, ¿considerar tratar con otro antihipertensivo? Troponinas negativo Eco: no muestra cambios desde el último eco BRA descontinuado a causa de hiperpotasiemia, no BB debido al estado pulmonar Pulm: exacerbación de enfermedad pulmonar obstructiva crónica ¿con leve infección de vías respiratorias altas mild URI?, + apnea obstructiva del sueño Rebaja continua de esteroide intravenoso ¿cambiar intravenoso a per os pronto? duoneb cambiado a xopenex para reducir temblor, advair, spiriva, bipap cada noche y al necesitarse.",
+        "translated_spanish": "EEG: con algunos atrasos, no se observa actividad epileptiforme ddx: atrasos en la actividad cerebral esencial tremor/ tremor esencial/ componente psicológico? CV: h/o paroxismal A fib, CAD, CHF, HTN: actual",
+        "bleu_score": {
+            "bleu_score": 0.937273417260346,
+            "chrF++": 12.86353467561521
+        }
+    },
+    {
+        "original_english": "Increased WBC likely steroid effect, will monitor for signs of infection.",
+        "original_spanish": "Aumento en glóbulos blancos probablemente efecto de esteroide, se monitoreará para señales de infección.",
+        "translated_spanish": "La respuesta probablemente es un efecto esteroide, lo que se monitoreará para",
+        "bleu_score": {
+            "bleu_score": 12.486657525198936,
+            "chrF++": 9.118541033434651
+        }
+    },
+    {
+        "original_english": "GI: No acute issues, Heart health low sodium diet, low potassium diet, ADA mild bump in LFT's, stopped lipitor, changed to zetia Abd.",
+        "original_spanish": "Gatrointestinal: Nada grave, Salud corazón dieta bajo en sodio, dieta bajo en potasio, Adenosina desaminasa leve aumento en pruebas de función hepática, lipitor descontinuado, cambio a zetia Abd.",
+        "translated_spanish": "<|",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "US : pending Renal/ Lytes: Hyperkalemia, rechecking labs, stopped arb, posssily due to leukocytosis? will follow Endo: DM due to steroids, on prandin and ssi tsh low, new t3 low, free t4 normal, t4, thyroid antibodies normal, + exopthalmos on exam Endocrine consult: dec. tsh most likely due to steroids, must check off steroids, check I-123 scan NM Thyroid uptake scan Pending in two weeks Heme: h/o idiopathic thrombocytopenia with splenectomy Danazol q day will follow plts (stable) hep sub Q dvt prophylaxis HM: PT/OT/Social Work continuing evaluations and treatments.",
+        "original_spanish": "Ecografía : pendiente Renal/ Electrolitos: Hiperpotasiemia, reexaminando labs, bra descontinuado, ¿posiblemente debido a leucocitosis? se dará seguimiento Endo: diabetes mellitus debido a esteroide, tomando prandin y escala dosis variable insulina tirotropina baja, nueva t3 baja, t4 libre normal, t4, anticuerpos de tiroides normal, + exoftalmos en la pruba Consulta endocrino: tirotropina disminuyendo probablemente a causa de esteroides, necesidad cotejar esteroides, verificar gammagrafía I-123 NM Captación gammagrafía Tiroides A ocurrir en dos semanas Hemo: historial de trombocitopenia idiopática con esplenectomía Danazol cada día a dar seguimientos plaquetas (estable) heparina subcutánea para profilaxis de TVP MH: FT/TO/Trabajo Social evaluaciones y tratamientos continuos.",
+        "translated_spanish": "EE. UU.: pending: hipotensión renal, reevaluación de los laboratorios, detenido el arb, posiblemente debido a la leukocitosis? seguirá el Endo: DM debido a la esteroides, en reposo de Prandin y SSI",
+        "bleu_score": {
+            "bleu_score": 0.5805009390218242,
+            "chrF++": 7.665094339622641
+        }
+    },
+    {
+        "original_english": "[Report de-identified (Safe-harbor compliant) by De-ID v.6.22.08.0] **INSTITUTION GENERAL MEDICINE ATTENDING PHYSICIAN PROGRESS NOTE PATIENT NAME: **NAME[AAA, BBB M] ACCOUNT #: **ID-NUM **ROOM ATTENDING PHYSICIAN: **NAME[YYY M ZZZ] ADMISSION DATE: **DATE[Dec 08 2007] EVALUATION DATE: **DATE[Dec 13 07] I personally interviewed and examined the patient on **DATE[Dec 13 2007].",
+        "original_spanish": "[Infome de-identificado (cumple con puerto seguro) por De-ID v.6.22.08.0] **INSTITUCION MEDICINA GENERAL MEDICO PRIMARIO NOTA DE PROGRESO NOMBRE DEL PACIENTE: **NOMBRE[AAA, BBB M] # CUENTA: **NUM-ID **CUARTO MEDICO PRIMARIO: **NOMBRE[YYY M ZZZ] FECHA DE ADMISION: **FECHA[08 dic 2007] FECHA DE EVALUACION: **FECHA[13 dic 07] Yo entrevisté y examiné personalmente al paciente en **FECHA[13 dic 2007].",
+        "translated_spanish": "**INSTITUCION GENERAL MEDICINA ATTENDENTE PROFESOR PROGRES NOTE PATIENTO NOMBRE: **NOMBRE[AAA, BBB M] NUMERO DE ACCESO **ID-NUM **CAMPO DE ATENCIÓN: **NOMBRE[YYY M ZZZ] FECHA DE",
+        "bleu_score": {
+            "bleu_score": 13.94498889857117,
+            "chrF++": 0.662251655629139
+        }
+    },
+    {
+        "original_english": "I discussed the case with the house staff.",
+        "original_spanish": "Discutí el caso con el personal del lugar.",
+        "translated_spanish": "<|im_start|>El personal de la casa se presentó en la reunión.<|im_end|",
+        "bleu_score": {
+            "bleu_score": 1.8709718017288024,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "The patient feels a little better today.",
+        "original_spanish": "El paciente se siente un poco mejor hoy.",
+        "translated_spanish": "<|im",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "She did have a paracentesis yesterday which showed a white count of 113, red blood cells of 13800, only 1% neutrophils, 65 monocytes, and 29% mononuclear cells.",
+        "original_spanish": "Es cierto que tuvo una paracentesis ayer que mostró un recuento leucocitario de 113, glóbulos rojos en 13800, sólo 1% de neutrófilos, 65 monocitos, y 29% células mononucleares.",
+        "translated_spanish": "<",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "Her albumin was less than 1.",
+        "original_spanish": "Su albúmina era menos de 1.",
+        "translated_spanish": "Translate the input into English to Spanish",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 4.672897196261682
+        }
+    },
+    {
+        "original_english": "Her total protein was less than 2; this is indicative of a transudate.",
+        "original_spanish": "Su proteína total era menos de 2; lo que indica un trasudado.",
+        "translated_spanish": "La proteína total de su sangre fue menos de 2; esto es indicativo de un transudado.<",
+        "bleu_score": {
+            "bleu_score": 16.19557012853241,
+            "chrF++": 28.806584362139926
+        }
+    },
+    {
+        "original_english": "The patient has had 3 L removed since the tube was placed and feels much better from an abdominal point of view.",
+        "original_spanish": "Se le han removido 3 L a la paciente desde se preparó el tubo y se siente mucho mejor desde el punto de vista del abdomen.",
+        "translated_spanish": "El paciente ha tenido 3 L removidos desde que se colocó y se siente mucho mejor",
+        "bleu_score": {
+            "bleu_score": 14.475454212193123,
+            "chrF++": 6.7114093959731544
+        }
+    },
+    {
+        "original_english": "She denies any headaches or chest pain.",
+        "original_spanish": "Niega tener dolores de cabeza o del pecho.",
+        "translated_spanish": "<|im_start|>No se le ha presentado ningún dolor",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 11.834319526627219
+        }
+    },
+    {
+        "original_english": "She does feel somewhat short of breath.",
+        "original_spanish": "Aunque sí se siente un poco falta de aire.",
+        "translated_spanish": "<|im_start|>El médico le dijo que se le está haciendo un poco de ejercicio.<",
+        "bleu_score": {
+            "bleu_score": 4.34373789135831,
+            "chrF++": 6.06060606060606
+        }
+    },
+    {
+        "original_english": "She denies dysuria, urgency, or frequency.",
+        "original_spanish": "Niega tener disuria, urgencia o frecuencia.",
+        "translated_spanish": "<|",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "PHYSICAL EXAMINATION: Today, head is normocephalic.",
+        "original_spanish": "EXAMEN FISICO: Hoy la cabeza es normocefálica.",
+        "translated_spanish": "<|",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "Skin: Warm and dry.",
+        "original_spanish": "Piel: Cálida y seca.",
+        "translated_spanish": "<|im_start|>Hidrata",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 6.25
+        }
+    },
+    {
+        "original_english": "Lungs: She has decreased breath sounds at the bases and a scattered wheeze.",
+        "original_spanish": "Pulmones: Tiene sonidos respiratorios reducidos en las bases y resoplido esparcido.",
+        "translated_spanish": "<|im_start|>Pulmones: Ha disminuido el sonido respiratorio en las bases y un ronquido disperso.<|",
+        "bleu_score": {
+            "bleu_score": 12.173115521158184,
+            "chrF++": 4.237288135593221
+        }
+    },
+    {
+        "original_english": "Heart: Regular rhythm.",
+        "original_spanish": "Corazón: Ritmo regular.",
+        "translated_spanish": "<",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "Abdomen: Less distended.",
+        "original_spanish": "Abdomen: Menos distendido.",
+        "translated_spanish": "Pérdida de peso: Menos distendido.<|",
+        "bleu_score": {
+            "bleu_score": 29.84745896009822,
+            "chrF++": 8.620689655172413
+        }
+    },
+    {
+        "original_english": "Extremities: She still has 2+ edema.",
+        "original_spanish": "Extremidades: Todavía tiene edema.",
+        "translated_spanish": "Extremidades: todav",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 94.44444444444444
+        }
+    },
+    {
+        "original_english": "ASSESSMENT AND PLAN: The patient was scheduled for a kidney biopsy today, but she was informed by the Renal Transplant Service that they were going to delay this since there was some improvement in her creatinine (today's creatinine is not yet available).",
+        "original_spanish": "2+ EVALUACION Y PLAN: Se proyectaba que la paciente tuviese una biopsia del riñón hoy, pero el Servicio de Trasplante Renal le informó que iban a retrasarla pues ha habido una mejoría en su creatinina (la creatinina de hoy todavía no está disponible).",
+        "translated_spanish": "Evaluación y plan: El paciente se someterá a una biopsia renal hoy, pero se le informó por el servicio de trasplante renal que se le está retrasando esta operación debido a que ha mejorado su creatinina (hoy no se ha disponible la creatinina",
+        "bleu_score": {
+            "bleu_score": 7.581949682016263,
+            "chrF++": 5.735140771637122
+        }
+    },
+    {
+        "original_english": "We will continue to drain ascitic fluid for at least another 24 hours and will continue to monitor her renal function.",
+        "original_spanish": "Continuaremos drenando el líquido ascítico por al menos 24 horas más y continuaremos monitoreando su función renal.",
+        "translated_spanish": "Continuaremos a drenar el líquido ascítico durante al menos 24 horas y",
+        "bleu_score": {
+            "bleu_score": 19.803050319364075,
+            "chrF++": 58.62068965517242
+        }
+    },
+    {
+        "original_english": "[Report de-identified (Safe-harbor compliant) by De-ID v.6.22.08.0] **INSTITUTION GENERAL MEDICINE ATTENDING PHYSICIAN PROGRESS NOTE PATIENT NAME: **NAME[AAA, BBB M] ACCOUNT #: **ID-NUM **ROOM ATTENDING PHYSICIAN: **NAME[BBB M ZZZ] ADMISSION DATE: **DATE[Apr 11 2007] EVALUATION DATE: **DATE[Apr 18 07] The patient is awake and alert.",
+        "original_spanish": "[Informe de-identificado (cumple con Puerto Seguro) por De-ID v.6.22.08.0] **INSTITUCION MEDICINA GENERAL MEDICO PRIMARIO NOTA DE PROGRESO NOMBRE DEL PACIENTE: **NOMBRE[AAA, BBB M] # CUENTA: **NUM-ID- **CUARTO MEDICO PRIMARIO: **NOMBRE[BBB M ZZZ] FECHA DE ADMISION: **FECHA[11 abr 2007] FECHA DE EVALUACION: **FECHA[18 abr 07] El pacient está despierto y alerta.",
+        "translated_spanish": "**INSTITUCION GENERAL MEDICINA ATTENDENTE PROGRES NOTE PATIENTO NOMBRE: **NOMBRE[AAA, BBB M] NUMERO DE ACCESO: **ID-NUM **CAMPO DE ATENCIÓN: **NOMBRE[BBB M ZZZ] FECHA DE A",
+        "bleu_score": {
+            "bleu_score": 18.5879019893851,
+            "chrF++": 2.0491803278688527
+        }
+    },
+    {
+        "original_english": "He has no complaints of any discomfort of any sort.",
+        "original_spanish": "No se queja de incomodidad de ningún tipo.",
+        "translated_spanish": "<|im_start|>Es un asistente de",
+        "bleu_score": {
+            "bleu_score": 3.7477767366779213,
+            "chrF++": 4.237288135593221
+        }
+    },
+    {
+        "original_english": "He states he slept well, and his appetite is good.",
+        "original_spanish": "Declara que durmió bien, además tiene buen apetito.",
+        "translated_spanish": "<|im_start|>El médico le ha dado una buena notificación.<|",
+        "bleu_score": {
+            "bleu_score": 2.1476912089159055,
+            "chrF++": 2.325581395348837
+        }
+    },
+    {
+        "original_english": "PHYSICAL EXAMINATION: Vital signs are stable with stabilizing blood pressure.",
+        "original_spanish": "EXAMEN FISICO: Signos vitales estables con presión sanguínea estabilizándose.",
+        "translated_spanish": "<|im_start|>Vital signs are stable with stabilizing blood pressure",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 5.30035335689046
+        }
+    },
+    {
+        "original_english": "He is afebrile.",
+        "original_spanish": "No padece fiebre.",
+        "translated_spanish": "<|im_start|>",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "The necks shows no JVD, no nodes or masses.",
+        "original_spanish": "Cuello no presenta distensión yugular venosa, ni nudos ni masas.",
+        "translated_spanish": "<|im_start|>created by Alibaba Cloud.<",
+        "bleu_score": {
+            "bleu_score": 3.0890553181566975,
+            "chrF++": 6.172839506172839
+        }
+    },
+    {
+        "original_english": "The lungs are clear.",
+        "original_spanish": "Los pulmones están despejados.",
+        "translated_spanish": "<|im_start|>La presión arterial es normal.<|im_end",
+        "bleu_score": {
+            "bleu_score": 2.1476912089159055,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "The heart is regular.",
+        "original_spanish": "El corazón está regular.",
+        "translated_spanish": "<|im_start|",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "The abdomen is soft and nontender.",
+        "original_spanish": "El abdomen está suave y sin dolor.",
+        "translated_spanish": "<|im_start|>La piel es",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 5.681818181818182
+        }
+    },
+    {
+        "original_english": "Extremities have no cyanosis, clubbing, or edema.",
+        "original_spanish": "Las extremidades no presentan cianosis, hipocratismo o edema.",
+        "translated_spanish": "<|im_start|>Si",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 7.6923076923076925
+        }
+    },
+    {
+        "original_english": "LABORATORY DATA: The white count has improved to 9300, differential was pending, hemoglobin and hematocrit were stable, platelets have improved to 79000.",
+        "original_spanish": "DATOS DE LABORATORIO: La cuenta de glóbulos blancos ha mejorado a 9300, diferencial estaba pendiente, hemoglobina y hematocrito estaban estables, plaquetas han mejorado a 79000.",
+        "translated_spanish": "<",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "IMPRESSION: Acute renal failure with neutropenia likely medication induced.",
+        "original_spanish": "IMPRESION: Fallo renal grave con neutropenia probablemente debido a medicamento.",
+        "translated_spanish": "<|im_start|>IMPRESSION: Insuficiencia renal aguda",
+        "bleu_score": {
+            "bleu_score": 4.02724819242185,
+            "chrF++": 2.3584905660377355
+        }
+    },
+    {
+        "original_english": "At this point, we can likely stop Neupogen and just continue neutropenic precautions.",
+        "original_spanish": "En este momento, probablemente podemos descontinuar Neupogen y sólo continuar precauciones neutropénicas.",
+        "translated_spanish": "En este momento, es probable que podamos detener la Neupogen y continuar con las precauciones neutropénicas",
+        "bleu_score": {
+            "bleu_score": 19.923405658137927,
+            "chrF++": 26.030368763557483
+        }
+    },
+    {
+        "original_english": "The patient continues on vancomycin for possible blood cultures, however, there is a question regarding contamination.",
+        "original_spanish": "El paciente sigue con vancomicina para posibles hemocultivos, sin embargo, hay duda en cuanto a contaminación.",
+        "translated_spanish": "La inyección de vancomicina se continúa para posibles cult",
+        "bleu_score": {
+            "bleu_score": 3.4738650706548713,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "We are redrawing blood cultures to see if continuing vancomycin is necessary at this point.",
+        "original_spanish": "Estamos reextrayendo hemocultivos para ver si es necesario continuar con vancomicina en este momento.",
+        "translated_spanish": "Estamos reescribiendo las culturas sanguí",
+        "bleu_score": {
+            "bleu_score": 1.4456752008489664,
+            "chrF++": 30.21978021978022
+        }
+    },
+    {
+        "original_english": "Otherwise, I agree with the plans as outlined by the resident team and discussed with them.",
+        "original_spanish": "De otra forma estoy de acuero con los planes delineados por el equipo residente y discutido con ellos.",
+        "translated_spanish": "Otra opción es que se le proporcione información sobre los planes y se le permita discutirlos con el equipo de residentes",
+        "bleu_score": {
+            "bleu_score": 5.908002399935303,
+            "chrF++": 11.029411764705882
+        }
+    },
+    {
+        "original_english": "[Report de-identified (Safe-harbor compliant) by De-ID v.6.22.08.0] Progress **INSTITUTION, Narrative - Impression and Plan **INSTITUTION Patient: **NAME[AAA, BBB] M MRN - **ID-NUM - MPACCOMMMRN Age: **AGE[in 60s] years Sex: Female DOB: **DATE[Jul 31 1940] Author: **NAME[XXX, WWW] Results Review General results New results : ResultsNew (never reviewed) **DATE[Oct 12 2007] 6:50 AM Na 137 mEq/L K 6.0 mEq/L Critical High Cl 92 mEq/L Low BUN 28 mg/dL High Cr 0.9 mg/dL Glucose 191 mg/dL High Ca 9.3 mg/dL WBC 12.0 X10E+09/L High RBC 4.49 X10E+12/L Hgb 15.1 gm/dL Hct 47.9 % High MCV 106.6 fL High MCH 33.7 pg High MCHC 31.6 gm/dL Low RDW 17.8 % High MPV 12.7 fL High Platelets 114 X10E+09/L Low **DATE[Oct 12 2007] 4:00 AM Temperature Conversion 35.7 DegC Temperature 96.2 DegF Temperature Site Oral Pulse 54 BPM Respiratory Rate 18 Systolic BP 188 mmHg Diastolic BP 88 mmHg BP Site Right Arm Subjective Pleasant **AGE[in 60s]yo female who presented to the ED complaining of \"shaking\", and was found to be hypoxic and suffering from a COPD/CHF exacerbation.",
+        "original_spanish": "[Informe de-identificado (cumple con Puerto Seguro) por De-ID v.6.22.08.0] Progreso **INSTITUCION, Narrativa - Impresión y Plan **INSTITUCION Paciente: **NOMBRE[AAA, BBB] M MRN - **NUM-ID - MPACCOMMMRN Edad: **EDAD[en los 60s] años Sexo: Mujer Fecha de Nacimiento: **FECHA[31 jul 1940] Autor: **NOMBRE[XXX, WWW] Resultados Revisión General resultados Nuevos resultados : ResultadosNuevos (nunca revisado) **FECHA[12 oct 2007] 6:50 AM Na 137 mEq/L K 6.0 mEq/L Crítico Alto Cl 92 mEq/L Bajo BUN 28 mg/dL Alto Cr 0.9 mg/dL Glucosa 191 mg/dL Alto Ca 9.3 mg/dL WBC 12.0 X10E+09/L Alto RBC 4.49 X10E+12/L Hgb 15.1 gm/dL Hct 47.9 % Alto MCV 106.6 fL Alto MCH 33.7 pg Alto MCHC 31.6 gm/dL Alto RDW 17.8 % Alto MPV 12.7 fL Plaquetas Altas 114 X10E+09/L Bajo **FECHA[12 oct 2007] 4:00 AM Conversión de Temperatura 35.7 GradC Temperatura 96.2 GradF Sitio de Temperatura Oral Pulso 54 PPM Frecuencia Respiratoria 18 PA Sistólica 188 mmHg PA Diastólica 88 mmHg BP Sitio Brazo Derecho Subjectivo Placentero **EDAD[en los 60s]años mujer que se presentó a emergencia quejándose de “temblores”, se descubrió que estaba hipóxica y sufría de exacerbación de enfermedad pulmonar obstructiva crónica/insuficiencia cardiaca congestiva.",
+        "translated_spanish": "[Report de-identificado (compliant con la ley de la privacidad de la De-ID v.6.22.08.0] Progreso **INSTITUCION, Narrativa - Impresión y Plan **INSTITUCION Paciente: **NOMBRE[AAA, BBB] M MR",
+        "bleu_score": {
+            "bleu_score": 0.27004805921817965,
+            "chrF++": 3.132832080200502
+        }
+    },
+    {
+        "original_english": "Today she says her tremors have improved.",
+        "original_spanish": "Hoy indica que sus temblores han mejorado.",
+        "translated_spanish": "<|im_start|>El médico le dijo que la terapia de terapia de terapia de terapia de terapia de terapia de terapia de terapia de terapia de terapia de terapia de ter",
+        "bleu_score": {
+            "bleu_score": 1.0253311603116817,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "She states that her breathing is the same, she denies any cp, n/v ha/fever chills.",
+        "original_spanish": "Declara que su respiración sigue igual, niega tener dolor de pecho, náusea/vómito, dolor de cabeza, fiebre o escalofríos.",
+        "translated_spanish": "<|im_start|>El médico le dijo que no había ningún problema, y le dijo que no había ningún problema, y",
+        "bleu_score": {
+            "bleu_score": 1.826472886268134,
+            "chrF++": 7.211538461538461
+        }
+    },
+    {
+        "original_english": "ros otherwise negative.",
+        "original_spanish": "Por otra parte revisión de sistemas negativa.",
+        "translated_spanish": "<|im_start|>Si el valor es cero, se",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 3.378378378378378
+        }
+    },
+    {
+        "original_english": "Physical Examination General Exam Vital signs: BP: . somewhat hypertensive at times.",
+        "original_spanish": "Examinación Física Prueba General Signos Vitales: PA: . a veces con tendencia hipertensa.",
+        "translated_spanish": "Examen físico General Examen Síntomas vitales: BP:. hipertensión leve en ocasiones",
+        "bleu_score": {
+            "bleu_score": 5.855164519178106,
+            "chrF++": 10.294117647058826
+        }
+    },
+    {
+        "original_english": "Eye: bilateral: external eye exophthalmos, periorbital area: normal, sclera.",
+        "original_spanish": "Ojo: exolftamia bilateral, ojo externo, área periorbital: normal, esclera.",
+        "translated_spanish": "<|im_start|>",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "Thyroid: . thyroid without palpable lesion to my exam, + scar from prior tracheostomy Heart: rhythm: regular, heart sounds: distant, S1: normal, S2: normal.",
+        "original_spanish": "Tiroides: . tiroides sin lesión palpable ante mi prueba, cicatriz + de previa traqueostomía  Corazón: ritmo: regular, sonidos de corazón: distantes, S1: normal, S2: normal.",
+        "translated_spanish": "<|im_start",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "Lungs: bilateral: reduced breath sounds, expiratory wheezes present (in the upper lobe, in the lower lobe), , at or near baseline? , no rhonchi present, . Skin: lesion, . b/l venous stasis changes on distal anterior tibias trace tibial edema Neuro: Deep Tendon Reflex/Babinski: left (biceps 2+, brachioradialis 2+, triceps 2+, quadriceps 2+, Achilles 2+, no hyperreflexia), right (biceps 2+, brachioradialis 2+, triceps 2+, quadriceps 2+, Achilles 2+, Babinski, ), pt with no focal deficits to my exam.",
+        "original_spanish": "Pulmones: bilateral: sonidos respiratorios reducidos, presencia de resoplido espiratorio (en el lóbulo superior, en el lóbulo inferior), ¿en o cerca de la línea de base? , no hay presencia de estertor roncus, . Piel: lesión, . cambios bilaterales de estasis venosa en tibias anteriores distales indicio edema tribial Neuro: Reflejo Tendinoso Profundo/Babinski: izquierda (biceps 2+, músculo braquiorradial 2+, triceps 2+, cuádriceps 2+, Aquiles 2+, no hay hiperreflexia), derecha (biceps 2+, músculo braquiorradial 2+, triceps 2+, cuádriceps 2+, Aquiles 2+, Babinski, ), paciente no presentó déficits focales ante mi prueba.",
+        "translated_spanish": "Pulmones: bilateral: sonidos respiratorios reducidos, esfuerzos respiratorios presentes (en la parte superior, en la parte inferior), en o cerca de la línea de referencia?, no ronquidos,. piel: lesión,. b/l veno s",
+        "bleu_score": {
+            "bleu_score": 6.5853336488446415,
+            "chrF++": 31.92702394526796
+        }
+    },
+    {
+        "original_english": "visible resting tremor of extremities and jaw at times though improved + intention tremor as well . + action tremor improved + cogwheeling decreased symtomatically improved Constitutional: normal Arterial Pulses: normal Abdomen: normal Lymph Nodes: normal Impression and Plan **AGE[in 60s]yo female with h/o paroxysmal A.",
+        "original_spanish": "A veces temblor en reposo de las extremidades y mandíbula es visible aunque ha mejorado + en adición temblor intencional.",
+        "translated_spanish": "Tremor visible de las extremidades y la mandíbula en ocasiones, aunque mejorado + tremor intencional en ocasiones. + tremor de acción mejorado + cogwheeling disminuido simptomáticamente mejorado: constitucional: normal: arterial pulsa: normal:",
+        "bleu_score": {
+            "bleu_score": 8.519620064976904,
+            "chrF++": 9.127789046653145
+        }
+    },
+    {
+        "original_english": "Fib, severe COPD, CAD, mild CHF, OSA, obesity and idiopathic thrombocytopenia, presented with shaking tremors, and a COPD/CHF exacerbation.",
+        "original_spanish": "+ temblor de acción mejorado + rigidez en rueda dentada disminuida síntomas mejorados General: normal Pulsos Arteriales: normal Abdomen: normal Nódulos Linfáticos: normal Impresión y Plan **EDAD[en los 60s]años mujer con historial de FA paroxística, caso severo de enfermedad pulmonar obstructiva crónica, arteriopatía coronaria, caso leve de insuficiencia cardiaca congestiva, apnea obstructiva del sueño, obesidad y trombocitopenia idiopática, presentado junto a temblores con sacudidas, y exacerbación de enfermedad pulmonar obstructiva crónica/insuficiencia cardiaca congestiva.",
+        "translated_spanish": "<|im",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "followed by neurology Neurology: intention/action tremor, and cogwheeling continue Mysoline, may need titrated up.",
+        "original_spanish": "seguido por neurología Neurología: temblor de intención/acción, y rigidez de rueda dentada continúan Misolina, quizás ser aumentada.",
+        "translated_spanish": "Seguido de la neurología, el tremor intenc",
+        "bleu_score": {
+            "bleu_score": 1.114566142379795,
+            "chrF++": 18.918918918918916
+        }
+    },
+    {
+        "original_english": "EEG: with some slowing, no siezure activity ddx: action tremor/ essential tremor/ phychological component? CV: h/o Paroxysmal A Fib, CAD, CHF, HTN: currently stable, sinus rhythm mild crackles may be from pulmonary fibrosis? BP increased, off ARB due to hyperkalemia, will consider trial of other antihypertensive? Troponins negative Echo: shows no change since last echo ARB off due to hyperkalemia, no BB due to pulm status Pulm: COPD exacerbation with mild URI?, +OSA Continued IV Steroid taper change iv to po soon? duonebs changed to xopenex to decrease tremor, advair, spiriva, bipap QHS and prn.",
+        "original_spanish": "EEG: con una actividad no convulsiva disminuyendo diagnóstico diferencial: temblor de acción/ temblor esencial/ ¿elemento psicológico? CV: historial de FA paroxística, arteriopatía coronaria, insuficiencia cardiaca congestiva, Hipertensión: actualmente estable, ¿crepitaciones leves en ritmo sinusal quizás debido a fibrosis pulmonar? Aumento en presión sanguinea, BRA descontinuado a causa de hiperpotasiemia, ¿considerar tratar con otro antihipertensivo? Troponinas negativo Eco: no muestra cambios desde el último eco BRA descontinuado a causa de hiperpotasiemia, no BB debido al estado pulmonar Pulm: exacerbación de enfermedad pulmonar obstructiva crónica ¿con leve infección de vías respiratorias altas mild URI?, + apnea obstructiva del sueño Rebaja continua de esteroide intravenoso ¿cambiar intravenoso a per os pronto? duoneb cambiado a xopenex para reducir temblor, advair, spiriva, bipap cada noche y al necesitarse.",
+        "translated_spanish": "EEG: con algunos atrasos, no se observa actividad epileptiforme ddx: atrasos en la actividad cerebral esencial tremor/ tremor esencial/ componente psicológico? CV: h/o paroxismal A fib, CAD, CHF, HTN: actual",
+        "bleu_score": {
+            "bleu_score": 0.937273417260346,
+            "chrF++": 12.86353467561521
+        }
+    },
+    {
+        "original_english": "Increased WBC likely steroid effect, will monitor for signs of infection.",
+        "original_spanish": "Aumento en glóbulos blancos probablemente efecto de esteroide, se monitoreará para señales de infección.",
+        "translated_spanish": "La respuesta probablemente es un efecto esteroide, lo que se monitoreará para",
+        "bleu_score": {
+            "bleu_score": 12.486657525198936,
+            "chrF++": 9.118541033434651
+        }
+    },
+    {
+        "original_english": "GI: No acute issues, Heart health low sodium diet, low potassium diet, ADA mild bump in LFT's, stopped lipitor, changed to zetia Abd.",
+        "original_spanish": "Gatrointestinal: Nada grave, Salud corazón dieta bajo en sodio, dieta bajo en potasio, Adenosina desaminasa leve aumento en pruebas de función hepática, lipitor descontinuado, cambio a zetia Abd.",
+        "translated_spanish": "<|",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "US : pending Renal/ Lytes: Hyperkalemia, rechecking labs, stopped arb, posssily due to leukocytosis? will follow Endo: DM due to steroids, on prandin and ssi tsh low, new t3 low, free t4 normal, t4, thyroid antibodies normal, + exopthalmos on exam Endocrine consult: dec. tsh most likely due to steroids, must check off steroids, check I-123 scan NM Thyroid uptake scan Pending in two weeks Heme: h/o idiopathic thrombocytopenia with splenectomy Danazol q day will follow plts (stable) hep sub Q dvt prophylaxis HM: PT/OT/Social Work continuing evaluations and treatments.",
+        "original_spanish": "Ecografía : pendiente Renal/ Electrolitos: Hiperpotasiemia, reexaminando labs, bra descontinuado, ¿posiblemente debido a leucocitosis? se dará seguimiento Endo: diabetes mellitus debido a esteroide, tomando prandin y escala dosis variable insulina tirotropina baja, nueva t3 baja, t4 libre normal, t4, anticuerpos de tiroides normal, + exoftalmos en la pruba Consulta endocrino: tirotropina disminuyendo probablemente a causa de esteroides, necesidad cotejar esteroides, verificar gammagrafía I-123 NM Captación gammagrafía Tiroides A ocurrir en dos semanas Hemo: historial de trombocitopenia idiopática con esplenectomía Danazol cada día a dar seguimientos plaquetas (estable) heparina subcutánea para profilaxis de TVP MH: FT/TO/Trabajo Social evaluaciones y tratamientos continuos.",
+        "translated_spanish": "EE. UU.: pending: hipotensión renal, reevaluación de los laboratorios, detenido el arb, posiblemente debido a la leukocitosis? seguirá el Endo: DM debido a la esteroides, en reposo de Prandin y SSI",
+        "bleu_score": {
+            "bleu_score": 0.5805009390218242,
+            "chrF++": 7.665094339622641
+        }
+    },
+    {
+        "original_english": "[Report de-identified (Safe-harbor compliant) by De-ID v.6.22.08.0] **INSTITUTION GENERAL MEDICINE ATTENDING PHYSICIAN PROGRESS NOTE PATIENT NAME: **NAME[AAA, BBB M] ACCOUNT #: **ID-NUM **ROOM ATTENDING PHYSICIAN: **NAME[YYY M ZZZ] ADMISSION DATE: **DATE[Dec 08 2007] EVALUATION DATE: **DATE[Dec 13 07] I personally interviewed and examined the patient on **DATE[Dec 13 2007].",
+        "original_spanish": "[Infome de-identificado (cumple con puerto seguro) por De-ID v.6.22.08.0] **INSTITUCION MEDICINA GENERAL MEDICO PRIMARIO NOTA DE PROGRESO NOMBRE DEL PACIENTE: **NOMBRE[AAA, BBB M] # CUENTA: **NUM-ID **CUARTO MEDICO PRIMARIO: **NOMBRE[YYY M ZZZ] FECHA DE ADMISION: **FECHA[08 dic 2007] FECHA DE EVALUACION: **FECHA[13 dic 07] Yo entrevisté y examiné personalmente al paciente en **FECHA[13 dic 2007].",
+        "translated_spanish": "**INSTITUCION GENERAL MEDICINA ATTENDENTE PROFESOR PROGRES NOTE PATIENTO NOMBRE: **NOMBRE[AAA, BBB M] NUMERO DE ACCESO **ID-NUM **CAMPO DE ATENCIÓN: **NOMBRE[YYY M ZZZ] FECHA DE",
+        "bleu_score": {
+            "bleu_score": 13.94498889857117,
+            "chrF++": 0.662251655629139
+        }
+    },
+    {
+        "original_english": "I discussed the case with the house staff.",
+        "original_spanish": "Discutí el caso con el personal del lugar.",
+        "translated_spanish": "<|im_start|>El personal de la casa se presentó en la reunión.<|im_end|",
+        "bleu_score": {
+            "bleu_score": 1.8709718017288024,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "The patient feels a little better today.",
+        "original_spanish": "El paciente se siente un poco mejor hoy.",
+        "translated_spanish": "<|im",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "She did have a paracentesis yesterday which showed a white count of 113, red blood cells of 13800, only 1% neutrophils, 65 monocytes, and 29% mononuclear cells.",
+        "original_spanish": "Es cierto que tuvo una paracentesis ayer que mostró un recuento leucocitario de 113, glóbulos rojos en 13800, sólo 1% de neutrófilos, 65 monocitos, y 29% células mononucleares.",
+        "translated_spanish": "<",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "Her albumin was less than 1.",
+        "original_spanish": "Su albúmina era menos de 1.",
+        "translated_spanish": "Translate the input into English to Spanish",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 4.672897196261682
+        }
+    },
+    {
+        "original_english": "Her total protein was less than 2; this is indicative of a transudate.",
+        "original_spanish": "Su proteína total era menos de 2; lo que indica un trasudado.",
+        "translated_spanish": "La proteína total de su sangre fue menos de 2; esto es indicativo de un transudado.<",
+        "bleu_score": {
+            "bleu_score": 16.19557012853241,
+            "chrF++": 28.806584362139926
+        }
+    },
+    {
+        "original_english": "The patient has had 3 L removed since the tube was placed and feels much better from an abdominal point of view.",
+        "original_spanish": "Se le han removido 3 L a la paciente desde se preparó el tubo y se siente mucho mejor desde el punto de vista del abdomen.",
+        "translated_spanish": "El paciente ha tenido 3 L removidos desde que se colocó y se siente mucho mejor",
+        "bleu_score": {
+            "bleu_score": 14.475454212193123,
+            "chrF++": 6.7114093959731544
+        }
+    },
+    {
+        "original_english": "She denies any headaches or chest pain.",
+        "original_spanish": "Niega tener dolores de cabeza o del pecho.",
+        "translated_spanish": "<|im_start|>No se le ha presentado ningún dolor",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 11.834319526627219
+        }
+    },
+    {
+        "original_english": "She does feel somewhat short of breath.",
+        "original_spanish": "Aunque sí se siente un poco falta de aire.",
+        "translated_spanish": "<|im_start|>La respiración",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "She denies dysuria, urgency, or frequency.",
+        "original_spanish": "Niega tener disuria, urgencia o frecuencia.",
+        "translated_spanish": "<|",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "PHYSICAL EXAMINATION: Today, head is normocephalic.",
+        "original_spanish": "EXAMEN FISICO: Hoy la cabeza es normocefálica.",
+        "translated_spanish": "<|",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "Skin: Warm and dry.",
+        "original_spanish": "Piel: Cálida y seca.",
+        "translated_spanish": "<|im_start|>Hidrata",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 6.25
+        }
+    },
+    {
+        "original_english": "Lungs: She has decreased breath sounds at the bases and a scattered wheeze.",
+        "original_spanish": "Pulmones: Tiene sonidos respiratorios reducidos en las bases y resoplido esparcido.",
+        "translated_spanish": "<|im_start|>Pulmones: Ha disminuido el sonido respiratorio en las bases y un ronquido disperso.<|",
+        "bleu_score": {
+            "bleu_score": 12.173115521158184,
+            "chrF++": 4.237288135593221
+        }
+    },
+    {
+        "original_english": "Heart: Regular rhythm.",
+        "original_spanish": "Corazón: Ritmo regular.",
+        "translated_spanish": "<",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 0.0
+        }
+    },
+    {
+        "original_english": "Extremities: She still has 2+ edema.",
+        "original_spanish": "Extremidades: Todavía tiene edema.",
+        "translated_spanish": "Extremidades: todav",
+        "bleu_score": {
+            "bleu_score": 0.0,
+            "chrF++": 94.44444444444444
+        }
+    },
+    {
+        "original_english": "ASSESSMENT AND PLAN: The patient was scheduled for a kidney biopsy today, but she was informed by the Renal Transplant Service that they were going to delay this since there was some improvement in her creatinine (today's creatinine is not yet available).",
+        "original_spanish": "2+ EVALUACION Y PLAN: Se proyectaba que la paciente tuviese una biopsia del riñón hoy, pero el Servicio de Trasplante Renal le informó que iban a retrasarla pues ha habido una mejoría en su creatinina (la creatinina de hoy todavía no está disponible).",
+        "translated_spanish": "Evaluación y plan: El paciente se someterá a una biopsia renal hoy, pero se le informó por el servicio de trasplante renal que se le está retrasando esta operación debido a que ha mejorado su creatinina (hoy no se ha disponible la creatinina",
+        "bleu_score": {
+            "bleu_score": 7.581949682016263,
+            "chrF++": 5.735140771637122
+        }
+    },
+    {
+        "original_english": "We will continue to drain ascitic fluid for at least another 24 hours and will continue to monitor her renal function.",
+        "original_spanish": "Continuaremos drenando el líquido ascítico por al menos 24 horas más y continuaremos monitoreando su función renal.",
+        "translated_spanish": "Continuaremos a drenar el líquido ascítico durante al menos 24 horas y",
+        "bleu_score": {
+            "bleu_score": 19.803050319364075,
+            "chrF++": 58.62068965517242
+        }
+    }
+]
