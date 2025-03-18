@@ -1,0 +1,4062 @@
+[
+    {
+        "sentence": "If you have a weakened immune system due to AIDS, cancer, transplantation, or corticosteroid use, call your doctor if you develop a cough, fever, or shortness of breath.",
+        "keywords": [
+            "weakened immune system",
+            "AIDS",
+            "cancer",
+            "transplantation",
+            "corticosteroid",
+            "doctor",
+            "cough",
+            "fever",
+            "shortness of breath"
+        ],
+        "translated_keywords": {
+            "weakened immune system": {
+                "French": "système immunitaire affaibli",
+                "Portuguese": "sistema imunológico enfraquecido",
+                "German": "geschwächtes Immunsystem",
+                "Spanish": "sistema inmunológico debilitado"
+            },
+            "AIDS": {
+                "French": "SIDA",
+                "Portuguese": "SIDA",
+                "German": "AIDS",
+                "Spanish": "SIDA"
+            },
+            "cancer": {
+                "French": "cancer",
+                "Portuguese": "câncer",
+                "German": "Krebs",
+                "Spanish": "cáncer"
+            },
+            "transplantation": {
+                "French": "transplantation",
+                "Portuguese": "transplante",
+                "German": "Transplantation",
+                "Spanish": "trasplante"
+            },
+            "corticosteroid": {
+                "French": "corticostéroïde",
+                "Portuguese": "corticosteróide",
+                "German": "Kortikosteroid",
+                "Spanish": "corticosteroide"
+            },
+            "doctor": {
+                "French": "docteur",
+                "Portuguese": "médico",
+                "German": "Arzt",
+                "Spanish": "médico"
+            },
+            "cough": {
+                "French": "toux",
+                "Portuguese": "tosse",
+                "German": "Husten",
+                "Spanish": "tos"
+            },
+            "fever": {
+                "French": "fièvre",
+                "Portuguese": "febre",
+                "German": "Fieber",
+                "Spanish": "fiebre"
+            },
+            "shortness of breath": {
+                "French": "essoufflement",
+                "Portuguese": "falta de ar",
+                "German": "Atemnot",
+                "Spanish": "dificultad para respirar"
+            }
+        }
+    },
+    {
+        "sentence": "Do NOT place the person in this position if a head, neck, back, or leg injury is suspected or if it makes the victim uncomfortable.",
+        "keywords": [
+            "place",
+            "head injury",
+            "neck injury",
+            "back injury",
+            "leg injury",
+            "victim",
+            "uncomfortable"
+        ],
+        "translated_keywords": {
+            "place": {
+                "French": "lieu",
+                "Portuguese": "lugar",
+                "German": "Ort",
+                "Spanish": "lugar"
+            },
+            "head injury": {
+                "French": "blessure à la tête",
+                "Portuguese": "lesão na cabeça",
+                "German": "Kopfverletzung",
+                "Spanish": "lesión en la cabeza"
+            },
+            "neck injury": {
+                "French": "blessure au cou",
+                "Portuguese": "lesão no pescoço",
+                "German": "Nackenverletzung",
+                "Spanish": "lesión en el cuello"
+            },
+            "back injury": {
+                "French": "blessure au dos",
+                "Portuguese": "lesão nas costas",
+                "German": "Rückenverletzung",
+                "Spanish": "lesión de espalda"
+            },
+            "leg injury": {
+                "French": "blessure à la jambe",
+                "Portuguese": "lesão na perna",
+                "German": "Beinverletzung",
+                "Spanish": "lesión en la pierna"
+            },
+            "victim": {
+                "French": "victime",
+                "Portuguese": "vítima",
+                "German": "Opfer",
+                "Spanish": "víctima"
+            },
+            "uncomfortable": {
+                "French": "inconfortable",
+                "Portuguese": "desconfortável",
+                "German": "unangenehm",
+                "Spanish": "incómodo"
+            }
+        }
+    },
+    {
+        "sentence": "Increased vision allows the infant to tell objects apart from backgrounds with very little contrast (such as a button on a blouse of the same color)",
+        "keywords": [
+            "increased vision",
+            "infant",
+            "objects",
+            "contrast"
+        ],
+        "translated_keywords": {
+            "increased vision": {
+                "French": "vision améliorée",
+                "Portuguese": "visão aumentada",
+                "German": "verbessertes Sehen",
+                "Spanish": "visión aumentada"
+            },
+            "infant": {
+                "French": "nourrisson",
+                "Portuguese": "infante",
+                "German": "Säugling",
+                "Spanish": "infante"
+            },
+            "objects": {
+                "French": "objets",
+                "Portuguese": "objetos",
+                "German": "Objekte",
+                "Spanish": "objetos"
+            },
+            "contrast": {
+                "French": "contraste",
+                "Portuguese": "contraste",
+                "German": "Kontrast",
+                "Spanish": "contraste"
+            }
+        }
+    },
+    {
+        "sentence": "If obesity prevents you from being physically able to inspect your feet, ask a family member, neighbor, or visiting nurse to perform this important check.",
+        "keywords": [
+            "obesity",
+            "inspect feet",
+            "family member",
+            "neighbor",
+            "visiting nurse",
+            "check"
+        ],
+        "translated_keywords": {
+            "obesity": {
+                "French": "obésité",
+                "Portuguese": "obesidade",
+                "German": "Fettleibigkeit",
+                "Spanish": "obesidad"
+            },
+            "inspect feet": {
+                "French": "inspecter les pieds",
+                "Portuguese": "inspecionar os pés",
+                "German": "Füße inspizieren",
+                "Spanish": "inspeccionar los pies"
+            },
+            "family member": {
+                "French": "membre de la famille",
+                "Portuguese": "membro da família",
+                "German": "Familienmitglied",
+                "Spanish": "miembro de la familia"
+            },
+            "neighbor": {
+                "French": "voisin",
+                "Portuguese": "vizinho",
+                "German": "Nachbar",
+                "Spanish": "vecino"
+            },
+            "visiting nurse": {
+                "French": "infirmière à domicile",
+                "Portuguese": "enfermeira visitante",
+                "German": "Hausbesuch Krankenschwester",
+                "Spanish": "enfermera a domicilio"
+            },
+            "check": {
+                "French": "vérifier",
+                "Portuguese": "verificar",
+                "German": "prüfen",
+                "Spanish": "verificar"
+            }
+        }
+    },
+    {
+        "sentence": "CT scan or MRI to confirm that there is a growth, and to see if the cancer has spread to lymph nodes in the neck",
+        "keywords": [
+            "CT scan",
+            "MRI",
+            "growth",
+            "cancer",
+            "spread",
+            "lymph nodes",
+            "neck"
+        ],
+        "translated_keywords": {
+            "CT scan": {
+                "French": "scanner CT",
+                "Portuguese": "tomografia computadorizada",
+                "German": "CT-Scan",
+                "Spanish": "tomografía computarizada"
+            },
+            "MRI": {
+                "French": "IRM",
+                "Portuguese": "RM",
+                "German": "MRT",
+                "Spanish": "RM"
+            },
+            "growth": {
+                "French": "croissance",
+                "Portuguese": "crescimento",
+                "German": "Wachstum",
+                "Spanish": "crecimiento"
+            },
+            "cancer": {
+                "French": "cancer",
+                "Portuguese": "câncer",
+                "German": "Krebs",
+                "Spanish": "cáncer"
+            },
+            "spread": {
+                "French": "étalement",
+                "Portuguese": "dispersão",
+                "German": "Verbreitung",
+                "Spanish": "dispersión"
+            },
+            "lymph nodes": {
+                "French": "ganglions lymphatiques",
+                "Portuguese": "linfonodos",
+                "German": "Lymphknoten",
+                "Spanish": "ganglios linfáticos"
+            },
+            "neck": {
+                "French": "cou",
+                "Portuguese": "pescoço",
+                "German": "Hals",
+                "Spanish": "cuello"
+            }
+        }
+    },
+    {
+        "sentence": "A uniform brown color is usually seen over the cheeks, forehead, nose, or upper lip.It is most often symmetrical (matching on both sides of the face).",
+        "keywords": [
+            "uniform brown color",
+            "cheeks",
+            "forehead",
+            "nose",
+            "upper lip",
+            "symmetrical"
+        ],
+        "translated_keywords": {
+            "uniform brown color": {
+                "French": "couleur marron uniforme",
+                "Portuguese": "cor marrom uniforme",
+                "German": "einheitliche braune Farbe",
+                "Spanish": "color marrón uniforme"
+            },
+            "cheeks": {
+                "French": "joues",
+                "Portuguese": "bochechas",
+                "German": "Wangen",
+                "Spanish": "mejillas"
+            },
+            "forehead": {
+                "French": "front",
+                "Portuguese": "testa",
+                "German": "Stirn",
+                "Spanish": "frente"
+            },
+            "nose": {
+                "French": "nez",
+                "Portuguese": "nariz",
+                "German": "Nase",
+                "Spanish": "nariz"
+            },
+            "upper lip": {
+                "French": "lèvre supérieure",
+                "Portuguese": "lábio superior",
+                "German": "Oberlippe",
+                "Spanish": "labio superior"
+            },
+            "symmetrical": {
+                "French": "symétrique",
+                "Portuguese": "simétrico",
+                "German": "symmetrisch",
+                "Spanish": "simétrico"
+            }
+        }
+    },
+    {
+        "sentence": "Your doctor may do other tests to check high blood pressure, heart disease, diabetes, high cholesterol, and other causes of, and risk factors for TIAs or stroke.",
+        "keywords": [
+            "doctor",
+            "tests",
+            "high blood pressure",
+            "heart disease",
+            "diabetes",
+            "high cholesterol",
+            "TIAs",
+            "stroke"
+        ],
+        "translated_keywords": {
+            "doctor": {
+                "French": "docteur",
+                "Portuguese": "médico",
+                "German": "Arzt",
+                "Spanish": "doctor"
+            },
+            "tests": {
+                "French": "tests",
+                "Portuguese": "testes",
+                "German": "Tests",
+                "Spanish": "pruebas"
+            },
+            "high blood pressure": {
+                "French": "hypertension artérielle",
+                "Portuguese": "pressão alta",
+                "German": "Bluthochdruck",
+                "Spanish": "hipertensión arterial"
+            },
+            "heart disease": {
+                "French": "maladie cardiaque",
+                "Portuguese": "doença cardíaca",
+                "German": "Herzkrankheit",
+                "Spanish": "enfermedad cardíaca"
+            },
+            "diabetes": {
+                "French": "diabète",
+                "Portuguese": "diabetes",
+                "German": "Diabetes",
+                "Spanish": "diabetes"
+            },
+            "high cholesterol": {
+                "French": "cholestérol élevé",
+                "Portuguese": "colesterol alto",
+                "German": "hoher Cholesterinspiegel",
+                "Spanish": "colesterol alto"
+            },
+            "TIAs": {
+                "French": "TIAs",
+                "Portuguese": "TIAs",
+                "German": "TIAs",
+                "Spanish": "TIAs"
+            },
+            "stroke": {
+                "French": "accident vasculaire cérébral",
+                "Portuguese": "acidente vascular cerebral",
+                "German": "Schlaganfall",
+                "Spanish": "accidente cerebrovascular"
+            }
+        }
+    },
+    {
+        "sentence": "Stridor is an abnormal, high-pitched, musical breathing sound caused by a blockage in the throat or voice box (larynx).It is usually heard when taking in a breath.",
+        "keywords": [
+            "Stridor",
+            "abnormal breathing",
+            "high-pitched",
+            "musical sound",
+            "blockage",
+            "throat",
+            "larynx",
+            "breath"
+        ],
+        "translated_keywords": {
+            "Stridor": {
+                "French": "Stridor",
+                "Portuguese": "Estridor",
+                "German": "Stridor",
+                "Spanish": "Estridor"
+            },
+            "abnormal breathing": {
+                "French": "respiration anormale",
+                "Portuguese": "respiração anormal",
+                "German": "abnormale Atmung",
+                "Spanish": "respiración anormal"
+            },
+            "high-pitched": {
+                "French": "aigu",
+                "Portuguese": "agudo",
+                "German": "hochtonig",
+                "Spanish": "agudo"
+            },
+            "musical sound": {
+                "French": "son musical",
+                "Portuguese": "som musical",
+                "German": "musikalischer Klang",
+                "Spanish": "sonido musical"
+            },
+            "blockage": {
+                "French": "blocage",
+                "Portuguese": "bloqueio",
+                "German": "Blockade",
+                "Spanish": "bloqueo"
+            },
+            "throat": {
+                "French": "gorge",
+                "Portuguese": "garganta",
+                "German": "Hals",
+                "Spanish": "garganta"
+            },
+            "larynx": {
+                "French": "larynx",
+                "Portuguese": "laringe",
+                "German": "Kehlkopf",
+                "Spanish": "laringe"
+            },
+            "breath": {
+                "French": "souffle",
+                "Portuguese": "respiração",
+                "German": "Atem",
+                "Spanish": "aliento"
+            }
+        }
+    },
+    {
+        "sentence": "Is there blood on the toilet paper only?",
+        "keywords": [
+            "blood",
+            "toilet paper"
+        ],
+        "translated_keywords": {
+            "blood": {
+                "French": "sang",
+                "Portuguese": "sangue",
+                "German": "Blut",
+                "Spanish": "sangre"
+            },
+            "toilet paper": {
+                "French": "papier toilette",
+                "Portuguese": "papel higiênico",
+                "German": "Toilettenpapier",
+                "Spanish": "papel higiénico"
+            }
+        }
+    },
+    {
+        "sentence": "Ask your health care provider.",
+        "keywords": [
+            "health care provider",
+            "ask"
+        ],
+        "translated_keywords": {
+            "health care provider": {
+                "French": "fournisseur de soins de santé",
+                "Portuguese": "prestador de serviços de saúde",
+                "German": "Gesundheitsdienstleister",
+                "Spanish": "proveedor de atención médica"
+            },
+            "ask": {
+                "French": "demander",
+                "Portuguese": "perguntar",
+                "German": "fragen",
+                "Spanish": "preguntar"
+            }
+        }
+    },
+    {
+        "sentence": "Complete bed rest for several days is usually recommended.",
+        "keywords": [
+            "bed rest",
+            "recommended"
+        ],
+        "translated_keywords": {
+            "bed rest": {
+                "French": "repos au lit",
+                "Portuguese": "repouso na cama",
+                "German": "Bettruhe",
+                "Spanish": "reposo en cama"
+            },
+            "recommended": {
+                "French": "recommandé",
+                "Portuguese": "recomendado",
+                "German": "empfohlen",
+                "Spanish": "recomendado"
+            }
+        }
+    },
+    {
+        "sentence": "They still have foot problems after treatment",
+        "keywords": [
+            "foot problems",
+            "treatment"
+        ],
+        "translated_keywords": {
+            "foot problems": {
+                "French": "problèmes de pieds",
+                "Portuguese": "problemas nos pés",
+                "German": "Fußprobleme",
+                "Spanish": "problemas en los pies"
+            },
+            "treatment": {
+                "French": "traitement",
+                "Portuguese": "tratamento",
+                "German": "Behandlung",
+                "Spanish": "tratamiento"
+            }
+        }
+    },
+    {
+        "sentence": "Disorders of the endocrine system",
+        "keywords": [
+            "endocrine system",
+            "disorders"
+        ],
+        "translated_keywords": {
+            "endocrine system": {
+                "French": "système endocrinien",
+                "Portuguese": "sistema endócrino",
+                "German": "endokrines System",
+                "Spanish": "sistema endocrino"
+            },
+            "disorders": {
+                "French": "troubles",
+                "Portuguese": "transtornos",
+                "German": "Störungen",
+                "Spanish": "trastornos"
+            }
+        }
+    },
+    {
+        "sentence": "Biopsy - breast; Open breast biopsy",
+        "keywords": [
+            "biopsy",
+            "breast biopsy",
+            "open biopsy"
+        ],
+        "translated_keywords": {
+            "biopsy": {
+                "French": "biopsie",
+                "Portuguese": "biópsia",
+                "German": "Biopsie",
+                "Spanish": "biopsia"
+            },
+            "breast biopsy": {
+                "French": "biopsie du sein",
+                "Portuguese": "biópsia da mama",
+                "German": "Brustbiopsie",
+                "Spanish": "biopsia de mama"
+            },
+            "open biopsy": {
+                "French": "biopsie ouverte",
+                "Portuguese": "biópsia aberta",
+                "German": "offene Biopsie",
+                "Spanish": "biopsia abierta"
+            }
+        }
+    },
+    {
+        "sentence": "Are illegal drugs being used?",
+        "keywords": [
+            "illegal drugs",
+            "used"
+        ],
+        "translated_keywords": {
+            "illegal drugs": {
+                "French": "drogues illégales",
+                "Portuguese": "drogas ilegais",
+                "German": "illegale Drogen",
+                "Spanish": "drogas ilegales"
+            },
+            "used": {
+                "French": "utilisé",
+                "Portuguese": "usado",
+                "German": "gebraucht",
+                "Spanish": "usado"
+            }
+        }
+    },
+    {
+        "sentence": "Preventive measures vary depending on the specific disorder.",
+        "keywords": [
+            "preventive measures",
+            "disorder"
+        ],
+        "translated_keywords": {
+            "preventive measures": {
+                "French": "mesures préventives",
+                "Portuguese": "medidas preventivas",
+                "German": "präventive Maßnahmen",
+                "Spanish": "medidas preventivas"
+            },
+            "disorder": {
+                "French": "désordre",
+                "Portuguese": "desordem",
+                "German": "Störung",
+                "Spanish": "trastorno"
+            }
+        }
+    },
+    {
+        "sentence": "Some laboratories use different measurements or may test different specimens.",
+        "keywords": [
+            "laboratories",
+            "measurements",
+            "test",
+            "specimens"
+        ],
+        "translated_keywords": {
+            "laboratories": {
+                "French": "laboratoires",
+                "Portuguese": "laboratórios",
+                "German": "Labore",
+                "Spanish": "laboratorios"
+            },
+            "measurements": {
+                "French": "mesures",
+                "Portuguese": "medidas",
+                "German": "Messungen",
+                "Spanish": "mediciones"
+            },
+            "test": {
+                "French": "test",
+                "Portuguese": "teste",
+                "German": "Test",
+                "Spanish": "prueba"
+            },
+            "specimens": {
+                "French": "spécimens",
+                "Portuguese": "especimes",
+                "German": "Proben",
+                "Spanish": "especímenes"
+            }
+        }
+    },
+    {
+        "sentence": "Menopause. A drop in the hormone estrogen causes vaginal dryness.",
+        "keywords": [
+            "menopause",
+            "hormone",
+            "estrogen",
+            "vaginal dryness"
+        ],
+        "translated_keywords": {
+            "menopause": {
+                "French": "ménopause",
+                "Portuguese": "menopausa",
+                "German": "Menopause",
+                "Spanish": "menopausia"
+            },
+            "hormone": {
+                "French": "hormone",
+                "Portuguese": "hormona",
+                "German": "Hormon",
+                "Spanish": "hormona"
+            },
+            "estrogen": {
+                "French": "œstrogène",
+                "Portuguese": "estrogênio",
+                "German": "Östrogen",
+                "Spanish": "estrógeno"
+            },
+            "vaginal dryness": {
+                "French": "sécheresse vaginale",
+                "Portuguese": "secura vaginal",
+                "German": "vaginale Trockenheit",
+                "Spanish": "sequedad vaginal"
+            }
+        }
+    },
+    {
+        "sentence": "Depression and older age are both risk factors for suicide.",
+        "keywords": [
+            "depression",
+            "older age",
+            "risk factors",
+            "suicide"
+        ],
+        "translated_keywords": {
+            "depression": {
+                "French": "dépression",
+                "Portuguese": "depressão",
+                "German": "Depression",
+                "Spanish": "depresión"
+            },
+            "older age": {
+                "French": "âge avancé",
+                "Portuguese": "idade avançada",
+                "German": "höheres Alter",
+                "Spanish": "edad avanzada"
+            },
+            "risk factors": {
+                "French": "facteurs de risque",
+                "Portuguese": "fatores de risco",
+                "German": "Risikofaktoren",
+                "Spanish": "factores de riesgo"
+            },
+            "suicide": {
+                "French": "suicide",
+                "Portuguese": "suicídio",
+                "German": "Selbstmord",
+                "Spanish": "suicidio"
+            }
+        }
+    },
+    {
+        "sentence": "Most women have only one polyp, but some women have two or three.",
+        "keywords": [
+            "polyp"
+        ],
+        "translated_keywords": {
+            "polyp": {
+                "French": "polype",
+                "Portuguese": "pólipo",
+                "German": "Polyp",
+                "Spanish": "pólipo"
+            }
+        }
+    },
+    {
+        "sentence": "This test is done to measure the level of amino acids in the blood.",
+        "keywords": [
+            "test",
+            "measure",
+            "amino acids",
+            "blood"
+        ],
+        "translated_keywords": {
+            "test": {
+                "French": "test",
+                "Portuguese": "teste",
+                "German": "Test",
+                "Spanish": "prueba"
+            },
+            "measure": {
+                "French": "mesurer",
+                "Portuguese": "medir",
+                "German": "messen",
+                "Spanish": "medir"
+            },
+            "amino acids": {
+                "French": "acides aminés",
+                "Portuguese": "aminoácidos",
+                "German": "Aminosäuren",
+                "Spanish": "ácidos aminoácidos"
+            },
+            "blood": {
+                "French": "sang",
+                "Portuguese": "sangue",
+                "German": "Blut",
+                "Spanish": "sangre"
+            }
+        }
+    },
+    {
+        "sentence": "The infection is spread by saliva, urine, respiratory droplets, sexual contact, and blood transfusions.",
+        "keywords": [
+            "infection",
+            "spread",
+            "saliva",
+            "urine",
+            "respiratory droplets",
+            "sexual contact",
+            "blood transfusions"
+        ],
+        "translated_keywords": {
+            "infection": {
+                "French": "infection",
+                "Portuguese": "infecção",
+                "German": "Infektion",
+                "Spanish": "infección"
+            },
+            "spread": {
+                "French": "étalement",
+                "Portuguese": "dispersão",
+                "German": "Verbreitung",
+                "Spanish": "dispersión"
+            },
+            "saliva": {
+                "French": "salive",
+                "Portuguese": "saliva",
+                "German": "Speichel",
+                "Spanish": "saliva"
+            },
+            "urine": {
+                "French": "urine",
+                "Portuguese": "urina",
+                "German": "Urin",
+                "Spanish": "orina"
+            },
+            "respiratory droplets": {
+                "French": "gouttelettes respiratoires",
+                "Portuguese": "gotículas respiratórias",
+                "German": "Atemtröpfchen",
+                "Spanish": "gotas respiratorias"
+            },
+            "sexual contact": {
+                "French": "contact sexuel",
+                "Portuguese": "contato sexual",
+                "German": "sexueller Kontakt",
+                "Spanish": "contacto sexual"
+            },
+            "blood transfusions": {
+                "French": "transfusions sanguines",
+                "Portuguese": "transfusões de sangue",
+                "German": "Bluttransfusionen",
+                "Spanish": "transfusiones de sangre"
+            }
+        }
+    },
+    {
+        "sentence": "You may occasionally eat lean, 3-ounce cuts of red meat.",
+        "keywords": [
+            "eat",
+            "lean meat",
+            "red meat"
+        ],
+        "translated_keywords": {
+            "eat": {
+                "French": "manger",
+                "Portuguese": "comer",
+                "German": "essen",
+                "Spanish": "comer"
+            },
+            "lean meat": {
+                "French": "viande maigre",
+                "Portuguese": "carne magra",
+                "German": "mageres Fleisch",
+                "Spanish": "carne magra"
+            },
+            "red meat": {
+                "French": "viande rouge",
+                "Portuguese": "carne vermelha",
+                "German": "rotes Fleisch",
+                "Spanish": "carne roja"
+            }
+        }
+    },
+    {
+        "sentence": "Several conditions may cause increased pressure in the skull, including:",
+        "keywords": [
+            "conditions",
+            "increased pressure",
+            "skull"
+        ],
+        "translated_keywords": {
+            "conditions": {
+                "French": "conditions",
+                "Portuguese": "condições",
+                "German": "Bedingungen",
+                "Spanish": "condiciones"
+            },
+            "increased pressure": {
+                "French": "pression accrue",
+                "Portuguese": "pressão aumentada",
+                "German": "erhöhter Druck",
+                "Spanish": "presión aumentada"
+            },
+            "skull": {
+                "French": "crâne",
+                "Portuguese": "crânio",
+                "German": "Schädel",
+                "Spanish": "cráneo"
+            }
+        }
+    },
+    {
+        "sentence": "Abnormal heart sounds",
+        "keywords": [
+            "abnormal heart sounds"
+        ],
+        "translated_keywords": {
+            "abnormal heart sounds": {
+                "French": "bruits cardiaques anormaux",
+                "Portuguese": "sons cardíacos anormais",
+                "German": "abnormale Herzgeräusche",
+                "Spanish": "sonidos cardíacos anormales"
+            }
+        }
+    },
+    {
+        "sentence": "Waxy, yellow surface",
+        "keywords": [
+            "waxy surface",
+            "yellow surface"
+        ],
+        "translated_keywords": {
+            "waxy surface": {
+                "French": "surface cireuse",
+                "Portuguese": "superfície cerosa",
+                "German": "wachsige Oberfläche",
+                "Spanish": "superficie cerosa"
+            },
+            "yellow surface": {
+                "French": "surface jaune",
+                "Portuguese": "superfície amarela",
+                "German": "gelbe Oberfläche",
+                "Spanish": "superficie amarilla"
+            }
+        }
+    },
+    {
+        "sentence": "Oxygen",
+        "keywords": [
+            "oxygen"
+        ],
+        "translated_keywords": {
+            "oxygen": {
+                "French": "oxygène",
+                "Portuguese": "oxigênio",
+                "German": "Sauerstoff",
+                "Spanish": "oxígeno"
+            }
+        }
+    },
+    {
+        "sentence": "Recent open heart surgery",
+        "keywords": [
+            "open heart surgery",
+            "recent surgery"
+        ],
+        "translated_keywords": {
+            "open heart surgery": {
+                "French": "chirurgie cardiaque ouverte",
+                "Portuguese": "cirurgia cardíaca aberta",
+                "German": "offene Herzchirurgie",
+                "Spanish": "cirugía cardíaca abierta"
+            },
+            "recent surgery": {
+                "French": "chirurgie récente",
+                "Portuguese": "cirurgia recente",
+                "German": "kürzliche Operation",
+                "Spanish": "cirugía reciente"
+            }
+        }
+    },
+    {
+        "sentence": "Thyroid disease",
+        "keywords": [
+            "thyroid disease"
+        ],
+        "translated_keywords": {
+            "thyroid disease": {
+                "French": "maladie thyroïdienne",
+                "Portuguese": "doença da tireoide",
+                "German": "Schilddrüsenerkrankung",
+                "Spanish": "enfermedad tiroidea"
+            }
+        }
+    },
+    {
+        "sentence": "Nausea",
+        "keywords": [
+            "nausea"
+        ],
+        "translated_keywords": {
+            "nausea": {
+                "French": "nausée",
+                "Portuguese": "náusea",
+                "German": "Übelkeit",
+                "Spanish": "náusea"
+            }
+        }
+    },
+    {
+        "sentence": "Brussels sprouts Cabbage",
+        "keywords": [
+            "Brussels sprouts",
+            "cabbage"
+        ],
+        "translated_keywords": {
+            "Brussels sprouts": {
+                "French": "choux de Bruxelles",
+                "Portuguese": "couve-de-bruxelas",
+                "German": "Rosenkohl",
+                "Spanish": "coles de Bruselas"
+            },
+            "cabbage": {
+                "French": "chou",
+                "Portuguese": "repolho",
+                "German": "Kohl",
+                "Spanish": "repollo"
+            }
+        }
+    },
+    {
+        "sentence": "Oysters",
+        "keywords": [
+            "oysters"
+        ],
+        "translated_keywords": {
+            "oysters": {
+                "French": "huîtres",
+                "Portuguese": "ostras",
+                "German": "Austern",
+                "Spanish": "ostras"
+            }
+        }
+    },
+    {
+        "sentence": "CPR can be lifesaving, but it is best done by someone trained in an accredited CPR course.",
+        "keywords": [
+            "CPR",
+            "lifesaving",
+            "trained",
+            "accredited CPR course"
+        ],
+        "translated_keywords": {
+            "CPR": {
+                "French": "RCP",
+                "Portuguese": "RCP",
+                "German": "HLW",
+                "Spanish": "RCP"
+            },
+            "lifesaving": {
+                "French": "sauvetage",
+                "Portuguese": "salvamento",
+                "German": "lebensrettend",
+                "Spanish": "salvavidas"
+            },
+            "trained": {
+                "French": "formé",
+                "Portuguese": "treinado",
+                "German": "trainiert",
+                "Spanish": "entrenado"
+            },
+            "accredited CPR course": {
+                "French": "cours de RCP accrédité",
+                "Portuguese": "curso de RCP acreditado",
+                "German": "akkreditierten CPR-Kurs",
+                "Spanish": "curso de RCP acreditado"
+            }
+        }
+    },
+    {
+        "sentence": "Always let your doctor know about any cold, flu, fever, herpes breakout, or other illnesses you may have. ",
+        "keywords": [
+            "doctor",
+            "cold",
+            "flu",
+            "fever",
+            "herpes breakout",
+            "illnesses"
+        ],
+        "translated_keywords": {
+            "doctor": {
+                "French": "docteur",
+                "Portuguese": "médico",
+                "German": "Arzt",
+                "Spanish": "doctor"
+            },
+            "cold": {
+                "French": "froid",
+                "Portuguese": "frio",
+                "German": "kalt",
+                "Spanish": "frío"
+            },
+            "flu": {
+                "French": "grippe",
+                "Portuguese": "gripe",
+                "German": "Grippe",
+                "Spanish": "gripe"
+            },
+            "fever": {
+                "French": "fièvre",
+                "Portuguese": "febre",
+                "German": "Fieber",
+                "Spanish": "fiebre"
+            },
+            "herpes breakout": {
+                "French": "éruption herpétique",
+                "Portuguese": "surto de herpes",
+                "German": "Herpesausbruch",
+                "Spanish": "brote de herpes"
+            },
+            "illnesses": {
+                "French": "maladies",
+                "Portuguese": "doenças",
+                "German": "Krankheiten",
+                "Spanish": "enfermedades"
+            }
+        }
+    },
+    {
+        "sentence": "Tretinoin (Retin-A) or creams containing alpha-hydroxy acids may be recommended, but these aren't guaranteed to help.",
+        "keywords": [
+            "Tretinoin",
+            "Retin-A",
+            "creams",
+            "alpha-hydroxy acids",
+            "recommended"
+        ],
+        "translated_keywords": {
+            "Tretinoin": {
+                "French": "Tretinoïne",
+                "Portuguese": "Tretinoína",
+                "German": "Tretinoin",
+                "Spanish": "Tretinoína"
+            },
+            "Retin-A": {
+                "French": "Retin-A",
+                "Portuguese": "Retin-A",
+                "German": "Retin-A",
+                "Spanish": "Retin-A"
+            },
+            "creams": {
+                "French": "crèmes",
+                "Portuguese": "cremes",
+                "German": "Cremes",
+                "Spanish": "cremas"
+            },
+            "alpha-hydroxy acids": {
+                "French": "acides alpha-hydroxy",
+                "Portuguese": "ácidos alfa-hidroxi",
+                "German": "Alpha-Hydroxysäuren",
+                "Spanish": "ácidos alfa-hidroxi"
+            },
+            "recommended": {
+                "French": "recommandé",
+                "Portuguese": "recomendado",
+                "German": "empfohlen",
+                "Spanish": "recomendado"
+            }
+        }
+    },
+    {
+        "sentence": "Fever is the classic symptom and may persist for days before any other symptoms appear.",
+        "keywords": [
+            "fever",
+            "symptom",
+            "persist"
+        ],
+        "translated_keywords": {
+            "fever": {
+                "French": "fièvre",
+                "Portuguese": "febre",
+                "German": "Fieber",
+                "Spanish": "fiebre"
+            },
+            "symptom": {
+                "French": "symptôme",
+                "Portuguese": "sintoma",
+                "German": "Symptom",
+                "Spanish": "síntoma"
+            },
+            "persist": {
+                "French": "persister",
+                "Portuguese": "persistir",
+                "German": "bestehen",
+                "Spanish": "persistir"
+            }
+        }
+    },
+    {
+        "sentence": "There is more likely to be increased amounts of pollen in the air on hot, dry, windy days.",
+        "keywords": [
+            "increased pollen",
+            "air"
+        ],
+        "translated_keywords": {
+            "increased pollen": {
+                "French": "augmentation du pollen",
+                "Portuguese": "aumento do pólen",
+                "German": "erhöhter Pollen",
+                "Spanish": "aumento del polen"
+            },
+            "air": {
+                "French": "air",
+                "Portuguese": "ar",
+                "German": "Luft",
+                "Spanish": "aire"
+            }
+        }
+    },
+    {
+        "sentence": "You get iron through certain foods, and your body also reuses iron from old red blood cells.",
+        "keywords": [
+            "iron",
+            "foods",
+            "red blood cells",
+            "reuses"
+        ],
+        "translated_keywords": {
+            "iron": {
+                "French": "fer",
+                "Portuguese": "ferro",
+                "German": "Eisen",
+                "Spanish": "hierro"
+            },
+            "foods": {
+                "French": "aliments",
+                "Portuguese": "alimentos",
+                "German": "Lebensmittel",
+                "Spanish": "alimentos"
+            },
+            "red blood cells": {
+                "French": "globules rouges",
+                "Portuguese": "glóbulos vermelhos",
+                "German": "rote Blutkörperchen",
+                "Spanish": "glóbulos rojos"
+            },
+            "reuses": {
+                "French": "réutilise",
+                "Portuguese": "reutiliza",
+                "German": "wiederverwendet",
+                "Spanish": "reutiliza"
+            }
+        }
+    },
+    {
+        "sentence": "Asthma symptoms usually occur much less often or disappear as the child gets get older.",
+        "keywords": [
+            "asthma symptoms",
+            "occur",
+            "disappear"
+        ],
+        "translated_keywords": {
+            "asthma symptoms": {
+                "French": "symptômes de l'asthme",
+                "Portuguese": "sintomas de asma",
+                "German": "Asthma-Symptome",
+                "Spanish": "síntomas del asma"
+            },
+            "occur": {
+                "French": "se produire",
+                "Portuguese": "ocorrer",
+                "German": "vorkommen",
+                "Spanish": "ocurrir"
+            },
+            "disappear": {
+                "French": "disparaître",
+                "Portuguese": "desaparecer",
+                "German": "verschwinden",
+                "Spanish": "desaparecer"
+            }
+        }
+    },
+    {
+        "sentence": "Potatoes that are not green and have had any sprouts removed are safe to eat.",
+        "keywords": [
+            "potatoes",
+            "sprouts removed",
+            "safe to eat"
+        ],
+        "translated_keywords": {
+            "potatoes": {
+                "French": "pommes de terre",
+                "Portuguese": "batatas",
+                "German": "Kartoffeln",
+                "Spanish": "patatas"
+            },
+            "sprouts removed": {
+                "French": "germes retirés",
+                "Portuguese": "brotos removidos",
+                "German": "Sprossen entfernt",
+                "Spanish": "brotes eliminados"
+            },
+            "safe to eat": {
+                "French": "sûr à manger",
+                "Portuguese": "seguro para comer",
+                "German": "essbar",
+                "Spanish": "seguro para comer"
+            }
+        }
+    },
+    {
+        "sentence": "When the needle is inserted to draw blood, you may feel moderate pain, or only a prick or stinging sensation.",
+        "keywords": [
+            "needle",
+            "inserted",
+            "draw blood",
+            "pain",
+            "prick",
+            "stinging sensation"
+        ],
+        "translated_keywords": {
+            "needle": {
+                "French": "aiguille",
+                "Portuguese": "agulha",
+                "German": "Nadel",
+                "Spanish": "aguja"
+            },
+            "inserted": {
+                "French": "inséré",
+                "Portuguese": "inserido",
+                "German": "eingefügt",
+                "Spanish": "insertado"
+            },
+            "draw blood": {
+                "French": "faire une prise de sang",
+                "Portuguese": "coletar sangue",
+                "German": "Blut abnehmen",
+                "Spanish": "sacar sangre"
+            },
+            "pain": {
+                "French": "douleur",
+                "Portuguese": "dor",
+                "German": "Schmerz",
+                "Spanish": "dolor"
+            },
+            "prick": {
+                "French": "épine",
+                "Portuguese": "espinho",
+                "German": "Stachel",
+                "Spanish": "espina"
+            },
+            "stinging sensation": {
+                "French": "sensation de piqûre",
+                "Portuguese": "sensação de picada",
+                "German": "stechendes Gefühl",
+                "Spanish": "sensación de picor"
+            }
+        }
+    },
+    {
+        "sentence": "However, as a general rule, once a substance causes allergies for an individual, it can continue to affect the person long term.",
+        "keywords": [
+            "substance",
+            "causes",
+            "allergies",
+            "affect",
+            "long term"
+        ],
+        "translated_keywords": {
+            "substance": {
+                "French": "substance",
+                "Portuguese": "substância",
+                "German": "Substanz",
+                "Spanish": "sustancia"
+            },
+            "causes": {
+                "French": "causes",
+                "Portuguese": "causas",
+                "German": "Ursachen",
+                "Spanish": "causas"
+            },
+            "allergies": {
+                "French": "allergies",
+                "Portuguese": "alergias",
+                "German": "Allergien",
+                "Spanish": "alergias"
+            },
+            "affect": {
+                "French": "affecter",
+                "Portuguese": "afetar",
+                "German": "beeinflussen",
+                "Spanish": "afectar"
+            },
+            "long term": {
+                "French": "long terme",
+                "Portuguese": "longo prazo",
+                "German": "langfristig",
+                "Spanish": "largo plazo"
+            }
+        }
+    },
+    {
+        "sentence": "If you have surgery, your sperm count will likely increase but it will not improve your chances of getting a woman pregnant.",
+        "keywords": [
+            "surgery",
+            "sperm count",
+            "increase",
+            "pregnancy"
+        ],
+        "translated_keywords": {
+            "surgery": {
+                "French": "chirurgie",
+                "Portuguese": "cirurgia",
+                "German": "Chirurgie",
+                "Spanish": "cirugía"
+            },
+            "sperm count": {
+                "French": "nombre de spermatozoïdes",
+                "Portuguese": "contagem de esperma",
+                "German": "Spermienzahl",
+                "Spanish": "recuento de esperma"
+            },
+            "increase": {
+                "French": "augmenter",
+                "Portuguese": "aumentar",
+                "German": "erhöhen",
+                "Spanish": "aumentar"
+            },
+            "pregnancy": {
+                "French": "grossesse",
+                "Portuguese": "gravidez",
+                "German": "Schwangerschaft",
+                "Spanish": "embarazo"
+            }
+        }
+    },
+    {
+        "sentence": "Screening women with pelvic ultrasound or blood tests, such as the Ca-125 has not been found to be effective and is not recommended.",
+        "keywords": [
+            "screening",
+            "pelvic ultrasound",
+            "blood tests",
+            "Ca-125",
+            "effective",
+            "recommended"
+        ],
+        "translated_keywords": {
+            "screening": {
+                "French": "dépistage",
+                "Portuguese": "triagem",
+                "German": "Screening",
+                "Spanish": "cribado"
+            },
+            "pelvic ultrasound": {
+                "French": "échographie pelvienne",
+                "Portuguese": "ultrassom pélvico",
+                "German": "Beckenultraschall",
+                "Spanish": "ultrasonido pélvico"
+            },
+            "blood tests": {
+                "French": "tests sanguins",
+                "Portuguese": "exames de sangue",
+                "German": "Blutuntersuchungen",
+                "Spanish": "análisis de sangre"
+            },
+            "Ca-125": {
+                "French": "Ca-125",
+                "Portuguese": "Ca-125",
+                "German": "Ca-125",
+                "Spanish": "Ca-125"
+            },
+            "effective": {
+                "French": "efficace",
+                "Portuguese": "eficaz",
+                "German": "wirksam",
+                "Spanish": "eficaz"
+            },
+            "recommended": {
+                "French": "recommandé",
+                "Portuguese": "recomendado",
+                "German": "empfohlen",
+                "Spanish": "recomendado"
+            }
+        }
+    },
+    {
+        "sentence": "Protein can also be used by the body for energy, but only after glycogen or carbohydrate stores have been used up.",
+        "keywords": [
+            "protein",
+            "energy",
+            "glycogen",
+            "carbohydrate"
+        ],
+        "translated_keywords": {
+            "protein": {
+                "French": "protéine",
+                "Portuguese": "proteína",
+                "German": "Protein",
+                "Spanish": "proteína"
+            },
+            "energy": {
+                "French": "énergie",
+                "Portuguese": "energia",
+                "German": "Energie",
+                "Spanish": "energía"
+            },
+            "glycogen": {
+                "French": "glycogène",
+                "Portuguese": "glicogênio",
+                "German": "Glykogen",
+                "Spanish": "glucógeno"
+            },
+            "carbohydrate": {
+                "French": "glucide",
+                "Portuguese": "carboidrato",
+                "German": "Kohlenhydrat",
+                "Spanish": "carbohidrato"
+            }
+        }
+    },
+    {
+        "sentence": "An extradural hemorrhage is bleeding between the inside of the skull and the outer covering of the brain (called the \"dura\").",
+        "keywords": [
+            "extradural hemorrhage",
+            "bleeding",
+            "skull",
+            "brain",
+            "dura"
+        ],
+        "translated_keywords": {
+            "extradural hemorrhage": {
+                "French": "hémorragie extradurale",
+                "Portuguese": "hemorragia extradural",
+                "German": "extradurale Blutung",
+                "Spanish": "hemorragia extradural"
+            },
+            "bleeding": {
+                "French": "saignement",
+                "Portuguese": "sangramento",
+                "German": "Blutung",
+                "Spanish": "sangrado"
+            },
+            "skull": {
+                "French": "crâne",
+                "Portuguese": "crânio",
+                "German": "Schädel",
+                "Spanish": "cráneo"
+            },
+            "brain": {
+                "French": "cerveau",
+                "Portuguese": "cérebro",
+                "German": "Gehirn",
+                "Spanish": "cerebro"
+            },
+            "dura": {
+                "French": "dur",
+                "Portuguese": "duro",
+                "German": "hart",
+                "Spanish": "duro"
+            }
+        }
+    },
+    {
+        "sentence": "Without PIG-A, important proteins cannot connect to the cell surface and protect the cell from substances in the blood called complement.",
+        "keywords": [
+            "PIG-A",
+            "proteins",
+            "connect",
+            "cell surface",
+            "protect",
+            "blood",
+            "complement"
+        ],
+        "translated_keywords": {
+            "PIG-A": {
+                "French": "PIG-A",
+                "Portuguese": "PIG-A",
+                "German": "PIG-A",
+                "Spanish": "PIG-A"
+            },
+            "proteins": {
+                "French": "protéines",
+                "Portuguese": "proteínas",
+                "German": "Proteine",
+                "Spanish": "proteínas"
+            },
+            "connect": {
+                "French": "connecter",
+                "Portuguese": "conectar",
+                "German": "verbinden",
+                "Spanish": "conectar"
+            },
+            "cell surface": {
+                "French": "surface cellulaire",
+                "Portuguese": "superfície celular",
+                "German": "Zelloberfläche",
+                "Spanish": "superficie celular"
+            },
+            "protect": {
+                "French": "protéger",
+                "Portuguese": "proteger",
+                "German": "schützen",
+                "Spanish": "proteger"
+            },
+            "blood": {
+                "French": "sang",
+                "Portuguese": "sangue",
+                "German": "Blut",
+                "Spanish": "sangre"
+            },
+            "complement": {
+                "French": "complément",
+                "Portuguese": "complemento",
+                "German": "Ergänzung",
+                "Spanish": "complemento"
+            }
+        }
+    },
+    {
+        "sentence": "If you can see bone in the injured site, call your local emergency number (such as 911) or local hospital for further advice.",
+        "keywords": [
+            "bone",
+            "injured site",
+            "emergency",
+            "hospital",
+            "advice"
+        ],
+        "translated_keywords": {
+            "bone": {
+                "French": "os",
+                "Portuguese": "osso",
+                "German": "Knochen",
+                "Spanish": "hueso"
+            },
+            "injured site": {
+                "French": "site blessé",
+                "Portuguese": "local ferido",
+                "German": "verletzter Ort",
+                "Spanish": "sitio herido"
+            },
+            "emergency": {
+                "French": "urgence",
+                "Portuguese": "emergência",
+                "German": "Notfall",
+                "Spanish": "emergencia"
+            },
+            "hospital": {
+                "French": "hôpital",
+                "Portuguese": "hospital",
+                "German": "Krankenhaus",
+                "Spanish": "hospital"
+            },
+            "advice": {
+                "French": "conseil",
+                "Portuguese": "conselho",
+                "German": "Rat",
+                "Spanish": "consejo"
+            }
+        }
+    },
+    {
+        "sentence": "Bladder distention (urinary bladder over-filled with fluid) can cause a firm mass in the center of the lower abdomen above the pelvic bones.In extreme cases it can reach as far up as the navel.",
+        "keywords": [
+            "bladder distention",
+            "urinary bladder",
+            "fluid",
+            "mass",
+            "lower abdomen",
+            "pelvic bones",
+            "navel"
+        ],
+        "translated_keywords": {
+            "bladder distention": {
+                "French": "distension de la vessie",
+                "Portuguese": "distensão da bexiga",
+                "German": "Blasenüberdehnung",
+                "Spanish": "distensión de la vejiga"
+            },
+            "urinary bladder": {
+                "French": "vessie urinaire",
+                "Portuguese": "bexiga urinária",
+                "German": "Harnblase",
+                "Spanish": "vejiga urinaria"
+            },
+            "fluid": {
+                "French": "fluide",
+                "Portuguese": "fluido",
+                "German": "fluid",
+                "Spanish": "fluido"
+            },
+            "mass": {
+                "French": "masse",
+                "Portuguese": "massa",
+                "German": "Masse",
+                "Spanish": "masa"
+            },
+            "lower abdomen": {
+                "French": "bas-ventre",
+                "Portuguese": "abdômen inferior",
+                "German": "Unterbauch",
+                "Spanish": "abdomen inferior"
+            },
+            "pelvic bones": {
+                "French": "os pelviens",
+                "Portuguese": "ossos pélvicos",
+                "German": "Beckenknochen",
+                "Spanish": "huesos pélvicos"
+            },
+            "navel": {
+                "French": "nombril",
+                "Portuguese": "umbigo",
+                "German": "Bauchnabel",
+                "Spanish": "ombligo"
+            }
+        }
+    },
+    {
+        "sentence": "Your kidneys help control your body's acid level by removing acid from the blood and sending it into your urine.Acidic substances in the body are counteracted by alkaline substances, primarily bicarbonate.",
+        "keywords": [
+            "kidneys",
+            "acid level",
+            "removing acid",
+            "blood",
+            "urine",
+            "alkaline substances",
+            "bicarbonate"
+        ],
+        "translated_keywords": {
+            "kidneys": {
+                "French": "reins",
+                "Portuguese": "rins",
+                "German": "Nieren",
+                "Spanish": "riñones"
+            },
+            "acid level": {
+                "French": "niveau d'acide",
+                "Portuguese": "nível de ácido",
+                "German": "Säuregehalt",
+                "Spanish": "nivel de acidez"
+            },
+            "removing acid": {
+                "French": "élimination de l'acide",
+                "Portuguese": "remoção de ácido",
+                "German": "Entfernung von Säure",
+                "Spanish": "eliminación de ácido"
+            },
+            "blood": {
+                "French": "sang",
+                "Portuguese": "sangue",
+                "German": "Blut",
+                "Spanish": "sangre"
+            },
+            "urine": {
+                "French": "urine",
+                "Portuguese": "urina",
+                "German": "Urin",
+                "Spanish": "orina"
+            },
+            "alkaline substances": {
+                "French": "substances alcalines",
+                "Portuguese": "substâncias alcalinas",
+                "German": "alkalische Substanzen",
+                "Spanish": "sustancias alcalinas"
+            },
+            "bicarbonate": {
+                "French": "bicarbonate",
+                "Portuguese": "bicarbonato",
+                "German": "Bicarbonat",
+                "Spanish": "bicarbonato"
+            }
+        }
+    },
+    {
+        "sentence": "You'll likely be diagnosed with rheumatic fever if you meet two major criteria, or one major and two minor criteria, and have signs that you've had a previous strep infection.",
+        "keywords": [
+            "diagnosed",
+            "rheumatic fever",
+            "criteria",
+            "strep infection"
+        ],
+        "translated_keywords": {
+            "diagnosed": {
+                "French": "diagnostiqué",
+                "Portuguese": "diagnosticado",
+                "German": "diagnostiziert",
+                "Spanish": "diagnosticado"
+            },
+            "rheumatic fever": {
+                "French": "fièvre rhumatismale",
+                "Portuguese": "febre reumática",
+                "German": "rheumatisches Fieber",
+                "Spanish": "fiebre reumática"
+            },
+            "criteria": {
+                "French": "critères",
+                "Portuguese": "critérios",
+                "German": "Kriterien",
+                "Spanish": "criterios"
+            },
+            "strep infection": {
+                "French": "infection à streptocoque",
+                "Portuguese": "infecção por estreptococos",
+                "German": "Streptokokkeninfektion",
+                "Spanish": "infección por estreptococos"
+            }
+        }
+    },
+    {
+        "sentence": "A trained physician, often a cardiologist, inserts a small needle into the chest between the ribs and into the thin sac that surrounds the heart (the pericardium).A small amount of fluid is taken out.",
+        "keywords": [
+            "physician",
+            "cardiologist",
+            "inserts",
+            "needle",
+            "chest",
+            "ribs",
+            "pericardium",
+            "fluid removal"
+        ],
+        "translated_keywords": {
+            "physician": {
+                "French": "médecin",
+                "Portuguese": "médico",
+                "German": "Arzt",
+                "Spanish": "médico"
+            },
+            "cardiologist": {
+                "French": "cardiologue",
+                "Portuguese": "cardiologista",
+                "German": "Kardiologe",
+                "Spanish": "cardiólogo"
+            },
+            "inserts": {
+                "French": "inserts",
+                "Portuguese": "inserções",
+                "German": "Einfügungen",
+                "Spanish": "inserciones"
+            },
+            "needle": {
+                "French": "aiguille",
+                "Portuguese": "agulha",
+                "German": "Nadel",
+                "Spanish": "aguja"
+            },
+            "chest": {
+                "French": "poitrine",
+                "Portuguese": "peito",
+                "German": "Brust",
+                "Spanish": "pecho"
+            },
+            "ribs": {
+                "French": "côtes",
+                "Portuguese": "costelas",
+                "German": "Rippen",
+                "Spanish": "costillas"
+            },
+            "pericardium": {
+                "French": "péricarde",
+                "Portuguese": "pericárdio",
+                "German": "Herzbeutel",
+                "Spanish": "pericardio"
+            },
+            "fluid removal": {
+                "French": "élimination des fluides",
+                "Portuguese": "remoção de fluidos",
+                "German": "Flüssigkeitsentfernung",
+                "Spanish": "eliminación de fluidos"
+            }
+        }
+    },
+    {
+        "sentence": "Increased calcium for a limited period of time does not normally cause side effects.However, receiving higher amounts of calcium over a long period of time raises the risk of kidney stones in some people.",
+        "keywords": [
+            "increased calcium",
+            "side effects",
+            "kidney stones",
+            "risk"
+        ],
+        "translated_keywords": {
+            "increased calcium": {
+                "French": "calcium augmenté",
+                "Portuguese": "cálcio aumentado",
+                "German": "erhöhtes Calcium",
+                "Spanish": "calcio aumentado"
+            },
+            "side effects": {
+                "French": "effets secondaires",
+                "Portuguese": "efeitos colaterais",
+                "German": "Nebenwirkungen",
+                "Spanish": "efectos secundarios"
+            },
+            "kidney stones": {
+                "French": "calculs rénaux",
+                "Portuguese": "pedras nos rins",
+                "German": "Nierensteine",
+                "Spanish": "piedras en los riñones"
+            },
+            "risk": {
+                "French": "risque",
+                "Portuguese": "risco",
+                "German": "Risiko",
+                "Spanish": "riesgo"
+            }
+        }
+    },
+    {
+        "sentence": "Children with early sexual development are more likely to have psychological and social problems.Children and adolescents generally want to be the same as their peers, and early sexual development can make them appear different.",
+        "keywords": [
+            "early sexual development",
+            "psychological problems",
+            "social problems",
+            "adolescents"
+        ],
+        "translated_keywords": {
+            "early sexual development": {
+                "French": "développement sexuel précoce",
+                "Portuguese": "desenvolvimento sexual precoce",
+                "German": "frühe sexuelle Entwicklung",
+                "Spanish": "desarrollo sexual temprano"
+            },
+            "psychological problems": {
+                "French": "problèmes psychologiques",
+                "Portuguese": "problemas psicológicos",
+                "German": "psychologische Probleme",
+                "Spanish": "problemas psicológicos"
+            },
+            "social problems": {
+                "French": "problèmes sociaux",
+                "Portuguese": "problemas sociais",
+                "German": "soziale Probleme",
+                "Spanish": "problemas sociales"
+            },
+            "adolescents": {
+                "French": "adolescents",
+                "Portuguese": "adolescentes",
+                "German": "Jugendliche",
+                "Spanish": "adolescentes"
+            }
+        }
+    },
+    {
+        "sentence": "Veins and arteries vary in size from one patient to another and from one side of the body to the other.Obtaining a blood sample from some people may be more difficult than from others.",
+        "keywords": [
+            "veins",
+            "arteries",
+            "blood sample",
+            "obtaining"
+        ],
+        "translated_keywords": {
+            "veins": {
+                "French": "veines",
+                "Portuguese": "veias",
+                "German": "Venen",
+                "Spanish": "venas"
+            },
+            "arteries": {
+                "French": "artères",
+                "Portuguese": "artérias",
+                "German": "Arterien",
+                "Spanish": "arterias"
+            },
+            "blood sample": {
+                "French": "échantillon de sang",
+                "Portuguese": "amostra de sangue",
+                "German": "Blutprobe",
+                "Spanish": "muestra de sangre"
+            },
+            "obtaining": {
+                "French": "obtention",
+                "Portuguese": "obtenção",
+                "German": "Erwerb",
+                "Spanish": "obtención"
+            }
+        }
+    },
+    {
+        "sentence": "In many cases it will prevent you from getting sick.For example, a person who has had chickenpox or has been immunized against chickenpox is immune from getting chickenpox again.Watch this video about:Immune response",
+        "keywords": [
+            "prevent",
+            "sick",
+            "chickenpox",
+            "immunized",
+            "immune response"
+        ],
+        "translated_keywords": {
+            "prevent": {
+                "French": "prévenir",
+                "Portuguese": "prevenir",
+                "German": "verhindern",
+                "Spanish": "prevenir"
+            },
+            "sick": {
+                "French": "malade",
+                "Portuguese": "doente",
+                "German": "krank",
+                "Spanish": "enfermo"
+            },
+            "chickenpox": {
+                "French": "varicelle",
+                "Portuguese": "catapora",
+                "German": "Windpocken",
+                "Spanish": "varicela"
+            },
+            "immunized": {
+                "French": "immunisé",
+                "Portuguese": "imunizado",
+                "German": "immunisiert",
+                "Spanish": "inmunizado"
+            },
+            "immune response": {
+                "French": "réponse immunitaire",
+                "Portuguese": "resposta imunológica",
+                "German": "Immunantwort",
+                "Spanish": "respuesta inmune"
+            }
+        }
+    },
+    {
+        "sentence": "For example, a food that has 13 grams of fat with a Percent Daily Value of 20% means that 13 grams of fat is 20%, or one-fifth, of the total daily fat recommended for a person who eats 2,000 calories per day.",
+        "keywords": [
+            "food",
+            "fat",
+            "Percent Daily Value",
+            "calories"
+        ],
+        "translated_keywords": {
+            "food": {
+                "French": "nourriture",
+                "Portuguese": "comida",
+                "German": "Essen",
+                "Spanish": "comida"
+            },
+            "fat": {
+                "French": "gras",
+                "Portuguese": "gordura",
+                "German": "Fett",
+                "Spanish": "grasa"
+            },
+            "Percent Daily Value": {
+                "French": "Pourcentage de Valeur Quotidienne",
+                "Portuguese": "Percentual de Valor Diário",
+                "German": "Prozentsatz der täglichen Werte",
+                "Spanish": "Porcentaje de Valor Diario"
+            },
+            "calories": {
+                "French": "calories",
+                "Portuguese": "calorias",
+                "German": "Kalorien",
+                "Spanish": "calorías"
+            }
+        }
+    },
+    {
+        "sentence": "Laparoscopic repair: Your surgeon will make 3 - 5 small cuts in your belly.Your surgeon will insert a laparoscope (a thin, hollow tube with a tiny camera on the end) through one of these cuts and other tools through the other cuts.",
+        "keywords": [
+            "laparoscopic repair",
+            "surgeon",
+            "cuts",
+            "laparoscope",
+            "camera",
+            "tools"
+        ],
+        "translated_keywords": {
+            "laparoscopic repair": {
+                "French": "réparation laparoscopique",
+                "Portuguese": "reparo laparoscópico",
+                "German": "laparoskopische Reparatur",
+                "Spanish": "reparación laparoscópica"
+            },
+            "surgeon": {
+                "French": "chirurgien",
+                "Portuguese": "cirurgião",
+                "German": "Chirurg",
+                "Spanish": "cirujano"
+            },
+            "cuts": {
+                "French": "coupes",
+                "Portuguese": "cortes",
+                "German": "Schnitte",
+                "Spanish": "cortes"
+            },
+            "laparoscope": {
+                "French": "laparoscope",
+                "Portuguese": "laparoscópio",
+                "German": "Laparoskop",
+                "Spanish": "laparoscopio"
+            },
+            "camera": {
+                "French": "caméra",
+                "Portuguese": "câmera",
+                "German": "Kamera",
+                "Spanish": "cámara"
+            },
+            "tools": {
+                "French": "outils",
+                "Portuguese": "ferramentas",
+                "German": "Werkzeuge",
+                "Spanish": "herramientas"
+            }
+        }
+    },
+    {
+        "sentence": "However, recent studies do not support this idea, and suggest that these medications can be used in children with tics who also have attention-deficit disorder (which often occurs in the same group of children).A chronic motor tic disorder also exists.",
+        "keywords": [
+            "medications",
+            "children",
+            "tics",
+            "attention-deficit disorder",
+            "chronic motor tic disorder"
+        ],
+        "translated_keywords": {
+            "medications": {
+                "French": "médicaments",
+                "Portuguese": "medicamentos",
+                "German": "Medikamente",
+                "Spanish": "medicamentos"
+            },
+            "children": {
+                "French": "enfants",
+                "Portuguese": "crianças",
+                "German": "Kinder",
+                "Spanish": "niños"
+            },
+            "tics": {
+                "French": "tics",
+                "Portuguese": "tiques",
+                "German": "Tics",
+                "Spanish": "tics"
+            },
+            "attention-deficit disorder": {
+                "French": "trouble du déficit de l'attention",
+                "Portuguese": "transtorno do déficit de atenção",
+                "German": "Aufmerksamkeitsdefizitstörung",
+                "Spanish": "trastorno por déficit de atención"
+            },
+            "chronic motor tic disorder": {
+                "French": "trouble moteur tic chronique",
+                "Portuguese": "transtorno motor de tiques crônicos",
+                "German": "chronische motorische Tic-Störung",
+                "Spanish": "trastorno crónico de tics motores"
+            }
+        }
+    },
+    {
+        "sentence": "These symptoms are more likely to occur if the skin has been cut or rubbed because this gives the MRSA germ a way to “get in.” Symptoms are also more likely in areas where there is more body hair due to hair follicles.",
+        "keywords": [
+            "symptoms",
+            "skin",
+            "cut",
+            "rubbed",
+            "MRSA",
+            "germ",
+            "body hair",
+            "hair follicles"
+        ],
+        "translated_keywords": {
+            "symptoms": {
+                "French": "symptômes",
+                "Portuguese": "sintomas",
+                "German": "Symptome",
+                "Spanish": "síntomas"
+            },
+            "skin": {
+                "French": "peau",
+                "Portuguese": "pele",
+                "German": "Haut",
+                "Spanish": "piel"
+            },
+            "cut": {
+                "French": "couper",
+                "Portuguese": "cortar",
+                "German": "schneiden",
+                "Spanish": "cortar"
+            },
+            "rubbed": {
+                "French": "frotté",
+                "Portuguese": "esfregado",
+                "German": "gerieben",
+                "Spanish": "frotado"
+            },
+            "MRSA": {
+                "French": "SARM",
+                "Portuguese": "SARM",
+                "German": "MRSA",
+                "Spanish": "SARM"
+            },
+            "germ": {
+                "French": "germe",
+                "Portuguese": "germe",
+                "German": "Keim",
+                "Spanish": "germen"
+            },
+            "body hair": {
+                "French": "poils du corps",
+                "Portuguese": "pelos do corpo",
+                "German": "Körperhaare",
+                "Spanish": "vello corporal"
+            },
+            "hair follicles": {
+                "French": "follicules pileux",
+                "Portuguese": "folículos capilares",
+                "German": "Haarfollikel",
+                "Spanish": "folículos pilosos"
+            }
+        }
+    },
+    {
+        "sentence": "Some patients develop heart failure and high blood pressure in the blood vessels of their lungs.Your chances of recovering or of the disease getting worse depend on the cause and how severe the disease was when it was first diagnosed.",
+        "keywords": [
+            "heart failure",
+            "high blood pressure",
+            "blood vessels",
+            "lungs",
+            "recovering",
+            "disease",
+            "diagnosed"
+        ],
+        "translated_keywords": {
+            "heart failure": {
+                "French": "insuffisance cardiaque",
+                "Portuguese": "insuficiência cardíaca",
+                "German": "Herzinsuffizienz",
+                "Spanish": "insuficiencia cardíaca"
+            },
+            "high blood pressure": {
+                "French": "hypertension artérielle",
+                "Portuguese": "hipertensão arterial",
+                "German": "Bluthochdruck",
+                "Spanish": "hipertensión arterial"
+            },
+            "blood vessels": {
+                "French": "vaisseaux sanguins",
+                "Portuguese": "vasos sanguíneos",
+                "German": "Blutgefäße",
+                "Spanish": "vasos sanguíneos"
+            },
+            "lungs": {
+                "French": "poumons",
+                "Portuguese": "pulmões",
+                "German": "Lungen",
+                "Spanish": "pulmones"
+            },
+            "recovering": {
+                "French": "récupération",
+                "Portuguese": "recuperando",
+                "German": "wiederherstellen",
+                "Spanish": "recuperando"
+            },
+            "disease": {
+                "French": "maladie",
+                "Portuguese": "doença",
+                "German": "Krankheit",
+                "Spanish": "enfermedad"
+            },
+            "diagnosed": {
+                "French": "diagnostiqué",
+                "Portuguese": "diagnosticado",
+                "German": "diagnostiziert",
+                "Spanish": "diagnosticado"
+            }
+        }
+    },
+    {
+        "sentence": "If a young child refuses to put weight on an arm or leg after an accident, won't move the arm or leg, or you can clearly see a deformity, assume the child has a broken bone and get medical help.",
+        "keywords": [
+            "child",
+            "broken bone",
+            "deformity",
+            "medical help"
+        ],
+        "translated_keywords": {
+            "child": {
+                "French": "enfant",
+                "Portuguese": "criança",
+                "German": "Kind",
+                "Spanish": "niño"
+            },
+            "broken bone": {
+                "French": "os cassé",
+                "Portuguese": "osso quebrado",
+                "German": "gebrochenes Bein",
+                "Spanish": "hueso roto"
+            },
+            "deformity": {
+                "French": "déformation",
+                "Portuguese": "deformidade",
+                "German": "Deformität",
+                "Spanish": "deformidad"
+            },
+            "medical help": {
+                "French": "aide médicale",
+                "Portuguese": "ajuda médica",
+                "German": "medizinische Hilfe",
+                "Spanish": "ayuda médica"
+            }
+        }
+    },
+    {
+        "sentence": "The amount of liquid you eat (such as soup) or drink will be limited to the amount of urine you can produce.You will be told what you may and may not eat to reduce the buildup of toxins that the kidneys would normally remove.",
+        "keywords": [
+            "liquid intake",
+            "urine production",
+            "toxins",
+            "kidneys",
+            "remove"
+        ],
+        "translated_keywords": {
+            "liquid intake": {
+                "French": "apport liquid",
+                "Portuguese": "ingestão de líquidos",
+                "German": "Flüssigkeitsaufnahme",
+                "Spanish": "ingesta de líquidos"
+            },
+            "urine production": {
+                "French": "production d'urine",
+                "Portuguese": "produção de urina",
+                "German": "Urinproduktion",
+                "Spanish": "producción de orina"
+            },
+            "toxins": {
+                "French": "toxines",
+                "Portuguese": "toxinas",
+                "German": "Toxine",
+                "Spanish": "toxinas"
+            },
+            "kidneys": {
+                "French": "reins",
+                "Portuguese": "rins",
+                "German": "Nieren",
+                "Spanish": "riñones"
+            },
+            "remove": {
+                "French": "retirer",
+                "Portuguese": "remover",
+                "German": "entfernen",
+                "Spanish": "eliminar"
+            }
+        }
+    },
+    {
+        "sentence": "The most common use of this test is to help diagnose and monitor a disorder called sarcoidosis . People with sarcoidosis may have their ACE levels tested regularly to check the severity of the disease and see how well treatment is working. ",
+        "keywords": [
+            "diagnose",
+            "monitor",
+            "sarcoidosis",
+            "ACE levels",
+            "disease severity",
+            "treatment"
+        ],
+        "translated_keywords": {
+            "diagnose": {
+                "French": "diagnostiquer",
+                "Portuguese": "diagnosticar",
+                "German": "diagnostizieren",
+                "Spanish": "diagnosticar"
+            },
+            "monitor": {
+                "French": "moniteur",
+                "Portuguese": "monitor",
+                "German": "Monitor",
+                "Spanish": "monitor"
+            },
+            "sarcoidosis": {
+                "French": "sarcoïdose",
+                "Portuguese": "sarcoidose",
+                "German": "Sarkoidose",
+                "Spanish": "sarcoidosis"
+            },
+            "ACE levels": {
+                "French": "niveaux ACE",
+                "Portuguese": "níveis ACE",
+                "German": "ACE-Niveaus",
+                "Spanish": "niveles ACE"
+            },
+            "disease severity": {
+                "French": "gravité de la maladie",
+                "Portuguese": "gravidade da doença",
+                "German": "Schwere der Krankheit",
+                "Spanish": "gravedad de la enfermedad"
+            },
+            "treatment": {
+                "French": "traitement",
+                "Portuguese": "tratamento",
+                "German": "Behandlung",
+                "Spanish": "tratamiento"
+            }
+        }
+    },
+    {
+        "sentence": "Allergic conjunctivitis occurs when the clear layer of tissue lining the eyelids and covering the white of the eye (conjunctiva) become swollen or inflamed due to a reaction to pollen, dander, mold, or other allergy-causing substances.",
+        "keywords": [
+            "allergic conjunctivitis",
+            "eyelids",
+            "conjunctiva",
+            "swollen",
+            "inflamed",
+            "allergy"
+        ],
+        "translated_keywords": {
+            "allergic conjunctivitis": {
+                "French": "conjonctivite allergique",
+                "Portuguese": "conjuntivite alérgica",
+                "German": "allergische Bindehautentzündung",
+                "Spanish": "conjuntivitis alérgica"
+            },
+            "eyelids": {
+                "French": "paupières",
+                "Portuguese": "pálpebras",
+                "German": "Augenlider",
+                "Spanish": "párpados"
+            },
+            "conjunctiva": {
+                "French": "conjonctive",
+                "Portuguese": "conjuntiva",
+                "German": "Bindehaut",
+                "Spanish": "conjuntiva"
+            },
+            "swollen": {
+                "French": "enflé",
+                "Portuguese": "inchado",
+                "German": "geschwollen",
+                "Spanish": "hinchado"
+            },
+            "inflamed": {
+                "French": "enflammé",
+                "Portuguese": "inflamado",
+                "German": "entzündet",
+                "Spanish": "inflamado"
+            },
+            "allergy": {
+                "French": "allergie",
+                "Portuguese": "alergia",
+                "German": "Allergie",
+                "Spanish": "alergia"
+            }
+        }
+    },
+    {
+        "sentence": "Advance care directives allow patients to provide instructions about their preferences regarding the care they would like to receive if they develop an illness or a life-threatening injury and are unable to express their preferences.",
+        "keywords": [
+            "advance care directives",
+            "patients",
+            "illness",
+            "life-threatening injury",
+            "preferences"
+        ],
+        "translated_keywords": {
+            "advance care directives": {
+                "French": "directives anticipées",
+                "Portuguese": "diretivas antecipadas de vontade",
+                "German": "Patientenverfügung",
+                "Spanish": "directivas anticipadas"
+            },
+            "patients": {
+                "French": "patients",
+                "Portuguese": "pacientes",
+                "German": "Patienten",
+                "Spanish": "pacientes"
+            },
+            "illness": {
+                "French": "maladie",
+                "Portuguese": "doença",
+                "German": "Krankheit",
+                "Spanish": "enfermedad"
+            },
+            "life-threatening injury": {
+                "French": "blessure mettant en danger la vie",
+                "Portuguese": "lesão com risco de vida",
+                "German": "lebensbedrohliche Verletzung",
+                "Spanish": "lesión que amenaza la vida"
+            },
+            "preferences": {
+                "French": "préférences",
+                "Portuguese": "preferências",
+                "German": "Präferenzen",
+                "Spanish": "preferencias"
+            }
+        }
+    },
+    {
+        "sentence": "People with this condition generally have a large left ventricle (the pumping chamber of the heart that supplies the body with blood), and a small right ventricle (the pumping chamber that supplies the lungs with blood).",
+        "keywords": [
+            "left ventricle",
+            "right ventricle",
+            "heart",
+            "lungs",
+            "blood supply"
+        ],
+        "translated_keywords": {
+            "left ventricle": {
+                "French": "ventricule gauche",
+                "Portuguese": "ventrículo esquerdo",
+                "German": "linker Ventrikel",
+                "Spanish": "ventrículo izquierdo"
+            },
+            "right ventricle": {
+                "French": "ventricule droit",
+                "Portuguese": "ventrículo direito",
+                "German": "rechter Ventrikel",
+                "Spanish": "ventrículo derecho"
+            },
+            "heart": {
+                "French": "cœur",
+                "Portuguese": "coração",
+                "German": "Herz",
+                "Spanish": "corazón"
+            },
+            "lungs": {
+                "French": "poumons",
+                "Portuguese": "pulmões",
+                "German": "Lungen",
+                "Spanish": "pulmones"
+            },
+            "blood supply": {
+                "French": "approvisionnement sanguin",
+                "Portuguese": "suprimento de sangue",
+                "German": "Blutversorgung",
+                "Spanish": "suministro de sangre"
+            }
+        }
+    },
+    {
+        "sentence": "In January 2001, the FDA's Center for Food Safety and Applied Nutrition proposed that developers of bioengineered food submit scientific and safety information to the FDA at least 120 days before the food is marketed.",
+        "keywords": [
+            "FDA",
+            "Food Safety",
+            "Applied Nutrition",
+            "bioengineered food",
+            "scientific information",
+            "safety"
+        ],
+        "translated_keywords": {
+            "FDA": {
+                "French": "FDA",
+                "Portuguese": "FDA",
+                "German": "FDA",
+                "Spanish": "FDA"
+            },
+            "Food Safety": {
+                "French": "Sécurité Alimentaire",
+                "Portuguese": "Segurança Alimentar",
+                "German": "Lebensmittelsicherheit",
+                "Spanish": "Seguridad Alimentaria"
+            },
+            "Applied Nutrition": {
+                "French": "Nutrition Appliquée",
+                "Portuguese": "Nutrição Aplicada",
+                "German": "Angewandte Ernährung",
+                "Spanish": "Nutrición Aplicada"
+            },
+            "bioengineered food": {
+                "French": "aliments bio-ingénierés",
+                "Portuguese": "alimentos bioengenheirados",
+                "German": "bioingenierte Lebensmittel",
+                "Spanish": "alimentos bioingenierizados"
+            },
+            "scientific information": {
+                "French": "information scientifique",
+                "Portuguese": "informação científica",
+                "German": "wissenschaftliche Informationen",
+                "Spanish": "información científica"
+            },
+            "safety": {
+                "French": "sécurité",
+                "Portuguese": "segurança",
+                "German": "Sicherheit",
+                "Spanish": "seguridad"
+            }
+        }
+    },
+    {
+        "sentence": "Your health care provider will tell you if it's necessary to stop taking any drugs that may interfere with this test.Make sure that your doctor is aware of all drugs you are taking, both prescription and nonprescription.",
+        "keywords": [
+            "health care provider",
+            "stop drugs",
+            "interfere",
+            "test",
+            "doctor",
+            "prescription",
+            "nonprescription"
+        ],
+        "translated_keywords": {
+            "health care provider": {
+                "French": "fournisseur de soins de santé",
+                "Portuguese": "prestador de serviços de saúde",
+                "German": "Gesundheitsdienstleister",
+                "Spanish": "proveedor de atención médica"
+            },
+            "stop drugs": {
+                "French": "stop aux drogues",
+                "Portuguese": "pare com as drogas",
+                "German": "Drogen stoppen",
+                "Spanish": "detener las drogas"
+            },
+            "interfere": {
+                "French": "interférer",
+                "Portuguese": "interferir",
+                "German": "stören",
+                "Spanish": "interferir"
+            },
+            "test": {
+                "French": "test",
+                "Portuguese": "teste",
+                "German": "Test",
+                "Spanish": "prueba"
+            },
+            "doctor": {
+                "French": "médecin",
+                "Portuguese": "médico",
+                "German": "Arzt",
+                "Spanish": "médico"
+            },
+            "prescription": {
+                "French": "ordonnance",
+                "Portuguese": "prescrição",
+                "German": "Rezept",
+                "Spanish": "receta"
+            },
+            "nonprescription": {
+                "French": "sans ordonnance",
+                "Portuguese": "sem receita",
+                "German": "rezeptfrei",
+                "Spanish": "sin receta"
+            }
+        }
+    },
+    {
+        "sentence": "Other foods such as broccoli, cooked greens, and canned salmon (with bones) will also provide a source of calcium in the diet; however, it is often difficult to get children to consume adequate quantities of these foods.",
+        "keywords": [
+            "broccoli",
+            "cooked greens",
+            "canned salmon",
+            "calcium",
+            "diet",
+            "children",
+            "consume"
+        ],
+        "translated_keywords": {
+            "broccoli": {
+                "French": "brocoli",
+                "Portuguese": "brócolis",
+                "German": "Brokkoli",
+                "Spanish": "brócoli"
+            },
+            "cooked greens": {
+                "French": "légumes cuits",
+                "Portuguese": "verduras cozidas",
+                "German": "gekochtes Gemüse",
+                "Spanish": "verduras cocidas"
+            },
+            "canned salmon": {
+                "French": "saumon en conserve",
+                "Portuguese": "salmão enlatado",
+                "German": "Dosenlachs",
+                "Spanish": "salmón enlatado"
+            },
+            "calcium": {
+                "French": "calcium",
+                "Portuguese": "cálcio",
+                "German": "Kalzium",
+                "Spanish": "calcio"
+            },
+            "diet": {
+                "French": "régime",
+                "Portuguese": "dieta",
+                "German": "Diät",
+                "Spanish": "dieta"
+            },
+            "children": {
+                "French": "enfants",
+                "Portuguese": "crianças",
+                "German": "Kinder",
+                "Spanish": "niños"
+            },
+            "consume": {
+                "French": "consommer",
+                "Portuguese": "consumir",
+                "German": "konsumieren",
+                "Spanish": "consumir"
+            }
+        }
+    },
+    {
+        "sentence": "Transposition of the great vessels is a heart defect that occurs from birth (congenital). The two major vessels that carry blood away from the heart -- the aorta and the pulmonary artery -- are switched (transposed).",
+        "keywords": [
+            "Transposition of the great vessels",
+            "heart defect",
+            "congenital",
+            "aorta",
+            "pulmonary artery",
+            "transposed"
+        ],
+        "translated_keywords": {
+            "Transposition of the great vessels": {
+                "French": "Transposition des gros vaisseaux",
+                "Portuguese": "Transposição dos grandes vasos",
+                "German": "Transposition der großen Gefäße",
+                "Spanish": "Transposición de los grandes vasos"
+            },
+            "heart defect": {
+                "French": "défaut cardiaque",
+                "Portuguese": "defeito cardíaco",
+                "German": "Herzfehler",
+                "Spanish": "defecto cardíaco"
+            },
+            "congenital": {
+                "French": "congénital",
+                "Portuguese": "congênito",
+                "German": "angeboren",
+                "Spanish": "congénito"
+            },
+            "aorta": {
+                "French": "aorte",
+                "Portuguese": "aorta",
+                "German": "Aorta",
+                "Spanish": "aorta"
+            },
+            "pulmonary artery": {
+                "French": "artère pulmonaire",
+                "Portuguese": "artéria pulmonar",
+                "German": "Lungenarterie",
+                "Spanish": "arteria pulmonar"
+            },
+            "transposed": {
+                "French": "transposé",
+                "Portuguese": "transposto",
+                "German": "transponiert",
+                "Spanish": "transpuesto"
+            }
+        }
+    },
+    {
+        "sentence": "Your health care provider will examine you for signs of food poisoning, such as pain in the stomach and signs your body does not have as much water and fluids as it should.This is called dehydration.",
+        "keywords": [
+            "health care provider",
+            "examine",
+            "food poisoning",
+            "stomach pain",
+            "dehydration"
+        ],
+        "translated_keywords": {
+            "health care provider": {
+                "French": "fournisseur de soins de santé",
+                "Portuguese": "prestador de cuidados de saúde",
+                "German": "Gesundheitsdienstleister",
+                "Spanish": "proveedor de atención médica"
+            },
+            "examine": {
+                "French": "examiner",
+                "Portuguese": "examinar",
+                "German": "untersuchen",
+                "Spanish": "examinar"
+            },
+            "food poisoning": {
+                "French": "intoxication alimentaire",
+                "Portuguese": "intoxicação alimentar",
+                "German": "Lebensmittelvergiftung",
+                "Spanish": "intoxicación alimentaria"
+            },
+            "stomach pain": {
+                "French": "douleur d'estomac",
+                "Portuguese": "dor de estômago",
+                "German": "Bauchschmerzen",
+                "Spanish": "dolor de estómago"
+            },
+            "dehydration": {
+                "French": "déshydratation",
+                "Portuguese": "desidratação",
+                "German": "Dehydration",
+                "Spanish": "deshidratación"
+            }
+        }
+    },
+    {
+        "sentence": "An implantable cardioverter defibrillator (ICD) is a device that can be implanted in the chest wall of people who are at risk for this serious rhythm disorder. The ICD can help prevent sudden cardiac death by quickly sending an electrical shock when ventricular fibrillation occurs.",
+        "keywords": [
+            "implantable cardioverter defibrillator (ICD)",
+            "chest wall",
+            "rhythm disorder",
+            "sudden cardiac death",
+            "electrical shock",
+            "ventricular fibrillation"
+        ],
+        "translated_keywords": {
+            "implantable cardioverter defibrillator (ICD)": {
+                "French": "défibrillateur cardioverteur implantable (DCI)",
+                "Portuguese": "desfibrilador cardioversor implantável (DCI)",
+                "German": "implantierbarer Kardioverter-Defibrillator (ICD)",
+                "Spanish": "desfibrilador cardioversor implantable (DCI)"
+            },
+            "chest wall": {
+                "French": "paroi thoracique",
+                "Portuguese": "parede torácica",
+                "German": "Brustwand",
+                "Spanish": "pared torácica"
+            },
+            "rhythm disorder": {
+                "French": "trouble du rythme",
+                "Portuguese": "distúrbio do ritmo",
+                "German": "Rhythmusstörung",
+                "Spanish": "trastorno del ritmo"
+            },
+            "sudden cardiac death": {
+                "French": "mort cardiaque subite",
+                "Portuguese": "morte cardíaca súbita",
+                "German": "plötzlicher Herzstillstand",
+                "Spanish": "muerte cardíaca súbita"
+            },
+            "electrical shock": {
+                "French": "choc électrique",
+                "Portuguese": "choque elétrico",
+                "German": "elektrischer Schlag",
+                "Spanish": "choque eléctrico"
+            },
+            "ventricular fibrillation": {
+                "French": "fibrillation ventriculaire",
+                "Portuguese": "fibrilação ventricular",
+                "German": "Ventrikelflimmern",
+                "Spanish": "fibrilación ventricular"
+            }
+        }
+    },
+    {
+        "sentence": "Greater respect for the complexities of female sexual functioning has led them to conclude that suboptimal female genitalia may not be inherently better than suboptimal male genitalia, even if the reconstruction is \"easier.\"In addition, other factors may be more important in gender satisfaction than functioning external genitals.",
+        "keywords": [
+            "female sexual functioning",
+            "female genitalia",
+            "male genitalia",
+            "reconstruction",
+            "gender satisfaction",
+            "external genitals"
+        ],
+        "translated_keywords": {
+            "female sexual functioning": {
+                "French": "fonctionnement sexuel féminin",
+                "Portuguese": "funcionamento sexual feminino",
+                "German": "weibliche sexuelle Funktion",
+                "Spanish": "funcionamiento sexual femenino"
+            },
+            "female genitalia": {
+                "French": "génitales féminins",
+                "Portuguese": "genitália feminina",
+                "German": "weibliche Geschlechtsorgane",
+                "Spanish": "genitales femeninos"
+            },
+            "male genitalia": {
+                "French": "génitaux masculins",
+                "Portuguese": "genitais masculinos",
+                "German": "männliche Geschlechtsorgane",
+                "Spanish": "genitales masculinos"
+            },
+            "reconstruction": {
+                "French": "reconstruction",
+                "Portuguese": "reconstrução",
+                "German": "Rekonstruktion",
+                "Spanish": "reconstrucción"
+            },
+            "gender satisfaction": {
+                "French": "satisfaction de genre",
+                "Portuguese": "satisfação de gênero",
+                "German": "Geschlechterzufriedenheit",
+                "Spanish": "satisfacción de género"
+            },
+            "external genitals": {
+                "French": "organes génitaux externes",
+                "Portuguese": "genitais externos",
+                "German": "äußere Geschlechtsorgane",
+                "Spanish": "genitales externos"
+            }
+        }
+    },
+    {
+        "sentence": "Regular use -- the user misses more and more school or work; worries about losing drug source; uses drugs to \"fix\" negative feelings; begins to stay away from friends and family; may change friends to those who are regular users; shows increased tolerance and ability to \"handle\" the drug.",
+        "keywords": [
+            "drug use",
+            "tolerance",
+            "negative feelings",
+            "addiction",
+            "drug dependence"
+        ],
+        "translated_keywords": {
+            "drug use": {
+                "French": "usage de drogues",
+                "Portuguese": "uso de drogas",
+                "German": "Drogenkonsum",
+                "Spanish": "uso de drogas"
+            },
+            "tolerance": {
+                "French": "tolérance",
+                "Portuguese": "tolerância",
+                "German": "Toleranz",
+                "Spanish": "tolerancia"
+            },
+            "negative feelings": {
+                "French": "sentiments négatifs",
+                "Portuguese": "sentimentos negativos",
+                "German": "negative Gefühle",
+                "Spanish": "sentimientos negativos"
+            },
+            "addiction": {
+                "French": "addiction",
+                "Portuguese": "dependência",
+                "German": "Sucht",
+                "Spanish": "adicción"
+            },
+            "drug dependence": {
+                "French": "dépendance aux drogues",
+                "Portuguese": "dependência de drogas",
+                "German": "Drogenabhängigkeit",
+                "Spanish": "dependencia de drogas"
+            }
+        }
+    },
+    {
+        "sentence": "Increased intracranial pressure can be due to a rise in cerebrospinal fluid pressure.It can also be due to increased pressure within the brain matter caused by a mass (such as a tumor), bleeding into the brain or fluid around the brain, or swelling within the brain matter itself.",
+        "keywords": [
+            "intracranial pressure",
+            "cerebrospinal fluid pressure",
+            "brain matter",
+            "tumor",
+            "brain bleeding",
+            "swelling"
+        ],
+        "translated_keywords": {
+            "intracranial pressure": {
+                "French": "pression intracrânienne",
+                "Portuguese": "pressão intracraniana",
+                "German": "intrakranieller Druck",
+                "Spanish": "presión intracraneal"
+            },
+            "cerebrospinal fluid pressure": {
+                "French": "pression du liquide céphalorachidien",
+                "Portuguese": "pressão do líquido cefalorraquidiano",
+                "German": "Druck der cerebrospinalen Flüssigkeit",
+                "Spanish": "presión del líquido cefalorraquídeo"
+            },
+            "brain matter": {
+                "French": "matière cérébrale",
+                "Portuguese": "matéria cerebral",
+                "German": "Gehirnsubstanz",
+                "Spanish": "materia cerebral"
+            },
+            "tumor": {
+                "French": "tumeur",
+                "Portuguese": "tumor",
+                "German": "Tumor",
+                "Spanish": "tumor"
+            },
+            "brain bleeding": {
+                "French": "saignement cérébral",
+                "Portuguese": "sangramento cerebral",
+                "German": "Hirnblutung",
+                "Spanish": "sangrado cerebral"
+            },
+            "swelling": {
+                "French": "gonflement",
+                "Portuguese": "inchaço",
+                "German": "Schwellung",
+                "Spanish": "hinchazón"
+            }
+        }
+    },
+    {
+        "sentence": "Some substances that are found to be harmful to people or animals may still be allowed, but only at the level of 1/100th of the amount that is considered harmful.People with any allergies or food intolerances should always check the ingredient list (label) for their own protection.",
+        "keywords": [
+            "harmful substances",
+            "allergies",
+            "food intolerances",
+            "ingredient list",
+            "protection"
+        ],
+        "translated_keywords": {
+            "harmful substances": {
+                "French": "substances nocives",
+                "Portuguese": "substâncias nocivas",
+                "German": "schädliche Substanzen",
+                "Spanish": "sustancias nocivas"
+            },
+            "allergies": {
+                "French": "allergies",
+                "Portuguese": "alergias",
+                "German": "Allergien",
+                "Spanish": "alergias"
+            },
+            "food intolerances": {
+                "French": "intolérances alimentaires",
+                "Portuguese": "intolerâncias alimentares",
+                "German": "Nahrungsmittelunverträglichkeiten",
+                "Spanish": "intolerancias alimentarias"
+            },
+            "ingredient list": {
+                "French": "liste des ingrédients",
+                "Portuguese": "lista de ingredientes",
+                "German": "Zutatenliste",
+                "Spanish": "lista de ingredientes"
+            },
+            "protection": {
+                "French": "protection",
+                "Portuguese": "proteção",
+                "German": "Schutz",
+                "Spanish": "protección"
+            }
+        }
+    },
+    {
+        "sentence": "Not having milk in your diet can lead to a shortage of calcium, vitamin D, riboflavin, and protein.You may need to find new ways to get calcium into your diet (depending on your age and gender, you need 1,000 - 1,500 mg of calcium each day):",
+        "keywords": [
+            "milk",
+            "diet",
+            "calcium deficiency",
+            "vitamin D",
+            "riboflavin",
+            "protein"
+        ],
+        "translated_keywords": {
+            "milk": {
+                "French": "lait",
+                "Portuguese": "leite",
+                "German": "Milch",
+                "Spanish": "leche"
+            },
+            "diet": {
+                "French": "régime",
+                "Portuguese": "dieta",
+                "German": "Diät",
+                "Spanish": "dieta"
+            },
+            "calcium deficiency": {
+                "French": "carence en calcium",
+                "Portuguese": "deficiência de cálcio",
+                "German": "Calciumdefizienz",
+                "Spanish": "deficiencia de calcio"
+            },
+            "vitamin D": {
+                "French": "vitamine D",
+                "Portuguese": "vitamina D",
+                "German": "Vitamin D",
+                "Spanish": "vitamina D"
+            },
+            "riboflavin": {
+                "French": "riboflavine",
+                "Portuguese": "riboflavina",
+                "German": "Riboflavin",
+                "Spanish": "riboflavina"
+            },
+            "protein": {
+                "French": "protéine",
+                "Portuguese": "proteína",
+                "German": "Protein",
+                "Spanish": "proteína"
+            }
+        }
+    },
+    {
+        "sentence": "Because it is difficult to determine the amount of radiation exposure from nuclear accidents, the best signs of the severity of the exposure are: the length of time between the exposure and the onset of symptoms, the severity of symptoms, and severity of changes in white blood cells.",
+        "keywords": [
+            "radiation exposure",
+            "nuclear accidents",
+            "symptoms",
+            "white blood cells",
+            "severity"
+        ],
+        "translated_keywords": {
+            "radiation exposure": {
+                "French": "exposition aux radiations",
+                "Portuguese": "exposição à radiação",
+                "German": "Strahlenexposition",
+                "Spanish": "exposición a la radiación"
+            },
+            "nuclear accidents": {
+                "French": "accidents nucléaires",
+                "Portuguese": "acidentes nucleares",
+                "German": "nukleare Unfälle",
+                "Spanish": "accidentes nucleares"
+            },
+            "symptoms": {
+                "French": "symptômes",
+                "Portuguese": "sintomas",
+                "German": "Symptome",
+                "Spanish": "síntomas"
+            },
+            "white blood cells": {
+                "French": "globules blancs",
+                "Portuguese": "glóbulos brancos",
+                "German": "weiße Blutkörperchen",
+                "Spanish": "glóbulos blancos"
+            },
+            "severity": {
+                "French": "sévérité",
+                "Portuguese": "severidade",
+                "German": "Schwere",
+                "Spanish": "severidad"
+            }
+        }
+    },
+    {
+        "sentence": "Note: It is often technically easier to treat (and therefore raise) the child as female (it is easier for a surgeon to make female genitalia than it is to make male genitalia), so in some cases this is recommended even if the child is genetically male.",
+        "keywords": [
+            "gender assignment",
+            "female genitalia",
+            "male genitalia",
+            "surgeon",
+            "genetically male"
+        ],
+        "translated_keywords": {
+            "gender assignment": {
+                "French": "assignation de genre",
+                "Portuguese": "atribuição de gênero",
+                "German": "Geschlechtszuweisung",
+                "Spanish": "asignación de género"
+            },
+            "female genitalia": {
+                "French": "génitales féminines",
+                "Portuguese": "genitália feminina",
+                "German": "weibliche Geschlechtsorgane",
+                "Spanish": "genitales femeninos"
+            },
+            "male genitalia": {
+                "French": "génital masculin",
+                "Portuguese": "genitália masculina",
+                "German": "männliche Geschlechtsorgane",
+                "Spanish": "genitales masculinos"
+            },
+            "surgeon": {
+                "French": "chirurgien",
+                "Portuguese": "cirurgião",
+                "German": "Chirurg",
+                "Spanish": "cirujano"
+            },
+            "genetically male": {
+                "French": "génétiquement masculin",
+                "Portuguese": "geneticamente masculino",
+                "German": "genetisch männlich",
+                "Spanish": "genéticamente masculino"
+            }
+        }
+    },
+    {
+        "sentence": "Deficiency happens more often in women than in men, and is more common in pregnant women and older children. Getting enough iodine in the diet may prevent a form of physical and mental retardation called cretinism.Cretinism is very rare in the U.S. because iodine deficiency is generally not a problem.",
+        "keywords": [
+            "iodine deficiency",
+            "cretinism",
+            "pregnant women",
+            "mental retardation",
+            "diet"
+        ],
+        "translated_keywords": {
+            "iodine deficiency": {
+                "French": "déficit en iode",
+                "Portuguese": "deficiência de iodo",
+                "German": "Jodmangel",
+                "Spanish": "deficiencia de yodo"
+            },
+            "cretinism": {
+                "French": "crétinisme",
+                "Portuguese": "cretinismo",
+                "German": "Kretinismus",
+                "Spanish": "cretinismo"
+            },
+            "pregnant women": {
+                "French": "femmes enceintes",
+                "Portuguese": "mulheres grávidas",
+                "German": "schwangere Frauen",
+                "Spanish": "mujeres embarazadas"
+            },
+            "mental retardation": {
+                "French": "retard mental",
+                "Portuguese": "retardo mental",
+                "German": "geistige Behinderung",
+                "Spanish": "retardo mental"
+            },
+            "diet": {
+                "French": "régime",
+                "Portuguese": "dieta",
+                "German": "Diät",
+                "Spanish": "dieta"
+            }
+        }
+    },
+    {
+        "sentence": "People who have a sudden herniated disk caused by injury (such as a car accident or lifting a very heavy object) will get nonsteroidal anti-inflammatory medications (NSAIDs) and narcotic painkillers if they have severe pain in the back and leg.If you have back spasms, you will usually receive muscle relaxants.",
+        "keywords": [
+            "herniated disk",
+            "injury",
+            "NSAIDs",
+            "narcotic painkillers",
+            "back pain",
+            "muscle relaxants",
+            "back spasms"
+        ],
+        "translated_keywords": {
+            "herniated disk": {
+                "French": "disque hernié",
+                "Portuguese": "disco herniado",
+                "German": "Bandscheibenvorfall",
+                "Spanish": "disco herniado"
+            },
+            "injury": {
+                "French": "blessure",
+                "Portuguese": "lesão",
+                "German": "Verletzung",
+                "Spanish": "lesión"
+            },
+            "NSAIDs": {
+                "French": "AINS",
+                "Portuguese": "AINEs",
+                "German": "NSAR",
+                "Spanish": "AINEs"
+            },
+            "narcotic painkillers": {
+                "French": "analgésiques narcotiques",
+                "Portuguese": "analgésicos narcóticos",
+                "German": "narkotische Schmerzmittel",
+                "Spanish": "analgésicos narcóticos"
+            },
+            "back pain": {
+                "French": "douleur au dos",
+                "Portuguese": "dor nas costas",
+                "German": "Rückenschmerzen",
+                "Spanish": "dolor de espalda"
+            },
+            "muscle relaxants": {
+                "French": "relaxants musculaires",
+                "Portuguese": "relaxantes musculares",
+                "German": "Muskelrelaxantien",
+                "Spanish": "relajantes musculares"
+            },
+            "back spasms": {
+                "French": "spasmes du dos",
+                "Portuguese": "espasmos nas costas",
+                "German": "Rückenschmerzen",
+                "Spanish": "espasmos de espalda"
+            }
+        }
+    },
+    {
+        "sentence": "Threre is a wide range for what is considered \"normal.\" Just because your child is in the 15th percentile for weight (meaning 85 out of 100 children weigh more), this number rarely means your child is sick, you're not feeding your child enough, or your breast milk is not enough for your baby.",
+        "keywords": [
+            "child weight percentile",
+            "breast milk",
+            "nutrition",
+            "growth"
+        ],
+        "translated_keywords": {
+            "child weight percentile": {
+                "French": "percentile de poids enfant",
+                "Portuguese": "percentil de peso infantil",
+                "German": "Gewichtszentile für Kinder",
+                "Spanish": "percentil de peso infantil"
+            },
+            "breast milk": {
+                "French": "lait maternel",
+                "Portuguese": "leite materno",
+                "German": "Muttermilch",
+                "Spanish": "leche materna"
+            },
+            "nutrition": {
+                "French": "nutrition",
+                "Portuguese": "nutrição",
+                "German": "Ernährung",
+                "Spanish": "nutrición"
+            },
+            "growth": {
+                "French": "croissance",
+                "Portuguese": "crescimento",
+                "German": "Wachstum",
+                "Spanish": "crecimiento"
+            }
+        }
+    },
+    {
+        "sentence": "Congenital heart surgery; Patent ductus arteriosus ligation; Hypoplastic left heart repair; Tetralogy of Fallot repair; Coarctation of the aorta repair; Atrial septal defect repair; Ventricular septal defect repair; Truncus arteriosus repair; Total anomalous pulmonary artery correction; Transposition of great vessels repair; Tricuspid atresia repair; VSD repair; ASD repair; PDA ligation",
+        "keywords": [
+            "congenital heart surgery",
+            "Patent ductus arteriosus ligation",
+            "Hypoplastic left heart repair",
+            "Tetralogy of Fallot repair",
+            "Coarctation of the aorta repair",
+            "Atrial septal defect repair",
+            "Ventricular septal defect repair",
+            "Truncus arteriosus repair",
+            "Total anomalous pulmonary artery correction",
+            "Transposition of great vessels repair",
+            "Tricuspid atresia repair",
+            "VSD repair",
+            "ASD repair",
+            "PDA ligation"
+        ],
+        "translated_keywords": {
+            "congenital heart surgery": {
+                "French": "chirurgie cardiaque congénitale",
+                "Portuguese": "cirurgia cardíaca congênita",
+                "German": "angeborene Herzchirurgie",
+                "Spanish": "cirugía cardíaca congénita"
+            },
+            "Patent ductus arteriosus ligation": {
+                "French": "Ligation du canal artériel patent",
+                "Portuguese": "Ligadura do ducto arterioso patente",
+                "German": "Ligation des persistierenden Ductus arteriosus",
+                "Spanish": "Ligation del conducto arterioso persistente"
+            },
+            "Hypoplastic left heart repair": {
+                "French": "Réparation du cœur gauche hypoplasique",
+                "Portuguese": "Reparo do coração esquerdo hipoplásico",
+                "German": "Reparatur des hypoplastischen linken Herzens",
+                "Spanish": "Reparación del corazón izquierdo hipoplásico"
+            },
+            "Tetralogy of Fallot repair": {
+                "French": "Réparation de la tétralogie de Fallot",
+                "Portuguese": "Reparo da tetralogia de Fallot",
+                "German": "Reparatur der Fallot-Tetralogie",
+                "Spanish": "Reparación de la tetralogía de Fallot"
+            },
+            "Coarctation of the aorta repair": {
+                "French": "Réparation de la coarctation de l'aorte",
+                "Portuguese": "Reparo da coarctação da aorta",
+                "German": "Reparatur der Aortenkoarktation",
+                "Spanish": "Reparación de la coartación de la aorta"
+            },
+            "Atrial septal defect repair": {
+                "French": "Réparation du défaut du septum atrial",
+                "Portuguese": "Reparo do defeito do septo atrial",
+                "German": "Reparatur des Vorhofseptumdefekts",
+                "Spanish": "Reparación del defecto del septo auricular"
+            },
+            "Ventricular septal defect repair": {
+                "French": "Réparation de la communication interventriculaire",
+                "Portuguese": "Reparo de defeito do septo ventricular",
+                "German": "Reparatur des Ventrikelseptumdefekts",
+                "Spanish": "Reparación del defecto del septo ventricular"
+            },
+            "Truncus arteriosus repair": {
+                "French": "Réparation du tronc artériel",
+                "Portuguese": "Reparo do tronco arterial",
+                "German": "Reparatur des Arterienstamms",
+                "Spanish": "Reparación del tronco arterial"
+            },
+            "Total anomalous pulmonary artery correction": {
+                "French": "Correction des anomalies totales de l'artère pulmonaire",
+                "Portuguese": "Correção da anomalia total da artéria pulmonar",
+                "German": "Korrektur der totalen anomalie der Lungenarterie",
+                "Spanish": "Corrección de la anomalía total de la arteria pulmonar"
+            },
+            "Transposition of great vessels repair": {
+                "French": "Réparation de la transposition des grands vaisseaux",
+                "Portuguese": "Reparo da transposição dos grandes vasos",
+                "German": "Reparatur der Transposition der großen Gefäße",
+                "Spanish": "Reparación de la transposición de los grandes vasos"
+            },
+            "Tricuspid atresia repair": {
+                "French": "Réparation de l'atrésie tricuspide",
+                "Portuguese": "Reparo da atresia tricúspide",
+                "German": "Reparatur der Trikuspidalatresie",
+                "Spanish": "Reparación de la atresia tricúspide"
+            },
+            "VSD repair": {
+                "French": "réparation de VSD",
+                "Portuguese": "reparo de VSD",
+                "German": "VSD-Reparatur",
+                "Spanish": "reparación de VSD"
+            },
+            "ASD repair": {
+                "French": "réparation de l'ASD",
+                "Portuguese": "reparo de ASD",
+                "German": "ASD-Reparatur",
+                "Spanish": "reparación de ASD"
+            },
+            "PDA ligation": {
+                "French": "ligation du canal artériel",
+                "Portuguese": "ligadura do canal arterial",
+                "German": "Ligatur des Ductus arteriosus",
+                "Spanish": "ligadura del conducto arterioso"
+            }
+        }
+    },
+    {
+        "sentence": "This test is done during a hospital stay.  It tells the difference between someone who is making urine because of drinking a lot of liquid and someone who is not.  If you have central diabetes insipidus, you will still make a lot of urine even when fluids are not given. ",
+        "keywords": [
+            "hospital test",
+            "urine production",
+            "central diabetes insipidus",
+            "fluids"
+        ],
+        "translated_keywords": {
+            "hospital test": {
+                "French": "test hospitalier",
+                "Portuguese": "teste hospitalar",
+                "German": "Krankenhaustest",
+                "Spanish": "prueba hospitalaria"
+            },
+            "urine production": {
+                "French": "production d'urine",
+                "Portuguese": "produção de urina",
+                "German": "Urinproduktion",
+                "Spanish": "producción de orina"
+            },
+            "central diabetes insipidus": {
+                "French": "diabète insipide central",
+                "Portuguese": "diabetes insípido central",
+                "German": "zentraler Diabetes insipidus",
+                "Spanish": "diabetes insípido central"
+            },
+            "fluids": {
+                "French": "fluides",
+                "Portuguese": "fluidos",
+                "German": "Flüssigkeiten",
+                "Spanish": "fluidos"
+            }
+        }
+    },
+    {
+        "sentence": "Also, many refined foods, such as white flour, sugar, and white rice, lack B vitamins and other important nutrients unless they are marked \"enriched.\" It is healthiest to get carbohydrates, vitamins, and other nutrients in as natural a form as possible -- for example, from fruit instead of table sugar.",
+        "keywords": [
+            "refined foods",
+            "B vitamins",
+            "nutrients",
+            "carbohydrates",
+            "enriched foods"
+        ],
+        "translated_keywords": {
+            "refined foods": {
+                "French": "aliments raffinés",
+                "Portuguese": "alimentos refinados",
+                "German": "raffinierte Lebensmittel",
+                "Spanish": "alimentos refinados"
+            },
+            "B vitamins": {
+                "French": "vitamines B",
+                "Portuguese": "vitaminas B",
+                "German": "B-Vitamine",
+                "Spanish": "vitaminas B"
+            },
+            "nutrients": {
+                "French": "nutriments",
+                "Portuguese": "nutrientes",
+                "German": "Nährstoffe",
+                "Spanish": "nutrientes"
+            },
+            "carbohydrates": {
+                "French": "glucides",
+                "Portuguese": "carboidratos",
+                "German": "Kohlenhydrate",
+                "Spanish": "carbohidratos"
+            },
+            "enriched foods": {
+                "French": "aliments enrichis",
+                "Portuguese": "alimentos enriquecidos",
+                "German": "angereicherte Lebensmittel",
+                "Spanish": "alimentos enriquecidos"
+            }
+        }
+    },
+    {
+        "sentence": "The pituitary gland near the brain makes too much of the hormone ACTH (called Cushing's disease), which may happen with too much growth of the pituitary gland, a tumor of the pituitary gland, or a tumor elsewhere in the body (such as the pancreas, lung, and thyroid) that produces ACTH",
+        "keywords": [
+            "pituitary gland",
+            "ACTH",
+            "Cushing's disease",
+            "tumor",
+            "pancreas",
+            "lung",
+            "thyroid"
+        ],
+        "translated_keywords": {
+            "pituitary gland": {
+                "French": "glande pituitaire",
+                "Portuguese": "glândula pituitária",
+                "German": "Hypophyse",
+                "Spanish": "glándula pituitaria"
+            },
+            "ACTH": {
+                "French": "ACTH",
+                "Portuguese": "ACTH",
+                "German": "ACTH",
+                "Spanish": "ACTH"
+            },
+            "Cushing's disease": {
+                "French": "maladie de Cushing",
+                "Portuguese": "doença de Cushing",
+                "German": "Cushing-Syndrom",
+                "Spanish": "enfermedad de Cushing"
+            },
+            "tumor": {
+                "French": "tumeur",
+                "Portuguese": "tumor",
+                "German": "Tumor",
+                "Spanish": "tumor"
+            },
+            "pancreas": {
+                "French": "pancréas",
+                "Portuguese": "pâncreas",
+                "German": "Bauchspeicheldrüse",
+                "Spanish": "páncreas"
+            },
+            "lung": {
+                "French": "poumon",
+                "Portuguese": "pulmão",
+                "German": "Lunge",
+                "Spanish": "pulmón"
+            },
+            "thyroid": {
+                "French": "thyroïde",
+                "Portuguese": "tireoide",
+                "German": "Schilddrüse",
+                "Spanish": "tiroides"
+            }
+        }
+    },
+    {
+        "sentence": "In the past, the prevailing opinion was that it was generally best to assign a gender as quickly as possible, often based on the external genitals rather than the chromosomal gender, and to instruct the parents to have no ambiguity in their minds as to the gender of the child.",
+        "keywords": [
+            "gender assignment",
+            "external genitals",
+            "chromosomal gender",
+            "gender identity"
+        ],
+        "translated_keywords": {
+            "gender assignment": {
+                "French": "attribution de genre",
+                "Portuguese": "atribuição de gênero",
+                "German": "Geschlechtszuweisung",
+                "Spanish": "asignación de género"
+            },
+            "external genitals": {
+                "French": "génitaux externes",
+                "Portuguese": "genitais externos",
+                "German": "äußere Geschlechtsorgane",
+                "Spanish": "genitales externos"
+            },
+            "chromosomal gender": {
+                "French": "genre chromosomique",
+                "Portuguese": "gênero cromossômico",
+                "German": "chromosomales Geschlecht",
+                "Spanish": "género cromosómico"
+            },
+            "gender identity": {
+                "French": "identité de genre",
+                "Portuguese": "identidade de gênero",
+                "German": "Geschlechtsidentität",
+                "Spanish": "identidad de género"
+            }
+        }
+    },
+    {
+        "sentence": "Daily preoccupation -- the user loses any motivation; does not care about school and work; has obvious behavior changes; thinking about drug use is more important than all other interests, including relationships; the user becomes secretive; may begin dealing drugs to help support habit; use of other, harder drugs may increase; legal problems may increase.",
+        "keywords": [
+            "drug addiction",
+            "behavior changes",
+            "motivation loss",
+            "secretive behavior",
+            "drug dependence",
+            "legal problems"
+        ],
+        "translated_keywords": {
+            "drug addiction": {
+                "French": "dépendance à la drogue",
+                "Portuguese": "dependência de drogas",
+                "German": "Drogenabhängigkeit",
+                "Spanish": "adicción a las drogas"
+            },
+            "behavior changes": {
+                "French": "changements de comportement",
+                "Portuguese": "mudanças de comportamento",
+                "German": "Verhaltensänderungen",
+                "Spanish": "cambios de comportamiento"
+            },
+            "motivation loss": {
+                "French": "perte de motivation",
+                "Portuguese": "perda de motivação",
+                "German": "Motivationsverlust",
+                "Spanish": "pérdida de motivación"
+            },
+            "secretive behavior": {
+                "French": "comportement secret",
+                "Portuguese": "comportamento secreto",
+                "German": "geheimes Verhalten",
+                "Spanish": "comportamiento secreto"
+            },
+            "drug dependence": {
+                "French": "dépendance aux drogues",
+                "Portuguese": "dependência de drogas",
+                "German": "Drogenabhängigkeit",
+                "Spanish": "dependencia de drogas"
+            },
+            "legal problems": {
+                "French": "problèmes juridiques",
+                "Portuguese": "problemas legais",
+                "German": "rechtliche Probleme",
+                "Spanish": "problemas legales"
+            }
+        }
+    },
+    {
+        "sentence": "You have sudden, sharp chest pain with shortness of breath, especially after a long trip, a stretch of bedrest (for example, following an operation), or other lack of movement, especially if one leg is swollen or more swollen than the other (this could be a blood clot, part of which has moved to the lungs).",
+        "keywords": [
+            "chest pain",
+            "shortness of breath",
+            "blood clot",
+            "deep vein thrombosis",
+            "pulmonary embolism"
+        ],
+        "translated_keywords": {
+            "chest pain": {
+                "French": "douleur thoracique",
+                "Portuguese": "dor no peito",
+                "German": "Brustschmerzen",
+                "Spanish": "dolor en el pecho"
+            },
+            "shortness of breath": {
+                "French": "essoufflement",
+                "Portuguese": "falta de ar",
+                "German": "Atemnot",
+                "Spanish": "falta de aliento"
+            },
+            "blood clot": {
+                "French": "caillot de sang",
+                "Portuguese": "coágulo de sangue",
+                "German": "Blutgerinnsel",
+                "Spanish": "coágulo de sangre"
+            },
+            "deep vein thrombosis": {
+                "French": "thrombose veineuse profonde",
+                "Portuguese": "trombose venosa profunda",
+                "German": "tiefe Venenthrombose",
+                "Spanish": "trombosis venosa profunda"
+            },
+            "pulmonary embolism": {
+                "French": "embolie pulmonaire",
+                "Portuguese": "embolia pulmonar",
+                "German": "Lungenembolie",
+                "Spanish": "embolia pulmonar"
+            }
+        }
+    },
+    {
+        "sentence": "The mother may fake symptoms of illness in her child by adding blood to the child's urine or stool, withholding food, falsifying fevers, secretly giving the child drugs to make the child throw up or have diarrhea, or using other tricks, such as infecting intravenous (given through a vein) lines to make the child appear or become ill.",
+        "keywords": [
+            "fake symptoms",
+            "blood in urine",
+            "blood in stool",
+            "withholding food",
+            "falsifying fevers",
+            "drug-induced vomiting",
+            "diarrhea",
+            "infecting intravenous lines"
+        ],
+        "translated_keywords": {
+            "fake symptoms": {
+                "French": "symptômes faux",
+                "Portuguese": "sintomas falsos",
+                "German": "falsche Symptome",
+                "Spanish": "síntomas falsos"
+            },
+            "blood in urine": {
+                "French": "sang dans les urines",
+                "Portuguese": "sangue na urina",
+                "German": "Blut im Urin",
+                "Spanish": "sangre en la orina"
+            },
+            "blood in stool": {
+                "French": "sang dans les selles",
+                "Portuguese": "sangue nas fezes",
+                "German": "Blut im Stuhl",
+                "Spanish": "sangre en las heces"
+            },
+            "withholding food": {
+                "French": "retenue de nourriture",
+                "Portuguese": "retenção de comida",
+                "German": "Nahrungsentzug",
+                "Spanish": "retención de alimentos"
+            },
+            "falsifying fevers": {
+                "French": "falsification des fièvres",
+                "Portuguese": "falsificação de febres",
+                "German": "Fälschung von Fiebern",
+                "Spanish": "falsificación de fiebres"
+            },
+            "drug-induced vomiting": {
+                "French": "vomissements induits par des médicaments",
+                "Portuguese": "vômito induzido por drogas",
+                "German": "medikamentenbedingtes Erbrechen",
+                "Spanish": "vómitos inducidos por medicamentos"
+            },
+            "diarrhea": {
+                "French": "diarrhée",
+                "Portuguese": "diarreia",
+                "German": "Durchfall",
+                "Spanish": "diarrea"
+            },
+            "infecting intravenous lines": {
+                "French": "infection des lignes intraveineuses",
+                "Portuguese": "infecção de linhas intravenosas",
+                "German": "Infektion von intravenösen Linien",
+                "Spanish": "infección de líneas intravenosas"
+            }
+        }
+    },
+    {
+        "sentence": "Because there is little or no flow out of the left heart, blood returning to the heart from the lungs needs to pass through the foramen ovale or an atrial septal defect (a hole connecting the collecting chambers on the left and right sides of the heart) back to the right side of the heart.",
+        "keywords": [
+            "left heart flow",
+            "foramen ovale",
+            "atrial septal defect",
+            "blood circulation",
+            "heart chambers"
+        ],
+        "translated_keywords": {
+            "left heart flow": {
+                "French": "flux du cœur gauche",
+                "Portuguese": "flux do coração esquerdo",
+                "German": "linker Herzfluss",
+                "Spanish": "flujo del corazón izquierdo"
+            },
+            "foramen ovale": {
+                "French": "foramen ovale",
+                "Portuguese": "forame oval",
+                "German": "Foramen ovale",
+                "Spanish": "foramen oval"
+            },
+            "atrial septal defect": {
+                "French": "défaut du septum atrial",
+                "Portuguese": "defeito do septo atrial",
+                "German": "Vorhofseptumdefekt",
+                "Spanish": "defecto del septo auricular"
+            },
+            "blood circulation": {
+                "French": "circulation sanguine",
+                "Portuguese": "circulação sanguínea",
+                "German": "Blutkreislauf",
+                "Spanish": "circulación sanguínea"
+            },
+            "heart chambers": {
+                "French": "chambres cardiaques",
+                "Portuguese": "câmaras do coração",
+                "German": "Herzkammern",
+                "Spanish": "cámaras del corazón"
+            }
+        }
+    },
+    {
+        "sentence": "You can take the tooth to the dentist by following one of these tips:Try to place the tooth back in the mouth where it fell out, so it is level with other teeth. Bite down gently on gauze or a wet tea bag to help keep it in place. Be careful not to swallow the tooth.",
+        "keywords": [
+            "tooth avulsion",
+            "dentist",
+            "reimplantation",
+            "gauze",
+            "tea bag",
+            "swallowing risk"
+        ],
+        "translated_keywords": {
+            "tooth avulsion": {
+                "French": "avulsion dentaire",
+                "Portuguese": "avulsão dental",
+                "German": "Zahnavulsion",
+                "Spanish": "avulsión dental"
+            },
+            "dentist": {
+                "French": "dentiste",
+                "Portuguese": "dentista",
+                "German": "Zahnarzt",
+                "Spanish": "dentista"
+            },
+            "reimplantation": {
+                "French": "réimplantation",
+                "Portuguese": "reimplante",
+                "German": "Reimplantation",
+                "Spanish": "reimplantación"
+            },
+            "gauze": {
+                "French": "gaze",
+                "Portuguese": "gaze",
+                "German": "Gaze",
+                "Spanish": "gasa"
+            },
+            "tea bag": {
+                "French": "sachet de thé",
+                "Portuguese": "saquinho de chá",
+                "German": "Teebeutel",
+                "Spanish": "bolsa de té"
+            },
+            "swallowing risk": {
+                "French": "risque d'avalement",
+                "Portuguese": "risco de deglutição",
+                "German": "Schluckrisiko",
+                "Spanish": "riesgo de deglución"
+            }
+        }
+    },
+    {
+        "sentence": "Another myth of adolescence is the idea that \"it will never happen to me, only the other person.\" \"It\" may represent becoming pregnant or catching a sexually-transmitted disease after having unprotected sex, causing a car crash while driving under the influence of alcohol or drugs, or any of the many other negative effects of risk-taking behaviors.",
+        "keywords": [
+            "adolescence",
+            "pregnancy risk",
+            "sexually transmitted disease",
+            "unprotected sex",
+            "drunk driving",
+            "risk-taking behavior"
+        ],
+        "translated_keywords": {
+            "adolescence": {
+                "French": "adolescence",
+                "Portuguese": "adolescência",
+                "German": "Adoleszenz",
+                "Spanish": "adolescencia"
+            },
+            "pregnancy risk": {
+                "French": "risque de grossesse",
+                "Portuguese": "risco de gravidez",
+                "German": "Schwangerschaftsrisiko",
+                "Spanish": "riesgo de embarazo"
+            },
+            "sexually transmitted disease": {
+                "French": "maladie sexuellement transmissible",
+                "Portuguese": "doença sexualmente transmissível",
+                "German": "sexuell übertragbare Krankheit",
+                "Spanish": "enfermedad de transmisión sexual"
+            },
+            "unprotected sex": {
+                "French": "relations sexuelles non protégées",
+                "Portuguese": "sexo desprotegido",
+                "German": "ungeschützter Geschlechtsverkehr",
+                "Spanish": "sexo sin protección"
+            },
+            "drunk driving": {
+                "French": "conduite en état d'ivresse",
+                "Portuguese": "direção sob efeito de álcool",
+                "German": "Fahren unter Alkoholeinfluss",
+                "Spanish": "conducción ebria"
+            },
+            "risk-taking behavior": {
+                "French": "comportement à risque",
+                "Portuguese": "comportamento de risco",
+                "German": "Risikoverhalten",
+                "Spanish": "comportamiento de riesgo"
+            }
+        }
+    },
+    {
+        "sentence": "It is important to have the teeth cleaned thoroughly.This may involve use of various tools to loosen and remove plaque and tartar from the teeth. Proper flossing and brushing is always needed, even after professional tooth cleaning, to reduce your risk of gum disease. Your dentist or hygienist will show you how to brush and floss properly.",
+        "keywords": [
+            "teeth cleaning",
+            "plaque removal",
+            "tartar removal",
+            "flossing",
+            "brushing",
+            "gum disease",
+            "dentist",
+            "hygienist"
+        ],
+        "translated_keywords": {
+            "teeth cleaning": {
+                "French": "nettoyage des dents",
+                "Portuguese": "limpeza dos dentes",
+                "German": "Zahnreinigung",
+                "Spanish": "limpieza dental"
+            },
+            "plaque removal": {
+                "French": "élimination de plaque",
+                "Portuguese": "remoção de placa",
+                "German": "Plaqueentfernung",
+                "Spanish": "eliminación de placa"
+            },
+            "tartar removal": {
+                "French": "élimination du tartre",
+                "Portuguese": "remoção de tártaro",
+                "German": "Zahnsteinentfernung",
+                "Spanish": "remoción de sarro"
+            },
+            "flossing": {
+                "French": "fil dentaire",
+                "Portuguese": "fio dental",
+                "German": "Zahnseide",
+                "Spanish": "hilo dental"
+            },
+            "brushing": {
+                "French": "brossage",
+                "Portuguese": "escovação",
+                "German": "Bürsten",
+                "Spanish": "cepillado"
+            },
+            "gum disease": {
+                "French": "maladie des gencives",
+                "Portuguese": "doença gengival",
+                "German": "Zahnfleischerkrankung",
+                "Spanish": "enfermedad de las encías"
+            },
+            "dentist": {
+                "French": "dentiste",
+                "Portuguese": "dentista",
+                "German": "Zahnarzt",
+                "Spanish": "dentista"
+            },
+            "hygienist": {
+                "French": "hygieniste",
+                "Portuguese": "higienista",
+                "German": "Hygieniker",
+                "Spanish": "higienista"
+            }
+        }
+    },
+    {
+        "sentence": "How well you do depends on the amount of poison swallowed and how quickly treatment is received.",
+        "keywords": [
+            "poison ingestion",
+            "treatment speed",
+            "toxicity"
+        ],
+        "translated_keywords": {
+            "poison ingestion": {
+                "French": "ingestion de poison",
+                "Portuguese": "ingestão de veneno",
+                "German": "Giftaufnahme",
+                "Spanish": "ingestión de veneno"
+            },
+            "treatment speed": {
+                "French": "vitesse de traitement",
+                "Portuguese": "velocidade de tratamento",
+                "German": "Behandlungsgeschwindigkeit",
+                "Spanish": "velocidad de tratamiento"
+            },
+            "toxicity": {
+                "French": "toxicité",
+                "Portuguese": "toxicidade",
+                "German": "Toxizität",
+                "Spanish": "toxicidad"
+            }
+        }
+    },
+    {
+        "sentence": "Rarely, children will have problems falling asleep or staying asleep.",
+        "keywords": [
+            "sleep disorders",
+            "insomnia",
+            "children"
+        ],
+        "translated_keywords": {
+            "sleep disorders": {
+                "French": "troubles du sommeil",
+                "Portuguese": "distúrbios do sono",
+                "German": "Schlafstörungen",
+                "Spanish": "trastornos del sueño"
+            },
+            "insomnia": {
+                "French": "insomnie",
+                "Portuguese": "insônia",
+                "German": "Insomnie",
+                "Spanish": "insomnio"
+            },
+            "children": {
+                "French": "enfants",
+                "Portuguese": "crianças",
+                "German": "Kinder",
+                "Spanish": "niños"
+            }
+        }
+    },
+    {
+        "sentence": "Reye syndrome can occur when aspirin is used to treat children with viral infections, such as chickenpox or the flu.",
+        "keywords": [
+            "Reye syndrome",
+            "aspirin",
+            "viral infections",
+            "chickenpox",
+            "flu"
+        ],
+        "translated_keywords": {
+            "Reye syndrome": {
+                "French": "syndrome de Reye",
+                "Portuguese": "síndrome de Reye",
+                "German": "Reye-Syndrom",
+                "Spanish": "síndrome de Reye"
+            },
+            "aspirin": {
+                "French": "aspirine",
+                "Portuguese": "aspirina",
+                "German": "Aspirin",
+                "Spanish": "aspirina"
+            },
+            "viral infections": {
+                "French": "infections virales",
+                "Portuguese": "infecções virais",
+                "German": "virale Infektionen",
+                "Spanish": "infecciones virales"
+            },
+            "chickenpox": {
+                "French": "varicelle",
+                "Portuguese": "catapora",
+                "German": "Windpocken",
+                "Spanish": "varicela"
+            },
+            "flu": {
+                "French": "grippe",
+                "Portuguese": "gripe",
+                "German": "Grippe",
+                "Spanish": "gripe"
+            }
+        }
+    },
+    {
+        "sentence": "Bili lights is a type of light therapy (phototherapy) that is used to treat newborn jaundice . Jaundice is a yellow coloring of the skin and eyes caused by too much of a substance called bilirubin.",
+        "keywords": [
+            "Bili lights",
+            "phototherapy",
+            "newborn jaundice",
+            "bilirubin",
+            "yellow skin",
+            "yellow eyes"
+        ],
+        "translated_keywords": {
+            "Bili lights": {
+                "French": "Luminaires Bili",
+                "Portuguese": "Luzes Bili",
+                "German": "Bili-Lichter",
+                "Spanish": "Luces Bili"
+            },
+            "phototherapy": {
+                "French": "photothérapie",
+                "Portuguese": "fototerapia",
+                "German": "Phototherapie",
+                "Spanish": "fototerapia"
+            },
+            "newborn jaundice": {
+                "French": "jaunisse néonatale",
+                "Portuguese": "icterícia neonatal",
+                "German": "Neugeborenen-Gelbsucht",
+                "Spanish": "ictericia neonatal"
+            },
+            "bilirubin": {
+                "French": "bilirubine",
+                "Portuguese": "bilirrubina",
+                "German": "Bilirubin",
+                "Spanish": "bilirrubina"
+            },
+            "yellow skin": {
+                "French": "peau jaune",
+                "Portuguese": "pele amarela",
+                "German": "gelbe Haut",
+                "Spanish": "piel amarilla"
+            },
+            "yellow eyes": {
+                "French": "yeux jaunes",
+                "Portuguese": "olhos amarelos",
+                "German": "gelbe Augen",
+                "Spanish": "ojos amarillos"
+            }
+        }
+    },
+    {
+        "sentence": "Surgery combined with radiation therapy is often used to treat women with stage 1 disease that has a high chance of returning, has spread to the lymph nodes, or is a grade 2 or 3.",
+        "keywords": [
+            "surgery",
+            "radiation therapy",
+            "stage 1 disease",
+            "lymph nodes",
+            "cancer treatment"
+        ],
+        "translated_keywords": {
+            "surgery": {
+                "French": "chirurgie",
+                "Portuguese": "cirurgia",
+                "German": "Chirurgie",
+                "Spanish": "cirugía"
+            },
+            "radiation therapy": {
+                "French": "thérapie par radiation",
+                "Portuguese": "terapia de radiação",
+                "German": "Strahlentherapie",
+                "Spanish": "terapia de radiación"
+            },
+            "stage 1 disease": {
+                "French": "maladie stade 1",
+                "Portuguese": "doença estágio 1",
+                "German": "Krankheit Stadium 1",
+                "Spanish": "enfermedad etapa 1"
+            },
+            "lymph nodes": {
+                "French": "ganglions lymphatiques",
+                "Portuguese": "linfonodos",
+                "German": "Lymphknoten",
+                "Spanish": "ganglios linfáticos"
+            },
+            "cancer treatment": {
+                "French": "traitement du cancer",
+                "Portuguese": "tratamento do câncer",
+                "German": "Krebsbehandlung",
+                "Spanish": "tratamiento del cáncer"
+            }
+        }
+    }
+]

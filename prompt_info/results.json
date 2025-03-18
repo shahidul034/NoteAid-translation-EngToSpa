@@ -1,0 +1,54 @@
+[
+    {
+        "text": "Qwen2.5-3B-Instruct_without_finetune_keyword_relationships_umls: 33.6302",
+        "timestamp": "2025-03-14T02:02:25.771691"
+    },
+    {
+        "text": "Qwen2.5-7B-Instruct_without_finetune_keyword_synonymous_umls: 42.3065",
+        "timestamp": "2025-03-14T02:07:55.467188"
+    },
+    {
+        "text": "Qwen2.5-1.5B-Instruct_without_finetune_keyword_synonymous_umls: 34.4206",
+        "timestamp": "2025-03-14T02:12:46.730831"
+    },
+    {
+        "text": "Qwen2.5-3B-Instruct_without_finetune_keyword_synonymous_umls: 35.9202",
+        "timestamp": "2025-03-14T02:19:12.998744"
+    },
+    {
+        "text": "Qwen2.5-7B-Instruct_without_finetune_translated_keywords_gpt4o_mini: 55.2853",
+        "timestamp": "2025-03-14T02:43:32.590721"
+    },
+    {
+        "text": "Qwen2.5-1.5B-Instruct_without_finetune_translated_keywords_gpt4o_mini: 42.3947",
+        "timestamp": "2025-03-14T02:47:08.608795"
+    },
+    {
+        "text": "Qwen2.5-3B-Instruct_without_finetune_translated_keywords_gpt4o_mini: 35.4321",
+        "timestamp": "2025-03-14T02:52:28.119863"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_keyword_relationships_umls: 19.9648",
+        "timestamp": "2025-03-14T04:29:51.383098"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_keyword_synonymous_umls: 20.6391",
+        "timestamp": "2025-03-14T04:45:49.033335"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_kg_gpt4o_mini_umls: 41.2305",
+        "timestamp": "2025-03-14T04:57:53.882324"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_synonyms_gpt4o_diff_lang_umls: 41.2264",
+        "timestamp": "2025-03-14T05:09:53.980935"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_translated_keywords_gpt4o_mini: 42.4372",
+        "timestamp": "2025-03-14T05:22:37.883994"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_direct_tran: 42.4828",
+        "timestamp": "2025-03-14T05:34:02.137895"
+    }
+]

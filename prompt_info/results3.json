@@ -1,0 +1,98 @@
+[
+    {
+        "text": "phi-4_without_finetune_keyword_relationships_umls_gpt: 1.3049",
+        "timestamp": "2025-03-14T07:38:37.343445"
+    },
+    {
+        "text": "phi-4_without_finetune_keyword_synonymous_umls_gpt: 0.5847",
+        "timestamp": "2025-03-14T07:54:41.876551"
+    },
+    {
+        "text": "phi-4_without_finetune_kg_gpt4o_mini_umls_gpt: 1.4338",
+        "timestamp": "2025-03-14T08:05:20.105598"
+    },
+    {
+        "text": "phi-4_without_finetune_synonyms_gpt4o_diff_lang_umls_gpt: 1.4338",
+        "timestamp": "2025-03-14T08:16:04.739381"
+    },
+    {
+        "text": "phi-4_without_finetune_translated_keywords_gpt4o_mini_gpt: 1.0704",
+        "timestamp": "2025-03-14T08:29:54.872038"
+    },
+    {
+        "text": "phi-4_without_finetune_and_prompt_gpt: 51.1022",
+        "timestamp": "2025-03-14T08:38:27.745684"
+    },
+    {
+        "text": "Qwen2.5-7B-Instruct_without_finetune_synonyms_gpt4o_diff_lang_umls: 45.9852",
+        "timestamp": "2025-03-15T03:10:34.056561"
+    },
+    {
+        "text": "Qwen2.5-1.5B-Instruct_without_finetune_synonyms_gpt4o_diff_lang_umls: 36.9045",
+        "timestamp": "2025-03-15T03:14:16.709248"
+    },
+    {
+        "text": "Qwen2.5-3B-Instruct_without_finetune_synonyms_gpt4o_diff_lang: 35.4124",
+        "timestamp": "2025-03-15T03:43:50.121901"
+    },
+    {
+        "text": "Qwen2.5-1.5B-Instruct_without_finetune_kg_gpt4o_mini: 36.7515",
+        "timestamp": "2025-03-15T03:47:55.950686"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_find_cod_prompt: 35.3689",
+        "timestamp": "2025-03-16T03:10:09.911877"
+    },
+    {
+        "text": "phi-4_without_finetune_find_cod_prompt: 0.9346",
+        "timestamp": "2025-03-16T03:25:53.905514"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_keyword_synonymous_umls_keyword_relationships_umls: 16.8197",
+        "timestamp": "2025-03-16T08:23:43.224535"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_keyword_synonymous_umls_kg_gpt4o_mini: 18.4495",
+        "timestamp": "2025-03-16T08:40:33.682151"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_keyword_synonymous_umls_kg_gpt4o_mini: 20.9279",
+        "timestamp": "2025-03-16T09:08:20.852872"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_gpt4o_mini_tran_func_synonyms_gpt4o_diff_lang: 22.3557",
+        "timestamp": "2025-03-16T10:09:45.990961"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_gpt4o_mini_tran_func_keyword_synonymous_umls: 26.9932",
+        "timestamp": "2025-03-16T10:24:24.209139"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_gpt4o_mini_tran_func_kg_gpt4o_mini: 19.3324",
+        "timestamp": "2025-03-16T10:40:16.678687"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_gpt4o_mini_tran_func_keyword_relationships_umls: 20.9704",
+        "timestamp": "2025-03-16T10:55:11.735627"
+    },
+    {
+        "text": "phi-4_without_finetune_find_cod_prompt: 42.5145",
+        "timestamp": "2025-03-17T07:39:29.456603"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_find_cod_prompt: 43.9010",
+        "timestamp": "2025-03-17T08:09:59.982663"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_gpt4o_mini_tran_func_synonyms_gpt4o_diff_lang: 31.8193",
+        "timestamp": "2025-03-17T09:29:23.884488"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_gpt4o_mini_tran_func_keyword_synonymous_umls: 31.9706",
+        "timestamp": "2025-03-17T09:44:20.856785"
+    },
+    {
+        "text": "Qwen2.5-14B-Instruct_without_finetune_gpt4o_mini_tran_func_kg_gpt4o_mini: 39.0285",
+        "timestamp": "2025-03-17T09:58:14.251205"
+    }
+]

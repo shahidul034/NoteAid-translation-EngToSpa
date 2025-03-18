@@ -1,0 +1,2397 @@
+[
+    {
+        "sentence": "If you have a weakened immune system due to AIDS, cancer, transplantation, or corticosteroid use, call your doctor if you develop a cough, fever, or shortness of breath.",
+        "synonymous": {
+            "weakened immune system": {
+                "POR": "Anemia Hemolítica Autoimune Anemias hemolíticas auto-imunes Anemias hemolíticas auto-imunes Anemia hemolítica auto-imune Anemia hemolítica auto-imune Anemia hemolítica auto-imune Anemia hemolítica auto-imune Anemia hemolítica auto-imune NE Anemia hemolítica auto-imune NE Anemia hemolítica auto-imune Anemia Hemolítica Autoimunitária Anemia hemolítica autoimune (SOE) Anemia hemolítica autoimune Anemia hemolítica autoimune Anemia hemolítica autoimune Anemia hemolítica autoimune Anemia hemolítica autoimune Anemias hemolíticas autoimunes Anemia hemolítica autoimune SOE Anemias hemolíticas autoimunes Esclerodermia sistémica Esclerose sistémica Esclerose sistémica progressiva Esclerodermia sistémica Esclerose Sistêmica Esclerodermia sistêmica Esclerose sistêmica Esclerose sistêmica progressiva Esclerodermia sistêmica Escleroderma Sistêmico",
+                "FRE": "Anémies hémolytiques autoimmunes Anémies hémolytiques autoimmunes Anémie hémolytique auto-immune Anémie hémolytique auto-immune SAI Anémie hémolytique auto immune SAI Anémie hémolytique auto-immune Anémie hémolytique auto-immune Anémie hémolytique auto-immune Anémie hémolytique auto-immune Anémie hémolytique autoimmune AHLAI AHAI Anémie hémolytique auto-immune Sclérodermie systémique Sclérose systémique progressive Sclérodermie systémique Sclérodermie systémique Sclérose systémique Sclérose générale Sclérodermie généralisée Sclérodermie systémique",
+                "GER": "autoimmunhaemolytische Anaemien autoimmunhaemolytische Anaemien Anaemie autoimmunhaemolytisch (NNB) Anaemie autoimmunhaemolytisch NNB Autoimmunhaemolytische Anaemie Autoimmunhaemolytische Anaemie Haemolytische Anaemie autoimmun Haemolytische Anaemie autoimmun Autoimmunhaemolytische Anaemie Autoimmunhämolytische Anämie Hämolytische Anämie, autoimmune Anämie, autoimmunhämolytische Progressive systemische Sklerose Systemische Sklerose, nicht naeher bezeichnet Systemische Sklerose Systemische Sklerodermie Systemische Sklerodermie Systemische Sklerodermie Systemische Sklerose Progressive systemische Sklerose Sklerodermie, systemische"
+            },
+            "AIDS": {
+                "FRE": "Syndrome d'immunodéficience acquise",
+                "GER": "Erworbenes Immundefektsyndrom",
+                "POR": "Síndromes de imunodeficiência adquirida"
+            },
+            "cancer": {
+                "FRE": "ACS (American Cancer Society)",
+                "GER": "American Cancer Society",
+                "POR": "American Cancer Society"
+            },
+            "transplantation": {
+                "FRE": "Homoplastie",
+                "POR": "Transplante Homólogo",
+                "GER": "Transplantation, homologe"
+            },
+            "corticosteroid": {
+                "POR": "17-Hidroxicorticoesteroides",
+                "FRE": "17-Hydroxycorticostéroïdes",
+                "GER": "17-Hydroxycorticosteroide"
+            },
+            "doctor": {
+                "FRE": "Assistants de médecin",
+                "GER": "Ärztliche Assistenten",
+                "POR": "Assistentes Médicos"
+            },
+            "cough": {
+                "FRE": "Toux chronique",
+                "POR": "Tosse Persistente",
+                "GER": "Chronischer Husten"
+            },
+            "fever": {
+                "GER": "Paratyphusfieber A",
+                "FRE": "Fièvre paratyphoïde A",
+                "POR": "Febre paratifoide A"
+            },
+            "shortness of breath": {
+                "FRE": "Dyspnée",
+                "POR": "Dispneia",
+                "GER": "Dyspnoe"
+            }
+        }
+    },
+    {
+        "sentence": "Do NOT place the person in this position if a head, neck, back, or leg injury is suspected or if it makes the victim uncomfortable.",
+        "synonymous": {
+            "place": {
+                "FRE": "Hormones placentaires",
+                "GER": "Plazentahormone",
+                "POR": "Hormônios Placentários"
+            },
+            "head injury": {
+                "FRE": "Traumatismes crâniens fermés",
+                "GER": "Kopfverletzungen, geschlossene",
+                "POR": "Traumatismos Cranianos Fechados"
+            },
+            "neck injury": {
+                "GER": "Halsverletzungen",
+                "FRE": "Traumatismes du cou",
+                "POR": "Lesões do Pescoço"
+            },
+            "back injury": {
+                "GER": "Rückenverletzungen",
+                "FRE": "Traumatismes du dos",
+                "POR": "Lesões nas Costas"
+            },
+            "leg injury": {
+                "FRE": "Lésions traumatiques de la jambe",
+                "GER": "Beinverletzungen",
+                "POR": "Traumatismos da Perna"
+            },
+            "victim": {},
+            "uncomfortable": {}
+        }
+    },
+    {
+        "sentence": "Increased vision allows the infant to tell objects apart from backgrounds with very little contrast (such as a button on a blouse of the same color)",
+        "synonymous": {
+            "increased vision": {},
+            "infant": {},
+            "objects": {},
+            "contrast": {}
+        }
+    },
+    {
+        "sentence": "If obesity prevents you from being physically able to inspect your feet, ask a family member, neighbor, or visiting nurse to perform this important check.",
+        "synonymous": {
+            "obesity": {
+                "POR": "Distrofia adiposogenital",
+                "FRE": "Dystrophie adiposo-génitale",
+                "GER": "Adiposogenitale Dystrophie"
+            },
+            "inspect feet": {
+                "FRE": "Contrôle des aliments Contrôle alimentaire Inspection des aliments Syndrome des pieds brûlants Syndrome des pieds brûlants",
+                "POR": "Controle Bromatológico Inspeção Alimentar Controle Sanitário dos Alimentos Controle Sanitário de Alimentos Inspeção de Alimentos Síndrome do pé ardente Síndrome do pé ardente Síndrome de queimação nos pés Síndrome de queimação nos pés",
+                "GER": "Nahrungsmittelkontrolle Burning-Feet-Syndrom Burning-Feet-Syndrom"
+            },
+            "family member": {
+                "POR": "Membros da Família",
+                "FRE": "Membres de la famille",
+                "GER": "Familienmitglieder"
+            },
+            "neighbor": {
+                "POR": "Centros Vicinais de Saúde",
+                "GER": "Neighborhood Health Centers",
+                "FRE": "Dispensaires locaux"
+            },
+            "visiting nurse": {},
+            "check": {}
+        }
+    },
+    {
+        "sentence": "CT scan or MRI to confirm that there is a growth, and to see if the cancer has spread to lymph nodes in the neck",
+        "synonymous": {
+            "CT scan": {
+                "FRE": "Tomodensitométrie",
+                "GER": "Computertomographie",
+                "POR": "Tomografia Computadorizada por Raios X"
+            },
+            "MRI": {
+                "FRE": "Amrinone",
+                "GER": "Amrinon",
+                "POR": "Amrinona"
+            },
+            "growth": {
+                "GER": "Humanes Wachstumshormon",
+                "POR": "Hormônio do Crescimento Humano",
+                "FRE": "Hormone de croissance humaine"
+            },
+            "cancer": {
+                "FRE": "ACS (American Cancer Society)",
+                "GER": "American Cancer Society",
+                "POR": "American Cancer Society"
+            },
+            "spread": {
+                "GER": "Kortikale Spreading Depression",
+                "FRE": "DCE (Dépression Corticale Envahissante)",
+                "POR": "Depressão Cortical Alastrante"
+            },
+            "lymph nodes": {
+                "FRE": "Noeud lymphatique",
+                "POR": "Linfonodos",
+                "GER": "Lymphknoten"
+            },
+            "neck": {}
+        }
+    },
+    {
+        "sentence": "A uniform brown color is usually seen over the cheeks, forehead, nose, or upper lip.It is most often symmetrical (matching on both sides of the face).",
+        "synonymous": {
+            "uniform brown color": {
+                "GER": "Sideropenische Dysphagie Paterson-Brown-Kelly-Syndrom Plummer-Vinson-Syndrom Sideropenische Dysphagie Eisenmangeldysphagie Paterson-Brown-Kelly-Syndrom Sideropenische Dysphagie Sideropenische Dysphagie Plummer-Vinson-Syndrom Farbenfehlsichtigkeit Farbenfehlsichtigkeit gestoertes Farbensehen FARBENFEHLSICHTIGKEIT Farbsinnstoerungen Farbenfehlsichtigkeit Gestoertes Farbensehen Gestoertes Farbensehen Farbsehstörungen",
+                "FRE": "Syndrome de Paterson-Brown-Kelly Syndrome de Plummer-Vinson Dysphagie sidéropénique Syndrome de Kelly-Patterson Dysphagie sidéropénique Syndrome de Plummer-Vinson Déficits de la vision des couleurs Incapacité de vision des couleurs Vision des couleurs défectueuse TROUBLE DE LA VISION DES COULEURS Vision des couleurs défectueuse Vision des couleurs imparfaite Défauts de vision des couleurs Déficiences de la vision colorée Daltonisme Déficiences de la vision des couleurs Dyschromatopsies Troubles de la vision des couleurs",
+                "POR": "Síndrome de Plummer-Vinson Disfagia sideropénica Síndrome de Paterson-Brown-Kelly Síndrome de Plummer-Vinson Síndrome de Paterson-Brown-Kelly Disfagia sideropênica Disfagia sideropênica Disfagia sideropénica Síndrome de Plummer-Vinson Deficiências da visão das cores Deficiências da visão das cores Visão deficiente das cores ALTERACAO DA VISAO CROMATICA Visão deficiente das cores Visão deficiente das cores Deficiência da Visão Cromática Defeito da Visão Cromática Deficiências da Visão Cromática Deficiências da visão de cores Visão de cores defeituosa Visão de cores defeituosa Visão de cores defeituosa Deficiências da visão de cores Defeitos da Visão Cromática"
+            },
+            "cheeks": {
+                "GER": "Wange",
+                "FRE": "Joue",
+                "POR": "Bochecha"
+            },
+            "forehead": {},
+            "nose": {
+                "FRE": "Acétyl-galactosamine",
+                "GER": "Acetylgalactosamin",
+                "POR": "Acetilgalactosamina"
+            },
+            "upper lip": {
+                "GER": "Boesartige Neubildung der Oberlippe, Lippenrot",
+                "FRE": "Tumeur maligne de la lèvre supérieure, vermillon de la lèvre",
+                "POR": "Neoplasia maligna do lábio superior, bordo vermelhão"
+            },
+            "symmetrical": {
+                "FRE": "Lipomatose nodulaire circonscrite",
+                "GER": "Lipomatose, noduläre umschriebene",
+                "POR": "Lipomatose Nodular Circunscrita"
+            }
+        }
+    },
+    {
+        "sentence": "Your doctor may do other tests to check high blood pressure, heart disease, diabetes, high cholesterol, and other causes of, and risk factors for TIAs or stroke.",
+        "synonymous": {
+            "doctor": {
+                "FRE": "Assistants de médecin",
+                "GER": "Ärztliche Assistenten",
+                "POR": "Assistentes Médicos"
+            },
+            "tests": {
+                "POR": "Testes de Prausnitz-Kustner",
+                "GER": "Prausnitz-Küstner-Test",
+                "FRE": "Test de Prausnitz-Küstner"
+            },
+            "high blood pressure": {
+                "FRE": "Hypertension artérielle",
+                "POR": "Hipertensão",
+                "GER": "Hypertonie"
+            },
+            "heart disease": {
+                "GER": "Akute rheumatische Herzerkrankung, nicht spezifiziert",
+                "FRE": "Cardiopathie rhumatismale aiguë, non précisée",
+                "POR": "Doença cardíaca reumática aguda, não especificada"
+            },
+            "diabetes": {
+                "FRE": "Diabète instable",
+                "POR": "Diabetes instável",
+                "GER": "Diabetes mellitus, Brittle-"
+            },
+            "high cholesterol": {
+                "GER": "Hohes Cholesterin",
+                "FRE": "Cholestérol élevé",
+                "POR": "Colesterol total aumentado"
+            },
+            "TIAs": {
+                "GER": "Drakunkulose",
+                "FRE": "Dracunculose",
+                "POR": "Dracunculíase"
+            },
+            "stroke": {
+                "FRE": "Accident vasculaire cérébral",
+                "POR": "Acidente cerebrovascular",
+                "GER": "Zerebrovaskulärer Insult"
+            }
+        }
+    },
+    {
+        "sentence": "Stridor is an abnormal, high-pitched, musical breathing sound caused by a blockage in the throat or voice box (larynx).It is usually heard when taking in a breath.",
+        "synonymous": {
+            "Stridor": {
+                "POR": "Estridor",
+                "FRE": "Stridor",
+                "GER": "Stridor"
+            },
+            "abnormal breathing": {
+                "GER": "Atmungsanomalien",
+                "POR": "Respiração anormal",
+                "FRE": "Respiration anormale"
+            },
+            "high-pitched": {},
+            "musical sound": {},
+            "blockage": {},
+            "throat": {
+                "GER": "Pharyngitis durch Streptokokken",
+                "FRE": "Pharyngite streptococcique",
+                "POR": "Faringite estreptocócica"
+            },
+            "larynx": {},
+            "breath": {
+                "FRE": "Entraînement respiratoire",
+                "GER": "Atemübungen",
+                "POR": "Exercícios Respiratórios"
+            }
+        }
+    },
+    {
+        "sentence": "Is there blood on the toilet paper only?",
+        "synonymous": {
+            "blood": {
+                "POR": "Antígenos de Grupos Sanguíneos",
+                "FRE": "Antigènes de groupe sanguin",
+                "GER": "Blutgruppenantigene"
+            },
+            "toilet paper": {}
+        }
+    },
+    {
+        "sentence": "Ask your health care provider.",
+        "synonymous": {
+            "health care provider": {
+                "FRE": "Personnel sanitaire",
+                "GER": "Personal im Gesundheitswesen",
+                "POR": "Pessoal de Saúde"
+            },
+            "ask": {
+                "POR": "Alaska",
+                "FRE": "Alaska",
+                "GER": "Alaska"
+            }
+        }
+    },
+    {
+        "sentence": "Complete bed rest for several days is usually recommended.",
+        "synonymous": {
+            "bed rest": {
+                "FRE": "Alitement",
+                "POR": "Repouso em Cama",
+                "GER": "Bettruhe"
+            },
+            "recommended": {
+                "FRE": "Apports quotidiens conseillés",
+                "GER": "RDA",
+                "POR": "Recomendações Nutricionais Diárias"
+            }
+        }
+    },
+    {
+        "sentence": "They still have foot problems after treatment",
+        "synonymous": {
+            "foot problems": {},
+            "treatment": {
+                "GER": "Nichtbefolgung der Behandlung",
+                "POR": "Não cumprimento de tratamento",
+                "FRE": "Non-observance du traitement"
+            }
+        }
+    },
+    {
+        "sentence": "Disorders of the endocrine system",
+        "synonymous": {
+            "endocrine system": {
+                "FRE": "Système neurosécréteur",
+                "POR": "Sistemas Neurossecretores",
+                "GER": "Neurosekretorische Systeme"
+            },
+            "disorders": {
+                "GER": "Tic-Störungen",
+                "FRE": "Tic",
+                "POR": "Transtornos de Tique"
+            }
+        }
+    },
+    {
+        "sentence": "Biopsy - breast; Open breast biopsy",
+        "synonymous": {
+            "biopsy": {
+                "FRE": "Biopsie osseuse",
+                "GER": "Knochenbiopsie",
+                "POR": "Biopsia óssea"
+            },
+            "breast biopsy": {},
+            "open biopsy": {
+                "FRE": "Biopsie par incision",
+                "POR": "Biópsia incisional",
+                "GER": "Inzisionsbiopsie"
+            }
+        }
+    },
+    {
+        "sentence": "Are illegal drugs being used?",
+        "synonymous": {
+            "illegal drugs": {},
+            "used": {
+                "GER": "Bakterielle Infektionen",
+                "POR": "Infecções Bacterianas",
+                "FRE": "Infections bactériennes"
+            }
+        }
+    },
+    {
+        "sentence": "Preventive measures vary depending on the specific disorder.",
+        "synonymous": {
+            "preventive measures": {},
+            "disorder": {
+                "FRE": "Trouble autistique",
+                "POR": "Transtorno Autístico",
+                "GER": "Fruehkindlicher Autismus"
+            }
+        }
+    },
+    {
+        "sentence": "Some laboratories use different measurements or may test different specimens.",
+        "synonymous": {
+            "laboratories": {
+                "FRE": "Laboratoires",
+                "POR": "Laboratórios",
+                "GER": "Laboratorien"
+            },
+            "measurements": {},
+            "test": {},
+            "specimens": {}
+        }
+    },
+    {
+        "sentence": "Menopause. A drop in the hormone estrogen causes vaginal dryness.",
+        "synonymous": {
+            "menopause": {
+                "GER": "Menopause, vorzeitige",
+                "FRE": "Ménopause précoce",
+                "POR": "Menopausa Precoce"
+            },
+            "hormone": {
+                "FRE": "Syndrome de sécrétion inappropriée d'ADH",
+                "GER": "ADH-Sekretionssyndrom, inadäquates",
+                "POR": "Síndrome de Secreção Inadequada de HAD"
+            },
+            "estrogen": {
+                "FRE": "Oestrogènes conjugués (USP)",
+                "GER": "Östrogene, konjugierte",
+                "POR": "Estrogênios Conjugados (USP)"
+            },
+            "vaginal dryness": {
+                "FRE": "Sécheresse vaginale",
+                "GER": "Vaginale Trockenheit",
+                "POR": "Secura vaginal"
+            }
+        }
+    },
+    {
+        "sentence": "Depression and older age are both risk factors for suicide.",
+        "synonymous": {
+            "depression": {
+                "POR": "Depressão psicótica",
+                "FRE": "Dépression psychotique",
+                "GER": "Psychotische Depression"
+            },
+            "older age": {},
+            "risk factors": {
+                "FRE": "Facteurs de risque",
+                "POR": "Fatores de Risco",
+                "GER": "Risikofaktoren"
+            },
+            "suicide": {
+                "POR": "Tentativa de Suicídio",
+                "GER": "Suizid, versuchter",
+                "FRE": "Tentative de suicide"
+            }
+        }
+    },
+    {
+        "sentence": "Most women have only one polyp, but some women have two or three.",
+        "synonymous": {
+            "polyp": {
+                "POR": "Polipeptídeo",
+                "FRE": "Polypeptides",
+                "GER": "Polypeptide"
+            }
+        }
+    },
+    {
+        "sentence": "This test is done to measure the level of amino acids in the blood.",
+        "synonymous": {
+            "test": {},
+            "measure": {},
+            "amino acids": {
+                "FRE": "Acides aminés",
+                "POR": "Aminoácidos",
+                "GER": "Aminosäuren"
+            },
+            "blood": {
+                "POR": "Antígenos de Grupos Sanguíneos",
+                "FRE": "Antigènes de groupe sanguin",
+                "GER": "Blutgruppenantigene"
+            }
+        }
+    },
+    {
+        "sentence": "The infection is spread by saliva, urine, respiratory droplets, sexual contact, and blood transfusions.",
+        "synonymous": {
+            "infection": {
+                "GER": "Erysipelothrixinfektionen",
+                "FRE": "Infections à Erysipelothrix",
+                "POR": "Infecções por Erysipelothrix"
+            },
+            "spread": {
+                "GER": "Kortikale Spreading Depression",
+                "FRE": "DCE (Dépression Corticale Envahissante)",
+                "POR": "Depressão Cortical Alastrante"
+            },
+            "saliva": {
+                "FRE": "Maladies de la glande salivaire",
+                "GER": "Speicheldrüsenkrankheiten",
+                "POR": "Doenças das Glândulas Salivares"
+            },
+            "urine": {
+                "FRE": "Tioguanine",
+                "POR": "Tioguanina",
+                "GER": "Thioguanin"
+            },
+            "respiratory droplets": {
+                "FRE": "Gouttelettes respiratoires",
+                "GER": "Respiratorische Tröpfchen",
+                "POR": "Gotícula Respiratória"
+            },
+            "sexual contact": {},
+            "blood transfusions": {
+                "FRE": "Transfusion foetale",
+                "POR": "Transfusão Fetal",
+                "GER": "Bluttransfusion, intrauterine"
+            }
+        }
+    },
+    {
+        "sentence": "You may occasionally eat lean, 3-ounce cuts of red meat.",
+        "synonymous": {
+            "eat": {},
+            "lean meat": {},
+            "red meat": {}
+        }
+    },
+    {
+        "sentence": "Several conditions may cause increased pressure in the skull, including:",
+        "synonymous": {
+            "conditions": {
+                "POR": "Condição pré-cancerosa",
+                "FRE": "État précancéreux",
+                "GER": "Präkanzerosen"
+            },
+            "increased pressure": {},
+            "skull": {
+                "FRE": "Fractures du crâne",
+                "GER": "Schädelfrakturen",
+                "POR": "Fraturas Cranianas"
+            }
+        }
+    },
+    {
+        "sentence": "Abnormal heart sounds",
+        "synonymous": {
+            "abnormal heart sounds": {
+                "FRE": "Autres bruits du coeur anormaux",
+                "GER": "anomale Herztoene, sonstige",
+                "POR": "Outros sons cardíacos anormais"
+            }
+        }
+    },
+    {
+        "sentence": "Waxy, yellow surface",
+        "synonymous": {
+            "waxy surface": {
+                "FRE": "Antigènes de surface du virus de l'hépatite B Antigène HBs Antigènes de surface de l'hépatite B Antigène HBs de l'hépatite B Antigène de surface de l'hépatite B Antigènes HBs de l'hépatite B Antigène Australie Ag HBs Antigènes s de l'hépatite B Antigène Australia",
+                "GER": "Australia-Antigen HBsAg Hepatitis-B-Oberflächenantigene",
+                "POR": "HBsAg Antígeno Austrália Antígeno Hbs Antígenos de Superfície da Hepatite B"
+            },
+            "yellow surface": {}
+        }
+    },
+    {
+        "sentence": "Oxygen",
+        "synonymous": {
+            "oxygen": {
+                "FRE": "Isotopes radio-actifs de l'oxygène",
+                "POR": "Radioisótopos de Oxigênio",
+                "GER": "Sauerstoffradioisotope"
+            }
+        }
+    },
+    {
+        "sentence": "Recent open heart surgery",
+        "synonymous": {
+            "open heart surgery": {
+                "FRE": "Chirurgie à coeur ouvert",
+                "POR": "Cirurgia cardíaca aberta",
+                "GER": "Offene Herzoperation"
+            },
+            "recent surgery": {}
+        }
+    },
+    {
+        "sentence": "Thyroid disease",
+        "synonymous": {
+            "thyroid disease": {
+                "FRE": "Maladies de la parathyroïde",
+                "GER": "Nebenschilddrüsenkrankheiten",
+                "POR": "Anomalia da paratireóide"
+            }
+        }
+    },
+    {
+        "sentence": "Nausea",
+        "synonymous": {
+            "nausea": {
+                "FRE": "Nausees/vomissements",
+                "GER": "Uebelkeit und Brechsymptome",
+                "POR": "Sintomas de náusea e vómito"
+            }
+        }
+    },
+    {
+        "sentence": "Brussels sprouts Cabbage",
+        "synonymous": {
+            "Brussels sprouts": {
+                "POR": "Couve-de-Bruxelas",
+                "GER": "Rosenkohl",
+                "FRE": "Choux de Bruxelles"
+            },
+            "cabbage": {
+                "POR": "Repolho",
+                "GER": "Kohl",
+                "FRE": "Choux maraîchers"
+            }
+        }
+    },
+    {
+        "sentence": "Oysters",
+        "synonymous": {
+            "oysters": {
+                "POR": "Ostreidae",
+                "FRE": "Ostreidae",
+                "GER": "Austern"
+            }
+        }
+    },
+    {
+        "sentence": "CPR can be lifesaving, but it is best done by someone trained in an accredited CPR course.",
+        "synonymous": {
+            "CPR": {
+                "POR": "Ressuscitação cardiopulmonar",
+                "GER": "Kardiopulmonale Wiederbelebung",
+                "FRE": "Réanimation cardiopulmonaire"
+            },
+            "lifesaving": {},
+            "trained": {
+                "FRE": "Personnel sans formation",
+                "POR": "Pessoal não Treinado"
+            },
+            "accredited CPR course": {
+                "POR": "CPR Suporte das Condições Vitais Cardíacas Básicas Manutenção das Condições Vitais Cardíacas Básicas Reanimação Cardiopulmonar Reanimação Cardiorrespiratória Ressuscitação Cardiopulmonar Ressuscitação cardiopulmonar Ressuscitação cardiopulmonar Violação Estupro Estupro",
+                "GER": "Herz-Lungen-Wiederbelebung Kardiopulmonale Reanimation CPR Herz-Lungen-Wiederbelebung Kardiopulmonale Wiederbelebung Vergewaltigung Vergewaltigung",
+                "FRE": "Réanimation cardio-pulmonaire RCP (Réanimation CardioPulmonaire) Réanimation cardiorespiratoire RCR (Réanimation CardioRespiratoire) Réanimation cardiopulmonaire Réanimation cardiopulmonaire Viol Viol"
+            }
+        }
+    },
+    {
+        "sentence": "Always let your doctor know about any cold, flu, fever, herpes breakout, or other illnesses you may have. ",
+        "synonymous": {
+            "doctor": {
+                "FRE": "Assistants de médecin",
+                "GER": "Ärztliche Assistenten",
+                "POR": "Assistentes Médicos"
+            },
+            "cold": {
+                "FRE": "Anémie hémolytique à anticorps froid",
+                "GER": "Haemolytische Anaemie durch Kaelteantikoerper",
+                "POR": "Anemia hemolítica a frio"
+            },
+            "flu": {
+                "GER": "Haemophilus influenza-Infektion",
+                "POR": "Infecção por Haemophilus influenza",
+                "FRE": "Infection à Haemophilus influenzae"
+            },
+            "fever": {
+                "GER": "Paratyphusfieber A",
+                "FRE": "Fièvre paratyphoïde A",
+                "POR": "Febre paratifoide A"
+            },
+            "herpes breakout": {
+                "GER": "Herpes-Infektion Herpesvirus-Infektion NNB Herpesvirus-Infektion Herpes-Virusinfektionen Herpesvirusinfektionen Herpesvirus-Infektion Herpesviridaeinfektionen",
+                "FRE": "Infection herpétique SAI Infection à herpèsvirus Infection herpétique Infections à herpesvirus Infections à herpèsvirus Infections à herpesviridés Infections à herpès virus Infection à herpèsvirus Infections à Herpesviridae",
+                "POR": "Infecção herpética Infecção pelo vírus do herpes Infecções por Herpesvirus Infecções por herpesvírus Infecção pelo vírus do herpes NE Infecções por herpes-vírus Infecção pelo vírus de herpes SOE Infecção pelo herpesvírus Infecção pelo herpesvírus Infecção por herpes Infecção pelo vírus do herpes Infecções por Herpesviridae"
+            },
+            "illnesses": {
+                "FRE": "Pathologie lourde",
+                "GER": "Lebensbedrohliche Krankheit",
+                "POR": "Doença Catastrófica"
+            }
+        }
+    },
+    {
+        "sentence": "Tretinoin (Retin-A) or creams containing alpha-hydroxy acids may be recommended, but these aren't guaranteed to help.",
+        "synonymous": {
+            "Tretinoin": {
+                "FRE": "Isotrétinoïne",
+                "POR": "Isotretinoína",
+                "GER": "Isotretinoin"
+            },
+            "Retin-A": {
+                "GER": "Retin-A"
+            },
+            "creams": {
+                "GER": "Speiseeis",
+                "POR": "Sorvetes",
+                "FRE": "Crème glacée"
+            },
+            "alpha-hydroxy acids": {
+                "POR": "Esteroide 17-alfa-Hidroxilase P450(c17) Esteroide 17 alfa-Mono-Oxigenase CYP17 17 alfa-Hidroxilase Citocromo P-450(17 alfa) Esteroide 17-Hidroxilase 17,20-Liase Esteroide 17-Mono-Oxigenase Ácido Graxo Ácidos Graxos",
+                "GER": "17-alpha-Hydroxylase Steroid-17-Monooxygenase Steroid-17-Hydroxylase P450(c17) 17,20-Lyase Cytochrom-P-450(17-alpha) CYP17 Steroid-17-Alpha-Monooxygenase P A 450 C 017 STEROID MONOOXYGENASE 017 CYTOCHROM P 450 A 17 ALPHA STEROID HYDROXYLASE 017 STEROID HYDROXYLASE ALPHA 017 STEROID MONOOXYGENASE ALPHA 017 CYP 017 ALPHA HYDROXYLASE 017 LYASE 017 020 Steroid-17-alpha-Hydroxylase Fettsäuren",
+                "FRE": "Stéroïde 17-alpha-monooxygénase 17-alpha-Hydroxylase Stéroïde 17-alpha-hydroxylase CYP 17 CYP17 Steroid 17-alpha-hydroxylase Acides gras"
+            },
+            "recommended": {
+                "FRE": "Apports quotidiens conseillés",
+                "GER": "RDA",
+                "POR": "Recomendações Nutricionais Diárias"
+            }
+        }
+    },
+    {
+        "sentence": "Fever is the classic symptom and may persist for days before any other symptoms appear.",
+        "synonymous": {
+            "fever": {
+                "GER": "Paratyphusfieber A",
+                "FRE": "Fièvre paratyphoïde A",
+                "POR": "Febre paratifoide A"
+            },
+            "symptom": {},
+            "persist": {
+                "FRE": "Tronc artériel commun",
+                "GER": "Truncus arteriosus, persistierender",
+                "POR": "Persistência do Tronco Arterial"
+            }
+        }
+    },
+    {
+        "sentence": "There is more likely to be increased amounts of pollen in the air on hot, dry, windy days.",
+        "synonymous": {
+            "increased pollen": {
+                "FRE": "FIEVRE ELEVATION DE LA TEMPERATURE Fievre PYREXIE Fébrile Fièvre Température élevée Fiévreux Fièvre Pyrexie SAI Température augmentée Élévation de la température corporelle Pyrexie Hyperthermie Fièvre Température augmentée Fièvre RHUME DES FOINS Rhume des foins Pollinose Allergie au pollen Allergie saisonnière Rhinite allergique due au pollen Rhinite allergique saisonnière Allergie au pollen Maladie de Bostock Allergie aux pollens Rhinite allergique périodique Coryza allergique périodique Coryza spasmodique périodique Pollinose Rhume des foins Rhinite spasmodique périodique Pollinose Allergie saisonnière Rhinite allergique saisonnière",
+                "POR": "FEBRE PIREXIA ELEVACAO DA TEMPERATURA Febre Febril Elevação da temperatura Temperatura corporal aumentada Pirexia NE Febre Temperatura alta Pirexia Febril Enfermidades Febris Doenças Febris Pirexia Pirexia SOE Pirexia Temperatura corporal aumentada Pirexia Temperatura corporal aumentada Febril Temperatura alta Elevação de temperatura Febre Pirético Pirexia Temperatura corporal aumentada Febre FEBRE DOS FENOS Febre dos fenos Alergia ao pólen Rinite alérgica sazonal Polinose Rinite alérgica por pólen Alergia a Pólen Polinose Alergia ao Pólen Febre do Feno Alergias próprias das estações do ano Alergias próprias das estações do ano Febre do feno Polinose Rinite alérgica sazonal Alergia sazonal Rinite alérgica ao pólen Alergia a pólen Alergia sazonal Polenose Polinose Rinite Alérgica Sazonal",
+                "GER": "FIEBER Fieber, nicht naeher bezeichnet Fieber PYREXIE TEMPERATURANSTIEG Temperaturanstieg Fieber Fieber Pyrexie NNB Fieberhaft Temperatur hoch Koerpertemperatur erhoeht Pyrexie Hyperpyrexie Hyperthermie Fieberhaft Fieber Koerpertemperatur erhoeht Fieber HEUFIEBER Allergische Rhinopathie durch Pollen Pollinose Pollenallergie Jahreszeitbedingte Allergie Rhinitis infolge von Pollen Pollinose Heuschnupfen Rhinitis, saisonale allergische Pollinosis Jahreszeitbedingte allergische Rhinitis Heuschnupfen Pollenose Jahreszeitbedingte Allergie Heufieber"
+            },
+            "air": {
+                "GER": "Legionärskrankheit",
+                "FRE": "Maladie des légionnaires",
+                "POR": "Doença dos Legionários"
+            }
+        }
+    },
+    {
+        "sentence": "You get iron through certain foods, and your body also reuses iron from old red blood cells.",
+        "synonymous": {
+            "iron": {
+                "FRE": "Isotopes radio-actifs du fer",
+                "GER": "Eisenradioisotope",
+                "POR": "Radioisótopos de Ferro"
+            },
+            "foods": {
+                "FRE": "Nourriture",
+                "GER": "Nahrungsmittel",
+                "POR": "Alimentos"
+            },
+            "red blood cells": {
+                "POR": "Anomalia eritrocítica",
+                "FRE": "Hématies anormales",
+                "GER": "Erythrozytenanomalie"
+            },
+            "reuses": {
+                "FRE": "Selles muqueuses",
+                "GER": "Schleim im Stuhl",
+                "POR": "Fezes mucosas"
+            }
+        }
+    },
+    {
+        "sentence": "Asthma symptoms usually occur much less often or disappear as the child gets get older.",
+        "synonymous": {
+            "asthma symptoms": {},
+            "occur": {
+                "FRE": "Mort survenant moins de 24 heures après le début des symptômes, sans autre explication",
+                "GER": "Todeseintritt innerhalb von weniger als 24 Stunden nach Beginn der Symptome, ohne anderweitige Angabe",
+                "POR": "Morte ocorrendo em menos de 24 horas desde o início dos sintomas, não explicada de outra forma"
+            },
+            "disappear": {}
+        }
+    },
+    {
+        "sentence": "Potatoes that are not green and have had any sprouts removed are safe to eat.",
+        "synonymous": {
+            "potatoes": {
+                "POR": "Batata-Inglesa",
+                "FRE": "Pommes de terre",
+                "GER": "Kartoffel"
+            },
+            "sprouts removed": {
+                "POR": "Couve-de-Bruxelas Remoção de dispositivo contraceptivo intra-uterino Remoção de dispositivo intra-uterino Remoção de dispositivo intrauterino contraceptivo Remoção de dispositivo intrauterino contraceptivo Remoção de dispositivo intrauterino Remoção de dispositivo contraceptivo intra-uterino",
+                "GER": "Rosenkohl Entfernung eines Intrauterinpessars Entfernung eines Intrauterinpessars Entfernung eines Intrauterinpessars",
+                "FRE": "Chou de Bruxelles Choux de Bruxelles Retrait de dispositif contraceptif intra-utérin Retrait de dispositif contraceptif intra-utérin Retrait de dispositif intra-utérin"
+            },
+            "safe to eat": {
+                "FRE": "Tic moteur ou vocal chronique Trouble de tic chronique Trouble de tic chronique Trouble de tic moteur ou vocal chronique",
+                "GER": "Ticstörung, chronisch-motorische oder vokale Chronische motorische oder vokale Ticstoerung Chronische Tic-Stoerung Chronische Tic-Stoerung Chronische motorische oder vokale Ticstörung Chronische motorische oder vokale Tics",
+                "POR": "Perturbação de tique crónico Perturbação de tique crónico Perturbação de tique motor ou vocal crónico Transtorno Crônico de Tique Motor ou Vocal Transtorno de tique crônico Transtorno de tique motor ou vocal crônico Transtorno de tique crônico"
+            }
+        }
+    },
+    {
+        "sentence": "When the needle is inserted to draw blood, you may feel moderate pain, or only a prick or stinging sensation.",
+        "synonymous": {
+            "needle": {
+                "GER": "Nadeln",
+                "FRE": "Aiguilles",
+                "POR": "Agulhas"
+            },
+            "inserted": {},
+            "draw blood": {},
+            "pain": {
+                "POR": "Psicalgia",
+                "GER": "Psychogener Schmerz, Stelle nicht spezifiziert",
+                "FRE": "Trouble lié à la douleur associé à des facteurs psychologiques"
+            },
+            "prick": {},
+            "stinging sensation": {
+                "FRE": "Picotements douloureux",
+                "POR": "Sensação de picadas",
+                "GER": "Stechend"
+            }
+        }
+    },
+    {
+        "sentence": "However, as a general rule, once a substance causes allergies for an individual, it can continue to affect the person long term.",
+        "synonymous": {
+            "substance": {
+                "FRE": "Dépendance à plusieurs substances",
+                "GER": "Abhaengigkeit von mehreren Substanzen",
+                "POR": "Dependência de múltiplas substâncias"
+            },
+            "causes": {
+                "FRE": "Cause de mort",
+                "POR": "Causas Múltiplas de Morte",
+                "GER": "Todesursache"
+            },
+            "allergies": {
+                "GER": "Umweltbedingte Krankheit",
+                "FRE": "Maladie environnementale",
+                "POR": "Doença Ambiental"
+            },
+            "affect": {
+                "POR": "Perturbação esquizoafectiva",
+                "FRE": "Trouble schizo-affectif",
+                "GER": "Schizoaffektive Form der Schizophrenie"
+            },
+            "long term": {
+                "FRE": "Effets à long terme",
+                "POR": "Efeitos a Longo Prazo"
+            }
+        }
+    },
+    {
+        "sentence": "If you have surgery, your sperm count will likely increase but it will not improve your chances of getting a woman pregnant.",
+        "synonymous": {
+            "surgery": {
+                "GER": "Postgastrektomiesyndrome",
+                "FRE": "Syndromes post-gastrectomie",
+                "POR": "Síndromes Pós-Gastrectomia"
+            },
+            "sperm count": {
+                "FRE": "Numération des spermatozoïdes",
+                "POR": "Contagem de espermatozoides",
+                "GER": "Spermienzählung"
+            },
+            "increase": {
+                "FRE": "Fièvre",
+                "POR": "Febre",
+                "GER": "Fieber"
+            },
+            "pregnancy": {
+                "GER": "Toxaemie waehrend Schwangerschaft",
+                "FRE": "Toxémie gravidique",
+                "POR": "Toxemia da gravidez"
+            }
+        }
+    },
+    {
+        "sentence": "Screening women with pelvic ultrasound or blood tests, such as the Ca-125 has not been found to be effective and is not recommended.",
+        "synonymous": {
+            "screening": {},
+            "pelvic ultrasound": {},
+            "blood tests": {},
+            "Ca-125": {
+                "FRE": "Antigène CA-125",
+                "GER": "CA-125-Antigen",
+                "POR": "Antígeno Ca-125"
+            },
+            "effective": {
+                "FRE": "Efficacité biologique relative",
+                "GER": "Relative biologische Wirksamkeit",
+                "POR": "Eficiência Biológica Relativa"
+            },
+            "recommended": {
+                "FRE": "Apports quotidiens conseillés",
+                "GER": "RDA",
+                "POR": "Recomendações Nutricionais Diárias"
+            }
+        }
+    },
+    {
+        "sentence": "Protein can also be used by the body for energy, but only after glycogen or carbohydrate stores have been used up.",
+        "synonymous": {
+            "protein": {
+                "POR": "Deficiência de lipoproteína lipase",
+                "GER": "HYPERLIPOPROTEINÄMIE TYP 01",
+                "FRE": "Déficience en lipoprotéine lipase"
+            },
+            "energy": {
+                "FRE": "Radiothérapie de hautes énergies",
+                "GER": "Strahlentherapie, Hochenergie-",
+                "POR": "Radioterapia de Alta Energia"
+            },
+            "glycogen": {
+                "GER": "Glykogenspeicherkrankheit Typ I",
+                "FRE": "Glycogénose de type I",
+                "POR": "Doença de Depósito de Glicogênio Tipo I"
+            },
+            "carbohydrate": {
+                "POR": "Carboidratos",
+                "FRE": "Glucides",
+                "GER": "Kohlenhydrate"
+            }
+        }
+    },
+    {
+        "sentence": "An extradural hemorrhage is bleeding between the inside of the skull and the outer covering of the brain (called the \"dura\").",
+        "synonymous": {
+            "extradural hemorrhage": {
+                "GER": "nicht-traumatische extradurale Blutung",
+                "FRE": "Hémorragie extradurale non traumatique",
+                "POR": "Hemorragia extradural não traumática"
+            },
+            "bleeding": {
+                "POR": "Metrorragia",
+                "GER": "Metrorrhagie",
+                "FRE": "Métrorragie"
+            },
+            "skull": {
+                "FRE": "Fractures du crâne",
+                "GER": "Schädelfrakturen",
+                "POR": "Fraturas Cranianas"
+            },
+            "brain": {
+                "POR": "Síndrome cerebral SOE",
+                "GER": "Hirnsyndrom (NNB)",
+                "FRE": "Syndrome cérébral SAI"
+            },
+            "dura": {
+                "FRE": "Hémorragie sous-durale",
+                "POR": "Hematoma Subdural",
+                "GER": "Hämatom, subdurales"
+            }
+        }
+    },
+    {
+        "sentence": "Without PIG-A, important proteins cannot connect to the cell surface and protect the cell from substances in the blood called complement.",
+        "synonymous": {
+            "PIG-A": {},
+            "proteins": {
+                "POR": "Proteínas Proto-Oncogênicas c-abl",
+                "FRE": "Protéines proto-oncogènes c-abl",
+                "GER": "Proto-Onkogen-Proteine c-abl"
+            },
+            "connect": {
+                "POR": "Tecido Conjuntivo",
+                "FRE": "Tissu conjonctif",
+                "GER": "Bindegewebe"
+            },
+            "cell surface": {
+                "FRE": "Antigènes de surface cellulaire",
+                "POR": "Antígenos de Superfície",
+                "GER": "Antigene, Oberflächen-"
+            },
+            "protect": {
+                "POR": "Fármaco Protetor",
+                "FRE": "Agents protecteurs",
+                "GER": "Schutzstoffe"
+            },
+            "blood": {
+                "POR": "Antígenos de Grupos Sanguíneos",
+                "FRE": "Antigènes de groupe sanguin",
+                "GER": "Blutgruppenantigene"
+            },
+            "complement": {
+                "FRE": "C3PA Convertase",
+                "POR": "Fator D",
+                "GER": "Komplement-Faktor D"
+            }
+        }
+    },
+    {
+        "sentence": "If you can see bone in the injured site, call your local emergency number (such as 911) or local hospital for further advice.",
+        "synonymous": {
+            "bone": {
+                "FRE": "Maladies osseuses",
+                "GER": "Knochenkrankheiten",
+                "POR": "Doenças Ósseas"
+            },
+            "injured site": {
+                "POR": "INFECCAO PARASITARIA Infecção parasitária Parasitose Infecção parasitária NE Parasitoses Infestações Parasitárias Infecções Parasitárias Parasitismo Infecção parasitária Infecção parasitária SOE Parasitose Infecção parasitária Infecção parasitária Doenças Parasitárias",
+                "FRE": "INFECTION PARASITAIRE Parasitose SAI Parasitose Parasitoses Infections parasitaires Infection parasitaire Infection parasitaire Maladies parasitaires",
+                "GER": "INFEKTION DURCH PARASITEN Infektion durch Parasiten NNB Parasitosis Parasitaere Infektion Parasitaere Infektion Parasitäre Krankheiten"
+            },
+            "emergency": {
+                "POR": "Emergências",
+                "FRE": "Urgences",
+                "GER": "Notfälle"
+            },
+            "hospital": {
+                "GER": "Stationäre Wiederaufnahme",
+                "FRE": "Réadmissions à l'hôpital",
+                "POR": "Readmissões Hospitalares não Planejadas"
+            },
+            "advice": {}
+        }
+    },
+    {
+        "sentence": "Bladder distention (urinary bladder over-filled with fluid) can cause a firm mass in the center of the lower abdomen above the pelvic bones.In extreme cases it can reach as far up as the navel.",
+        "synonymous": {
+            "bladder distention": {
+                "GER": "Aufgetriebene Harnblase",
+                "POR": "Distensão da bexiga",
+                "FRE": "Globe vésical"
+            },
+            "urinary bladder": {
+                "POR": "Bexiga neurogénica",
+                "FRE": "Vessie neurologique",
+                "GER": "Harnblase, neurogene"
+            },
+            "fluid": {
+                "FRE": "Rétention liquidienne",
+                "GER": "Fluessigkeitsretention",
+                "POR": "Retenção de líquidos"
+            },
+            "mass": {
+                "GER": "Raumforderungen",
+                "FRE": "Masse",
+                "POR": "Massa"
+            },
+            "lower abdomen": {},
+            "pelvic bones": {
+                "FRE": "Os du pelvis",
+                "POR": "Ossos Pélvicos",
+                "GER": "Beckenknochen"
+            },
+            "navel": {}
+        }
+    },
+    {
+        "sentence": "Your kidneys help control your body's acid level by removing acid from the blood and sending it into your urine.Acidic substances in the body are counteracted by alkaline substances, primarily bicarbonate.",
+        "synonymous": {
+            "kidneys": {
+                "FRE": "Rein",
+                "GER": "Niere",
+                "POR": "Rim"
+            },
+            "acid level": {},
+            "removing acid": {
+                "GER": "Azidose hyperchloraemisch Azidose hyperchloraemisch Hyperchloraemische Azidose Hyperchloraemische Azidose Azidose hyperchloraemisch",
+                "FRE": "Acidose hyperchlorémique Acidose hyperchlorémique Acidose hyperchlorémique Acidose hyperchlorémique Acidose hyperchlorémique",
+                "POR": "Acidose hiperclorémica Acidose hiperclorémica Acidose hiperclorémica Acidose hiperclorémica Acidose hiperclorêmica Acidose hiperclorêmica Acidose hiperclorêmica Acidose hiperclorêmica Acidose hiperclorêmica Acidose hiperclorémica"
+            },
+            "blood": {
+                "POR": "Antígenos de Grupos Sanguíneos",
+                "FRE": "Antigènes de groupe sanguin",
+                "GER": "Blutgruppenantigene"
+            },
+            "urine": {
+                "FRE": "Tioguanine",
+                "POR": "Tioguanina",
+                "GER": "Thioguanin"
+            },
+            "alkaline substances": {},
+            "bicarbonate": {
+                "FRE": "Bicarbonates",
+                "POR": "Bicarbonatos",
+                "GER": "Bicarbonate"
+            }
+        }
+    },
+    {
+        "sentence": "You'll likely be diagnosed with rheumatic fever if you meet two major criteria, or one major and two minor criteria, and have signs that you've had a previous strep infection.",
+        "synonymous": {
+            "diagnosed": {
+                "FRE": "Souffles cardiaques fonctionnels et non diagnostiqués",
+                "GER": "funktionelles und nicht-diagnostiziertes Herzgeraeusch",
+                "POR": "Sopros cardíacos funcionais e não diagnosticados"
+            },
+            "rheumatic fever": {
+                "FRE": "Rhumatisme articulaire aigu",
+                "GER": "Rheumatisches Fieber",
+                "POR": "Febre Reumática"
+            },
+            "criteria": {
+                "FRE": "Critères d'admission scolaire",
+                "GER": "Hochschulaufnahmekriterien",
+                "POR": "Critérios de Admissão Escolar"
+            },
+            "strep infection": {
+                "GER": "Streptokokkeninfektionen",
+                "FRE": "Infections à streptocoques",
+                "POR": "Infecções Estreptocócicas"
+            }
+        }
+    },
+    {
+        "sentence": "A trained physician, often a cardiologist, inserts a small needle into the chest between the ribs and into the thin sac that surrounds the heart (the pericardium).A small amount of fluid is taken out.",
+        "synonymous": {
+            "physician": {
+                "POR": "Physician Assignment Acceptance",
+                "GER": "Akzeptanz der Ärzteverordnung",
+                "FRE": "Acceptation des tarifs conventionnés par le médecin"
+            },
+            "cardiologist": {
+                "POR": "Cardiologistas",
+                "FRE": "Cardiologues",
+                "GER": "Kardiologen"
+            },
+            "inserts": {
+                "FRE": "Notice de médicament",
+                "GER": "Arzneimittelkennzeichnung",
+                "POR": "Rotulagem de Medicamentos"
+            },
+            "needle": {
+                "GER": "Nadeln",
+                "FRE": "Aiguilles",
+                "POR": "Agulhas"
+            },
+            "chest": {
+                "POR": "Dor pleurítica",
+                "FRE": "Douleur pleurale",
+                "GER": "Pleuraschmerz"
+            },
+            "ribs": {
+                "POR": "Berços",
+                "GER": "Krippen",
+                "FRE": "Lits d'enfant"
+            },
+            "pericardium": {
+                "FRE": "Hémorragie péricardique",
+                "POR": "Hemorragia intrapericárdica",
+                "GER": "Haemorrhagischer Perikarderguss"
+            },
+            "fluid removal": {}
+        }
+    },
+    {
+        "sentence": "Increased calcium for a limited period of time does not normally cause side effects.However, receiving higher amounts of calcium over a long period of time raises the risk of kidney stones in some people.",
+        "synonymous": {
+            "increased calcium": {
+                "GER": "Kalzium erhoeht",
+                "FRE": "Ca++ augmenté",
+                "POR": "Aumento de Ca"
+            },
+            "side effects": {
+                "FRE": "Réaction indésirable à un médicament",
+                "GER": "Medikamentennebenwirkung",
+                "POR": "Reacção adversa a fármacos"
+            },
+            "kidney stones": {},
+            "risk": {
+                "GER": "Gesundheitsrisiken-Bewertung",
+                "FRE": "Évaluation de risque pour la santé",
+                "POR": "Estimativa de Risco para a Saúde"
+            }
+        }
+    },
+    {
+        "sentence": "Children with early sexual development are more likely to have psychological and social problems.Children and adolescents generally want to be the same as their peers, and early sexual development can make them appear different.",
+        "synonymous": {
+            "early sexual development": {
+                "FRE": "Trouble réactionnel de l'attachement de la première ou de la deuxième enfance Masochisme sexuel Masochisme sexuel Trouble de l'acquisition de l'arithmétique Dyscalculie Trouble de l'acquisition de l'arithmétique Dyscalculie Retard spécifique pour l'arithmétique Acalculie Dyscalculie",
+                "POR": "Transtorno de apego reativo da primeira ou segunda infâncias Perturbação reactiva da vinculação na 1ª ou no início da 2ª infância Masoquismo Sexual Masoquismo sexual Masoquismo sexual Perturbação relacionada com a matemática Discalculia Atraso específico relacionado com a aritmética Perturbação do desenvolvimento relacionada com a aritmética Discalculia Distúrbio do desenvolvimento aritmético Discalculia Discalculia Distúrbio relacionado com a matemática Retardo aritmético específico Discalculia",
+                "GER": "Reaktive Bindungsstoerung im Saeuglingsalter oder der fruehen Kindheit Sexueller Masochismus Sexueller Masochismus mathematische Stoerung Dyskalkulie Dyskalkulie Spezifische Rechenbehinderung Entwicklungsstoerung im Rechnen Dyskalkulie"
+            },
+            "psychological problems": {},
+            "social problems": {
+                "FRE": "Problème social",
+                "POR": "Problemas Sociais",
+                "GER": "Soziale Probleme"
+            },
+            "adolescents": {
+                "FRE": "Adolescent hospitalisé",
+                "GER": "Jugendliche im Krankenhaus",
+                "POR": "Adolescente Hospitalizado"
+            }
+        }
+    },
+    {
+        "sentence": "Veins and arteries vary in size from one patient to another and from one side of the body to the other.Obtaining a blood sample from some people may be more difficult than from others.",
+        "synonymous": {
+            "veins": {
+                "POR": "Veia do Corpo Estriado",
+                "FRE": "Veine thalamo-striée",
+                "GER": "Thalamostriatusvene"
+            },
+            "arteries": {
+                "FRE": "Artère subclavière",
+                "GER": "Arteria subclavia",
+                "POR": "Artéria Subclávia"
+            },
+            "blood sample": {
+                "POR": "Coleta de Amostras Sanguíneas",
+                "GER": "Blutentnahme",
+                "FRE": "Prise de sang"
+            },
+            "obtaining": {}
+        }
+    },
+    {
+        "sentence": "In many cases it will prevent you from getting sick.For example, a person who has had chickenpox or has been immunized against chickenpox is immune from getting chickenpox again.Watch this video about:Immune response",
+        "synonymous": {
+            "prevent": {},
+            "sick": {
+                "GER": "Trypanosomiasis, afrikanische",
+                "POR": "Tripanossomíase africana",
+                "FRE": "Trypanosomiase africaine"
+            },
+            "chickenpox": {
+                "FRE": "Varicelle",
+                "POR": "Varicela",
+                "GER": "Windpocken"
+            },
+            "immunized": {
+                "GER": "Hydrops fetalis, verursacht durch Isoimmunisierung",
+                "FRE": "Anasarque foetoplacentaire immune",
+                "POR": "Hidropsia fetal causada por isoimunização"
+            },
+            "immune response": {
+                "FRE": "HLA-D",
+                "GER": "HLA-D-Antigene",
+                "POR": "Antígenos HLA-D"
+            }
+        }
+    },
+    {
+        "sentence": "For example, a food that has 13 grams of fat with a Percent Daily Value of 20% means that 13 grams of fat is 20%, or one-fifth, of the total daily fat recommended for a person who eats 2,000 calories per day.",
+        "synonymous": {
+            "food": {
+                "FRE": "Intoxication alimentaire bactérienne",
+                "POR": "Intoxicação alimentar bacteriana",
+                "GER": "Bakterielle Lebensmittelvergiftung"
+            },
+            "fat": {
+                "FRE": "Sulfates",
+                "POR": "Sulfatos",
+                "GER": "Sulfate"
+            },
+            "Percent Daily Value": {
+                "FRE": "Brûlure (tout degré) couvrant moins de 10 % de la surface du corps Brûlure couvrant moins de 10 % de la surface du corps Rythme des 24 heures Rythme journalier Rythme nycthéméral Rythme des vingt-quatre heures Rythme circadien Biodisponibilité nutritionnelle Valeur nutritionnelle Disponibilité nutritionnelle Valeur nutritive",
+                "GER": "Verbrennung (beliebiger Grad) ueber weniger als 10 Prozent der Koerperoberflaeche Verbrennungen von weniger als 10 Prozent der Koerperoberflaeche Verbrennung ueber weniger als 10 Prozent der Koerperoberflaeche Vierundzwanzig-Stunden-Rhythmus Nyktohemeraler Rhythmus Zirkadianer Rhythmus Nahrung, biologische Verfügbarkeit Nahrungsangebot Nahrung, Verfügbarkeit der Biologische Verfügbarkeit der Nahrung Nährwert",
+                "POR": "Queimadura (qualquer grau) com compromisso de menos de 10% da superfície corporal Queimadura com compromisso de menos de 10% da superfície corporal Queimadura (qualquer grau) envolvendo menos de 10% da superfície corporal Queimadura envolvendo menos de 10% da superfície corporal Ritmo Nictomeral Ritmo de Vinte e Quatro Horas Ritmos Circadianos Ritmo Circadiano Disponibilidade Biológica Nutricional Disponibilidade Nutricional Valor Nutricional Valor Nutritivo"
+            },
+            "calories": {}
+        }
+    },
+    {
+        "sentence": "Laparoscopic repair: Your surgeon will make 3 - 5 small cuts in your belly.Your surgeon will insert a laparoscope (a thin, hollow tube with a tiny camera on the end) through one of these cuts and other tools through the other cuts.",
+        "synonymous": {
+            "laparoscopic repair": {},
+            "surgeon": {
+                "POR": "Neurocirurgiões",
+                "FRE": "Neurochirurgiennes",
+                "GER": "Neurochirurgen"
+            },
+            "cuts": {},
+            "laparoscope": {
+                "GER": "Laparoskope",
+                "FRE": "Coelioscopes",
+                "POR": "Laparoscópios"
+            },
+            "camera": {},
+            "tools": {
+                "POR": "Ferramentas de Software",
+                "GER": "Software-Tools",
+                "FRE": "Outils logiciels"
+            }
+        }
+    },
+    {
+        "sentence": "However, recent studies do not support this idea, and suggest that these medications can be used in children with tics who also have attention-deficit disorder (which often occurs in the same group of children).A chronic motor tic disorder also exists.",
+        "synonymous": {
+            "medications": {
+                "FRE": "Prémédication à l'anesthésie",
+                "GER": "Anästhesieprämedikation",
+                "POR": "Medicação Pré-Anestésica"
+            },
+            "children": {
+                "FRE": "Aide aux familles avec enfants à charge",
+                "GER": "Hilfe für Familien mit minderjährigen Kindern",
+                "POR": "Ajuda a Famílias com Filhos Dependentes"
+            },
+            "tics": {
+                "FRE": "Anesthésiques locaux",
+                "GER": "Lokalanästhetika",
+                "POR": "Anestésicos Locais"
+            },
+            "attention-deficit disorder": {
+                "GER": "Aufmerksamkeitsdefizitstoerung",
+                "POR": "Transtorno de déficit de atenção",
+                "FRE": "Trouble déficitaire de l'attention"
+            },
+            "chronic motor tic disorder": {
+                "FRE": "Trouble de tic moteur chronique",
+                "POR": "Transtorno de tique motor crônico",
+                "GER": "Chronische motorische Tic-Stoerung"
+            }
+        }
+    },
+    {
+        "sentence": "These symptoms are more likely to occur if the skin has been cut or rubbed because this gives the MRSA germ a way to “get in.” Symptoms are also more likely in areas where there is more body hair due to hair follicles.",
+        "synonymous": {
+            "symptoms": {},
+            "skin": {
+                "GER": "Hautkrankheiten, vesikulobullöse",
+                "FRE": "Dermatoses vésiculobulleuses",
+                "POR": "Dermatopatias Vesiculobolhosas"
+            },
+            "cut": {
+                "POR": "Encefalite Herpética Necrosante Aguda",
+                "FRE": "Encéphalite aiguë nécrosante herpétique",
+                "GER": "Akute nekrotisierende Herpes-Enzephalitis"
+            },
+            "rubbed": {},
+            "MRSA": {},
+            "germ": {
+                "GER": "Röteln",
+                "POR": "Rubéola (Sarampo Alemão)",
+                "FRE": "Rubéole"
+            },
+            "body hair": {},
+            "hair follicles": {
+                "FRE": "Autres maladies précisées des cheveux et des follicules capillaires",
+                "GER": "andere spezifische Erkrankungen von Haar und Haarfollikeln",
+                "POR": "Outras doenças especificadas dos pelos e folículos pilosos"
+            }
+        }
+    },
+    {
+        "sentence": "Some patients develop heart failure and high blood pressure in the blood vessels of their lungs.Your chances of recovering or of the disease getting worse depend on the cause and how severe the disease was when it was first diagnosed.",
+        "synonymous": {
+            "heart failure": {
+                "FRE": "Insuffisances cardiaques",
+                "POR": "Insuficiências cardíacas",
+                "GER": "Herzversagen"
+            },
+            "high blood pressure": {
+                "FRE": "Hypertension artérielle",
+                "POR": "Hipertensão",
+                "GER": "Hypertonie"
+            },
+            "blood vessels": {
+                "FRE": "Vaisseaux sanguins",
+                "GER": "Blutgefäße",
+                "POR": "Vasos Sanguíneos"
+            },
+            "lungs": {
+                "FRE": "Poumon",
+                "POR": "Pulmão",
+                "GER": "Lunge"
+            },
+            "recovering": {},
+            "disease": {
+                "GER": "Sexuell übertragbare Krankheiten",
+                "FRE": "Maladies sexuellement transmissibles",
+                "POR": "Infecções Sexualmente Transmissíveis"
+            },
+            "diagnosed": {
+                "FRE": "Souffles cardiaques fonctionnels et non diagnostiqués",
+                "GER": "funktionelles und nicht-diagnostiziertes Herzgeraeusch",
+                "POR": "Sopros cardíacos funcionais e não diagnosticados"
+            }
+        }
+    },
+    {
+        "sentence": "If a young child refuses to put weight on an arm or leg after an accident, won't move the arm or leg, or you can clearly see a deformity, assume the child has a broken bone and get medical help.",
+        "synonymous": {
+            "child": {},
+            "broken bone": {
+                "FRE": "Fractures osseuses",
+                "GER": "Frakturen, Knochen-",
+                "POR": "Fraturas Ósseas"
+            },
+            "deformity": {},
+            "medical help": {}
+        }
+    },
+    {
+        "sentence": "The amount of liquid you eat (such as soup) or drink will be limited to the amount of urine you can produce.You will be told what you may and may not eat to reduce the buildup of toxins that the kidneys would normally remove.",
+        "synonymous": {
+            "liquid intake": {},
+            "urine production": {
+                "FRE": "Oligurie",
+                "POR": "Oligúria",
+                "GER": "Oligurie"
+            },
+            "toxins": {
+                "FRE": "Acétyldigitoxine",
+                "GER": "Acetyldigitoxine",
+                "POR": "Acetildigitoxinas"
+            },
+            "kidneys": {
+                "FRE": "Rein",
+                "GER": "Niere",
+                "POR": "Rim"
+            },
+            "remove": {}
+        }
+    },
+    {
+        "sentence": "The most common use of this test is to help diagnose and monitor a disorder called sarcoidosis . People with sarcoidosis may have their ACE levels tested regularly to check the severity of the disease and see how well treatment is working. ",
+        "synonymous": {
+            "diagnose": {
+                "FRE": "Sérologie VIH",
+                "GER": "AIDS-Serodiagnostik",
+                "POR": "Sorodiagnóstico da AIDS"
+            },
+            "monitor": {},
+            "sarcoidosis": {
+                "GER": "Sarkoidose, pulmonale",
+                "FRE": "Sarcoïdose pulmonaire",
+                "POR": "Sarcoidose Pulmonar"
+            },
+            "ACE levels": {},
+            "disease severity": {
+                "FRE": "Évaluation des besoins du patient",
+                "GER": "Patientenakuitaet",
+                "POR": "Gravidade da Doença"
+            },
+            "treatment": {
+                "GER": "Nichtbefolgung der Behandlung",
+                "POR": "Não cumprimento de tratamento",
+                "FRE": "Non-observance du traitement"
+            }
+        }
+    },
+    {
+        "sentence": "Allergic conjunctivitis occurs when the clear layer of tissue lining the eyelids and covering the white of the eye (conjunctiva) become swollen or inflamed due to a reaction to pollen, dander, mold, or other allergy-causing substances.",
+        "synonymous": {
+            "allergic conjunctivitis": {
+                "FRE": "Autre conjonctivite allergique chronique",
+                "GER": "sonstige chronische allergische Konjunktivitis",
+                "POR": "Outra conjuntivite alérgica crônica"
+            },
+            "eyelids": {
+                "FRE": "Paupières",
+                "GER": "Augenlider",
+                "POR": "Pálpebras"
+            },
+            "conjunctiva": {
+                "POR": "Febre faringoconjuntival",
+                "FRE": "Fièvre pharyngoconjonctivale à adénovirus",
+                "GER": "Pharyngokonjunktivalfieber"
+            },
+            "swollen": {
+                "FRE": "Tuméfaction articulaire",
+                "GER": "Gelenkschwellung",
+                "POR": "Tumefacção articular"
+            },
+            "inflamed": {
+                "GER": "Okulaere Hyperaemie",
+                "POR": "Hiperemia ocular",
+                "FRE": "Hyperhémie oculaire"
+            },
+            "allergy": {}
+        }
+    },
+    {
+        "sentence": "Advance care directives allow patients to provide instructions about their preferences regarding the care they would like to receive if they develop an illness or a life-threatening injury and are unable to express their preferences.",
+        "synonymous": {
+            "advance care directives": {},
+            "patients": {
+                "GER": "Immundefizienter Organempfänger",
+                "FRE": "Sujet immunodéprimé",
+                "POR": "Hospedeiro Imunocomprometido"
+            },
+            "illness": {
+                "FRE": "Maladies virales",
+                "POR": "Viroses",
+                "GER": "Viruskrankheiten"
+            },
+            "life-threatening injury": {
+                "POR": "Dano ao DNA Lesão do DNA Dano do DNA Dano no DNA Lesão no DNA Lesões no DNA",
+                "GER": "DNA-Schädigung DNS-Beschädigung Schädigung, DNA- DNA-Beschädigung",
+                "FRE": "Dommage de l'ADN Lésion de l'ADN Altération de l'ADN"
+            },
+            "preferences": {
+                "GER": "Verbraucherpräferenzen",
+                "FRE": "Préférence de la consommatrice",
+                "POR": "Preferência dos Consumidores"
+            }
+        }
+    },
+    {
+        "sentence": "People with this condition generally have a large left ventricle (the pumping chamber of the heart that supplies the body with blood), and a small right ventricle (the pumping chamber that supplies the lungs with blood).",
+        "synonymous": {
+            "left ventricle": {},
+            "right ventricle": {
+                "GER": "Rechter Doppelausstromventrikel",
+                "FRE": "Ventricule droit à double issue",
+                "POR": "Dupla Via de Saída do Ventrículo Direito"
+            },
+            "heart": {
+                "FRE": "Cardiopathies",
+                "POR": "Cardiopatias",
+                "GER": "Herzkrankheiten"
+            },
+            "lungs": {
+                "FRE": "Poumon",
+                "POR": "Pulmão",
+                "GER": "Lunge"
+            },
+            "blood supply": {}
+        }
+    },
+    {
+        "sentence": "In January 2001, the FDA's Center for Food Safety and Applied Nutrition proposed that developers of bioengineered food submit scientific and safety information to the FDA at least 120 days before the food is marketed.",
+        "synonymous": {
+            "FDA": {},
+            "Food Safety": {},
+            "Applied Nutrition": {},
+            "bioengineered food": {
+                "FRE": "Ingénierie biomédicale Génie biomédical Toxi-infection alimentaire bactérienne SAI Intoxication alimentaire bactérienne Intoxication alimentaire bactérienne",
+                "GER": "Bioingenieurwesen Bakterielle Lebensmittelvergiftung Bakterielle Lebensmittelvergiftung NNB Bakterielle Lebensmittelvergiftung",
+                "POR": "Engenharia Biomédica Intoxicação alimentar bacteriana NE Intoxicação alimentar bacteriana Intoxicação alimentar bacteriana Intoxicação alimentar bacteriana Intoxicação alimentar bacteriana SOE Intoxicação alimentar bacteriana"
+            },
+            "scientific information": {
+                "FRE": "Fraude scientifique Inconduite scientifique Systèmes d'information des soins ambulatoires",
+                "GER": "Betrug, Wissenschafts- Wissenschaftliches Fehlverhalten Computerunterstützte medizinische Dokumentation in der ambulanten Behandlung Ambulante Behandlung, Informationssysteme",
+                "POR": "Fraude Científica Má Conduta Investigativa Má Conduta Científica Sistemas de Informação Ambulatorial Sistemas de Informação em Atendimento Ambulatorial"
+            },
+            "safety": {
+                "FRE": "Sécurité des produits de consommation",
+                "GER": "Verbrauchersicherheit",
+                "POR": "Qualidade de Produtos para o Consumidor"
+            }
+        }
+    },
+    {
+        "sentence": "Your health care provider will tell you if it's necessary to stop taking any drugs that may interfere with this test.Make sure that your doctor is aware of all drugs you are taking, both prescription and nonprescription.",
+        "synonymous": {
+            "health care provider": {
+                "FRE": "Personnel sanitaire",
+                "GER": "Personal im Gesundheitswesen",
+                "POR": "Pessoal de Saúde"
+            },
+            "stop drugs": {},
+            "interfere": {
+                "FRE": "Microscopie interférentielle",
+                "GER": "Mikroskopie, Interferenz-",
+                "POR": "Microscopia de Interferência"
+            },
+            "test": {},
+            "doctor": {
+                "FRE": "Assistants de médecin",
+                "GER": "Ärztliche Assistenten",
+                "POR": "Assistentes Médicos"
+            },
+            "prescription": {},
+            "nonprescription": {
+                "FRE": "Médicaments en accès libre",
+                "GER": "Arzneimittel, nicht verschreibungspflichtige",
+                "POR": "Medicamentos sem Prescrição"
+            }
+        }
+    },
+    {
+        "sentence": "Other foods such as broccoli, cooked greens, and canned salmon (with bones) will also provide a source of calcium in the diet; however, it is often difficult to get children to consume adequate quantities of these foods.",
+        "synonymous": {
+            "broccoli": {
+                "GER": "Brokkoli",
+                "FRE": "Brocolis",
+                "POR": "Brócolis"
+            },
+            "cooked greens": {},
+            "canned salmon": {},
+            "calcium": {
+                "FRE": "Radioisotopes du calcium",
+                "GER": "Calciumradioisotope",
+                "POR": "Radioisótopos de Cálcio"
+            },
+            "diet": {
+                "POR": "Paraoxônio",
+                "FRE": "Paraoxon",
+                "GER": "Paraoxon"
+            },
+            "children": {
+                "FRE": "Aide aux familles avec enfants à charge",
+                "GER": "Hilfe für Familien mit minderjährigen Kindern",
+                "POR": "Ajuda a Famílias com Filhos Dependentes"
+            },
+            "consume": {
+                "FRE": "Défense des droits du consommateur",
+                "POR": "Defesa do Consumidor",
+                "GER": "Verbraucherschutzrecht"
+            }
+        }
+    },
+    {
+        "sentence": "Transposition of the great vessels is a heart defect that occurs from birth (congenital). The two major vessels that carry blood away from the heart -- the aorta and the pulmonary artery -- are switched (transposed).",
+        "synonymous": {
+            "Transposition of the great vessels": {
+                "POR": "Transposição dos Grandes Vasos",
+                "FRE": "Transposition des gros vaisseaux",
+                "GER": "Transposition der großen Gefäße"
+            },
+            "heart defect": {
+                "FRE": "Cardiopathies congénitales",
+                "GER": "Herzfehler, kongenitale",
+                "POR": "Cardiopatias Congênitas"
+            },
+            "congenital": {
+                "POR": "Hipotireoidismo Congênito",
+                "GER": "Kongenitale Hypothyreose",
+                "FRE": "Hypothyroïdie congénitale"
+            },
+            "aorta": {},
+            "pulmonary artery": {
+                "FRE": "Artère pulmonaire",
+                "GER": "Arteria pulmonalis",
+                "POR": "Artéria Pulmonar"
+            },
+            "transposed": {}
+        }
+    },
+    {
+        "sentence": "Your health care provider will examine you for signs of food poisoning, such as pain in the stomach and signs your body does not have as much water and fluids as it should.This is called dehydration.",
+        "synonymous": {
+            "health care provider": {
+                "FRE": "Personnel sanitaire",
+                "GER": "Personal im Gesundheitswesen",
+                "POR": "Pessoal de Saúde"
+            },
+            "examine": {
+                "FRE": "Coroners et médecins légistes",
+                "GER": "Leichenbeschauer und Ärztliche Untersucher",
+                "POR": "Médicos Legistas"
+            },
+            "food poisoning": {
+                "FRE": "Intoxication alimentaire bactérienne",
+                "POR": "Intoxicação alimentar bacteriana",
+                "GER": "Bakterielle Lebensmittelvergiftung"
+            },
+            "stomach pain": {
+                "FRE": "Douleur à l'estomac",
+                "GER": "Gastrischer Schmerz",
+                "POR": "Dor de barriga"
+            },
+            "dehydration": {
+                "FRE": "Déshydratation",
+                "POR": "Desidratação",
+                "GER": "Dehydratation"
+            }
+        }
+    },
+    {
+        "sentence": "An implantable cardioverter defibrillator (ICD) is a device that can be implanted in the chest wall of people who are at risk for this serious rhythm disorder. The ICD can help prevent sudden cardiac death by quickly sending an electrical shock when ventricular fibrillation occurs.",
+        "synonymous": {
+            "implantable cardioverter defibrillator (ICD)": {},
+            "chest wall": {
+                "FRE": "Douleur thoracique pariétale",
+                "GER": "Brustwandschmerz",
+                "POR": "Dor na parede torácica"
+            },
+            "rhythm disorder": {
+                "POR": "DISTURBIOS DA FREQUENCIA E DO RITMO CARDIACO",
+                "FRE": "FREQUENCE ET RYTHME CARDIAQUES",
+                "GER": "HERZRHYTHMUSSTOERUNGEN"
+            },
+            "sudden cardiac death": {
+                "FRE": "Mort subite cardiaque",
+                "POR": "Morte Súbita Cardíaca",
+                "GER": "Tod, plötzlicher Herz-"
+            },
+            "electrical shock": {},
+            "ventricular fibrillation": {
+                "FRE": "Fibrillation ventriculaire",
+                "POR": "Fibrilação Ventricular",
+                "GER": "Kammerflimmern"
+            }
+        }
+    },
+    {
+        "sentence": "Greater respect for the complexities of female sexual functioning has led them to conclude that suboptimal female genitalia may not be inherently better than suboptimal male genitalia, even if the reconstruction is \"easier.\"In addition, other factors may be more important in gender satisfaction than functioning external genitals.",
+        "synonymous": {
+            "female sexual functioning": {},
+            "female genitalia": {
+                "FRE": "Appareil génital de la femme",
+                "POR": "Genitália Feminina",
+                "GER": "Genitalien, weibliche"
+            },
+            "male genitalia": {
+                "FRE": "Appareil génital de la femme",
+                "POR": "Genitália Feminina",
+                "GER": "Genitalien, weibliche"
+            },
+            "reconstruction": {
+                "GER": "Mammaplastik",
+                "FRE": "Chirurgie mammaire reconstructrice",
+                "POR": "Mamoplastia"
+            },
+            "gender satisfaction": {
+                "GER": "Stoerung der Geschlechtsidentitaet des Kindesalters Stoerungen der Geschlechtsidentitaet im Kindesalter Arbeitszufriedenheit Zufriedenheit am Arbeitsplatz",
+                "POR": "Perturbação da identidade de género da infância Transtorno de identidade de gênero da infância Satisfação no Trabalho Satisfação no Emprego",
+                "FRE": "Troubles de l'identité sexuelle de l'enfance Satisfaction au travail Satisfaction à l'égard du travail Satisfaction professionnelle"
+            },
+            "external genitals": {}
+        }
+    },
+    {
+        "sentence": "Regular use -- the user misses more and more school or work; worries about losing drug source; uses drugs to \"fix\" negative feelings; begins to stay away from friends and family; may change friends to those who are regular users; shows increased tolerance and ability to \"handle\" the drug.",
+        "synonymous": {
+            "drug use": {
+                "POR": "Transtorno por uso de droga ou medicamento",
+                "FRE": "Trouble de l'utilisation du médicament",
+                "GER": "Drogenmissbrauchsstoerung"
+            },
+            "tolerance": {
+                "FRE": "Intolérance au froid",
+                "GER": "Kaelteunvertraeglichkeit",
+                "POR": "Intolerância ao frio"
+            },
+            "negative feelings": {},
+            "addiction": {
+                "POR": "Comportamento adictivo",
+                "FRE": "Comportement toxicomaniaque",
+                "GER": "Verhalten, süchtiges"
+            },
+            "drug dependence": {
+                "FRE": "Autre dépendance à une drogue précisée, usage non précisé",
+                "GER": "sonstige spezifische Drogenabhaengigkeit",
+                "POR": "Outra dependência especificada de droga ou medicamento"
+            }
+        }
+    },
+    {
+        "sentence": "Increased intracranial pressure can be due to a rise in cerebrospinal fluid pressure.It can also be due to increased pressure within the brain matter caused by a mass (such as a tumor), bleeding into the brain or fluid around the brain, or swelling within the brain matter itself.",
+        "synonymous": {
+            "intracranial pressure": {
+                "POR": "Pressão Intracraniana",
+                "FRE": "Pression intracrânienne",
+                "GER": "Intrakranieller Druck"
+            },
+            "cerebrospinal fluid pressure": {
+                "FRE": "Pression du liquide céphalorachidien",
+                "POR": "Pressão do Líquido Cefalorraquidiano",
+                "GER": "Liquordruck"
+            },
+            "brain matter": {
+                "POR": "Síndrome cerebral NE Síndrome cerebral NE Síndrome cerebral (SOE) Síndrome cerebral SOE Córtex Cerebral",
+                "GER": "Hirnsyndrom NNB Hirnsyndrom (NNB) Cortex cerebri Hirnrinde",
+                "FRE": "Syndrome cérébral SAI Syndrome cérébral SAI Pallium Manteau cérébral Écorce cérébrale Cortex cérébral"
+            },
+            "tumor": {
+                "GER": "Pseudotumor",
+                "FRE": "Pseudotumeur",
+                "POR": "Pseudotumor"
+            },
+            "brain bleeding": {
+                "POR": "Encefalorragia",
+                "FRE": "Encéphalorragie",
+                "GER": "Enzephalorrhagie"
+            },
+            "swelling": {
+                "FRE": "Tuméfaction",
+                "POR": "Tumefacção",
+                "GER": "Schwellung"
+            }
+        }
+    },
+    {
+        "sentence": "Some substances that are found to be harmful to people or animals may still be allowed, but only at the level of 1/100th of the amount that is considered harmful.People with any allergies or food intolerances should always check the ingredient list (label) for their own protection.",
+        "synonymous": {
+            "harmful substances": {},
+            "allergies": {
+                "GER": "Umweltbedingte Krankheit",
+                "FRE": "Maladie environnementale",
+                "POR": "Doença Ambiental"
+            },
+            "food intolerances": {},
+            "ingredient list": {
+                "FRE": "Clopamide Listériose Infection à Listeria Infections à Listeria Listérelloses Listérioses Listériose Infections à Listeria",
+                "GER": "Clopamid Listeriose, nicht naeher bezeichnet Listeriose Listeria Infektion Listeriose Listeriose Listeriose Listeria-Infektionen Listerieninfektionen",
+                "POR": "Clopamida Listeriose Infecções por Listeria; Listeriose Infecção por Listeria Infecções por Listeria Listeriose Infecção por Listeria Listeriose Listeriose Listeriose"
+            },
+            "protection": {
+                "POR": "Proteção de Dados",
+                "FRE": "Protection des données",
+                "GER": "Datenschutz"
+            }
+        }
+    },
+    {
+        "sentence": "Not having milk in your diet can lead to a shortage of calcium, vitamin D, riboflavin, and protein.You may need to find new ways to get calcium into your diet (depending on your age and gender, you need 1,000 - 1,500 mg of calcium each day):",
+        "synonymous": {
+            "milk": {
+                "POR": "Paravacínia",
+                "FRE": "Nodules du trayeur",
+                "GER": "Paravaccinia"
+            },
+            "diet": {
+                "POR": "Paraoxônio",
+                "FRE": "Paraoxon",
+                "GER": "Paraoxon"
+            },
+            "calcium deficiency": {
+                "FRE": "Déficience en calcium",
+                "POR": "Carência de cálcio",
+                "GER": "Kalziummangel"
+            },
+            "vitamin D": {
+                "GER": "Rachitis",
+                "FRE": "Rachitisme",
+                "POR": "Raquitismo"
+            },
+            "riboflavin": {
+                "GER": "Riboflavinmangel",
+                "FRE": "Carence en riboflavine",
+                "POR": "Deficiência de Riboflavina"
+            },
+            "protein": {
+                "POR": "Deficiência de lipoproteína lipase",
+                "GER": "HYPERLIPOPROTEINÄMIE TYP 01",
+                "FRE": "Déficience en lipoprotéine lipase"
+            }
+        }
+    },
+    {
+        "sentence": "Because it is difficult to determine the amount of radiation exposure from nuclear accidents, the best signs of the severity of the exposure are: the length of time between the exposure and the onset of symptoms, the severity of symptoms, and severity of changes in white blood cells.",
+        "synonymous": {
+            "radiation exposure": {
+                "GER": "Strahlenbelastung",
+                "FRE": "Exposition aux rayonnements",
+                "POR": "Exposição a radiação"
+            },
+            "nuclear accidents": {
+                "FRE": "Accidents nucléaires",
+                "GER": "Unfälle, nukleare",
+                "POR": "Acidentes Nucleares"
+            },
+            "symptoms": {},
+            "white blood cells": {
+                "FRE": "Autre affection précisée des globules blancs",
+                "GER": "Sonstige naeher bezeichnete Krankheiten der Leukozyten",
+                "POR": "Outra doença especificada dos leucócitos"
+            },
+            "severity": {
+                "POR": "Índice de Gravidade de Doença",
+                "FRE": "Indice de gravité de la maladie",
+                "GER": "Schweregradindex einer Krankheit"
+            }
+        }
+    },
+    {
+        "sentence": "Note: It is often technically easier to treat (and therefore raise) the child as female (it is easier for a surgeon to make female genitalia than it is to make male genitalia), so in some cases this is recommended even if the child is genetically male.",
+        "synonymous": {
+            "gender assignment": {},
+            "female genitalia": {
+                "FRE": "Appareil génital de la femme",
+                "POR": "Genitália Feminina",
+                "GER": "Genitalien, weibliche"
+            },
+            "male genitalia": {
+                "FRE": "Appareil génital de la femme",
+                "POR": "Genitália Feminina",
+                "GER": "Genitalien, weibliche"
+            },
+            "surgeon": {
+                "POR": "Neurocirurgiões",
+                "FRE": "Neurochirurgiennes",
+                "GER": "Neurochirurgen"
+            },
+            "genetically male": {
+                "FRE": "Trouble de l'excitation sexuelle chez la femme Trouble de l'excitation sexuelle chez la femme",
+                "POR": "Afecção da activação sexual da mulher Distúrbio de excitação sexual na mulher Distúrbio de excitação sexual na mulher Afecção da activação sexual da mulher",
+                "GER": "Stoerung der sexuellen Erregung bei der Frau Stoerung der sexuellen Erregung bei der Frau"
+            }
+        }
+    },
+    {
+        "sentence": "Deficiency happens more often in women than in men, and is more common in pregnant women and older children. Getting enough iodine in the diet may prevent a form of physical and mental retardation called cretinism.Cretinism is very rare in the U.S. because iodine deficiency is generally not a problem.",
+        "synonymous": {
+            "iodine deficiency": {
+                "FRE": "Crétinisme endémique",
+                "GER": "Endemischer Kretinismus"
+            },
+            "cretinism": {
+                "POR": "Hipotireoidismo Congênito",
+                "GER": "Kongenitale Hypothyreose",
+                "FRE": "Hypothyroïdie congénitale"
+            },
+            "pregnant women": {
+                "POR": "Gestantes",
+                "GER": "Schwangere Frauen",
+                "FRE": "Femmes enceintes"
+            },
+            "mental retardation": {
+                "GER": "Leichte intellektuelle Behinderung",
+                "POR": "Mente inapta",
+                "FRE": "Faible d'esprit"
+            },
+            "diet": {
+                "POR": "Paraoxônio",
+                "FRE": "Paraoxon",
+                "GER": "Paraoxon"
+            }
+        }
+    },
+    {
+        "sentence": "People who have a sudden herniated disk caused by injury (such as a car accident or lifting a very heavy object) will get nonsteroidal anti-inflammatory medications (NSAIDs) and narcotic painkillers if they have severe pain in the back and leg.If you have back spasms, you will usually receive muscle relaxants.",
+        "synonymous": {
+            "herniated disk": {
+                "FRE": "Protrusion du disque intervertébral",
+                "GER": "Bandscheibenverlagerung",
+                "POR": "Deslocamento do Disco Intervertebral"
+            },
+            "injury": {
+                "POR": "Lesões no DNA",
+                "GER": "DNA-Beschädigung",
+                "FRE": "Altération de l'ADN"
+            },
+            "NSAIDs": {},
+            "narcotic painkillers": {
+                "POR": "Analgésicos Narcóticos Analgésicos Entorpecentes",
+                "FRE": "Analgésiques narcotiques Antalgiques narcotiques",
+                "GER": "Narkotische Analgetika Analgetika, narkotische"
+            },
+            "back pain": {
+                "POR": "Dor Lombar",
+                "FRE": "Lombalgie",
+                "GER": "Kreuzschmerzen"
+            },
+            "muscle relaxants": {
+                "FRE": "Myorelaxants centraux",
+                "POR": "Relaxantes Musculares Centrais",
+                "GER": "Muskelrelaxanzien, zentralwirkende"
+            },
+            "back spasms": {}
+        }
+    },
+    {
+        "sentence": "Threre is a wide range for what is considered \"normal.\" Just because your child is in the 15th percentile for weight (meaning 85 out of 100 children weigh more), this number rarely means your child is sick, you're not feeding your child enough, or your breast milk is not enough for your baby.",
+        "synonymous": {
+            "child weight percentile": {
+                "FRE": "Nourrisson à faible poids de naissance Nouveau-né à faible poids de naissance Nouveau-nés à faible poids de naissance Nourrisson à petit poids de naissance",
+                "POR": "Baixo Peso ao Nascer Recém-Nascido de Baixo Peso",
+                "GER": "Neugeborenes, geringes Geburtsgewicht"
+            },
+            "breast milk": {
+                "FRE": "Alcool affectant le foetus ou le nouveau-né par le placenta ou le lait maternel",
+                "GER": "Alkohol mit Auswirkung auf den Feten oder Neugeborenen ueber Plazenta oder Brustmilch",
+                "POR": "Álcool afetando o feto ou recém-nascido via placenta ou leite materno"
+            },
+            "nutrition": {
+                "FRE": "Marasme",
+                "GER": "Marasmus",
+                "POR": "Marasmo"
+            },
+            "growth": {
+                "GER": "Humanes Wachstumshormon",
+                "POR": "Hormônio do Crescimento Humano",
+                "FRE": "Hormone de croissance humaine"
+            }
+        }
+    },
+    {
+        "sentence": "Congenital heart surgery; Patent ductus arteriosus ligation; Hypoplastic left heart repair; Tetralogy of Fallot repair; Coarctation of the aorta repair; Atrial septal defect repair; Ventricular septal defect repair; Truncus arteriosus repair; Total anomalous pulmonary artery correction; Transposition of great vessels repair; Tricuspid atresia repair; VSD repair; ASD repair; PDA ligation",
+        "synonymous": {
+            "congenital heart surgery": {
+                "POR": "HIPOTIROIDISMO CONGENITO Cretinismo Hipotiroidismo congénito Hipotiroidismo congénito Cretinismo Endêmico Tipo Mixedematoso Cretinismo Hipotireoidismo congênito Hipotireoidismo congênito Hipotireoidismo congênito Cretinismo Hipotiroidismo congénito Hipotireoidismo Congênito ALTERACAO CARDIACA Card Doenças cardíacas Cardiopatia NE Cardiopatia Afecção cardíaca Afecção cardíaca NE Doença cardíaca NE Doenças Cardíacas Cardiopatia Grave Doenças do Coração Trantornos do Coração Transtornos Cardíacos Card Doença cardíaca, não especificada Distúrbio cardíaco SOE Distúrbios cardíacos Distúrbio cardíaco Distúrbio cardíaco Distúrbio cardíaco (SOE) Distúrbio cardíaco Cardiopatia Cardiopatias Síndromes pós-cirurgia gástrica Síndrome pós-gastrectomia Síndrome após cirurgia gástrica Síndrome pós-cirurgia gástrica Síndromes de pós-cirurgia gástrica Síndrome pós-gastrectomia Síndromes Pós-Gastrectomia",
+                "GER": "HYPOTHYREOSE KONGENITAL Hypothyreose kongenital Kretinismuns Kretinismus Angeborene Hypothyreose Kongenitale Hypothyreose Kongenitale Hypothyreose Kongenitale Hypothyreose Card HERZBESCHWERDEN Herzkrankheit, nicht naeher bezeichnet Herzerkrankung Erkrankung des Herzens (NNB) Herzkrankheit, nicht spezifiziert Herzerkrankung NNB Herzerkrankung Herzerkrankungen Herzerkrankung Herzkrankheiten Syndrome des operierten Magens postgastrisches Operationssyndrome Post-Gastrektomiesyndrom Postgastrisches Operationssyndrom Postgastrektomiesyndrome",
+                "FRE": "HYPOTHYROIDIE CONGENITALE Hypothyroïdie congénitale Hypothyroïdisme congénital Crétinisme Crétinisme Hypothyroïdie congénitale Hypothyroïdie congénitale Trouble cardiaque Card TROUBLE CARDIAQUE Trouble cardiaque SAI Maladie cardiaque non précisée Trouble cardiaque Anomalie cardiaque SAI Affection cardiaque Maladies cardiaques Maladies du coeur Affections cardiaques Cardiopathies Syndromes survenant après une chirurgie de l'estomac Syndrome postgastrectomie Syndrome gastrique postopératoire Syndromes postgastrectomie Syndromes post-gastrectomie"
+            },
+            "Patent ductus arteriosus ligation": {},
+            "Hypoplastic left heart repair": {
+                "POR": "ANEMIA HIPOPLASTICA Anemia Hipoplástica Anemia hipoplástica Anemia hipoplástica Anemia hipoplástica Anemia hipoplástica Anemia hipoplástica Anemia Hipoplásica Anemia hipoplásica Anemia hipoplásica Anemia hipoplásica Anemia hipoplásica Anemia hipoplásica BLOQUEIO DE RAMO ESQUERDO Bloqueio de ramo esquerdo Bloqueio de ramo esquerdo Bloqueio de ramo esquerdo BRE Bloqueio de ramo esquerdo Bloqueio de ramo esquerdo Bloqueio de ramo esquerdo Bloqueio de ramo esquerdo ALTERACAO CARDIACA Card Doenças cardíacas Cardiopatia NE Cardiopatia Afecção cardíaca Afecção cardíaca NE Doença cardíaca NE Doenças Cardíacas Cardiopatia Grave Doenças do Coração Trantornos do Coração Transtornos Cardíacos Card Doença cardíaca, não especificada Distúrbio cardíaco SOE Distúrbios cardíacos Distúrbio cardíaco Distúrbio cardíaco Distúrbio cardíaco (SOE) Distúrbio cardíaco Cardiopatia Cardiopatias Reparação do DNA Reparo de DNA Reparação de DNA Reparo do DNA",
+                "FRE": "Anémie hypoplasique ANEMIE HYPOPLASTIQUE Anémie hypoplasique Anémie hypoplasique Anémie hypoplastique Anémie hypoplasique Anémie hypoplasique Bloc de branche gauche BLOC DE BRANCHE GAUCHE Bloc de la branche gauche Bloc de branche gauche BBG Bloc de branche gauche Trouble cardiaque Card TROUBLE CARDIAQUE Trouble cardiaque SAI Maladie cardiaque non précisée Trouble cardiaque Anomalie cardiaque SAI Affection cardiaque Maladies cardiaques Maladies du coeur Affections cardiaques Cardiopathies Réparation de l'ADN",
+                "GER": "Anämie, hypoplastische ANAEMIE HYPOPLASTISCH Anaemie hypoplastisch Anaemie hypoplastisch Anaemie hypoplastisch Hypoplastische Anaemie Anaemie hypoplastisch Linksschenkelblock Linksschenkelblock, nicht naeher bezeichnet Linksschenkelblock Linksschenkelblock LSB Linksschenkelblock Card HERZBESCHWERDEN Herzkrankheit, nicht naeher bezeichnet Herzerkrankung Erkrankung des Herzens (NNB) Herzkrankheit, nicht spezifiziert Herzerkrankung NNB Herzerkrankung Herzerkrankungen Herzerkrankung Herzkrankheiten DNA-Reparatur"
+            },
+            "Tetralogy of Fallot repair": {
+                "GER": "Operation einer Fallot-Tetralogie",
+                "POR": "Reparo da tetralogia de Fallot",
+                "FRE": "Chirurgie réparatrice de la tétralogie de Fallot"
+            },
+            "Coarctation of the aorta repair": {
+                "GER": "Aortenbogen-Syndrom [Takayasu-Syndrom] Takayasu-Krankheit Pulslos-Krankheit Takayasu Krankheit Arteritis, Takayasu- Takayasu-Syndrom Pulseless Disease Takayasu Krankheit Takayasu-Arteritis Idiotie Schwerste Intelligenzminderung Idiotie Schwachsinn Hochgradige intellektuelle Behinderung DNA-Reparatur",
+                "FRE": "Maladie des femmes sans pouls Maladie de Takayasu Maladie de Takayasu Maladie des femmes sans pouls Artérite de Takayasu Artérite oblitérante de Takayashu Maladie de Takayasu Maladie de Takayashu Idiotie Arriération mentale profonde Idiotie Arriération profonde Réparation de l'ADN",
+                "POR": "Doença de Takayasu Arterite de Takayasu Doença sem pulso Síndrome Aortítica Doença sem Pulso Doença de Takayasu Doença sem pulso Arterite de Takayasu Arterite de Takayasu Arterite de Takayasu Arterite de Takayasu Idiotia Atraso mental profundo Idiotia Retardo mental profundo Idiotice Reparação do DNA Reparo de DNA Reparação de DNA Reparo do DNA"
+            },
+            "Atrial septal defect repair": {},
+            "Ventricular septal defect repair": {},
+            "Truncus arteriosus repair": {},
+            "Total anomalous pulmonary artery correction": {
+                "FRE": "Cécité des deux yeux, degré de déficience sans autre précision Cécité des deux yeux Aveugle des deux yeux Cécité bilatérale Excitabilité auriculoventriculaire anormale Excitabilité auriculoventriculaire anormale Insuffisance de l'artère basilaire Syndrome de l'artère basilaire Insuffisance basilaire Ischémie basilaire Institutions pénales Institutions pénitentiaires Établissements correctionnels Institutions correctionnelles Établissements pénitentiaires",
+                "GER": "Blindheit auf beiden Augen, Behinderungsgrad nicht naeher bekannt Blindheit beider Augen Blindheit, beide Augen Beidseitige Blindheit Blind, beide Augen Atrioventrikulaere Erregungsstoerung Atrioventrikulaere Erregungsstoerung Basilarisinsuffizienz Basilaere Insuffizienz Arteria-basiliaris-Syndrom Strafanstalt Justizvollzugsanstalten Strafvollzugsanstalten Vollzugsanstalten Vollzugsanstalt Strafanstalten",
+                "POR": "Cegueira dos dois olhos de grau NE Cegueira bilateral Cegueira dos dois olhos Cego dos dois olhos Cegueira Bilateral Cego dos dois olhos Cegueira dos dois olhos, nível de comprometimento sem outras especificações Cegueira bilateral Cegueira, ambos os olhos Cegueira Completa Cegueira Total Excitação auriculoventricular anómala Excitação atrioventricular anômala Excitação atrioventricular anômala Excitação auriculoventricular anómala Insuficiência da Artéria Basilar Síndrome da artéria basilar Insuficiência basilar Síndrome da artéria basilar Insuficiência basilar Colônias Correcionais Estabelecimentos Prisionais Centros de Readaptação Social Estabelecimento Penal Unidades de Trabalho Correcional Centros Penais Reformatórios Instituições Penais Instalações Correcionais Estabelecimento Correcional Institutos Correcionais Centros Correcionais Casas de Correção Instituições Correcionais Estabelecimentos Correcionais Instituição Penal Reformatório Instituição Correcional Estabelecimentos Penais"
+            },
+            "Transposition of great vessels repair": {
+                "POR": "Idiotia Atraso mental profundo Idiotia Retardo mental profundo Idiotice Ventrículo direito de dupla saída Ventrículo direito com saída dupla Ventrículo direito com saída dupla Ventrículo direito de dupla saída Dupla Via de Saída do Ventrículo Direito Reparação do DNA Reparo de DNA Reparação de DNA Reparo do DNA",
+                "FRE": "Idiotie Arriération mentale profonde Idiotie Arriération profonde Grande veine saphène Veine saphène interne Ventricule droit à double issue VDDI Ventricule droit à double sortie Ventricule droit à double issue Ventricule droit à double issue Réparation de l'ADN",
+                "GER": "Idiotie Schwerste Intelligenzminderung Idiotie Schwachsinn Hochgradige intellektuelle Behinderung Rechter Doppelausstromventrikel [Double outlet right ventricle] Doppelursprung beider Arterien aus dem rechten Ventrikel Doppelursprung beider Arterien aus dem rechten Ventrikel Rechter Doppelausstromventrikel DNA-Reparatur"
+            },
+            "Tricuspid atresia repair": {},
+            "VSD repair": {},
+            "ASD repair": {
+                "POR": "Reparação do DNA Reparo de DNA Reparação de DNA Reparo do DNA",
+                "GER": "DNA-Reparatur",
+                "FRE": "Réparation de l'ADN"
+            },
+            "PDA ligation": {
+                "FRE": "Ligature Ligature",
+                "GER": "Ligatur",
+                "POR": "Ligadura"
+            }
+        }
+    },
+    {
+        "sentence": "This test is done during a hospital stay.  It tells the difference between someone who is making urine because of drinking a lot of liquid and someone who is not.  If you have central diabetes insipidus, you will still make a lot of urine even when fluids are not given. ",
+        "synonymous": {
+            "hospital test": {},
+            "urine production": {
+                "FRE": "Oligurie",
+                "POR": "Oligúria",
+                "GER": "Oligurie"
+            },
+            "central diabetes insipidus": {
+                "GER": "Diabetes insipidus, neurogener",
+                "FRE": "Diabète insipide central",
+                "POR": "Diabetes Insípido Neurogênico"
+            },
+            "fluids": {
+                "GER": "Amnionflüssigkeit",
+                "FRE": "Liquide amniotique",
+                "POR": "Líquido Amniótico"
+            }
+        }
+    },
+    {
+        "sentence": "Also, many refined foods, such as white flour, sugar, and white rice, lack B vitamins and other important nutrients unless they are marked \"enriched.\" It is healthiest to get carbohydrates, vitamins, and other nutrients in as natural a form as possible -- for example, from fruit instead of table sugar.",
+        "synonymous": {
+            "refined foods": {
+                "FRE": "Aliments Vivres Nourriture",
+                "GER": "Nahrung Lebensmittel Nahrungsmittel",
+                "POR": "Alimento Matriz Alimentar Alimentos"
+            },
+            "B vitamins": {},
+            "nutrients": {
+                "FRE": "Micronutriments",
+                "POR": "Micronutrientes",
+                "GER": "Essentielle Spurenelemente"
+            },
+            "carbohydrates": {
+                "POR": "Carboidratos",
+                "FRE": "Glucides",
+                "GER": "Kohlenhydrate"
+            },
+            "enriched foods": {
+                "POR": "Alimento Enriquecido"
+            }
+        }
+    },
+    {
+        "sentence": "The pituitary gland near the brain makes too much of the hormone ACTH (called Cushing's disease), which may happen with too much growth of the pituitary gland, a tumor of the pituitary gland, or a tumor elsewhere in the body (such as the pancreas, lung, and thyroid) that produces ACTH",
+        "synonymous": {
+            "pituitary gland": {
+                "POR": "Glândula Pituitária Anterior",
+                "FRE": "Adénohypophyse",
+                "GER": "Hypophysenvorderlappen"
+            },
+            "ACTH": {
+                "POR": "Adrenocorticotropina",
+                "FRE": "Adrénocorticotropine",
+                "GER": "Corticotropin"
+            },
+            "Cushing's disease": {
+                "GER": "Hypophysäre ACTH-Hypersekretion",
+                "FRE": "Hypersécrétion hypophysaire d'ACTH",
+                "POR": "Hipersecreção Hipofisária de ACTH"
+            },
+            "tumor": {
+                "GER": "Pseudotumor",
+                "FRE": "Pseudotumeur",
+                "POR": "Pseudotumor"
+            },
+            "pancreas": {
+                "GER": "Boesartige Neubildung: Endokriner Druesenanteil des Pankreas"
+            },
+            "lung": {},
+            "thyroid": {
+                "POR": "Hipotireoidismo Congênito",
+                "GER": "Kongenitale Hypothyreose",
+                "FRE": "Hypothyroïdie congénitale"
+            }
+        }
+    },
+    {
+        "sentence": "In the past, the prevailing opinion was that it was generally best to assign a gender as quickly as possible, often based on the external genitals rather than the chromosomal gender, and to instruct the parents to have no ambiguity in their minds as to the gender of the child.",
+        "synonymous": {
+            "gender assignment": {},
+            "external genitals": {},
+            "chromosomal gender": {
+                "GER": "Deletion des kurzen Armes des Chromosoms 5 Katzenschrei Syndrom Chromosom-5p-Syndrom 5p-Deletionssyndrom Katzenschreisyndrom CHROMOSOM 05 P SYNDROM DELETIONSSYNDROM 05P Katzenschrei Syndrom Cri-du-chat-Syndrom Stoerung der Geschlechtsidentitaet des Kindesalters Stoerungen der Geschlechtsidentitaet im Kindesalter",
+                "FRE": "Maladie du cri du chat Syndrome du cri du chat Syndrome du cri du chat Syndrome de Lejeune Syndrome de délétion du bras court du chromosome 5 Syndrome de délétion du chromosome 5p Syndrome du cri du chat Troubles de l'identité sexuelle de l'enfance",
+                "POR": "Síndrome do Cromossomo 5p- Síndrome Cri-du-Chat Deleção do Braço Curto do Cromossomo 5 Síndrome do Grito do Gato Síndrome da Deleção do Cromossomo 5p Síndrome de Cri du Chat Síndrome de Cri du Chat Síndrome de Cri du chat (miado do gato) Síndrome de Cri du chat (miado do gato) Síndrome do Miado do Gato Síndrome de Cri-du-Chat Perturbação da identidade de género da infância Transtorno de identidade de gênero da infância"
+            },
+            "gender identity": {
+                "GER": "Stoerungen der Geschlechtsidentitaet im Kindesalter",
+                "POR": "Transtorno de identidade de gênero da infância",
+                "FRE": "Troubles de l'identité sexuelle de l'enfance"
+            }
+        }
+    },
+    {
+        "sentence": "Daily preoccupation -- the user loses any motivation; does not care about school and work; has obvious behavior changes; thinking about drug use is more important than all other interests, including relationships; the user becomes secretive; may begin dealing drugs to help support habit; use of other, harder drugs may increase; legal problems may increase.",
+        "synonymous": {
+            "drug addiction": {
+                "FRE": "Pharmacodépendance",
+                "GER": "Nicht spezifizierte Arzneimittel-/Drogenabhaengigkeit",
+                "POR": "Dependência não especificada de droga ou medicamento"
+            },
+            "behavior changes": {},
+            "motivation loss": {
+                "GER": "Ansporn Motivation Pierre-Robin Syndrom Robin-Syndrom Robin-Syndrom Pierre-Robin-Syndrom",
+                "POR": "Motivo Motivações Motivação Síndrome de Robin Síndrome de Pierre Robin Sequência de Robin Síndrome de Pierre Robin Síndrome de Robin Sequência de Robin Síndrome de Pierre Robin",
+                "FRE": "Motivation Séquence Pierre Robin Syndrome Pierre Robin Séquence de Pierre Robin Syndrome de Pierre Robin Syndrome de Robin Syndrome de Pierre Robin Syndrome de Pierre Robin"
+            },
+            "secretive behavior": {},
+            "drug dependence": {
+                "FRE": "Autre dépendance à une drogue précisée, usage non précisé",
+                "GER": "sonstige spezifische Drogenabhaengigkeit",
+                "POR": "Outra dependência especificada de droga ou medicamento"
+            },
+            "legal problems": {}
+        }
+    },
+    {
+        "sentence": "You have sudden, sharp chest pain with shortness of breath, especially after a long trip, a stretch of bedrest (for example, following an operation), or other lack of movement, especially if one leg is swollen or more swollen than the other (this could be a blood clot, part of which has moved to the lungs).",
+        "synonymous": {
+            "chest pain": {
+                "POR": "Dor pleurítica",
+                "FRE": "Douleur pleurale",
+                "GER": "Pleuraschmerz"
+            },
+            "shortness of breath": {
+                "FRE": "Dyspnée",
+                "POR": "Dispneia",
+                "GER": "Dyspnoe"
+            },
+            "blood clot": {},
+            "deep vein thrombosis": {
+                "POR": "Trombose de veia profunda",
+                "FRE": "Thrombose veineuse profonde",
+                "GER": "Tiefe Venenthrombose"
+            },
+            "pulmonary embolism": {
+                "FRE": "Embolie pulmonaire",
+                "GER": "Pulmonale Embolie",
+                "POR": "Embolia Pulmonar"
+            }
+        }
+    },
+    {
+        "sentence": "The mother may fake symptoms of illness in her child by adding blood to the child's urine or stool, withholding food, falsifying fevers, secretly giving the child drugs to make the child throw up or have diarrhea, or using other tricks, such as infecting intravenous (given through a vein) lines to make the child appear or become ill.",
+        "synonymous": {
+            "fake symptoms": {
+                "FRE": "Chaines alpha des immunoglobulines Chaines alpha des Ig Chaînes alpha des immunoglobulines Chaines lourdes des IgA Chaines lourdes alpha des immunoglobulines Chaines lourdes alpha des Ig Chaines lourdes des immunoglobulines A",
+                "GER": "Alpha-Immunglobuline Immunglobuline, Alpha-Ketten-",
+                "POR": "Cadeia alfa de Imunoglobulinas Cadeias alfa de Ig Cadeias alfa de Imunoglobulina"
+            },
+            "blood in urine": {
+                "FRE": "Hématurie",
+                "POR": "Hematúria",
+                "GER": "Hämaturie"
+            },
+            "blood in stool": {
+                "GER": "Blutiger Stuhl",
+                "POR": "Fezes sanguinolentas",
+                "FRE": "Selles sanguinolentes"
+            },
+            "withholding food": {},
+            "falsifying fevers": {
+                "POR": "Malária Hemolítica Febre biliosa hemoglobinúrica Febre biliosa hemoglobinúrica Febre hemoglobinúrica malárica Febre hemoglobinúrica malárica Febre Hemoglobinúrica",
+                "FRE": "FBH (Fièvre Bilieuse Hémoglobinurique) Fièvre bilieuse hémoglobinurique Fièvre bilieuse hémoglobinurique Fièvre bilieuse hémoglobinurique",
+                "GER": "Malaria haemolytica Schwarzwasserfieber Schwarzwasserfieber Schwarzwasserfieber"
+            },
+            "drug-induced vomiting": {},
+            "diarrhea": {
+                "POR": "Diarreia infantil",
+                "GER": "Diarrhoe, Säuglings-",
+                "FRE": "Diarrhée du nourrisson"
+            },
+            "infecting intravenous lines": {
+                "FRE": "Anesthésie intraveineuse Anesthésie par voie intraveineuse Déficience en pseudocholinestérase Déficience en pseudocholinestérase",
+                "GER": "Narkose durch intravenöse Anwendung Narkose, intravenöse Anästhesie, intravenöse Pseudocholinesterasemangel Pseudocholinesterasemangel",
+                "POR": "Anestesia Endovenosa Anestesia Intravenosa Deficiência de pseudocolinesterase Deficiência de pseudocolinesterase Deficiência de pseudocolinesterase Deficiência de pseudocolinesterase"
+            }
+        }
+    },
+    {
+        "sentence": "Because there is little or no flow out of the left heart, blood returning to the heart from the lungs needs to pass through the foramen ovale or an atrial septal defect (a hole connecting the collecting chambers on the left and right sides of the heart) back to the right side of the heart.",
+        "synonymous": {
+            "left heart flow": {
+                "FRE": "Bloc de branche gauche BLOC DE BRANCHE GAUCHE Bloc de la branche gauche Bloc de branche gauche BBG Bloc de branche gauche Trouble cardiaque Card TROUBLE CARDIAQUE Trouble cardiaque SAI Maladie cardiaque non précisée Trouble cardiaque Anomalie cardiaque SAI Affection cardiaque Maladies cardiaques Maladies du coeur Affections cardiaques Cardiopathies Diurèse augmentée Diurèse",
+                "GER": "Linksschenkelblock Linksschenkelblock, nicht naeher bezeichnet Linksschenkelblock Linksschenkelblock LSB Linksschenkelblock Card HERZBESCHWERDEN Herzkrankheit, nicht naeher bezeichnet Herzerkrankung Erkrankung des Herzens (NNB) Herzkrankheit, nicht spezifiziert Herzerkrankung NNB Herzerkrankung Herzerkrankungen Herzerkrankung Herzkrankheiten Diurese Harnausscheidung Diurese",
+                "POR": "BLOQUEIO DE RAMO ESQUERDO Bloqueio de ramo esquerdo Bloqueio de ramo esquerdo Bloqueio de ramo esquerdo BRE Bloqueio de ramo esquerdo Bloqueio de ramo esquerdo Bloqueio de ramo esquerdo Bloqueio de ramo esquerdo ALTERACAO CARDIACA Card Doenças cardíacas Cardiopatia NE Cardiopatia Afecção cardíaca Afecção cardíaca NE Doença cardíaca NE Doenças Cardíacas Cardiopatia Grave Doenças do Coração Trantornos do Coração Transtornos Cardíacos Card Doença cardíaca, não especificada Distúrbio cardíaco SOE Distúrbios cardíacos Distúrbio cardíaco Distúrbio cardíaco Distúrbio cardíaco (SOE) Distúrbio cardíaco Cardiopatia Cardiopatias Diurese Diurese Diurese"
+            },
+            "foramen ovale": {
+                "POR": "Forame oval patente",
+                "FRE": "Persistance du foramen ovale",
+                "GER": "Foramen ovale apertum"
+            },
+            "atrial septal defect": {
+                "FRE": "Communications interauriculaires",
+                "GER": "Vorhofseptumdefekt",
+                "POR": "Comunicações Interatriais"
+            },
+            "blood circulation": {
+                "FRE": "Circulation sanguine",
+                "POR": "Circulação Sanguínea",
+                "GER": "Blutkreislauf"
+            },
+            "heart chambers": {
+                "POR": "Laceração do coração com penetração das câmaras cardíacas e ferida aberta para o tórax",
+                "FRE": "Lacération du coeur avec pénétration des chambres cardiaques et plaie ouverte du thorax",
+                "GER": "Herzlazeration, mit Penetration der Herzkammern und offener Wunde in den Thorax"
+            }
+        }
+    },
+    {
+        "sentence": "You can take the tooth to the dentist by following one of these tips:Try to place the tooth back in the mouth where it fell out, so it is level with other teeth. Bite down gently on gauze or a wet tea bag to help keep it in place. Be careful not to swallow the tooth.",
+        "synonymous": {
+            "tooth avulsion": {
+                "FRE": "Extrusion de dent",
+                "GER": "Zahnavulsion",
+                "POR": "Avulsão Dentária"
+            },
+            "dentist": {
+                "FRE": "Dentistes femmes",
+                "POR": "Odontólogas",
+                "GER": "Zahnärztinnen"
+            },
+            "reimplantation": {
+                "GER": "Präimplantationsdiagnostik",
+                "FRE": "Diagnostic préimplantatoire",
+                "POR": "Diagnóstico Pré-Implantação"
+            },
+            "gauze": {},
+            "tea bag": {
+                "FRE": "Larmes Larme",
+                "GER": "Tränen",
+                "POR": "Lágrimas"
+            },
+            "swallowing risk": {
+                "GER": "Hinunterschlucken Schlucken Gesundheitsrisiken-Bewertung",
+                "FRE": "Déglutition Évaluation de risque sanitaire Appréciation du risque sanitaire Appréciation du risque pour la santé Évaluation des risques en santé Évaluation de risque pour la santé",
+                "POR": "Deglutição Estimativa de Riscos para a Saúde Medição de Risco à Saúde Estimativa de Risco para a Saúde"
+            }
+        }
+    },
+    {
+        "sentence": "Another myth of adolescence is the idea that \"it will never happen to me, only the other person.\" \"It\" may represent becoming pregnant or catching a sexually-transmitted disease after having unprotected sex, causing a car crash while driving under the influence of alcohol or drugs, or any of the many other negative effects of risk-taking behaviors.",
+        "synonymous": {
+            "adolescence": {},
+            "pregnancy risk": {},
+            "sexually transmitted disease": {
+                "GER": "Sexuell übertragbare Krankheiten",
+                "FRE": "Maladies sexuellement transmissibles",
+                "POR": "Infecções Sexualmente Transmissíveis"
+            },
+            "unprotected sex": {
+                "GER": "Hochrisiko-Sex",
+                "POR": "Sexo sem Proteção",
+                "FRE": "Rapports sexuels à hauts risques"
+            },
+            "drunk driving": {},
+            "risk-taking behavior": {}
+        }
+    },
+    {
+        "sentence": "It is important to have the teeth cleaned thoroughly.This may involve use of various tools to loosen and remove plaque and tartar from the teeth. Proper flossing and brushing is always needed, even after professional tooth cleaning, to reduce your risk of gum disease. Your dentist or hygienist will show you how to brush and floss properly.",
+        "synonymous": {
+            "teeth cleaning": {
+                "POR": "Erupção dos Dentes Erupção dos dentes Síndrome de erupção dos dentes Erupção dentária Síndrome da erupção dentária Erupção dentária Erupção dos dentes",
+                "FRE": "Poussée dentaire Poussée dentaire Syndrome de pousse des dents Poussée des dents Poussée dentaire",
+                "GER": "Zahnen Dentitionskrankheit Zahnen Zahnen Zahnen"
+            },
+            "plaque removal": {},
+            "tartar removal": {
+                "FRE": "Tartrate d'antimoine et de potassium",
+                "POR": "Antimoniltartarato de Potássio Tártaro Emético Tartarato de Antimônio e Potássio",
+                "GER": "Brechweinstein Kaliumantimonyltartrat Antimonkaliumtartrat"
+            },
+            "flossing": {},
+            "brushing": {
+                "POR": "Escovação Dentária",
+                "FRE": "Brossage dentaire",
+                "GER": "Zähneputzen"
+            },
+            "gum disease": {
+                "GER": "Gingivakrankheiten",
+                "FRE": "Maladies de la gencive",
+                "POR": "Doenças da Gengiva"
+            },
+            "dentist": {
+                "FRE": "Dentistes femmes",
+                "POR": "Odontólogas",
+                "GER": "Zahnärztinnen"
+            },
+            "hygienist": {
+                "FRE": "Hygiéniste dentaire",
+                "POR": "Higienistas Dentários",
+                "GER": "Zahnhygieniker"
+            }
+        }
+    },
+    {
+        "sentence": "How well you do depends on the amount of poison swallowed and how quickly treatment is received.",
+        "synonymous": {
+            "poison ingestion": {},
+            "treatment speed": {
+                "GER": "Patienten, mangelnde Kooperationsbereitschaft Nichtbefolgung der Behandlung Nichteinhaltung der Behandlung Nichtbefolgung der Behandlung Zahnmedizinische Hochgeschwindigkeitsgeräte",
+                "POR": "Não cumprimento de tratamento Falta de Cooperação do Paciente Não aderência ao tratamento Não adesão ao tratamento Não aderência ao tratamento Não aderência ao tratamento Não Aderência do Paciente Incumprimento do Paciente Falta de Conformidade do Paciente Não Cooperação do Paciente Não Submissão do Paciente Inconformidade do Paciente Inobservância do Paciente Falta de Adesão do Paciente Não Conformidade do Paciente Falta de Aderência do Paciente Paciente não Aderente Não Adesão do Paciente Descumprimento do Paciente Não cumprimento de tratamento Equipamentos Odontológicos de Alta Rotação",
+                "FRE": "Non-adhésion du malade Non-adhésion du patient Non-observance par le malade Non-adhésion de la patiente Non-observance par le patient Non-observance par la patiente Non observance du traitement Non-observance du traitement Non-observance du traitement Équipement dentaire pour grandes vitesses Équipement dentaire à grande vitesse Matériel dentaire à haute vitesse Instruments dentaires pour grandes vitesses"
+            },
+            "toxicity": {}
+        }
+    },
+    {
+        "sentence": "Rarely, children will have problems falling asleep or staying asleep.",
+        "synonymous": {
+            "sleep disorders": {
+                "GER": "Schlafstoerung",
+                "FRE": "Troubles et anomalies du sommeil",
+                "POR": "Perturbações e alterações do sono"
+            },
+            "insomnia": {
+                "FRE": "Insomnie primitive",
+                "POR": "Insônia primária",
+                "GER": "Primaere Schlaflosigkeit"
+            },
+            "children": {
+                "FRE": "Aide aux familles avec enfants à charge",
+                "GER": "Hilfe für Familien mit minderjährigen Kindern",
+                "POR": "Ajuda a Famílias com Filhos Dependentes"
+            }
+        }
+    },
+    {
+        "sentence": "Reye syndrome can occur when aspirin is used to treat children with viral infections, such as chickenpox or the flu.",
+        "synonymous": {
+            "Reye syndrome": {
+                "POR": "Síndrome de Reye",
+                "FRE": "Syndrome de Reye",
+                "GER": "Reye-Syndrom"
+            },
+            "aspirin": {},
+            "viral infections": {},
+            "chickenpox": {
+                "FRE": "Varicelle",
+                "POR": "Varicela",
+                "GER": "Windpocken"
+            },
+            "flu": {
+                "GER": "Haemophilus influenza-Infektion",
+                "POR": "Infecção por Haemophilus influenza",
+                "FRE": "Infection à Haemophilus influenzae"
+            }
+        }
+    },
+    {
+        "sentence": "Bili lights is a type of light therapy (phototherapy) that is used to treat newborn jaundice . Jaundice is a yellow coloring of the skin and eyes caused by too much of a substance called bilirubin.",
+        "synonymous": {
+            "Bili lights": {
+                "GER": "Krankheit der Gallenwege, nicht naeher bezeichnet Gallenwegerkrankung Erkrankung des Gallentrakts Erkrankung des Gallentrakts NNB Nicht spezifizierte Erkrankung der Gallenwege Erkrankung des Gallentrakts Gallenwegskrankheiten Flug, Tier- Tierflug",
+                "FRE": "Affection des voies biliaires SAI Affection non précisée des voies biliaires Affection des voies biliaires Cholangiopathies Maladies du tractus biliaire Maladies biliaires Maladie des voies biliaires Affection des voies biliaires Maladie des voies biliaires Vol de l'animal Vol animal",
+                "POR": "Afecção NE das vias biliares Afecção das vias biliares NE Doença das vias biliares Afecção das vias biliares Distúrbio do trato biliar Distúrbio do trato biliar SOE Doença do trato biliar Distúrbio não especificado do trato biliar Distúrbio do trato biliar Afecção das vias biliares Doenças Biliares Voo Animal"
+            },
+            "phototherapy": {
+                "FRE": "Photothérapie",
+                "POR": "Fototerapia",
+                "GER": "Phototherapie"
+            },
+            "newborn jaundice": {
+                "FRE": "Ictère néonatal",
+                "POR": "Icterícia Neonatal",
+                "GER": "Ikterus, Neugeborenen-"
+            },
+            "bilirubin": {
+                "FRE": "Bilirubine sanguine augmentée",
+                "POR": "Bilirrubinemia aumentada",
+                "GER": "Bilirubin im Blut erhoeht"
+            },
+            "yellow skin": {
+                "FRE": "Ictère",
+                "POR": "Icterícia",
+                "GER": "Ikterus"
+            },
+            "yellow eyes": {}
+        }
+    },
+    {
+        "sentence": "Surgery combined with radiation therapy is often used to treat women with stage 1 disease that has a high chance of returning, has spread to the lymph nodes, or is a grade 2 or 3.",
+        "synonymous": {
+            "surgery": {
+                "GER": "Postgastrektomiesyndrome",
+                "FRE": "Syndromes post-gastrectomie",
+                "POR": "Síndromes Pós-Gastrectomia"
+            },
+            "radiation therapy": {
+                "FRE": "Radiothérapie assistée par ordinateur",
+                "GER": "Strahlentherapie, computergestützte",
+                "POR": "Radioterapia Assistida por Computador"
+            },
+            "stage 1 disease": {
+                "FRE": "Temps de prothrombine Test de prothrombine Test de temps de prothrombine Temps de prothrombine TP TT (Temps de Prothrombine) TP MONGOLISME SYNDROME DE DOWN Syndrome de Down Trisomie 21 Trisomie 21 Mongolisme Mongolisme Trisomie 21 Trisomie 21 Syndrome de Down MV Maladie sexuellement transmissible SAI Maladie vénérienne, non précisée Maladie sexuellement transmissible Maladie vénérienne SAI Infection sexuellement transmise MST Maladies sexuellement transmises Maladies vénériennes Maladie sexuellement transmissible Maladies sexuellement transmissibles",
+                "GER": "Prothrombinzeittest Prothrombinzeit Prothrombinzeit Prothrombintest Prothrombinzeit Prothrombinzeit DOWN SYNDROM Down-Syndrom, nicht naeher bezeichnet Down-Syndrom MONGOLISMUS Down Syndrom Mongolismus Down Syndrom Trisomie 21 Mongolismus Trisomie 21 Trisomie 21 Down-Syndrom Durch Geschlechtsverkehr uebertragene Krankheiten, nicht naeher bezeichnet Geschlechtskrankheit, nicht spezifiziert VD Geschlechtskrankheit Geschlechtskrankheit NNB Geschlechtskrankheit NNB STD (Sexuell übertragbare Krankheiten) Venerische Krankheiten Geschlechtskrankheiten Sexuell übertragbare Erkrankungen Sexuell uebertragene Infektion Geschlechtskrankheit Sexuell übertragbare Krankheiten",
+                "POR": "Tempo de protrombina Prova de protrombina Tempo de protrombina Exame de tempo de protrombina Tempo de protrombina Teste do tempo de protrombina Tempo de protrombina Tempo de protrombina Teste de protrombina Tempo de protrombina Tempo de Protrombina SINDROME DE DOWN MONGOLISMO Síndrome de Down Síndrome de Down Trissomia 21 Mongolismo Trissomia do Cromossomo 21 Trissomia do 21 Síndrome de Down Trissomia 21 Mongolismo Trissomia 21 Síndrome de Down Trissomia 21 Síndrome de Down Doença venérea NE Infecção sexualmente transmissível Doença venérea Doença venérea NE Doença transmitida sexualmente NE Doenças Venéreas Doença Sexualmente Transmissível (DST) DSTs Infecções Sexualmente Transmitidas Doenças de Transmissão Sexual Doença Sexualmente Transmissível Doenças Sexualmente Transmissíveis (DST) DST Doenças Sexualmente Transmitidas IST Doenças transmitidas por via sexual Doenças transmitidas por via sexual Infecção sexualmente transmissível Doença sexualmente transmissível Doenças venérea SOE Doença sexualmente transmissível Doença sexualmente transmissível SOE Doença venérea Doença venérea, não especificada Doenças Sexualmente Transmissíveis Infecções Sexualmente Transmissíveis"
+            },
+            "lymph nodes": {
+                "FRE": "Noeud lymphatique",
+                "POR": "Linfonodos",
+                "GER": "Lymphknoten"
+            },
+            "cancer treatment": {}
+        }
+    }
+]

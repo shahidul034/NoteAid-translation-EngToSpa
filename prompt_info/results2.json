@@ -1,0 +1,50 @@
+[
+    {
+        "text": "llama-3-8b-Instruct_without_finetune_keyword_relationships_umls: 31.4841",
+        "timestamp": "2025-03-14T08:43:47.154340"
+    },
+    {
+        "text": "llama-3-8b-Instruct_without_finetune_keyword_synonymous_umls: 31.6532",
+        "timestamp": "2025-03-14T08:49:51.419985"
+    },
+    {
+        "text": "llama-3-8b-Instruct_without_finetune_kg_gpt4o_mini_umls: 38.1805",
+        "timestamp": "2025-03-14T08:55:37.147164"
+    },
+    {
+        "text": "llama-3-8b-Instruct_without_finetune_synonyms_gpt4o_diff_lang_umls: 37.4646",
+        "timestamp": "2025-03-14T09:01:37.263189"
+    },
+    {
+        "text": "llama-3-8b-Instruct_without_finetune_translated_keywords_gpt4o_mini: 44.1667",
+        "timestamp": "2025-03-14T09:06:58.303175"
+    },
+    {
+        "text": "phi-4_without_finetune_keyword_relationships_umls: 26.5191",
+        "timestamp": "2025-03-14T06:00:56.653614"
+    },
+    {
+        "text": "phi-4_without_finetune_keyword_synonymous_umls: 28.4130",
+        "timestamp": "2025-03-14T06:14:20.514456"
+    },
+    {
+        "text": "phi-4_without_finetune_kg_gpt4o_mini_umls: 27.4801",
+        "timestamp": "2025-03-14T06:27:06.445974"
+    },
+    {
+        "text": "phi-4_without_finetune_synonyms_gpt4o_diff_lang_umls: 27.4801",
+        "timestamp": "2025-03-14T06:39:47.720028"
+    },
+    {
+        "text": "phi-4_without_finetune_translated_keywords_gpt4o_mini: 31.3652",
+        "timestamp": "2025-03-14T06:52:55.956389"
+    },
+    {
+        "text": "phi-4_without_finetune_and_prompt: 30.1136",
+        "timestamp": "2025-03-14T07:14:49.858102"
+    },
+    {
+        "text": "phi-4_without_finetune_find_cod_prompt: 28.1507",
+        "timestamp": "2025-03-16T03:45:39.351423"
+    }
+]

@@ -1,0 +1,398 @@
+[
+    {
+        "sentence": "If you have a weakened immune system due to AIDS, cancer, transplantation, or corticosteroid use, call your doctor if you develop a cough, fever, or shortness of breath.",
+        "COD_prompt": "Chain of dictionary: AIDS means El SIDA means Syndrome d'immunod\u00e9ficience acquise means Erworbenes Immundefektsyndrom means S\u00edndromes de imunodefici\u00eancia adquirida. cancer means el c\u00e1ncer means ACS (American Cancer Society) means American Cancer Society means American Cancer Society. transplantation means trasplante means Homoplastie means Transplantation, homologe means Transplante Hom\u00f3logo. cough means tos en el means Toux chronique means Chronischer Husten means Tosse Persistente. fever means fiebre means Fi\u00e8vre paratypho\u00efde A means Paratyphusfieber A means Febre paratifoide A. shortness of breath means dificultad para respirar means Dyspn\u00e9e means Dyspnoe means Dispneia."
+    },
+    {
+        "sentence": "Do NOT place the person in this position if a head, neck, back, or leg injury is suspected or if it makes the victim uncomfortable.",
+        "COD_prompt": "Chain of dictionary: head injury means lesi\u00f3n en la cabeza means Traumatismes cr\u00e2niens ferm\u00e9s means Kopfverletzungen, geschlossene means Traumatismos Cranianos Fechados. neck injury means lesi\u00f3n en el cuello means Traumatismes du cou means Halsverletzungen means Les\u00f5es do Pesco\u00e7o. back injury means lesiones de espalda means Traumatismes du dos means R\u00fcckenverletzungen means Les\u00f5es nas Costas. leg injury means lesi\u00f3n en la pierna means L\u00e9sions traumatiques de la jambe means Beinverletzungen means Traumatismos da Perna."
+    },
+    {
+        "sentence": "Increased vision allows the infant to tell objects apart from backgrounds with very little contrast (such as a button on a blouse of the same color)",
+        "COD_prompt": "Chain of dictionary: backgrounds means antecedentes means Milieu culturel means Antecedentes Culturais."
+    },
+    {
+        "sentence": "If obesity prevents you from being physically able to inspect your feet, ask a family member, neighbor, or visiting nurse to perform this important check.",
+        "COD_prompt": "Chain of dictionary: obesity means Obesidad means Dystrophie adiposo-g\u00e9nitale means Adiposogenitale Dystrophie means Distrofia adiposogenital. inspect means inspeccionar means Inspection des aliments means Nahrungsmittelkontrolle means Inspe\u00e7\u00e3o de Alimentos. feet means pies y piernas means Syndrome des pieds br\u00fblants means Burning-Feet-Syndrom means S\u00edndrome de queima\u00e7\u00e3o nos p\u00e9s. family member means miembro de la familia means Membres de la famille means Familienmitglieder means Membros da Fam\u00edlia. neighbor means vecino means Dispensaires locaux means Neighborhood Health Centers means Centros Vicinais de Sa\u00fade."
+    },
+    {
+        "sentence": "CT scan or MRI to confirm that there is a growth, and to see if the cancer has spread to lymph nodes in the neck",
+        "COD_prompt": "Chain of dictionary: CT scan means Tomograf\u00eda computarizada means Tomodensitom\u00e9trie means Computertomographie means Tomografia Computadorizada por Raios X. MRI means Resonancia magn\u00e9tica means Amrinone means Amrinon means Amrinona. growth means crecimiento means Hormone de croissance humaine means Humanes Wachstumshormon means Horm\u00f4nio do Crescimento Humano. cancer means el c\u00e1ncer means ACS (American Cancer Society) means American Cancer Society means American Cancer Society. lymph nodes means Los ganglios linf\u00e1ticos means Noeud lymphatique means Lymphknoten means Linfonodos."
+    },
+    {
+        "sentence": "A uniform brown color is usually seen over the cheeks, forehead, nose, or upper lip.It is most often symmetrical (matching on both sides of the face).",
+        "COD_prompt": "Chain of dictionary: cheeks means las mejillas means Joue means Wange means Bochecha. nose means nariz y nariz means Ac\u00e9tyl-galactosamine means Acetylgalactosamin means Acetilgalactosamina. upper lip means labio superior means Tumeur maligne de la l\u00e8vre sup\u00e9rieure, vermillon de la l\u00e8vre means Boesartige Neubildung der Oberlippe, Lippenrot means Neoplasia maligna do l\u00e1bio superior, bordo vermelh\u00e3o. symmetrical means sim\u00e9trico means Lipomatose nodulaire circonscrite means Lipomatose, nodul\u00e4re umschriebene means Lipomatose Nodular Circunscrita."
+    },
+    {
+        "sentence": "Your doctor may do other tests to check high blood pressure, heart disease, diabetes, high cholesterol, and other causes of, and risk factors for TIAs or stroke.",
+        "COD_prompt": "Chain of dictionary: high blood pressure means presi\u00f3n arterial alta means Hypertension art\u00e9rielle means Hypertonie means Hipertens\u00e3o. heart disease means enfermedad card\u00edaca means Cardiopathie rhumatismale aigu\u00eb, non pr\u00e9cis\u00e9e means Akute rheumatische Herzerkrankung, nicht spezifiziert means Doen\u00e7a card\u00edaca reum\u00e1tica aguda, n\u00e3o especificada. diabetes means el diab\u00e9tico means Diab\u00e8te instable means Diabetes mellitus, Brittle- means Diabetes inst\u00e1vel. high cholesterol means colesterol alto means Cholest\u00e9rol \u00e9lev\u00e9 means Hohes Cholesterin means Colesterol total aumentado. TIAs means AITs means Dracunculose means Drakunkulose means Dracuncul\u00edase. stroke means accidente cerebrovascular means Accident vasculaire c\u00e9r\u00e9bral means Zerebrovaskul\u00e4rer Insult means Acidente cerebrovascular."
+    },
+    {
+        "sentence": "Stridor is an abnormal, high-pitched, musical breathing sound caused by a blockage in the throat or voice box (larynx).It is usually heard when taking in a breath.",
+        "COD_prompt": "Chain of dictionary: Stridor means Estr\u00eddores means Stridor means Stridor means Estridor. throat means Cuello y garganta means Pharyngite streptococcique means Pharyngitis durch Streptokokken means Faringite estreptoc\u00f3cica. breath means aliento means Entra\u00eenement respiratoire means Atem\u00fcbungen means Exerc\u00edcios Respirat\u00f3rios."
+    },
+    {
+        "sentence": "Is there blood on the toilet paper only?",
+        "COD_prompt": "Chain of dictionary: blood means sangre means Antig\u00e8nes de groupe sanguin means Blutgruppenantigene means Ant\u00edgenos de Grupos Sangu\u00edneos."
+    },
+    {
+        "sentence": "Ask your health care provider.",
+        "COD_prompt": "Chain of dictionary: health care provider means proveedor de atenci\u00f3n m\u00e9dica means Personnel sanitaire means Personal im Gesundheitswesen means Pessoal de Sa\u00fade."
+    },
+    {
+        "sentence": "Complete bed rest for several days is usually recommended.",
+        "COD_prompt": "Chain of dictionary: bed rest means reposo en cama means Alitement means Bettruhe means Repouso em Cama. recommended means recomendado means Apports quotidiens conseill\u00e9s means RDA means Recomenda\u00e7\u00f5es Nutricionais Di\u00e1rias."
+    },
+    {
+        "sentence": "They still have foot problems after treatment",
+        "COD_prompt": "Chain of dictionary: treatment means tratamiento means Non-observance du traitement means Nichtbefolgung der Behandlung means N\u00e3o cumprimento de tratamento."
+    },
+    {
+        "sentence": "Disorders of the endocrine system",
+        "COD_prompt": "Chain of dictionary: Disorders means Trastornos de la salud means Tic means Tic-St\u00f6rungen means Transtornos de Tique. endocrine system means Sistema endocrino means Syst\u00e8me neuros\u00e9cr\u00e9teur means Neurosekretorische Systeme means Sistemas Neurossecretores."
+    },
+    {
+        "sentence": "Biopsy - breast; Open breast biopsy",
+        "COD_prompt": "Chain of dictionary: Biopsy means Biopsia means Biopsie osseuse means Knochenbiopsie means Biopsia \u00f3ssea. breast means el pecho means Maladies du sein means Brustkrankheiten means Doen\u00e7as Mam\u00e1rias."
+    },
+    {
+        "sentence": "Are illegal drugs being used?",
+        "COD_prompt": "Chain of dictionary: used means utilizado means Infections bact\u00e9riennes means Bakterielle Infektionen means Infec\u00e7\u00f5es Bacterianas."
+    },
+    {
+        "sentence": "Preventive measures vary depending on the specific disorder.",
+        "COD_prompt": "Chain of dictionary: specific disorder means trastorno espec\u00edfico means Troubles du sommeil sp\u00e9cifi\u00e9s d'origine non organique means Spezifische Schlafstoerung nicht-organischen Ursprungs means Transtornos espec\u00edficos do sono de origem n\u00e3o org\u00e2nica."
+    },
+    {
+        "sentence": "Some laboratories use different measurements or may test different specimens.",
+        "COD_prompt": "Chain of dictionary: laboratories means Laboratorios y means Laboratoires means Laboratorien means Laborat\u00f3rios."
+    },
+    {
+        "sentence": "Menopause. A drop in the hormone estrogen causes vaginal dryness.",
+        "COD_prompt": "Chain of dictionary: Menopause means Menopausia y el embarazo means M\u00e9nopause pr\u00e9coce means Menopause, vorzeitige means Menopausa Precoce. hormone means hormona means Syndrome de s\u00e9cr\u00e9tion inappropri\u00e9e d'ADH means ADH-Sekretionssyndrom, inad\u00e4quates means S\u00edndrome de Secre\u00e7\u00e3o Inadequada de HAD. estrogen means estr\u00f3geno means Oestrog\u00e8nes conjugu\u00e9s (USP) means \u00d6strogene, konjugierte means Estrog\u00eanios Conjugados (USP). vaginal dryness means Sequedad vaginal means S\u00e9cheresse vaginale means Vaginale Trockenheit means Secura vaginal."
+    },
+    {
+        "sentence": "Depression and older age are both risk factors for suicide.",
+        "COD_prompt": "Chain of dictionary: Depression means Depresi\u00f3n means D\u00e9pression psychotique means Psychotische Depression means Depress\u00e3o psic\u00f3tica. risk factors means factores de riesgo means Facteurs de risque means Risikofaktoren means Fatores de Risco. suicide means Suicidio means Tentative de suicide means Suizid, versuchter means Tentativa de Suic\u00eddio."
+    },
+    {
+        "sentence": "Most women have only one polyp, but some women have two or three.",
+        "COD_prompt": "Chain of dictionary: polyp means polipo means Polypeptides means Polypeptide means Polipept\u00eddeo."
+    },
+    {
+        "sentence": "This test is done to measure the level of amino acids in the blood.",
+        "COD_prompt": "Chain of dictionary: amino acids means amino\u00e1cidos means Acides amin\u00e9s means Aminos\u00e4uren means Amino\u00e1cidos. blood means sangre means Antig\u00e8nes de groupe sanguin means Blutgruppenantigene means Ant\u00edgenos de Grupos Sangu\u00edneos. level means nivel means Ca++ augment\u00e9 means Kalzium erhoeht means Aumento de Ca."
+    },
+    {
+        "sentence": "The infection is spread by saliva, urine, respiratory droplets, sexual contact, and blood transfusions.",
+        "COD_prompt": "Chain of dictionary: infection means infecci\u00f3n means Infections \u00e0 Erysipelothrix means Erysipelothrixinfektionen means Infec\u00e7\u00f5es por Erysipelothrix. saliva means la saliva means Maladies de la glande salivaire means Speicheldr\u00fcsenkrankheiten means Doen\u00e7as das Gl\u00e2ndulas Salivares. urine means el orina means Tioguanine means Thioguanin means Tioguanina. respiratory droplets means gotas respiratorias means Gouttelettes respiratoires means Respiratorische Tr\u00f6pfchen means Got\u00edcula Respirat\u00f3ria. blood transfusions means transfusiones de sangre means Transfusion foetale means Bluttransfusion, intrauterine means Transfus\u00e3o Fetal."
+    },
+    {
+        "sentence": "You may occasionally eat lean, 3-ounce cuts of red meat.",
+        "COD_prompt": "Chain of dictionary: lean means de bajo peso means Agents nettoyants means Reinigungsmittel means Material de Limpeza."
+    },
+    {
+        "sentence": "Several conditions may cause increased pressure in the skull, including:",
+        "COD_prompt": "Chain of dictionary: skull means cr\u00e1neo means Fractures du cr\u00e2ne means Sch\u00e4delfrakturen means Fraturas Cranianas. conditions means condiciones means \u00c9tat pr\u00e9canc\u00e9reux means Pr\u00e4kanzerosen means Condi\u00e7\u00e3o pr\u00e9-cancerosa."
+    },
+    {
+        "sentence": "Abnormal heart sounds",
+        "COD_prompt": "Chain of dictionary: heart means el coraz\u00f3n means Cardiopathies means Herzkrankheiten means Cardiopatias. sounds means sonidos means Phonation means Phonation means Fona\u00e7\u00e3o."
+    },
+    {
+        "sentence": "Waxy, yellow surface",
+        "COD_prompt": "Chain of dictionary: yellow means amarillo means Fi\u00e8vre jaune sylvestre means Sylvatisches Gelbfieber means Febre amarela silvestre. surface means superficie means Antig\u00e8ne Australia means Hepatitis-B-Oberfl\u00e4chenantigene means Ant\u00edgenos de Superf\u00edcie da Hepatite B."
+    },
+    {
+        "sentence": "Oxygen",
+        "COD_prompt": "Chain of dictionary: Oxygen means Ox\u00edgeno means Isotopes radio-actifs de l'oxyg\u00e8ne means Sauerstoffradioisotope means Radiois\u00f3topos de Oxig\u00eanio."
+    },
+    {
+        "sentence": "Recent open heart surgery",
+        "COD_prompt": "Chain of dictionary: open heart surgery means cirug\u00eda a coraz\u00f3n abierto means Chirurgie \u00e0 coeur ouvert means Offene Herzoperation means Cirurgia card\u00edaca aberta."
+    },
+    {
+        "sentence": "Thyroid disease",
+        "COD_prompt": "Chain of dictionary: Thyroid means Tiroides means Hypothyro\u00efdie cong\u00e9nitale means Kongenitale Hypothyreose means Hipotireoidismo Cong\u00eanito. disease means enfermedad means Maladies sexuellement transmissibles means Sexuell \u00fcbertragbare Krankheiten means Infec\u00e7\u00f5es Sexualmente Transmiss\u00edveis."
+    },
+    {
+        "sentence": "Nausea",
+        "COD_prompt": "Chain of dictionary: Nausea means Nauseas y mareos means Nausees/vomissements means Uebelkeit und Brechsymptome means Sintomas de n\u00e1usea e v\u00f3mito."
+    },
+    {
+        "sentence": "Brussels sproutsCabbage",
+        "COD_prompt": null
+    },
+    {
+        "sentence": "Oysters",
+        "COD_prompt": "Chain of dictionary: Oysters means Las ostras means Ostreidae means Austern means Ostreidae."
+    },
+    {
+        "sentence": "CPR can be lifesaving, but it is best done by someone trained in an accredited CPR course.",
+        "COD_prompt": "Chain of dictionary: CPR means CPR y means R\u00e9animation cardiopulmonaire means Kardiopulmonale Wiederbelebung means Ressuscita\u00e7\u00e3o cardiopulmonar. trained means entrenado means Personnel sans formation means Pessoal n\u00e3o Treinado."
+    },
+    {
+        "sentence": "Always let your doctor know about any cold, flu, fever, herpes breakout, or other illnesses you may have. ",
+        "COD_prompt": "Chain of dictionary: doctor means m\u00e9dico means Assistants de m\u00e9decin means \u00c4rztliche Assistenten means Assistentes M\u00e9dicos. cold means fr\u00edo means An\u00e9mie h\u00e9molytique \u00e0 anticorps froid means Haemolytische Anaemie durch Kaelteantikoerper means Anemia hemol\u00edtica a frio. flu means gripe means Infection \u00e0 Haemophilus influenzae means Haemophilus influenza-Infektion means Infec\u00e7\u00e3o por Haemophilus influenza. fever means fiebre means Fi\u00e8vre paratypho\u00efde A means Paratyphusfieber A means Febre paratifoide A. herpes means el herpes means Infections \u00e0 Herpesviridae means Herpesviridaeinfektionen means Infec\u00e7\u00f5es por Herpesviridae. illnesses means enfermedades means Pathologie lourde means Lebensbedrohliche Krankheit means Doen\u00e7a Catastr\u00f3fica."
+    },
+    {
+        "sentence": "Tretinoin (Retin-A) or creams containing alpha-hydroxy acids may be recommended, but these aren't guaranteed to help.",
+        "COD_prompt": "Chain of dictionary: Tretinoin means Las dem\u00e1s sustancias means Isotr\u00e9tino\u00efne means Isotretinoin means Isotretino\u00edna. Retin-A means Retin-A y sus derivados means Retin-A. creams means cremas y cremas means Cr\u00e8me glac\u00e9e means Speiseeis means Sorvetes."
+    },
+    {
+        "sentence": "Fever is the classic symptom and may persist for days before any other symptoms appear.",
+        "COD_prompt": "Chain of dictionary: Fever means Fiebre means Fi\u00e8vre paratypho\u00efde A means Paratyphusfieber A means Febre paratifoide A. persist means persistir\u00e1n means Tronc art\u00e9riel commun means Truncus arteriosus, persistierender means Persist\u00eancia do Tronco Arterial. days means d\u00edas means Vacances means Feiertage und Ferien means F\u00e9rias e Feriados."
+    },
+    {
+        "sentence": "There is more likely to be increased amounts of pollen in the air on hot, dry, windy days.",
+        "COD_prompt": "Chain of dictionary: pollen means el polen means Rhinite allergique saisonni\u00e8re means Heufieber means Rinite Al\u00e9rgica Sazonal. air means aire means Maladie des l\u00e9gionnaires means Legion\u00e4rskrankheit means Doen\u00e7a dos Legion\u00e1rios. hot means muy caliente means Trouble parano\u00efaque partag\u00e9 means Geteilter Wahn means Perturba\u00e7\u00e3o psic\u00f3tica partilhada. dry means Seco means X\u00e9rostomie means Xerostomie means Xerostomia. days means d\u00edas means Vacances means Feiertage und Ferien means F\u00e9rias e Feriados."
+    },
+    {
+        "sentence": "You get iron through certain foods, and your body also reuses iron from old red blood cells.",
+        "COD_prompt": "Chain of dictionary: iron means de hierro means Isotopes radio-actifs du fer means Eisenradioisotope means Radiois\u00f3topos de Ferro. foods means alimentos y bebidas means Nourriture means Nahrungsmittel means Alimentos. body means cuerpo means Peur d'une dysmorphie corporelle means Dismorphophobie means Perturba\u00e7\u00e3o dism\u00f3rfica do corpo. reuses means reutilizaciones means Selles muqueuses means Schleim im Stuhl means Fezes mucosas."
+    },
+    {
+        "sentence": "Asthma symptoms usually occur much less often or disappear as the child gets get older.",
+        "COD_prompt": "Chain of dictionary: Asthma means Asma y means Pneumoconiose des mineurs du charbon means Anthracosis pulmonum means Pneumoconiose dos mineiros de carv\u00e3o. older means m\u00e1s viejo means Gebrechliche \u00e4ltere Erwachsene means Adultos Idosos Fragilizados."
+    },
+    {
+        "sentence": "Potatoes that are not green and have had any sprouts removed are safe to eat.",
+        "COD_prompt": "Chain of dictionary: potatoes means las patatas means Pommes de terre means Kartoffel means Batata-Inglesa. green means verde y verde means Vert bromocr\u00e9sol means Bromcresolgr\u00fcn means Verde de Bromocresol. sprouts means frutos secos means Choux de Bruxelles means Rosenkohl means Couve-de-Bruxelas."
+    },
+    {
+        "sentence": "When the needle is inserted to draw blood, you may feel moderate pain, or only a prick or stinging sensation.",
+        "COD_prompt": "Chain of dictionary: needle means con aguja means Aiguilles means Nadeln means Agulhas. pain means dolor en el pecho means Trouble li\u00e9 \u00e0 la douleur associ\u00e9 \u00e0 des facteurs psychologiques means Psychogener Schmerz, Stelle nicht spezifiziert means Psicalgia. stinging sensation means sensaci\u00f3n de picadura means Picotements douloureux means Stechend means Sensa\u00e7\u00e3o de picadas."
+    },
+    {
+        "sentence": "However, as a general rule, once a substance causes allergies for an individual, it can continue to affect the person long term.",
+        "COD_prompt": "Chain of dictionary: substance means sustancia means D\u00e9pendance \u00e0 plusieurs substances means Abhaengigkeit von mehreren Substanzen means Depend\u00eancia de m\u00faltiplas subst\u00e2ncias. allergies means alergias means Maladie environnementale means Umweltbedingte Krankheit means Doen\u00e7a Ambiental. individual means persona means Femelle means Weiblich means Feminino. affect means efecto means Trouble schizo-affectif means Schizoaffektive Form der Schizophrenie means Perturba\u00e7\u00e3o esquizoafectiva. long term means largo plazo means Effets \u00e0 long terme means Efeitos a Longo Prazo."
+    },
+    {
+        "sentence": "If you have surgery, your sperm count will likely increase but it will not improve your chances of getting a woman pregnant.",
+        "COD_prompt": "Chain of dictionary: surgery means cirug\u00eda means Syndromes post-gastrectomie means Postgastrektomiesyndrome means S\u00edndromes P\u00f3s-Gastrectomia. sperm count means recuento de espermatozoides means Num\u00e9ration des spermatozo\u00efdes means Spermienz\u00e4hlung means Contagem de espermatozoides. pregnant means embarazada means Schwangerschaftsfeststellung als Nebenbefund."
+    },
+    {
+        "sentence": "Screening women with pelvic ultrasound or blood tests, such as the Ca-125 has not been found to be effective and is not recommended.",
+        "COD_prompt": "Chain of dictionary: Ca-125 means Ca-125 y sus derivados means Antig\u00e8ne CA-125 means CA-125-Antigen means Ant\u00edgeno Ca-125. effective means de la misma means Efficacit\u00e9 biologique relative means Relative biologische Wirksamkeit means Efici\u00eancia Biol\u00f3gica Relativa."
+    },
+    {
+        "sentence": "Protein can also be used by the body for energy, but only after glycogen or carbohydrate stores have been used up.",
+        "COD_prompt": "Chain of dictionary: Protein means Prote\u00edna means D\u00e9ficience en lipoprot\u00e9ine lipase means HYPERLIPOPROTEIN\u00c4MIE TYP 01 means Defici\u00eancia de lipoprote\u00edna lipase. energy means energ\u00eda means Radioth\u00e9rapie de hautes \u00e9nergies means Strahlentherapie, Hochenergie- means Radioterapia de Alta Energia. glycogen means el gluc\u00f3geno means Glycog\u00e9nose de type I means Glykogenspeicherkrankheit Typ I means Doen\u00e7a de Dep\u00f3sito de Glicog\u00eanio Tipo I. carbohydrate means carbohidratos means Glucides means Kohlenhydrate means Carboidratos. stores means tiendas means Officines pharmaceutiques means Gemeindeapotheken means Farm\u00e1cias Comunit\u00e1rias."
+    },
+    {
+        "sentence": "An extradural hemorrhage is bleeding between the inside of the skull and the outer covering of the brain (called the \"dura\").",
+        "COD_prompt": "Chain of dictionary: extradural hemorrhage means hemorragia extradural means H\u00e9morragie extradurale non traumatique means nicht-traumatische extradurale Blutung means Hemorragia extradural n\u00e3o traum\u00e1tica. bleeding means el sangrado means M\u00e9trorragie means Metrorrhagie means Metrorragia. skull means cr\u00e1neo means Fractures du cr\u00e2ne means Sch\u00e4delfrakturen means Fraturas Cranianas. brain means cerebro means Syndrome c\u00e9r\u00e9bral SAI means Hirnsyndrom (NNB) means S\u00edndrome cerebral SOE. dura means durabilidad means H\u00e9morragie sous-durale means H\u00e4matom, subdurales means Hematoma Subdural."
+    },
+    {
+        "sentence": "Without PIG-A, important proteins cannot connect to the cell surface and protect the cell from substances in the blood called complement.",
+        "COD_prompt": "Chain of dictionary: proteins means Prote\u00ednas means Prot\u00e9ines proto-oncog\u00e8nes c-abl means Proto-Onkogen-Proteine c-abl means Prote\u00ednas Proto-Oncog\u00eanicas c-abl. cell surface means superficie de la c\u00e9lula means Antig\u00e8nes de surface cellulaire means Antigene, Oberfl\u00e4chen- means Ant\u00edgenos de Superf\u00edcie. protect means Proteger means Agents protecteurs means Schutzstoffe means F\u00e1rmaco Protetor. blood means sangre means Antig\u00e8nes de groupe sanguin means Blutgruppenantigene means Ant\u00edgenos de Grupos Sangu\u00edneos. complement means el complemento means C3PA Convertase means Komplement-Faktor D means Fator D."
+    },
+    {
+        "sentence": "If you can see bone in the injured site, call your local emergency number (such as 911) or local hospital for further advice.",
+        "COD_prompt": "Chain of dictionary: bone means hueso means Maladies osseuses means Knochenkrankheiten means Doen\u00e7as \u00d3sseas."
+    },
+    {
+        "sentence": "Bladder distention (urinary bladder over-filled with fluid) can cause a firm mass in the center of the lower abdomen above the pelvic bones.In extreme cases it can reach as far up as the navel.",
+        "COD_prompt": "Chain of dictionary: Bladder distention means Distensi\u00f3n de la vejiga means Globe v\u00e9sical means Aufgetriebene Harnblase means Distens\u00e3o da bexiga. urinary bladder means el tracto urinario means Vessie neurologique means Harnblase, neurogene means Bexiga neurog\u00e9nica. pelvic bones means huesos p\u00e9lvicos means Os du pelvis means Beckenknochen means Ossos P\u00e9lvicos."
+    },
+    {
+        "sentence": "Your kidneys help control your body's acid level by removing acid from the blood and sending it into your urine.Acidic substances in the body are counteracted by alkaline substances, primarily bicarbonate.",
+        "COD_prompt": "Chain of dictionary: kidneys means los ri\u00f1ones means Rein means Niere means Rim. blood means sangre means Antig\u00e8nes de groupe sanguin means Blutgruppenantigene means Ant\u00edgenos de Grupos Sangu\u00edneos. urine means el orina means Tioguanine means Thioguanin means Tioguanina. bicarbonate means bicarbonato de sodio means Bicarbonates means Bicarbonate means Bicarbonatos."
+    },
+    {
+        "sentence": "You'll likely be diagnosed with rheumatic fever if you meet two major criteria, or one major and two minor criteria, and have signs that you've had a previous strep infection.",
+        "COD_prompt": "Chain of dictionary: diagnosed means diagnosticado means Souffles cardiaques fonctionnels et non diagnostiqu\u00e9s means funktionelles und nicht-diagnostiziertes Herzgeraeusch means Sopros card\u00edacos funcionais e n\u00e3o diagnosticados. rheumatic fever means fiebre reum\u00e1tica means Rhumatisme articulaire aigu means Rheumatisches Fieber means Febre Reum\u00e1tica. criteria means las condiciones means Crit\u00e8res d'admission scolaire means Hochschulaufnahmekriterien means Crit\u00e9rios de Admiss\u00e3o Escolar. signs means se\u00f1ales means Conception d'appareil orthodontique means Kieferorthop\u00e4discher Therapieplan means Desenho de Aparelho Ortod\u00f4ntico. strep infection means infecci\u00f3n por estreptococos means Infections \u00e0 streptocoques means Streptokokkeninfektionen means Infec\u00e7\u00f5es Estreptoc\u00f3cicas."
+    },
+    {
+        "sentence": "A trained physician, often a cardiologist, inserts a small needle into the chest between the ribs and into the thin sac that surrounds the heart (the pericardium).A small amount of fluid is taken out.",
+        "COD_prompt": "Chain of dictionary: physician means m\u00e9dico means Acceptation des tarifs conventionn\u00e9s par le m\u00e9decin means Akzeptanz der \u00c4rzteverordnung means Physician Assignment Acceptance. cardiologist means cardi\u00f3logo means Cardiologues means Kardiologen means Cardiologistas. needle means con aguja means Aiguilles means Nadeln means Agulhas. chest means el pecho means Douleur pleurale means Pleuraschmerz means Dor pleur\u00edtica. ribs means las costillas means Lits d'enfant means Krippen means Ber\u00e7os. pericardium means pericardio means H\u00e9morragie p\u00e9ricardique means Haemorrhagischer Perikarderguss means Hemorragia intraperic\u00e1rdica. fluid means fluido means R\u00e9tention liquidienne means Fluessigkeitsretention means Reten\u00e7\u00e3o de l\u00edquidos."
+    },
+    {
+        "sentence": "Increased calcium for a limited period of time does not normally cause side effects.However, receiving higher amounts of calcium over a long period of time raises the risk of kidney stones in some people.",
+        "COD_prompt": "Chain of dictionary: calcium means el calcio means Radioisotopes du calcium means Calciumradioisotope means Radiois\u00f3topos de C\u00e1lcio. side effects means efectos secundarios means R\u00e9action ind\u00e9sirable \u00e0 un m\u00e9dicament means Medikamentennebenwirkung means Reac\u00e7\u00e3o adversa a f\u00e1rmacos. risk means riesgo means \u00c9valuation de risque pour la sant\u00e9 means Gesundheitsrisiken-Bewertung means Estimativa de Risco para a Sa\u00fade."
+    },
+    {
+        "sentence": "Children with early sexual development are more likely to have psychological and social problems.Children and adolescents generally want to be the same as their peers, and early sexual development can make them appear different.",
+        "COD_prompt": "Chain of dictionary: children means ni\u00f1os means Aide aux familles avec enfants \u00e0 charge means Hilfe f\u00fcr Familien mit minderj\u00e4hrigen Kindern means Ajuda a Fam\u00edlias com Filhos Dependentes. social problems means problemas sociales means Probl\u00e8me social means Soziale Probleme means Problemas Sociais. adolescents means ni\u00f1os y adolescentes means Adolescent hospitalis\u00e9 means Jugendliche im Krankenhaus means Adolescente Hospitalizado."
+    },
+    {
+        "sentence": "Veins and arteries vary in size from one patient to another and from one side of the body to the other.Obtaining a blood sample from some people may be more difficult than from others.",
+        "COD_prompt": "Chain of dictionary: veins means las venas means Veine thalamo-stri\u00e9e means Thalamostriatusvene means Veia do Corpo Estriado. arteries means las arterias means Art\u00e8re subclavi\u00e8re means Arteria subclavia means Art\u00e9ria Subcl\u00e1via. size means tama\u00f1o means Taille moyenne familiale means Tamanho M\u00e9dio da Fam\u00edlia. patient means paciente means Isolateurs pour malades means Patientenisolatoren means Isoladores de Pacientes. blood sample means muestra de sangre means Prise de sang means Blutentnahme means Coleta de Amostras Sangu\u00edneas."
+    },
+    {
+        "sentence": "In many cases it will prevent you from getting sick.For example, a person who has had chickenpox or has been immunized against chickenpox is immune from getting chickenpox again.Watch this video about:Immune response",
+        "COD_prompt": "Chain of dictionary: sick means enfermo means Trypanosomiase africaine means Trypanosomiasis, afrikanische means Tripanossom\u00edase africana. chickenpox means varicela means Varicelle means Windpocken means Varicela. immunized means inmunizados means Anasarque foetoplacentaire immune means Hydrops fetalis, verursacht durch Isoimmunisierung means Hidropsia fetal causada por isoimuniza\u00e7\u00e3o. immune means inmunidad means An\u00e9mie h\u00e9molytique auto-immune means An\u00e4mie, autoimmunh\u00e4molytische means Anemias hemol\u00edticas autoimunes. immune response means respuesta inmune means HLA-D means HLA-D-Antigene means Ant\u00edgenos HLA-D."
+    },
+    {
+        "sentence": "For example, a food that has 13 grams of fat with a Percent Daily Value of 20% means that 13 grams of fat is 20%, or one-fifth, of the total daily fat recommended for a person who eats 2,000 calories per day.",
+        "COD_prompt": "Chain of dictionary: fat means grasa means Sulfates means Sulfate means Sulfatos. grams means gramos means Programme de l'Audit M\u00e9dical means Medical Audit Program means Programa de Auditoria M\u00e9dica."
+    },
+    {
+        "sentence": "Laparoscopic repair: Your surgeon will make 3\u00a0- 5 small cuts in your belly.Your surgeon will insert a laparoscope (a thin, hollow tube with a tiny camera on the end) through one of these cuts and other tools through the other cuts.",
+        "COD_prompt": "Chain of dictionary: surgeon means cirujano means Neurochirurgiennes means Neurochirurgen means Neurocirurgi\u00f5es. belly means el vientre means Syndrome de Prune Belly means Prune-Belly-Syndrom means S\u00edndrome de Eagle Barrett. laparoscope means el laparoscopio means Coelioscopes means Laparoskope means Laparosc\u00f3pios. tools means herramientas means Outils logiciels means Software-Tools means Ferramentas de Software."
+    },
+    {
+        "sentence": "However, recent studies do not support this idea, and suggest that these medications can be used in children with tics who also have attention-deficit disorder (which often occurs in the same group of children).A chronic motor tic disorder also exists.",
+        "COD_prompt": "Chain of dictionary: medications means medicamentos para el means Pr\u00e9m\u00e9dication \u00e0 l'anesth\u00e9sie means An\u00e4sthesiepr\u00e4medikation means Medica\u00e7\u00e3o Pr\u00e9-Anest\u00e9sica. children means ni\u00f1os means Aide aux familles avec enfants \u00e0 charge means Hilfe f\u00fcr Familien mit minderj\u00e4hrigen Kindern means Ajuda a Fam\u00edlias com Filhos Dependentes. tics means tics means Anesth\u00e9siques locaux means Lokalan\u00e4sthetika means Anest\u00e9sicos Locais. attention-deficit disorder means trastorno por d\u00e9ficit de atenci\u00f3n means Trouble d\u00e9ficitaire de l'attention means Aufmerksamkeitsdefizitstoerung means Transtorno de d\u00e9ficit de aten\u00e7\u00e3o. chronic motor tic disorder means trastorno cr\u00f3nico del movimiento means Trouble de tic moteur chronique means Chronische motorische Tic-Stoerung means Transtorno de tique motor cr\u00f4nico."
+    },
+    {
+        "sentence": "These symptoms are more likely to occur if the skin has been cut or rubbed because this gives the MRSA germ a way to \u201cget in.\u201d Symptoms are also more likely in areas where there is more body hair due to hair follicles.",
+        "COD_prompt": "Chain of dictionary: skin means piel y means Dermatoses v\u00e9siculobulleuses means Hautkrankheiten, vesikulobull\u00f6se means Dermatopatias Vesiculobolhosas. cut means cortado means Enc\u00e9phalite aigu\u00eb n\u00e9crosante herp\u00e9tique means Akute nekrotisierende Herpes-Enzephalitis means Encefalite Herp\u00e9tica Necrosante Aguda. germ means el germen means Rub\u00e9ole means R\u00f6teln means Rub\u00e9ola (Sarampo Alem\u00e3o). hair follicles means fol\u00edculos pilosos means Autres maladies pr\u00e9cis\u00e9es des cheveux et des follicules capillaires means andere spezifische Erkrankungen von Haar und Haarfollikeln means Outras doen\u00e7as especificadas dos pelos e fol\u00edculos pilosos."
+    },
+    {
+        "sentence": "Some patients develop heart failure and high blood pressure in the blood vessels of their lungs.Your chances of recovering or of the disease getting worse depend on the cause and how severe the disease was when it was first diagnosed.",
+        "COD_prompt": "Chain of dictionary: heart failure means insuficiencia card\u00edaca means Insuffisances cardiaques means Herzversagen means Insufici\u00eancias card\u00edacas. high blood pressure means presi\u00f3n arterial alta means Hypertension art\u00e9rielle means Hypertonie means Hipertens\u00e3o. blood vessels means los vasos sangu\u00edneos means Vaisseaux sanguins means Blutgef\u00e4\u00dfe means Vasos Sangu\u00edneos. lungs means pulmones y means Poumon means Lunge means Pulm\u00e3o. disease means enfermedad means Maladies sexuellement transmissibles means Sexuell \u00fcbertragbare Krankheiten means Infec\u00e7\u00f5es Sexualmente Transmiss\u00edveis. diagnosed means diagnosticado means Souffles cardiaques fonctionnels et non diagnostiqu\u00e9s means funktionelles und nicht-diagnostiziertes Herzgeraeusch means Sopros card\u00edacos funcionais e n\u00e3o diagnosticados."
+    },
+    {
+        "sentence": "If a young child refuses to put weight on an arm or leg after an accident, won't move the arm or leg, or you can clearly see a deformity, assume the child has a broken bone and get medical help.",
+        "COD_prompt": "Chain of dictionary: arm means el brazo means Syndrome du cri du chat means Cri-du-chat-Syndrom means S\u00edndrome de Cri-du-Chat. leg means pie y pierna means Maladie des l\u00e9gionnaires means Legion\u00e4rskrankheit means Doen\u00e7a dos Legion\u00e1rios. accident means accidente de trabajo means Accident vasculaire c\u00e9r\u00e9bral means Zerebrovaskul\u00e4rer Insult means Acidente cerebrovascular. broken bone means hueso roto means Fractures osseuses means Frakturen, Knochen- means Fraturas \u00d3sseas."
+    },
+    {
+        "sentence": "The amount of liquid you eat (such as soup) or drink will be limited to the amount of urine you can produce.You will be told what you may and may not eat to reduce the buildup of toxins that the kidneys would normally remove.",
+        "COD_prompt": "Chain of dictionary: liquid means l\u00edquido means Huile de vaseline means Mineral\u00f6l means \u00d3leo Mineral. urine means el orina means Tioguanine means Thioguanin means Tioguanina. toxins means toxinas y means Ac\u00e9tyldigitoxine means Acetyldigitoxine means Acetildigitoxinas. kidneys means los ri\u00f1ones means Rein means Niere means Rim."
+    },
+    {
+        "sentence": "The most common use of this test is to help diagnose and monitor a disorder called\u00a0sarcoidosis . People with sarcoidosis may have their ACE levels tested regularly to check the severity of the disease and see how well treatment is working. ",
+        "COD_prompt": "Chain of dictionary: diagnose means diagn\u00f3stico means S\u00e9rologie VIH means AIDS-Serodiagnostik means Sorodiagn\u00f3stico da AIDS. disorder means trastorno means Trouble autistique means Fruehkindlicher Autismus means Transtorno Aut\u00edstico. sarcoidosis means enfermedad de la piel means Sarco\u00efdose pulmonaire means Sarkoidose, pulmonale means Sarcoidose Pulmonar. severity means Severo means Indice de gravit\u00e9 de la maladie means Schweregradindex einer Krankheit means \u00cdndice de Gravidade de Doen\u00e7a. treatment means tratamiento means Non-observance du traitement means Nichtbefolgung der Behandlung means N\u00e3o cumprimento de tratamento."
+    },
+    {
+        "sentence": "Allergic conjunctivitis occurs when the clear layer of tissue lining the eyelids and covering the white of the eye (conjunctiva) become swollen or inflamed due to a reaction to pollen, dander, mold, or other\u00a0allergy-causing substances.",
+        "COD_prompt": "Chain of dictionary: Allergic conjunctivitis means Conjuntivitis al\u00e9rgica means Autre conjonctivite allergique chronique means sonstige chronische allergische Konjunktivitis means Outra conjuntivite al\u00e9rgica cr\u00f4nica. conjunctiva means conjuntiva means Fi\u00e8vre pharyngoconjonctivale \u00e0 ad\u00e9novirus means Pharyngokonjunktivalfieber means Febre faringoconjuntival. swollen means hinchado means Tum\u00e9faction articulaire means Gelenkschwellung means Tumefac\u00e7\u00e3o articular. inflamed means inflamaci\u00f3n means Hyperh\u00e9mie oculaire means Okulaere Hyperaemie means Hiperemia ocular. reaction means reacci\u00f3n means R\u00e9action antig\u00e8ne-anticorps means Antigen-Antik\u00f6rper-Reaktionen means Rea\u00e7\u00f5es Ant\u00edgeno-Anticorpo. pollen means el polen means Rhinite allergique saisonni\u00e8re means Heufieber means Rinite Al\u00e9rgica Sazonal. dander means Peluquer\u00eda means Phan\u00e8res means Hautschuppen means Dander. mold means moldeado means Poumon du fermier means Farmerlunge means Pulm\u00e3o do fazendeiro."
+    },
+    {
+        "sentence": "Advance care directives allow patients to provide instructions about their preferences regarding the care they would like to receive if they develop an illness or a life-threatening injury and are unable to express their preferences.",
+        "COD_prompt": "Chain of dictionary: patients means pacientes con means Sujet immunod\u00e9prim\u00e9 means Immundefizienter Organempf\u00e4nger means Hospedeiro Imunocomprometido. instructions means instrucciones means FAO (Formation Assist\u00e9e par Ordinateur) means Computergest\u00fctztes Lernen means Instru\u00e7\u00e3o por Computador. preferences means preferencias means Pr\u00e9f\u00e9rence de la consommatrice means Verbraucherpr\u00e4ferenzen means Prefer\u00eancia dos Consumidores. illness means enfermedad means Maladies virales means Viruskrankheiten means Viroses."
+    },
+    {
+        "sentence": "People with this condition generally have a large left ventricle (the pumping chamber of the heart that supplies the body with blood), and a small right ventricle (the pumping chamber that supplies the lungs with blood).",
+        "COD_prompt": "Chain of dictionary: condition means condici\u00f3n means Conditionnement op\u00e9rant means Konditionierung, operante means Condicionamento Operante. heart means el coraz\u00f3n means Cardiopathies means Herzkrankheiten means Cardiopatias. blood means sangre means Antig\u00e8nes de groupe sanguin means Blutgruppenantigene means Ant\u00edgenos de Grupos Sangu\u00edneos. lungs means pulmones y means Poumon means Lunge means Pulm\u00e3o."
+    },
+    {
+        "sentence": "In January 2001, the FDA's Center for Food Safety and Applied Nutrition proposed that developers of bioengineered food submit scientific and safety information to the FDA at least 120 days before the food is marketed.",
+        "COD_prompt": null
+    },
+    {
+        "sentence": "Your health care provider will tell you if it's necessary to stop taking any drugs that may interfere with this test.Make sure that your doctor is aware of all drugs you are taking, both prescription and nonprescription.",
+        "COD_prompt": "Chain of dictionary: health care provider means proveedor de atenci\u00f3n m\u00e9dica means Personnel sanitaire means Personal im Gesundheitswesen means Pessoal de Sa\u00fade. drugs means drogas means Antin\u00e9oplasiques means Antitumormittel means Antineopl\u00e1sicos. doctor means m\u00e9dico means Assistants de m\u00e9decin means \u00c4rztliche Assistenten means Assistentes M\u00e9dicos. nonprescription means sin receta m\u00e9dica means M\u00e9dicaments en acc\u00e8s libre means Arzneimittel, nicht verschreibungspflichtige means Medicamentos sem Prescri\u00e7\u00e3o."
+    },
+    {
+        "sentence": "Other foods such as broccoli, cooked greens, and canned salmon (with bones) will also provide a source of calcium in the diet; however, it is often difficult to get children to consume adequate quantities of these foods.",
+        "COD_prompt": "Chain of dictionary: broccoli means frutos de la hierba means Brocolis means Brokkoli means Br\u00f3colis. calcium means el calcio means Radioisotopes du calcium means Calciumradioisotope means Radiois\u00f3topos de C\u00e1lcio. diet means dieta y means Paraoxon means Paraoxon means Paraox\u00f4nio. children means ni\u00f1os means Aide aux familles avec enfants \u00e0 charge means Hilfe f\u00fcr Familien mit minderj\u00e4hrigen Kindern means Ajuda a Fam\u00edlias com Filhos Dependentes. consume means Consumir means D\u00e9fense des droits du consommateur means Verbraucherschutzrecht means Defesa do Consumidor."
+    },
+    {
+        "sentence": "Transposition of the great vessels is a heart defect that occurs from birth (congenital).\u00a0The two major vessels that carry blood away from the heart -- the aorta and the pulmonary artery -- are switched (transposed).",
+        "COD_prompt": "Chain of dictionary: Transposition of the great vessels means Transposici\u00f3n de las grandes embarcaciones means Transposition des gros vaisseaux means Transposition der gro\u00dfen Gef\u00e4\u00dfe means Transposi\u00e7\u00e3o dos Grandes Vasos. heart defect means defecto card\u00edaco means Cardiopathies cong\u00e9nitales means Herzfehler, kongenitale means Cardiopatias Cong\u00eanitas. congenital means cong\u00e9nito means Hypothyro\u00efdie cong\u00e9nitale means Kongenitale Hypothyreose means Hipotireoidismo Cong\u00eanito. pulmonary artery means arterias pulmonares means Art\u00e8re pulmonaire means Arteria pulmonalis means Art\u00e9ria Pulmonar. blood means sangre means Antig\u00e8nes de groupe sanguin means Blutgruppenantigene means Ant\u00edgenos de Grupos Sangu\u00edneos."
+    },
+    {
+        "sentence": "Your health care provider will examine you for signs of food poisoning, such as pain in the stomach and signs your body does not have as much water and fluids as it should.This is called dehydration.",
+        "COD_prompt": "Chain of dictionary: health care provider means proveedor de atenci\u00f3n m\u00e9dica means Personnel sanitaire means Personal im Gesundheitswesen means Pessoal de Sa\u00fade. examine means examinar means Coroners et m\u00e9decins l\u00e9gistes means Leichenbeschauer und \u00c4rztliche Untersucher means M\u00e9dicos Legistas. food poisoning means intoxicaci\u00f3n alimentaria means Intoxication alimentaire bact\u00e9rienne means Bakterielle Lebensmittelvergiftung means Intoxica\u00e7\u00e3o alimentar bacteriana. pain means dolor en el pecho means Trouble li\u00e9 \u00e0 la douleur associ\u00e9 \u00e0 des facteurs psychologiques means Psychogener Schmerz, Stelle nicht spezifiziert means Psicalgia. stomach means el est\u00f3mago means Maladies de l'estomac means Magenkrankheiten means Gastropatias. dehydration means deshidrataci\u00f3n means D\u00e9shydratation means Dehydratation means Desidrata\u00e7\u00e3o. fluids means fluidos means Liquide amniotique means Amnionfl\u00fcssigkeit means L\u00edquido Amni\u00f3tico."
+    },
+    {
+        "sentence": "An implantable cardioverter defibrillator (ICD) is a device that can be implanted in the chest wall of people who are at risk for this serious rhythm disorder.\u00a0The ICD can help prevent sudden cardiac death by quickly sending an electrical shock when ventricular fibrillation occurs.",
+        "COD_prompt": "Chain of dictionary: implantable cardioverter defibrillator means Desfibrilador cardioverter implantable means D\u00e9fibrillateurs automatiques implantables means Defibrillatoren, implantierbare means Desfibriladores Implant\u00e1veis. device means dispositivo means Appareils means Ger\u00e4te means Dispositivo. chest wall means pared del pecho means Douleur thoracique pari\u00e9tale means Brustwandschmerz means Dor na parede tor\u00e1cica. risk means riesgo means \u00c9valuation de risque pour la sant\u00e9 means Gesundheitsrisiken-Bewertung means Estimativa de Risco para a Sa\u00fade. rhythm disorder means trastorno del ritmo card\u00edaco means FREQUENCE ET RYTHME CARDIAQUES means HERZRHYTHMUSSTOERUNGEN means DISTURBIOS DA FREQUENCIA E DO RITMO CARDIACO. sudden cardiac death means muerte s\u00fabita por ataque card\u00edaco means Mort subite cardiaque means Tod, pl\u00f6tzlicher Herz- means Morte S\u00fabita Card\u00edaca. ventricular fibrillation means Fibrillaci\u00f3n ventricular means Fibrillation ventriculaire means Kammerflimmern means Fibrila\u00e7\u00e3o Ventricular."
+    },
+    {
+        "sentence": "Greater respect for the complexities of female sexual functioning has led them to conclude that suboptimal female genitalia may not be inherently better than suboptimal male genitalia, even if the reconstruction is \"easier.\"In addition, other factors may be more important in gender satisfaction than functioning external genitals.",
+        "COD_prompt": "Chain of dictionary: reconstruction means reconstrucci\u00f3n means Chirurgie mammaire reconstructrice means Mammaplastik means Mamoplastia."
+    },
+    {
+        "sentence": "Regular use -- the user misses more and more school or work; worries about losing drug source; uses drugs to \"fix\" negative feelings; begins to stay away from friends and family; may change friends to those who are regular users; shows increased tolerance and ability to \"handle\" the drug.",
+        "COD_prompt": "Chain of dictionary: uses drugs means utiliza drogas means Consommateurs de drogues means Drogensuechtiger means Abuso de f\u00e1rmacos. increased tolerance means aumento de la tolerancia means TOLERANCE ACCRUE means TOLERANZ GESTEIGERT means Toler\u00e2ncia aumentada."
+    },
+    {
+        "sentence": "Increased intracranial pressure can be due to a rise in cerebrospinal fluid pressure.It can also be due to increased pressure within the brain matter caused by a mass (such as a tumor), bleeding into the brain or fluid around the brain, or swelling within the brain matter itself.",
+        "COD_prompt": "Chain of dictionary: increased intracranial pressure means aumento de la presi\u00f3n intracraneal means Oed\u00e8me papillaire associ\u00e9 \u00e0 une augmentation de la pression intra-oculaire means Papillenoedem assoziiert mit erhoehtem intrakraniellem Druck means Papiledema associado a aumento da press\u00e3o intracraniana. cerebrospinal fluid pressure means presi\u00f3n del l\u00edquido cefalorraqu\u00eddeo means Pression du liquide c\u00e9phalorachidien means Liquordruck means Press\u00e3o do L\u00edquido Cefalorraquidiano. mass means Cuerpo de trabajo means Masse means Raumforderungen means Massa. tumor means el tumor means Pseudotumeur means Pseudotumor means Pseudotumor. bleeding means el sangrado means M\u00e9trorragie means Metrorrhagie means Metrorragia."
+    },
+    {
+        "sentence": "Some substances that are found to be harmful to people or animals may still be allowed, but only at the level of 1/100th of the amount that is considered harmful.People with any allergies or food intolerances should always check the ingredient list (label) for their own protection.",
+        "COD_prompt": "Chain of dictionary: allergies means alergias means Maladie environnementale means Umweltbedingte Krankheit means Doen\u00e7a Ambiental. label means etiqueta means Marqueurs d'affinit\u00e9 means Affine Markierer means Marcadores de Afinidade."
+    },
+    {
+        "sentence": "Not having milk in\u00a0your diet can lead to a shortage of calcium, vitamin D, riboflavin, and protein.You may need to find new ways to get calcium into your diet (depending on your age and gender, you need 1,000 - 1,500 mg of calcium each day):",
+        "COD_prompt": "Chain of dictionary: milk means leche y means Nodules du trayeur means Paravaccinia means Paravac\u00ednia. diet means dieta y means Paraoxon means Paraoxon means Paraox\u00f4nio. calcium means el calcio means Radioisotopes du calcium means Calciumradioisotope means Radiois\u00f3topos de C\u00e1lcio. vitamin D means Vitamina D y sus derivados means Rachitisme means Rachitis means Raquitismo. riboflavin means Riboflavina y sus derivados means Carence en riboflavine means Riboflavinmangel means Defici\u00eancia de Riboflavina. protein means Prote\u00edna means D\u00e9ficience en lipoprot\u00e9ine lipase means HYPERLIPOPROTEIN\u00c4MIE TYP 01 means Defici\u00eancia de lipoprote\u00edna lipase. age means edad means Trouble de l'expression orale means Expressive Sprachentwicklungsstoerung means Transtorno de linguagem expressiva. gender means g\u00e9nero means Troubles de l'identit\u00e9 sexuelle de l'enfance means Stoerungen der Geschlechtsidentitaet im Kindesalter means Transtorno de identidade de g\u00eanero da inf\u00e2ncia. mg means En mg means Mg-AMP-PNP."
+    },
+    {
+        "sentence": "Because it is difficult to determine the amount of radiation exposure from nuclear accidents, the best signs of the severity of the exposure are: the length of time between the exposure and the onset of symptoms, the severity of symptoms, and severity of changes in white blood cells.",
+        "COD_prompt": "Chain of dictionary: radiation exposure means exposici\u00f3n a la radiaci\u00f3n means Exposition aux rayonnements means Strahlenbelastung means Exposi\u00e7\u00e3o a radia\u00e7\u00e3o. nuclear accidents means accidentes nucleares means Accidents nucl\u00e9aires means Unf\u00e4lle, nukleare means Acidentes Nucleares."
+    },
+    {
+        "sentence": "Note: It is often technically easier to treat (and therefore raise) the child as female (it is easier for a surgeon to make female genitalia than it is to make male genitalia), so in some cases this is recommended even if the child is genetically male.",
+        "COD_prompt": "Chain of dictionary: treat means tratamiento means Non-observance du traitement means Nichtbefolgung der Behandlung means N\u00e3o cumprimento de tratamento. female means mujer means Trouble de l'excitation sexuelle chez la femme means Stoerung der sexuellen Erregung bei der Frau means Afec\u00e7\u00e3o da activa\u00e7\u00e3o sexual da mulher. surgeon means cirujano means Neurochirurgiennes means Neurochirurgen means Neurocirurgi\u00f5es. female genitalia means genitales femeninos means Appareil g\u00e9nital de la femme means Genitalien, weibliche means Genit\u00e1lia Feminina. male genitalia means \u00f3rganos genitales masculinos means Appareil g\u00e9nital de la femme means Genitalien, weibliche means Genit\u00e1lia Feminina."
+    },
+    {
+        "sentence": "Deficiency happens more often in women than in men, and is more common in pregnant women and older children.\u00a0Getting enough iodine in the diet may prevent a form of physical and mental retardation called cretinism.Cretinism is very rare in the U.S. because iodine deficiency is generally not a problem.",
+        "COD_prompt": "Chain of dictionary: deficiency means Deficiencia means Carence en thiamine means Thiaminmangel means Defici\u00eancia de Tiamina. iodine means yodo means Isotopes radioactifs de l'iode means Iodradioisotope means Radiois\u00f3topos do Iodo. pregnant women means mujeres embarazadas means Femmes enceintes means Schwangere Frauen means Gestantes. diet means dieta y means Paraoxon means Paraoxon means Paraox\u00f4nio. physical retardation means retraso f\u00edsico means Arr\u00eat du d\u00e9veloppement apr\u00e8s une malnutrition prot\u00e9ique-calorique means Entwicklungsverzoegerung durch Energie- und Eiweissmangelernaehrung means Parada de desenvolvimento ap\u00f3s m\u00e1 nutri\u00e7\u00e3o proteico-cal\u00f3rica. mental retardation means retraso mental means Faible d'esprit means Leichte intellektuelle Behinderung means Mente inapta. cretinism means el cretinismo means Hypothyro\u00efdie cong\u00e9nitale means Kongenitale Hypothyreose means Hipotireoidismo Cong\u00eanito. iodine deficiency means deficiencia de yodo means Cr\u00e9tinisme end\u00e9mique means Endemischer Kretinismus."
+    },
+    {
+        "sentence": "People who have a sudden herniated disk caused by injury (such as a car accident or lifting a very heavy object) will get nonsteroidal anti-inflammatory medications (NSAIDs) and narcotic painkillers if they have severe pain in the back and leg.If you have back spasms, you will usually receive muscle relaxants.",
+        "COD_prompt": "Chain of dictionary: herniated disk means hernia de disco means Protrusion du disque intervert\u00e9bral means Bandscheibenverlagerung means Deslocamento do Disco Intervertebral. injury means lesiones means Alt\u00e9ration de l'ADN means DNA-Besch\u00e4digung means Les\u00f5es no DNA. back means el trasero means Ataxie enzootique means Ataxie, enzootische (Veterin\u00e4rmedizin) means Ataxia Enzo\u00f3tica. leg means pie y pierna means Maladie des l\u00e9gionnaires means Legion\u00e4rskrankheit means Doen\u00e7a dos Legion\u00e1rios. muscle relaxants means relajantes musculares means Myorelaxants centraux means Muskelrelaxanzien, zentralwirkende means Relaxantes Musculares Centrais."
+    },
+    {
+        "sentence": "Threre is a wide range for what is considered \"normal.\" Just because your child is in the 15th percentile for weight (meaning 85 out of 100 children weigh more), this number rarely means your child is sick, you're not feeding your child enough, or your breast milk is not enough for your baby.",
+        "COD_prompt": "Chain of dictionary: weight means peso means Nourrisson \u00e0 petit poids de naissance means Neugeborenes, geringes Geburtsgewicht means Rec\u00e9m-Nascido de Baixo Peso. sick means enfermo means Trypanosomiase africaine means Trypanosomiasis, afrikanische means Tripanossom\u00edase africana. feeding means alimentaci\u00f3n means Gavage means Ern\u00e4hrung, Sonden- means Gavagem. breast milk means leche materna means Alcool affectant le foetus ou le nouveau-n\u00e9 par le placenta ou le lait maternel means Alkohol mit Auswirkung auf den Feten oder Neugeborenen ueber Plazenta oder Brustmilch means \u00c1lcool afetando o feto ou rec\u00e9m-nascido via placenta ou leite materno. baby means el beb\u00e9 means Nouveau-n\u00e9 petit pour l'\u00e2ge gestationnel means Neugeborenes, Small-for-date- means Rec\u00e9m-Nascido Pequeno para a Idade Gestacional."
+    },
+    {
+        "sentence": "Congenital heart surgery; Patent ductus arteriosus ligation; Hypoplastic left heart repair; Tetralogy of Fallot repair; Coarctation of the aorta repair; Atrial septal defect repair; Ventricular septal defect repair; Truncus arteriosus repair; Total anomalous pulmonary artery correction; Transposition of great vessels repair; Tricuspid atresia repair; VSD repair; ASD repair; PDA ligation",
+        "COD_prompt": "Chain of dictionary: Tetralogy of Fallot repair means Tetralog\u00eda de la reparaci\u00f3n de Fallot means Chirurgie r\u00e9paratrice de la t\u00e9tralogie de Fallot means Operation einer Fallot-Tetralogie means Reparo da tetralogia de Fallot."
+    },
+    {
+        "sentence": "This test is done during a hospital stay.\u00a0 It tells the difference between someone who is making urine because of drinking a lot of liquid and someone who is not.\u00a0 If you have central diabetes insipidus, you will still make a lot of urine even when fluids are not given. ",
+        "COD_prompt": "Chain of dictionary: hospital stay means estancia en el hospital means Dur\u00e9e de s\u00e9jour dans un \u00e9tablissement de sant\u00e9 means Krankenhausaufenthaltsdauer means Tempo de Interna\u00e7\u00e3o. urine means el orina means Tioguanine means Thioguanin means Tioguanina. drinking means el beber means Consommation d'alcool means Alkoholgenu\u00df means Consumo de Bebidas Alco\u00f3licas. liquid means l\u00edquido means Huile de vaseline means Mineral\u00f6l means \u00d3leo Mineral. central diabetes insipidus means Diabetes insipida central y diabetes de las mujeres means Diab\u00e8te insipide central means Diabetes insipidus, neurogener means Diabetes Ins\u00edpido Neurog\u00eanico. fluids means fluidos means Liquide amniotique means Amnionfl\u00fcssigkeit means L\u00edquido Amni\u00f3tico."
+    },
+    {
+        "sentence": "Also, many refined foods, such as white flour, sugar, and white rice, lack B vitamins and other important nutrients unless they are marked \"enriched.\" It is healthiest to get carbohydrates, vitamins, and other nutrients in as natural a form as possible -- for example, from fruit instead of table sugar.",
+        "COD_prompt": "Chain of dictionary: sugar means az\u00facar means Sucres means Zucker means A\u00e7\u00facar. nutrients means nutrientes y means Micronutriments means Essentielle Spurenelemente means Micronutrientes. carbohydrates means carbohidratos means Glucides means Kohlenhydrate means Carboidratos. vitamins means Vitamina y sus derivados means Vitamines means Vitamine means Vitaminas. fruit means frutas means Fruit means Fr\u00fcchte means Frutas. table sugar means Az\u00facar de mesa means Sucre de table means Nahrungs-Saccharose means Sacarose da Dieta."
+    },
+    {
+        "sentence": "In the past, the prevailing opinion was that it was generally best to assign a gender as quickly as possible, often based on the external genitals rather than the chromosomal gender, and to instruct the parents to have no ambiguity in their minds as to the gender of the child.",
+        "COD_prompt": "Chain of dictionary: gender means g\u00e9nero means Troubles de l'identit\u00e9 sexuelle de l'enfance means Stoerungen der Geschlechtsidentitaet im Kindesalter means Transtorno de identidade de g\u00eanero da inf\u00e2ncia. parents means los padres means Enfant de parents handicap\u00e9s means Kind behinderter Eltern means Filho de Pais com Defici\u00eancia."
+    },
+    {
+        "sentence": "Daily preoccupation -- the user loses any motivation; does not care about school and work; has obvious behavior changes; thinking about drug use is more important than all other interests, including relationships; the user becomes secretive; may begin dealing drugs to help support habit; use of other, harder drugs may increase; legal problems may increase.",
+        "COD_prompt": "Chain of dictionary: drug use means consumo de drogas means Trouble de l'utilisation du m\u00e9dicament means Drogenmissbrauchsstoerung means Transtorno por uso de droga ou medicamento. relationships means relaciones means Relations dentiste-patient means Zahnarzt-Patient-Beziehungen means Rela\u00e7\u00f5es Dentista-Paciente."
+    },
+    {
+        "sentence": "You have sudden, sharp chest pain with shortness of breath, especially after a long trip, a stretch of bedrest (for example, following an operation), or other lack of movement, especially if one leg is swollen or more swollen than the other (this could be a blood clot, part of which has moved to the lungs).",
+        "COD_prompt": "Chain of dictionary: chest pain means dolor en el pecho means Douleur pleurale means Pleuraschmerz means Dor pleur\u00edtica. shortness of breath means dificultad para respirar means Dyspn\u00e9e means Dyspnoe means Dispneia. bedrest means reposo de cama means Alitement means Bettruhe means Repouso em Cama. operation means operaci\u00f3n means Audit gestion means Management\u00fcberpr\u00fcfung means Auditoria Administrativa. swollen leg means Pierna hinchada means Gonflement des jambes means Schwellung der Beine means Incha\u00e7o das pernas. lungs means pulmones y means Poumon means Lunge means Pulm\u00e3o."
+    },
+    {
+        "sentence": "The mother may fake symptoms of illness in her child by adding blood to the child's urine or stool, withholding food, falsifying fevers, secretly giving the child drugs to make the child throw up or have diarrhea, or using other tricks, such as infecting intravenous (given through a vein) lines to make the child appear or become ill.",
+        "COD_prompt": "Chain of dictionary: illness means enfermedad means Maladies virales means Viruskrankheiten means Viroses. blood means sangre means Antig\u00e8nes de groupe sanguin means Blutgruppenantigene means Ant\u00edgenos de Grupos Sangu\u00edneos. urine means el orina means Tioguanine means Thioguanin means Tioguanina. stool means heces means M\u00e9l\u00e9na means Melaena means Melena. drugs means drogas means Antin\u00e9oplasiques means Antitumormittel means Antineopl\u00e1sicos. throw up means - No , no . means Vomissement means Erbrechen means V\u00f4mito. diarrhea means diarrea means Diarrh\u00e9e du nourrisson means Diarrhoe, S\u00e4uglings- means Diarreia infantil. intravenous means por v\u00eda intravenosa means Anesth\u00e9sie par voie intraveineuse means An\u00e4sthesie, intraven\u00f6se means Anestesia Intravenosa. ill means enfermo means Gastroent\u00e9rite \u00e0 Bacillus cereus means Bacillus cereus Gastroenteritis means Gastroenterite por Bacillus cereus."
+    },
+    {
+        "sentence": "Because there is little or no flow out of the left heart, blood returning to the heart from the lungs needs to pass through the foramen ovale or an atrial septal defect (a hole connecting the collecting chambers on the left and right sides of the heart) back to the right side of the heart.",
+        "COD_prompt": "Chain of dictionary: left heart means coraz\u00f3n izquierdo means Insuffisances ventriculaires gauches means Linksherzinsuffizienz means Insufici\u00eancias do ventr\u00edculo esquerdo. blood means sangre means Antig\u00e8nes de groupe sanguin means Blutgruppenantigene means Ant\u00edgenos de Grupos Sangu\u00edneos. lungs means pulmones y means Poumon means Lunge means Pulm\u00e3o. foramen ovale means el foramen oval means Persistance du foramen ovale means Foramen ovale apertum means Forame oval patente. atrial septal defect means Defecto del tabique auricular means Communications interauriculaires means Vorhofseptumdefekt means Comunica\u00e7\u00f5es Interatriais. hole means agujero means 25-Hydroxyvitamine D3 1-alpha-hydroxylase means 25-Hydroxyvitamin-D3-1-alpha-Hydroxylase means 25-Hidroxivitamina D3 1-alfa-Hidroxilase."
+    },
+    {
+        "sentence": "You can take the tooth to the dentist by following one of these tips:Try to place the tooth back in the mouth where it fell out, so it is level with other teeth.\u00a0Bite down gently on gauze or a wet tea bag to help keep it in place.\u00a0Be careful\u00a0not to swallow the tooth.",
+        "COD_prompt": "Chain of dictionary: tooth means diente means Dent enclav\u00e9e means Zahn, impaktierter means Dente Impactado. dentist means dentista means Dentistes femmes means Zahn\u00e4rztinnen means Odont\u00f3logas. mouth means boca y boca means X\u00e9rostomie means Xerostomie means Xerostomia. teeth means dientes means Pouss\u00e9e dentaire means Zahnen means Erup\u00e7\u00e3o dos dentes."
+    },
+    {
+        "sentence": "Another myth of adolescence is the idea that \"it will never happen to me, only the other person.\" \"It\" may represent becoming pregnant or catching a sexually-transmitted disease after having unprotected sex, causing a car crash while driving under the influence of alcohol or drugs, or any of the many other negative effects of risk-taking behaviors.",
+        "COD_prompt": "Chain of dictionary: pregnant means embarazada means Schwangerschaftsfeststellung als Nebenbefund. unprotected sex means sexo sin protecci\u00f3n means Rapports sexuels \u00e0 hauts risques means Hochrisiko-Sex means Sexo sem Prote\u00e7\u00e3o. alcohol means el alcohol means Intoxication alcoolique means Alkoholvergiftung means Intoxica\u00e7\u00e3o Alco\u00f3lica. drugs means drogas means Antin\u00e9oplasiques means Antitumormittel means Antineopl\u00e1sicos."
+    },
+    {
+        "sentence": "It is important to have the teeth cleaned thoroughly.This may involve use of various tools to loosen and remove plaque and tartar from the teeth.\u00a0Proper flossing and brushing is always needed, even after professional tooth cleaning, to reduce your risk of gum disease.\u00a0Your dentist or hygienist will show you how to brush and floss properly.",
+        "COD_prompt": "Chain of dictionary: teeth means dientes means Pouss\u00e9e dentaire means Zahnen means Erup\u00e7\u00e3o dos dentes. tools means herramientas means Outils logiciels means Software-Tools means Ferramentas de Software. plaque means placas de las means Plaques d'ath\u00e9rome means Atheromat\u00f6se Plaques means Placas Ateromatosas. tartar means el t\u00e1rtaro means Tartrate d'antimoine et de potassium means Antimonkaliumtartrat means Tartarato de Antim\u00f4nio e Pot\u00e1ssio. brushing means cepillado means Brossage dentaire means Z\u00e4hneputzen means Escova\u00e7\u00e3o Dent\u00e1ria. gum disease means enfermedad de las enc\u00edas means Maladies de la gencive means Gingivakrankheiten means Doen\u00e7as da Gengiva. dentist means dentista means Dentistes femmes means Zahn\u00e4rztinnen means Odont\u00f3logas. hygienist means higienista means Hygi\u00e9niste dentaire means Zahnhygieniker means Higienistas Dent\u00e1rios."
+    },
+    {
+        "sentence": "How well you do depends on the amount of poison swallowed and how quickly treatment is received.",
+        "COD_prompt": "Chain of dictionary: poison means veneno means Intoxication alimentaire bact\u00e9rienne means Bakterielle Lebensmittelvergiftung means Intoxica\u00e7\u00e3o alimentar bacteriana. treatment means tratamiento means Non-observance du traitement means Nichtbefolgung der Behandlung means N\u00e3o cumprimento de tratamento. swallowed means tragada means D\u00e9glutition means Schlucken means Degluti\u00e7\u00e3o."
+    },
+    {
+        "sentence": "Rarely, children will have problems falling asleep or staying asleep.",
+        "COD_prompt": "Chain of dictionary: children means ni\u00f1os means Aide aux familles avec enfants \u00e0 charge means Hilfe f\u00fcr Familien mit minderj\u00e4hrigen Kindern means Ajuda a Fam\u00edlias com Filhos Dependentes. problems means problemas means Probl\u00e8me international de sant\u00e9 means Internationale Gesundheitsprobleme means Problemas Internacionais de Sa\u00fade. staying asleep means quedarse dormido means Insomnie de milieu de nuit means Durchschlafstoerung means Ins\u00f3nia interm\u00e9dia."
+    },
+    {
+        "sentence": "Reye syndrome can occur when aspirin is used to treat children with viral infections, such as chickenpox or the flu.",
+        "COD_prompt": "Chain of dictionary: Reye syndrome means S\u00edndrome de Reye means Syndrome de Reye means Reye-Syndrom means S\u00edndrome de Reye. children means ni\u00f1os means Aide aux familles avec enfants \u00e0 charge means Hilfe f\u00fcr Familien mit minderj\u00e4hrigen Kindern means Ajuda a Fam\u00edlias com Filhos Dependentes. chickenpox means varicela means Varicelle means Windpocken means Varicela. flu means gripe means Infection \u00e0 Haemophilus influenzae means Haemophilus influenza-Infektion means Infec\u00e7\u00e3o por Haemophilus influenza."
+    },
+    {
+        "sentence": "Bili lights is a type of light therapy (phototherapy)\u00a0that is used to treat newborn jaundice . Jaundice is a yellow coloring of the skin and eyes caused by too much of a substance called bilirubin.",
+        "COD_prompt": "Chain of dictionary: light therapy means terapia con luz means Traitement par lumi\u00e8re ultraviolette means Ultraviolett-Strahlen-Therapie means Terapia Ultravioleta. phototherapy means fototerapia means Phototh\u00e9rapie means Phototherapie means Fototerapia. newborn jaundice means ictericia en reci\u00e9n nacidos means Ict\u00e8re n\u00e9onatal means Ikterus, Neugeborenen- means Icter\u00edcia Neonatal. jaundice means el ictericia means Ict\u00e8re h\u00e9patocellulaire means Gelbsucht hepatozellulaer means Icter\u00edcia hepatocelular. yellow coloring means colorante amarillo means Xanthochromie means Xanthochromie means Xantocromia. skin means piel y means Dermatoses v\u00e9siculobulleuses means Hautkrankheiten, vesikulobull\u00f6se means Dermatopatias Vesiculobolhosas. eyes means ojos means Syndrome de Reye means Reye-Syndrom means S\u00edndrome de Reye. bilirubin means de la bilirrubina means Bilirubine sanguine augment\u00e9e means Bilirubin im Blut erhoeht means Bilirrubinemia aumentada."
+    },
+    {
+        "sentence": "Surgery combined with radiation therapy is often used to treat women with stage 1 disease that has a high chance of returning, has spread to the lymph nodes, or is a grade 2 or 3.",
+        "COD_prompt": "Chain of dictionary: surgery means cirug\u00eda means Syndromes post-gastrectomie means Postgastrektomiesyndrome means S\u00edndromes P\u00f3s-Gastrectomia. radiation therapy means tratamiento con radiaci\u00f3n means Radioth\u00e9rapie assist\u00e9e par ordinateur means Strahlentherapie, computergest\u00fctzte means Radioterapia Assistida por Computador."
+    }
+]
