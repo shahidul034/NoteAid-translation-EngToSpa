@@ -26,7 +26,7 @@ OUTPUT_JSON_PATH = "translated_output.json"
 OLLAMA_BASE_URL = "http://localhost:11434"
 LLM_CONFIG = {
     # "model": "llama3.1:latest",  # Default Ollama model
-    "model": "qwen:7b",
+    "model": "phi4",
     "options": {
         "temperature": 0.3,
         "num_predict": 512,
@@ -337,36 +337,33 @@ if __name__ == "__main__":
         # with open(TRAINING_DATA_PATH, "r", encoding="utf-8") as f:
         #     train_data = json.load(f)
             
-        # with open(TEST_DATA_PATH, "r", encoding="utf-8") as f:
-        #     test_data = json.load(f)
+        with open(TEST_DATA_PATH, "r", encoding="utf-8") as f:
+            test_data = json.load(f)
 
         # print(f"Loaded {len(train_data)} training examples. Loaded {len(test_data)} testing examples.")
         
         # Create MedPrompt system using Ollama
-        # medprompt = MedPromptSystem(model_name="qwen:7b")
+        medprompt = MedPromptSystem(model_name="phi4")
         
         # Check which models are available in Ollama
         # available_models = medprompt.ollama.list_models()
         # print(f"Available Ollama models: {available_models}")
         
-        # To use a different model
-        # medprompt = MedPromptSystem(model_name="mistral")
-        
         # Run preprocessing if needed
         # medprompt.preprocess(train_data)
         
         # Process test set
-        # medprompt.process_test_set(test_data)
+        medprompt.process_test_set(test_data)
         
-        # Example usage for running model on a single text
-        # example_english = "The patient was diagnosed with hypertension and prescribed lisinopril 10mg daily."
-        # spanish_translation = medprompt.generate_translation(example_english)
-        # translated_json = json.loads(spanish_translation)
-        # translated_spanish = translated_json.get("response", "").strip()
-        # print(f"Translation: {translated_spanish}")
+        # # Example usage for running model on a single text
+        # # example_english = "The patient was diagnosed with hypertension and prescribed lisinopril 10mg daily."
+        # # spanish_translation = medprompt.generate_translation(example_english)
+        # # translated_json = json.loads(spanish_translation)
+        # # translated_spanish = translated_json.get("response", "").strip()
+        # # print(f"Translation: {translated_spanish}")
         
-        # Run evaluation if needed
-        evaluator = EvaluateMetric('medprompt/results/qwen7b/translated_output.json3', "translated_spanish", "target_spanish", "original_english")
+        # # Run evaluation if needed
+        evaluator = EvaluateMetric('translated_output.json', "translated_spanish", "target_spanish", "original_english")
         evaluator.evaluate("BLEU")
         evaluator.evaluate("ROUGE")
         evaluator.evaluate("BERTSCORE")
