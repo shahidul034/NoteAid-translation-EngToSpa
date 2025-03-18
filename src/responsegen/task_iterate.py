@@ -132,6 +132,7 @@ Conversation history:
             responses_to_scores=responses_to_scores
         )
         transfer_query = self.make_query(example_input, reduce_window=reduce_window)
+        print(f"Transfer Query: {transfer_query}")
         self.count += 1
         with open(f"responses_iterate_{self.count}.txt", "w") as f:
             f.write(transfer_query + "\n")

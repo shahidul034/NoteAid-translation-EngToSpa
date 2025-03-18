@@ -1,20 +1,26 @@
 import sys
 from typing import Dict, List
 from src.utils import Prompt
-
-from prompt_lib.backends import openai_api
-
-
+# from transformers import LlamaForCausalLM, LlamaTokenizer
+import torch
+from llama import Llama
 class ResponseGenTaskIterate(Prompt):
-    def __init__(self, engine: str, prompt_examples: str) -> None:
+    def __init__(self, engine,prompt_examples: str) -> None:
         super().__init__(
             question_prefix="",
             answer_prefix="",
             intra_example_sep="\n\n",
             inter_example_sep="\n\n###\n\n",
         )
+    #     self.engine = Llama.build(
+    #     ckpt_dir="/project/pi_hongyu_umass_edu/zonghai/hospital_translation/self-refine/llama3-demo/llama3/Meta-Llama-3-8B/",
+    #     tokenizer_path="/project/pi_hongyu_umass_edu/zonghai/hospital_translation/self-refine/llama3-demo/llama3/Meta-Llama-3-8B/tokenizer.model",
+    #     max_batch_size=1,
+    #     max_seq_len=200
+    # )
         self.engine = engine
         self.count = 0
+        # self.tokenizer = tokenizer
         self.prompt = self.make_prompt(prompt_examples=prompt_examples)
 
     def make_prompt(self, prompt_examples: str, reduce_window=0) -> str:
@@ -38,10 +44,10 @@ class ResponseGenTaskIterate(Prompt):
         """Given a list of examples that are incrementally improving, return a new example.
         """
         
-        instr = """We want to iteratively improve the provided translations. To help improve, scores for translation are provided: 1) Clinical usefulness, 2) Clinical Accuracy, 3) Overall Clarity, and 4) Coverage.
+        instr = """We want to iteratively improve the provided translations. To help improve, scores for each translation on desired traits are provided: 1) Clinical usefulness, 2) Clinical Accuracy, 3) Overall Clarity,and 4) Coverage.
 
 """
-        template = """Source clinical note:
+        template = """Source clinical note: 
 
 {Originalclinicalnote}
 
@@ -78,14 +84,14 @@ Okay, let's use this feedback to improve the response.
         
         prompt = "".join(prompt)
         # prompt = instr + prompt
+        # print(f"Prompt: {prompt}")
         return prompt.strip()
 
     def make_query(self, question: str, reduce_window=0) -> str:
-        if reduce_window>0:
+        print(f"question: {question}")
+        if reduce_window > 0:
             self.prompt = self.make_prompt(prompt_examples="/project/pi_hongyu_umass_edu/zonghai/hospital_translation/self-refine/data/tasks/ML/feedback.jsonl", reduce_window=reduce_window)
-        # question = question.replace('System: ', '').replace('User: ', '')
         return f"{self.prompt}{self.question_prefix}{question}{self.intra_example_sep}{self.answer_prefix}"
-        # return super().make_query(prompt, question)
 
     def _make_input(
         self,
@@ -93,7 +99,6 @@ Okay, let's use this feedback to improve the response.
         response: str,
         scores: str,
     ) -> str:
-        # context = context.replace('System: ', '').replace('User: ', '')
         input_txt = f"""Source clinical note: 
 
 {context}
@@ -116,6 +121,13 @@ Source clinical note:
 """
 
         return input_txt
+    def extract_translation(self, text):
+        matches = [m.start() for m in re.finditer(r'###', text)]
+        if len(matches) < 4:
+            return "Not enough sections found."
+        section = text[matches[2]:matches[3]]
+        translation_match = re.search(r'Translation:\s*(.*)', section, re.DOTALL)
+        return translation_match.group(1).strip() if translation_match else "Translation section not found."
 
     def __call__(
         self,
@@ -129,22 +141,30 @@ Source clinical note:
 
 """
         transfer_query = instr + self.make_query(example_input, reduce_window=reduce_window)
-        # print(f"Transfer Query: {transfer_query}")
         self.count += 1
         with open(f"responses_iterate_{self.count}.txt", "w") as f:
             f.write(transfer_query + "\n")
-        output = openai_api.OpenaiAPIWrapper.call(
-            prompt=transfer_query,
-            engine=self.engine,
-            max_tokens=200,
-            stop_token=self.inter_example_sep,
-            temperature=0.7,
+        print(f"Transfer query: {transfer_query}")
+        # inputs = self.tokenizer(transfer_query, return_tensors="pt",padding=False).to("cuda")
+        # outputs = self.engine.generate(**inputs, temperature=0.7, eos_token_id=self.tokenizer.convert_tokens_to_ids(self.inter_example_sep))
+        # input_token_count = inputs['input_ids'].size(1)
+        # output_token_count = outputs.size(1) 
+        # total_tokens = input_token_count + output_token_count
+        # modelresponse = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+        # print(f"Response: {modelresponse}")
+        modelresponse = self.engine.text_completion(
+        [transfer_query],
+        max_gen_len=2000,
+        temperature=0.6,
+        top_p=0.9,
         )
-        modelresponse = openai_api.OpenaiAPIWrapper.get_first_response(output)
+        total_tokens = 0
+        modelresponse = modelresponse[0]['generation']
         response = modelresponse.split("Translation:")[1].strip().split("\n")[0].strip()
-        # print(f"Model Response: {response}")
-        
-        return output, response.strip()
+        print(f"Iteration Response: {response}")
+        # print(outputs[0]["generation"])
+        return total_tokens, response.strip()
+
 
     def make_input(
         self,
@@ -152,7 +172,6 @@ Source clinical note:
     ) -> str:
         input_txt = ""
         for response, (context, scores) in responses_to_scores.items():
-            # context = context.replace('System: ', '').replace('User: ', '')
             input_txt += self._make_input(
                 context=context,
                 response=response,
@@ -161,10 +180,9 @@ Source clinical note:
         return input_txt
 
 
-
-
-    
-
-if __name__ == "__main__":
-    obj = ResponseGenTaskIterate(prompt_examples="data/prompt/acronym/feedback.v2.jsonl", engine="whatever")
-    print(obj.prompt)
+# if __name__ == "__main__":
+#     model_name = "meta-llama/Llama-2-7b"
+#     tokenizer = LlamaTokenizer.from_pretrained(model_name, use_auth_token=True)
+#     llama_model = LlamaForCausalLM.from_pretrained(model_name, use_auth_token=True, torch_dtype=torch.float16).cuda()
+#     obj = ResponseGenTaskIterate(engine=llama_model, tokenizer=tokenizer, prompt_examples="data/prompt/acronym/feedback.v2.jsonl")
+#     print(obj.prompt)

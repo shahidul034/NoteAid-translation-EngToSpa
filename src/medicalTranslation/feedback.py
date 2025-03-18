@@ -17,11 +17,13 @@ class ResponseGenFeedback(Prompt):
         self.setup_prompt_from_examples_file(prompt_examples)
 
     def setup_prompt_from_examples_file(self, examples_path: str) -> str:
-        template = """Original clinical note: 
-        
+        template = """Source clinical note: 
+
 {Originalclinicalnote}
 
-Translation: {translation}
+Translation: 
+
+{translation}
 
 Scores:
 
@@ -29,7 +31,6 @@ Scores:
 * Clinical Accuracy: {ClinicalAccuracy}
 * Overall Clarity: {OverallClarity}
 * Coverage: {Coverage}
-* Fluent: {Fluent}
 * Total score: {total_score}"""
         examples_df = pd.read_json(examples_path, orient="records")
         prompt = []
@@ -42,7 +43,7 @@ Scores:
                     ClinicalAccuracy=row["Clinical Accuracy"],
                     OverallClarity=row["Overall Clarity"],
                     Coverage=row["Coverage"],
-                    Fluent=row["Fluent"],
+                    # Fluent=row["Fluent"],
                     total_score=row["total_score"],
                 )
             )
@@ -52,14 +53,14 @@ Scores:
 Here are some examples of this scoring rubric:
 
 """
-        self.prompt = instruction + self.inter_example_sep.join(prompt)
-        self.prompt = self.inter_example_sep.join(prompt) + self.inter_example_sep
+        # self.prompt = instruction + self.inter_example_sep.join(prompt)
+        self.prompt = instruction + self.inter_example_sep.join(prompt) + self.inter_example_sep
         
         
     
     def __call__(self, context: str, response: str):
         prompt = self.get_prompt_with_question(context=context, response=response)
-
+        # print(f"FeedbackPrompt: {prompt}")
         output = openai_api.OpenaiAPIWrapper.call(
             prompt=prompt,
             engine=self.engine,
@@ -70,10 +71,10 @@ Here are some examples of this scoring rubric:
         
         
         generated_feedback = openai_api.OpenaiAPIWrapper.get_first_response(output)
-        # print(generated_feedback)
+        # print(f"Generated Feedback: {generated_feedback}")
         generated_feedback = generated_feedback.split("Scores:")[1].strip()
         generated_feedback = generated_feedback.split("#")[0].strip()
-
+        # print(f"Generated Feedback: {generated_feedback}")
         return output, generated_feedback
 
     def get_prompt_with_question(self, context: str, response: str):
@@ -83,9 +84,11 @@ Here are some examples of this scoring rubric:
         return f"""{self.prompt}{question}\n\n"""
 
     def make_query(self, context: str, response: str):
-        question = f"""Original clinical note: 
-        
+        question = f"""Source clinical note: 
+
 {context}
 
-Translation: {response}"""
+Translation: 
+
+{response}"""
         return question

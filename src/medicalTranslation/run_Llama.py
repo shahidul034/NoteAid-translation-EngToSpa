@@ -1,54 +1,70 @@
 import re
 import sys
+sys.path.append('/project/pi_hongyu_umass_edu/zonghai/hospital_translation/self-refine')
 import math
+from transformers import LlamaForCausalLM, PreTrainedTokenizerFast
 import os
-import tqdm
 from typing import Any, Dict, List
 import pandas as pd
 import json
 from tqdm import tqdm
 from pandarallel import pandarallel
-import multiprocessing
 import traceback
 import argparse
-
-pandarallel.initialize(progress_bar=True, nb_workers=25)
-
-
-from src.medicalTranslation.task_init import ResponseGenTaskInit
-from src.medicalTranslation.task_iterate import ResponseGenTaskIterate
-from src.medicalTranslation.feedback import ResponseGenFeedback
+import torch
+from typing import List
+import fire
+from llama import Llama
+# pandarallel.initialize(progress_bar=True, nb_workers=1)
+import torch.distributed as dist
+from src.medicalTranslation.task_init_LLAMA import ResponseGenTaskInit
+from src.medicalTranslation.task_iterate_LLAMA import ResponseGenTaskIterate
+from src.medicalTranslation.feedback_LLAMA import ResponseGenFeedback
 from src.utils import retry_parse_fail_prone_cmd
+from transformers import LlamaForCausalLM, PreTrainedTokenizerFast
+# from transformers import LlamaForCausalLM, LlamaTokenizer
 
-import openai
-import random
-import time
-
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
-# check if orgainization is set
-
-if os.getenv("OPENAI_ORG") is not None:
-    openai.organization = os.getenv("OPENAI_ORG")
-
-# CODEX = "gpt-4o-mini"
-GPT3 = "gpt-4o-mini"
-# ENGINE = CODEX#GPT3
-ENGINE = GPT3
-
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['TORCH_DISTRIBUTED_DEBUG'] = 'DETAIL'
+os.environ['RANK'] = '0'
+os.environ['WORLD_SIZE'] = '1'
+os.environ['CUDA_LAUNCH_BLOCKING']="1"
+os.environ['MASTER_ADDR'] = os.getenv('MASTER_ADDR', '127.0.0.1')
+os.environ['MASTER_PORT'] = '12345'
+os.environ['NCLL_DEBUG']="INFO"
+os.environ['TORCH_SHOW_CPP_STACKTRACES']="1"
+os.environ['TORCH_CPP_LOG_LEVEL']="INFO"
+os.environ["TIKTOKEN_CACHE_DIR"] = ""
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+dist.init_process_group(backend='gloo', init_method='env://')
+# Initialize LLAMA model
+# model_name = "/project/pi_hongyu_umass_edu/zonghai/hospital_translation/self-refine/LLAMA_7b"
+# tokenizer = LlamaTokenizer.from_pretrained(model_name, use_auth_token=True)
+# model = LlamaForCausalLM.from_pretrained(model_name, use_auth_token=True, torch_dtype=torch.bfloat16).cpu()
+engine = Llama.build(
+            ckpt_dir="/project/pi_hongyu_umass_edu/zonghai/hospital_translation/self-refine/llama3-demo/llama3/Meta_Llama3.2-3B",
+            tokenizer_path="/project/pi_hongyu_umass_edu/zonghai/hospital_translation/self-refine/llama3-demo/llama3/Meta_Llama3.2-1B/tokenizer.model",
+            max_batch_size=1,
+            max_seq_len=2000,
+            )
+# model_name = "./llama3-demo/llama3/Llama-3.2-1B"
+# model_name ="/project/pi_hongyu_umass_edu/zonghai/hospital_translation/self-refine/llama3-demo/llama3/Llama-3.2-1B"
+# engine = LlamaForCausalLM.from_pretrained(model_name).cuda()
+# tokenizer = PreTrainedTokenizerFast.from_pretrained(model_name)
 @retry_parse_fail_prone_cmd
 def iterative_response(source: str, max_attempts: int) -> str:
-    
+    # max_tokens = 800
     # initialize all the required components
     
     # generation of the first response
-    task_init = ResponseGenTaskInit(engine=ENGINE, prompt_examples="/project/pi_hongyu_umass_edu/zonghai/hospital_translation/self-refine/data/tasks/ML/translated_inital.jsonl")
+    task_init = ResponseGenTaskInit(engine = engine,prompt_examples="/project/pi_hongyu_umass_edu/zonghai/hospital_translation/self-refine/data/tasks/ML/translated_inital.jsonl")
     
     # getting feedback
-    task_feedback = ResponseGenFeedback(engine=ENGINE, prompt_examples="/project/pi_hongyu_umass_edu/zonghai/hospital_translation/self-refine/data/tasks/ML/feedback.jsonl")
+    task_feedback = ResponseGenFeedback(engine = engine,prompt_examples="/project/pi_hongyu_umass_edu/zonghai/hospital_translation/self-refine/data/tasks/ML/feedback.jsonl")
 
     # iteratively improving the response
-    task_iterate = ResponseGenTaskIterate(engine=ENGINE, prompt_examples="/project/pi_hongyu_umass_edu/zonghai/hospital_translation/self-refine/data/tasks/ML/feedback.jsonl")
+    task_iterate = ResponseGenTaskIterate(engine = engine,prompt_examples="/project/pi_hongyu_umass_edu/zonghai/hospital_translation/self-refine/data/tasks/ML/feedback.jsonl")
     
     
     # Initialize the task
@@ -65,45 +81,44 @@ def iterative_response(source: str, max_attempts: int) -> str:
         if n_attempts == 0:
             metaoutput, translation = task_init(source=source)
         else:
+            # print(f"responses_to_scores: {responses_to_scores}")
             metaoutput, translation = task_iterate(responses_to_scores=responses_to_scores, reduce_window=reduce_window)
-            # exit(0)
-            #context = new_context
 
-        # print(f"\n{n_attempts} Original Note> {source} \n\n Translation> {translation} - NTOKENS> {metaoutput['usage']['total_tokens']}")
-        
-        if metaoutput['usage']['total_tokens'] >3000:
+        output_string = f"\n{n_attempts} Original Note> {source} \n\n Translation> {translation} - NTOKENS> {metaoutput}"
+        with open("./output_llama_5.txt", "a") as file:
+                file.write(output_string)
+        # print(f"\n{n_attempts} Original Note> {source} \n\n Translation> {translation}")
+        if metaoutput >3000:
             reduce_window +=1
-            if metaoutput['usage']['total_tokens'] >3500:
+            if metaoutput >3500:
                 reduce_window +=1
 
         feedbackmetaoutput, scores = task_feedback(context=source, response=translation)
-        output_string = f"\n{n_attempts} SCORES> {scores} - NTOKENS> {feedbackmetaoutput['usage']['total_tokens']}"
-        # print(output_string)
-        # print(f"scores:{scores}")
-        with open("output_gpt_5.txt", "a") as file:
-                file.write(str(feedbackmetaoutput['usage']['total_tokens'])+'\n')
-        # scores = scores.split("Total score:")[0] + "Total score:" + scores.split("Total score:")[1].split('*')[0]
-        # print(f"scores:{scores}")
+        output_string = f"\n{n_attempts} SCORES> {scores} - NTOKENS> {feedbackmetaoutput}"
+        with open("output_llama_5.txt", "a") as file:
+                file.write(str(feedbackmetaoutput)+'\n')
         score_match = re.search(r"Total score: (\d+)/(\d+)", scores)
         if not score_match:
             continue
         total_score = re.search(r"Total score: (\d+)/(\d+)", scores).group(0)
         
         total_score = int(total_score.split(":")[1].strip().split("/")[0])
-        # print(f"Total score: {total_score}")
+        
         all_responses_to_scores[translation] = {
             "n_attempts": n_attempts,
             "scores": scores,
             "total_score": total_score,
             "source": source,
         }
-        # rtokens, ftokens = metaoutput['usage']['total_tokens'], feedbackmetaoutput['usage']['total_tokens']
+        
         if total_score > best_score_so_far:  # only iterate over things that are improving
             best_score_so_far = total_score
+            
             responses_to_scores[translation] = (source, scores)
+            
         else:
             print(f"Score of {translation} is {total_score}, which is less than the current best of {best_score_so_far}")
-            
+
         n_attempts += 1
     return all_responses_to_scores
 
@@ -111,24 +126,18 @@ def iterative_response(source: str, max_attempts: int) -> str:
 
 def run_dataset(max_attempts: int, outfile: str, max_size: int = 1):
 
-    f = open('/project/pi_hongyu_umass_edu/zonghai/hospital_translation/self-refine/data/tasks/ML/fed_data_test.json')
+    f = open('/project/pi_hongyu_umass_edu/zonghai/hospital_translation/self-refine/data/tasks/ML/fed_data.json')
     data = json.load(f)
     print('len of data', len(data))
     count=0
     outwriter = open(outfile, 'a')
-
+    total_token = 0
     for i, example in enumerate(data[:]):
         if max_size!=0 and count>max_size: break
         print(f"\n\n\n****Instance: {i}****\n\n")
         if 'translation' not in example: continue
         try:
             source = example["Original clinical note"]
-            # print(source)
-            # if type(example["Original clinical note"]) is str:
-            #     source = example["Original clinical note"].split("\n")
-            # if type(example["Original clinical note"]) is list:
-            #     source = "\n".join(source[-8:])
-            # print(source)
             all_responses_to_scores = iterative_response(source, max_attempts=max_attempts)
             if all_responses_to_scores is None:
                 return {"result": ["FAILED"]}
@@ -138,10 +147,8 @@ def run_dataset(max_attempts: int, outfile: str, max_size: int = 1):
             for response, scores in all_responses_to_scores.items():
                 res.append(f"{response} [score: {scores['total_score']}] \n {scores['scores']}")
                 scored_responses[scores['n_attempts']]={'translation':response, 'total_score':scores['total_score']}
-            # append res to example
             example['generated_translations'] = "\n------\n".join(res)
             example['scored_translations'] = scored_responses
-            # print("Writing to output file:", example)
             outwriter.write(json.dumps(example)+'\n')
             print("\n ------ \n ".join(res))
         except Exception as e:
@@ -149,6 +156,7 @@ def run_dataset(max_attempts: int, outfile: str, max_size: int = 1):
             traceback.print_exc()
             return {"result": ["FAILED"]}
         count+=1
+    
     outwriter.close()
 
 
@@ -157,20 +165,19 @@ if __name__ == "__main__":
     parser.add_argument(
         "--max_attempts",
         type=int,
-        default=5,
+        default=3,
         help="Max attempts",
     )
     parser.add_argument(
         "--size",
         type=int,
-        default=0,
+        default=3,
         help="Test data size (0 means all data)",
     )
     parser.add_argument(
         "--output",
         type=str,
         default='./trans_temp.json',
-        # required=True,
         help="Output file",
     )
 
