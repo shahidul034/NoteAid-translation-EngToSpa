@@ -6,8 +6,7 @@ from dspy import Example
 from dspy.teleprompt import MIPROv2
 from tqdm import tqdm
 import logging
-from datetime import datetime
-import os
+import json
 from utils.setup import init_openai_model
 from modules.TranslationModule import TranslationModule
 from src.TranslationEvaluator import TranslationEvaluator
@@ -17,7 +16,7 @@ class TranslationSystem:
     """Enhanced translation system with comprehensive evaluation and optimization logging"""
     
     def __init__(self, model_config: Dict = None):
-        self.model_config = model_config or {'auto': 'light'}
+        self.model_config = model_config or {'auto': 'heavy'}
         self.evaluator = TranslationEvaluator()
         self.compiled_model = None
         
@@ -42,7 +41,11 @@ class TranslationSystem:
                 prompt_model=openai_model,
                 task_model=openai_model,
                 metric=self._quality_check_wrapper,
+                num_candidates=10,
+                # max_bootstrapped_demos=0, # ZERO FEW-SHOT EXAMPLES
+                # max_labeled_demos=0,
                 track_stats=True, 
+                init_temperature=0.8,
                 **self.model_config
             )
                         
@@ -51,6 +54,7 @@ class TranslationSystem:
                 TranslationModule(),
                 trainset=translation_examples,
                 minibatch=True,
+                num_trials=15,
             )
                     
             # Save if path provided
@@ -67,7 +71,7 @@ class TranslationSystem:
             try:
                 # Save the model
                 self.compiled_model.save(path, save_program=True)
-                self.compiled_model.save('/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/apo/test.json', save_program=False)
+                self.compiled_model.save(f'{path}.json', save_program=False)
                 
             except Exception as e:
                 logging.error(f"Error saving model and logs: {str(e)}")
@@ -75,53 +79,88 @@ class TranslationSystem:
         else:
             raise ValueError("No compiled model to save")
             
-    def evaluate_test_set(self, test_data: List[Dict]) -> Dict:
-        """
-        Evaluate model performance on a test set
+    # def evaluate_test_set(self, test_data: List[Dict]) -> Dict:
+    #     """
+    #     Evaluate model performance on a test set
         
+    #     Args:
+    #         test_data: List of translation pairs
+            
+    #     Returns:
+    #         Dictionary containing evaluation metrics
+    #     """
+    #     if not self.compiled_model:
+    #         raise ValueError("Model not compiled. Call compile_model first.")
+            
+    #     all_metrics = []
+        
+    #     for item in tqdm(test_data, desc="Evaluating"):
+    #         try:
+    #             translation = self.translate_with_metrics(
+    #                 item['english'],
+    #                 target=item['spanish']
+    #             )
+    #             metrics = self.evaluator.calculate_metrics(
+    #                 item['spanish'],
+    #                 translation
+    #             )
+    #             all_metrics.append(metrics)
+    #         except Exception as e:
+    #             logging.warning(f"Error evaluating example: {str(e)}")
+    #             continue
+                
+    #     # Calculate average metrics
+    #     avg_metrics = TranslationMetrics(
+    #         bleu_score=np.mean([m.bleu_score for m in all_metrics]),
+    #         rouge_1=np.mean([m.rouge_1 for m in all_metrics]),
+    #         rouge_2=np.mean([m.rouge_2 for m in all_metrics]),
+    #         rouge_l=np.mean([m.rouge_l for m in all_metrics]),
+    #         bert_score_P=np.mean([m.bert_score_P for m in all_metrics]),
+    #         bert_score_R=np.mean([m.bert_score_R for m in all_metrics]),
+    #         bert_score_F=np.mean([m.bert_score_F for m in all_metrics])
+    #     )
+        
+    #     return {
+    #         'average_metrics': avg_metrics,
+    #         'num_examples': len(all_metrics),
+    #         'timestamp': datetime.now().isoformat()
+    #     }
+
+    def evaluate_test_set(self, test_data: List[Dict], output_file: str = "translations.json") -> str:
+        """
+        Process test set and return a JSON with original, target, and translated texts.
+
         Args:
             test_data: List of translation pairs
-            
+
         Returns:
-            Dictionary containing evaluation metrics
+            JSON string containing the original English, target Spanish, and translated Spanish texts.
         """
         if not self.compiled_model:
             raise ValueError("Model not compiled. Call compile_model first.")
             
-        all_metrics = []
-        
-        for item in tqdm(test_data, desc="Evaluating"):
+        results = []
+
+        for item in tqdm(test_data, desc="Processing"):
             try:
-                translation = self.translate_with_metrics(
-                    item['english'],
-                    target=item['spanish']
-                )
-                metrics = self.evaluator.calculate_metrics(
-                    item['spanish'],
-                    translation
-                )
-                all_metrics.append(metrics)
+                translation = self.translate_with_metrics(item['english'], return_metrics=False)
+                results.append({
+                    'original_english': item['english'],
+                    'target_spanish': item['spanish'],
+                    'translated_spanish': translation
+                })
             except Exception as e:
-                logging.warning(f"Error evaluating example: {str(e)}")
+                logging.warning(f"Error processing example: {str(e)}")
                 continue
-                
-        # Calculate average metrics
-        avg_metrics = TranslationMetrics(
-            bleu_score=np.mean([m.bleu_score for m in all_metrics]),
-            rouge_1=np.mean([m.rouge_1 for m in all_metrics]),
-            rouge_2=np.mean([m.rouge_2 for m in all_metrics]),
-            rouge_l=np.mean([m.rouge_l for m in all_metrics]),
-            bert_score_P=np.mean([m.bert_score_P for m in all_metrics]),
-            bert_score_R=np.mean([m.bert_score_R for m in all_metrics]),
-            bert_score_F=np.mean([m.bert_score_F for m in all_metrics])
-        )
-        
-        return {
-            'average_metrics': avg_metrics,
-            'num_examples': len(all_metrics),
-            'timestamp': datetime.now().isoformat()
-        }
-    
+
+         # Save translations to a file
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(results, f, indent=4, ensure_ascii=False)
+
+        print(f"Translations saved to {output_file}")
+
+        return output_file
+
     def load_model(self, path: str) -> None:
         """Load a compiled model from file"""
         try:
@@ -181,10 +220,10 @@ class TranslationSystem:
         
         # Define weights for selected metrics
         weights = {
-            "bleu": 0.5,  
-            "rouge_1": 0.2,  
-            "rouge_2": 0.2,  
-            "rouge_l": 0.1,
+            "bleu": 1.0,  
+            "rouge_1": 0,  
+            "rouge_2": 0,  
+            "rouge_l": 0,
             "bert_score_P": 0.0,  
             "bert_score_R": 0.0,  
             "bert_score_F": 0.0   

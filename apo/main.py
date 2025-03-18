@@ -1,15 +1,16 @@
 import logging
 import json
-import random
 from sklearn.model_selection import train_test_split
+from eval import EvaluateMetric, TranslationEvaluator
 from utils.setup import init_openai_model
 
 class TranslationPipeline:
     """Handles Training, Testing, and Evaluation of Translation Models"""
 
-    def __init__(self, model_path, dataset_path):
+    def __init__(self, model_path, train_dataset_path, test_dataset_path):
         self.model_path = model_path
-        self.dataset_path = dataset_path
+        self.train_dataset_path = train_dataset_path
+        self.test_dataset_path = test_dataset_path
         self.translator = None
 
     def initialize(self, mode):
@@ -32,13 +33,14 @@ class TranslationPipeline:
             logging.error(f"Error initializing model: {str(e)}")
             raise
 
-    def load_data(self, split=True):
+    def load_data(self, mode='train', split=True):
         """Load dataset and optionally split into train/test sets"""
         try:
-            with open(self.dataset_path, 'r', encoding='utf-8') as file:
+            dataset_path = self.train_dataset_path if mode == 'train' else self.test_dataset_path
+            with open(dataset_path, 'r', encoding='utf-8') as file:
                 data = json.load(file)
 
-            if split:
+            if split and mode == 'train':
                 train_set, test_set = train_test_split(data, test_size=0.2, random_state=42)
                 logging.info(f"Loaded dataset with {len(train_set)} training and {len(test_set)} test samples.")
                 return train_set, test_set
@@ -53,7 +55,7 @@ class TranslationPipeline:
         """Train the translation model on the training set"""
         try:
             self.translator.compile_model(
-                dataset_path=self.dataset_path,
+                dataset_path=self.train_dataset_path,
                 model_save_path=self.model_path
             )
             logging.info("Model training completed successfully.")
@@ -93,32 +95,41 @@ if __name__ == "__main__":
         # /Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/all_tran_data/testing data/Sampled_100_MedlinePlus_eng_spanish_pair.json
         # Define paths
         MODEL_PATH = "/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/apo/models/heavy_run2"
-        DATASET_PATH = "/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/all_tran_data/testing data/Sampled_100_MedlinePlus_eng_spanish_pair.json"
+        TRAIN_DATASET_PATH = "/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/all_tran_data/Sampled_1000_MedlinePlus_eng_spanish_pair.json"
+        TEST_DATASET_PATH = "/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/all_tran_data/testing data/Sampled_100_MedlinePlus_eng_spanish_pair.json"
 
         # Initialize pipeline
-        pipeline = TranslationPipeline(MODEL_PATH, DATASET_PATH)
+        pipeline = TranslationPipeline(MODEL_PATH, TRAIN_DATASET_PATH, TEST_DATASET_PATH)
 
-        mode = 'eval'  # Change to 'train' for training mode
-
-        pipeline.initialize(mode=mode)
+        mode = 'eval'  
+        pipeline.initialize(mode='test')
 
         if mode == 'train':
             # Load and split dataset
-            train_data, test_data = pipeline.load_data(split=True)
+            train_data, _ = pipeline.load_data(mode='train', split=False)
 
             # Train the model
             pipeline.train_model(train_data)
 
-            # Evaluate the model
-            evaluation_results = pipeline.evaluate_model(test_data)
-            print("Final Evaluation:", evaluation_results)
-        else:
+        if mode == 'eval':
             # Load dataset without splitting
-            test_data, _ = pipeline.load_data(split=False)
+            # test_data, _ = pipeline.load_data(mode='test', split=False)
 
-            # Evaluate the model
-            evaluation_results = pipeline.evaluate_model(test_data)
-            print("Final Evaluation:", evaluation_results)
+            # # Evaluate the model
+            # model_output = pipeline.evaluate_model(test_data)
+            # evaluator = TranslationEvaluator()
+            # Run evaluation
+            evaluator = EvaluateMetric('translations.json', "translated_spanish", "target_spanish", "original_english")
+
+            # Compute BLEU, ROUGE, BERTScore, and COMET
+            # evaluator.evaluate("BLEU")
+            # evaluator.evaluate("ROUGE")
+            # evaluator.evaluate("BERTSCORE")
+            # evaluator.evaluate("COMET")
+            evaluator.evaluate("LLM_AS_A_JUDGE")
+
+            # Print results
+            print(evaluator.res)
 
     except Exception as e:
         logging.error(f"Application error: {str(e)}")
