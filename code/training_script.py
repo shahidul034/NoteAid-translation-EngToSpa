@@ -1,9 +1,9 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "5"
 import json
-model_name = "unsloth/Llama-3.2-3B-Instruct"
-## json load
-with open("/home/mshahidul/project1/all_tran_data/filtered_alignment_result.json") as f:
+model_name = "unsloth/llama-3-8b-Instruct"
+
+with open("/home/mshahidul/project1/all_tran_data/dataset/medline_data_for_finetune.json") as f:
     data = json.load(f)
 from datasets import Dataset
 dataset = Dataset.from_list(data)
@@ -18,9 +18,7 @@ model, tokenizer = FastLanguageModel.from_pretrained(
     dtype = dtype,
     load_in_4bit = False,
 )
-# device = torch.device("cuda:5" if torch.cuda.is_available() else "cpu")
-# print(f"Using device: {device}")
-# model.to(device)
+
 model = FastLanguageModel.get_peft_model(
     model,
     r = 16, # Choose any number > 0 ! Suggested 8, 16, 32, 64, 128
@@ -96,7 +94,7 @@ trainer_stats = trainer.train()
 # tokenizer.save_pretrained("/home/mshahidul/project1/model/unsloth/DeepSeek-R1-Distill-Qwen-14B")
 
 from utils import compute_bleu_chrf
-path = "/home/mshahidul/project1/all_tran_data/Sampled_100_MedlinePlus_eng_spanish_pair.json"
+path = "/home/mshahidul/project1/all_tran_data/dataset/Sampled_100_MedlinePlus_eng_spanish_pair.json"
 with open(path) as f:
     data = json.load(f)
 
@@ -114,11 +112,18 @@ from unsloth import FastLanguageModel
 FastLanguageModel.for_inference(model) # Enable native 2x faster inference
 ans_cal=[]
 # alpaca_prompt = Copied from above
+results_file_path = "/home/mshahidul/project1/results_new/Medline/medlineplus_gpt4_mini_COD_back_translation.json"
+with open(results_file_path, 'r', encoding='utf-8') as json_file:
+    results_data = json.load(json_file)
+sentence_to_prompt = {item['Original_English_sentence']: item['COD_prompt'] for item in results_data}
+def find_cod_prompt(english_sentence):
+    return sentence_to_prompt.get(english_sentence, "Prompt not found")
+
 def inference(ques):
     inputs = tokenizer(
     [
         alpaca_prompt.format(
-            "Translate the input into English to Spanish:", # instruction
+            f"{find_cod_prompt(ques)}\nTranslate the input into English to Spanish using above context:", # instruction
             ques, # input
             "", # output - leave this blank for generation!
         )
@@ -159,7 +164,7 @@ for x in ans_cal:
     avg_chrf+=x['chrf_score']
 avg/=len(ans_cal)
 avg_chrf/=len(ans_cal)
-print(f"{model_name} --> bleu score: {avg}")
-import json
-with open(f"/home/mshahidul/project1/results/finetuned_{tt}.json", 'w') as f:
-    json.dump(ans_cal, f)   
+print(f"{model_name} with finetune (COD): {avg}")
+# import json
+# with open(f"/home/mshahidul/project1/results/finetuned_{tt}.json", 'w') as f:
+#     json.dump(ans_cal, f)   

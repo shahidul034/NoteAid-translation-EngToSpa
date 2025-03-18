@@ -2,20 +2,20 @@ from utils import back_translate
 from utils import compute_bleu_chrf
 import json
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "5"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "5"
 file_path = "/home/mshahidul/project1/all_tran_data/dataset/Sampled_100_MedlinePlus_eng_spanish_pair.json"
 with open(file_path, 'r', encoding='utf-8') as json_file:
     original_file = json.load(json_file)
 
-info_file_path = "/home/mshahidul/project1/all_tran_data/dataset/medlineplus_info.json"
-with open(info_file_path, 'r', encoding='utf-8') as json_file:
-    info_data = json.load(json_file)
+# info_file_path = "/home/mshahidul/project1/all_tran_data/dataset/medlineplus_info.json"
+# with open(info_file_path, 'r', encoding='utf-8') as json_file:
+#     info_data = json.load(json_file)
     # Create a dictionary to map Original_English_sentence to synonyms
-sentence_to_synonyms = {item['Original_English_sentence']: item['synonyms'] for item in info_data}
+# sentence_to_synonyms = {item['Original_English_sentence']: item['synonyms'] for item in info_data}
 
     # Function to find synonyms based on English sentence
-def find_synonyms(english_sentence):
-    return sentence_to_synonyms.get(english_sentence, "Synonyms not found")
+# def find_synonyms(english_sentence):
+#     return sentence_to_synonyms.get(english_sentence, "Synonyms not found")
 
 results_file_path = "/home/mshahidul/project1/results_new/Medline/medlineplus_gpt4_mini_COD_back_translation.json"
 with open(results_file_path, 'r', encoding='utf-8') as json_file:
@@ -39,19 +39,18 @@ alpaca_prompt = """Below is an instruction that describes a task, paired with an
                     ### Response:
                     {}"""
 max_seq_length=2048
-model_name = "unsloth/llama-3-8b-Instruct"
+model_name = "unsloth/Qwen2.5-14B-Instruct"
 model_name2=model_name.split("/")[1]
 from unsloth import FastLanguageModel
-model2, tokenizer = FastLanguageModel.from_pretrained(
+model, tokenizer = FastLanguageModel.from_pretrained(
         model_name = model_name, # YOUR MODEL YOU USED FOR TRAINING
         max_seq_length = max_seq_length,
         dtype = None,
         load_in_4bit = False,
     )
-FastLanguageModel.for_inference(model2) # Enable native 2x faster inference
+FastLanguageModel.for_inference(model) # Enable native 2x faster inference
 
 total_score=[]
-FastLanguageModel.for_inference(model2) # Enable native 2x faster inference
 
 def inference_without_prompt(ques):
     inputs = tokenizer(
@@ -63,7 +62,7 @@ def inference_without_prompt(ques):
         )
     ], return_tensors = "pt").to("cuda")
 
-    outputs = model2.generate(**inputs, max_new_tokens = 64, use_cache = True)
+    outputs = model.generate(**inputs, max_new_tokens = 64, use_cache = True)
     ans=tokenizer.batch_decode(outputs)
     start_marker = '### Response:\n'
     end_marker = '<|end_of_text|>'
@@ -78,7 +77,14 @@ def inference_without_prompt(ques):
         ans=response
     return ans  
 
-
+COD_plus={
+    "prompt1.1":"Expand this chain of dictionary translations by adding missing languages where appropriate: ",
+    "prompt1.2": "Identify any missing translations in this language chain and complete them: ",
+    "prompt2.1":"For each word in this chain of dictionary translations, add appropriate synonyms in parentheses: ",
+    "prompt2.2": "Enhance this dictionary chain by inserting synonyms for each term in the respective language: ",
+    "prompt3.1":"Expand this dictionary chain by adding one-hop related concepts from a knowledge graph. Include medical, biological, or psychological terms where relevant: ",
+    "prompt3.2": "Enhance this chain of dictionary translations by inserting related concepts (such as medical conditions, biological processes, or symptoms) at each step: "
+}
 def inference_with_prompt(ques):
     # {find_synonyms(ques)}\n
     inputs = tokenizer(
@@ -90,7 +96,7 @@ def inference_with_prompt(ques):
         )
     ], return_tensors = "pt").to("cuda")
 
-    outputs = model2.generate(**inputs, max_new_tokens = 64, use_cache = True)
+    outputs = model.generate(**inputs, max_new_tokens = 64, use_cache = True)
     ans=tokenizer.batch_decode(outputs)
     start_marker = '### Response:\n'
     end_marker = '<|end_of_text|>'
@@ -131,31 +137,23 @@ for line in tqdm.tqdm(original_file):
         print(e)
 
 # output_file_path = f"/home/mshahidul/project1/results_new/medline_{model_name2}_direct_and_COD_translation.json"
-output_file_path = f"/home/mshahidul/project1/results_new/medline_{model_name2}_syn_translation(spa_ref).json"
-with open(output_file_path, 'w', encoding='utf-8') as json_file: 
-    json.dump(total_score, json_file, ensure_ascii=False, indent=4)
+# output_file_path = f"/home/mshahidul/project1/results_new/medline_{model_name2}_syn_translation(spa_ref).json"
+# with open(output_file_path, 'w', encoding='utf-8') as json_file: 
+#     json.dump(total_score, json_file, ensure_ascii=False, indent=4)
 
 # Initialize variables to store the sum of scores
 total_bleu_cod_prompt = 0
 
-total_bleu_direct = 0
 
 
 # Iterate through the total_score list to sum up the scores
-for score in total_score:
-    total_bleu_cod_prompt += score["scores_cod_prompt(bleu and chrf)"]['bleu_score']
+avg_bleu_cod_prompt=(sum([score["scores_cod_prompt(bleu and chrf)"]['bleu_score'] for score in total_score])/len(total_score))
     
-    # total_bleu_direct += score["scores_direct(bleu and chrf)"]['bleu_score']
-
-
-# Calculate the average scores
-num_entries = len(total_score)
-avg_bleu_cod_prompt = total_bleu_cod_prompt / num_entries
 
 # avg_bleu_direct = total_bleu_direct / num_entries
 
 print(model_name)
 # Print the average scores
-print(f"{model_name2} (COD prompt): {avg_bleu_cod_prompt}")
+print(f"{model_name2}: {avg_bleu_cod_prompt}")
 
 # print(f"{model_name2} (Direct): {avg_bleu_direct}")

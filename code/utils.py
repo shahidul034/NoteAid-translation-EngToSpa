@@ -1,5 +1,6 @@
-from openai import OpenAI 
-client = OpenAI(api_key="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")
+from openai import OpenAI
+api_key="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" 
+client = OpenAI(api_key=api_key)
 import json
 
 def translate_using_prompt(prompt,sentence):
@@ -7,7 +8,7 @@ def translate_using_prompt(prompt,sentence):
             model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": f"{prompt}"},
-                    {"role": "user", "content": f"Translate the following text from English into Spanish: {sentence}"}],
+                    {"role": "user", "content": f"Translate the following text from English into Spanish using above context: {sentence}"}],
             temperature=0.5
         )
     ans=(response.choices[0].message.content)
@@ -22,25 +23,9 @@ def back_translate(spa_tran):
         )
     return (response.choices[0].message.content)
 
-import sacrebleu
-import evaluate
 
-metric = evaluate.load("sacrebleu")
-def compute_bleu_chrf(reference, hypothesis):
-    """
-    Computes the BLEU and chrF++ scores for a given reference and hypothesis.
-    
-    :param reference: List of reference translations (list of strings)
-    :param hypothesis: The hypothesis translation (a single string)
-    :return: A dictionary containing BLEU and chrF++ scores
-    """
-    # Ensure reference is wrapped in a list as sacrebleu expects a list of references
-    # bleu_score = sacrebleu.corpus_bleu(hypothesis, [reference]).score
-    # bleu_score = sacrebleu.corpus_bleu(hypothesis, [reference], tokenize="13a", lowercase=True).score
-    bleu_score=metric.compute(predictions=[hypothesis], references=[reference])
-    chrf_score = sacrebleu.corpus_chrf(hypothesis, [reference]).score
 
-    return {"bleu_score": bleu_score['score'],"chrF++": chrf_score}
+
 
 import mysql.connector
 
@@ -53,41 +38,41 @@ db_config = {
     'database': 'umls2024'
 }
 
-# def get_synonyms(keyword):
-#     try:
-#         # Connect to the database
-#         conn = mysql.connector.connect(**db_config)
-#         cursor = conn.cursor()
+def get_synonyms1(keyword):
+    try:
+        # Connect to the database
+        conn = mysql.connector.connect(**db_config)
+        cursor = conn.cursor()
 
-#         # Step 1: Find CUI for the given keyword
-#         cursor.execute("SELECT CUI FROM MRCONSO WHERE STR LIKE %s LIMIT 1", (f"%{keyword}%",))
-#         cuis = cursor.fetchall()
+        # Step 1: Find CUI for the given keyword
+        cursor.execute("SELECT CUI FROM MRCONSO WHERE STR LIKE %s LIMIT 1", (f"%{keyword}%",))
+        cuis = cursor.fetchall()
 
-#         if not cuis:
-#             print("No CUI found for the keyword.")
-#             return []
+        if not cuis:
+            print("No CUI found for the keyword.")
+            return []
 
-#         synonyms = set()
+        synonyms = set()
 
-#         # Step 2: Retrieve synonyms for each CUI
-#         for cui in cuis:
-#             query_synonyms = """
-#             SELECT DISTINCT str FROM MRCONSO 
-#             WHERE cui = %s AND lat = 'ENG'
-#             """
-#             cursor.execute(query_synonyms, (cui[0],))
-#             synonyms.update([row[0] for row in cursor.fetchall()])
+        # Step 2: Retrieve synonyms for each CUI
+        for cui in cuis:
+            query_synonyms = """
+            SELECT DISTINCT str FROM MRCONSO 
+            WHERE cui = %s AND lat = 'ENG'
+            """
+            cursor.execute(query_synonyms, (cui[0],))
+            synonyms.update([row[0] for row in cursor.fetchall()])
 
-#         cursor.close()
-#         conn.close()
+        cursor.close()
+        conn.close()
 
-#         return list(synonyms)
+        return list(synonyms)
 
-#     except mysql.connector.Error as err:
-#         print(f"Error: {err}")
-#         return []
+    except mysql.connector.Error as err:
+        print(f"Error: {err}")
+        return []
 
-def get_synonyms(keyword):
+def get_synonyms2(keyword):
     try:
         connection = mysql.connector.connect(**db_config)
         cursor = connection.cursor()
@@ -153,3 +138,30 @@ def get_keywords(sentence):
     df = pd.read_excel("/home/mshahidul/project1/testing_dataset_modified.xlsx")
     result = df.loc[df['sentence'] == sentence, 'keywords']
     return result.iloc[0] if not result.empty else None
+
+import json
+import os
+from datetime import datetime
+
+def save_to_json(file_path, text):
+    data = {"text": text, "timestamp": datetime.now().isoformat()}
+    
+    # Check if the file exists
+    if os.path.exists(file_path):
+        try:
+            with open(file_path, "r", encoding="utf-8") as file:
+                existing_data = json.load(file)
+                if not isinstance(existing_data, list):
+                    existing_data = [existing_data]
+        except (json.JSONDecodeError, UnicodeDecodeError):
+            print(f"Warning: {file_path} contains invalid data. Overwriting the file.")
+            existing_data = []
+    else:
+        existing_data = []
+
+    # Append new entry
+    existing_data.append(data)
+    
+    # Save back to the file
+    with open(file_path, "w", encoding="utf-8") as file:
+        json.dump(existing_data, file, indent=4)

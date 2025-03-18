@@ -12,7 +12,7 @@ from utils import save_to_json
 
 def run_model_pipeline(model_name):
     print("*"*15,model_name)
-    # os.environ["CUDA_VISIBLE_DEVICES"] = "4"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "2"
     model_name2 = model_name.split("/")[1]
 
     ## Testing data
@@ -56,9 +56,7 @@ def run_model_pipeline(model_name):
             load_in_4bit = False,
         ) 
 
-    #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-    inference_without_finetune(model_name)
-    #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 
     ## Training data
     with open("/home/mshahidul/project1/all_tran_data/dataset/medline_data_for_finetune.json") as f:
@@ -179,36 +177,7 @@ def run_model_pipeline(model_name):
     avg_bleu_score = sum([x['bleu_score']['bleu_score'] for x in total_score]) / len(total_score)
     txt=f"{model_name2} with finetune(Medline) --> Average BLEU Score: {avg_bleu_score:.4f}"
     print(txt)
-    path_temp = f'/home/mshahidul/project1/results_new/{model_name2}.json'
-    save_to_json(path_temp,txt)
-    with open(f"/home/mshahidul/project1/results_new/Medline/{model_name2}_finetuned_medline.json", 'w', encoding='utf-8') as json_file:
-        json.dump(total_score, json_file, ensure_ascii=False, indent=4)
-
-    total_score=[]
-    file_path = '/home/mshahidul/project1/all_tran_data/dataset/EHR_data.xlsx'
-    df = pd.read_excel(file_path)
-    for eng, sp in tqdm.tqdm(zip(df['english'], df['spain'])):
-            try:
-                hypothesis_text = inference(eng, tokenizer, model)
-                reference_text = sp
-                score = compute_bleu_chrf(reference_text, hypothesis_text)
-                total_score.append({
-                    "original_english": eng,
-                    "original_spanish": sp,
-                    "translated_spanish": hypothesis_text,
-                    "bleu_score": score
-                })
-            except Exception as e:
-                print(e)
-                continue
-
-    avg_bleu_score = sum([x['bleu_score']['bleu_score'] for x in total_score]) / len(total_score)
-
-    txt=f"{model_name2} with finetune (EHR data) --> Average BLEU Score: {avg_bleu_score:.4f}"
-    path_temp = f'/home/mshahidul/project1/results_new/{model_name2}.json'
-
-    save_to_json(path_temp,txt)
-    with open(f"/home/mshahidul/project1/results_new/EHR/{model_name2}_finetuned_EHR_data.json", 'w', encoding='utf-8') as json_file:
-            json.dump(total_score, json_file, ensure_ascii=False, indent=4)
+    
+   
 
 run_model_pipeline("unsloth/Qwen2.5-14B-Instruct")

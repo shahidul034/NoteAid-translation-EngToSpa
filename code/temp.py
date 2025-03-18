@@ -1,5 +1,4 @@
 import json
-import os
 import tqdm
 from utils import compute_bleu_chrf
 import re
@@ -8,12 +7,28 @@ import unsloth
 from unsloth import FastLanguageModel
 import torch
 import pandas as pd
-
-
-
-# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-model_name = "unsloth/Qwen2.5-14B-Instruct"
+import os
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"  
+# os.environ["CUDA_VISIBLE_DEVICES"]="1,2"
+# os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+# os.environ["GRADIO_SHARE"]="2"
+# os.environ["WORLD_SIZE"] = "2"
+model_name = "unsloth/llama-3-8b-Instruct"
 model_name2=model_name.split("/")[1]
+# import torch
+
+# if torch.cuda.is_available():
+#     print(f"Available GPUs: {torch.cuda.device_count()}")
+#     for i in range(torch.cuda.device_count()):
+#         print(f"GPU {i}: {torch.cuda.get_device_name(i)}")
+    
+#     print(f"Current GPU: {torch.cuda.current_device()}")
+#     print(f"Using GPU: {torch.cuda.get_device_name(torch.cuda.current_device())}")
+# else:
+#     print("No GPU available!")
+
 
 ## Testing data
 file_path = "/home/mshahidul/project1/all_tran_data/dataset/Sampled_100_MedlinePlus_eng_spanish_pair.json"
@@ -42,16 +57,16 @@ def inference(text,tokenizer,model):
     # messages = [
             # {"role": "user", "content": f"Translate the input into English to Spanish: \n\nEnglish: {text}\n\nSpanish:"},]
     inputs = tokenizer.apply_chat_template(
+        
             messages,
             tokenize = True,
             add_generation_prompt = True, # Must add for generation
             return_tensors = "pt",).to("cuda")
-
-    outputs = model.generate(input_ids = inputs, max_new_tokens = 64, use_cache = True,
+    # attention_mask = inputs.attention_mask if hasattr(inputs, 'attention_mask') else None 
+    outputs = model.generate(input_ids = inputs, max_new_tokens = 64, use_cache = True, 
                             temperature = 1.0, min_p = 1.0)
     temp= tokenizer.batch_decode(outputs)[0]
     return extract_translation(temp)
-
 
 
 max_seq_length = 2048 # Choose any! We auto support RoPE Scaling internally!
@@ -61,71 +76,14 @@ model, tokenizer = FastLanguageModel.from_pretrained(
         model_name = model_name,
         max_seq_length = max_seq_length,
         dtype = dtype,
-        load_in_4bit = False,
+        load_in_4bit = True,
     ) 
 
-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-# def testing_without_finetune(tokenizer,model,original_file):
-#     from unsloth.chat_templates import get_chat_template
-#     tokenizer = get_chat_template(
-#         tokenizer,
-#         chat_template = "qwen-2.5",
-#     )
-#     FastLanguageModel.for_inference(model) # Enable native 2x faster inference
-    
-#     total_score_without_finetune=[]
-#     for line in tqdm.tqdm(original_file):
-#         try:
-#             hypothesis_text = inference(line['english'],tokenizer,model)
-#             reference_text = line['spanish']
-#             score=compute_bleu_chrf(reference_text, hypothesis_text)  
-#             total_score_without_finetune.append({
-#                 "original_english": line['english'],
-#                 "original_spanish": line['spanish'],
-#                 "translated_spanish": hypothesis_text,
-#                 "bleu_score": score
-#             })
-#         except Exception as e:
-#             print(e)
-#             continue
+# import subprocess
+# print(subprocess.run(["nvidia-smi"], capture_output=True, text=True).stdout)
 
-#     avg_bleu_score = sum([x['bleu_score']['bleu_score'] for x in total_score_without_finetune]) / len(total_score_without_finetune)
+# tokenizer.pad_token = tokenizer.eos_token
 
-#     print(f"{model_name2} without finetune --> Average BLEU Score: {avg_bleu_score:.4f}")
-
-#     with open(f"/home/mshahidul/project1/results_new/without_finetune/{model_name2}_without_finetuned.json", 'w', encoding='utf-8') as json_file:
-#         json.dump(total_score_without_finetune, json_file, ensure_ascii=False, indent=4)
-
-#     file_path = '/home/mshahidul/project1/all_tran_data/dataset/EHR_data.xlsx'
-#     df = pd.read_excel(file_path)
-#     for eng, sp in zip(df['english'], df['spain']):
-#         try:
-#             hypothesis_text = inference(eng, tokenizer, model)
-#             reference_text = sp
-#             score = compute_bleu_chrf(reference_text, hypothesis_text)
-#             total_score_without_finetune.append({
-#                 "original_english": eng,
-#                 "original_spanish": sp,
-#                 "translated_spanish": hypothesis_text,
-#                 "bleu_score": score
-#             })
-#         except Exception as e:
-#             print(e)
-#             continue
-
-#     avg_bleu_score = sum([x['bleu_score']['bleu_score'] for x in total_score_without_finetune]) / len(total_score_without_finetune)
-
-#     print(f"{model_name2} without finetune (EHR data) --> Average BLEU Score: {avg_bleu_score:.4f}")
-
-#     with open(f"/home/mshahidul/project1/results_new/without_finetune/{model_name2}_without_finetuned_EHR_data.json", 'w', encoding='utf-8') as json_file:
-#         json.dump(total_score_without_finetune, json_file, ensure_ascii=False, indent=4)
-
-# testing_without_finetune(tokenizer,model,original_file)
-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-
-
-## Training data
 with open("/home/mshahidul/project1/all_tran_data/dataset/medline_data_for_finetune.json") as f:
     data = json.load(f)
 
@@ -161,7 +119,6 @@ model = FastLanguageModel.get_peft_model(
     use_rslora = False,  # We support rank stabilized LoRA
     loftq_config = None, # And LoftQ
 )
-
 
 def formatting_prompts_func(examples):
     convos = examples["conversations"]
@@ -210,8 +167,6 @@ trainer = train_on_responses_only(
     response_part = "<|im_start|>assistant\n",
 )
 trainer_stats = trainer.train()
-
-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 from unsloth.chat_templates import get_chat_template
 
 tokenizer = get_chat_template(
@@ -244,34 +199,5 @@ for line in tqdm.tqdm(original_file):
 
 
 avg_bleu_score = sum([x['bleu_score']['bleu_score'] for x in total_score]) / len(total_score)
-res=f"{model_name2} with finetune --> Average BLEU Score: {avg_bleu_score:.4f}"
+res=f"{model_name2} with finetune (COD): {avg_bleu_score:.4f}"
 print(res)
-
-# with open(f"/home/mshahidul/project1/results_new/with_finetune/{model_name2}_finetuned.json", 'w', encoding='utf-8') as json_file:
-#     json.dump(total_score, json_file, ensure_ascii=False, indent=4)
-
-# file_path = '/home/mshahidul/project1/all_tran_data/dataset/EHR_data.xlsx'
-# df = pd.read_excel(file_path)
-# for eng, sp in zip(df['english'], df['spain']):
-#         try:
-#             hypothesis_text = inference(eng, tokenizer, model)
-#             reference_text = sp
-#             score = compute_bleu_chrf(reference_text, hypothesis_text)
-#             total_score.append({
-#                 "original_english": eng,
-#                 "original_spanish": sp,
-#                 "translated_spanish": hypothesis_text, 
-#                 "bleu_score": score
-#             })
-#         except Exception as e:
-#             print(e)
-#             continue
-
-# avg_bleu_score = sum([x['bleu_score']['bleu_score'] for x in total_score]) / len(total_score)
-
-# print(f"{model_name2} with finetune (EHR data) --> Average BLEU Score: {avg_bleu_score:.4f}")
-
-# with open(f"/home/mshahidul/project1/results_new/with_finetune/{model_name2}_finetuned_EHR_data.json", 'w', encoding='utf-8') as json_file:
-#         json.dump(total_score, json_file, ensure_ascii=False, indent=4)
-from utils import save_to_json
-save_to_json("temp_score_save.json",res)

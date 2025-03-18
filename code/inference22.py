@@ -1,16 +1,15 @@
-# from utils import compute_bleu_chrf
+from utils2 import compute_bleu_chrf
 import json
 import tqdm
 import os
-from utils2 import data_import,compute_bleu_chrf
+from utils2 import data_import
 from unsloth import FastLanguageModel
 from utils2 import keyword_relationships_umls, keyword_synonymous_umls
-from utils2 import kg_gpt4o_mini, synonyms_gpt4o_diff_lang,extract_keywords,gpt4o_mini_tran_func
-original_file,results_data,sentence_to_prompt=data_import()
+from utils2 import kg_gpt4o_mini, synonyms_gpt4o_diff_lang,extract_keywords,gpt4o_mini_tran_func,UMLS_COD_back_translation
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-def UMLS_COD_back_translation(english_sentence):
-    return sentence_to_prompt.get(english_sentence, "Information not found")
+original_file,results_data,sentence_to_prompt=data_import()
+
 FUNCTIONS_MAP = {
     "keyword_relationships_umls": keyword_relationships_umls,
     "keyword_synonymous_umls": keyword_synonymous_umls,
@@ -20,27 +19,49 @@ FUNCTIONS_MAP = {
     "gpt4o_mini_tran_func": gpt4o_mini_tran_func,
     "UMLS_COD_back_translation":UMLS_COD_back_translation
 }
+FUNCTIONS_MAP_info = {
+    "keyword_relationships_umls": "Below is an overview of the relationships between key medical terms and their associated concepts, detailing how each term connects to medical ideas: ",
+    "keyword_synonymous_umls": "Below is an overview of synonyms for each keyword in different languages: ",
+    "kg_gpt4o_mini": "Below is a knowledge graph of the medical keywords in the sentence: ",
+    "synonyms_gpt4o_diff_lang": "Below is an overview of synonyms for each keyword in different languages: ",
+    "extract_keywords": "Below are the keywords extracted from the sentence: ",
+    "gpt4o_mini_tran_func": "Below is an overview of translations for each keyword in different languages: ",
+    "UMLS_COD_back_translation":"Below is a chain of dictionary entries for keywords extracted from a sentence, presented in multiple languages: "
+}
+
 import sys
 import argparse
 parser = argparse.ArgumentParser(description="Run inference function with given text.")
-parser.add_argument("--function_name", type=str, choices=FUNCTIONS_MAP.keys(), help="Name of the function to run")
+parser.add_argument("--function_names", type=str, nargs='+', choices=FUNCTIONS_MAP.keys(), help="Names of the functions to run (space-separated)")
 parser.add_argument("--model_name", type=str, help="model name")
 # parser.add_argument("--txt", type=str, help="context data name")
 parser.add_argument("--inf_proc", type=str, help="Inference procedure")
 args = parser.parse_args()
 
 # Get the function from the map
-selected_function = FUNCTIONS_MAP[args.function_name]
+selected_functions = [FUNCTIONS_MAP[func] for func in args.function_names]
 
+txt= "without_finetune_"+("_".join([func.__name__ for func in selected_functions]))
 
 
 
 ###########################
 inference_proc=args.inf_proc  #"prompt"
+
 def return_prompt_data(text):
-    return selected_function(text)
+    results = []
+    
+    for func in selected_functions:
+            if (func(text))==None:
+                func_txt="No information"
+            else:
+                func_txt=func(text)
+            results.append(FUNCTIONS_MAP_info[func.__name__]+"\n"+func_txt)
+    
+    return "\n".join(results)
+
 max_seq_length,dtype,load_in_4bit,model_name = 2048,None ,True, args.model_name #"unsloth/Qwen2.5-7B-Instruct"
-txt= "without_finetune_"+args.function_name  #args.txt # "without_finetune_keyword_relationships_umls"
+# txt= args.txt # "without_finetune_keyword_relationships_umls"
 ###########################
 
 
@@ -99,7 +120,12 @@ def inference(text,context):
         Using the above context to translate the following English text into Spanish naturally and accurately: 
         {text}"
         '''
-    
+    # prompt = f"""
+    #         {context}
+    #         You are a highly accurate machine translation system based on Qwen2.5. Please translate the following English text into Spanish, ensuring that all nuances, idiomatic expressions, and technical terms are accurately preserved.
+    #         English: {text}
+    #         Spanish: 
+    #         """
     # prompt=f''' 
     #     Translate the following text into Spanish, given this context:
     #     {keyword_relationships_umls(text)}
@@ -124,6 +150,12 @@ def back_inference(text,context):
     #     {text}
     #     English: "
     #     '''
+    # prompt = f"""
+    #         {context}
+    #         You are a highly accurate machine translation system based on Qwen2.5. Please translate the following Spanish text back into English, ensuring that the original meaning, nuances, and technical details are fully maintained.
+    #         Spanish: {text}
+    #         English: 
+    #         """
     prompt=f'''
         {context}
         Using the above context to translate the following Spanish text into English naturally and accurately: 
@@ -186,10 +218,15 @@ def back_inference_direct(text):
 ##################################################
 
 total_score=[]
-
+flag=1
 for line in tqdm.tqdm(original_file):
     try:
         context=return_prompt_data(line['english'])
+        if flag:
+            flag=0
+            print("*"*30)
+            print(context)
+            print("*"*30)
         # context=keyword_synonymous_umls(line["english"])
         if inference_proc=="prompt":
             hypothesis_text = inference(line['english'],context)
@@ -199,7 +236,6 @@ for line in tqdm.tqdm(original_file):
             back_translate = back_inference_direct(hypothesis_text)
         else:
             exit()
-
         # print(f"yes: {back_translate}")
         score=compute_bleu_chrf(line['english'].lower(), back_translate.lower())  
         total_score.append({
@@ -215,7 +251,6 @@ for line in tqdm.tqdm(original_file):
 
 tt=model_name.split("/")[1]
 avg_bleu_score = sum([x['bleu_score']['bleu_score'] for x in total_score]) / len(total_score)
-# txt="without_finetune_and_prompt"
 res_txt=f"{tt}_{txt}: {avg_bleu_score:.4f}"
 print(res_txt)
 
