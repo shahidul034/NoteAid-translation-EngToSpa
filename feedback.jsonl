@@ -1,0 +1,33 @@
+[
+    {  
+        "example": 1,  
+        "Original clinical note": "Pyloroplasty is a surgical procedure to widen the opening in the lower part of the stomach (pylorus) so that the stomach contents can empty into the small intestine (duodenum).",  
+        "translation": "La piloroplastia es un procedimiento que hace más grande el agujero en la parte baja del estómago para que la comida pueda salir al intestino delgado.",  
+        "Clinical usefulness": "The translation conveys the general idea, but 'hace más grande el agujero' is not a precise medical term. More appropriate clinical phrasing should be used. 2/3",  
+        "Clinical Accuracy": "'Agujero' is too informal for a medical context. Additionally, 'la comida pueda salir' does not accurately reflect the intended meaning of gastric emptying. 2/3",  
+        "Overall Clarity": "The translation is understandable, but the phrasing is casual and not well-suited for a clinical note. 2/3",  
+        "Coverage": "The translation covers most of the original meaning but omits specific anatomical references like 'pylorus' and 'duodenum.' 2/3",  
+        "total_score": "9/12"  
+    },
+    {  
+        "example": 2,  
+        "Original clinical note": "Pyloroplasty is a surgical procedure to widen the opening in the lower part of the stomach (pylorus) so that the stomach contents can empty into the small intestine (duodenum).",  
+        "translation": "La piloroplastia es un procedimiento quirúrgico para ampliar la abertura en la parte inferior del estómago (píloro) y permitir que el contenido gástrico pase al intestino delgado.",  
+        "Clinical usefulness": "The translation is appropriate for a clinical setting and uses precise terminology. 3/3",  
+        "Clinical Accuracy": "'Contenido gástrico' is accurate, but 'intestino delgado' is a general term that does not specify 'duodeno,' which is more precise. 2/3",  
+        "Overall Clarity": "The translation is clear and professional, making it suitable for clinical use. 3/3",  
+        "Coverage": "The translation conveys the essential meaning but does not explicitly mention 'duodeno,' an important anatomical detail. 2/3",  
+        "total_score": "10/12"  
+    },
+    {  
+        "example": 3,  
+        "Original clinical note": "Pyloroplasty is a surgical procedure to widen the opening in the lower part of the stomach (pylorus) so that the stomach contents can empty into the small intestine (duodenum).",  
+        "translation": "La piloroplastia es un procedimiento quirúrgico para ampliar la abertura en la parte inferior del estómago (píloro), permitiendo que el contenido gástrico se vacíe en el duodeno.",  
+        "Clinical usefulness": "The translation is clinically appropriate and maintains proper medical terminology. 3/3",  
+        "Clinical Accuracy": "The translation correctly refers to 'contenido gástrico' and explicitly includes 'duodeno,' making it precise. 3/3",  
+        "Overall Clarity": "The sentence is well-structured, professional, and maintains a natural medical tone. 3/3",  
+        "Coverage": "The translation fully covers all aspects of the original note without omitting critical details. 3/3",  
+        "total_score": "12/12"  
+    }
+  ]
+  
