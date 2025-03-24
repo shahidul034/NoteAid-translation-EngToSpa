@@ -3,3 +3,7 @@ apo/venv/
 __pycache__/
 models/
 eval.py
+test/
+faiss_index.bin
+database.pkl
+count.py

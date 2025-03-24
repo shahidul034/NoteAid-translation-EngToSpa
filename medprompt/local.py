@@ -25,7 +25,7 @@ OUTPUT_JSON_PATH = "translated_output.json"
 # Ollama configuration
 OLLAMA_BASE_URL = "http://localhost:11434"
 LLM_CONFIG = {
-    # "model": "llama3.1:latest",  # Default Ollama model
+    # "model": "llama3.1:latest",  
     "model": "phi4",
     "options": {
         "temperature": 0.3,
@@ -333,34 +333,38 @@ class MedPromptSystem:
         print(f"Results saved to {OUTPUT_JSON_PATH}")
 
 if __name__ == "__main__":
+
+    # Run ollama pull "insert model here" to pull the model before running the code, also update the same in the code
+
     try:
-        # with open(TRAINING_DATA_PATH, "r", encoding="utf-8") as f:
-        #     train_data = json.load(f)
+        with open(TRAINING_DATA_PATH, "r", encoding="utf-8") as f:
+            train_data = json.load(f)
             
         with open(TEST_DATA_PATH, "r", encoding="utf-8") as f:
             test_data = json.load(f)
 
-        # print(f"Loaded {len(train_data)} training examples. Loaded {len(test_data)} testing examples.")
+        print(f"Loaded {len(train_data)} training examples. Loaded {len(test_data)} testing examples.")
+
         
         # Create MedPrompt system using Ollama
         medprompt = MedPromptSystem(model_name="phi4")
         
         # Check which models are available in Ollama
-        # available_models = medprompt.ollama.list_models()
-        # print(f"Available Ollama models: {available_models}")
+        available_models = medprompt.ollama.list_models()
+        print(f"Available Ollama models: {available_models}")
         
         # Run preprocessing if needed
-        # medprompt.preprocess(train_data)
+        medprompt.preprocess(train_data)
+
+        # Example usage for running model on a single text
+        # example_english = "The patient was diagnosed with hypertension and prescribed lisinopril 10mg daily."
+        # spanish_translation = medprompt.generate_translation(example_english)
+        # translated_json = json.loads(spanish_translation)
+        # translated_spanish = translated_json.get("response", "").strip()
+        # print(f"Translation: {translated_spanish}")
         
         # Process test set
         medprompt.process_test_set(test_data)
-        
-        # # Example usage for running model on a single text
-        # # example_english = "The patient was diagnosed with hypertension and prescribed lisinopril 10mg daily."
-        # # spanish_translation = medprompt.generate_translation(example_english)
-        # # translated_json = json.loads(spanish_translation)
-        # # translated_spanish = translated_json.get("response", "").strip()
-        # # print(f"Translation: {translated_spanish}")
         
         # # Run evaluation if needed
         evaluator = EvaluateMetric('translated_output.json', "translated_spanish", "target_spanish", "original_english")

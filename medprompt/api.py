@@ -1,12 +1,11 @@
-from openai import OpenAI
-import faiss
-import numpy as np
-import pickle
 import os
 import json
 import time
+import faiss
+import numpy as np
+from openai import OpenAI
+import pickle
 from typing import List, Tuple, Dict, Any
-from string import Template as StringTemplate
 
 from eval import EvaluateMetric
 
@@ -19,48 +18,9 @@ DATABASE_PATH = "database.pkl"
 TRAINING_DATA_PATH = "/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/medprompt/TrainingDataMinusOverlaps.json"
 TEST_DATA_PATH = "/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/all_tran_data/testing data/Sampled_100_MedlinePlus_eng_spanish_pair.json"
 OUTPUT_JSON_PATH = "translated_output.json"
+BACK_TRANSLATION_OUTPUT_PATH = "back_translated_output.json"
 
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-
-# Medical translation prompt definition
-medical_translation_prompt = {
-            "prompt_name": "medical_translation_english_to_spanish",
-            "response_type": "translation",
-            "prompt": StringTemplate(
-                """{% for item in examples %}## English Medical Text
-        {{ item.english_text }}
-
-        ## Spanish Translation
-        {{ item.spanish_translation }}
-
-        {% endfor %}## English Medical Text
-        {{ english_text }}
-        ## Spanish Translation
-        """
-            ),
-            "examples": [
-                {
-                    "english_text": """The patient presents with acute myocardial infarction with ST-segment elevation in the anterior leads. Start dual antiplatelet therapy with aspirin 325mg and clopidogrel 600mg loading dose, followed by 75mg daily. Administer IV heparin according to weight-based protocol.""",
-                    "spanish_translation": """El paciente presenta infarto agudo de miocardio con elevación del segmento ST en las derivaciones anteriores. Iniciar terapia antiagregante plaquetaria dual con aspirina 325mg y clopidogrel 600mg como dosis de carga, seguido de 75mg diarios. Administrar heparina IV según protocolo basado en el peso.""",
-                },
-                {
-                    "english_text": """Patient diagnosed with type 2 diabetes mellitus. Current HbA1c is 8.2%. Recommend lifestyle modifications including diet and exercise. Start metformin 500mg twice daily with meals, titrate up as tolerated. Monitor blood glucose levels and return for follow-up in 3 months.""",
-                    "spanish_translation": """Paciente diagnosticado con diabetes mellitus tipo 2. HbA1c actual es 8.2%. Se recomiendan modificaciones en el estilo de vida, incluyendo dieta y ejercicio. Iniciar metformina 500mg dos veces al día con las comidas, aumentar gradualmente según tolerancia. Monitorear niveles de glucosa en sangre y regresar para seguimiento en 3 meses.""",
-                },
-                {
-                    "english_text": """The patient is a 68-year-old female with chronic obstructive pulmonary disease (COPD) presenting with increased dyspnea, productive cough with yellowish sputum, and low-grade fever for the past 3 days. Initiate treatment with bronchodilators, antibiotics, and consider a short course of oral corticosteroids.""",
-                    "spanish_translation": """La paciente es una mujer de 68 años con enfermedad pulmonar obstructiva crónica (EPOC) que presenta aumento de disnea, tos productiva con esputo amarillento y fiebre de bajo grado durante los últimos 3 días. Iniciar tratamiento con broncodilatadores, antibióticos y considerar un curso corto de corticosteroides orales.""",
-                },
-                {
-                    "english_text": """Patient reports severe headache, photophobia, and neck stiffness. Physical examination reveals positive Kernig's and Brudzinski's signs. Suspect bacterial meningitis. Order immediate lumbar puncture, blood cultures, and start empiric antibiotic therapy with ceftriaxone and vancomycin.""",
-                    "spanish_translation": """Paciente reporta cefalea severa, fotofobia y rigidez de nuca. El examen físico revela signos positivos de Kernig y Brudzinski. Se sospecha meningitis bacteriana. Ordenar punción lumbar inmediata, hemocultivos e iniciar terapia antibiótica empírica con ceftriaxona y vancomicina.""",
-                },
-                {
-                    "english_text": """The patient presents with right lower quadrant abdominal pain, nausea, vomiting, and low-grade fever. Laboratory results show leukocytosis. Clinical diagnosis of acute appendicitis. Schedule for emergency appendectomy after obtaining informed consent. Administer preoperative antibiotics.""",
-                    "spanish_translation": """El paciente presenta dolor abdominal en el cuadrante inferior derecho, náuseas, vómitos y fiebre de bajo grado. Los resultados de laboratorio muestran leucocitosis. Diagnóstico clínico de apendicitis aguda. Programar para apendicectomía de emergencia después de obtener consentimiento informado. Administrar antibióticos preoperatorios.""",
-                },
-            ]
-        }
 
 class MedPromptSystem:
     def __init__(self):
@@ -176,53 +136,44 @@ class MedPromptSystem:
             })
         return formatted_examples
 
-    def generate_translation(self, query: str) -> str:
-        """Generate translation using kNN context with the medical translation prompt."""
+    def generate_translation(self, query: str, direction: str = "en_to_es") -> str:
+        """
+        Generate translation using kNN context with the medical translation prompt.
+        
+        Args:
+            query (str): Text to translate
+            direction (str): Translation direction - 'en_to_es' or 'es_to_en'
+        """
         # Get similar examples using kNN
         knn_examples = self.knn_retrieve(query)
         
         # Format the prompt with retrieved examples and the query
         formatted_examples = self.format_examples_for_prompt(knn_examples)
         
-        # Create the prompt with retrieved examples and the current text to translate
-        prompt_text = f"""{{% for item in examples %}}## English Medical Text
-                    {{{{ item.english_text }}}}
+        prompt_text = "Here are some similar medical texts in English and their Spanish translations:\n\n"
 
-                    ## Spanish Translation
-                    {{{{ item.spanish_translation }}}}
+        for example in formatted_examples:
+            # Create the prompt with retrieved examples and the current text to translate
+            prompt_text += "## English Medical Text\n"
+            prompt_text += f"{example['english_text']}\n\n"
+            prompt_text += "## Spanish Translation\n"
+            prompt_text += f"{example['spanish_translation']}\n\n"
 
-                    {{% endfor %}}## English Medical Text
-                    {query}
-                    ## Spanish Translation
-                    """
-        
-        # Replace the Jinja2 template syntax with actual examples
-        for i, example in enumerate(formatted_examples):
-            eng_placeholder = "{{ item.english_text }}"
-            spa_placeholder = "{{ item.spanish_translation }}"
-            
-            prompt_text = prompt_text.replace(
-                eng_placeholder, 
-                example["english_text"], 
-                1
-            )
-            prompt_text = prompt_text.replace(
-                spa_placeholder, 
-                example["spanish_translation"], 
-                1
-            )
-        
-        # Remove the for loop syntax
-        prompt_text = prompt_text.replace("{% for item in examples %}", "")
-        prompt_text = prompt_text.replace("{% endfor %}", "")
+        # System prompt varies based on translation direction
+        if direction == "en_to_es":
+            system_prompt = "You are a medical translation expert. Translate the English medical text to Spanish accurately, preserving medical terminology."
+            prompt_text += "## Your task is to translate the following English medical text to Spanish accurately, using the examples above as context:\n"
+            prompt_text += f"## English Medical Text\n{query}\n## Spanish Translation\n"
+        else:  # es_to_en
+            system_prompt = "You are a medical translation expert. Translate the Spanish medical text to English accurately, preserving medical terminology."
+            prompt_text += "## Your task is to translate the following Spanish medical text to English accurately, using the examples above as context:\n"
+            prompt_text += f"## Spanish Medical Text\n{query}\n## English Translation\n"
 
-        print(f"Prompt text: {prompt_text}")
-        
         try:
             response = client.chat.completions.create(
-                model="gpt-4o-mini",  # Using gpt-4o-mini as specified
+                model="gpt-4o-mini",  
                 messages=[
-                    {"role": "system", "content": "You are a medical translation expert. Translate the English medical text to Spanish accurately, preserving medical terminology."},
+                    {"role": "system", "content": system_prompt},
                     {"role": "user", "content": prompt_text}
                 ],
                 temperature=0.3
@@ -233,8 +184,14 @@ class MedPromptSystem:
             return f"Error: Failed to generate translation."
 
     def process_test_set(self, test_data: List[Dict[str, str]]) -> None:
-        """Process test data and save results in the required JSON format."""
-        results = []
+        """
+        Process test data with forward and back translation, and save results.
+        
+        Args:
+            test_data (List[Dict[str, str]]): Test dataset containing English and Spanish texts
+        """
+        forward_results = []
+        back_translation_results = []
         total = len(test_data)
         
         print(f"Processing {total} test examples...")
@@ -246,49 +203,68 @@ class MedPromptSystem:
             target_spanish = entry["spanish"]
             
             try:
-                translated_spanish = self.generate_translation(original_english)
+                # Forward Translation: English to Spanish
+                translated_spanish = self.generate_translation(original_english, "en_to_es")
                 
-                results.append({
+                # Back Translation: Spanish to English
+                back_translated_english = self.generate_translation(translated_spanish, "es_to_en")
+                
+                forward_results.append({
                     "original_english": original_english,
                     "target_spanish": target_spanish,
                     "translated_spanish": translated_spanish
                 })
+                
+                back_translation_results.append({
+                    "original_english": original_english,
+                    "translated_spanish": translated_spanish,
+                    "back_translated_english": back_translated_english
+                })
+                
             except Exception as e:
                 print(f"Error processing test example {i}: {e}")
                 continue
 
+        # Save forward translation results
         with open(OUTPUT_JSON_PATH, "w", encoding="utf-8") as f:
-            json.dump(results, f, indent=4, ensure_ascii=False)
-        print(f"Results saved to {OUTPUT_JSON_PATH}")
+            json.dump(forward_results, f, indent=4, ensure_ascii=False)
+        print(f"Forward translation results saved to {OUTPUT_JSON_PATH}")
+        
+        # Save back translation results
+        with open(BACK_TRANSLATION_OUTPUT_PATH, "w", encoding="utf-8") as f:
+            json.dump(back_translation_results, f, indent=4, ensure_ascii=False)
+        print(f"Back translation results saved to {BACK_TRANSLATION_OUTPUT_PATH}")
 
 if __name__ == "__main__":
     try:
-
         with open(TRAINING_DATA_PATH, "r", encoding="utf-8") as f:
             train_data = json.load(f)
             
         with open(TEST_DATA_PATH, "r", encoding="utf-8") as f:
             test_data = json.load(f)
         
-        # train_data, test_data = train_test_split(train_data, test_size=0.1, random_state=42)
-
         print(f"Loaded {len(train_data)} training examples. Loaded {len(test_data)} testing examples.")
         
         medprompt = MedPromptSystem()
-        # medprompt.preprocess(train_data)
-        # medprompt.process_test_set(test_data)
+        medprompt.preprocess(train_data)
+        medprompt.process_test_set(test_data)
 
-        evaluator = EvaluateMetric('translated_output.json', "translated_spanish", "target_spanish", "original_english")
+        # Evaluate both forward and back translation
+        forward_evaluator = EvaluateMetric(OUTPUT_JSON_PATH, "translated_spanish", "target_spanish", "original_english")
+        back_translation_evaluator = EvaluateMetric(BACK_TRANSLATION_OUTPUT_PATH, "back_translated_english", "original_english", "original_english")
 
-        # Compute BLEU, ROUGE, BERTScore, and COMET
-        evaluator.evaluate("BLEU")
-        evaluator.evaluate("ROUGE")
-        evaluator.evaluate("BERTSCORE")
-        evaluator.evaluate("COMET")
-        # evaluator.evaluate("LLM_AS_A_JUDGE")
+        # Compute metrics for forward and back translation
+        print("Forward Translation Metrics:")
+        forward_evaluator.evaluate("BLEU")
+        forward_evaluator.evaluate("ROUGE")
+        forward_evaluator.evaluate("BERTSCORE")
+        forward_evaluator.evaluate("COMET")
 
-        # Print results
-        print(evaluator.res)
+        print("\nBack Translation Metrics:")
+        back_translation_evaluator.evaluate("BLEU")
+        back_translation_evaluator.evaluate("ROUGE")
+        back_translation_evaluator.evaluate("BERTSCORE", lang="en")
+        back_translation_evaluator.evaluate("COMET")
         
     except Exception as e:
         print(f"Error in main execution: {e}")
