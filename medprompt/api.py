@@ -237,34 +237,39 @@ class MedPromptSystem:
 
 if __name__ == "__main__":
     try:
-        with open(TRAINING_DATA_PATH, "r", encoding="utf-8") as f:
-            train_data = json.load(f)
+        # with open(TRAINING_DATA_PATH, "r", encoding="utf-8") as f:
+        #     train_data = json.load(f)
             
-        with open(TEST_DATA_PATH, "r", encoding="utf-8") as f:
-            test_data = json.load(f)
+        # with open(TEST_DATA_PATH, "r", encoding="utf-8") as f:
+        #     test_data = json.load(f)
         
-        print(f"Loaded {len(train_data)} training examples. Loaded {len(test_data)} testing examples.")
+        # print(f"Loaded {len(train_data)} training examples. Loaded {len(test_data)} testing examples.")
         
-        medprompt = MedPromptSystem()
-        medprompt.preprocess(train_data)
-        medprompt.process_test_set(test_data)
+        # medprompt = MedPromptSystem()
+        # medprompt.preprocess(train_data)
+        # medprompt.process_test_set(test_data)
 
         # Evaluate both forward and back translation
-        forward_evaluator = EvaluateMetric(OUTPUT_JSON_PATH, "translated_spanish", "target_spanish", "original_english")
-        back_translation_evaluator = EvaluateMetric(BACK_TRANSLATION_OUTPUT_PATH, "back_translated_english", "original_english", "original_english")
+        # forward_evaluator = EvaluateMetric(OUTPUT_JSON_PATH, "translated_spanish", "target_spanish", "original_english")
+        # back_translation_evaluator = EvaluateMetric(BACK_TRANSLATION_OUTPUT_PATH, "back_translated_english", "original_english", "original_english")
+
+        forward_evaluator = EvaluateMetric("/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/medprompt/results/gpt4o_mini/translated_output.json", "translated_spanish", "target_spanish", "original_english")
+        back_translation_evaluator = EvaluateMetric("/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/medprompt/results/gpt4o_mini/back_translated_output.json", "back_translated_english", "original_english", "original_english")
 
         # Compute metrics for forward and back translation
         print("Forward Translation Metrics:")
-        forward_evaluator.evaluate("BLEU")
-        forward_evaluator.evaluate("ROUGE")
-        forward_evaluator.evaluate("BERTSCORE")
-        forward_evaluator.evaluate("COMET")
+        # forward_evaluator.evaluate("BLEU")
+        # forward_evaluator.evaluate("ROUGE")
+        # forward_evaluator.evaluate("BERTSCORE")
+        # forward_evaluator.evaluate("COMET")
+        forward_evaluator.evaluate("CHRF")
 
         print("\nBack Translation Metrics:")
-        back_translation_evaluator.evaluate("BLEU")
-        back_translation_evaluator.evaluate("ROUGE")
-        back_translation_evaluator.evaluate("BERTSCORE", lang="en")
-        back_translation_evaluator.evaluate("COMET")
+        # back_translation_evaluator.evaluate("BLEU")
+        # back_translation_evaluator.evaluate("ROUGE")
+        # back_translation_evaluator.evaluate("BERTSCORE", lang="en")
+        # back_translation_evaluator.evaluate("COMET")
+        back_translation_evaluator.evaluate("CHRF")
         
     except Exception as e:
         print(f"Error in main execution: {e}")

@@ -494,6 +494,7 @@ if __name__ == "__main__":
         evaluator.evaluate("ROUGE")
         evaluator.evaluate("BERTSCORE")
         evaluator.evaluate("COMET")
+        evaluator.evaluate("CHRF")
         print(f"\n--- Evaluation Results (GPT) ---")
         print(evaluator.res)
         

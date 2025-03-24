@@ -21,12 +21,15 @@ DATABASE_PATH = "database.pkl"
 TRAINING_DATA_PATH = "/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/medprompt/TrainingDataMinusOverlaps.json"
 TEST_DATA_PATH = "/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/all_tran_data/testing data/Sampled_100_MedlinePlus_eng_spanish_pair.json"
 OUTPUT_JSON_PATH = "translated_output.json"
+BACK_TRANSLATION_OUTPUT_PATH = "back_translated_output.json"
+
 
 # Ollama configuration
 OLLAMA_BASE_URL = "http://localhost:11434"
 LLM_CONFIG = {
     # "model": "llama3.1:latest",  
-    "model": "phi4",
+    # "model": "qwen2.5:3b",
+    "model": "phi4:latest",
     "options": {
         "temperature": 0.3,
         "num_predict": 512,
@@ -256,7 +259,7 @@ class MedPromptSystem:
             if idx < len(self.train_data) and idx >= 0:
                 english, spanish = self.train_data[idx]
                 retrieved_examples.append((english, spanish, distances[0][i]))
-                print(f"Retrieved example with distance {distances[0][i]:.4f}: {english[:50]}...")
+                # print(f"Retrieved example with distance {distances[0][i]:.4f}: {english[:50]}...")
             else:
                 print(f"Invalid index: {idx}")
                 
@@ -272,34 +275,43 @@ class MedPromptSystem:
             })
         return formatted_examples
 
-    def generate_translation(self, query: str) -> str:
-        """Generate translation using kNN context with the medical translation prompt."""
+    def generate_translation(self, query: str, direction: str = "en_to_es") -> str:
+        """
+        Generate translation using kNN context with the medical translation prompt.
+        
+        Args:
+            query (str): Text to translate
+            direction (str): Translation direction - 'en_to_es' or 'es_to_en'
+        """
         # Get similar examples using kNN
         knn_examples = self.knn_retrieve(query)
         
         # Format the prompt with retrieved examples and the query
         formatted_examples = self.format_examples_for_prompt(knn_examples)
+        
+        prompt_text = "Here are some similar medical texts in English and their Spanish translations:\n\n"
 
-        # Construct system message
-        system_message = (
-            "You are a medical translation expert. Translate the English medical text to Spanish accurately, "
-            "preserving medical terminology. Use the given examples as reference. Respond using JSON with the following format:\n"
+        for example in formatted_examples:
+            # Create the prompt with retrieved examples and the current text to translate
+            prompt_text += "## English Medical Text\n"
+            prompt_text += f"{example['english_text']}\n\n"
+            prompt_text += "## Spanish Translation\n"
+            prompt_text += f"{example['spanish_translation']}\n\n"
+
+        # System prompt varies based on translation direction
+        if direction == "en_to_es":
+            system_prompt = "You are a medical translation expert. Translate the English medical text to Spanish accurately, preserving medical terminology. Use the given examples as reference. Respond using JSON with the following format:\n"
             "{ \"response\": \"Your translated text here\" }"
-        )
-
-        # Construct prompt text with kNN few-shot examples
-        example_texts = "\n\n".join(
-            f"## English Medical Text:\n{ex['english_text']}\n\n"
-            f"## Spanish Translation:\n{ex['spanish_translation']}"
-            for ex in formatted_examples
-        )
-
-        prompt_text = f"{example_texts}\n\n## English Medical Text:\n{query}\n\n## Spanish Translation:"
-
-        # print(f"Final Prompt:\n{prompt_text}")
-
+            prompt_text += "## Your task is to translate the following English medical text to Spanish accurately, using the examples above as context.:\n"
+            prompt_text += f"## English Medical Text\n{query}\n## Spanish Translation: {{ \"response\": \"Your translated text here\" }}\n"
+        else:  # es_to_en
+            system_prompt = "You are a medical translation expert. Translate the Spanish medical text to English accurately, preserving medical terminology. Use the given examples as reference. Respond using JSON with the following format:\n"
+            "{ \"response\": \"Your translated text here\" }"
+            prompt_text += "## Your task is to translate the following Spanish medical text to English accurately, using the examples above as context:\n"
+            prompt_text += f"## Spanish Medical Text\n{query}\n## English Translation: {{ \"response\": \"Your translated text here\" }}\n"
+        
         try:
-            return self.ollama.generate(prompt_text, system_message, self.model_name)
+            return self.ollama.generate(prompt_text, system_prompt, self.model_name)
         except Exception as e:
             print(f"Error generating translation: {e}")
             return "Error: Failed to generate translation."
@@ -307,6 +319,8 @@ class MedPromptSystem:
     def process_test_set(self, test_data: List[Dict[str, str]]) -> None:
         """Process test data and save results in the required JSON format."""
         results = []
+        forward_results = []
+        back_translation_results = []
         total = len(test_data)
         
         print(f"Processing {total} test examples...")
@@ -315,15 +329,30 @@ class MedPromptSystem:
             target_spanish = entry["spanish"]
             
             try:
-                translated_response = self.generate_translation(original_english)
+                # Forward Translation: English to Spanish
+                translated_response = self.generate_translation(original_english, "en_to_es")
                 translated_json = json.loads(translated_response)
                 translated_spanish = translated_json.get("response", "").strip()
                 
-                results.append({
+                # Back Translation: Spanish to English
+                back_translated_response = self.generate_translation(translated_spanish, "es_to_en")
+                back_translated_json = json.loads(back_translated_response)
+                back_translated_english = back_translated_json.get("response", "").strip()
+                
+                forward_results.append({
                     "original_english": original_english,
                     "target_spanish": target_spanish,
                     "translated_spanish": translated_spanish
                 })
+                
+                back_translation_results.append({
+                    "original_english": original_english,
+                    "translated_spanish": translated_spanish,
+                    "back_translated_english": back_translated_english
+                })
+
+                print(f"Example {i+1}/{total}: {original_english[:50]}...")
+
             except Exception as e:
                 print(f"Error processing test example {i}: {e}")
                 continue
@@ -345,34 +374,44 @@ if __name__ == "__main__":
 
         print(f"Loaded {len(train_data)} training examples. Loaded {len(test_data)} testing examples.")
 
-        
         # Create MedPrompt system using Ollama
-        medprompt = MedPromptSystem(model_name="phi4")
+        medprompt = MedPromptSystem(model_name="phi4:latest")
         
         # Check which models are available in Ollama
         available_models = medprompt.ollama.list_models()
         print(f"Available Ollama models: {available_models}")
         
         # Run preprocessing if needed
-        medprompt.preprocess(train_data)
+        # medprompt.preprocess(train_data)
 
-        # Example usage for running model on a single text
-        # example_english = "The patient was diagnosed with hypertension and prescribed lisinopril 10mg daily."
-        # spanish_translation = medprompt.generate_translation(example_english)
-        # translated_json = json.loads(spanish_translation)
-        # translated_spanish = translated_json.get("response", "").strip()
-        # print(f"Translation: {translated_spanish}")
+        # # Example usage for running model on a single text
+        # # example_english = "The patient was diagnosed with hypertension and prescribed lisinopril 10mg daily."
+        # # spanish_translation = medprompt.generate_translation(example_english)
+        # # translated_json = json.loads(spanish_translation)
+        # # translated_spanish = translated_json.get("response", "").strip()
+        # # print(f"Translation: {translated_spanish}")
         
         # Process test set
         medprompt.process_test_set(test_data)
         
-        # # Run evaluation if needed
-        evaluator = EvaluateMetric('translated_output.json', "translated_spanish", "target_spanish", "original_english")
-        evaluator.evaluate("BLEU")
-        evaluator.evaluate("ROUGE")
-        evaluator.evaluate("BERTSCORE")
-        evaluator.evaluate("COMET")
-        print(evaluator.res)
+        # Evaluate both forward and back translation
+        forward_evaluator = EvaluateMetric(OUTPUT_JSON_PATH, "translated_spanish", "target_spanish", "original_english")
+        back_translation_evaluator = EvaluateMetric(BACK_TRANSLATION_OUTPUT_PATH, "back_translated_english", "original_english", "original_english")
+
+        # Compute metrics for forward and back translation
+        print("Forward Translation Metrics:")
+        forward_evaluator.evaluate("BLEU")
+        # forward_evaluator.evaluate("ROUGE")
+        # forward_evaluator.evaluate("BERTSCORE")
+        forward_evaluator.evaluate("COMET")
+        forward_evaluator.evaluate("CHRF")
+
+        print("\nBack Translation Metrics:")
+        back_translation_evaluator.evaluate("BLEU")
+        # back_translation_evaluator.evaluate("ROUGE")
+        # back_translation_evaluator.evaluate("BERTSCORE", lang="en")
+        back_translation_evaluator.evaluate("COMET")
+        back_translation_evaluator.evaluate("CHRF")
         
     except Exception as e:
         print(f"Error in main execution: {e}")
