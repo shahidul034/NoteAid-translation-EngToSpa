@@ -20,8 +20,8 @@ FAISS_INDEX_PATH = "faiss_index.bin"
 DATABASE_PATH = "database.pkl"
 TRAINING_DATA_PATH = "/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/medprompt/TrainingDataMinusOverlaps.json"
 TEST_DATA_PATH = "/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/all_tran_data/testing data/Sampled_100_MedlinePlus_eng_spanish_pair.json"
-OUTPUT_JSON_PATH = "translated_output.json"
-BACK_TRANSLATION_OUTPUT_PATH = "back_translated_output.json"
+OUTPUT_JSON_PATH = "translated_output_"
+BACK_TRANSLATION_OUTPUT_PATH = "back_translated_output_"
 
 
 # Ollama configuration
@@ -29,7 +29,9 @@ OLLAMA_BASE_URL = "http://localhost:11434"
 LLM_CONFIG = {
     # "model": "llama3.1:latest",  
     # "model": "qwen2.5:3b",
-    "model": "phi4:latest",
+    # "model": "phi4:latest",
+    # "model": "qwen2.5:14b",
+    "model": "qwen2.5:1b",
     "options": {
         "temperature": 0.3,
         "num_predict": 512,
@@ -318,7 +320,6 @@ class MedPromptSystem:
 
     def process_test_set(self, test_data: List[Dict[str, str]]) -> None:
         """Process test data and save results in the required JSON format."""
-        results = []
         forward_results = []
         back_translation_results = []
         total = len(test_data)
@@ -351,15 +352,20 @@ class MedPromptSystem:
                     "back_translated_english": back_translated_english
                 })
 
-                print(f"Example {i+1}/{total}: {original_english[:50]}...")
-
             except Exception as e:
                 print(f"Error processing test example {i}: {e}")
                 continue
 
-        with open(OUTPUT_JSON_PATH, "w", encoding="utf-8") as f:
-            json.dump(results, f, indent=4, ensure_ascii=False)
-        print(f"Results saved to {OUTPUT_JSON_PATH}")
+        # Save forward translation results
+        with open(OUTPUT_JSON_PATH + MODEL_NAME + '.json', "w", encoding="utf-8") as f:
+            json.dump(forward_results, f, indent=4, ensure_ascii=False)
+        print(f"Forward translation results saved to {OUTPUT_JSON_PATH}")
+        
+        # Save back translation results
+        with open(BACK_TRANSLATION_OUTPUT_PATH + MODEL_NAME + '.json', "w", encoding="utf-8") as f:
+            json.dump(back_translation_results, f, indent=4, ensure_ascii=False)
+        print(f"Back translation results saved to {BACK_TRANSLATION_OUTPUT_PATH}")
+
 
 if __name__ == "__main__":
 
@@ -374,44 +380,43 @@ if __name__ == "__main__":
 
         print(f"Loaded {len(train_data)} training examples. Loaded {len(test_data)} testing examples.")
 
-        # Create MedPrompt system using Ollama
-        medprompt = MedPromptSystem(model_name="phi4:latest")
+        models_to_test = ["qwen2.5:1.5b", "qwen2.5:7b", "llama3.1:latest"]
         
-        # Check which models are available in Ollama
-        available_models = medprompt.ollama.list_models()
-        print(f"Available Ollama models: {available_models}")
+        for model_name in models_to_test:
+            print(f"Testing model: {model_name}")
+            MODEL_NAME = model_name
+            
+            # Create MedPrompt system using Ollama
+            medprompt = MedPromptSystem(model_name=model_name)
+            
+            # Check which models are available in Ollama
+            available_models = medprompt.ollama.list_models()
+            print(f"Available Ollama models: {available_models}")
+            
+            # Run preprocessing if needed
+            # medprompt.preprocess(train_data)
+            
+            # Process test set
+            medprompt.process_test_set(test_data)
         
-        # Run preprocessing if needed
-        # medprompt.preprocess(train_data)
+        # # Evaluate both forward and back translation
+        # forward_evaluator = EvaluateMetric('/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/translated_output_qwen2.5:3b.json', "translated_spanish", "target_spanish", "original_english")
+        # back_translation_evaluator = EvaluateMetric('/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/back_translated_output_qwen2.5:3b.json', "back_translated_english", "original_english", "original_english")
 
-        # # Example usage for running model on a single text
-        # # example_english = "The patient was diagnosed with hypertension and prescribed lisinopril 10mg daily."
-        # # spanish_translation = medprompt.generate_translation(example_english)
-        # # translated_json = json.loads(spanish_translation)
-        # # translated_spanish = translated_json.get("response", "").strip()
-        # # print(f"Translation: {translated_spanish}")
-        
-        # Process test set
-        medprompt.process_test_set(test_data)
-        
-        # Evaluate both forward and back translation
-        forward_evaluator = EvaluateMetric(OUTPUT_JSON_PATH, "translated_spanish", "target_spanish", "original_english")
-        back_translation_evaluator = EvaluateMetric(BACK_TRANSLATION_OUTPUT_PATH, "back_translated_english", "original_english", "original_english")
-
-        # Compute metrics for forward and back translation
-        print("Forward Translation Metrics:")
-        forward_evaluator.evaluate("BLEU")
+        # # Compute metrics for forward and back translation
+        # print("Forward Translation Metrics:")
+        # forward_evaluator.evaluate("BLEU")
         # forward_evaluator.evaluate("ROUGE")
         # forward_evaluator.evaluate("BERTSCORE")
-        forward_evaluator.evaluate("COMET")
-        forward_evaluator.evaluate("CHRF")
+        # forward_evaluator.evaluate("COMET")
+        # forward_evaluator.evaluate("CHRF")
 
-        print("\nBack Translation Metrics:")
-        back_translation_evaluator.evaluate("BLEU")
+        # print("\nBack Translation Metrics:")
+        # back_translation_evaluator.evaluate("BLEU")
         # back_translation_evaluator.evaluate("ROUGE")
         # back_translation_evaluator.evaluate("BERTSCORE", lang="en")
-        back_translation_evaluator.evaluate("COMET")
-        back_translation_evaluator.evaluate("CHRF")
+        # back_translation_evaluator.evaluate("COMET")
+        # back_translation_evaluator.evaluate("CHRF")
         
     except Exception as e:
         print(f"Error in main execution: {e}")
