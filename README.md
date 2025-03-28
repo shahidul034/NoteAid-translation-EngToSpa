@@ -1,5 +1,5 @@
 # Result
-## Phi-4 (Finetune)
+## Phi-4 (Finetune) (gpt)
 
 | Contextual Information                                           | Direct Avg BLEU | Direct Avg CHRF+ | Back Avg BLEU | Back Avg CHRF+ |
 |------------------------------------------------------------------|----------------|-----------------|---------------|---------------|
