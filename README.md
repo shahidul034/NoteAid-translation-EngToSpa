@@ -24,17 +24,21 @@
 | Knowledge graphs of each concept generated using GPT-4o Mini    | 24.43          | 16.74           | 27.82         | 12.73         |
 
 
-## Qwen2.5 14B (finetune) (Alpaca)
 
-| Contextual Information | Direct Avg BLEU | Direct Avg CHRF+ | Back Avg BLEU | Back Avg CHRF+ | Total Data |
-|------------------------|----------------|------------------|---------------|---------------|------------|
-| Translation dictionary based on UMLS | 26.93 | 18.84 | 36.94 | 27.15 | 100 |
-| Direct translation without context | 26.13 | 19.73 | 34.85 | 24.99 | 100 |
-| Conceptual relationships extracted from the UMLS | 26.72 | 20.67 | 35.78 | 28.73 | 100 |
-| Synonyms of each concept obtained from UMLS | 27.01 | 21.86 | 38.77 | 29.53 | 100 |
-| Knowledge graphs of each concept generated using GPT-4o Mini | 27.30 | 19.32 | 37.86 | 29.95 | 100 |
-| Multilingual translations of each concept obtained from GPT-4o Mini | 27.77 | 22.19 | 40.46 | 33.61 | 100 |
-| Synonyms of each concept derived from GPT-4o Mini | 28.39 | 23.65 | 40.42 | 35.02 | 100 |
+
+## Qwen2.5 14B (finetune) (gpt)
+
+| Contextual Information                                      | Direct Avg BLEU | Direct Avg CHRF+ | Back Avg BLEU | Back Avg CHRF+ | Total Data |
+|-------------------------------------------------------------|-----------------|------------------|---------------|---------------|------------|
+| Direct translation without context                         | 38.63           | 23.53            | 52.89         | 30.43         | 100        |
+| Multilingual translations of each concept (GPT-4o Mini)    | 41.95           | 25.93            | 38.44         | 28.92         | 100        |
+| Synonyms of each concept obtained from UMLS                | 39.71           | 24.76            | 44.04         | 28.51         | 100        |
+| Synonyms of each concept derived from GPT-4o Mini         | 39.17           | 23.82            | 41.62         | 31.05         | 100        |
+| Conceptual relationships extracted from UMLS              | 40.37           | 24.87            | 30.56         | 21.35         | 100        |
+| Translation dictionary based on UMLS                      | 39.47           | 26.28            | 13.61         | 14.63         | 100        |
+| Knowledge graphs of each concept (GPT-4o Mini)           | 39.91           | 22.97            | 50.84         | 30.84         | 100        |
+
+
 
 
 ## Qwen2.5 14B (without finetune) (Alpaca)
