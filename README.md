@@ -64,7 +64,7 @@
 | conceptual relationships extracted from the UMLS           | 33.27          | 21.09           | 48.62         | 27.41          | 0.8425          | 0.8425         |
 | Direct translation without context                           | 34.47          | 22.11           | 48.59         | 29.96          | 0.8502          | 0.8502         |
 | Multilingual translations of each concept from GPT-4o Mini | 33.15          | 19.67           | 51.05         | 38.42          | 0.8481          | 0.8481         |
-| synonyms of each concept obtained from UMLS (Meta-Llama-3.1-8B-Instruct_alpaca_alpaca) | 32.52          | 21.83           | 51.25         | 30.14          | 0.8357          | 0.8357         |
+| synonyms of each concept obtained from UMLS | 32.52          | 21.83           | 51.25         | 30.14          | 0.8357          | 0.8357         |
 
 
 
