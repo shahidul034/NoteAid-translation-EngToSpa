@@ -55,13 +55,31 @@
 
 ## Meta-Llama-3.1-8B-Instruct (finetune) (Alpaca)
 
+
 | Contextual Information                                   | Direct Avg BLEU | Direct Avg CHRF+ | Back Avg BLEU | Back Avg CHRF+ | Direct Avg COMET | Back Avg COMET |
 |----------------------------------------------------------|----------------|-----------------|---------------|----------------|-----------------|----------------|
-| **synonyms of each concept derived from GPT-4o Mini**             | **33.12**      | **23.25**       | 54.86         | **38.17**      | **0.8526**      | **0.8526**     |
-| **Translation dictionary based on UMLS**                | **34.13**      | 21.10           | **54.43**     | **34.39**      | **0.8483**      | **0.8483**     |
-| **Knowledge graphs of each concept from GPT-4o Mini**   | **35.62**      | **22.33**       | 51.45         | 33.79          | **0.8419**      | **0.8419**     |
-| **conceptual relationships extracted from the UMLS**           | **33.27**      | **21.09**       | **48.62**     | **27.41**      | 0.8425          | 0.8425         |
-| **Direct translation without context**                           | **34.47**      | **22.11**       | **48.59**     | **29.96**      | **0.8502**      | **0.8502**     |
-| **Multilingual translations of each concept from GPT-4o Mini** | **33.15** | 19.67           | **51.05**     | **38.42**      | 0.8481          | 0.8481         |
+| synonyms of each concept derived from GPT-4o Mini             | 33.12          | 23.25           | 54.86         | 38.17          | 0.8526          | 0.8526         |
+| Translation dictionary based on UMLS                | 34.13          | 21.10           | 54.43         | 34.39          | 0.8483          | 0.8483         |
+| Knowledge graphs of each concept from GPT-4o Mini   | 35.62          | 22.33           | 51.45         | 33.79          | 0.8419          | 0.8419         |
+| conceptual relationships extracted from the UMLS           | 33.27          | 21.09           | 48.62         | 27.41          | 0.8425          | 0.8425         |
+| Direct translation without context                           | 34.47          | 22.11           | 48.59         | 29.96          | 0.8502          | 0.8502         |
+| Multilingual translations of each concept from GPT-4o Mini | 33.15          | 19.67           | 51.05         | 38.42          | 0.8481          | 0.8481         |
+| synonyms of each concept obtained from UMLS (Meta-Llama-3.1-8B-Instruct_alpaca_alpaca) | 32.52          | 21.83           | 51.25         | 30.14          | 0.8357          | 0.8357         |
+
+
+
+
+## Meta-Llama-3.1-8B-Instruct (without finetune) (Alpaca)
+
+
+| Contextual Information | Direct Avg BLEU | Direct Avg CHRF+ | Back Avg BLEU | Back Avg CHRF+ | Direct Avg COMET | Back Avg COMET | Total Number of Data |
+|------------------------|----------------|------------------|--------------|--------------|----------------|----------------|------------------|
+| Synonyms of each concept derived from GPT-4o Mini | 27.11 | 20.07 | 42.08 | 33.27 | 0.7528 | 0.7528 | 100 |
+| Translation dictionary based on UMLS | 27.54 | 19.23 | 47.32 | 36.92 | 0.7921 | 0.7921 | 100 |
+| Knowledge graphs of each concept generated using GPT-4o Mini | 25.99 | 15.93 | 43.19 | 32.97 | 0.7458 | 0.7458 | 100 |
+| Conceptual relationships extracted from the UMLS | 27.03 | 18.16 | 43.90 | 36.33 | 0.7760 | 0.7760 | 100 |
+| Direct translation without context | 29.36 | 18.94 | 42.87 | 28.21 | 0.8113 | 0.8113 | 100 |
+| Multilingual translations of each concept obtained from GPT-4o Mini | 27.70 | 20.11 | 44.52 | 40.09 | 0.7871 | 0.7871 | 100 |
+| Synonyms of each concept obtained from UMLS | 29.13 | 17.56 | 46.14 | 29.83 | 0.7915 | 0.7915 | 100 |
 
 
