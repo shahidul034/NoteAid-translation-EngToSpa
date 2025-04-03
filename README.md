@@ -88,4 +88,27 @@
 | Multilingual translations of each concept obtained from GPT-4o Mini | 27.70 | 20.11 | 44.52 | 40.09 | 0.7871 | 0.7871 | 100 |
 | Synonyms of each concept obtained from UMLS | 29.13 | 17.56 | 46.14 | 29.83 | 0.7915 | 0.7915 | 100 |
 
+ ## Qwen2.5 3B (finetune) (gpt)
+
+| Contextual Information | Direct Avg BLEU | Direct Avg chrF+ | Back Avg BLEU | Back Avg chrF+ | Direct Avg COMET | Back Avg COMET | Total Data |
+|------------------------|----------------|------------------|---------------|---------------|------------------|---------------|------------|
+| Direct translation without context | 38.83 | 22.33 | 49.35 | 26.30 | 0.856 | 0.856 | 99 |
+| Translation dictionary based on UMLS | 38.76 | 22.85 | 9.69 | 10.19 | 0.852 | 0.852 | 100 |
+| Synonyms of each concept derived from GPT-4o Mini | 37.83 | 23.72 | 38.42 | 21.71 | 0.854 | 0.854 | 100 |
+| Multilingual translations of each concept obtained from GPT-4o Mini | 38.41 | 22.47 | 9.77 | 10.33 | 0.856 | 0.856 | 100 |
+| Knowledge graphs of each concept generated using GPT-4o Mini | 40.88 | 24.61 | 39.57 | 23.03 | 0.851 | 0.851 | 99 |
+| Conceptual relationships extracted from the UMLS | 36.31 | 22.78 | 18.88 | 14.53 | 0.852 | 0.852 | 99 |  
+
+  ## Qwen2.5 3B (without finetune)
+
+| Contextual Information                                      | Direct Avg BLEU | Direct Avg chrF+ | Back Avg BLEU | Back Avg chrF+ | Direct Avg COMET | Back Avg COMET | Total Data |
+|------------------------------------------------------------|-----------------|------------------|---------------|---------------|------------------|----------------|------------|
+| Direct translation without context                        | 29.10           | 17.99            | 40.81         | 23.39         | 0.8262           | 0.8262         | 100        |
+| Synonyms of each concept obtained from UMLS               | 21.73           | 12.69            | 21.34         | 10.14         | 0.7416           | 0.7416         | 98         |
+| Translation dictionary based on UMLS                      | 22.73           | 13.52            | 30.71         | 18.46         | 0.7485           | 0.7485         | 99         |
+| Synonyms of each concept derived from GPT-4o Mini        | 28.31           | 19.44            | 41.82         | 21.54         | 0.8225           | 0.8225         | 99         |
+| Conceptual relationships extracted from the UMLS         | 23.41           | 13.51            | 32.86         | 17.86         | 0.7679           | 0.7679         | 99         |
+| Knowledge graphs of each concept generated using GPT-4o Mini | 24.14           | 12.07            | 35.25         | 20.93         | 0.7973           | 0.7973         | 98         |
+| Multilingual translations of each concept obtained from GPT-4o Mini | 27.25           | 18.59            | 41.15         | 22.00         | 0.8175           | 0.8175         | 99         |
+
 
