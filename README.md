@@ -5,7 +5,7 @@
 |------------------------|----------------|------------------|-----------------|------------|
 | Conceptual relationships extracted from the UMLS | 42.13 | 29.89 | 0.85996 | 100 |
 | Synonyms of each concept derived from GPT-4o Mini | 42.10 | 29.47 | 0.86270 | 100 |
-| Multilingual translations of each concept obtained from GPT-4o Mini | 44.23 | 28.91 | 0.86299 | 100 |
+| ✅ Multilingual translations of each concept obtained from GPT-4o Mini | 44.23 | 28.91 | 0.86299 | 100 |
 | Translation dictionary based on UMLS | 41.38 | 25.39 | 0.85409 | 100 |
 | Synonyms of each concept obtained from UMLS | 42.76 | 28.14 | 0.85026 | 100 |
 | Knowledge graphs of each concept generated using GPT-4o Mini | 42.15 | 26.72 | 0.85488 | 100 |
@@ -21,14 +21,14 @@
 | Knowledge graphs of each concept generated using GPT-4o Mini | 28.03 | 18.86 | 0.723 | 83 |
 | Multilingual translations of each concept obtained from GPT-4o Mini | 24.47 | 12.89 | 0.790 | 97 |
 | Synonyms of each concept obtained from UMLS | 32.31 | 19.74 | 0.792 | 96 |
-| Translation dictionary based on UMLS | 35.89 | 20.17 | 0.835 | 91 |
+| ✅ Translation dictionary based on UMLS | 35.89 | 20.17 | 0.835 | 91 |
 | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context | 18.77 | 8.79 | 0.643 | 65 |
 
 ## Qwen2.5 14B (Finetuned) (GPT)
 
 | Contextual Information | Direct Avg BLEU | Direct Avg chrF+ | Direct Avg COMET | Total Data |
 |------------------------|----------------|------------------|-----------------|------------|
-| Multilingual translations of each concept obtained from GPT-4o Mini | 41.95 | 25.93 | 0.8614 | 100 |
+| ✅ Multilingual translations of each concept obtained from GPT-4o Mini | 41.95 | 25.93 | 0.8614 | 100 |
 | Synonyms of each concept obtained from UMLS | 39.71 | 24.76 | 0.8482 | 100 |
 | Synonyms of each concept derived from GPT-4o Mini | 39.17 | 23.82 | 0.8572 | 100 |
 | Conceptual relationships extracted from the UMLS | 40.37 | 24.87 | 0.8587 | 100 |
@@ -45,7 +45,7 @@
 | Conceptual relationships extracted from UMLS | 34.70 | 21.29 | 0.8491 | 100 |
 | Synonyms of each concept derived from GPT-4o Mini | 33.05 | 21.60 | 0.8420 | 100 |
 | Synonyms of each concept obtained from UMLS | 33.51 | 21.06 | 0.8323 | 100 |
-| Multilingual translations of each concept obtained from GPT-4o Mini | 41.95 | 25.93 | 0.8614 | 100 |
+| ✅ Multilingual translations of each concept obtained from GPT-4o Mini | 41.95 | 25.93 | 0.8614 | 100 |
 | Knowledge graphs of each concept generated using GPT-4o Mini | 35.55 | 21.27 | 0.8438 | 100 |  
 | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context | 34.13 | 21.28 | 0.8314 | 100 |
 
@@ -54,7 +54,7 @@
 
 | Contextual Information | Direct Avg BLEU | Direct Avg CHRF+ | Direct Avg COMET |
 |----------------------------------------------------------|----------------|-----------------|-----------------|
-| Synonyms of each concept derived from GPT-4o Mini | 33.12 | 23.25 | 0.8526 |
+| ✅  Synonyms of each concept derived from GPT-4o Mini | 33.12 | 23.25 | 0.8526 |
 | Translation dictionary based on UMLS | 34.13 | 21.10 | 0.8483 |
 | Knowledge graphs of each concept from GPT-4o Mini | 35.62 | 22.33 | 0.8419 |
 | Conceptual relationships extracted from the UMLS | 33.27 | 21.09 | 0.8425 |
@@ -73,7 +73,7 @@
 | Conceptual relationships extracted from the UMLS | 27.03 | 18.16 | 0.7760 | 100 |
 | Multilingual translations of each concept obtained from GPT-4o Mini | 27.70 | 20.11 | 0.7871 | 100 |
 | Synonyms of each concept obtained from UMLS | 29.13 | 17.56 | 0.7915 | 100 |
-| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context | 29.36 | 18.94 | 0.8113 | 100 |
+| ✅ ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context | 29.36 | 18.94 | 0.8113 | 100 |
 
 
 ## Qwen2.5 7B (finetune) (gpt)  
@@ -83,7 +83,7 @@
 | Translation dictionary based on UMLS                      | 38.76           | 23.63            | 0.8529           | 98         |
 | Synonyms of each concept derived from GPT-4o Mini        | 38.43           | 24.05            | 0.8580           | 97         |
 | Multilingual translations of each concept obtained from GPT-4o Mini | 38.86           | 22.80            | 0.8565           | 100        |
-| Knowledge graphs of each concept generated using GPT-4o Mini | 40.47           | 24.58            | 0.8487           | 96         |
+| ✅ Knowledge graphs of each concept generated using GPT-4o Mini | 40.47           | 24.58            | 0.8487           | 96         |
 | Synonyms of each concept obtained from UMLS               | 38.24           | 23.40            | 0.8449           | 100        |
 | Conceptual relationships extracted from the UMLS         | 38.83           | 24.35            | 0.8525           | 94         |
 | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 39.09           | 23.94            | 0.8555           | 96         |
@@ -96,7 +96,7 @@
 | Conceptual relationships extracted from the UMLS         | 25.30           | 16.59            | 0.7598           | 100        |
 | Knowledge graphs of each concept generated using GPT-4o Mini | 26.85           | 18.01            | 0.7717           | 100        |
 | Synonyms of each concept obtained from UMLS               | 19.29           | 10.88            | 0.6970           | 95         |
-| Multilingual translations of each concept obtained from GPT-4o Mini | 33.40           | 20.35            | 0.8451           | 100        |
+| ✅ Multilingual translations of each concept obtained from GPT-4o Mini | 33.40           | 20.35            | 0.8451           | 100        |
 | Synonyms of each concept derived from GPT-4o Mini        | 31.07           | 19.14            | 0.8211           | 99         |
 | Translation dictionary based on UMLS                      | 24.50           | 16.58            | 0.7607           | 99         |
 | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 31.77           | 21.54            | 0.8402           | 100        |
@@ -110,7 +110,7 @@
 | Translation dictionary based on UMLS                      | 38.76           | 22.85            | 0.852            | 100        |
 | Synonyms of each concept derived from GPT-4o Mini        | 37.83           | 23.72            | 0.854            | 100        |
 | Multilingual translations of each concept obtained from GPT-4o Mini | 38.41           | 22.47            | 0.856            | 100        |
-| Knowledge graphs of each concept generated using GPT-4o Mini | 40.88           | 24.61            | 0.851            | 99         |
+| ✅ Knowledge graphs of each concept generated using GPT-4o Mini | 40.88           | 24.61            | 0.851            | 99         |
 | Conceptual relationships extracted from the UMLS         | 36.31           | 22.78            | 0.852            | 99         |
 | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 38.83           | 22.33            | 0.856            | 99         |
 
@@ -125,7 +125,7 @@
 | Conceptual relationships extracted from the UMLS         | 23.41           | 13.51            | 0.7679           | 99         |
 | Knowledge graphs of each concept generated using GPT-4o Mini | 24.14           | 12.07            | 0.7973           | 98         |
 | Multilingual translations of each concept obtained from GPT-4o Mini | 27.25           | 18.59            | 0.8175           | 99         |
-| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 29.10           | 17.99            | 0.8262           | 100        |
+| ✅ ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 29.10           | 17.99            | 0.8262           | 100        |
 
 
 ## Qwen2.5 1.5B (finetune) (gpt)  
@@ -138,7 +138,7 @@
 | Synonyms of each concept obtained from UMLS               | 25.13           | 19.03            | 0.8234           | 99         |
 | Conceptual relationships extracted from the UMLS         | 26.99           | 20.47            | 0.8247           | 99         |
 | Knowledge graphs of each concept generated using GPT-4o Mini | 25.10           | 16.97            | 0.8131           | 100        |
-| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 29.01           | 20.52            | 0.8373           | 100        |
+| ✅ ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 29.01           | 20.52            | 0.8373           | 100        |
 
 
 ## Qwen2.5 1.5B (without finetune)  
@@ -146,7 +146,7 @@
 | Contextual Information                                      | Direct Avg BLEU | Direct Avg chrF+ | Direct Avg COMET | Total Data |
 |------------------------------------------------------------|-----------------|------------------|------------------|------------|
 | Synonyms of each concept derived from GPT-4o Mini        | 24.57           | 17.68            | 0.8149           | 100        |
-| Multilingual translations of each concept obtained from GPT-4o Mini | 25.57           | 18.71            | 0.8253           | 100        |
+| ✅ Multilingual translations of each concept obtained from GPT-4o Mini | 25.57           | 18.71            | 0.8253           | 100        |
 | Translation dictionary based on UMLS                      | 26.05           | 19.83            | 0.8104           | 100        |
 | Conceptual relationships extracted from the UMLS         | 25.32           | 17.10            | 0.8211           | 99         |
 | Knowledge graphs of each concept generated using GPT-4o Mini | 22.19           | 13.56            | 0.7983           | 99         |
