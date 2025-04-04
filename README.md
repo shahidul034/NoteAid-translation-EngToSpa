@@ -63,7 +63,7 @@
 | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context | 34.47 | 22.11 | 0.8502 |
 
 
-## Meta-Llama-3.1-8B-Instruct (without finetune) (Alpaca)  
+## Meta-Llama-3.1-8B-Instruct (without finetune) (Alpaca)  ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)
 
 | Contextual Information | Direct Avg BLEU | Direct Avg CHRF+ | Direct Avg COMET | Total Data |
 |------------------------|----------------|------------------|------------------|------------|
@@ -115,7 +115,7 @@
 | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 38.83           | 22.33            | 0.856            | 99         |
 
 
-## Qwen2.5 3B (without finetune)  
+## Qwen2.5 3B (without finetune) ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) 
 
 | Contextual Information                                      | Direct Avg BLEU | Direct Avg chrF+ | Direct Avg COMET | Total Data |
 |------------------------------------------------------------|-----------------|------------------|------------------|------------|
@@ -128,7 +128,7 @@
 | ✅ ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 29.10           | 17.99            | 0.8262           | 100        |
 
 
-## Qwen2.5 1.5B (finetune) (gpt)  
+## Qwen2.5 1.5B (finetune) (gpt)  ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)
 
 | Contextual Information                                      | Direct Avg BLEU | Direct Avg chrF+ | Direct Avg COMET | Total Data |
 |------------------------------------------------------------|-----------------|------------------|------------------|------------|
