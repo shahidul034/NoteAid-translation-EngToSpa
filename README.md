@@ -63,7 +63,7 @@
 | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context | 34.47 | 22.11 | 0.8502 |
 
 
-## Meta-Llama-3.1-8B-Instruct (without finetune) (Alpaca)  ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)
+## Meta-Llama-3.1-8B-Instruct (without finetune) (Alpaca)  
 
 | Contextual Information | Direct Avg BLEU | Direct Avg CHRF+ | Direct Avg COMET | Total Data |
 |------------------------|----------------|------------------|------------------|------------|
