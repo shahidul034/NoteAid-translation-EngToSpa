@@ -67,13 +67,13 @@
 
 | Contextual Information | Direct Avg BLEU | Direct Avg CHRF+ | Direct Avg COMET | Total Data |
 |------------------------|----------------|------------------|------------------|------------|
-| Synonyms of each concept derived from GPT-4o Mini | 27.11 | 20.07 | 0.7528 | 100 |
+| ✅ Synonyms of each concept derived from GPT-4o Mini | 30.224 | 20.07 | 0.798 | 100 |
 | Translation dictionary based on UMLS | 27.54 | 19.23 | 0.7921 | 100 |
 | Knowledge graphs of each concept generated using GPT-4o Mini | 25.99 | 15.93 | 0.7458 | 100 |
 | Conceptual relationships extracted from the UMLS | 27.03 | 18.16 | 0.7760 | 100 |
-| Multilingual translations of each concept obtained from GPT-4o Mini | 27.70 | 20.11 | 0.7871 | 100 |
-| Synonyms of each concept obtained from UMLS | 29.13 | 17.56 | 0.7915 | 100 |
-| ✅ ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context | 29.36 | 18.94 | 0.8113 | 100 |
+| Multilingual translations of each concept obtained from GPT-4o Mini | 28.637 | 21.84 | 0.8083 | 100 |
+| Synonyms of each concept obtained from UMLS | 29.37 | 19.69 | 0.7949 | 100 |
+| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context | 29.36 | 18.94 | 0.8113 | 100 |
 
 
 ## Qwen2.5 7B (finetune) (gpt)  
