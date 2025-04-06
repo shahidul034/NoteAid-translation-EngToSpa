@@ -115,7 +115,7 @@
 | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 38.83           | 22.33            | 0.856            | 99         |
 
 
-## Qwen2.5 3B (without finetune) ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) 
+## Qwen2.5 3B (without finetune) 
 
 | Contextual Information                                      | Direct Avg BLEU | Direct Avg chrF+ | Direct Avg COMET | Total Data |
 |------------------------------------------------------------|-----------------|------------------|------------------|------------|
@@ -151,9 +151,8 @@
 | Synonyms of each concept obtained from UMLS                    | 23.73            | 16.39              | 0.8226            | 100                    |
 | Translation dictionary based on UMLS                           | 24.73            | 17.08              | 0.8256            | 100                    |
 | Knowledge graphs of each concept generated using GPT-4o Mini   | 25.08            | 17.27              | 0.8154            | 100                    |
-| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                             | 27.61            | 19.98              | 0.8306            | 100                    |
 | ✅ Multilingual translations of each concept from GPT-4o Mini     | 27.83            | 19.01              | 0.8376            | 100                    |
 | Conceptual relationships extracted from the UMLS               | 26.30            | 18.09              | 0.8273            | 100                    |
-
+| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                             | 27.61            | 19.98              | 0.8306            | 100                    |
 
 
