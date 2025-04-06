@@ -144,13 +144,16 @@
 
 ## Qwen2.5 1.5B (without finetune)  
 
-| Contextual Information                                      | Direct Avg BLEU | Direct Avg chrF+ | Direct Avg COMET | Total Data |
-|------------------------------------------------------------|-----------------|------------------|------------------|------------|
-| Synonyms of each concept derived from GPT-4o Mini        | 24.57           | 17.68            | 0.8149           | 100        |
-| ✅ Multilingual translations of each concept obtained from GPT-4o Mini | 25.57           | 18.71            | 0.8253           | 100        |
-| Translation dictionary based on UMLS                      | 26.05           | 19.83            | 0.8104           | 100        |
-| Conceptual relationships extracted from the UMLS         | 25.32           | 17.10            | 0.8211           | 99         |
-| Knowledge graphs of each concept generated using GPT-4o Mini | 22.19           | 13.56            | 0.7983           | 99         |
-| Synonyms of each concept obtained from UMLS               | 23.12           | 14.07            | 0.7954           | 100        |
-| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 26.44           | 14.51            | 0.8174           | 100        |
+
+| Contextual Information                                         | Direct Avg BLEU | Direct Avg chrF++ | Direct Avg COMET | Total Number of Data |
+|----------------------------------------------------------------|------------------|--------------------|-------------------|------------------------|
+| Synonyms of each concept derived from GPT-4o Mini              | 26.78            | 18.13              | 0.8308            | 100                    |
+| Synonyms of each concept obtained from UMLS                    | 23.73            | 16.39              | 0.8226            | 100                    |
+| Translation dictionary based on UMLS                           | 24.73            | 17.08              | 0.8256            | 100                    |
+| Knowledge graphs of each concept generated using GPT-4o Mini   | 25.08            | 17.27              | 0.8154            | 100                    |
+| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                             | 27.61            | 19.98              | 0.8306            | 100                    |
+| ✅ Multilingual translations of each concept from GPT-4o Mini     | 27.83            | 19.01              | 0.8376            | 100                    |
+| Conceptual relationships extracted from the UMLS               | 26.30            | 18.09              | 0.8273            | 100                    |
+
+
 
