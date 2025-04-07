@@ -147,7 +147,7 @@
 ## 2) Direct Translation Without Context — Finetuned vs. Without Finetune
 ## 3) (Finetune + With Context) vs (Finetune + No Context)
 
-
+---
 
 ### 1) **Without Finetune + With Context** vs **Without Finetune + No Context**
 
