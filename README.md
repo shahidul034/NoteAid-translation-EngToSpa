@@ -166,6 +166,8 @@
 
 ---
 
+![image](https://github.com/user-attachments/assets/a078068c-b218-4d79-98c7-906b13292405)
+
 ### ✅ Summary:
 - **BLEU** and **COMET** generally increase when *context is added*, even without finetuning.
 - **chrF+** shows mixed results (sometimes slightly lower with context), but overall improvements are mostly visible in **BLEU and COMET**, which are more comprehensive indicators.
@@ -187,6 +189,8 @@
 | **Qwen2.5 3B (No Finetune)**  | ❌         | 28.62 | 17.19 | 0.8274 |
 | **Meta-Llama-3.1-8B (No Finetune)** | ❌    | 29.36 | 18.94 | 0.8113 |
 | **Phi-4 (No Finetune)**       | ❌         | 18.77 | 8.79  | 0.643 |
+---
+![image](https://github.com/user-attachments/assets/153faf43-bdb5-4a42-a594-0aefc74bd639)
 
 
 ### ✅ Summary:
@@ -214,6 +218,8 @@
 |                                     | ❌ No context              | 38.83    | 22.33     | **0.856**  |
 
 ---
+![image](https://github.com/user-attachments/assets/c45d2e94-9500-4b21-9f7c-1e81f78c9035)
+
 
 ### ✅ Summary:
 
