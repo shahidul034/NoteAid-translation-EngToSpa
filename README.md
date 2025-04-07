@@ -143,13 +143,13 @@
 
 
 ---
-1) (Without Finetune + With Context) vs (Without Finetune + No Context)
-2) Direct Translation Without Context — Finetuned vs. Without Finetune
-3) (Finetune + With Context) vs (Finetune + No Context)
+## 1) (Without Finetune + With Context) vs (Without Finetune + No Context)
+## 2) Direct Translation Without Context — Finetuned vs. Without Finetune
+## 3) (Finetune + With Context) vs (Finetune + No Context)
 
 
 
-### 1) **Without Finetune + With Context** vs ❌ **Without Finetune + No Context**
+### 1) **Without Finetune + With Context** vs **Without Finetune + No Context**
 
 | Model                              | Context Type                    | BLEU ↑  | chrF+ ↑ | COMET ↑  |
 |-----------------------------------|----------------------------------|--------|--------|----------|
@@ -166,7 +166,7 @@
 
 ---
 
-### 🔍 **Observation**:
+### ✅ Summary:
 - **BLEU** and **COMET** generally increase when *context is added*, even without finetuning.
 - **chrF+** shows mixed results (sometimes slightly lower with context), but overall improvements are mostly visible in **BLEU and COMET**, which are more comprehensive indicators.
 - Context seems **especially effective** in larger models (Phi-4, Qwen2.5 14B) and for multilingual embeddings.
@@ -215,7 +215,7 @@
 
 ---
 
-### 🧠 Key Takeaways:
+### ✅ Summary:
 
 - In most **finetuned** settings, **contextual input improves BLEU and chrF+**, and **slightly improves or maintains COMET** scores.
 - The **Phi-4** model shows the **most significant gains** with contextual translations.
