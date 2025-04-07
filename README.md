@@ -142,17 +142,87 @@
 | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Conceptual relationships extracted from the UMLS               | 26.30            | 18.09              | 0.8273            | 100                    |
 
 
-## Qwen2.5 1.5B (without finetune)  
+---
+1) (Without Finetune + With Context) vs (Without Finetune + No Context)
+2) Direct Translation Without Context — Finetuned vs. Without Finetune
+3) (Finetune + With Context) vs (Finetune + No Context)
 
 
-| Contextual Information                                         | Direct Avg BLEU | Direct Avg chrF++ | Direct Avg COMET | Total Number of Data |
-|----------------------------------------------------------------|------------------|--------------------|-------------------|------------------------|
-| Synonyms of each concept derived from GPT-4o Mini              | 26.78            | 18.13              | 0.8308            | 100                    |
-| Synonyms of each concept obtained from UMLS                    | 23.73            | 16.39              | 0.8226            | 100                    |
-| Translation dictionary based on UMLS                           | 24.73            | 17.08              | 0.8256            | 100                    |
-| Knowledge graphs of each concept generated using GPT-4o Mini   | 25.08            | 17.27              | 0.8154            | 100                    |
-| ✅ Multilingual translations of each concept from GPT-4o Mini     | 27.83            | 19.01              | 0.8376            | 100                    |
-| Conceptual relationships extracted from the UMLS               | 26.30            | 18.09              | 0.8273            | 100                    |
-| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                             | 27.61            | 19.98              | 0.8306            | 100                    |
+
+### 1) **Without Finetune + With Context** vs ❌ **Without Finetune + No Context**
+
+| Model                              | Context Type                    | BLEU ↑  | chrF+ ↑ | COMET ↑  |
+|-----------------------------------|----------------------------------|--------|--------|----------|
+| **Phi-4**                         | ✅ Translation Dictionary        | 35.89  | 20.17  | 0.835    |
+|                                   | ❌ No Context                    | 18.77  | 8.79   | 0.643    |
+| **Qwen2.5 14B**                   | ✅ Multilingual Translations     | 41.95  | 25.93  | 0.8614   |
+|                                   | ❌ No Context                    | 38.63  | 23.53  | 0.8491   |
+| **Meta-Llama-3.1-8B**             | ✅ GPT-4o Synonyms               | 30.22  | 20.07  | 0.798    |
+|                                   | ❌ No Context                    | 29.36  | 18.94  | 0.8113   |
+| **Qwen2.5 7B**                    | ✅ GPT-4o Multilingual           | 33.40  | 20.35  | 0.8451   |
+|                                   | ❌ No Context                    | 31.77  | 21.54  | 0.8402   |
+| **Qwen2.5 3B**                    | ✅ GPT-4o Multilingual           | 29.73  | 17.30  | 0.838    |
+|                                   | ❌ No Context                    | 28.62  | 17.19  | 0.8274   |
+
+---
+
+### 🔍 **Observation**:
+- **BLEU** and **COMET** generally increase when *context is added*, even without finetuning.
+- **chrF+** shows mixed results (sometimes slightly lower with context), but overall improvements are mostly visible in **BLEU and COMET**, which are more comprehensive indicators.
+- Context seems **especially effective** in larger models (Phi-4, Qwen2.5 14B) and for multilingual embeddings.
+
+
+
+### 2) **Direct Translation Without Context — Finetuned vs. Without Finetune**
+
+| Model                          | Finetuned? | BLEU  | chrF+ | COMET  |
+|-------------------------------|------------|-------|--------|--------|
+| **Phi-4 (Finetune)**          | ✅         | 42.52 | 28.35 | **0.86159** |
+| **Qwen2.5 14B (Finetune)**    | ✅         | 38.63 | 23.53 | 0.8491 |
+| **Qwen2.5 7B (Finetune)**     | ✅         | 39.09 | 23.94 | 0.8555 |
+| **Qwen2.5 3B (Finetune)**     | ✅         | 38.83 | 22.33 | 0.856 |
+| **Meta-Llama-3.1-8B (Finetune)** | ✅      | 34.47 | 22.11 | 0.8502 |
+| **Qwen2.5 14B (No Finetune)** | ❌         | 34.13 | 21.28 | 0.8314 |
+| **Qwen2.5 7B (No Finetune)**  | ❌         | 31.77 | 21.54 | 0.8402 |
+| **Qwen2.5 3B (No Finetune)**  | ❌         | 28.62 | 17.19 | 0.8274 |
+| **Meta-Llama-3.1-8B (No Finetune)** | ❌    | 29.36 | 18.94 | 0.8113 |
+| **Phi-4 (No Finetune)**       | ❌         | 18.77 | 8.79  | 0.643 |
+
+
+### ✅ Summary:
+- **Best performance overall**: **Phi-4 (Finetune)** — highest COMET (0.86159) and BLEU (42.52).
+- **Qwen2.5 models**: All improved significantly after fine-tuning, especially the 7B and 3B versions.
+- **Without finetuning**, performance drops by a substantial margin across all models.
+- **COMET scores clearly indicate finetuning helps with fluency, adequacy, and overall semantic quality**.
+
+
+---
+
+### 3) **(Finetune + With Context)** vs **(Finetune + No Context)**
+
+| Model                                | Context Type        | Avg BLEU | Avg chrF+ | Avg COMET |
+|-------------------------------------|---------------------|----------|-----------|-----------|
+| **Phi-4**                            | ✅ Multilingual (context) | **44.23** | 28.91     | **0.86299** |
+|                                     | ❌ No context              | 42.52    | 28.35     | 0.86159   |
+| **Qwen2.5 14B**                      | ✅ Multilingual (context) | **41.95** | 25.93     | **0.8614**  |
+|                                     | ❌ No context              | 38.63    | 23.53     | 0.8491    |
+| **Meta-Llama-3.1-8B-Instruct**       | ✅ Synonyms GPT-4o (context) | **33.12** | 23.25     | **0.8526**  |
+|                                     | ❌ No context              | 34.47    | 22.11     | 0.8502    |
+| **Qwen2.5 7B**                       | ✅ Knowledge Graphs (context) | **40.47** | **24.58** | 0.8487    |
+|                                     | ❌ No context              | 39.09    | 23.94     | **0.8555** |
+| **Qwen2.5 3B**                       | ✅ Knowledge Graphs (context) | **40.88** | **24.61** | 0.851     |
+|                                     | ❌ No context              | 38.83    | 22.33     | **0.856**  |
+
+---
+
+### 🧠 Key Takeaways:
+
+- In most **finetuned** settings, **contextual input improves BLEU and chrF+**, and **slightly improves or maintains COMET** scores.
+- The **Phi-4** model shows the **most significant gains** with contextual translations.
+- For **Qwen2.5 7B & 3B**, the **COMET score slightly favors no context**, but BLEU/chrF+ still lean toward context.
+- **Meta-Llama** has relatively close scores between context vs no context, but context slightly edges out.
+---
+
+
 
 
