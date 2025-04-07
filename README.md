@@ -177,18 +177,20 @@
 
 ### 2) **Direct Translation Without Context — Finetuned vs. Without Finetune**
 
-| Model                          | Finetuned? | BLEU  | chrF+ | COMET  |
-|-------------------------------|------------|-------|--------|--------|
-| **Phi-4 (Finetune)**          | ✅         | 42.52 | 28.35 | **0.86159** |
-| **Qwen2.5 14B (Finetune)**    | ✅         | 38.63 | 23.53 | 0.8491 |
-| **Qwen2.5 7B (Finetune)**     | ✅         | 39.09 | 23.94 | 0.8555 |
-| **Qwen2.5 3B (Finetune)**     | ✅         | 38.83 | 22.33 | 0.856 |
-| **Meta-Llama-3.1-8B (Finetune)** | ✅      | 34.47 | 22.11 | 0.8502 |
-| **Qwen2.5 14B (No Finetune)** | ❌         | 34.13 | 21.28 | 0.8314 |
-| **Qwen2.5 7B (No Finetune)**  | ❌         | 31.77 | 21.54 | 0.8402 |
-| **Qwen2.5 3B (No Finetune)**  | ❌         | 28.62 | 17.19 | 0.8274 |
-| **Meta-Llama-3.1-8B (No Finetune)** | ❌    | 29.36 | 18.94 | 0.8113 |
-| **Phi-4 (No Finetune)**       | ❌         | 18.77 | 8.79  | 0.643 |
+
+| Model                              | Context Type                    | BLEU ↑  | chrF+ ↑ | COMET ↑   |
+|-----------------------------------|----------------------------------|--------|--------|-----------|
+| **Phi-4**                         | ✅ Finetune                      | 42.52  | 28.35  | 0.86159   |
+|                                   | ❌ No Finetune                  | 18.77  | 8.79   | 0.643     |
+| **Qwen2.5 14B**                   | ✅ Finetune                      | 38.63  | 23.53  | 0.8491    |
+|                                   | ❌ No Finetune                  | 34.13  | 21.28  | 0.8314    |
+| **Qwen2.5 7B**                    | ✅ Finetune                      | 39.09  | 23.94  | 0.8555    |
+|                                   | ❌ No Finetune                  | 31.77  | 21.54  | 0.8402    |
+| **Qwen2.5 3B**                    | ✅ Finetune                      | 38.83  | 22.33  | 0.856     |
+|                                   | ❌ No Finetune                  | 28.62  | 17.19  | 0.8274    |
+| **Meta-Llama-3.1-8B**             | ✅ Finetune                      | 34.47  | 22.11  | 0.8502    |
+|                                   | ❌ No Finetune                  | 29.36  | 18.94  | 0.8113    |
+
 ---
 ![image](https://github.com/user-attachments/assets/153faf43-bdb5-4a42-a594-0aefc74bd639)
 
