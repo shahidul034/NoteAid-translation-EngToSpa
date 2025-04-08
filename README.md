@@ -128,18 +128,30 @@
 | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 28.62           | 17.19            | 0.8274           | 100        |
 
 
-## Qwen2.5 1.5B (finetune) (gpt) 
+## gemma-3-4b-it (finetune) 
 
+| Contextual Information                              | Direct Avg BLEU | Direct Avg CHRF+ | Direct Avg COMET | Total Number of Data |
+|-----------------------------------------------------|-----------------|------------------|------------------|----------------------|
+| Multilingual translations from GPT-4o Mini          | 33.537653       | 20.651310        | 0.850372         | 92                   |
+| Knowledge graphs from GPT-4o Mini                   | 31.034524       | 20.540510        | 0.804178         | 100                  |
+| Translation dictionary based on UMLS                | 31.940803       | 21.000840        | 0.803133         | 100                  |
+| Direct translation without context                  | 31.075494       | 20.361984        | 0.808408         | 100                  |
+| Conceptual relationships from UMLS                  | 31.495731       | 20.159258        | 0.804560         | 100                  |
+| Synonyms of each concept from GPT-4o Mini           | 35.326784       | 19.963963        | 0.850694         | 98                   |
+| Synonyms of each concept from UMLS                  | 32.422672       | 21.733465        | 0.805412         | 100                  |
 
-| Contextual Information                                         | Direct Avg BLEU | Direct Avg chrF++ | Direct Avg COMET | Total Number of Data |
-|----------------------------------------------------------------|------------------|--------------------|-------------------|------------------------|
-| Synonyms of each concept derived from GPT-4o Mini              | 26.78            | 18.13              | 0.8308            | 100                    |
-| Synonyms of each concept obtained from UMLS                    | 23.73            | 16.39              | 0.8226            | 100                    |
-| Translation dictionary based on UMLS                           | 24.73            | 17.08              | 0.8256            | 100                    |
-| Knowledge graphs of each concept generated using GPT-4o Mini   | 25.08            | 17.27              | 0.8154            | 100                    |
-| Direct translation without context                             | 27.61            | 19.98              | 0.8306            | 100                    |
-| ✅ Multilingual translations of each concept from GPT-4o Mini     | 27.83            | 19.01              | 0.8376            | 100                    |
-| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Conceptual relationships extracted from the UMLS               | 26.30            | 18.09              | 0.8273            | 100                    |
+## gemma-3-4b-it (without finetune) 
+
+| Contextual Information                              | Direct Avg BLEU | Direct Avg CHRF+ | Direct Avg COMET | Total Number of Data |
+|-----------------------------------------------------|-----------------|------------------|------------------|----------------------|
+| Synonyms of each concept obtained from UMLS         | 32.359722       | 21.726360        | 0.805463         | 100                  |
+| Translation dictionary based on UMLS                | 31.842232       | 21.301213        | 0.803096         | 100                  |
+| Direct translation without context                  | 31.166060       | 20.349546        | 0.808483         | 100                  |
+| Multilingual translations from GPT-4o Mini          | 31.722875       | 21.462878        | 0.801598         | 100                  |
+| Knowledge graphs from GPT-4o Mini                   | 31.150204       | 20.547009        | 0.804385         | 100                  |
+| Conceptual relationships extracted from UMLS        | 31.636596       | 19.933975        | 0.804431         | 100                  |
+| Synonyms of each concept derived from GPT-4o Mini   | 32.279868       | 20.902552        | 0.807744         | 100                  |
+
 
 
 ---
