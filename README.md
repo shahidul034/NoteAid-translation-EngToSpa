@@ -153,7 +153,6 @@
 | Synonyms of each concept derived from GPT-4o Mini   | 32.279868       | 20.902552        | 0.807744         | 100                  |
 
 
-
 ---
 ## 1) (Without Finetune + With Context) vs (Without Finetune + No Context)
 ## 2) Direct Translation Without Context — Finetuned vs. Without Finetune
@@ -162,6 +161,7 @@
 ---
 
 ### 1) **Without Finetune + With Context** vs **Without Finetune + No Context**
+
 
 | Model                              | Context Type                    | BLEU ↑  | chrF+ ↑ | COMET ↑  |
 |-----------------------------------|----------------------------------|--------|--------|----------|
@@ -175,19 +175,14 @@
 |                                   | ❌ No Context                    | 31.77  | 21.54  | 0.8402   |
 | **Qwen2.5 3B**                    | ✅ GPT-4o Multilingual           | 29.73  | 17.30  | 0.838    |
 |                                   | ❌ No Context                    | 28.62  | 17.19  | 0.8274   |
-
+| **Gemma-3-4B-it**                 | ✅ UMLS Synonyms                 | 32.36  | 21.73  | 0.8055   |
+|                                   | ❌ No Context                    | 31.17  | 20.35  | 0.8085   |
 ---
-
-![image](https://github.com/user-attachments/assets/a078068c-b218-4d79-98c7-906b13292405)
-
-### ✅ Summary:
-- **BLEU** and **COMET** generally increase when *context is added*, even without finetuning.
-- **chrF+** shows mixed results (sometimes slightly lower with context), but overall improvements are mostly visible in **BLEU and COMET**, which are more comprehensive indicators.
-- Context seems **especially effective** in larger models (Phi-4, Qwen2.5 14B) and for multilingual embeddings.
 
 
 
 ### 2) **Direct Translation Without Context — Finetuned vs. Without Finetune**
+
 
 
 | Model                              | Context Type                    | BLEU ↑  | chrF+ ↑ | COMET ↑   |
@@ -202,21 +197,14 @@
 |                                   | ❌ No Finetune                  | 28.62  | 17.19  | 0.8274    |
 | **Meta-Llama-3.1-8B**             | ✅ Finetune                      | 34.47  | 22.11  | 0.8502    |
 |                                   | ❌ No Finetune                  | 29.36  | 18.94  | 0.8113    |
-
----
-![image](https://github.com/user-attachments/assets/153faf43-bdb5-4a42-a594-0aefc74bd639)
-
-
-### ✅ Summary:
-- **Best performance overall**: **Phi-4 (Finetune)** — highest COMET (0.86159) and BLEU (42.52).
-- **Qwen2.5 models**: All improved significantly after fine-tuning, especially the 7B and 3B versions.
-- **Without finetuning**, performance drops by a substantial margin across all models.
-- **COMET scores clearly indicate finetuning helps with fluency, adequacy, and overall semantic quality**.
+| **Gemma-3-4B-it**                 | ✅ Finetune                      | 31.08  | 20.36  | 0.8084    |
+|                                   | ❌ No Finetune                  | 31.17  | 20.35  | 0.8085    |                                 | ❌ No Finetune                  | 29.36  | 18.94  | 0.8113    |
 
 
 ---
 
 ### 3) **(Finetune + With Context)** vs **(Finetune + No Context)**
+
 
 | Model                                | Context Type        | Avg BLEU | Avg chrF+ | Avg COMET |
 |-------------------------------------|---------------------|----------|-----------|-----------|
@@ -230,19 +218,8 @@
 |                                     | ❌ No context              | 39.09    | 23.94     | **0.8555** |
 | **Qwen2.5 3B**                       | ✅ Knowledge Graphs (context) | **40.88** | **24.61** | 0.851     |
 |                                     | ❌ No context              | 38.83    | 22.33     | **0.856**  |
-
----
-![image](https://github.com/user-attachments/assets/c45d2e94-9500-4b21-9f7c-1e81f78c9035)
-
-
-### ✅ Summary:
-
-- In most **finetuned** settings, **contextual input improves BLEU and chrF+**, and **slightly improves or maintains COMET** scores.
-- The **Phi-4** model shows the **most significant gains** with contextual translations.
-- For **Qwen2.5 7B & 3B**, the **COMET score slightly favors no context**, but BLEU/chrF+ still lean toward context.
-- **Meta-Llama** has relatively close scores between context vs no context, but context slightly edges out.
----
-
+| **Gemma-3-4B-it**                    | ✅ Synonyms GPT-4o (context) | **35.33** | 19.96     | **0.8507**  |
+|                                     | ❌ No context              | 31.08    | 20.36     | 0.8084    | 
 
 
 
