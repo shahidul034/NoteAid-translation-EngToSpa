@@ -154,8 +154,10 @@
 
 
 ---
+** (Finetune + With Context) > (Finetune + No Context) > (Without Finetune + With Context) > (Without Finetune + No Context) **
+
 ## 1) (Without Finetune + With Context) vs (Without Finetune + No Context)
-## 2) Direct Translation Without Context — Finetuned vs. Without Finetune
+## 2) (Finetune + No context) vs. (Without Finetune + No Context) 
 ## 3) (Finetune + With Context) vs (Finetune + No Context)
 
 ---
