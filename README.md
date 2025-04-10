@@ -47,7 +47,7 @@
 | Synonyms of each concept obtained from UMLS | 33.51 | 21.06 | 0.8323 | 100 |
 | ✅ Multilingual translations of each concept obtained from GPT-4o Mini | 41.95 | 25.93 | 0.8614 | 100 |
 | Knowledge graphs of each concept generated using GPT-4o Mini | 35.55 | 21.27 | 0.8438 | 100 |  
-| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context | 34.13 | 21.28 | 0.8314 | 100 |
+| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context | 31.23 | 18.012 | 0.83 | 100 |
 
 
 ## Meta-Llama-3.1-8B-Instruct (finetune) (Alpaca)  
@@ -73,7 +73,7 @@
 | Conceptual relationships extracted from the UMLS | 27.03 | 18.16 | 0.7760 | 100 |
 | Multilingual translations of each concept obtained from GPT-4o Mini | 28.637 | 21.84 | 0.8083 | 100 |
 | Synonyms of each concept obtained from UMLS | 29.37 | 19.69 | 0.7949 | 100 |
-| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context | 29.36 | 18.94 | 0.8113 | 100 |
+| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context | 27.65 | 14.98 | 0.797 | 100 |
 
 
 ## Qwen2.5 7B (finetune) (gpt)  
@@ -99,7 +99,7 @@
 | ✅ Multilingual translations of each concept obtained from GPT-4o Mini | 33.40           | 20.35            | 0.8451           | 100        |
 | Synonyms of each concept derived from GPT-4o Mini        | 31.07           | 19.14            | 0.8211           | 99         |
 | Translation dictionary based on UMLS                      | 24.50           | 16.58            | 0.7607           | 99         |
-| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 31.77           | 21.54            | 0.8402           | 100        |
+| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 26.91           | 20.29            | 0.80           | 100        |
 
 ---
 
@@ -125,7 +125,7 @@
 | Conceptual relationships extracted from the UMLS         | 23.41           | 13.51            | 0.7679           | 99         |
 | Knowledge graphs of each concept generated using GPT-4o Mini | 24.14           | 12.07            | 0.7973           | 98         |
 | ✅ Multilingual translations of each concept obtained from GPT-4o Mini | 29.73           | 17.30            | 0.838           | 99         |
-| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 28.62           | 17.19            | 0.8274           | 100        |
+| ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 19.97           | 13.86            | 0.73           | 100        |
 
 
 ## gemma-3-4b-it (finetune) 
