@@ -373,6 +373,30 @@
 | ✅ Multilingual translations of each concept obtained from GPT-4o Mini | 29.73           | 17.30            | 0.838           | 99         |
 | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context                        | 19.97           | 13.86            | 0.73           | 100        |
 
+---
+| **Context Information**                                        | **Metric**         | **Mean (μ)** | **Std Dev (σ)** | **Std Error (SE)** | **95% CI**                  |
+|----------------------------------------------------------------|--------------------|--------------|------------------|--------------------|------------------------------|
+| Synonyms of each concept derived from GPT-4o Mini              | BLEU               | 27.8040      | 0.0295           | 0.0132             | (27.7781, 27.8299)           |
+|                                                                | CHRF++             | 18.6636      | 0.0273           | 0.0122             | (18.6397, 18.6875)           |
+|                                                                | COMET              | 0.8153       | 0.0001           | 0.0001             | (0.8152, 0.8155)             |
+| Conceptual relationships extracted from the UMLS               | BLEU               | 24.2942      | 0.0528           | 0.0236             | (24.2479, 24.3404)           |
+|                                                                | CHRF++             | 13.1354      | 0.0074           | 0.0033             | (13.1289, 13.1419)           |
+|                                                                | COMET              | 0.7761       | 0.0020           | 0.0009             | (0.7744, 0.7778)             |
+| Translation dictionary based on UMLS                           | BLEU               | 22.7263      | 0.0848           | 0.0379             | (22.6520, 22.8007)           |
+|                                                                | CHRF++             | 14.2825      | 0.0925           | 0.0414             | (14.2014, 14.3636)           |
+|                                                                | COMET              | 0.7636       | 0.0007           | 0.0003             | (0.7629, 0.7642)             |
+| Direct translation without context                             | BLEU               | 28.5633      | 0.1149           | 0.0514             | (28.4625, 28.6640)           |
+|                                                                | CHRF++             | 17.2538      | 0.0495           | 0.0221             | (17.2104, 17.2972)           |
+|                                                                | COMET              | 0.8272       | 0.0021           | 0.0010             | (0.8253, 0.8291)             |
+| Multilingual translations of each concept (GPT-4o Mini)        | BLEU               | 28.0129      | 0.0651           | 0.0291             | (27.9558, 28.0700)           |
+|                                                                | CHRF++             | 18.6306      | 0.0005           | 0.0002             | (18.6302, 18.6311)           |
+|                                                                | COMET              | 0.8182       | 0.0001           | 0.0000             | (0.8182, 0.8183)             |
+| Synonyms of each concept obtained from UMLS                    | BLEU               | 21.2897      | 0.0247           | 0.0110             | (21.2680, 21.3113)           |
+|                                                                | CHRF++             | 12.5402      | 0.0189           | 0.0085             | (12.5236, 12.5568)           |
+|                                                                | COMET              | 0.7414       | 0.0001           | 0.0001             | (0.7413, 0.7415)             |
+| Knowledge graphs of each concept generated using GPT-4o Mini   | BLEU               | 24.0598      | 0.0726           | 0.0325             | (23.9961, 24.1234)           |
+|                                                                | CHRF++             | 12.1175      | 0.0331           | 0.0148             | (12.0885, 12.1464)           |
+|                                                                | COMET              | 0.7916       | 0.0001           | 0.0000             | (0.7916, 0.7917)             |
 
 ---
 
@@ -403,6 +427,34 @@
 | Synonyms of each concept derived from GPT-4o Mini   | 32.279868       | 20.902552        | 0.807744         | 100                  |
 
 ---
+| **Context Information**                                        | **Metric**         | **Mean (μ)** | **Std Dev (σ)** | **Std Error (SE)** | **95% CI**                  |
+|----------------------------------------------------------------|--------------------|--------------|------------------|--------------------|------------------------------|
+| Synonyms of each concept derived from GPT-4o Mini              | BLEU               | 31.4764      | 0.4339           | 0.1941             | (31.0961, 31.8568)           |
+|                                                                | CHRF++             | 20.7797      | 0.6585           | 0.2945             | (20.2025, 21.3569)           |
+|                                                                | COMET              | 0.8028       | 0.0009           | 0.0004             | (0.8020, 0.8036)             |
+| Knowledge graphs of each concept generated using GPT-4o Mini   | BLEU               | 30.0278      | 0.4717           | 0.2110             | (29.6143, 30.4413)           |
+|                                                                | CHRF++             | 19.9749      | 1.3339           | 0.5966             | (18.8057, 21.1442)           |
+|                                                                | COMET              | 0.8025       | 0.0007           | 0.0003             | (0.8019, 0.8031)             |
+| Direct translation without context                             | BLEU               | 30.1866      | 0.3467           | 0.1551             | (29.8827, 30.4905)           |
+|                                                                | CHRF++             | 19.6613      | 0.3098           | 0.1385             | (19.3897, 19.9328)           |
+|                                                                | COMET              | 0.8026       | 0.0006           | 0.0003             | (0.8020, 0.8031)             |
+| Multilingual translations of each concept (GPT-4o Mini)        | BLEU               | 30.8988      | 0.4514           | 0.2019             | (30.5031, 31.2945)           |
+|                                                                | CHRF++             | 21.5671      | 0.5060           | 0.2263             | (21.1236, 22.0106)           |
+|                                                                | COMET              | 0.7942       | 0.0024           | 0.0011             | (0.7922, 0.7963)             |
+| Synonyms of each concept obtained from UMLS                    | BLEU               | 31.2220      | 0.7742           | 0.3462             | (30.5434, 31.9006)           |
+|                                                                | CHRF++             | 21.6646      | 0.4578           | 0.2047             | (21.2633, 22.0658)           |
+|                                                                | COMET              | 0.8032       | 0.0018           | 0.0008             | (0.8016, 0.8047)             |
+| Conceptual relationships extracted from the UMLS               | BLEU               | 30.9642      | 0.2544           | 0.1138             | (30.7412, 31.1872)           |
+|                                                                | CHRF++             | 20.0531      | 0.6551           | 0.2929             | (19.4789, 20.6273)           |
+|                                                                | COMET              | 0.8037       | 0.0020           | 0.0009             | (0.8019, 0.8054)             |
+| Translation dictionary based on UMLS                           | BLEU               | 31.2125      | 0.6748           | 0.3018             | (30.6210, 31.8040)           |
+|                                                                | CHRF++             | 20.5500      | 0.2534           | 0.1133             | (20.3279, 20.7721)           |
+|                                                                | COMET              | 0.8002       | 0.0014           | 0.0006             | (0.7990, 0.8015)             |
+| gpt4o_mini_tran_testing                                        | BLEU               | 31.0378      | nan              | nan                | (nan, nan)                   |
+|                                                                | CHRF++             | 21.2408      | nan              | nan                | (nan, nan)                   |
+|                                                                | COMET              | 0.7945       | nan              | nan                | (nan, nan)                   |
+
+
 ---
 ** (Finetune + With Context) > (Finetune + No Context) > (Without Finetune + With Context) > (Without Finetune + No Context) **
 
