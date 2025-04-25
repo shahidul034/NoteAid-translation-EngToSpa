@@ -410,15 +410,17 @@
 
 ## gemma-3-4b-it (finetune) 
 
-| Contextual Information                              | Direct Avg BLEU | Direct Avg CHRF+ | Direct Avg COMET | Total Number of Data |
-|-----------------------------------------------------|-----------------|------------------|------------------|----------------------|
-| Multilingual translations from GPT-4o Mini          | 33.537653       | 20.651310        | 0.850372         | 92                   |
-| Knowledge graphs from GPT-4o Mini                   | 31.034524       | 20.540510        | 0.804178         | 100                  |
-| Translation dictionary based on UMLS                | 31.940803       | 21.000840        | 0.803133         | 100                  |
-| Direct translation without context                  | 31.075494       | 20.361984        | 0.808408         | 100                  |
-| Conceptual relationships from UMLS                  | 31.495731       | 20.159258        | 0.804560         | 100                  |
-| Synonyms of each concept from GPT-4o Mini           | 35.326784       | 19.963963        | 0.850694         | 98                   |
-| Synonyms of each concept from UMLS                  | 32.422672       | 21.733465        | 0.805412         | 100                  |
+
+| Contextual Information                                      | Direct Avg BLEU | Direct Avg CHRF++ | Direct Avg COMET | Total Number of Data |
+|-------------------------------------------------------------|------------------|--------------------|-------------------|-----------------------|
+| Multilingual translations of each concept obtained from GPT-4o Mini | 33.54           | 20.65             | 0.8504            | 92                    |
+| Knowledge graphs of each concept generated using GPT-4o Mini | 31.03           | 20.54             | 0.8042            | 100                   |
+| Translation dictionary based on UMLS                         | 31.94           | 21.00             | 0.8031            | 100                   |
+| Direct translation without context                           | 31.08           | 20.36             | 0.8084            | 100                   |
+| Conceptual relationships extracted from the UMLS             | 31.50           | 20.16             | 0.8046            | 100                   |
+| Synonyms of each concept derived from GPT-4o Mini            | 35.22           | 19.83             | 0.8507            | 99                    |
+| Synonyms of each concept obtained from UMLS                  | 32.42           | 21.73             | 0.8054            | 100                   |
+
 
 ---
 
