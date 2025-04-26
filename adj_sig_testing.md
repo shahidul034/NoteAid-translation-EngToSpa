@@ -169,6 +169,7 @@ Here’s the **adjusted table only**, clean and straight to the point:
 
 ## gemma-3-4b-it (Finetune)
 
+
 | **Context**                          | **Metric** | **Mean (μ)** | **Std Dev (σ)** | **Std Error (SE)** | **95% Confidence Interval (CI)** |
 |---------------------------------------|------------|--------------|-----------------|--------------------|----------------------------------|
 | Multilingual translations from GPT-4o Mini | BLEU   | 33.54        | 0.4733          | 0.2117             | (33.1261, 33.9539)               |
@@ -182,6 +183,7 @@ Here’s the **adjusted table only**, clean and straight to the point:
 |                                       | COMET      | 0.8507       | 0.0006          | 0.0003             | (0.8501, 0.8513)                 |
 | Translation dictionary based on UMLS  | BLEU       | 31.94        | 0.3317          | 0.1484             | (31.6499, 32.2301)               |
 |                                       | CHRF+      | 21.00        | 1.0364          | 0.4635             | (20.0910, 21.9090)               |
+|                                       | COMET      | 0.8031       | 0.0030          | 0.0013             | (0.8005, 0.8057)                 |
 
 ---
 
