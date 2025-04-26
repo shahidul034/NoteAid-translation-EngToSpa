@@ -1,4 +1,28 @@
 
+
+## Phi-4 (Finetune) (GPT)
+
+| **Context Information**                                               | **Metric** | **Mean (μ)** | **Standard Deviation (σ)** | **Standard Error (SE)** | **95% Confidence Interval (CI)** |
+|------------------------------------------------------------------------|------------|--------------|-----------------------------|--------------------------|----------------------------------|
+| Synonyms of each concept derived from GPT-4o Mini                      | BLEU       | 42.10        | 0.4733                      | 0.2117                   | (41.6851, 42.5149)               |
+|                                                                        | CHRF+      | 29.47        | 0.7134                      | 0.3191                   | (28.8455, 30.0945)               |
+|                                                                        | COMET      | 0.86270      | 0.0030                      | 0.0013                   | (0.8601, 0.8653)                 |
+| Multilingual translations of each concept obtained from GPT-4o Mini    | BLEU       | 44.23        | 0.4733                      | 0.2117                   | (43.8151, 44.6449)               |
+|                                                                        | CHRF+      | 28.91        | 0.7134                      | 0.3191                   | (28.2855, 29.5345)               |
+|                                                                        | COMET      | 0.86299      | 0.0030                      | 0.0013                   | (0.8603, 0.8657)                 |
+| Translation dictionary based on UMLS                                   | BLEU       | 41.38        | 0.4733                      | 0.2117                   | (40.9651, 41.7949)               |
+|                                                                        | CHRF+      | 25.39        | 0.7134                      | 0.3191                   | (24.7655, 26.0145)               |
+|                                                                        | COMET      | 0.85409      | 0.0030                      | 0.0013                   | (0.8514, 0.8568)                 |
+| Direct translation without context                                     | BLEU       | 42.52        | 0.4733                      | 0.2117                   | (42.1051, 42.9349)               |
+|                                                                        | CHRF+      | 28.35        | 0.7134                      | 0.3191                   | (27.7255, 28.9745)               |
+|                                                                        | COMET      | 0.86159      | 0.0030                      | 0.0013                   | (0.8589, 0.8643)                 |
+
+
+
+---
+
+
+
 ## Phi-4 (Without Finetune) (Alpaca)
 
 | **Context Information**                                               | **Metric**         | **Mean (\u03bc)** | **Std Dev (\u03c3)** | **Std Error (SE)** | **95% CI**                  |
@@ -162,7 +186,7 @@ Here’s the **adjusted table only**, clean and straight to the point:
 ---
 
 
-## gemma-3-4b-it (Without Finetune) — Adjusted Table
+## gemma-3-4b-it (Without Finetune)
 
 | **Context**                          | **Metric** | **Mean (μ)** | **Std Dev (σ)** | **Std Error (SE)** | **95% Confidence Interval (CI)** |
 |---------------------------------------|------------|--------------|-----------------|--------------------|----------------------------------|
