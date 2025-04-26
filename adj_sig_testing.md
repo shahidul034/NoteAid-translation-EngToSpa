@@ -25,7 +25,7 @@
 
 ## Phi-4 (Without Finetune) (Alpaca)
 
-| **Context Information**                                               | **Metric**         | **Mean (\u03bc)** | **Std Dev (\u03c3)** | **Std Error (SE)** | **95% CI**                  |
+| **Context Information**                                               | **Metric**         | **Mean (μ)** | **Standard Deviation (σ)** | **Standard Error (SE)** | **95% Confidence Interval (CI)**                  |
 |------------------------------------------------------------------------|--------------------|--------------|-----------------|--------------------|------------------------------|
 | Translation dictionary based on UMLS                                   | BLEU               | 35.89         | 0.0895          | 0.0400             | (35.8112, 35.9688)           |
 |                                                                        | CHRF++             | 20.17         | 0.0630          | 0.0282             | (20.1145, 20.2255)           |
@@ -42,28 +42,27 @@
 
 ---
 
-Of course!  
-Here’s the **adjusted table only**, clean and straight to the point:
-
----
 
 ## Qwen2.5 14B (Finetune) (GPT) 
-| **Context**                                                      | **Metric** | **Mean**  | **Std Dev** | **Std Error** | **CI Lower** | **CI Upper** |
-|------------------------------------------------------------------|------------|-----------|-------------|----------------|--------------|--------------|
-| Direct translation without context                               | BLEU       | 38.63     | 0.1300      | 0.0581         | 38.5162      | 38.7438      |
-|                                                                  | CHRF+      | 23.53     | 0.1989      | 0.0890         | 23.3558      | 23.7042      |
-|                                                                  | COMET      | 0.8491    | 0.0001      | 0.0001         | 0.8490       | 0.8492       |
-| Translation dictionary based on UMLS                             | BLEU       | 39.47     | 0.4980      | 0.2227         | 39.0333      | 39.9067      |
-|                                                                  | CHRF+      | 26.28     | 0.4335      | 0.1939         | 25.8998      | 26.6602      |
-|                                                                  | COMET      | 0.8511    | 0.0020      | 0.0009         | 0.8493       | 0.8529       |
-| Multilingual translations of each concept obtained from GPT-4o Mini | BLEU    | 41.95     | 0.2962      | 0.1324         | 41.6927      | 42.2073      |
-|                                                                  | CHRF+      | 25.93     | 0.1394      | 0.0623         | 25.8078      | 26.0522      |
-|                                                                  | COMET      | 0.8614    | 0.0003      | 0.0001         | 0.8612       | 0.8616       |
-| Synonyms of each concept derived from GPT-4o Mini                | BLEU       | 39.17     | 0.2962      | 0.1324         | 38.9127      | 39.4273      |
-|                                                                  | CHRF+      | 23.82     | 0.1394      | 0.0623         | 23.6988      | 23.9412      |
-|                                                                  | COMET      | 0.8572    | 0.0003      | 0.0001         | 0.8570       | 0.8574       |
+
+| **Context**                                                      | **Metric** | **Mean (μ)** | **Standard Deviation (σ)** | **Standard Error (SE)** | **95% Confidence Interval (CI)**                  |
+|------------------------------------------------------------------|------------|--------------|-----------------|--------------------|------------------------------|
+| Direct translation without context                               | BLEU       | 38.63        | 0.1300          | 0.0581             | (38.5162, 38.7438)           |
+|                                                                  | CHRF+      | 23.53        | 0.1989          | 0.0890             | (23.3558, 23.7042)           |
+|                                                                  | COMET      | 0.8491       | 0.0001          | 0.0001             | (0.8490, 0.8492)             |
+| Translation dictionary based on UMLS                             | BLEU       | 39.47        | 0.4980          | 0.2227             | (39.0333, 39.9067)           |
+|                                                                  | CHRF+      | 26.28        | 0.4335          | 0.1939             | (25.8998, 26.6602)           |
+|                                                                  | COMET      | 0.8511       | 0.0020          | 0.0009             | (0.8493, 0.8529)             |
+| Multilingual translations of each concept obtained from GPT-4o Mini | BLEU    | 41.95        | 0.2962          | 0.1324             | (41.6927, 42.2073)           |
+|                                                                  | CHRF+      | 25.93        | 0.1394          | 0.0623             | (25.8078, 26.0522)           |
+|                                                                  | COMET      | 0.8614       | 0.0003          | 0.0001             | (0.8612, 0.8616)             |
+| Synonyms of each concept derived from GPT-4o Mini                | BLEU       | 39.17        | 0.2962          | 0.1324             | (38.9127, 39.4273)           |
+|                                                                  | CHRF+      | 23.82        | 0.1394          | 0.0623             | (23.6988, 23.9412)           |
+|                                                                  | COMET      | 0.8572       | 0.0003          | 0.0001             | (0.8570, 0.8574)             |
 
 ---
+
+
 
 ## Qwen2.5 14B (Without Finetune) (Alpaca)
 
