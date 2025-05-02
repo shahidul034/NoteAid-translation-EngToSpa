@@ -166,27 +166,41 @@
 |                                       | COMET      | 0.8002    | 0.0014      | 0.0006        | 0.7990       | 0.8015       |
 
 ---
-gpt4o_mini_tran_func_gpt4o_mini_prompt_results.json: 
+Synonyms of each concept derived from GPT-4o Mini
+model: gpt4o_mini
+result: using prompt 
 {'direct_avg_bleu': 42.83793982255637,
  'direct_avg_chrf_plus': 22.823556767249897,
  'direct_avg_comet': 0.869646070599556,
  'total number of data': 100,
- 'finetune': 'yes'}
+ 'finetune': 'no'}
  
-synonyms_gpt4o_diff_lang_gpt4o_mini_prompt_results.json:
+Multilingual translations of each concept obtained from GPT-4o Mini
+model: gpt4o_mini
+result: using prompt
 {'direct_avg_bleu': 42.276417304838105,
  'direct_avg_chrf_plus': 21.30593758103998,
  'direct_avg_comet': 0.8627074667811394,
  'total number of data': 100,
- 'finetune': 'yes'}
+ 'finetune': 'no'}
 
- UMLS_COD_back_translation_gpt4o_mini_prompt_results.json: 
+Translation dictionary based on UMLS
+model: gpt4o_mini
+result: using prompt 
 {'direct_avg_bleu': 39.086883347043475,
  'direct_avg_chrf_plus': 22.78042288869791,
  'direct_avg_comet': 0.8598106190562248,
  'total number of data': 100,
- 'finetune': 'yes'}
- 
+ 'finetune': 'no'}
+
+direct_translation
+model: gpt4o_mini
+result: without prompt
+ {'direct_avg_bleu': 43.56668062107636,
+ 'direct_avg_chrf_plus': 22.127618735572632,
+ 'direct_avg_comet': 0.8614534619450569,
+ 'total number of data': 100,
+ 'finetune': 'no'}
 
 
 ---
