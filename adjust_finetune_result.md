@@ -38,7 +38,7 @@
 |------------------------|----------------|------------------|------------------|------------|
 | Translation dictionary based on UMLS | 34.18 | 21.77 | 0.8399 | 100 |
 | Synonyms of each concept derived from GPT-4o Mini | 33.05 | 21.60 | 0.8420 | 100 |
-| ✅ Multilingual translations of each concept obtained from GPT-4o Mini | 41.95 | 25.93 | 0.8614 | 100 |
+| ✅ Multilingual translations of each concept obtained from GPT-4o Mini | 35.55 | 22.08 | 0.848 | 100 |
 | ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Direct translation without context | 31.23 | 18.012 | 0.83 | 100 |
 
 ---
