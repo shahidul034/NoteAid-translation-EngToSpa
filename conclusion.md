@@ -31,8 +31,23 @@ Table 6 compares the effect of structured prompting using MedCOD to the base tra
 
 ## Case C
 
+Here is the **Case C** qualitative and error analysis in the same style as your original Table 4, highlighting the combined effect of **MedCOD + Fine-tuning**:
 
+---
 
+### **3. Combined MedCOD + Fine-Tuning: Restoring Domain-Specific Clarity and Fluency**
+
+Table 7 highlights how the joint application of MedCOD and fine-tuning enhances both terminological accuracy and syntactic fluency. In this case, while fine-tuning alone improves baseline coverage, it fails to fully normalize clinical phrasing, misrepresents plural agreement (*“transpuesto”*), and misses article use (*“La transposición”*). The MedCOD + FT output corrects all of these: it reinstates the article, preserves accurate noun phrase structure (*“los grandes vasos”*), and correctly pluralizes the translated medical term (*“transpuestos”*). This demonstrates how combining structured context with tuning enables domain-specific fluency that aligns closely with expert biomedical Spanish.
+
+---
+
+| Case               | Source Sentence (English)                               | Reference (Spanish)                                      | Base Output (FT only)                                                             | Improved Output (MedCOD+FT)                                                           | Observation                                                    |
+| ------------------ | ------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| C. MedCOD+FT vs FT | Transposition of the great vessels is a heart defect... | Es un defecto cardíaco que ocurre desde el nacimiento... | Transposición de los grandes vasos es un defecto... están cambiados (transpuesto) | La transposición de los grandes vasos es un defecto... están cambiados (transpuestos) | MedCOD+FT reinforces grammatical accuracy and domain phrasing. |
+
+**Table 7:** Case Study: Joint Effect of MedCOD and Fine-Tuning on Biomedical Translation Precision
+
+---
 
 
 
