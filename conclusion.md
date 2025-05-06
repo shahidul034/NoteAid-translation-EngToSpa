@@ -2,7 +2,7 @@
 
 ### **1. Qualitative and Error Analysis: Fine-Tuning Improves Fluency and Structural Completeness**
 
-Table 5 illustrates how fine-tuning enhances translation accuracy for complex medical instructions. In this case, the base model produces a mostly accurate but disjointed output, splitting the sentence into two independent clauses and omitting the connective rationale present in the original Spanish reference. The fine-tuned version improves cohesion and better mirrors the syntactic structure of the reference by restoring the conjunctive phrase *“y obtener…”* and preserving the causal relationship conveyed in the original. This supports our quantitative findings from Table 2, where fine-tuning leads to statistically significant improvements in BLEU and COMET scores.
+Table 5 illustrates how fine-tuning enhances translation accuracy for complex medical instructions. In case A, the base model produces a mostly accurate but disjointed output, splitting the sentence into two independent clauses and omitting the connective rationale present in the original Spanish reference. The fine-tuned version improves cohesion and better mirrors the syntactic structure of the reference by restoring the conjunctive phrase *“y obtener…”* and preserving the causal relationship conveyed in the original. This supports our quantitative findings from Table 2, where fine-tuning leads to statistically significant improvements in BLEU and COMET scores.
 
 ---
 
@@ -13,5 +13,28 @@ Table 5 illustrates how fine-tuning enhances translation accuracy for complex me
 **Table 5:** Error Analysis Example: Effect of Fine-tuning on Translation Coherence and Completeness
 
 ---
+
+## Case B
+
+
+### **2. Structured Prompting (MedCOD) vs Base: Restoring Clinical Completeness**
+
+Table 6 compares the effect of structured prompting using MedCOD to the base translation in handling long, domain-specific sentences. The MedCOD-enhanced output captures more precise noun phrases like *“las venas y las arterias”*, matching the original reference more closely than the base, which omits articles and flattens nuance. While both outputs retain the core meaning, the MedCOD version also better aligns with the syntactic flow and preserves clause-level structure, improving readability and accuracy. This highlights MedCOD’s value in promoting structural and lexical precision for biomedical content.
+
+---
+
+| Case              | Source Sentence (English)          | Reference (Spanish)                          | Base Output (Direct)                                            | Improved Output (MedCOD)                                            | Observation                                                     |
+| ----------------- | ---------------------------------- | -------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------- |
+| B. MedCOD vs Base | Veins and arteries vary in size... | Las venas y las arterias varían en tamaño... | Las venas y arterias varían en tamaño... Obtener una muestra... | Las venas y las arterias varían en tamaño... Obtener una muestra... | MedCOD restores noun phrase completeness and lexical precision. |
+
+**Table 6:** Ablation Case Study: Effect of MedCOD Prompting on Biomedical Translation Accuracy
+
+## Case C
+
+
+
+
+
+
 
 
