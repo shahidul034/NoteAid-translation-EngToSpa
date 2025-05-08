@@ -40,46 +40,6 @@ LLM_CONFIG = {
 
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
-# Medical translation prompt definition
-medical_translation_prompt = {
-    "prompt_name": "medical_translation_english_to_spanish",
-    "response_type": "translation",
-    "prompt": StringTemplate(
-        """{% for item in examples %}## English Medical Text
-{{ item.english_text }}
-
-## Spanish Translation
-{{ item.spanish_translation }}
-
-{% endfor %}## English Medical Text
-{{ english_text }}
-## Spanish Translation
-"""
-    ),
-    "examples": [
-        {
-            "english_text": """The patient presents with acute myocardial infarction with ST-segment elevation in the anterior leads. Start dual antiplatelet therapy with aspirin 325mg and clopidogrel 600mg loading dose, followed by 75mg daily. Administer IV heparin according to weight-based protocol.""",
-            "spanish_translation": """El paciente presenta infarto agudo de miocardio con elevación del segmento ST en las derivaciones anteriores. Iniciar terapia antiagregante plaquetaria dual con aspirina 325mg y clopidogrel 600mg como dosis de carga, seguido de 75mg diarios. Administrar heparina IV según protocolo basado en el peso.""",
-        },
-        {
-            "english_text": """Patient diagnosed with type 2 diabetes mellitus. Current HbA1c is 8.2%. Recommend lifestyle modifications including diet and exercise. Start metformin 500mg twice daily with meals, titrate up as tolerated. Monitor blood glucose levels and return for follow-up in 3 months.""",
-            "spanish_translation": """Paciente diagnosticado con diabetes mellitus tipo 2. HbA1c actual es 8.2%. Se recomiendan modificaciones en el estilo de vida, incluyendo dieta y ejercicio. Iniciar metformina 500mg dos veces al día con las comidas, aumentar gradualmente según tolerancia. Monitorear niveles de glucosa en sangre y regresar para seguimiento en 3 meses.""",
-        },
-        {
-            "english_text": """The patient is a 68-year-old female with chronic obstructive pulmonary disease (COPD) presenting with increased dyspnea, productive cough with yellowish sputum, and low-grade fever for the past 3 days. Initiate treatment with bronchodilators, antibiotics, and consider a short course of oral corticosteroids.""",
-            "spanish_translation": """La paciente es una mujer de 68 años con enfermedad pulmonar obstructiva crónica (EPOC) que presenta aumento de disnea, tos productiva con esputo amarillento y fiebre de bajo grado durante los últimos 3 días. Iniciar tratamiento con broncodilatadores, antibióticos y considerar un curso corto de corticosteroides orales.""",
-        },
-        {
-            "english_text": """Patient reports severe headache, photophobia, and neck stiffness. Physical examination reveals positive Kernig's and Brudzinski's signs. Suspect bacterial meningitis. Order immediate lumbar puncture, blood cultures, and start empiric antibiotic therapy with ceftriaxone and vancomycin.""",
-            "spanish_translation": """Paciente reporta cefalea severa, fotofobia y rigidez de nuca. El examen físico revela signos positivos de Kernig y Brudzinski. Se sospecha meningitis bacteriana. Ordenar punción lumbar inmediata, hemocultivos e iniciar terapia antibiótica empírica con ceftriaxona y vancomicina.""",
-        },
-        {
-            "english_text": """The patient presents with right lower quadrant abdominal pain, nausea, vomiting, and low-grade fever. Laboratory results show leukocytosis. Clinical diagnosis of acute appendicitis. Schedule for emergency appendectomy after obtaining informed consent. Administer preoperative antibiotics.""",
-            "spanish_translation": """El paciente presenta dolor abdominal en el cuadrante inferior derecho, náuseas, vómitos y fiebre de bajo grado. Los resultados de laboratorio muestran leucocitosis. Diagnóstico clínico de apendicitis aguda. Programar para apendicectomía de emergencia después de obtener consentimiento informado. Administrar antibióticos preoperatorios.""",
-        },
-    ]
-}
-
 class OllamaClient:
     """Client for interacting with Ollama API"""
     def __init__(self, base_url=OLLAMA_BASE_URL):

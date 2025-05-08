@@ -1,11 +1,12 @@
+from openai import OpenAI
+import faiss
+import numpy as np
+import pickle
 import os
 import json
 import time
-import faiss
-import numpy as np
-from openai import OpenAI
-import pickle
 from typing import List, Tuple, Dict, Any
+from string import Template as StringTemplate
 
 from eval import EvaluateMetric
 
@@ -18,7 +19,6 @@ DATABASE_PATH = "database.pkl"
 TRAINING_DATA_PATH = "/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/medprompt/TrainingDataMinusOverlaps.json"
 TEST_DATA_PATH = "/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/all_tran_data/testing data/Sampled_100_MedlinePlus_eng_spanish_pair.json"
 OUTPUT_JSON_PATH = "translated_output.json"
-BACK_TRANSLATION_OUTPUT_PATH = "back_translated_output.json"
 
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
@@ -136,44 +136,53 @@ class MedPromptSystem:
             })
         return formatted_examples
 
-    def generate_translation(self, query: str, direction: str = "en_to_es") -> str:
-        """
-        Generate translation using kNN context with the medical translation prompt.
-        
-        Args:
-            query (str): Text to translate
-            direction (str): Translation direction - 'en_to_es' or 'es_to_en'
-        """
+    def generate_translation(self, query: str) -> str:
+        """Generate translation using kNN context with the medical translation prompt."""
         # Get similar examples using kNN
         knn_examples = self.knn_retrieve(query)
         
         # Format the prompt with retrieved examples and the query
         formatted_examples = self.format_examples_for_prompt(knn_examples)
         
-        prompt_text = "Here are some similar medical texts in English and their Spanish translations:\n\n"
+        # Create the prompt with retrieved examples and the current text to translate
+        prompt_text = f"""{{% for item in examples %}}## English Medical Text
+                    {{{{ item.english_text }}}}
 
-        for example in formatted_examples:
-            # Create the prompt with retrieved examples and the current text to translate
-            prompt_text += "## English Medical Text\n"
-            prompt_text += f"{example['english_text']}\n\n"
-            prompt_text += "## Spanish Translation\n"
-            prompt_text += f"{example['spanish_translation']}\n\n"
+                    ## Spanish Translation
+                    {{{{ item.spanish_translation }}}}
 
-        # System prompt varies based on translation direction
-        if direction == "en_to_es":
-            system_prompt = "You are a medical translation expert. Translate the English medical text to Spanish accurately, preserving medical terminology."
-            prompt_text += "## Your task is to translate the following English medical text to Spanish accurately, using the examples above as context:\n"
-            prompt_text += f"## English Medical Text\n{query}\n## Spanish Translation\n"
-        else:  # es_to_en
-            system_prompt = "You are a medical translation expert. Translate the Spanish medical text to English accurately, preserving medical terminology."
-            prompt_text += "## Your task is to translate the following Spanish medical text to English accurately, using the examples above as context:\n"
-            prompt_text += f"## Spanish Medical Text\n{query}\n## English Translation\n"
+                    {{% endfor %}}## English Medical Text
+                    {query}
+                    ## Spanish Translation
+                    """
+        
+        # Replace the Jinja2 template syntax with actual examples
+        for i, example in enumerate(formatted_examples):
+            eng_placeholder = "{{ item.english_text }}"
+            spa_placeholder = "{{ item.spanish_translation }}"
+            
+            prompt_text = prompt_text.replace(
+                eng_placeholder, 
+                example["english_text"], 
+                1
+            )
+            prompt_text = prompt_text.replace(
+                spa_placeholder, 
+                example["spanish_translation"], 
+                1
+            )
+        
+        # Remove the for loop syntax
+        prompt_text = prompt_text.replace("{% for item in examples %}", "")
+        prompt_text = prompt_text.replace("{% endfor %}", "")
 
+        print(f"Prompt text: {prompt_text}")
+        
         try:
             response = client.chat.completions.create(
-                model="gpt-4o-mini",  
+                model="gpt-4o-mini",  # Using gpt-4o-mini as specified
                 messages=[
-                    {"role": "system", "content": system_prompt},
+                    {"role": "system", "content": "You are a medical translation expert. Translate the English medical text to Spanish accurately, preserving medical terminology."},
                     {"role": "user", "content": prompt_text}
                 ],
                 temperature=0.3
@@ -184,14 +193,8 @@ class MedPromptSystem:
             return f"Error: Failed to generate translation."
 
     def process_test_set(self, test_data: List[Dict[str, str]]) -> None:
-        """
-        Process test data with forward and back translation, and save results.
-        
-        Args:
-            test_data (List[Dict[str, str]]): Test dataset containing English and Spanish texts
-        """
-        forward_results = []
-        back_translation_results = []
+        """Process test data and save results in the required JSON format."""
+        results = []
         total = len(test_data)
         
         print(f"Processing {total} test examples...")
@@ -203,73 +206,49 @@ class MedPromptSystem:
             target_spanish = entry["spanish"]
             
             try:
-                # Forward Translation: English to Spanish
-                translated_spanish = self.generate_translation(original_english, "en_to_es")
+                translated_spanish = self.generate_translation(original_english)
                 
-                # Back Translation: Spanish to English
-                back_translated_english = self.generate_translation(translated_spanish, "es_to_en")
-                
-                forward_results.append({
+                results.append({
                     "original_english": original_english,
                     "target_spanish": target_spanish,
                     "translated_spanish": translated_spanish
                 })
-                
-                back_translation_results.append({
-                    "original_english": original_english,
-                    "translated_spanish": translated_spanish,
-                    "back_translated_english": back_translated_english
-                })
-                
             except Exception as e:
                 print(f"Error processing test example {i}: {e}")
                 continue
 
-        # Save forward translation results
         with open(OUTPUT_JSON_PATH, "w", encoding="utf-8") as f:
-            json.dump(forward_results, f, indent=4, ensure_ascii=False)
-        print(f"Forward translation results saved to {OUTPUT_JSON_PATH}")
-        
-        # Save back translation results
-        with open(BACK_TRANSLATION_OUTPUT_PATH, "w", encoding="utf-8") as f:
-            json.dump(back_translation_results, f, indent=4, ensure_ascii=False)
-        print(f"Back translation results saved to {BACK_TRANSLATION_OUTPUT_PATH}")
+            json.dump(results, f, indent=4, ensure_ascii=False)
+        print(f"Results saved to {OUTPUT_JSON_PATH}")
 
 if __name__ == "__main__":
     try:
-        # with open(TRAINING_DATA_PATH, "r", encoding="utf-8") as f:
-        #     train_data = json.load(f)
+
+        with open(TRAINING_DATA_PATH, "r", encoding="utf-8") as f:
+            train_data = json.load(f)
             
-        # with open(TEST_DATA_PATH, "r", encoding="utf-8") as f:
-        #     test_data = json.load(f)
+        with open(TEST_DATA_PATH, "r", encoding="utf-8") as f:
+            test_data = json.load(f)
         
-        # print(f"Loaded {len(train_data)} training examples. Loaded {len(test_data)} testing examples.")
+        # train_data, test_data = train_test_split(train_data, test_size=0.1, random_state=42)
+
+        print(f"Loaded {len(train_data)} training examples. Loaded {len(test_data)} testing examples.")
         
-        # medprompt = MedPromptSystem()
+        medprompt = MedPromptSystem()
         # medprompt.preprocess(train_data)
-        # medprompt.process_test_set(test_data)
+        medprompt.process_test_set(test_data)
 
-        # Evaluate both forward and back translation
-        # forward_evaluator = EvaluateMetric(OUTPUT_JSON_PATH, "translated_spanish", "target_spanish", "original_english")
-        # back_translation_evaluator = EvaluateMetric(BACK_TRANSLATION_OUTPUT_PATH, "back_translated_english", "original_english", "original_english")
+        evaluator = EvaluateMetric('translated_output.json', "translated_spanish", "target_spanish", "original_english")
 
-        forward_evaluator = EvaluateMetric("/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/medprompt/results/gpt4o_mini/translated_output.json", "translated_spanish", "target_spanish", "original_english")
-        back_translation_evaluator = EvaluateMetric("/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/medprompt/results/gpt4o_mini/back_translated_output.json", "back_translated_english", "original_english", "original_english")
+        # Compute BLEU, ROUGE, BERTScore, and COMET
+        evaluator.evaluate("BLEU")
+        evaluator.evaluate("ROUGE")
+        evaluator.evaluate("BERTSCORE")
+        evaluator.evaluate("COMET")
+        # evaluator.evaluate("LLM_AS_A_JUDGE")
 
-        # Compute metrics for forward and back translation
-        print("Forward Translation Metrics:")
-        # forward_evaluator.evaluate("BLEU")
-        # forward_evaluator.evaluate("ROUGE")
-        # forward_evaluator.evaluate("BERTSCORE")
-        # forward_evaluator.evaluate("COMET")
-        forward_evaluator.evaluate("CHRF")
-
-        print("\nBack Translation Metrics:")
-        # back_translation_evaluator.evaluate("BLEU")
-        # back_translation_evaluator.evaluate("ROUGE")
-        # back_translation_evaluator.evaluate("BERTSCORE", lang="en")
-        # back_translation_evaluator.evaluate("COMET")
-        back_translation_evaluator.evaluate("CHRF")
+        # Print results
+        print(evaluator.res)
         
     except Exception as e:
         print(f"Error in main execution: {e}")

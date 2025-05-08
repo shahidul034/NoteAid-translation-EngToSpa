@@ -7,3 +7,14 @@ test/
 faiss_index.bin
 database.pkl
 count.py
+
+wmt*/
+
+exp_env/
+test/
+computed_indices/
+experiments/
+experiment_results/
+retrieval_translation/data/
+retrieval_translation/indices_cache/
+*.log

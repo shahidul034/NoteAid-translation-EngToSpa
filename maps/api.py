@@ -1,7 +1,6 @@
 import json
 import os
 import requests
-import argparse  # Add for command line arguments
 from typing import List, Dict, Any
 from string import Template as StringTemplate
 from tqdm import tqdm
