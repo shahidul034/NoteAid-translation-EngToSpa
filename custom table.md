@@ -30,3 +30,55 @@ The error analysis reveals that **Phi-4-MedCOD-FT** consistently demonstrates su
 
 The error analysis reveals that **Phi-4-MedCOD-FT** generally demonstrates superior performance compared to **gpt4o-mini**, particularly in maintaining formal language and accurate medical terminology, which are crucial for medical texts. While **gpt4o-mini** exhibits a mix of lexical and grammatical errors—such as incorrect terminology (e.g., "falta de aliento" instead of "dificultad para respirar"), missing articles, and informal language ("Obtienes" instead of "Usted obtiene")—**Phi-4-MedCOD-FT** generally produces more accurate and grammatically correct translations. However, it is not without flaws. In the example involving a CT scan or MRI, **Phi-4-MedCOD-FT** incorrectly uses "extendido" instead of "diseminado," which is less precise for medical context. This highlights that while **Phi-4-MedCOD-FT** is generally more reliable for medical translations, it can still produce errors that impact the clarity or precision of the text.
 
+
+## V3
+
+
+### **Error Categorization for Error Analysis Table**
+
+
+#### **1. Lexical Errors (Word Choice or Terminology)**
+
+* **Definition:** Incorrect or suboptimal word choice, including terminology mismatches.
+* **Examples:**
+
+  * **Example 1 (gpt4o-mini):** "falta de aliento" (wrong term for "shortness of breath").
+  * **Example 3 (gpt4o-mini):** "IRM" (should be "resonancia magnética").
+  * **Example 3 (Phi-4-MedCOD-FT):** "extendido" (less accurate than "diseminado").
+
+#### **2. Grammatical Errors (Structure and Agreement)**
+
+* **Definition:** Errors in sentence structure, article usage, or subject-verb agreement.
+* **Examples:**
+
+  * **Example 1 (Phi-4-MedCOD-FT):** "la trasplante" (should be "el trasplante").
+  * **Example 2 (gpt4o-mini):** Missing articles: "el cuello, el espalda".
+  * **Example 2 (Phi-4-MedCOD-FT):** "esto la hace sentir incómoda" (slightly less natural).
+
+#### **3. Register Errors (Formality or Style)**
+
+* **Definition:** Inappropriate level of formality or tone for the context.
+* **Examples:**
+
+  * **Example 5 (gpt4o-mini):** "Obtienes" (informal tone, should be formal).
+
+#### **4. Semantic Errors (Meaning or Interpretation)**
+
+* **Definition:** Errors that impact the intended meaning or interpretation of the text.
+* **Examples:**
+
+  * **Example 1 (gpt4o-mini):** "falta de aliento" changes the medical meaning.
+  * **Example 4 (gpt4o-mini):** "durante días" instead of "por días" (subtle meaning shift).
+
+### **Reorganized Table with Categorized Errors**
+
+| **Original English**                                                                                                                                                      | **gpt4o-mini Translation**                                                                                                                                                | **Error Type (gpt4o-mini)**                                                                                                     | **Phi-4-MedCOD-FT Translation**                                                                                                                                                             | **Error Type (Phi-4-MedCOD-FT)**                                            | **Analysis**                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| If you have a weakened immune system due to AIDS, cancer, transplantation, or corticosteroid use, call your doctor if you develop a cough, fever, or shortness of breath. | Si tiene un sistema inmunológico debilitado debido al SIDA, cáncer, trasplante o uso de corticosteroides, llame a su médico si desarrolla tos, fiebre o falta de aliento. | 1. **Lexical Error**: Incorrect term "falta de aliento". \newline 2. **Grammatical Error:** Incorrect word order "tos, fiebre". | Si usted tiene un sistema inmunitario debilitado debido al SIDA, el cáncer, la trasplante o el uso de corticosteroides, llame al médico si presenta tos, fiebre o dificultad para respirar. | 1. **Grammatical Error:** "la trasplante" (should be "el trasplante").      | Phi-4-MedCOD-FT is better in terms of terminology and maintains the original meaning more accurately. |
+| Do NOT place the person in this position if a head, neck, back, or leg injury is suspected or if it makes the victim uncomfortable.                                       | No coloque a la persona en esta posición si se sospecha de una lesión en la cabeza, cuello, espalda o pierna, o si le causa incomodidad a la víctima.                     | 1. **Grammatical Error:** Missing articles "el cuello, el espalda".                                                             | No coloque a la persona en esta posición si se sospecha de una lesión en la cabeza, el cuello, la espalda o la pierna o si esto la hace sentir incómoda.                                    | 1. **Style Error:** "esto la hace sentir incómoda" (slightly less natural). | Phi-4-MedCOD-FT maintains grammatical accuracy with proper articles.                                  |
+| CT scan or MRI to confirm that there is a growth, and to see if the cancer has spread to lymph nodes in the neck                                                          | Tomografía computarizada o IRM para confirmar que hay un crecimiento y para ver si el cáncer se ha propagado a los ganglios linfáticos en el cuello.                      | 1. **Lexical Error:** Incorrect term "IRM" (should be "resonancia magnética").                                                  | Tomografía computarizada o resonancia magnética para confirmar que hay un crecimiento y para ver si el cáncer se ha extendido a los ganglios linfáticos del cuello.                         | 1. **Lexical Error:** "extendido" (less accurate than "diseminado").        | gpt4o-mini maintains correct terminology ("IRM" is a less common form).                               |
+| Fever is the classic symptom and may persist for days before any other symptoms appear.                                                                                   | La fiebre es el síntoma clásico y puede persistir durante días antes de que aparezcan otros síntomas.                                                                     | 1. **Lexical Error:** "durante días" instead of "por días" (slight meaning shift).                                              | La fiebre es el síntoma clásico y puede persistir por días antes de que aparezcan otros síntomas.                                                                                           | No errors.                                                                  | Phi-4-MedCOD-FT maintains better alignment with the original.                                         |
+| You get iron through certain foods, and your body also reuses iron from old red blood cells.                                                                              | Obtienes hierro a través de ciertos alimentos, y tu cuerpo también reutiliza hierro de los glóbulos rojos viejos.                                                         | 1. **Register Error:** "Obtienes" (informal tone, should be formal).                                                            | Usted obtiene hierro a través de ciertos alimentos y el cuerpo también reutiliza hierro de los glóbulos rojos viejos.                                                                       | No errors.                                                                  | Phi-4-MedCOD-FT maintains formal register, which is more appropriate for medical text.                |
+
+
+
