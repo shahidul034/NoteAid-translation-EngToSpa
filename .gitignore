@@ -23,3 +23,8 @@ retrieval_translation/analysis_output
 
 WMT'24/goldsets
 WMT'24/testsets
+
+*.xml
+*.DS_Store
+
+scielo/
