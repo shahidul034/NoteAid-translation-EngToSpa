@@ -224,21 +224,21 @@ class MedPromptSystem:
 if __name__ == "__main__":
     try:
 
-        with open(TRAINING_DATA_PATH, "r", encoding="utf-8") as f:
-            train_data = json.load(f)
+        # with open(TRAINING_DATA_PATH, "r", encoding="utf-8") as f:
+        #     train_data = json.load(f)
             
-        with open(TEST_DATA_PATH, "r", encoding="utf-8") as f:
-            test_data = json.load(f)
+        # with open(TEST_DATA_PATH, "r", encoding="utf-8") as f:
+        #     test_data = json.load(f)
         
-        # train_data, test_data = train_test_split(train_data, test_size=0.1, random_state=42)
+        # # train_data, test_data = train_test_split(train_data, test_size=0.1, random_state=42)
 
-        print(f"Loaded {len(train_data)} training examples. Loaded {len(test_data)} testing examples.")
+        # print(f"Loaded {len(train_data)} training examples. Loaded {len(test_data)} testing examples.")
         
-        medprompt = MedPromptSystem()
-        # medprompt.preprocess(train_data)
-        medprompt.process_test_set(test_data)
+        # medprompt = MedPromptSystem()
+        # # medprompt.preprocess(train_data)
+        # medprompt.process_test_set(test_data)
 
-        evaluator = EvaluateMetric('translated_output.json', "translated_spanish", "target_spanish", "original_english")
+        evaluator = EvaluateMetric('/Users/aravadikesh/Documents/GitHub/NoteAid-translation-EngToSpa/medprompt/results/gpt4o_mini/translated_output.json', "translated_spanish", "target_spanish", "original_english")
 
         # Compute BLEU, ROUGE, BERTScore, and COMET
         evaluator.evaluate("BLEU")

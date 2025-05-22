@@ -26,9 +26,9 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description='Run translation experiments with retrieval')
     parser.add_argument('--dataset_name', choices=['sentence', 'scielo'], default='sentence',
                         help='Name of the dataset to use: sentence or scielo')
-    parser.add_argument('--embedding_source', choices=['local', 'openai'], default='local',
+    parser.add_argument('--embedding_source', choices=['local', 'openai'], default='openai',
                         help='Source for embeddings: local (sentence-transformers) or openai')
-    parser.add_argument('--embedding_model_name_or_path', default='pritamdeka/S-PubMedBert-MS-MARCO',
+    parser.add_argument('--embedding_model_name_or_path', default='text-embedding-3-small',
                         help='Model name for OpenAI embeddings or path/name for local sentence-transformer')
     parser.add_argument('--llm_model_name', default='gpt-4o-mini', help='LLM model for generation')
     parser.add_argument('--methods', nargs='+', default=['random', 'bm25', 'dense', 'hybrid_bm25_dense'],
@@ -46,8 +46,7 @@ def parse_arguments():
     parser.add_argument('--run_all', action='store_true',
                         help='Run experiments for all combinations of datasets and embedding models')
     parser.add_argument('--embedding_models', nargs='+', default=[
-        'pritamdeka/S-PubMedBert-MS-MARCO',
-        'text-embedding-3-small'
+        'pritamdeka/S-PubMedBert-MS-MARCO'
     ], help='List of embedding models to use when running all experiments')
     return parser.parse_args()
 

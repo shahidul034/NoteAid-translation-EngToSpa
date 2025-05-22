@@ -17,6 +17,7 @@ class Retriever:
         self.train_data_source = train_data
         self.embedder = embedder
         self.embedding_dim = None
+        self.test_embeddings_cache = {}  # Cache for test set embeddings
         
         # Try to set embedding_dim
         if self.embedder and hasattr(self.embedder, 'get_sentence_embedding_dimension'):
@@ -110,11 +111,15 @@ class Retriever:
             self.save_indices()
 
     def _get_embedding(self, text_to_embed):
+        # Check if we have a cached embedding for this text
+        if text_to_embed in self.test_embeddings_cache:
+            return self.test_embeddings_cache[text_to_embed]
+
         if self.embedding_source == 'local':
             if not self.embedder:
                 raise ValueError("Local embedder not provided for _get_embedding call.")
             # Assuming normalize_embeddings is a good default for sentence-transformers
-            return self.embedder.encode(text_to_embed, normalize_embeddings=True)
+            embedding = self.embedder.encode(text_to_embed, normalize_embeddings=True)
         elif self.embedding_source == 'openai':
             if not self.openai_client or not self.embedding_model_name:
                 raise ValueError("OpenAI client or model name not provided for _get_embedding call.")
@@ -127,7 +132,8 @@ class Retriever:
                     )
                     embedding = np.array(response.data[0].embedding, dtype=np.float32)
                     norm = np.linalg.norm(embedding)
-                    return embedding / norm if norm != 0 else embedding # Normalize
+                    embedding = embedding / norm if norm != 0 else embedding # Normalize
+                    break
                 except Exception as e:
                     if attempt < max_retries - 1:
                         wait_time = 2 ** attempt
@@ -136,10 +142,55 @@ class Retriever:
                     else:
                         print(f"OpenAI Embedding Error ({self.embedding_model_name}): Failed after {max_retries} attempts: {e}")
                         if self.embedding_dim:
-                             return np.zeros(self.embedding_dim, dtype=np.float32) # Fallback
-                        raise
+                             embedding = np.zeros(self.embedding_dim, dtype=np.float32) # Fallback
+                        else:
+                            raise
         else:
             raise ValueError(f"Unsupported embedding source: {self.embedding_source}")
+
+        # Cache the embedding
+        self.test_embeddings_cache[text_to_embed] = embedding
+        return embedding
+
+    def precompute_test_embeddings(self, test_data):
+        """Precompute and cache embeddings for the test set."""
+        print(f"Precomputing embeddings for {len(test_data)} test examples...")
+        for item in tqdm(test_data, desc="Computing test embeddings"):
+            if isinstance(item, dict) and "english" in item:
+                text = item["english"]
+            elif isinstance(item, (list, tuple)) and len(item) > 0:
+                text = item[0]
+            else:
+                continue
+            self._get_embedding(text)  # This will cache the embedding
+        print(f"Cached {len(self.test_embeddings_cache)} test embeddings")
+
+    def save_test_embeddings(self):
+        """Save the test embeddings cache to disk."""
+        if not self.test_embeddings_cache:
+            return
+
+        cache_path = os.path.join(os.path.dirname(self.faiss_index_path), 
+                                f"{os.path.basename(self.faiss_index_path).replace('_faiss.idx', '')}_test_embeddings.pkl")
+        try:
+            with open(cache_path, "wb") as f:
+                pickle.dump(self.test_embeddings_cache, f)
+            print(f"Saved {len(self.test_embeddings_cache)} test embeddings to {cache_path}")
+        except Exception as e:
+            print(f"Error saving test embeddings to {cache_path}: {e}")
+
+    def load_test_embeddings(self):
+        """Load the test embeddings cache from disk."""
+        cache_path = os.path.join(os.path.dirname(self.faiss_index_path), 
+                                f"{os.path.basename(self.faiss_index_path).replace('_faiss.idx', '')}_test_embeddings.pkl")
+        if os.path.exists(cache_path):
+            try:
+                with open(cache_path, "rb") as f:
+                    self.test_embeddings_cache = pickle.load(f)
+                print(f"Loaded {len(self.test_embeddings_cache)} test embeddings from {cache_path}")
+            except Exception as e:
+                print(f"Error loading test embeddings from {cache_path}: {e}")
+                self.test_embeddings_cache = {}
 
     def save_indices(self) -> None:
         """Save FAISS index, BM25 index, and metadata to disk using configured paths."""

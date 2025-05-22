@@ -180,13 +180,12 @@ class ExperimentRunner:
         self,
         train_data: list,
         test_data: list,
-        embedder_obj=None, # Changed from embedder to embedder_obj for clarity
+        embedder_obj=None,
         tokenized_corpus: list = None,
-        llm_model_name: str = "gpt-4o-mini", # Renamed from model_name
+        llm_model_name: str = "gpt-4o-mini",
         embedding_source: str = "local",
-        # For local, this is the SBERT model name. For openai, this is the OpenAI model name.
         embedding_model_name_or_path: str = "pritamdeka/S-PubMedBert-MS-MARCO",
-        dataset_name: str = "unknown_dataset", # New parameter
+        dataset_name: str = "unknown_dataset",
         base_dir: str = "experiments"
     ):
         api_key = os.getenv("OPENAI_API_KEY")
@@ -234,21 +233,32 @@ class ExperimentRunner:
         # Initialize components
         self.ret = Retriever(
             train_data,
-            embedder=embedder_obj, # Pass the actual embedder object for local
+            embedder=embedder_obj,
             bm25_tokenized=tokenized_corpus,
             embedding_source=self.embedding_source,
             openai_client=self.client if self.embedding_source == "openai" else None,
-            embedding_model_name=self.embedding_model_name_or_path if self.embedding_source == "openai" else None, # Pass specific model name for OpenAI
-            index_dir=os.path.join("indices_cache"), # Centralized index directory, can be configured
+            embedding_model_name=self.embedding_model_name_or_path if self.embedding_source == "openai" else None,
+            index_dir=os.path.join("indices_cache"),
             dataset_name=self.dataset_name,
             embedder_identifier=self.embedder_identifier
         )
-        self.rerank = Reranker() # Assuming Reranker doesn't need specific embedder info for init
+
+        # Try to load cached test embeddings
+        self.ret.load_test_embeddings()
+        
+        # If no cached embeddings were loaded, precompute them
+        if not self.ret.test_embeddings_cache:
+            self.ret.precompute_test_embeddings(test_data)
+            self.ret.save_test_embeddings()
+
+        self.rerank = Reranker()
         self.tplman = PromptTemplateManager()
 
     def cleanup(self):
         """Clean up resources when done."""
         if hasattr(self, 'ret'):
+            # Save test embeddings before cleanup
+            self.ret.save_test_embeddings()
             del self.ret
         if hasattr(self, 'rerank'):
             del self.rerank
@@ -421,18 +431,22 @@ class ExperimentRunner:
         metrics_subdir = os.path.join(output_dir, "metrics")
         os.makedirs(metrics_subdir, exist_ok=True)
         
+        # Map method names to their file-safe versions
+        method_name_map = {
+            'hybrid_bm25_dense': 'hybrid'  # Map the full name to a shorter version for files
+        }
+        file_method_name = method_name_map.get(method_name, method_name)
+        
         # Save raw results
-        raw_file = os.path.join(output_dir, f"raw_{method_name}_{tpl}_{k_shots}.json")
+        raw_file = os.path.join(output_dir, f"raw_{file_method_name}_{tpl}_{k_shots}.json")
         with open(raw_file, "w", encoding="utf-8") as f:
             json.dump(raw_out, f, indent=2, ensure_ascii=False)
         
         # Save reranked results
-        rr_file = os.path.join(output_dir, f"rerank_{method_name}_{tpl}_{k_shots}.json")
+        rr_file = os.path.join(output_dir, f"rerank_{file_method_name}_{tpl}_{k_shots}.json")
         with open(rr_file, "w", encoding="utf-8") as f:
             json.dump(rerank_out, f, indent=2, ensure_ascii=False)
 
-        evaluate = False
-        
         # Only evaluate metrics if requested
         if evaluate:
             # Evaluate metrics
@@ -442,16 +456,11 @@ class ExperimentRunner:
             ev_rr = EvaluateMetric(datapath=rr_file, output_dir=metrics_subdir, generated_col="trans", reference_col="target", source_col="source")
             res_rr = ev_rr.evaluate_all(langs="sp")
             
-            # Save combined metrics
-            combo = {
-                "method": method_name,
-                "template": tpl,
-                "shots": k_shots,
-                "dataset": self.dataset_name,
-                "embedder": self.embedder_identifier,
+            # Save metrics in the expected format with raw and rerank stages
+            metrics_data = {
                 "raw": res_raw,
                 "rerank": res_rr
             }
-            combo_file = os.path.join(metrics_subdir, f"metrics_summary_{method_name}_{tpl}_{k_shots}.json")
-            with open(combo_file, "w", encoding="utf-8") as cf:
-                json.dump(combo, cf, indent=2, ensure_ascii=False)
+            metrics_file = os.path.join(metrics_subdir, f"metrics_{file_method_name}_{tpl}_{k_shots}.json")
+            with open(metrics_file, "w", encoding="utf-8") as f:
+                json.dump(metrics_data, f, indent=2, ensure_ascii=False)

@@ -8,9 +8,9 @@ faiss_index.bin
 database.pkl
 count.py
 
-wmt*/
+scielo/wmt*/
 
-exp_env/
+retrieval-venv/
 test/
 computed_indices/
 experiments/
@@ -18,3 +18,8 @@ experiment_results/
 retrieval_translation/data/
 retrieval_translation/indices_cache/
 *.log
+
+retrieval_translation/analysis_output
+
+WMT'24/goldsets
+WMT'24/testsets
