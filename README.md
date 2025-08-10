@@ -1,6 +1,4 @@
-Here’s a suggested **GitHub README.md structure** tailored to your detailed research project on medical text translation with LLMs, incorporating your methods, datasets, experiments, and results. This structure balances technical depth with clarity for readers and potential collaborators.
 
----
 
 # Enhancing English-to-Spanish Medical Translation of Large Language Models Using Enriched Chain-of-Dictionary Framework
 
