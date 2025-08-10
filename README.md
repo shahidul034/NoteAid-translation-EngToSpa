@@ -98,9 +98,6 @@ pip install -r requirements.txt
 
 ---
 
-## Usage
-
----
 
 ## Usage
 
@@ -137,8 +134,6 @@ pip install -r requirements.txt
 ---
 
 
-
----
 
 ## Contributing
 
