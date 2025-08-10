@@ -100,17 +100,43 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Running Translation with MedCOD
+---
 
-```bash
-python translate.py --input data/test_sentences.txt --model phi-4-14b --prompt_type multilingual --finetune lora
-```
+## Usage
 
-### Fine-tuning Models
+### Training
 
-```bash
-python finetune.py --model qwen2.5-14b --dataset data/train_set.txt --output_dir models/qwen2.5-14b-medcod
-```
+- **Train Qwen model:**
+
+  ```bash
+  python NoteAid-translation-EngToSpa/code/training_qwen2.py
+  ```
+
+- **Train LLaMA model:**
+
+  ```bash
+  python NoteAid-translation-EngToSpa/code/training_script.py
+  ```
+
+### Inference
+
+- **Run inference with LLaMA model:**
+
+  ```bash
+  python NoteAid-translation-EngToSpa/code/inference_script.py
+  ```
+
+- **Run inference with NLLB model:**
+
+  Use the Jupyter notebook for GPT-4 Mini inference and UMLS data access:
+
+  ```
+  NoteAid-translation-EngToSpa/code/gpt-4mini com.ipynb
+  ```
+
+---
+
+
 
 ---
 
@@ -129,7 +155,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## References
 
 - [MedlinePlus Dataset](https://medlineplus.gov)  
-- Liu et al., 2015. Translating Medical Texts...  
 - LoRA: Hu et al., 2021. LoRA: Low-Rank Adaptation of Large Language Models  
 - SacreBLEU, chrF++, COMET, ROUGE, BERTScore papers (see appendix for full citations)  
 - Phi-4, Qwen2.5, LLaMA, GPT-4o model papers  
@@ -139,8 +164,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For questions or collaboration, please contact:  
-**Your Name** — your.email@example.com
+**Md Shahidul Salim** — shahidulshakib034@gmail.com
 
----
-
-If you want, I can help you generate a full markdown file with your content integrated. Would you like me to do that?
